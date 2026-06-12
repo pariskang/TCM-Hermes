@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcm-hermes"
+version = "5.0.0"
+description = "Hermes — autonomous model-review rule mining OS for classical TCM texts (傷寒/金匱)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "TCM-Hermes contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+download = ["py7zr>=0.20"]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=7", "py7zr>=0.20"]
+
+[project.scripts]
+hermes = "hermes.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hermes*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

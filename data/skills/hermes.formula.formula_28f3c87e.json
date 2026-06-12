@@ -1,0 +1,451 @@
+{
+  "skill_id": "hermes.formula.formula_28f3c87e",
+  "kind": "formula",
+  "title": "四逆散方證合併規則",
+  "subject": "四逆散",
+  "abstracted_claim": "四逆散可歸納為小便不利、少陰病、太陰病、下利、傷寒、腹中痛等方證的核心方（支持條文 33 條，跨 23 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_28F3C87E",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000679",
+    "IR_B0B74DF58_000680",
+    "IR_B11498305_000400",
+    "IR_B1CAC3ADF_000799",
+    "IR_B3E16D849_000506",
+    "IR_B3E16D849_000579",
+    "IR_B3E16D849_001670",
+    "IR_B3E16D849_001706",
+    "IR_B3E16D849_001742",
+    "IR_B3E16D849_001790",
+    "IR_B3E16D849_001812",
+    "IR_B3E16D849_001872",
+    "IR_B3E520529_000056",
+    "IR_B41512D4B_000992",
+    "IR_B5C5ECAC2_000125",
+    "IR_B5FF1CA1B_000428",
+    "IR_B9119D083_000011",
+    "IR_B9119D083_000657",
+    "IR_BB7301DF2_000243",
+    "IR_BBAACE965_001244",
+    "IR_BBAACE965_001245",
+    "IR_BC91F4420_000503",
+    "IR_BF5CDC206_000181",
+    "IR_CAOSHI_FAWEI_000761",
+    "IR_SHL_GUANZHU_000576",
+    "IR_SHL_GUIBEN_001041",
+    "IR_SHL_LAISU_000703",
+    "IR_SHL_LUNZHU_000690",
+    "IR_SHL_QJYF_000236",
+    "IR_SHL_SONGBEN_000392",
+    "IR_SHL_SUYUAN_001189",
+    "IR_SHL_TIAOWEN_000346",
+    "IR_SHL_ZHUJIE_000911"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000679",
+      "IR_B0B74DF58_000680",
+      "IR_B11498305_000400",
+      "IR_B1CAC3ADF_000799",
+      "IR_B3E16D849_000506",
+      "IR_B3E16D849_000579",
+      "IR_B3E16D849_001670",
+      "IR_B3E16D849_001706",
+      "IR_B3E16D849_001742",
+      "IR_B3E16D849_001790",
+      "IR_B3E16D849_001812",
+      "IR_B3E16D849_001872",
+      "IR_B3E520529_000056",
+      "IR_B41512D4B_000992",
+      "IR_B5C5ECAC2_000125",
+      "IR_B5FF1CA1B_000428",
+      "IR_B9119D083_000011",
+      "IR_B9119D083_000657",
+      "IR_BB7301DF2_000243",
+      "IR_BBAACE965_001244",
+      "IR_BBAACE965_001245",
+      "IR_BC91F4420_000503",
+      "IR_BF5CDC206_000181",
+      "IR_CAOSHI_FAWEI_000761",
+      "IR_SHL_GUANZHU_000576",
+      "IR_SHL_GUIBEN_001041",
+      "IR_SHL_LAISU_000703",
+      "IR_SHL_LUNZHU_000690",
+      "IR_SHL_QJYF_000236",
+      "IR_SHL_SONGBEN_000392",
+      "IR_SHL_SUYUAN_001189",
+      "IR_SHL_TIAOWEN_000346",
+      "IR_SHL_ZHUJIE_000911"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咳嗽",
+      "source_unit_id": "SU_B3E16D849_001095",
+      "evidence_span": "或悸。或小便不利。或腹中痛者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "悸",
+      "source_unit_id": "SU_B3E16D849_001235",
+      "evidence_span": "或悸。或小便不利。或腹中痛者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咳悸",
+      "source_unit_id": "SU_B3E16D849_003400",
+      "evidence_span": "或悸。或小便不利。或腹中痛者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003700",
+      "evidence_span": "或悸。或小便不利。或腹中痛者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003895",
+      "evidence_span": "自熱至溫。自溫至厥。乃傳經之邪。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "少陰本病述古",
+      "source_unit_id": "SU_B5C5ECAC2_000667",
+      "evidence_span": "或咳或悸。或小便不利。或腹中痛。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第六十九證‧腹痛歌",
+      "source_unit_id": "SU_BB7301DF2_000207",
+      "evidence_span": "小便不利。或腹中痛。泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "通脈四逆湯方第九十八",
+      "source_unit_id": "SU_B1CAC3ADF_002133",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "腹痛",
+      "source_unit_id": "SU_B3E16D849_003501",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003585",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "小便不利",
+      "source_unit_id": "SU_B3E16D849_003737",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "半夏散及湯方",
+      "source_unit_id": "SU_B41512D4B_002038",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002942",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001173",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000201",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000859",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰後篇證治第二十",
+      "source_unit_id": "SU_SHL_SUYUAN_002792",
+      "evidence_span": "或小便不利。或腹中痛。或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰下編",
+      "source_unit_id": "SU_B5FF1CA1B_000705",
+      "evidence_span": "其人或咳或悸。或小便不利。或腹中痛或泄利下重者。四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002943",
+      "evidence_span": "俱屬陽氣虛寒。然亦有陽氣內郁。不得外達而四逆者。又宜四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "四逆散證",
+      "source_unit_id": "SU_SHL_LAISU_000487",
+      "evidence_span": "少陰病四逆，洩利下重，其人或欬或悸，或小便不利，或腹痛者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "少陰證",
+      "source_unit_id": "SU_B3E520529_000071",
+      "evidence_span": "少陰病四逆，其人或欬或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "腹痛",
+      "source_unit_id": "SU_B9119D083_001708",
+      "evidence_span": "傷寒病四逆，其人或咳，或悸，或小便不利，腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰下篇",
+      "source_unit_id": "SU_B11498305_000538",
+      "evidence_span": "少陰病，四逆，其人或咳或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "四逆散證",
+      "source_unit_id": "SU_SHL_LUNZHU_001222",
+      "evidence_span": "少陰病，四逆，泄利下重，其人或咳、或悸、或小便不利、或腹中痛者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000306",
+      "evidence_span": "少陰病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或瀉利下重，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "少陰清法七條",
+      "source_unit_id": "SU_SHL_GUANZHU_000390",
+      "evidence_span": "少陰病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000774",
+      "evidence_span": "少陰病，四逆，其人或欬，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000621",
+      "evidence_span": "少陰病，四逆，其人或欬，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001442",
+      "evidence_span": "少陰病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000929",
+      "evidence_span": "11.39少陰病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E16D849",
+      "book_title": "傷寒論綱目",
+      "distinct_conditions": [
+        "厥"
+      ],
+      "rule_ids": [
+        "IR_B3E16D849_000506",
+        "IR_B3E16D849_000579",
+        "IR_B3E16D849_001670",
+        "IR_B3E16D849_001706",
+        "IR_B3E16D849_001742",
+        "IR_B3E16D849_001790",
+        "IR_B3E16D849_001812",
+        "IR_B3E16D849_001872"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9119D083",
+      "book_title": "傷寒大白",
+      "distinct_conditions": [
+        "下利",
+        "傷寒",
+        "太陰病"
+      ],
+      "rule_ids": [
+        "IR_B9119D083_000011",
+        "IR_B9119D083_000657"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "桂枝五分",
+        "茯苓五分",
+        "薤白三升",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001247",
+        "IR_SHL_LAISU_000704"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "枳實",
+        "柴胡",
+        "甘草",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000504",
+        "IR_SHL_GUANZHU_000578",
+        "IR_SHL_ZHUJIE_000912"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑一兩",
+        "人參二兩",
+        "桂枝五分",
+        "甘草二兩",
+        "茯苓五分",
+        "薤白三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001042"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 30
+      },
+      {
+        "term": "少陰病",
+        "count": 12
+      },
+      {
+        "term": "太陰病",
+        "count": 1
+      },
+      {
+        "term": "下利",
+        "count": 1
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "腹中痛",
+        "count": 28
+      },
+      {
+        "term": "四逆",
+        "count": 14
+      },
+      {
+        "term": "咳",
+        "count": 12
+      },
+      {
+        "term": "腹痛",
+        "count": 2
+      },
+      {
+        "term": "厥",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "四逆散",
+    "小便不利",
+    "少陰病",
+    "太陰病",
+    "下利",
+    "傷寒",
+    "腹中痛",
+    "四逆",
+    "咳",
+    "腹痛",
+    "厥"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

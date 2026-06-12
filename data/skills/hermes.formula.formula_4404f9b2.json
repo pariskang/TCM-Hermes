@@ -1,0 +1,61 @@
+{
+  "skill_id": "hermes.formula.formula_4404f9b2",
+  "kind": "formula",
+  "title": "屬梔子香豉湯方證合併規則",
+  "subject": "屬梔子香豉湯",
+  "abstracted_claim": "屬梔子香豉湯可歸納為傷寒等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_4404F9B2",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E520529_000248",
+    "IR_BC2BA03C0_000247"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E520529_000248",
+      "IR_BC2BA03C0_000247"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "發汗吐下後雜病證",
+      "source_unit_id": "SU_BC2BA03C0_000618",
+      "evidence_span": "傷寒五六日，大下之後，身熱不去，心中結痛者，未欲解也，屬梔子香豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "發汗吐下後雜病證",
+      "source_unit_id": "SU_B3E520529_000129",
+      "evidence_span": "梔子甘草湯，前湯內加甘草壹兩，同梔子煮，後下豉如前法，加水半升。傷寒五六日，大下之後，身熱不去，心中結痛者，欲解也，屬梔子香豉湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 2
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "屬梔子香豉湯",
+    "傷寒"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

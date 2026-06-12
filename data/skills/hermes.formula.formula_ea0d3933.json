@@ -1,0 +1,170 @@
+{
+  "skill_id": "hermes.formula.formula_ea0d3933",
+  "kind": "formula",
+  "title": "百合滑石散方證合併規則",
+  "subject": "百合滑石散",
+  "abstracted_claim": "百合滑石散可歸納為百合病、發熱、寒熱等方證的核心方（支持條文 10 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_EA0D3933",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_B3E16D849_001979",
+    "IR_CAOSHI_FAWEI_000985",
+    "IR_JGYH_ERZHU_000048",
+    "IR_JGYL_FANGLUN_000030",
+    "IR_JGYL_JIYI_000063",
+    "IR_JGYL_JIYI_000064",
+    "IR_JGYL_QIANZHU_000036",
+    "IR_JGYL_TIAOWEN_000030",
+    "IR_JGYL_XINDIAN_000037",
+    "IR_SHL_GUIBEN_001300"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E16D849_001979",
+      "IR_CAOSHI_FAWEI_000985",
+      "IR_JGYH_ERZHU_000048",
+      "IR_JGYL_FANGLUN_000030",
+      "IR_JGYL_JIYI_000063",
+      "IR_JGYL_JIYI_000064",
+      "IR_JGYL_QIANZHU_000036",
+      "IR_JGYL_TIAOWEN_000030",
+      "IR_JGYL_XINDIAN_000037",
+      "IR_SHL_GUIBEN_001300"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001220",
+      "evidence_span": "百合病。變發熱者，百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYL_XINDIAN_000208",
+      "evidence_span": "百合病。變發熱者。百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨百合狐惑陰陽毒病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001134",
+      "evidence_span": "13.7百合病變發熱者，百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000109",
+      "evidence_span": "百合病變發熱者一作發寒熱，百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000107",
+      "evidence_span": "百合病變發熱者一作發寒熱，百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYH_ERZHU_000245",
+      "evidence_span": "百合病。變發熱者（一作發寒熱）百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "百合病",
+      "source_unit_id": "SU_B3E16D849_004135",
+      "evidence_span": "【綱】仲景金匱曰。百合病。變發熱者。百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證三條、方十二首",
+      "source_unit_id": "SU_JGYL_JIYI_000396",
+      "evidence_span": "本不發熱。今變發熱者。其內熱可知也。故以百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證三條、方十二首",
+      "source_unit_id": "SU_JGYL_JIYI_000395",
+      "evidence_span": "百合病。變發熱者。（〔原注〕一作發寒熱。）百合滑石散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYL_QIANZHU_000147",
+      "evidence_span": "原病無熱。今）變發熱者。（其內熱可知也。以）百合滑石散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "滑石",
+        "百合"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000986"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "滑石二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001301"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "百合病",
+        "count": 8
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 10
+      },
+      {
+        "term": "寒熱",
+        "count": 4
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "百合滑石散",
+    "百合病",
+    "發熱",
+    "寒熱"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

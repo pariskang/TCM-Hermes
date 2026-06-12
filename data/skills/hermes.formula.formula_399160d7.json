@@ -1,0 +1,191 @@
+{
+  "skill_id": "hermes.formula.formula_399160d7",
+  "kind": "formula",
+  "title": "大烏頭煎方證合併規則",
+  "subject": "大烏頭煎",
+  "abstracted_claim": "大烏頭煎可歸納為寒疝、腹滿、厥陰病、手足厥冷、惡寒、汗出等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_399160D7",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001114",
+    "IR_JGYH_ERZHU_000114",
+    "IR_JGYL_FANGLUN_000099",
+    "IR_JGYL_JIYI_000167",
+    "IR_JGYL_TIAOWEN_000099",
+    "IR_JGYL_XINDIAN_000101",
+    "IR_SHL_GUIBEN_001175"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001114",
+      "IR_JGYH_ERZHU_000114",
+      "IR_JGYL_FANGLUN_000099",
+      "IR_JGYL_JIYI_000167",
+      "IR_JGYL_TIAOWEN_000099",
+      "IR_JGYL_XINDIAN_000101",
+      "IR_SHL_GUIBEN_001175"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYH_ERZHU_000788",
+      "evidence_span": "若發則自汗出。手足厥冷。其脈沉緊者。大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證十六條、方十三首",
+      "source_unit_id": "SU_JGYL_JIYI_001464",
+      "evidence_span": "若發則白汗出。手足厥逆。其脈沉緊者。大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_XINDIAN_000670",
+      "evidence_span": "若發則白津出。手足厥冷。其脈沉緊者。大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001487",
+      "evidence_span": "腹滿，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪下相搏，即為寒疝，寒疝繞臍痛，若發則白津出，手足厥冷，其脈沉緊者，大烏頭煎主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001036",
+      "evidence_span": "11.113厥陰病，脈弦而緊，弦則衛氣不行，緊則不欲食，邪正相搏，即為寒疝。繞臍而痛，手足厥冷，是其候也。脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000402",
+      "evidence_span": "腹痛，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪正相搏，即為寒疝。寒疝繞臍痛，若發則白汗出，手足厥冷，其脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000400",
+      "evidence_span": "腹痛，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪正相搏，即為寒疝。寒疝繞臍痛，若發則白汗出，手足厥冷，其脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "腹滿"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001114"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYH_ERZHU",
+      "book_title": "金匱玉函經二註",
+      "distinct_conditions": [
+        "自汗出"
+      ],
+      "rule_ids": [
+        "IR_JGYH_ERZHU_000114"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "厥陰病"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001175"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "寒疝",
+        "count": 4
+      },
+      {
+        "term": "腹滿",
+        "count": 1
+      },
+      {
+        "term": "厥陰病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "手足厥冷",
+        "count": 6
+      },
+      {
+        "term": "惡寒",
+        "count": 3
+      },
+      {
+        "term": "汗出",
+        "count": 3
+      },
+      {
+        "term": "腹痛",
+        "count": 2
+      },
+      {
+        "term": "厥",
+        "count": 2
+      },
+      {
+        "term": "自汗出",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉緊",
+        "count": 7
+      },
+      {
+        "term": "脈弦",
+        "count": 4
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "大烏頭煎",
+    "寒疝",
+    "腹滿",
+    "厥陰病",
+    "手足厥冷",
+    "惡寒",
+    "汗出",
+    "腹痛",
+    "厥",
+    "脈沉緊",
+    "脈弦"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

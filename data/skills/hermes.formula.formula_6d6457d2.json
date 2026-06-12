@@ -1,0 +1,206 @@
+{
+  "skill_id": "hermes.formula.formula_6d6457d2",
+  "kind": "formula",
+  "title": "越婢加朮湯方證合併規則",
+  "subject": "越婢加朮湯",
+  "abstracted_claim": "越婢加朮湯可歸納為小便不利、皮水、渴、小便自利、目黃、自利等方證的核心方（支持條文 8 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_6D6457D2",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001205",
+    "IR_JGYH_ERZHU_000184",
+    "IR_JGYL_FANGLUN_000150",
+    "IR_JGYL_JIYI_000257",
+    "IR_JGYL_QIANZHU_000173",
+    "IR_JGYL_QIANZHU_000182",
+    "IR_JGYL_TIAOWEN_000150",
+    "IR_JGYL_XINDIAN_000152"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001205",
+      "IR_JGYH_ERZHU_000184",
+      "IR_JGYL_FANGLUN_000150",
+      "IR_JGYL_JIYI_000257",
+      "IR_JGYL_QIANZHU_000173",
+      "IR_JGYL_QIANZHU_000182",
+      "IR_JGYL_TIAOWEN_000150",
+      "IR_JGYL_XINDIAN_000152"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "水氣病脈證並治第十四",
+      "source_unit_id": "SU_JGYL_XINDIAN_001003",
+      "evidence_span": "假令小便自利。此亡津液。故令渴。越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "水氣病脈證第十四",
+      "source_unit_id": "SU_JGYH_ERZHU_001162",
+      "evidence_span": "假如小便自利。此亡津液。故令渴也。越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論七首、脈證五條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_002118",
+      "evidence_span": "假如小便自利。此亡津液。故令渴也。越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_QIANZHU_000860",
+      "evidence_span": "腠實無汗。胃熱內向。欲迅除其熱。）越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_FANGLUN_000593",
+      "evidence_span": "裏水，其脈沉，小便不利，故令病水。假如小便自利，此亡津液，故令渴也。越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_QIANZHU_000814",
+      "evidence_span": "（不因此自利而除其黃腫。反因）此（自利而）亡（其）津液。（津液亡）故令渴。（以）越婢加朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "水氣病脈證並治第十四",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001678",
+      "evidence_span": "裏水者，一身面目黃腫，其脈沉，小便不利，故令病水，假令小便自利，此之津液故令渴，越婢加朮湯主之（方見中風）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000591",
+      "evidence_span": "裏水((王雪華：宜作〝皮水〞))者，一身面目黃腫((王雪華：宜作〝洪腫〞))，其脈沉，小便不利，故令病水。假如小便自利，此亡津液，故令渴也。越婢加朮湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "無汗",
+        "自利"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000173",
+        "IR_JGYL_QIANZHU_000182"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_TIAOWEN",
+      "book_title": "金匱要略方論",
+      "distinct_conditions": [
+        "皮水"
+      ],
+      "rule_ids": [
+        "IR_JGYL_TIAOWEN_000150"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "金匱玉函經二註"
+      ],
+      "composition": [
+        "白朮四兩"
+      ],
+      "rule_ids": [
+        "IR_JGYH_ERZHU_000197"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十五枚",
+        "甘草二兩",
+        "生薑三兩",
+        "白朮四兩",
+        "石膏半斤",
+        "麻黃六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001455"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 3
+      },
+      {
+        "term": "皮水",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 7
+      },
+      {
+        "term": "小便自利",
+        "count": 6
+      },
+      {
+        "term": "目黃",
+        "count": 2
+      },
+      {
+        "term": "自利",
+        "count": 1
+      },
+      {
+        "term": "無汗",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 3
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "越婢加朮湯",
+    "小便不利",
+    "皮水",
+    "渴",
+    "小便自利",
+    "目黃",
+    "自利",
+    "無汗",
+    "脈沉"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

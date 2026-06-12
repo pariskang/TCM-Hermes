@@ -1,0 +1,2085 @@
+{
+  "rules_analyzed": 17619,
+  "frequencies": {
+    "formula": [
+      {
+        "term": "桂枝湯",
+        "count": 544,
+        "rule_ids": [
+          "IR_B1CAC3ADF_000108",
+          "IR_B1CAC3ADF_000111",
+          "IR_B1CAC3ADF_000117",
+          "IR_B1CAC3ADF_000118",
+          "IR_B1CAC3ADF_000135",
+          "IR_B1CAC3ADF_000351",
+          "IR_B1CAC3ADF_000732",
+          "IR_B2EB248E3_000004",
+          "IR_B2EB248E3_000007",
+          "IR_B2EB248E3_000008"
+        ]
+      },
+      {
+        "term": "大承氣湯",
+        "count": 405,
+        "rule_ids": [
+          "IR_BBAACE965_000893",
+          "IR_BC91F4420_000358",
+          "IR_SHL_GUANZHU_000400",
+          "IR_SHL_GUIBEN_000052",
+          "IR_SHL_GUIBEN_000167",
+          "IR_SHL_GUIBEN_000767",
+          "IR_SHL_GUIBEN_001048",
+          "IR_SHL_GUIBEN_001267",
+          "IR_SHL_GUIBEN_001592",
+          "IR_SHL_ZHUJIE_000642"
+        ]
+      },
+      {
+        "term": "小柴胡湯",
+        "count": 391,
+        "rule_ids": [
+          "IR_B1CAC3ADF_000320",
+          "IR_B41512D4B_000310",
+          "IR_BBAACE965_000423",
+          "IR_BC91F4420_000110",
+          "IR_SHL_GUANZHU_000515",
+          "IR_SHL_GUIBEN_000060",
+          "IR_SHL_GUIBEN_000435",
+          "IR_SHL_GUIBEN_000543",
+          "IR_SHL_GUIBEN_000666",
+          "IR_SHL_GUIBEN_000812"
+        ]
+      },
+      {
+        "term": "麻黃湯",
+        "count": 299,
+        "rule_ids": [
+          "IR_BBAACE965_000154",
+          "IR_BC91F4420_000123",
+          "IR_SHL_GUANZHU_000026",
+          "IR_SHL_GUIBEN_000046",
+          "IR_SHL_GUIBEN_000242",
+          "IR_SHL_GUIBEN_000429",
+          "IR_SHL_GUIBEN_000818",
+          "IR_SHL_QJYF_000013",
+          "IR_SHL_ZHUJIE_000203",
+          "IR_B0B74DF58_000119"
+        ]
+      },
+      {
+        "term": "四逆湯",
+        "count": 287,
+        "rule_ids": [
+          "IR_BBAACE965_000126",
+          "IR_BC91F4420_000302",
+          "IR_SHL_GUANZHU_000099",
+          "IR_SHL_GUIBEN_000408",
+          "IR_SHL_GUIBEN_000807",
+          "IR_SHL_GUIBEN_001053",
+          "IR_SHL_GUIBEN_001090",
+          "IR_SHL_GUIBEN_001212",
+          "IR_SHL_SONGBEN_000526",
+          "IR_SHL_ZHUJIE_000184"
+        ]
+      },
+      {
+        "term": "五苓散",
+        "count": 260,
+        "rule_ids": [
+          "IR_BBAACE965_000336",
+          "IR_BC91F4420_000022",
+          "IR_SHL_GUANZHU_000096",
+          "IR_SHL_GUANZHU_000155",
+          "IR_SHL_GUIBEN_000258",
+          "IR_SHL_GUIBEN_000499",
+          "IR_SHL_GUIBEN_000644",
+          "IR_SHL_GUIBEN_000852",
+          "IR_SHL_GUIBEN_001191",
+          "IR_SHL_GUIBEN_001234"
+        ]
+      },
+      {
+        "term": "白虎湯",
+        "count": 176,
+        "rule_ids": [
+          "IR_B1CAC3ADF_000131",
+          "IR_BBAACE965_000819",
+          "IR_BC91F4420_000286",
+          "IR_SHL_GUIBEN_000050",
+          "IR_SHL_GUIBEN_000130",
+          "IR_SHL_GUIBEN_000296",
+          "IR_SHL_GUIBEN_000387",
+          "IR_SHL_GUIBEN_000743",
+          "IR_SHL_GUIBEN_000788",
+          "IR_SHL_GUIBEN_001081"
+        ]
+      },
+      {
+        "term": "調胃承氣湯",
+        "count": 170,
+        "rule_ids": [
+          "IR_BBAACE965_000122",
+          "IR_BC91F4420_000301",
+          "IR_SHL_GUANZHU_000103",
+          "IR_SHL_GUIBEN_000056",
+          "IR_SHL_GUIBEN_000171",
+          "IR_SHL_GUIBEN_000406",
+          "IR_SHL_GUIBEN_000760",
+          "IR_SHL_LAISU_000500",
+          "IR_SHL_ZHUJIE_000183",
+          "IR_B0B74DF58_000440"
+        ]
+      },
+      {
+        "term": "大陷胸湯",
+        "count": 168,
+        "rule_ids": [
+          "IR_BBAACE965_000608",
+          "IR_BC91F4420_000070",
+          "IR_SHL_GUANZHU_000185",
+          "IR_SHL_GUIBEN_000642",
+          "IR_SHL_LAISU_000209",
+          "IR_SHL_QJYF_000067",
+          "IR_SHL_ZHUJIE_000448",
+          "IR_B0B74DF58_000099",
+          "IR_B0B74DF58_000103",
+          "IR_B0B74DF58_000192"
+        ]
+      },
+      {
+        "term": "白虎加人參湯",
+        "count": 159,
+        "rule_ids": [
+          "IR_BBAACE965_000092",
+          "IR_BBAACE965_000765",
+          "IR_CAOSHI_FAWEI_000576",
+          "IR_SHL_GUIBEN_000201",
+          "IR_SHL_GUIBEN_000391",
+          "IR_SHL_GUIBEN_000726",
+          "IR_SHL_GUIBEN_000799",
+          "IR_SHL_ZHUJIE_001147",
+          "IR_B0B74DF58_000331",
+          "IR_B0B74DF58_000332"
+        ]
+      },
+      {
+        "term": "小承氣湯",
+        "count": 152,
+        "rule_ids": [
+          "IR_BBAACE965_000898",
+          "IR_BC91F4420_000360",
+          "IR_SHL_GUANZHU_000393",
+          "IR_SHL_GUIBEN_000054",
+          "IR_SHL_GUIBEN_000169",
+          "IR_SHL_GUIBEN_000769",
+          "IR_SHL_GUIBEN_001135",
+          "IR_SHL_ZHUJIE_000644",
+          "IR_B0B74DF58_000475",
+          "IR_B0B74DF58_000484"
+        ]
+      },
+      {
+        "term": "承氣湯",
+        "count": 150,
+        "rule_ids": [
+          "IR_SHL_QJYF_000050",
+          "IR_B3E16D849_001220",
+          "IR_B9DD8A693_000077",
+          "IR_BB7301DF2_000191",
+          "IR_BB7301DF2_000192",
+          "IR_BB7301DF2_000207",
+          "IR_BB7301DF2_000209",
+          "IR_BBA9FB4A6_000439",
+          "IR_SHL_QJYF_000048",
+          "IR_SHL_QJYF_000133"
+        ]
+      },
+      {
+        "term": "梔子豉湯",
+        "count": 139,
+        "rule_ids": [
+          "IR_B1CAC3ADF_000256",
+          "IR_B1CAC3ADF_000257",
+          "IR_B41512D4B_000253",
+          "IR_B8E444005_000349",
+          "IR_B8E444005_000350",
+          "IR_BBAACE965_000357",
+          "IR_BC91F4420_000184",
+          "IR_SHL_GUANZHU_000247",
+          "IR_SHL_GUIBEN_000518",
+          "IR_SHL_GUIBEN_000796"
+        ]
+      },
+      {
+        "term": "葛根湯",
+        "count": 109,
+        "rule_ids": [
+          "IR_BBAACE965_000136",
+          "IR_BC91F4420_000208",
+          "IR_SHL_GUANZHU_000039",
+          "IR_SHL_GUIBEN_000419",
+          "IR_SHL_GUIBEN_001259",
+          "IR_SHL_LEIFANG_000019",
+          "IR_SHL_LEIFANG_000020",
+          "IR_SHL_SONGBEN_000517",
+          "IR_SHL_ZHUJIE_000191",
+          "IR_B0B74DF58_000550"
+        ]
+      },
+      {
+        "term": "大柴胡湯",
+        "count": 109,
+        "rule_ids": [
+          "IR_BBAACE965_000463",
+          "IR_BC91F4420_000088",
+          "IR_SHL_GUANZHU_000542",
+          "IR_SHL_GUIBEN_000062",
+          "IR_SHL_GUIBEN_000556",
+          "IR_SHL_GUIBEN_000649",
+          "IR_SHL_GUIBEN_000890",
+          "IR_SHL_ZHUJIE_000370",
+          "IR_B0B74DF58_000215",
+          "IR_B11498305_000530"
+        ]
+      },
+      {
+        "term": "吳茱萸湯",
+        "count": 105,
+        "rule_ids": [
+          "IR_BBAACE965_001044",
+          "IR_BC91F4420_000397",
+          "IR_SHL_GUANZHU_000441",
+          "IR_SHL_GUIBEN_000600",
+          "IR_SHL_GUIBEN_000846",
+          "IR_SHL_GUIBEN_001011",
+          "IR_SHL_GUIBEN_001146",
+          "IR_SHL_ZHUJIE_000754",
+          "IR_B0B74DF58_000632",
+          "IR_B0B74DF58_000769"
+        ]
+      },
+      {
+        "term": "豬苓湯",
+        "count": 104,
+        "rule_ids": [
+          "IR_BBAACE965_000979",
+          "IR_BC91F4420_000408",
+          "IR_SHL_GUANZHU_000461",
+          "IR_SHL_GUIBEN_000802",
+          "IR_SHL_GUIBEN_001045",
+          "IR_SHL_LAISU_000685",
+          "IR_SHL_ZHUJIE_000702",
+          "IR_B0B74DF58_000386",
+          "IR_B0B74DF58_000681",
+          "IR_B11498305_000576"
+        ]
+      },
+      {
+        "term": "抵當湯",
+        "count": 100,
+        "rule_ids": [
+          "IR_BBAACE965_000556",
+          "IR_BC91F4420_000027",
+          "IR_SHL_GUANZHU_000166",
+          "IR_SHL_GUANZHU_000167",
+          "IR_SHL_GUIBEN_000590",
+          "IR_SHL_GUIBEN_000836",
+          "IR_SHL_GUIBEN_001646",
+          "IR_SHL_LAISU_000255",
+          "IR_SHL_QJYF_000101",
+          "IR_SHL_ZHUJIE_000416"
+        ]
+      },
+      {
+        "term": "小青龍湯",
+        "count": 98,
+        "rule_ids": [
+          "IR_BBAACE965_000191",
+          "IR_BC91F4420_000316",
+          "IR_SHL_GUANZHU_000086",
+          "IR_SHL_GUIBEN_000256",
+          "IR_SHL_GUIBEN_000438",
+          "IR_SHL_GUIBEN_000686",
+          "IR_SHL_GUIBEN_001382",
+          "IR_SHL_ZHUJIE_000219",
+          "IR_B0B74DF58_000320",
+          "IR_B0B74DF58_000323"
+        ]
+      },
+      {
+        "term": "小建中湯",
+        "count": 94,
+        "rule_ids": [
+          "IR_BBAACE965_000448",
+          "IR_BC91F4420_000201",
+          "IR_JGYL_JIYI_000095",
+          "IR_SHL_GUANZHU_000107",
+          "IR_SHL_GUIBEN_000550",
+          "IR_SHL_GUIBEN_000897",
+          "IR_SHL_GUIBEN_001345",
+          "IR_SHL_GUIBEN_001653",
+          "IR_SHL_ZHUJIE_000360",
+          "IR_B0B74DF58_000123"
+        ]
+      },
+      {
+        "term": "通脈四逆湯",
+        "count": 85,
+        "rule_ids": [
+          "IR_BBAACE965_001243",
+          "IR_BC91F4420_000502",
+          "IR_SHL_GUANZHU_000608",
+          "IR_SHL_GUIBEN_000336",
+          "IR_SHL_GUIBEN_001039",
+          "IR_SHL_GUIBEN_001121",
+          "IR_SHL_LAISU_000647",
+          "IR_SHL_ZHUJIE_000909",
+          "IR_B0B74DF58_000639",
+          "IR_B0B74DF58_000746"
+        ]
+      },
+      {
+        "term": "十棗湯",
+        "count": 72,
+        "rule_ids": [
+          "IR_BBAACE965_000694",
+          "IR_BC91F4420_000044",
+          "IR_JF_SHIYANLU_000201",
+          "IR_SHL_GUANZHU_000092",
+          "IR_SHL_GUANZHU_000093",
+          "IR_SHL_GUIBEN_000689",
+          "IR_SHL_GUIBEN_001364",
+          "IR_SHL_LAISU_000197",
+          "IR_SHL_ZHUJIE_000514",
+          "IR_B0B74DF58_000087"
+        ]
+      },
+      {
+        "term": "真武湯",
+        "count": 71,
+        "rule_ids": [
+          "IR_BBAACE965_001236",
+          "IR_BC91F4420_000499",
+          "IR_SHL_GUIBEN_000527",
+          "IR_SHL_GUIBEN_001036",
+          "IR_SHL_ZHUJIE_000904",
+          "IR_B0B74DF58_000022",
+          "IR_B0B74DF58_000637",
+          "IR_B11498305_000085",
+          "IR_B11498305_000369",
+          "IR_B11498305_000903"
+        ]
+      },
+      {
+        "term": "瀉心湯",
+        "count": 68,
+        "rule_ids": [
+          "IR_SHL_GUIBEN_001501",
+          "IR_SHL_GUIBEN_001626",
+          "IR_B3E16D849_001328",
+          "IR_BBAACE965_000701",
+          "IR_CAOSHI_FAWEI_001284",
+          "IR_JGYH_ERZHU_000249",
+          "IR_JGYL_FANGLUN_000193",
+          "IR_JGYL_FANGLUN_000293",
+          "IR_JGYL_QIANZHU_000338",
+          "IR_JGYL_TIAOWEN_000193"
+        ]
+      },
+      {
+        "term": "茵陳蒿湯",
+        "count": 67,
+        "rule_ids": [
+          "IR_BBAACE965_001020",
+          "IR_SHL_GUANZHU_000501",
+          "IR_SHL_GUIBEN_000833",
+          "IR_SHL_ZHUJIE_000733",
+          "IR_B0B74DF58_000407",
+          "IR_B0B74DF58_000408",
+          "IR_B11498305_000133",
+          "IR_B18FAB5FB_000040",
+          "IR_B18FAB5FB_000043",
+          "IR_B18FAB5FB_000139"
+        ]
+      },
+      {
+        "term": "桃花湯",
+        "count": 67,
+        "rule_ids": [
+          "IR_BBAACE965_001200",
+          "IR_BC91F4420_000480",
+          "IR_SHL_GUANZHU_000627",
+          "IR_SHL_GUIBEN_001007",
+          "IR_SHL_ZHUJIE_000877",
+          "IR_B0B74DF58_000673",
+          "IR_B0B74DF58_000674",
+          "IR_B11498305_000407",
+          "IR_B11498305_000408",
+          "IR_B1CAC3ADF_000770"
+        ]
+      },
+      {
+        "term": "大青龍湯",
+        "count": 65,
+        "rule_ids": [
+          "IR_BBAACE965_000183",
+          "IR_BC91F4420_000253",
+          "IR_SHL_GUANZHU_000081",
+          "IR_SHL_GUIBEN_001409",
+          "IR_SHL_ZHUJIE_000215",
+          "IR_B0B74DF58_000283",
+          "IR_B11498305_000046",
+          "IR_B1CAC3ADF_000167",
+          "IR_B294D68B8_000012",
+          "IR_B3E16D849_000115"
+        ]
+      },
+      {
+        "term": "白通湯",
+        "count": 63,
+        "rule_ids": [
+          "IR_BBAACE965_001230",
+          "IR_BC91F4420_000495",
+          "IR_CAOSHI_FAWEI_000756",
+          "IR_SHL_GUANZHU_000621",
+          "IR_SHL_GUIBEN_001029",
+          "IR_SHL_LAISU_000676",
+          "IR_SHL_ZHUJIE_000896",
+          "IR_B0B74DF58_000633",
+          "IR_B11498305_000365",
+          "IR_B1CAC3ADF_000785"
+        ]
+      },
+      {
+        "term": "附子湯",
+        "count": 61,
+        "rule_ids": [
+          "IR_BBAACE965_001192",
+          "IR_BC91F4420_000460",
+          "IR_SHL_GUANZHU_000602",
+          "IR_SHL_GUIBEN_001000",
+          "IR_SHL_GUIBEN_001566",
+          "IR_SHL_ZHUJIE_000872",
+          "IR_B0B74DF58_000615",
+          "IR_B0B74DF58_000631",
+          "IR_B11498305_000361",
+          "IR_B11498305_000363"
+        ]
+      },
+      {
+        "term": "瓜蒂散",
+        "count": 60,
+        "rule_ids": [
+          "IR_BBAACE965_000745",
+          "IR_BC91F4420_000559",
+          "IR_SHL_GUANZHU_000371",
+          "IR_SHL_GUIBEN_000721",
+          "IR_SHL_GUIBEN_000918",
+          "IR_SHL_GUIBEN_001094",
+          "IR_SHL_GUIBEN_001209",
+          "IR_SHL_ZHUJIE_000553",
+          "IR_B07FA055B_000044",
+          "IR_B0B74DF58_000589"
+        ]
+      }
+    ],
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 2413,
+        "rule_ids": [
+          "IR_B07FA055B_000123",
+          "IR_BC2BA03C0_000226",
+          "IR_BD20B1D70_000001",
+          "IR_SHL_GUANZHU_000370",
+          "IR_SHL_GUIBEN_001303",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B07FA055B_000087",
+          "IR_B07FA055B_000120",
+          "IR_B07FA055B_000121"
+        ]
+      },
+      {
+        "term": "下利",
+        "count": 1549,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B07FA055B_000113",
+          "IR_B0B74DF58_000055",
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000173",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000209",
+          "IR_B0B74DF58_000215",
+          "IR_B0B74DF58_000401"
+        ]
+      },
+      {
+        "term": "太陽病",
+        "count": 1292,
+        "rule_ids": [
+          "IR_SHL_GUANZHU_000287",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000007",
+          "IR_B0B74DF58_000022",
+          "IR_B0B74DF58_000025",
+          "IR_B0B74DF58_000037",
+          "IR_B0B74DF58_000055",
+          "IR_B0B74DF58_000058",
+          "IR_B0B74DF58_000062"
+        ]
+      },
+      {
+        "term": "小便不利",
+        "count": 722,
+        "rule_ids": [
+          "IR_BBA9FB4A6_000425",
+          "IR_SHL_LAISU_000746",
+          "IR_SHL_LUNZHU_000725",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000113",
+          "IR_B0B74DF58_000018",
+          "IR_B0B74DF58_000021",
+          "IR_B0B74DF58_000074",
+          "IR_B0B74DF58_000139",
+          "IR_B0B74DF58_000140"
+        ]
+      },
+      {
+        "term": "腹滿",
+        "count": 714,
+        "rule_ids": [
+          "IR_B0B74DF58_000598",
+          "IR_B11498305_000343",
+          "IR_B3E520529_000039",
+          "IR_B5FF1CA1B_000380",
+          "IR_B9119D083_000312",
+          "IR_B9119D083_000676",
+          "IR_BC2BA03C0_000043",
+          "IR_JGYL_FANGLUN_000312",
+          "IR_SHL_GUANZHU_000548",
+          "IR_SHL_GUIBEN_000934"
+        ]
+      },
+      {
+        "term": "少陰病",
+        "count": 657,
+        "rule_ids": [
+          "IR_B07FA055B_000108",
+          "IR_B07FA055B_000106",
+          "IR_B07FA055B_000107",
+          "IR_B07FA055B_000113",
+          "IR_B0B74DF58_000612",
+          "IR_B0B74DF58_000615",
+          "IR_B0B74DF58_000618",
+          "IR_B0B74DF58_000619",
+          "IR_B0B74DF58_000621",
+          "IR_B0B74DF58_000631"
+        ]
+      },
+      {
+        "term": "結胸",
+        "count": 600,
+        "rule_ids": [
+          "IR_B0B74DF58_000072",
+          "IR_B0B74DF58_000099",
+          "IR_B0B74DF58_000106",
+          "IR_B0B74DF58_000192",
+          "IR_B0B74DF58_000229",
+          "IR_B0B74DF58_000235",
+          "IR_B0B74DF58_000404",
+          "IR_B0B74DF58_000531",
+          "IR_B0B74DF58_000575",
+          "IR_B0B74DF58_000728"
+        ]
+      },
+      {
+        "term": "陽明病",
+        "count": 598,
+        "rule_ids": [
+          "IR_B07FA055B_000050",
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000369",
+          "IR_B0B74DF58_000383",
+          "IR_B0B74DF58_000404",
+          "IR_B0B74DF58_000407",
+          "IR_B0B74DF58_000412",
+          "IR_B0B74DF58_000421",
+          "IR_B0B74DF58_000442",
+          "IR_B0B74DF58_000445"
+        ]
+      },
+      {
+        "term": "中風",
+        "count": 509,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000018",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000510",
+          "IR_B0B74DF58_000514",
+          "IR_B0B74DF58_000515",
+          "IR_B0B74DF58_000541",
+          "IR_B11498305_000066",
+          "IR_B11498305_000188"
+        ]
+      },
+      {
+        "term": "痞",
+        "count": 409,
+        "rule_ids": [
+          "IR_B0B74DF58_000598",
+          "IR_SHL_GUANZHU_000370",
+          "IR_B0B74DF58_000173",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000186",
+          "IR_B0B74DF58_000189",
+          "IR_B0B74DF58_000201",
+          "IR_B0B74DF58_000215",
+          "IR_B0B74DF58_000224",
+          "IR_B0B74DF58_000251"
+        ]
+      },
+      {
+        "term": "心下痞",
+        "count": 373,
+        "rule_ids": [
+          "IR_B0B74DF58_000055",
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000179",
+          "IR_B0B74DF58_000184",
+          "IR_B0B74DF58_000186",
+          "IR_B0B74DF58_000189",
+          "IR_B0B74DF58_000201",
+          "IR_B0B74DF58_000209",
+          "IR_B0B74DF58_000217"
+        ]
+      },
+      {
+        "term": "嘔吐",
+        "count": 227,
+        "rule_ids": [
+          "IR_B0B74DF58_000215",
+          "IR_B0B74DF58_000316",
+          "IR_B0B74DF58_000317",
+          "IR_B11498305_000420",
+          "IR_B11498305_000519",
+          "IR_B11498305_000530",
+          "IR_B11498305_001178",
+          "IR_B1CAC3ADF_000476",
+          "IR_B1CAC3ADF_000506",
+          "IR_B3E16D849_000209"
+        ]
+      },
+      {
+        "term": "噦",
+        "count": 198,
+        "rule_ids": [
+          "IR_B3E520529_000288",
+          "IR_B07FA055B_000029",
+          "IR_B11498305_000720",
+          "IR_B18FAB5FB_000144",
+          "IR_BB7301DF2_000132",
+          "IR_BBA9FB4A6_000379",
+          "IR_BBA9FB4A6_000383",
+          "IR_BBAACE965_000641",
+          "IR_CAOSHI_FAWEI_000535",
+          "IR_CAOSHI_FAWEI_001158"
+        ]
+      },
+      {
+        "term": "下血",
+        "count": 153,
+        "rule_ids": [
+          "IR_B0B74DF58_000072",
+          "IR_B11498305_000080",
+          "IR_B3E16D849_000163",
+          "IR_B3E16D849_000465",
+          "IR_B3E16D849_000647",
+          "IR_B9119D083_000295",
+          "IR_B9119D083_000398",
+          "IR_BBA9FB4A6_000152",
+          "IR_BC91F4420_000026",
+          "IR_BCA15D57E_000125"
+        ]
+      },
+      {
+        "term": "亡陽",
+        "count": 148,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000006",
+          "IR_B0B74DF58_000300",
+          "IR_B0B74DF58_000306",
+          "IR_B0B74DF58_000307",
+          "IR_B0B74DF58_000353",
+          "IR_B0B74DF58_000620",
+          "IR_B11498305_000177",
+          "IR_B11498305_000379"
+        ]
+      },
+      {
+        "term": "亡血",
+        "count": 140,
+        "rule_ids": [
+          "IR_B11498305_000059",
+          "IR_B11498305_000428",
+          "IR_B11498305_000431",
+          "IR_B11498305_000625",
+          "IR_B11498305_000912",
+          "IR_B1CAC3ADF_000278",
+          "IR_B1CAC3ADF_000797",
+          "IR_B1CAC3ADF_000901",
+          "IR_B3E16D849_001568",
+          "IR_B3E16D849_001593"
+        ]
+      },
+      {
+        "term": "太陽中風",
+        "count": 130,
+        "rule_ids": [
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000283",
+          "IR_B0B74DF58_000284",
+          "IR_B11498305_000003",
+          "IR_B11498305_000046",
+          "IR_B11498305_000047",
+          "IR_B11498305_000521",
+          "IR_B3E16D849_000701",
+          "IR_B3E520529_000075",
+          "IR_B3E520529_000082"
+        ]
+      },
+      {
+        "term": "消渴",
+        "count": 112,
+        "rule_ids": [
+          "IR_B07FA055B_000123",
+          "IR_B0B74DF58_000687",
+          "IR_B11498305_000412",
+          "IR_B3E520529_000060",
+          "IR_B5FF1CA1B_000439",
+          "IR_B5FF1CA1B_000440",
+          "IR_BC2BA03C0_000058",
+          "IR_CAOSHI_FAWEI_001178",
+          "IR_JGYL_FANGLUN_000135",
+          "IR_JGYL_TIAOWEN_000135"
+        ]
+      },
+      {
+        "term": "宿食",
+        "count": 104,
+        "rule_ids": [
+          "IR_B9119D083_000776",
+          "IR_BBAACE965_000751",
+          "IR_CAOSHI_FAWEI_000556",
+          "IR_CAOSHI_FAWEI_001072",
+          "IR_JGYL_JIYI_000183",
+          "IR_SHL_GUANZHU_000727",
+          "IR_SHL_GUIBEN_000914",
+          "IR_SHL_GUIBEN_001205",
+          "IR_SHL_LEIFANG_000063",
+          "IR_SHL_MINGLI_000146"
+        ]
+      },
+      {
+        "term": "瘀血",
+        "count": 101,
+        "rule_ids": [
+          "IR_B11498305_000221",
+          "IR_B5FF1CA1B_000257",
+          "IR_BBA9FB4A6_000152",
+          "IR_CAOSHI_FAWEI_000720",
+          "IR_JF_SHIYANLU_000255",
+          "IR_JGYL_FANGLUN_000274",
+          "IR_JGYL_TIAOWEN_000274",
+          "IR_JG_FANGGEKUO_000043",
+          "IR_SHL_GUIBEN_001491",
+          "IR_SHL_GUIBEN_001601"
+        ]
+      },
+      {
+        "term": "溫病",
+        "count": 97,
+        "rule_ids": [
+          "IR_B3E520529_000288",
+          "IR_B11498305_000800",
+          "IR_B11498305_000838",
+          "IR_B11498305_000845",
+          "IR_B11498305_001013",
+          "IR_B11498305_001096",
+          "IR_B11498305_001141",
+          "IR_B11498305_001144",
+          "IR_B11498305_001192",
+          "IR_B11498305_001253"
+        ]
+      },
+      {
+        "term": "霍亂",
+        "count": 84,
+        "rule_ids": [
+          "IR_B11498305_000652",
+          "IR_B11498305_001050",
+          "IR_B18FAB5FB_000104",
+          "IR_B1CAC3ADF_000903",
+          "IR_B54968951_000021",
+          "IR_B54968951_000022",
+          "IR_B54968951_000023",
+          "IR_B5FF1CA1B_000684",
+          "IR_B5FF1CA1B_000685",
+          "IR_B8E444005_000062"
+        ]
+      },
+      {
+        "term": "中寒",
+        "count": 79,
+        "rule_ids": [
+          "IR_SHL_QJYF_000125",
+          "IR_B11498305_001261",
+          "IR_B5C5ECAC2_000005",
+          "IR_B5FF1CA1B_000223",
+          "IR_BCCBDEC5F_000061",
+          "IR_JGYH_ERZHU_000106",
+          "IR_JGYL_FANGLUN_000091",
+          "IR_JGYL_JIYI_000153",
+          "IR_JGYL_JIYI_000165",
+          "IR_JGYL_TIAOWEN_000091"
+        ]
+      },
+      {
+        "term": "心痛",
+        "count": 78,
+        "rule_ids": [
+          "IR_CAOSHI_FAWEI_001392",
+          "IR_JGYL_FANGLUN_000252",
+          "IR_JGYL_TIAOWEN_000252",
+          "IR_SHL_LAISU_000718",
+          "IR_B07FA055B_000073",
+          "IR_B11498305_000188",
+          "IR_B5FF1CA1B_000219",
+          "IR_B9119D083_000516",
+          "IR_B9119D083_000640",
+          "IR_BC2BA03C0_000132"
+        ]
+      },
+      {
+        "term": "產後",
+        "count": 77,
+        "rule_ids": [
+          "IR_B3E520529_000149",
+          "IR_B3E520529_000299",
+          "IR_BC2BA03C0_000285",
+          "IR_CAOSHI_FAWEI_001414",
+          "IR_CAOSHI_FAWEI_001418",
+          "IR_CAOSHI_FAWEI_001419",
+          "IR_CAOSHI_FAWEI_001422",
+          "IR_CAOSHI_FAWEI_001425",
+          "IR_CAOSHI_FAWEI_001430",
+          "IR_CAOSHI_FAWEI_001432"
+        ]
+      },
+      {
+        "term": "臟結",
+        "count": 74,
+        "rule_ids": [
+          "IR_B0B74DF58_000220",
+          "IR_B0B74DF58_000222",
+          "IR_B0B74DF58_000225",
+          "IR_B0B74DF58_000226",
+          "IR_B5FF1CA1B_000502",
+          "IR_B5FF1CA1B_000503",
+          "IR_B9119D083_000590",
+          "IR_B9119D083_000591",
+          "IR_BBA9FB4A6_000414",
+          "IR_BC2BA03C0_000203"
+        ]
+      },
+      {
+        "term": "熱入血室",
+        "count": 74,
+        "rule_ids": [
+          "IR_B0B74DF58_000541",
+          "IR_B11498305_000321",
+          "IR_B11498305_000323",
+          "IR_B11498305_000912",
+          "IR_B5FF1CA1B_000362",
+          "IR_B9119D083_000127",
+          "IR_B9119D083_000795",
+          "IR_B9119D083_000801",
+          "IR_BBA9FB4A6_000152",
+          "IR_BBA9FB4A6_000264"
+        ]
+      },
+      {
+        "term": "妊娠",
+        "count": 68,
+        "rule_ids": [
+          "IR_B11498305_000912",
+          "IR_CAOSHI_FAWEI_001397",
+          "IR_CAOSHI_FAWEI_001403",
+          "IR_CAOSHI_FAWEI_001405",
+          "IR_CAOSHI_FAWEI_001407",
+          "IR_CAOSHI_FAWEI_001410",
+          "IR_CAOSHI_FAWEI_001454",
+          "IR_JF_SHIYANLU_000012",
+          "IR_JGYH_ERZHU_000338",
+          "IR_JGYH_ERZHU_000339"
+        ]
+      },
+      {
+        "term": "奔豚",
+        "count": 64,
+        "rule_ids": [
+          "IR_B0B74DF58_000169",
+          "IR_B11498305_000089",
+          "IR_B11498305_001232",
+          "IR_B18FAB5FB_000034",
+          "IR_B1CAC3ADF_000226",
+          "IR_B3E16D849_000433",
+          "IR_B3E16D849_000474",
+          "IR_B3E16D849_000577",
+          "IR_B41512D4B_000208",
+          "IR_B5C5ECAC2_000398"
+        ]
+      },
+      {
+        "term": "虛勞",
+        "count": 61,
+        "rule_ids": [
+          "IR_B11498305_000912",
+          "IR_BEF533107_000082",
+          "IR_CAOSHI_FAWEI_001029",
+          "IR_CAOSHI_FAWEI_001030",
+          "IR_CAOSHI_FAWEI_001032",
+          "IR_CAOSHI_FAWEI_001033",
+          "IR_CAOSHI_FAWEI_001035",
+          "IR_CAOSHI_FAWEI_001454",
+          "IR_JF_SHIYANLU_000126",
+          "IR_JGYH_ERZHU_000074"
+        ]
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 2008,
+        "rule_ids": [
+          "IR_B11498305_000607",
+          "IR_B3E520529_000231",
+          "IR_BBA9FB4A6_000425",
+          "IR_BC2BA03C0_000236",
+          "IR_CAOSHI_FAWEI_001371",
+          "IR_SHL_GUANZHU_000339",
+          "IR_SHL_GUANZHU_000370",
+          "IR_SHL_GUIBEN_000260",
+          "IR_SHL_GUIBEN_001457",
+          "IR_SHL_LAISU_000299"
+        ]
+      },
+      {
+        "term": "汗出",
+        "count": 1709,
+        "rule_ids": [
+          "IR_B3E520529_000288",
+          "IR_BC2BA03C0_000236",
+          "IR_BC2BA03C0_000274",
+          "IR_CAOSHI_FAWEI_001371",
+          "IR_SHL_GUIBEN_001457",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000050",
+          "IR_B0B74DF58_000007",
+          "IR_B0B74DF58_000018",
+          "IR_B0B74DF58_000022"
+        ]
+      },
+      {
+        "term": "渴",
+        "count": 1410,
+        "rule_ids": [
+          "IR_B0B74DF58_000687",
+          "IR_B3E520529_000039",
+          "IR_BC3C734B7_000081",
+          "IR_BEF4B02F4_000082",
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000018",
+          "IR_B0B74DF58_000020",
+          "IR_B0B74DF58_000021",
+          "IR_B0B74DF58_000027",
+          "IR_B0B74DF58_000103"
+        ]
+      },
+      {
+        "term": "惡寒",
+        "count": 1381,
+        "rule_ids": [
+          "IR_B11498305_000001",
+          "IR_B3E520529_000288",
+          "IR_B5FF1CA1B_000001",
+          "IR_B9119D083_000181",
+          "IR_BC3C734B7_000081",
+          "IR_BEF4B02F4_000082",
+          "IR_CAOSHI_FAWEI_000001",
+          "IR_CAOSHI_FAWEI_001371",
+          "IR_SHL_GUANZHU_000002",
+          "IR_SHL_GUIBEN_000352"
+        ]
+      },
+      {
+        "term": "厥",
+        "count": 1171,
+        "rule_ids": [
+          "IR_B07FA055B_000123",
+          "IR_BC3C734B7_000081",
+          "IR_BD20B1D70_000114",
+          "IR_BEF4B02F4_000082",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000120",
+          "IR_B07FA055B_000121",
+          "IR_B07FA055B_000122",
+          "IR_B0B74DF58_000309",
+          "IR_B0B74DF58_000547"
+        ]
+      },
+      {
+        "term": "喘",
+        "count": 933,
+        "rule_ids": [
+          "IR_B3E520529_000288",
+          "IR_BC2BA03C0_000274",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000050",
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000058",
+          "IR_B0B74DF58_000119",
+          "IR_B0B74DF58_000320",
+          "IR_B0B74DF58_000323",
+          "IR_B0B74DF58_000324"
+        ]
+      },
+      {
+        "term": "譫語",
+        "count": 681,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000239",
+          "IR_B0B74DF58_000309",
+          "IR_B0B74DF58_000383",
+          "IR_B0B74DF58_000385",
+          "IR_B0B74DF58_000475",
+          "IR_B0B74DF58_000478",
+          "IR_B0B74DF58_000484"
+        ]
+      },
+      {
+        "term": "無汗",
+        "count": 601,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000050",
+          "IR_B0B74DF58_000119",
+          "IR_B0B74DF58_000285",
+          "IR_B0B74DF58_000305",
+          "IR_B0B74DF58_000330",
+          "IR_B0B74DF58_000331",
+          "IR_B0B74DF58_000407",
+          "IR_B0B74DF58_000408",
+          "IR_B0B74DF58_000419"
+        ]
+      },
+      {
+        "term": "煩躁",
+        "count": 594,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000113",
+          "IR_B0B74DF58_000283",
+          "IR_B0B74DF58_000515",
+          "IR_B0B74DF58_000711",
+          "IR_B0B74DF58_000788",
+          "IR_B11498305_000046",
+          "IR_B11498305_000047",
+          "IR_B11498305_000067",
+          "IR_B11498305_000136"
+        ]
+      },
+      {
+        "term": "頭痛",
+        "count": 527,
+        "rule_ids": [
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000119",
+          "IR_B0B74DF58_000220",
+          "IR_B0B74DF58_000305",
+          "IR_B0B74DF58_000513",
+          "IR_B0B74DF58_000769",
+          "IR_B11498305_000005",
+          "IR_B11498305_000026",
+          "IR_B11498305_000032"
+        ]
+      },
+      {
+        "term": "潮熱",
+        "count": 410,
+        "rule_ids": [
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000103",
+          "IR_B0B74DF58_000445",
+          "IR_B0B74DF58_000448",
+          "IR_B0B74DF58_000459",
+          "IR_B0B74DF58_000475",
+          "IR_B0B74DF58_000488",
+          "IR_B0B74DF58_000500",
+          "IR_B11498305_000251",
+          "IR_B11498305_000253"
+        ]
+      },
+      {
+        "term": "惡風",
+        "count": 404,
+        "rule_ids": [
+          "IR_B3E520529_000231",
+          "IR_BC2BA03C0_000236",
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000007",
+          "IR_B0B74DF58_000018",
+          "IR_B0B74DF58_000119",
+          "IR_B0B74DF58_000271",
+          "IR_B0B74DF58_000273",
+          "IR_B0B74DF58_000274",
+          "IR_B0B74DF58_000334"
+        ]
+      },
+      {
+        "term": "四逆",
+        "count": 367,
+        "rule_ids": [
+          "IR_B07FA055B_000108",
+          "IR_B07FA055B_000123",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000106",
+          "IR_B07FA055B_000122",
+          "IR_B0B74DF58_000679",
+          "IR_B0B74DF58_000693",
+          "IR_B0B74DF58_000711",
+          "IR_B0B74DF58_000732",
+          "IR_B11498305_000400"
+        ]
+      },
+      {
+        "term": "胸滿",
+        "count": 340,
+        "rule_ids": [
+          "IR_B9119D083_000312",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000050",
+          "IR_B0B74DF58_000062",
+          "IR_B0B74DF58_000063",
+          "IR_B0B74DF58_000239",
+          "IR_B0B74DF58_000510",
+          "IR_B0B74DF58_000554",
+          "IR_B0B74DF58_000676",
+          "IR_B11498305_000096"
+        ]
+      },
+      {
+        "term": "不大便",
+        "count": 336,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000103",
+          "IR_B0B74DF58_000488",
+          "IR_B11498305_000032",
+          "IR_B11498305_000264",
+          "IR_B11498305_000495",
+          "IR_B11498305_000845",
+          "IR_B434348CD_000072",
+          "IR_B5FF1CA1B_000526"
+        ]
+      },
+      {
+        "term": "心煩",
+        "count": 335,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000100",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000201",
+          "IR_B0B74DF58_000247",
+          "IR_B0B74DF58_000309",
+          "IR_B0B74DF58_000325",
+          "IR_B0B74DF58_000332",
+          "IR_B0B74DF58_000510",
+          "IR_B0B74DF58_000672"
+        ]
+      },
+      {
+        "term": "乾嘔",
+        "count": 330,
+        "rule_ids": [
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000002",
+          "IR_B0B74DF58_000003",
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000175",
+          "IR_B0B74DF58_000320",
+          "IR_B0B74DF58_000635",
+          "IR_B0B74DF58_000639",
+          "IR_B0B74DF58_000653",
+          "IR_B0B74DF58_000769"
+        ]
+      },
+      {
+        "term": "咳",
+        "count": 312,
+        "rule_ids": [
+          "IR_B07FA055B_000113",
+          "IR_B0B74DF58_000320",
+          "IR_B0B74DF58_000323",
+          "IR_B0B74DF58_000324",
+          "IR_B0B74DF58_000510",
+          "IR_B0B74DF58_000637",
+          "IR_B0B74DF58_000679",
+          "IR_B0B74DF58_000680",
+          "IR_B0B74DF58_000681",
+          "IR_B11498305_000051"
+        ]
+      },
+      {
+        "term": "小便利",
+        "count": 291,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000279",
+          "IR_B0B74DF58_000637",
+          "IR_B0B74DF58_000777",
+          "IR_B11498305_000061",
+          "IR_B11498305_000077",
+          "IR_B11498305_000242",
+          "IR_B11498305_000369",
+          "IR_B18FAB5FB_000046",
+          "IR_B1CAC3ADF_000792"
+        ]
+      },
+      {
+        "term": "不能食",
+        "count": 266,
+        "rule_ids": [
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000404",
+          "IR_B11498305_000245",
+          "IR_B11498305_000912",
+          "IR_B3E520529_000031",
+          "IR_B3E520529_000032",
+          "IR_B434348CD_000072",
+          "IR_B9119D083_000235",
+          "IR_B9119D083_000236",
+          "IR_BC2BA03C0_000035"
+        ]
+      },
+      {
+        "term": "不得眠",
+        "count": 259,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000252",
+          "IR_B0B74DF58_000261",
+          "IR_B0B74DF58_000383",
+          "IR_B0B74DF58_000385",
+          "IR_B0B74DF58_000386",
+          "IR_B0B74DF58_000681",
+          "IR_B11498305_000067",
+          "IR_B11498305_000123",
+          "IR_B11498305_000136"
+        ]
+      },
+      {
+        "term": "寒熱",
+        "count": 258,
+        "rule_ids": [
+          "IR_JGYL_FANGLUN_000171",
+          "IR_JGYL_TIAOWEN_000171",
+          "IR_B0B74DF58_000300",
+          "IR_B0B74DF58_000541",
+          "IR_B11498305_000321",
+          "IR_B11498305_000452",
+          "IR_B11498305_000609",
+          "IR_B11498305_000800",
+          "IR_B11498305_000838",
+          "IR_B11498305_000912"
+        ]
+      },
+      {
+        "term": "短氣",
+        "count": 246,
+        "rule_ids": [
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000087",
+          "IR_B0B74DF58_000099",
+          "IR_B0B74DF58_000100",
+          "IR_B0B74DF58_000274",
+          "IR_B0B74DF58_000445",
+          "IR_B0B74DF58_000448",
+          "IR_B0B74DF58_000450",
+          "IR_B11498305_000161",
+          "IR_B11498305_000188"
+        ]
+      },
+      {
+        "term": "衄",
+        "count": 230,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000153",
+          "IR_B0B74DF58_000285",
+          "IR_B0B74DF58_000286",
+          "IR_B0B74DF58_000288",
+          "IR_B18FAB5FB_000122",
+          "IR_B1CAC3ADF_000185",
+          "IR_B1CAC3ADF_000205",
+          "IR_B1CAC3ADF_000276",
+          "IR_B3E16D849_000330"
+        ]
+      },
+      {
+        "term": "身疼痛",
+        "count": 209,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000147",
+          "IR_B0B74DF58_000163",
+          "IR_B0B74DF58_000283",
+          "IR_B0B74DF58_000285",
+          "IR_B11498305_000034",
+          "IR_B11498305_000040",
+          "IR_B11498305_000046",
+          "IR_B11498305_000047",
+          "IR_B11498305_000057"
+        ]
+      },
+      {
+        "term": "不得臥",
+        "count": 208,
+        "rule_ids": [
+          "IR_B0B74DF58_000672",
+          "IR_B11498305_000597",
+          "IR_B11498305_000891",
+          "IR_B1CAC3ADF_000763",
+          "IR_B3E16D849_001699",
+          "IR_B3E16D849_001719",
+          "IR_B41512D4B_000973",
+          "IR_B434348CD_000072",
+          "IR_B5C5ECAC2_000124",
+          "IR_B5FF1CA1B_000629"
+        ]
+      },
+      {
+        "term": "發黃",
+        "count": 206,
+        "rule_ids": [
+          "IR_JGYL_FANGLUN_000171",
+          "IR_JGYL_TIAOWEN_000171",
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000276",
+          "IR_B0B74DF58_000279",
+          "IR_B0B74DF58_000280",
+          "IR_B0B74DF58_000407",
+          "IR_B0B74DF58_000408",
+          "IR_B0B74DF58_000421",
+          "IR_B11498305_000131"
+        ]
+      },
+      {
+        "term": "腹痛",
+        "count": 204,
+        "rule_ids": [
+          "IR_B0B74DF58_000317",
+          "IR_B0B74DF58_000637",
+          "IR_B0B74DF58_000639",
+          "IR_B0B74DF58_000673",
+          "IR_B0B74DF58_000680",
+          "IR_B11498305_000369",
+          "IR_B11498305_000371",
+          "IR_B11498305_000407",
+          "IR_B11498305_000903",
+          "IR_B11498305_001239"
+        ]
+      },
+      {
+        "term": "自汗出",
+        "count": 200,
+        "rule_ids": [
+          "IR_JG_FANGGEKUO_000019",
+          "IR_B0B74DF58_000309",
+          "IR_B0B74DF58_000442",
+          "IR_B11498305_000008",
+          "IR_B11498305_000162",
+          "IR_B11498305_000294",
+          "IR_B11498305_000583",
+          "IR_B11498305_000838",
+          "IR_B11498305_000875",
+          "IR_B1CAC3ADF_000600"
+        ]
+      },
+      {
+        "term": "手足溫",
+        "count": 197,
+        "rule_ids": [
+          "IR_B0B74DF58_000404",
+          "IR_B0B74DF58_000521",
+          "IR_B0B74DF58_000742",
+          "IR_B11498305_000245",
+          "IR_B11498305_000309",
+          "IR_B1CAC3ADF_000299",
+          "IR_B3E16D849_001439",
+          "IR_B3E16D849_001489",
+          "IR_B41512D4B_000312",
+          "IR_B41512D4B_000841"
+        ]
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 1010,
+        "rule_ids": [
+          "IR_B11498305_000001",
+          "IR_B1CAC3ADF_000078",
+          "IR_B3E520529_000231",
+          "IR_B41512D4B_000029",
+          "IR_B41512D4B_000030",
+          "IR_B5FF1CA1B_000001",
+          "IR_B9119D083_000181",
+          "IR_BC2BA03C0_000236",
+          "IR_BC91F4420_000604",
+          "IR_CAOSHI_FAWEI_000001"
+        ]
+      },
+      {
+        "term": "脈微",
+        "count": 406,
+        "rule_ids": [
+          "IR_B07FA055B_000123",
+          "IR_B07FA055B_000121",
+          "IR_B07FA055B_000122",
+          "IR_B0B74DF58_000072",
+          "IR_B0B74DF58_000260",
+          "IR_B0B74DF58_000618",
+          "IR_B0B74DF58_000619",
+          "IR_B0B74DF58_000635",
+          "IR_B0B74DF58_000710",
+          "IR_B0B74DF58_000711"
+        ]
+      },
+      {
+        "term": "脈沉",
+        "count": 382,
+        "rule_ids": [
+          "IR_B07FA055B_000108",
+          "IR_B07FA055B_000106",
+          "IR_B07FA055B_000120",
+          "IR_B0B74DF58_000074",
+          "IR_B0B74DF58_000229",
+          "IR_B0B74DF58_000612",
+          "IR_B0B74DF58_000631",
+          "IR_B0B74DF58_000741",
+          "IR_B11498305_000081",
+          "IR_B11498305_000360"
+        ]
+      },
+      {
+        "term": "脈弦",
+        "count": 379,
+        "rule_ids": [
+          "IR_B07FA055B_000073",
+          "IR_B07FA055B_000087",
+          "IR_B0B74DF58_000488",
+          "IR_B0B74DF58_000489",
+          "IR_B0B74DF58_000513",
+          "IR_B0B74DF58_000523",
+          "IR_B0B74DF58_000647",
+          "IR_B11498305_000188",
+          "IR_B11498305_000264",
+          "IR_B11498305_000303"
+        ]
+      },
+      {
+        "term": "脈遲",
+        "count": 287,
+        "rule_ids": [
+          "IR_BC3C734B7_000081",
+          "IR_BEF4B02F4_000082",
+          "IR_CAOSHI_FAWEI_001371",
+          "IR_B07FA055B_000050",
+          "IR_B0B74DF58_000445",
+          "IR_B0B74DF58_000448",
+          "IR_B11498305_000234",
+          "IR_B11498305_000253",
+          "IR_B11498305_000256",
+          "IR_B11498305_000258"
+        ]
+      },
+      {
+        "term": "脈浮緊",
+        "count": 223,
+        "rule_ids": [
+          "IR_B0B74DF58_000145",
+          "IR_B0B74DF58_000147",
+          "IR_B0B74DF58_000283",
+          "IR_B0B74DF58_000284",
+          "IR_B0B74DF58_000286",
+          "IR_B11498305_000020",
+          "IR_B11498305_000034",
+          "IR_B11498305_000036",
+          "IR_B11498305_000038",
+          "IR_B11498305_000040"
+        ]
+      },
+      {
+        "term": "脈數",
+        "count": 212,
+        "rule_ids": [
+          "IR_JGYL_FANGLUN_000241",
+          "IR_JGYL_TIAOWEN_000241",
+          "IR_SHL_GUIBEN_001520",
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000133",
+          "IR_B11498305_000300",
+          "IR_B11498305_000891",
+          "IR_B3E520529_000073",
+          "IR_B3E520529_000219",
+          "IR_B54968951_000028"
+        ]
+      },
+      {
+        "term": "脈浮數",
+        "count": 172,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000100",
+          "IR_B0B74DF58_000132",
+          "IR_B0B74DF58_000133",
+          "IR_B0B74DF58_000143",
+          "IR_B11498305_000028",
+          "IR_B11498305_000041",
+          "IR_B11498305_000068",
+          "IR_B1CAC3ADF_000214",
+          "IR_B1CAC3ADF_000243"
+        ]
+      },
+      {
+        "term": "脈滑",
+        "count": 163,
+        "rule_ids": [
+          "IR_B0B74DF58_000475",
+          "IR_B0B74DF58_000739",
+          "IR_B11498305_000259",
+          "IR_B11498305_000585",
+          "IR_B1CAC3ADF_000588",
+          "IR_B1CAC3ADF_000847",
+          "IR_B3E16D849_000063",
+          "IR_B3E16D849_000074",
+          "IR_B3E16D849_000954",
+          "IR_B3E16D849_001028"
+        ]
+      },
+      {
+        "term": "脈微弱",
+        "count": 159,
+        "rule_ids": [
+          "IR_B11498305_000047",
+          "IR_B11498305_000111",
+          "IR_B3E520529_000082",
+          "IR_B3E520529_000083",
+          "IR_B41512D4B_000104",
+          "IR_B434348CD_000028",
+          "IR_BB711944D_001244",
+          "IR_BBA9FB4A6_000302",
+          "IR_BC2BA03C0_000188",
+          "IR_BCA15D57E_000093"
+        ]
+      },
+      {
+        "term": "脈大",
+        "count": 148,
+        "rule_ids": [
+          "IR_B11498305_000443",
+          "IR_B11498305_001141",
+          "IR_B3E520529_000040",
+          "IR_SHL_GUIBEN_000126",
+          "IR_SHL_GUIBEN_000127",
+          "IR_SHL_GUIBEN_000142",
+          "IR_SHL_GUIBEN_000289",
+          "IR_SHL_GUIBEN_000605",
+          "IR_SHL_SONGBEN_000499",
+          "IR_SHL_ZHUJIE_001121"
+        ]
+      },
+      {
+        "term": "脈促",
+        "count": 141,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000058",
+          "IR_B0B74DF58_000062",
+          "IR_B0B74DF58_000063",
+          "IR_B11498305_000096",
+          "IR_B11498305_000097",
+          "IR_B11498305_000546",
+          "IR_B11498305_000753",
+          "IR_B11498305_001112",
+          "IR_B1CAC3ADF_000112"
+        ]
+      },
+      {
+        "term": "脈沉緊",
+        "count": 126,
+        "rule_ids": [
+          "IR_B07FA055B_000087",
+          "IR_B11498305_000332",
+          "IR_B3E16D849_000348",
+          "IR_B9119D083_000353",
+          "IR_B9119D083_000592",
+          "IR_BC91F4420_000216",
+          "IR_BCA15D57E_000214",
+          "IR_BEF4B02F4_000066",
+          "IR_CAOSHI_FAWEI_000250",
+          "IR_CAOSHI_FAWEI_001114"
+        ]
+      },
+      {
+        "term": "脈弱",
+        "count": 126,
+        "rule_ids": [
+          "IR_B0B74DF58_000768",
+          "IR_B11498305_000421",
+          "IR_B11498305_000845",
+          "IR_B1CAC3ADF_000746",
+          "IR_B3E520529_000040",
+          "IR_B3E520529_000073",
+          "IR_B41512D4B_001078",
+          "IR_B5FF1CA1B_000450",
+          "IR_B9119D083_000754",
+          "IR_BBA9FB4A6_000305"
+        ]
+      },
+      {
+        "term": "脈緊",
+        "count": 126,
+        "rule_ids": [
+          "IR_B11498305_000380",
+          "IR_B11498305_000845",
+          "IR_B11498305_000912",
+          "IR_B3E520529_000031",
+          "IR_B5FF1CA1B_000415",
+          "IR_BC2BA03C0_000035",
+          "IR_JGYL_JIYI_000206",
+          "IR_SHL_GUIBEN_000100",
+          "IR_SHL_LAISU_000166",
+          "IR_SHL_LUNZHU_000161"
+        ]
+      },
+      {
+        "term": "脈浮大",
+        "count": 109,
+        "rule_ids": [
+          "IR_B0B74DF58_000106",
+          "IR_B11498305_000489",
+          "IR_B3E520529_000213",
+          "IR_B5FF1CA1B_000519",
+          "IR_B9119D083_000032",
+          "IR_B9119D083_000644",
+          "IR_B9119D083_000776",
+          "IR_BCA15D57E_000243",
+          "IR_BCCBDEC5F_000048",
+          "IR_CAOSHI_FAWEI_001061"
+        ]
+      },
+      {
+        "term": "脈細",
+        "count": 104,
+        "rule_ids": [
+          "IR_B07FA055B_000108",
+          "IR_B07FA055B_000029",
+          "IR_B07FA055B_000106",
+          "IR_B07FA055B_000107",
+          "IR_B0B74DF58_000260",
+          "IR_B0B74DF58_000665",
+          "IR_B0B74DF58_000732",
+          "IR_B0B74DF58_000733",
+          "IR_B11498305_000398",
+          "IR_B11498305_000447"
+        ]
+      },
+      {
+        "term": "脈實",
+        "count": 92,
+        "rule_ids": [
+          "IR_B07FA055B_000050",
+          "IR_B434348CD_000072",
+          "IR_B68E6DB3E_000014",
+          "IR_B816B1DAA_000013",
+          "IR_BBA9FB4A6_000226",
+          "IR_SHL_GUIBEN_000762",
+          "IR_SHL_ZHUJIE_000344",
+          "IR_B07FA055B_000058",
+          "IR_B0B74DF58_000427",
+          "IR_B0B74DF58_000428"
+        ]
+      },
+      {
+        "term": "脈浮虛",
+        "count": 88,
+        "rule_ids": [
+          "IR_B0B74DF58_000270",
+          "IR_B11498305_000159",
+          "IR_B11498305_000160",
+          "IR_B1CAC3ADF_000508",
+          "IR_B2EB248E3_000055",
+          "IR_B41512D4B_000496",
+          "IR_B5C5ECAC2_000459",
+          "IR_B5FF1CA1B_000189",
+          "IR_B8E444005_000404",
+          "IR_B9119D083_000151"
+        ]
+      },
+      {
+        "term": "脈陰陽俱緊",
+        "count": 83,
+        "rule_ids": [
+          "IR_B11498305_000383",
+          "IR_JF_SHIYANLU_000031",
+          "IR_SHL_LAISU_000166",
+          "IR_B07FA055B_000007",
+          "IR_B07FA055B_000008",
+          "IR_B07FA055B_000009",
+          "IR_B07FA055B_000010",
+          "IR_B07FA055B_000109",
+          "IR_B07FA055B_000110",
+          "IR_B07FA055B_000111"
+        ]
+      },
+      {
+        "term": "脈微欲絕",
+        "count": 79,
+        "rule_ids": [
+          "IR_B0B74DF58_000639",
+          "IR_B11498305_000371",
+          "IR_B11498305_000425",
+          "IR_B11498305_000427",
+          "IR_B1CAC3ADF_000911",
+          "IR_B1CAC3ADF_000914",
+          "IR_B3E16D849_001636",
+          "IR_B3E16D849_001642",
+          "IR_B3E16D849_001653",
+          "IR_B3E16D849_001734"
+        ]
+      },
+      {
+        "term": "脈澀",
+        "count": 76,
+        "rule_ids": [
+          "IR_B07FA055B_000073",
+          "IR_B0B74DF58_000523",
+          "IR_BB7301DF2_000143",
+          "IR_BCA15D57E_000426",
+          "IR_JGYL_QIANZHU_000350",
+          "IR_SHL_LUNZHU_000532",
+          "IR_SHL_LUNZHU_000556",
+          "IR_SHL_ZHUJIE_000357",
+          "IR_B07FA055B_000051",
+          "IR_B07FA055B_000052"
+        ]
+      },
+      {
+        "term": "脈洪大",
+        "count": 75,
+        "rule_ids": [
+          "IR_B0B74DF58_000325",
+          "IR_B11498305_000593",
+          "IR_B1CAC3ADF_000128",
+          "IR_B3E16D849_000938",
+          "IR_B3E16D849_001243",
+          "IR_B41512D4B_000097",
+          "IR_B5C5ECAC2_000173",
+          "IR_B5FF1CA1B_000625",
+          "IR_B6C3E769F_000044",
+          "IR_B8E444005_000166"
+        ]
+      },
+      {
+        "term": "脈浮滑",
+        "count": 69,
+        "rule_ids": [
+          "IR_B0B74DF58_000233",
+          "IR_B0B74DF58_000326",
+          "IR_B11498305_000499",
+          "IR_B11498305_000584",
+          "IR_B1CAC3ADF_000395",
+          "IR_B1CAC3ADF_000513",
+          "IR_B3E16D849_000072",
+          "IR_B3E16D849_000154",
+          "IR_B3E16D849_000359",
+          "IR_B3E16D849_000939"
+        ]
+      },
+      {
+        "term": "脈虛",
+        "count": 69,
+        "rule_ids": [
+          "IR_B0B74DF58_000728",
+          "IR_B11498305_000429",
+          "IR_B11498305_000431",
+          "IR_B3E16D849_000321",
+          "IR_B3E16D849_001356",
+          "IR_B5FF1CA1B_000654",
+          "IR_B9119D083_000036",
+          "IR_BBA9FB4A6_000394",
+          "IR_BEF4B02F4_000025",
+          "IR_CAOSHI_FAWEI_000145"
+        ]
+      },
+      {
+        "term": "脈浮緩",
+        "count": 69,
+        "rule_ids": [
+          "IR_B3E520529_000040",
+          "IR_B3E520529_000085",
+          "IR_B9119D083_000081",
+          "IR_B9119D083_000184",
+          "IR_BC2BA03C0_000082",
+          "IR_SHL_GUANZHU_000021",
+          "IR_SHL_LAISU_000166",
+          "IR_SHL_LUNZHU_000163",
+          "IR_SHL_LUNZHU_000164",
+          "IR_SHL_MINGLI_000135"
+        ]
+      },
+      {
+        "term": "脈沉遲",
+        "count": 58,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_B0B74DF58_000163",
+          "IR_B1CAC3ADF_000220",
+          "IR_B3E16D849_000314",
+          "IR_B41512D4B_000199",
+          "IR_B5FF1CA1B_000109",
+          "IR_B9119D083_000165",
+          "IR_B9119D083_000819",
+          "IR_BBAACE965_000287",
+          "IR_BBAACE965_001196"
+        ]
+      },
+      {
+        "term": "寸口脈浮",
+        "count": 54,
+        "rule_ids": [
+          "IR_B07FA055B_000029",
+          "IR_BC2BA03C0_000203",
+          "IR_SHL_GUIBEN_000914",
+          "IR_B07FA055B_000028",
+          "IR_B07FA055B_000030",
+          "IR_B07FA055B_000031",
+          "IR_B07FA055B_000032",
+          "IR_B07FA055B_000033",
+          "IR_B07FA055B_000034",
+          "IR_B07FA055B_000035"
+        ]
+      },
+      {
+        "term": "脈不至",
+        "count": 53,
+        "rule_ids": [
+          "IR_B07FA055B_000120",
+          "IR_B0B74DF58_000741",
+          "IR_B11498305_000459",
+          "IR_B5FF1CA1B_000491",
+          "IR_SHL_GUANZHU_000685",
+          "IR_SHL_GUIBEN_001098",
+          "IR_SHL_QJYF_000270",
+          "IR_SHL_SONGBEN_000426",
+          "IR_SHL_TIAOWEN_000380",
+          "IR_B07FA055B_000118"
+        ]
+      },
+      {
+        "term": "脈短",
+        "count": 49,
+        "rule_ids": [
+          "IR_B07FA055B_000073",
+          "IR_SHL_GUIBEN_000229",
+          "IR_SHL_GUIBEN_000612",
+          "IR_B0B74DF58_000482",
+          "IR_B0B74DF58_000483",
+          "IR_B11498305_000288",
+          "IR_B11498305_000952",
+          "IR_B11498305_000953",
+          "IR_B11498305_001137",
+          "IR_B18FAB5FB_000088"
+        ]
+      }
+    ],
+    "herbs": [
+      {
+        "term": "甘草",
+        "count": 476,
+        "rule_ids": []
+      },
+      {
+        "term": "桂枝",
+        "count": 313,
+        "rule_ids": []
+      },
+      {
+        "term": "生薑",
+        "count": 225,
+        "rule_ids": []
+      },
+      {
+        "term": "芍藥",
+        "count": 203,
+        "rule_ids": []
+      },
+      {
+        "term": "大棗",
+        "count": 198,
+        "rule_ids": []
+      },
+      {
+        "term": "人參",
+        "count": 187,
+        "rule_ids": []
+      },
+      {
+        "term": "半夏",
+        "count": 179,
+        "rule_ids": []
+      },
+      {
+        "term": "乾薑",
+        "count": 162,
+        "rule_ids": []
+      },
+      {
+        "term": "附子",
+        "count": 155,
+        "rule_ids": []
+      },
+      {
+        "term": "茯苓",
+        "count": 138,
+        "rule_ids": []
+      },
+      {
+        "term": "大黃",
+        "count": 128,
+        "rule_ids": []
+      },
+      {
+        "term": "黃芩",
+        "count": 123,
+        "rule_ids": []
+      },
+      {
+        "term": "白朮",
+        "count": 113,
+        "rule_ids": []
+      },
+      {
+        "term": "麻黃",
+        "count": 113,
+        "rule_ids": []
+      },
+      {
+        "term": "黃連",
+        "count": 106,
+        "rule_ids": []
+      },
+      {
+        "term": "枳實",
+        "count": 74,
+        "rule_ids": []
+      },
+      {
+        "term": "石膏",
+        "count": 67,
+        "rule_ids": []
+      },
+      {
+        "term": "柴胡",
+        "count": 63,
+        "rule_ids": []
+      },
+      {
+        "term": "杏仁",
+        "count": 62,
+        "rule_ids": []
+      },
+      {
+        "term": "厚朴",
+        "count": 61,
+        "rule_ids": []
+      },
+      {
+        "term": "芒硝",
+        "count": 52,
+        "rule_ids": []
+      },
+      {
+        "term": "梔子",
+        "count": 51,
+        "rule_ids": []
+      },
+      {
+        "term": "當歸",
+        "count": 46,
+        "rule_ids": []
+      },
+      {
+        "term": "澤瀉",
+        "count": 40,
+        "rule_ids": []
+      },
+      {
+        "term": "細辛",
+        "count": 36,
+        "rule_ids": []
+      },
+      {
+        "term": "阿膠",
+        "count": 35,
+        "rule_ids": []
+      },
+      {
+        "term": "牡蠣",
+        "count": 34,
+        "rule_ids": []
+      },
+      {
+        "term": "知母",
+        "count": 33,
+        "rule_ids": []
+      },
+      {
+        "term": "粳米",
+        "count": 31,
+        "rule_ids": []
+      },
+      {
+        "term": "葛根",
+        "count": 29,
+        "rule_ids": []
+      }
+    ]
+  }
+}

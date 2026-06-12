@@ -1,0 +1,603 @@
+{
+  "topic": "胸痹",
+  "classical_terms": [
+    "胸痹"
+  ],
+  "clauses_found": 60,
+  "books": [
+    "傷寒尋源",
+    "傷寒補例",
+    "傷寒論輯義",
+    "曹氏傷寒金匱發微合刊",
+    "金匱玉函經二註",
+    "金匱玉函要略輯義",
+    "金匱玉函要略述義",
+    "金匱要略方論",
+    "金匱要略淺註"
+  ],
+  "top_entities": {
+    "symptoms": [
+      [
+        "短氣",
+        8
+      ],
+      [
+        "胸滿",
+        7
+      ],
+      [
+        "不得臥",
+        7
+      ],
+      [
+        "心痛徹背",
+        6
+      ],
+      [
+        "喘息",
+        5
+      ],
+      [
+        "咳",
+        5
+      ],
+      [
+        "喘",
+        1
+      ],
+      [
+        "心煩",
+        1
+      ],
+      [
+        "喜嘔",
+        1
+      ],
+      [
+        "寒熱",
+        1
+      ]
+    ],
+    "pulse": [
+      [
+        "陽微陰弦",
+        4
+      ],
+      [
+        "寸口脈沉",
+        3
+      ],
+      [
+        "脈數",
+        1
+      ]
+    ],
+    "formula": [
+      [
+        "人參湯",
+        6
+      ],
+      [
+        "栝蔞薤白半夏湯",
+        5
+      ],
+      [
+        "枳實薤白桂枝湯",
+        5
+      ],
+      [
+        "桂枝湯",
+        5
+      ],
+      [
+        "甘草湯",
+        4
+      ],
+      [
+        "茯苓杏仁甘草湯",
+        4
+      ],
+      [
+        "薏苡附子散",
+        4
+      ],
+      [
+        "栝蔞薤白白酒湯",
+        3
+      ],
+      [
+        "橘枳薑湯",
+        3
+      ],
+      [
+        "理中湯",
+        2
+      ],
+      [
+        "有痰飲",
+        2
+      ],
+      [
+        "不嘔則並無飲",
+        1
+      ]
+    ],
+    "herbs": [
+      [
+        "薤白",
+        14
+      ],
+      [
+        "枳實",
+        11
+      ],
+      [
+        "人參",
+        10
+      ],
+      [
+        "茯苓",
+        8
+      ],
+      [
+        "甘草",
+        8
+      ],
+      [
+        "附子",
+        8
+      ],
+      [
+        "半夏",
+        7
+      ],
+      [
+        "桂枝",
+        7
+      ],
+      [
+        "杏仁",
+        5
+      ],
+      [
+        "生薑",
+        4
+      ],
+      [
+        "白酒",
+        3
+      ],
+      [
+        "薏苡仁",
+        3
+      ]
+    ],
+    "pathomechanism": []
+  },
+  "evidence_chain": [
+    {
+      "book_title": "傷寒補例",
+      "chapter_title": "無端暴喘即是寒入命門傷寒雜病皆有之",
+      "source_unit_id": "SU_B1C314366_000073",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "連十劑已。又楊某因先患熱病。重用茯苓澤瀉而愈。遂畏溫藥如鴆砒。一日胸痹氣窒。上下不續呼吸抬肩。勢欲作喘。予曰。非沉香肉桂不可。勉強服之。一劑定。四五劑已。此非自病。但因藥誤。故挽回較易也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "傷寒"
+      ]
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "小柴胡湯",
+      "source_unit_id": "SU_B8E444005_000534",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "不嘔則並無飲邪。何須半夏逐飲。不嘔而但煩。則煩非本證心煩喜嘔之煩。而正為熱邪摶結將欲入裡之煩。若用人參。不能轉正。反能實邪。禍不小矣。故並去之而加栝蔞實。以栝蔞實能降熱痰而開胸痹也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "傷寒"
+      ]
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001489",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "又曰。孫主簿述之母。患胸中痞急。不得喘息。按之則痛。脈數且澀。此胸痹也。因與仲景三物小陷胸湯。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "傷寒"
+      ]
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003319",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "金匱要略。胸痹。心中痞。氣結在胸。胸滿脅下逆搶心。人參湯主之。程林注。此即理中湯也。中氣強。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "傷寒"
+      ]
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003320",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "則痞氣能散。胸滿能消。脅氣能下。人參白朮。所以益脾。甘草乾薑。所以溫胃。脾胃得其和。則上焦之氣開發。而胸痹亦愈。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "傷寒"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001413",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "師曰，夫脈當阪太過不及，陽微陰弦，即胸痹而痛，所以然者，責其極虛也，今陽虛知在上焦，所以胸痹，心痛者，以其陰弦故也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001419",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹不得臥，心痛澈背，栝蔞薤白半夏湯主之",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001423",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹，心中痞氣，氣結在胸，胸滿胃下逆搶心，枳實薤白桂枝湯主之，人參湯亦主之",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001429",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹、胸中氣寒，短氣，茯苓杏仁甘草湯主之，橘枳生薑湯亦主之",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001436",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹緩急者，薏苡附子散主之",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "五藏風寒積聚病脈證並治第十一",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001522",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "此烏頭赤石脂丸證，說詳胸痹篇不贅。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "綜合"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000663",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "師曰。夫脈當取太過不及。陽微陰弦。即胸痹而痛。所以然者。責其極虛也。今陽虛知在上焦。所以胸痹心痛者。以其陰弦故也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000668",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹之病。喘息咳唾。胸背痛。短氣。寸口脈沉而遲。關上小緊數。栝蔞薤白白酒湯主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000673",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000677",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "〔補注〕胸痹痹在氣。氣在上焦。故即不言脈。而與上條無異。即證亦不甚相異也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000679",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹。心中痞氣。氣結在胸。胸滿。脅下逆搶心。枳實薤白桂枝湯主之。人參湯亦主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000688",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹。胸中氣塞短氣。茯苓杏仁甘草湯主之。橘枳薑湯亦主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000696",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹緩急者。薏苡附子散主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000699",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "〔補注〕胸痹緩急者。痹之急證也。寒飲上聚心膈。使陽氣不達。危急為何如乎。故取薏苡逐水為君。附子之辛熱為佐。驅除寒結。席卷而下。又烏能不勝任而愉快耶。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000324",
+      "text_type": "commentary",
+      "clause_no": null,
+      "quote": "師曰：夫脈當取太過不及，陽微陰弦，即胸痹而痛，所以然者，責其極虛也。今陽虛知在上焦，所以胸痹、心痛者，以其陰弦故也。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000326",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹之病，喘息咳唾，胸背痛，短氣，寸口脈沉而遲，關上小緊數，栝蔞薤白白酒湯主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000330",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000334",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹心中痞，留氣結在胸，胸滿，脅下逆搶心，枳實薤白桂枝湯主之；人參湯亦主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000341",
+      "text_type": "original",
+      "clause_no": null,
+      "quote": "胸痹，胸中氣塞，短氣，茯苓杏仁甘草湯主之；橘枳薑湯亦主之。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000347",
+      "text_type": "formula",
+      "clause_no": null,
+      "quote": "右三味，以水五升，煮取二升，分溫再服。《肘後》《千金》云：治胸痹，胸中愊愊如滿，噎塞習習如癢，喉中澀燥，唾沫。",
+      "score": 1.5,
+      "matched_terms": [
+        "胸痹"
+      ],
+      "category_path": [
+        "傷寒金匱類",
+        "金匱"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "古籍中「胸痹」证治以人參湯、栝蔞薤白半夏湯、枳實薤白桂枝湯为核心，提示可围绕该方药组合开展现代机制与临床研究。",
+      "supporting_pattern": {
+        "formulas": [
+          "人參湯",
+          "栝蔞薤白半夏湯",
+          "枳實薤白桂枝湯"
+        ],
+        "symptoms": [
+          "短氣",
+          "胸滿",
+          "不得臥",
+          "心痛徹背"
+        ]
+      },
+      "suggested_methods": [
+        "古籍证据系统梳理",
+        "网络药理学",
+        "回顾性病例分析"
+      ],
+      "novelty_note": "需检索现代文献验证该组合是否已被系统研究。"
+    }
+  ]
+}

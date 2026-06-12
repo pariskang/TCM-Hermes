@@ -1,0 +1,149 @@
+{
+  "skill_id": "hermes.formula.formula_8303e904",
+  "kind": "formula",
+  "title": "梔子大黃湯方證合併規則",
+  "subject": "梔子大黃湯",
+  "abstracted_claim": "梔子大黃湯可歸納為酒疸、黃疸、陽明病、心中懊憹、發黃等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_8303E904",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001254",
+    "IR_JGYH_ERZHU_000219",
+    "IR_JGYL_FANGLUN_000175",
+    "IR_JGYL_TIAOWEN_000175",
+    "IR_SHL_GUIBEN_000880"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001254",
+      "IR_JGYH_ERZHU_000219",
+      "IR_JGYL_FANGLUN_000175",
+      "IR_JGYL_TIAOWEN_000175",
+      "IR_SHL_GUIBEN_000880"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "黃疸病脈證並治第十五",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001772",
+      "evidence_span": "酒癉心中懊憹，或熱痛，梔子大黃湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "黃膽病脈證並治第十五",
+      "source_unit_id": "SU_JGYH_ERZHU_001332",
+      "evidence_span": "酒疸病心中懊　。或熱痛。梔子大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "黃疸病脈證并治第十五",
+      "source_unit_id": "SU_JGYL_FANGLUN_000672",
+      "evidence_span": "酒黃疸，心中懊憹或熱痛，梔子大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "黃疸病脈證并治第十五",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000670",
+      "evidence_span": "酒黃疸，心中懊憹或熱痛，梔子大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000801",
+      "evidence_span": "9.87陽明病，身熱，發黃，心中懊憹，或熱痛，因於酒食者，此名酒疸，梔子大黃湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "發黃",
+        "陽明病"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000880"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "大黃",
+        "梔子"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001255"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大黃一兩",
+        "枳實五枚",
+        "梔子十四枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000881"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "酒疸",
+        "count": 2
+      },
+      {
+        "term": "黃疸",
+        "count": 2
+      },
+      {
+        "term": "陽明病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心中懊憹",
+        "count": 4
+      },
+      {
+        "term": "發黃",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "梔子大黃湯",
+    "酒疸",
+    "黃疸",
+    "陽明病",
+    "心中懊憹",
+    "發黃"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

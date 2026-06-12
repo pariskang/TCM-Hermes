@@ -1,0 +1,537 @@
+{
+  "skill_id": "hermes.formula.tongmai_sini_tang",
+  "kind": "formula",
+  "title": "通脈四逆湯方證合併規則",
+  "subject": "通脈四逆湯",
+  "abstracted_claim": "通脈四逆湯可歸納為下利、少陰病、厥、汗出、咽痛、乾嘔等方證的核心方（支持條文 68 條，跨 34 部書）。",
+  "merged_rule_id": "MHR_FORMULA_TONGMAI_SINI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.91,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000639",
+    "IR_B0B74DF58_000746",
+    "IR_B11498305_000371",
+    "IR_B11498305_000416",
+    "IR_B1CAC3ADF_000083",
+    "IR_B1CAC3ADF_000795",
+    "IR_B1CAC3ADF_000878",
+    "IR_B2EB248E3_000168",
+    "IR_B3E16D849_001639",
+    "IR_B3E16D849_001641",
+    "IR_B3E16D849_001656",
+    "IR_B3E16D849_001657",
+    "IR_B3E16D849_001658",
+    "IR_B3E16D849_001659",
+    "IR_B3E16D849_001665",
+    "IR_B3E16D849_001676",
+    "IR_B3E16D849_001732",
+    "IR_B3E16D849_001733",
+    "IR_B3E16D849_001774",
+    "IR_B3E16D849_001799",
+    "IR_B3E16D849_001922",
+    "IR_B3E520529_000053",
+    "IR_B41512D4B_001071",
+    "IR_B5C5ECAC2_000132",
+    "IR_B5FF1CA1B_000402",
+    "IR_B5FF1CA1B_000444",
+    "IR_B8E444005_000169",
+    "IR_B8E444005_000171",
+    "IR_B9119D083_000196",
+    "IR_B9119D083_000533",
+    "IR_B9119D083_000534",
+    "IR_BB711944D_000039",
+    "IR_BB7301DF2_000123",
+    "IR_BBAACE965_000812",
+    "IR_BBAACE965_001351",
+    "IR_BC2BA03C0_000307",
+    "IR_BC91F4420_000501",
+    "IR_BC91F4420_000539",
+    "IR_BCCBDEC5F_000213",
+    "IR_BF5CDC206_000180",
+    "IR_BF5CDC206_000231",
+    "IR_CAOSHI_FAWEI_000863",
+    "IR_CAOSHI_FAWEI_001365",
+    "IR_JGYH_ERZHU_000315",
+    "IR_JGYL_FANGLUN_000236",
+    "IR_JGYL_JIYI_000402",
+    "IR_JGYL_QIANZHU_000266",
+    "IR_JGYL_TIAOWEN_000236",
+    "IR_JGYL_XINDIAN_000268",
+    "IR_SHL_GUANZHU_000607",
+    "IR_SHL_GUANZHU_000702",
+    "IR_SHL_GUIBEN_001038",
+    "IR_SHL_GUIBEN_001120",
+    "IR_SHL_LAISU_000643",
+    "IR_SHL_LAISU_000645",
+    "IR_SHL_LUNZHU_000651",
+    "IR_SHL_LUNZHU_000653",
+    "IR_SHL_QJYF_000235",
+    "IR_SHL_QJYF_000281",
+    "IR_SHL_SONGBEN_000391",
+    "IR_SHL_SONGBEN_000438",
+    "IR_SHL_SUYUAN_001152",
+    "IR_SHL_SUYUAN_001279",
+    "IR_SHL_SUYUAN_001280",
+    "IR_SHL_TIAOWEN_000345",
+    "IR_SHL_TIAOWEN_000392",
+    "IR_SHL_ZHUJIE_000906",
+    "IR_SHL_ZHUJIE_001011"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000639",
+      "IR_B0B74DF58_000746",
+      "IR_B11498305_000371",
+      "IR_B11498305_000416",
+      "IR_B1CAC3ADF_000083",
+      "IR_B1CAC3ADF_000795",
+      "IR_B1CAC3ADF_000878",
+      "IR_B2EB248E3_000168",
+      "IR_B3E16D849_001639",
+      "IR_B3E16D849_001641",
+      "IR_B3E16D849_001656",
+      "IR_B3E16D849_001657",
+      "IR_B3E16D849_001658",
+      "IR_B3E16D849_001659",
+      "IR_B3E16D849_001665",
+      "IR_B3E16D849_001676",
+      "IR_B3E16D849_001732",
+      "IR_B3E16D849_001733",
+      "IR_B3E16D849_001774",
+      "IR_B3E16D849_001799",
+      "IR_B3E16D849_001922",
+      "IR_B3E520529_000053",
+      "IR_B41512D4B_001071",
+      "IR_B5C5ECAC2_000132",
+      "IR_B5FF1CA1B_000402",
+      "IR_B5FF1CA1B_000444",
+      "IR_B8E444005_000169",
+      "IR_B8E444005_000171",
+      "IR_B9119D083_000196",
+      "IR_B9119D083_000533",
+      "IR_B9119D083_000534",
+      "IR_BB711944D_000039",
+      "IR_BB7301DF2_000123",
+      "IR_BBAACE965_000812",
+      "IR_BBAACE965_001351",
+      "IR_BC2BA03C0_000307",
+      "IR_BC91F4420_000501",
+      "IR_BC91F4420_000539",
+      "IR_BCCBDEC5F_000213",
+      "IR_BF5CDC206_000180",
+      "IR_BF5CDC206_000231",
+      "IR_CAOSHI_FAWEI_000863",
+      "IR_CAOSHI_FAWEI_001365",
+      "IR_JGYH_ERZHU_000315",
+      "IR_JGYL_FANGLUN_000236",
+      "IR_JGYL_JIYI_000402",
+      "IR_JGYL_QIANZHU_000266",
+      "IR_JGYL_TIAOWEN_000236",
+      "IR_JGYL_XINDIAN_000268",
+      "IR_SHL_GUANZHU_000607",
+      "IR_SHL_GUANZHU_000702",
+      "IR_SHL_GUIBEN_001038",
+      "IR_SHL_GUIBEN_001120",
+      "IR_SHL_LAISU_000643",
+      "IR_SHL_LAISU_000645",
+      "IR_SHL_LUNZHU_000651",
+      "IR_SHL_LUNZHU_000653",
+      "IR_SHL_QJYF_000235",
+      "IR_SHL_QJYF_000281",
+      "IR_SHL_SONGBEN_000391",
+      "IR_SHL_SONGBEN_000438",
+      "IR_SHL_SUYUAN_001152",
+      "IR_SHL_SUYUAN_001279",
+      "IR_SHL_SUYUAN_001280",
+      "IR_SHL_TIAOWEN_000345",
+      "IR_SHL_TIAOWEN_000392",
+      "IR_SHL_ZHUJIE_000906",
+      "IR_SHL_ZHUJIE_001011"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "解仲景脈說",
+      "source_unit_id": "SU_BC2BA03C0_001344",
+      "evidence_span": "主之；下利有諸證，用通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "真武湯方第九十七",
+      "source_unit_id": "SU_B1CAC3ADF_002117",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003332",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "面色",
+      "source_unit_id": "SU_B3E16D849_003370",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咽痛咽乾口燥",
+      "source_unit_id": "SU_B3E16D849_003422",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003567",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003664",
+      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "下利清穀",
+      "source_unit_id": "SU_B3E16D849_003711",
+      "evidence_span": "或乾嘔。或利止。脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B5FF1CA1B_000749",
+      "evidence_span": "下利清穀裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第三十九證‧發熱歌",
+      "source_unit_id": "SU_BB7301DF2_000120",
+      "evidence_span": "下利清穀。裡寒外熱。手足厥逆。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_XINDIAN_001424",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "厥陰病狀第三",
+      "source_unit_id": "SU_SHL_QJYF_000367",
+      "evidence_span": "下利清穀，裡寒外熱，汗出而厥，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B11498305_000572",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "乾薑黃連黃芩人參湯方第一百零四",
+      "source_unit_id": "SU_B1CAC3ADF_002326",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "當歸四逆湯方",
+      "source_unit_id": "SU_B2EB248E3_000359",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003338",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "表熱裡寒表寒裡熱",
+      "source_unit_id": "SU_B3E16D849_003360",
+      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "表熱裡寒表寒裡熱",
+      "source_unit_id": "SU_B3E16D849_003363",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "面色",
+      "source_unit_id": "SU_B3E16D849_003370",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "頭痛眩冒",
+      "source_unit_id": "SU_B3E16D849_003384",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003567",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "白頭翁湯方",
+      "source_unit_id": "SU_B41512D4B_002200",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "下利",
+      "source_unit_id": "SU_B5C5ECAC2_000704",
+      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰上編",
+      "source_unit_id": "SU_B5FF1CA1B_000648",
+      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B8E444005_000268",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003223",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001162",
+      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000200",
+      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_BF5CDC206_000254",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000968",
+      "evidence_span": "時寒外熱。脈微欲絕。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9119D083",
+      "book_title": "傷寒大白",
+      "distinct_conditions": [
+        "脈沉"
+      ],
+      "rule_ids": [
+        "IR_B9119D083_000196",
+        "IR_B9119D083_000533",
+        "IR_B9119D083_000534"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "甘草",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001243",
+        "IR_BC91F4420_000502",
+        "IR_SHL_GUANZHU_000608",
+        "IR_SHL_ZHUJIE_000909"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參二兩",
+        "甘草二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000336",
+        "IR_SHL_GUIBEN_001121"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參二兩",
+        "桔梗一兩",
+        "甘草二兩",
+        "生薑二兩",
+        "芍藥二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001039"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "人參二兩",
+        "桔梗一兩",
+        "生薑二兩",
+        "芍藥二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000647"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 49
+      },
+      {
+        "term": "少陰病",
+        "count": 12
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "厥",
+        "count": 49
+      },
+      {
+        "term": "汗出",
+        "count": 34
+      },
+      {
+        "term": "咽痛",
+        "count": 25
+      },
+      {
+        "term": "乾嘔",
+        "count": 20
+      },
+      {
+        "term": "腹痛",
+        "count": 13
+      },
+      {
+        "term": "惡寒",
+        "count": 12
+      },
+      {
+        "term": "四逆",
+        "count": 7
+      },
+      {
+        "term": "面赤",
+        "count": 6
+      },
+      {
+        "term": "面色赤",
+        "count": 5
+      },
+      {
+        "term": "發熱",
+        "count": 3
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微欲絕",
+        "count": 15
+      },
+      {
+        "term": "脈沉",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "回陽通脈",
+        "count": 68
+      }
+    ]
+  },
+  "keywords": [
+    "通脈四逆湯",
+    "下利",
+    "少陰病",
+    "厥",
+    "汗出",
+    "咽痛",
+    "乾嘔",
+    "腹痛",
+    "脈微欲絕",
+    "脈沉"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

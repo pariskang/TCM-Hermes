@@ -1,0 +1,96 @@
+{
+  "skill_id": "hermes.formula.formula_93b17a90",
+  "kind": "formula",
+  "title": "人參湯方證合併規則",
+  "subject": "人參湯",
+  "abstracted_claim": "人參湯可歸納為痞、傷寒、胸滿等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_93B17A90",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_BBAACE965_001383",
+    "IR_SHL_ZHUJIE_000993"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BBAACE965_001383",
+      "IR_SHL_ZHUJIE_000993"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003319",
+      "evidence_span": "心中痞。氣結在胸。胸滿脅下逆搶心。人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨厥陰病脈證並治法第十二",
+      "source_unit_id": "SU_SHL_ZHUJIE_001556",
+      "evidence_span": "傷寒本自寒下，醫復吐下之，寒格，更逆吐下；若食入口即吐，乾薑黃連黃芩（趙本作「黃芩黃連」）人參湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BBAACE965",
+      "book_title": "傷寒論輯義",
+      "distinct_conditions": [
+        "痞",
+        "胸滿"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001383"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_ZHUJIE",
+      "book_title": "註解傷寒論",
+      "distinct_conditions": [
+        "傷寒"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000993"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "痞",
+        "count": 1
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "胸滿",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "人參湯",
+    "痞",
+    "傷寒",
+    "胸滿"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

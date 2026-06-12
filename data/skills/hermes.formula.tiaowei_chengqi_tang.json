@@ -1,0 +1,584 @@
+{
+  "skill_id": "hermes.formula.tiaowei_chengqi_tang",
+  "kind": "formula",
+  "title": "調胃承氣湯方證合併規則",
+  "subject": "調胃承氣湯",
+  "abstracted_claim": "調胃承氣湯可歸納為太陽病、傷寒、下利、陽明病、腹滿、少陰病等方證的核心方（支持條文 48 條，跨 22 部書）。",
+  "merged_rule_id": "MHR_FORMULA_TIAOWEI_CHENGQI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.909,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000440",
+    "IR_B0B74DF58_000777",
+    "IR_B11498305_000107",
+    "IR_B11498305_000236",
+    "IR_B11498305_000242",
+    "IR_B1CAC3ADF_000288",
+    "IR_B3E16D849_001027",
+    "IR_B41512D4B_000300",
+    "IR_B41512D4B_000601",
+    "IR_B41512D4B_000614",
+    "IR_B41512D4B_000798",
+    "IR_B5FF1CA1B_000132",
+    "IR_B6C3E769F_000073",
+    "IR_B8E444005_000055",
+    "IR_B8E444005_000098",
+    "IR_B8E444005_000129",
+    "IR_B9119D083_000121",
+    "IR_B9119D083_000459",
+    "IR_BBAACE965_000330",
+    "IR_BBAACE965_000474",
+    "IR_BBAACE965_001057",
+    "IR_BC91F4420_000085",
+    "IR_BC91F4420_000337",
+    "IR_BC91F4420_000350",
+    "IR_CAOSHI_FAWEI_000273",
+    "IR_CAOSHI_FAWEI_000631",
+    "IR_SHL_GUANZHU_000101",
+    "IR_SHL_GUANZHU_000384",
+    "IR_SHL_GUANZHU_000385",
+    "IR_SHL_GUIBEN_000563",
+    "IR_SHL_GUIBEN_000858",
+    "IR_SHL_LAISU_000441",
+    "IR_SHL_LAISU_000451",
+    "IR_SHL_LUNZHU_000434",
+    "IR_SHL_LUNZHU_000446",
+    "IR_SHL_MINGLI_000043",
+    "IR_SHL_QJYF_000046",
+    "IR_SHL_SONGBEN_000169",
+    "IR_SHL_SONGBEN_000327",
+    "IR_SHL_SUYUAN_000042",
+    "IR_SHL_SUYUAN_000756",
+    "IR_SHL_SUYUAN_000761",
+    "IR_SHL_SUYUAN_000789",
+    "IR_SHL_TIAOWEN_000123",
+    "IR_SHL_TIAOWEN_000281",
+    "IR_SHL_ZHUJIE_000344",
+    "IR_SHL_ZHUJIE_000375",
+    "IR_SHL_ZHUJIE_000766"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000440",
+      "IR_B0B74DF58_000777",
+      "IR_B11498305_000107",
+      "IR_B11498305_000236",
+      "IR_B11498305_000242",
+      "IR_B1CAC3ADF_000288",
+      "IR_B3E16D849_001027",
+      "IR_B41512D4B_000300",
+      "IR_B41512D4B_000601",
+      "IR_B41512D4B_000614",
+      "IR_B41512D4B_000798",
+      "IR_B5FF1CA1B_000132",
+      "IR_B6C3E769F_000073",
+      "IR_B8E444005_000055",
+      "IR_B8E444005_000098",
+      "IR_B8E444005_000129",
+      "IR_B9119D083_000121",
+      "IR_B9119D083_000459",
+      "IR_BBAACE965_000330",
+      "IR_BBAACE965_000474",
+      "IR_BBAACE965_001057",
+      "IR_BC91F4420_000085",
+      "IR_BC91F4420_000337",
+      "IR_BC91F4420_000350",
+      "IR_CAOSHI_FAWEI_000273",
+      "IR_CAOSHI_FAWEI_000631",
+      "IR_SHL_GUANZHU_000101",
+      "IR_SHL_GUANZHU_000384",
+      "IR_SHL_GUANZHU_000385",
+      "IR_SHL_GUIBEN_000563",
+      "IR_SHL_GUIBEN_000858",
+      "IR_SHL_LAISU_000441",
+      "IR_SHL_LAISU_000451",
+      "IR_SHL_LUNZHU_000434",
+      "IR_SHL_LUNZHU_000446",
+      "IR_SHL_MINGLI_000043",
+      "IR_SHL_QJYF_000046",
+      "IR_SHL_SONGBEN_000169",
+      "IR_SHL_SONGBEN_000327",
+      "IR_SHL_SUYUAN_000042",
+      "IR_SHL_SUYUAN_000756",
+      "IR_SHL_SUYUAN_000761",
+      "IR_SHL_SUYUAN_000789",
+      "IR_SHL_TIAOWEN_000123",
+      "IR_SHL_TIAOWEN_000281",
+      "IR_SHL_ZHUJIE_000344",
+      "IR_SHL_ZHUJIE_000375",
+      "IR_SHL_ZHUJIE_000766"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B8E444005_000174",
+      "evidence_span": "發汗不解。蒸蒸發熱者。屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000774",
+      "evidence_span": "發汗不解。蒸蒸發熱者。屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "正陽陽明證治第十二",
+      "source_unit_id": "SU_SHL_SUYUAN_001782",
+      "evidence_span": "發汗不解。蒸蒸發熱者。屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "譫語鄭聲",
+      "source_unit_id": "SU_B3E16D849_002113",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "調胃承氣湯方",
+      "source_unit_id": "SU_B41512D4B_001372",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "敖氏傷寒金鏡錄",
+      "chapter_title": "第三十一‧黃苔黑中舌",
+      "source_unit_id": "SU_B6C3E769F_000302",
+      "evidence_span": "亦死。不惡寒而下利者。可治。宜用調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_001176",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治下編第三",
+      "source_unit_id": "SU_BC91F4420_000733",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000334",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001697",
+      "evidence_span": "脈當微厥。今反和者。此為內實也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "梔子乾薑湯方第三十七",
+      "source_unit_id": "SU_B1CAC3ADF_001150",
+      "evidence_span": "但陰脈微者。下之而解。若欲下之。宜調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "梔子乾薑湯方",
+      "source_unit_id": "SU_B41512D4B_000783",
+      "evidence_span": "但陰脈微者。下之而解。若欲下之。宜調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002476",
+      "evidence_span": "三日發汗不解。蒸蒸發熱者。屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000237",
+      "evidence_span": "但陰脈微者。下之而解。若欲下之。宜調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨陽明病脈證並治第四",
+      "source_unit_id": "SU_BC91F4420_000783",
+      "evidence_span": "三日。發汗不解。蒸蒸發熱者屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "陽明篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000692",
+      "evidence_span": "二日發汗不解。蒸蒸發熱者。屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000123",
+      "evidence_span": "但陰脈微者。下之而解。若欲下之。宜調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "調胃承氣湯方",
+      "source_unit_id": "SU_B41512D4B_001377",
+      "evidence_span": "太陽病三日。發汗不解蒸蒸發熱者屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001700",
+      "evidence_span": "且小便自利。則裡無大熱。不須攻下。故以調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "陽明下篇",
+      "source_unit_id": "SU_B11498305_000327",
+      "evidence_span": "太陽病三日，發汗不解蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "潮熱",
+      "source_unit_id": "SU_B8E444005_000211",
+      "evidence_span": "太陽病三日。發汗不解。蒸蒸發熱者屬胃也。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B9119D083_000166",
+      "evidence_span": "太陽病，三日發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B9119D083_001186",
+      "evidence_span": "太陽病三日，發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "調胃承氣湯證四條",
+      "source_unit_id": "SU_SHL_GUANZHU_000245",
+      "evidence_span": "太陽病三日，發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨陽明病脈證並治第八",
+      "source_unit_id": "SU_SHL_SONGBEN_000650",
+      "evidence_span": "太陽病三日，發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000497",
+      "evidence_span": "太陽病三日，發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨陽明病脈證並治法第八",
+      "source_unit_id": "SU_SHL_ZHUJIE_001226",
+      "evidence_span": "太陽病三日，發汗不解，蒸蒸發熱者，屬胃也，調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000197",
+      "evidence_span": "先汗出而解。但陰脈微者下之而解。若欲下之。宜調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_B8E444005_000233",
+      "evidence_span": "又非吐法所能除。經云。陽明病不吐不下心煩者。調胃承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000784",
+      "evidence_span": "9.72太陽病二日，發汗不解，蒸蒸發熱者，屬陽明也，調胃承氣湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B8E444005",
+      "book_title": "傷寒尋源",
+      "distinct_conditions": [
+        "心煩",
+        "陽明病"
+      ],
+      "rule_ids": [
+        "IR_B8E444005_000055",
+        "IR_B8E444005_000098",
+        "IR_B8E444005_000129"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "不大便",
+        "咽乾",
+        "寒熱",
+        "少陰病",
+        "燥屎",
+        "腹滿",
+        "自利"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000043"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "大便難",
+        "潮熱"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000046"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "小便自利"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000042",
+        "IR_SHL_SUYUAN_000756",
+        "IR_SHL_SUYUAN_000761",
+        "IR_SHL_SUYUAN_000789"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_ZHUJIE",
+      "book_title": "註解傷寒論",
+      "distinct_conditions": [
+        "脈實"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000344",
+        "IR_SHL_ZHUJIE_000375",
+        "IR_SHL_ZHUJIE_000766"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "大黃",
+        "清酒",
+        "甘草",
+        "芒硝"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000122",
+        "IR_BC91F4420_000301",
+        "IR_SHL_ZHUJIE_000183"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "大黃",
+        "炙甘草",
+        "芒硝"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000103"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大黃四兩",
+        "甘草二兩",
+        "芒硝半斤"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000056",
+        "IR_SHL_GUIBEN_000171",
+        "IR_SHL_GUIBEN_000406",
+        "IR_SHL_GUIBEN_000760"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "大黃",
+        "炙甘草",
+        "甘草",
+        "芒硝"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000500"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現調胃承氣湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000043"
+      ],
+      "book_title": "傷寒明理論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 19
+      },
+      {
+        "term": "傷寒",
+        "count": 10
+      },
+      {
+        "term": "下利",
+        "count": 10
+      },
+      {
+        "term": "陽明病",
+        "count": 1
+      },
+      {
+        "term": "腹滿",
+        "count": 1
+      },
+      {
+        "term": "少陰病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "蒸蒸發熱",
+        "count": 21
+      },
+      {
+        "term": "厥",
+        "count": 13
+      },
+      {
+        "term": "小便利",
+        "count": 9
+      },
+      {
+        "term": "譫語",
+        "count": 8
+      },
+      {
+        "term": "汗出",
+        "count": 5
+      },
+      {
+        "term": "惡寒",
+        "count": 3
+      },
+      {
+        "term": "惡熱",
+        "count": 2
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "寒熱",
+        "count": 1
+      },
+      {
+        "term": "燥屎",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微",
+        "count": 8
+      },
+      {
+        "term": "脈實",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "緩下熱結",
+        "count": 48
+      },
+      {
+        "term": "和胃氣",
+        "count": 48
+      }
+    ]
+  },
+  "keywords": [
+    "調胃承氣湯",
+    "太陽病",
+    "傷寒",
+    "下利",
+    "陽明病",
+    "腹滿",
+    "蒸蒸發熱",
+    "厥",
+    "小便利",
+    "譫語",
+    "汗出",
+    "脈微",
+    "脈實"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

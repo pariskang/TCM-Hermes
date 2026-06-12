@@ -1,0 +1,217 @@
+{
+  "skill_id": "hermes.formula.dahuang_mudan_tang",
+  "kind": "formula",
+  "title": "大黃牡丹湯方證合併規則",
+  "subject": "大黃牡丹湯",
+  "abstracted_claim": "大黃牡丹湯可歸納為腸癰、痞、發熱、惡寒、自汗出、汗出等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_DAHUANG_MUDAN_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.906,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001369",
+    "IR_JF_SHIYANLU_000180",
+    "IR_JGYL_FANGLUN_000242",
+    "IR_JGYL_TIAOWEN_000242",
+    "IR_SHL_GUIBEN_001523"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001369",
+      "IR_JF_SHIYANLU_000180",
+      "IR_JGYL_FANGLUN_000242",
+      "IR_JGYL_TIAOWEN_000242",
+      "IR_SHL_GUIBEN_001523"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "瘡癰腸癰浸淫病脈證并治第十八",
+      "source_unit_id": "SU_JGYL_FANGLUN_000854",
+      "evidence_span": "腸癰者，少腹腫痞，按之即痛如淋，小便自調，時時發熱，自汗出，復惡寒。其脈遲緊者，膿未成，可下之，當有血。脈洪數者，膿已成，不可下也，大黃牡丹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "瘡癰腸癰浸淫病脈證并治第十八",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000852",
+      "evidence_span": "腸癰者，少腹腫痞，按之即痛如淋，小便自調，時時發熱，自汗出，復惡寒。其脈遲緊者，膿未成，可下之，當有血。脈洪數者，膿已成，不可下也，大黃牡丹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第七九案　腸癰　其三穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000490",
+      "evidence_span": "《金匱》曰：「腸癰者，少腹腫痞，按之即痛如淋，小便自調，時時發熱，自汗出，復惡寒，其脈遲緊者，膿未成，可下之，當有血，脈洪數者，膿已成，不可下也，大黃牡丹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001328",
+      "evidence_span": "15.17少腹腫痞，按之即痛如淋，小便自調，時時發熱，自汗出，復惡寒，此為腸外有癰也。其脈沉緊者，膿未成也，下之當有血；脈洪數者，膿已成也，可下之，大黃牡丹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "瘡癰，腸癰，浸淫病脈證治第十八",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001981",
+      "evidence_span": "腸癰之為病，其身甲錯，腹皮急如腫狀，按之濡（此下與後條錯簡，今校正）時時發熱，熱汗出，反惡寒，其脈遲緊者，膿未成，可下之，大黃牡丹湯主之，脈洪數者，膿已成，不可下也（三句舊誤在上，今校正）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "汗出"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001369"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "脈沉緊"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001523"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "大黃"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001372"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "冬瓜子半升",
+        "大黃四兩",
+        "桃仁五十個",
+        "芒硝三合"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001524"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001369"
+      ],
+      "book_title": "曹氏傷寒金匱發微合刊"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000180"
+      ],
+      "book_title": "經方實驗錄"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_FANGLUN_000242"
+      ],
+      "book_title": "金匱要略方論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_TIAOWEN_000242"
+      ],
+      "book_title": "金匱要略方論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "腸癰",
+        "count": 4
+      },
+      {
+        "term": "痞",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 5
+      },
+      {
+        "term": "惡寒",
+        "count": 5
+      },
+      {
+        "term": "自汗出",
+        "count": 4
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈遲",
+        "count": 4
+      },
+      {
+        "term": "脈沉緊",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "瀉熱破瘀",
+        "count": 5
+      },
+      {
+        "term": "散結消腫",
+        "count": 5
+      }
+    ]
+  },
+  "keywords": [
+    "大黃牡丹湯",
+    "腸癰",
+    "痞",
+    "發熱",
+    "惡寒",
+    "自汗出",
+    "汗出",
+    "脈遲",
+    "脈沉緊"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

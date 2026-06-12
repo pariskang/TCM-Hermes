@@ -1,0 +1,843 @@
+{
+  "skill_id": "hermes.formula.da_xianxiong_tang",
+  "kind": "formula",
+  "title": "大陷胸湯方證合併規則",
+  "subject": "大陷胸湯",
+  "abstracted_claim": "大陷胸湯可歸納為結胸、傷寒、太陽病、痞、陽明病、腹滿等方證的核心方（支持條文 124 條，跨 26 部書）。",
+  "merged_rule_id": "MHR_FORMULA_DA_XIANXIONG_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.905,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000099",
+    "IR_B0B74DF58_000103",
+    "IR_B0B74DF58_000192",
+    "IR_B0B74DF58_000229",
+    "IR_B0B74DF58_000235",
+    "IR_B0B74DF58_000531",
+    "IR_B11498305_000486",
+    "IR_B11498305_000492",
+    "IR_B11498305_000495",
+    "IR_B11498305_000506",
+    "IR_B1CAC3ADF_000383",
+    "IR_B1CAC3ADF_000386",
+    "IR_B1CAC3ADF_000390",
+    "IR_B1CAC3ADF_000429",
+    "IR_B3E16D849_000207",
+    "IR_B3E16D849_000347",
+    "IR_B3E16D849_000348",
+    "IR_B3E16D849_000366",
+    "IR_B3E16D849_000397",
+    "IR_B3E16D849_000403",
+    "IR_B3E16D849_000467",
+    "IR_B3E16D849_000597",
+    "IR_B3E16D849_001190",
+    "IR_B3E16D849_001461",
+    "IR_B3E16D849_001471",
+    "IR_B3E16D849_001512",
+    "IR_B41512D4B_000396",
+    "IR_B41512D4B_000399",
+    "IR_B41512D4B_000887",
+    "IR_B41512D4B_000904",
+    "IR_B5C5ECAC2_000295",
+    "IR_B5FF1CA1B_000524",
+    "IR_B5FF1CA1B_000538",
+    "IR_B8E444005_000104",
+    "IR_B8E444005_000173",
+    "IR_B8E444005_000371",
+    "IR_B8E444005_000385",
+    "IR_B9119D083_000090",
+    "IR_B9119D083_000246",
+    "IR_B9119D083_000475",
+    "IR_B9119D083_000481",
+    "IR_B9119D083_000484",
+    "IR_B9119D083_000564",
+    "IR_B9119D083_000571",
+    "IR_B9119D083_000582",
+    "IR_B9119D083_000592",
+    "IR_B9119D083_000597",
+    "IR_B9119D083_000603",
+    "IR_B9119D083_000813",
+    "IR_BB711944D_000229",
+    "IR_BB711944D_000234",
+    "IR_BB711944D_000249",
+    "IR_BB711944D_000908",
+    "IR_BBA9FB4A6_000073",
+    "IR_BBAACE965_000601",
+    "IR_BBAACE965_000610",
+    "IR_BBAACE965_000613",
+    "IR_BBAACE965_000614",
+    "IR_BBAACE965_000674",
+    "IR_BBAACE965_000676",
+    "IR_BC2BA03C0_000207",
+    "IR_BC91F4420_000069",
+    "IR_BC91F4420_000073",
+    "IR_BC91F4420_000216",
+    "IR_BC91F4420_000220",
+    "IR_BC91F4420_000237",
+    "IR_CAOSHI_FAWEI_000330",
+    "IR_CAOSHI_FAWEI_000337",
+    "IR_CAOSHI_FAWEI_000341",
+    "IR_CAOSHI_FAWEI_000343",
+    "IR_CAOSHI_FAWEI_000371",
+    "IR_JF_SHIYANLU_000137",
+    "IR_JF_SHIYANLU_000139",
+    "IR_JF_SHIYANLU_000140",
+    "IR_SHL_GUANZHU_000181",
+    "IR_SHL_GUANZHU_000187",
+    "IR_SHL_GUANZHU_000189",
+    "IR_SHL_GUANZHU_000192",
+    "IR_SHL_GUANZHU_000222",
+    "IR_SHL_GUIBEN_000639",
+    "IR_SHL_GUIBEN_000646",
+    "IR_SHL_GUIBEN_000648",
+    "IR_SHL_GUIBEN_000651",
+    "IR_SHL_GUIBEN_000679",
+    "IR_SHL_LAISU_000201",
+    "IR_SHL_LAISU_000205",
+    "IR_SHL_LAISU_000207",
+    "IR_SHL_LAISU_000231",
+    "IR_SHL_LAISU_000542",
+    "IR_SHL_LUNZHU_000197",
+    "IR_SHL_LUNZHU_000201",
+    "IR_SHL_LUNZHU_000205",
+    "IR_SHL_LUNZHU_000228",
+    "IR_SHL_LUNZHU_000538",
+    "IR_SHL_MINGLI_000035",
+    "IR_SHL_MINGLI_000114",
+    "IR_SHL_QJYF_000060",
+    "IR_SHL_QJYF_000062",
+    "IR_SHL_QJYF_000063",
+    "IR_SHL_QJYF_000064",
+    "IR_SHL_QJYF_000065",
+    "IR_SHL_SONGBEN_000197",
+    "IR_SHL_SONGBEN_000199",
+    "IR_SHL_SONGBEN_000201",
+    "IR_SHL_SONGBEN_000202",
+    "IR_SHL_SONGBEN_000219",
+    "IR_SHL_SUYUAN_000359",
+    "IR_SHL_SUYUAN_000380",
+    "IR_SHL_SUYUAN_000382",
+    "IR_SHL_SUYUAN_000386",
+    "IR_SHL_SUYUAN_000395",
+    "IR_SHL_SUYUAN_000435",
+    "IR_SHL_SUYUAN_000442",
+    "IR_SHL_SUYUAN_000929",
+    "IR_SHL_TIAOWEN_000151",
+    "IR_SHL_TIAOWEN_000153",
+    "IR_SHL_TIAOWEN_000155",
+    "IR_SHL_TIAOWEN_000156",
+    "IR_SHL_TIAOWEN_000173",
+    "IR_SHL_ZHUJIE_000444",
+    "IR_SHL_ZHUJIE_000449",
+    "IR_SHL_ZHUJIE_000452",
+    "IR_SHL_ZHUJIE_000455",
+    "IR_SHL_ZHUJIE_000499"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000099",
+      "IR_B0B74DF58_000103",
+      "IR_B0B74DF58_000192",
+      "IR_B0B74DF58_000229",
+      "IR_B0B74DF58_000235",
+      "IR_B0B74DF58_000531",
+      "IR_B11498305_000486",
+      "IR_B11498305_000492",
+      "IR_B11498305_000495",
+      "IR_B11498305_000506",
+      "IR_B1CAC3ADF_000383",
+      "IR_B1CAC3ADF_000386",
+      "IR_B1CAC3ADF_000390",
+      "IR_B1CAC3ADF_000429",
+      "IR_B3E16D849_000207",
+      "IR_B3E16D849_000347",
+      "IR_B3E16D849_000348",
+      "IR_B3E16D849_000366",
+      "IR_B3E16D849_000397",
+      "IR_B3E16D849_000403",
+      "IR_B3E16D849_000467",
+      "IR_B3E16D849_000597",
+      "IR_B3E16D849_001190",
+      "IR_B3E16D849_001461",
+      "IR_B3E16D849_001471",
+      "IR_B3E16D849_001512",
+      "IR_B41512D4B_000396",
+      "IR_B41512D4B_000399",
+      "IR_B41512D4B_000887",
+      "IR_B41512D4B_000904",
+      "IR_B5C5ECAC2_000295",
+      "IR_B5FF1CA1B_000524",
+      "IR_B5FF1CA1B_000538",
+      "IR_B8E444005_000104",
+      "IR_B8E444005_000173",
+      "IR_B8E444005_000371",
+      "IR_B8E444005_000385",
+      "IR_B9119D083_000090",
+      "IR_B9119D083_000246",
+      "IR_B9119D083_000475",
+      "IR_B9119D083_000481",
+      "IR_B9119D083_000484",
+      "IR_B9119D083_000564",
+      "IR_B9119D083_000571",
+      "IR_B9119D083_000582",
+      "IR_B9119D083_000592",
+      "IR_B9119D083_000597",
+      "IR_B9119D083_000603",
+      "IR_B9119D083_000813",
+      "IR_BB711944D_000229",
+      "IR_BB711944D_000234",
+      "IR_BB711944D_000249",
+      "IR_BB711944D_000908",
+      "IR_BBA9FB4A6_000073",
+      "IR_BBAACE965_000601",
+      "IR_BBAACE965_000610",
+      "IR_BBAACE965_000613",
+      "IR_BBAACE965_000614",
+      "IR_BBAACE965_000674",
+      "IR_BBAACE965_000676",
+      "IR_BC2BA03C0_000207",
+      "IR_BC91F4420_000069",
+      "IR_BC91F4420_000073",
+      "IR_BC91F4420_000216",
+      "IR_BC91F4420_000220",
+      "IR_BC91F4420_000237",
+      "IR_CAOSHI_FAWEI_000330",
+      "IR_CAOSHI_FAWEI_000337",
+      "IR_CAOSHI_FAWEI_000341",
+      "IR_CAOSHI_FAWEI_000343",
+      "IR_CAOSHI_FAWEI_000371",
+      "IR_JF_SHIYANLU_000137",
+      "IR_JF_SHIYANLU_000139",
+      "IR_JF_SHIYANLU_000140",
+      "IR_SHL_GUANZHU_000181",
+      "IR_SHL_GUANZHU_000187",
+      "IR_SHL_GUANZHU_000189",
+      "IR_SHL_GUANZHU_000192",
+      "IR_SHL_GUANZHU_000222",
+      "IR_SHL_GUIBEN_000639",
+      "IR_SHL_GUIBEN_000646",
+      "IR_SHL_GUIBEN_000648",
+      "IR_SHL_GUIBEN_000651",
+      "IR_SHL_GUIBEN_000679",
+      "IR_SHL_LAISU_000201",
+      "IR_SHL_LAISU_000205",
+      "IR_SHL_LAISU_000207",
+      "IR_SHL_LAISU_000231",
+      "IR_SHL_LAISU_000542",
+      "IR_SHL_LUNZHU_000197",
+      "IR_SHL_LUNZHU_000201",
+      "IR_SHL_LUNZHU_000205",
+      "IR_SHL_LUNZHU_000228",
+      "IR_SHL_LUNZHU_000538",
+      "IR_SHL_MINGLI_000035",
+      "IR_SHL_MINGLI_000114",
+      "IR_SHL_QJYF_000060",
+      "IR_SHL_QJYF_000062",
+      "IR_SHL_QJYF_000063",
+      "IR_SHL_QJYF_000064",
+      "IR_SHL_QJYF_000065",
+      "IR_SHL_SONGBEN_000197",
+      "IR_SHL_SONGBEN_000199",
+      "IR_SHL_SONGBEN_000201",
+      "IR_SHL_SONGBEN_000202",
+      "IR_SHL_SONGBEN_000219",
+      "IR_SHL_SUYUAN_000359",
+      "IR_SHL_SUYUAN_000380",
+      "IR_SHL_SUYUAN_000382",
+      "IR_SHL_SUYUAN_000386",
+      "IR_SHL_SUYUAN_000395",
+      "IR_SHL_SUYUAN_000435",
+      "IR_SHL_SUYUAN_000442",
+      "IR_SHL_SUYUAN_000929",
+      "IR_SHL_TIAOWEN_000151",
+      "IR_SHL_TIAOWEN_000153",
+      "IR_SHL_TIAOWEN_000155",
+      "IR_SHL_TIAOWEN_000156",
+      "IR_SHL_TIAOWEN_000173",
+      "IR_SHL_ZHUJIE_000444",
+      "IR_SHL_ZHUJIE_000449",
+      "IR_SHL_ZHUJIE_000452",
+      "IR_SHL_ZHUJIE_000455",
+      "IR_SHL_ZHUJIE_000499"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "結胸",
+      "source_unit_id": "SU_B3E16D849_000900",
+      "evidence_span": "此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "痞",
+      "source_unit_id": "SU_B3E16D849_000946",
+      "evidence_span": "此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "結胸",
+      "source_unit_id": "SU_B3E16D849_002964",
+      "evidence_span": "此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "痞滿",
+      "source_unit_id": "SU_B3E16D849_002975",
+      "evidence_span": "此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001625",
+      "evidence_span": "此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "結胸",
+      "source_unit_id": "SU_B3E16D849_000883",
+      "evidence_span": "脈沉緊。心下痛。按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000508",
+      "evidence_span": "脈沉緊。心下痛。按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "結胸證治第三",
+      "source_unit_id": "SU_SHL_SUYUAN_000737",
+      "evidence_span": "脈沉緊。心下痛。按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "大陷胸丸方第四十九",
+      "source_unit_id": "SU_B1CAC3ADF_001370",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "大陷胸湯方第五十",
+      "source_unit_id": "SU_B1CAC3ADF_001380",
+      "evidence_span": "脈沉而緊。心下痛。按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發黃",
+      "source_unit_id": "SU_B3E16D849_001309",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "短氣",
+      "source_unit_id": "SU_B3E16D849_002426",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "大陷胸湯",
+      "source_unit_id": "SU_B8E444005_000674",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "太陽經證治下九十一條",
+      "source_unit_id": "SU_BB711944D_000379",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001443",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001466",
+      "evidence_span": "脈沉而緊。心下痛。按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000201",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000407",
+      "evidence_span": "陽氣內陷。心中因鞭。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000411",
+      "evidence_span": "脈沉而緊。心下痛。按之石鞭者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "結胸證治第三",
+      "source_unit_id": "SU_SHL_SUYUAN_000686",
+      "evidence_span": "陽氣內陷。心下因硬。則為結胸。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "結胸（述古）",
+      "source_unit_id": "SU_B5C5ECAC2_001103",
+      "evidence_span": "脈沉而緊。心下痛。按之石硬者。大陷胸湯主之是也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "大陷胸湯方",
+      "source_unit_id": "SU_B41512D4B_000895",
+      "evidence_span": "結胸熱實。脈沉而緊。心下痛按之石硬者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000413",
+      "evidence_span": "無大熱者。此為水結胸脇也。但頭微汗出者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "大陷胸湯方第五十",
+      "source_unit_id": "SU_B1CAC3ADF_001383",
+      "evidence_span": "無大熱者。此為水結在胸脅也。但頭微汗出者。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "結胸",
+      "source_unit_id": "SU_B3E16D849_000882",
+      "evidence_span": "結胸無大熱。但頭微汗出者。此為水結在胸脅也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔",
+      "source_unit_id": "SU_B3E16D849_003039",
+      "evidence_span": "而以他藥下之。若心下滿而硬痛者。此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "十棗湯證",
+      "source_unit_id": "SU_SHL_LAISU_000157",
+      "evidence_span": "結胸無大熱，但頭微汗出者，此為水結在胸脅也，大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "陷胸湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000377",
+      "evidence_span": "結胸無大熱，但頭微汗出者，此為水結在胸脅也，大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "柴胡桂枝乾薑湯方第五十五",
+      "source_unit_id": "SU_B1CAC3ADF_001451",
+      "evidence_span": "卻發熱汗出而解。若心下滿而硬痛者。此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "柴胡桂枝乾薑湯方",
+      "source_unit_id": "SU_B41512D4B_001823",
+      "evidence_span": "卻發熱汗出而解。若心下滿而硬痛者。此為結胸也。大陷胸湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BBA9FB4A6",
+      "book_title": "傷寒六書",
+      "distinct_conditions": [
+        "腹痛"
+      ],
+      "rule_ids": [
+        "IR_BBA9FB4A6_000073"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "不能食",
+        "乾嘔",
+        "喘",
+        "小便不利",
+        "惡風",
+        "手足厥冷",
+        "氣上衝",
+        "腹滿"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000035",
+        "IR_SHL_MINGLI_000114"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論(千金翼方)",
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "大黃",
+        "甘遂",
+        "芒硝"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000608",
+        "IR_BC91F4420_000070",
+        "IR_SHL_GUANZHU_000185",
+        "IR_SHL_LAISU_000209",
+        "IR_SHL_QJYF_000067"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大黃六兩",
+        "甘遂一錢",
+        "芒硝一升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000642"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B0B74DF58_000103"
+      ],
+      "book_title": "傷寒恆論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000495"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B3E16D849_000207"
+      ],
+      "book_title": "傷寒論綱目"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B3E16D849_000467"
+      ],
+      "book_title": "傷寒論綱目"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B8E444005_000104"
+      ],
+      "book_title": "傷寒尋源"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_BB711944D_000234"
+      ],
+      "book_title": "仲景傷寒補亡論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_BBAACE965_000614"
+      ],
+      "book_title": "傷寒論輯義"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_BC91F4420_000073"
+      ],
+      "book_title": "傷寒論條辨"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000343"
+      ],
+      "book_title": "曹氏傷寒金匱發微合刊"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000140"
+      ],
+      "book_title": "經方實驗錄"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000192"
+      ],
+      "book_title": "傷寒貫珠集"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000651"
+      ],
+      "book_title": "傷寒雜病論(桂本)"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_LAISU_000207"
+      ],
+      "book_title": "傷寒來蘇集"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_LUNZHU_000205"
+      ],
+      "book_title": "傷寒論注"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000035"
+      ],
+      "book_title": "傷寒明理論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_QJYF_000064"
+      ],
+      "book_title": "傷寒論(千金翼方)"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_QJYF_000065"
+      ],
+      "book_title": "傷寒論(千金翼方)"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_SONGBEN_000202"
+      ],
+      "book_title": "傷寒論(宋本)"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000380"
+      ],
+      "book_title": "傷寒溯源集"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_TIAOWEN_000156"
+      ],
+      "book_title": "傷寒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現大陷胸湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000455"
+      ],
+      "book_title": "註解傷寒論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "結胸",
+        "count": 94
+      },
+      {
+        "term": "傷寒",
+        "count": 38
+      },
+      {
+        "term": "太陽病",
+        "count": 26
+      },
+      {
+        "term": "痞",
+        "count": 2
+      },
+      {
+        "term": "陽明病",
+        "count": 1
+      },
+      {
+        "term": "腹滿",
+        "count": 1
+      },
+      {
+        "term": "小便不利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "汗出",
+        "count": 45
+      },
+      {
+        "term": "發熱",
+        "count": 41
+      },
+      {
+        "term": "心下滿",
+        "count": 31
+      },
+      {
+        "term": "潮熱",
+        "count": 21
+      },
+      {
+        "term": "渴",
+        "count": 16
+      },
+      {
+        "term": "短氣",
+        "count": 15
+      },
+      {
+        "term": "舌上燥",
+        "count": 15
+      },
+      {
+        "term": "惡寒",
+        "count": 14
+      },
+      {
+        "term": "不大便",
+        "count": 13
+      },
+      {
+        "term": "頭痛",
+        "count": 13
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 14
+      },
+      {
+        "term": "脈浮",
+        "count": 14
+      },
+      {
+        "term": "脈沉緊",
+        "count": 9
+      },
+      {
+        "term": "趺陽脈微",
+        "count": 1
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "熱結在裏",
+        "count": 6
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "瀉熱逐水破結",
+        "count": 124
+      }
+    ]
+  },
+  "keywords": [
+    "大陷胸湯",
+    "結胸",
+    "傷寒",
+    "太陽病",
+    "痞",
+    "陽明病",
+    "汗出",
+    "發熱",
+    "心下滿",
+    "潮熱",
+    "渴",
+    "脈沉",
+    "脈浮",
+    "脈沉緊",
+    "趺陽脈微"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

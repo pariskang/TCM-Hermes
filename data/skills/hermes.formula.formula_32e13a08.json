@@ -1,0 +1,78 @@
+{
+  "skill_id": "hermes.formula.formula_32e13a08",
+  "kind": "formula",
+  "title": "半夏加茯苓湯方證合併規則",
+  "subject": "半夏加茯苓湯",
+  "abstracted_claim": "半夏加茯苓湯可歸納為心下痞、嘔吐等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_32E13A08",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYH_ERZHU_000147",
+    "IR_JGYL_JIYI_000216"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYH_ERZHU_000147",
+      "IR_JGYL_JIYI_000216"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYH_ERZHU_001017",
+      "evidence_span": "心下痞。膈間有水。眩悸者。半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001885",
+      "evidence_span": "卒嘔吐。心下痞。膈間有水眩悸者。半夏加茯苓湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "嘔吐"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000216"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "心下痞",
+        "count": 2
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "半夏加茯苓湯",
+    "心下痞",
+    "嘔吐"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,278 @@
+{
+  "skill_id": "hermes.formula.formula_e87260cc",
+  "kind": "formula",
+  "title": "桂枝附子湯方證合併規則",
+  "subject": "桂枝附子湯",
+  "abstracted_claim": "桂枝附子湯可歸納為傷寒、渴、脈浮虛、脈浮、脈虛等方證的核心方（支持條文 16 條，跨 15 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E87260CC",
+  "release_level": "silver",
+  "consensus_score": 0.916,
+  "supporting_initial_rules": [
+    "IR_B11498305_000159",
+    "IR_B1CAC3ADF_000508",
+    "IR_B2EB248E3_000055",
+    "IR_B3E16D849_000160",
+    "IR_B3E16D849_000321",
+    "IR_B41512D4B_000496",
+    "IR_B5C5ECAC2_000459",
+    "IR_B8E444005_000404",
+    "IR_B9119D083_000151",
+    "IR_BBAACE965_000797",
+    "IR_BC91F4420_000203",
+    "IR_CAOSHI_FAWEI_000967",
+    "IR_SHL_GUANZHU_000345",
+    "IR_SHL_LAISU_000289",
+    "IR_SHL_SUYUAN_000621",
+    "IR_SHL_ZHUJIE_000584"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000159",
+      "IR_B1CAC3ADF_000508",
+      "IR_B2EB248E3_000055",
+      "IR_B3E16D849_000160",
+      "IR_B3E16D849_000321",
+      "IR_B41512D4B_000496",
+      "IR_B5C5ECAC2_000459",
+      "IR_B8E444005_000404",
+      "IR_B9119D083_000151",
+      "IR_BBAACE965_000797",
+      "IR_BC91F4420_000203",
+      "IR_CAOSHI_FAWEI_000967",
+      "IR_SHL_GUANZHU_000345",
+      "IR_SHL_LAISU_000289",
+      "IR_SHL_SUYUAN_000621",
+      "IR_SHL_ZHUJIE_000584"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "黃連湯方",
+      "source_unit_id": "SU_B41512D4B_001062",
+      "evidence_span": "不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "太陽經脈",
+      "source_unit_id": "SU_B3E16D849_000458",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "黃連湯方第六十八",
+      "source_unit_id": "SU_B1CAC3ADF_001572",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "身疼",
+      "source_unit_id": "SU_B3E16D849_000820",
+      "evidence_span": "不能自轉側。不嘔不渴。脈虛浮而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "濕症（合參）",
+      "source_unit_id": "SU_B5C5ECAC2_001952",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝附子湯",
+      "source_unit_id": "SU_B8E444005_000756",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001900",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痙濕喝脈證第二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001182",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "濕病證治第九",
+      "source_unit_id": "SU_SHL_SUYUAN_001379",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000477",
+      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。與桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "真武湯方",
+      "source_unit_id": "SU_B2EB248E3_000094",
+      "evidence_span": "風濕相搏。身體疼煩不能自轉側不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "身痛",
+      "source_unit_id": "SU_B9119D083_000272",
+      "evidence_span": "傷寒八九日，風濕相持，身體煩疼不能自轉側，不嘔不渴，脈浮虛而澀者，桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001026",
+      "evidence_span": "傷寒八九日，風濕相搏，身體疼煩，不能自轉側，不嘔不渴，脈浮虛而澀者，桂枝附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "痙溼暑證",
+      "source_unit_id": "SU_SHL_LAISU_000207",
+      "evidence_span": "傷寒八九日，風濕相搏，身體煩疼，不能自轉側，不嘔不渴，脈浮虛而濇者，桂枝附子湯主之，若其人大便硬，小便自利者，去桂加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "風濕四條",
+      "source_unit_id": "SU_SHL_GUANZHU_000207",
+      "evidence_span": "傷寒八九日，風濕相摶，身體疼煩，不能自轉側，不嘔不渴，脈浮虛而濇者，桂枝附子湯主之，若其人大便鞕，小便自利者，去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000209",
+      "evidence_span": "傷寒八九日，風濕相搏，身體疼痛，不能自轉側，不嘔不渴，脈浮虛而濇者，與桂枝附子湯主之，若其人大便鞕，小便自利者，去桂枝加白朮湯主之（即白朮附子湯）。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E16D849",
+      "book_title": "傷寒論綱目",
+      "distinct_conditions": [
+        "脈浮",
+        "脈虛"
+      ],
+      "rule_ids": [
+        "IR_B3E16D849_000160",
+        "IR_B3E16D849_000321"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論辯證廣注",
+        "曹氏傷寒金匱發微合刊",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_B41512D4B_000498",
+        "IR_CAOSHI_FAWEI_000459",
+        "IR_SHL_ZHUJIE_000588"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000801",
+        "IR_BC91F4420_000204",
+        "IR_SHL_GUANZHU_000347",
+        "IR_SHL_LAISU_000293"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝四兩",
+        "甘草二兩",
+        "生薑三兩",
+        "附子二枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000277"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 5
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 16
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮虛",
+        "count": 14
+      },
+      {
+        "term": "脈浮",
+        "count": 1
+      },
+      {
+        "term": "脈虛",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝附子湯",
+    "傷寒",
+    "渴",
+    "脈浮虛",
+    "脈浮",
+    "脈虛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

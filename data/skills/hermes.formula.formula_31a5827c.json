@@ -1,0 +1,167 @@
+{
+  "skill_id": "hermes.formula.formula_31a5827c",
+  "kind": "formula",
+  "title": "小青龍加石膏湯方證合併規則",
+  "subject": "小青龍加石膏湯",
+  "abstracted_claim": "小青龍加石膏湯可歸納為肺脹、煩躁、喘、咳、上氣、脈浮等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_31A5827C",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B8E444005_000149",
+    "IR_CAOSHI_FAWEI_001063",
+    "IR_JGYH_ERZHU_000090",
+    "IR_JGYL_FANGLUN_000073",
+    "IR_JGYL_JIYI_000121",
+    "IR_JGYL_QIANZHU_000087",
+    "IR_JGYL_TIAOWEN_000073",
+    "IR_JGYL_XINDIAN_000075"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B8E444005_000149",
+      "IR_CAOSHI_FAWEI_001063",
+      "IR_JGYH_ERZHU_000090",
+      "IR_JGYL_FANGLUN_000073",
+      "IR_JGYL_JIYI_000121",
+      "IR_JGYL_QIANZHU_000087",
+      "IR_JGYL_TIAOWEN_000073",
+      "IR_JGYL_XINDIAN_000075"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B8E444005_000247",
+      "evidence_span": "煩躁而喘。脈浮者。心下有水。小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYH_ERZHU_000630",
+      "evidence_span": "煩躁而喘。脈浮者。心下有水。小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論三首、脈證四條、方十五首",
+      "source_unit_id": "SU_JGYL_JIYI_001103",
+      "evidence_span": "煩躁而喘。脈浮者。心下有水。小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_QIANZHU_000386",
+      "evidence_span": "煩躁而喘。脈浮者。心下有水。小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_XINDIAN_000499",
+      "evidence_span": "咳而上氣。煩躁而喘。脈浮者心下有水。小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "肺痿肺癱咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001394",
+      "evidence_span": "肺脹咳而上氣，煩躁而喘，脈浮者，心下有水，小青龍加石膏湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000291",
+      "evidence_span": "肺脹，咳而上氣，煩躁而喘，脈浮者，心下有水，小青龍加石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000289",
+      "evidence_span": "肺脹，咳而上氣，煩躁而喘，脈浮者，心下有水，小青龍加石膏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "石膏"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001064"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "石膏二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001390"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "肺脹",
+        "count": 3
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "喘",
+        "count": 8
+      },
+      {
+        "term": "咳",
+        "count": 4
+      },
+      {
+        "term": "上氣",
+        "count": 4
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 8
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "小青龍加石膏湯",
+    "肺脹",
+    "煩躁",
+    "喘",
+    "咳",
+    "上氣",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,146 @@
+{
+  "skill_id": "hermes.formula.formula_9a20840a",
+  "kind": "formula",
+  "title": "去桂枝加白朮湯方證合併規則",
+  "subject": "去桂枝加白朮湯",
+  "abstracted_claim": "去桂枝加白朮湯可歸納為傷寒、小便自利、大便硬、渴、脈浮虛等方證的核心方（支持條文 9 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_9A20840A",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000160",
+    "IR_B1CAC3ADF_000510",
+    "IR_B5FF1CA1B_000189",
+    "IR_BC91F4420_000205",
+    "IR_CAOSHI_FAWEI_000458",
+    "IR_CAOSHI_FAWEI_000968",
+    "IR_JGYL_XINDIAN_000026",
+    "IR_SHL_GUANZHU_000346",
+    "IR_SHL_SUYUAN_000623"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000160",
+      "IR_B1CAC3ADF_000510",
+      "IR_B5FF1CA1B_000189",
+      "IR_BC91F4420_000205",
+      "IR_CAOSHI_FAWEI_000458",
+      "IR_CAOSHI_FAWEI_000968",
+      "IR_JGYL_XINDIAN_000026",
+      "IR_SHL_GUANZHU_000346",
+      "IR_SHL_SUYUAN_000623"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "黃連湯方第六十八",
+      "source_unit_id": "SU_B1CAC3ADF_001576",
+      "evidence_span": "若其人大便硬。小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000483",
+      "evidence_span": "若其人大便硬。小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "濕病證治第九",
+      "source_unit_id": "SU_SHL_SUYUAN_001382",
+      "evidence_span": "若其人大便硬。小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痙濕病脈證治第二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000140",
+      "evidence_span": "桂枝附子湯主之。若大便堅。小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000530",
+      "evidence_span": "桂枝附子湯主之。若其人大便鞭。小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000265",
+      "evidence_span": "不嘔不渴脈浮虛而澀者。與桂枝附子湯主之。若其人大便硬小便自利者。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "風濕四條",
+      "source_unit_id": "SU_SHL_GUANZHU_000207",
+      "evidence_span": "傷寒八九日，風濕相摶，身體疼煩，不能自轉側，不嘔不渴，脈浮虛而濇者，桂枝附子湯主之，若其人大便鞕，小便自利者，去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000209",
+      "evidence_span": "傷寒八九日，風濕相搏，身體疼痛，不能自轉側，不嘔不渴，脈浮虛而濇者，與桂枝附子湯主之，若其人大便鞕，小便自利者，去桂枝加白朮湯主之（即白朮附子湯）。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痙濕喝脈證第二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001182",
+      "evidence_span": "桂枝附子湯主之。（桂枝附子湯方、桂枝四兩、附子三攻炮去皮破八片、生薑三兩切、甘草二兩切、甘草二兩灸、大棗十二枚擘、上五味、以水六升、煮取二升、去渣、分溫三服）若大便堅。小便自利。去桂枝加白朮湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 2
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "小便自利",
+        "count": 9
+      },
+      {
+        "term": "大便硬",
+        "count": 4
+      },
+      {
+        "term": "渴",
+        "count": 3
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮虛",
+        "count": 3
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "去桂枝加白朮湯",
+    "傷寒",
+    "小便自利",
+    "大便硬",
+    "渴",
+    "脈浮虛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,151 @@
+{
+  "skill_id": "hermes.formula.formula_ce039733",
+  "kind": "formula",
+  "title": "甘草麻黃湯方證合併規則",
+  "subject": "甘草麻黃湯",
+  "abstracted_claim": "甘草麻黃湯可歸納為小便不利、皮水、歷節、目黃、脈沉、脈沉緊等方證的核心方（支持條文 3 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_CE039733",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_JIYI_000273",
+    "IR_SHL_GUIBEN_001452",
+    "IR_SHL_GUIBEN_001471"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_JIYI_000273",
+      "IR_SHL_GUIBEN_001452",
+      "IR_SHL_GUIBEN_001471"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論七首、脈證五條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_002250",
+      "evidence_span": "又云。皮水。一身面目悉腫。甘草麻黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001275",
+      "evidence_span": "14.64裏水，一身面目黃腫，其脈沉，小便不利，甘草麻黃湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001290",
+      "evidence_span": "14.73病歷節，疼痛，兩足腫，大小便不利，脈沉緊者，甘草麻黃湯主之；",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "皮水"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000273"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "小便不利",
+        "歷節",
+        "目黃",
+        "脈沉",
+        "脈沉緊"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001452",
+        "IR_SHL_GUIBEN_001471"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "甘草",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001219"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "甘草二兩",
+        "麻黃四兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001453"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 2
+      },
+      {
+        "term": "皮水",
+        "count": 1
+      },
+      {
+        "term": "歷節",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "目黃",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 1
+      },
+      {
+        "term": "脈沉緊",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "甘草麻黃湯",
+    "小便不利",
+    "皮水",
+    "歷節",
+    "目黃",
+    "脈沉",
+    "脈沉緊"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

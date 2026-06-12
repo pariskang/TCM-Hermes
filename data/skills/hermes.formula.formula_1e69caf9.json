@@ -1,0 +1,85 @@
+{
+  "skill_id": "hermes.formula.formula_1e69caf9",
+  "kind": "formula",
+  "title": "桂枝加芍藥生薑人參新加湯方證合併規則",
+  "subject": "桂枝加芍藥生薑人參新加湯",
+  "abstracted_claim": "桂枝加芍藥生薑人參新加湯可歸納為身疼痛、脈沉遲等方證的核心方（支持條文 4 條，跨 4 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_1E69CAF9",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E16D849_000314",
+    "IR_BBAACE965_001196",
+    "IR_CAOSHI_FAWEI_000157",
+    "IR_SHL_SUYUAN_001126"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E16D849_000314",
+      "IR_BBAACE965_001196",
+      "IR_CAOSHI_FAWEI_000157",
+      "IR_SHL_SUYUAN_001126"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "身疼",
+      "source_unit_id": "SU_B3E16D849_000807",
+      "evidence_span": "發汗後。身疼痛。脈沉遲者。桂枝加芍藥生薑人參新加湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000192",
+      "evidence_span": "發汗後。身疼痛。脈沉遲者。桂枝加芍藥生薑人參新加湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002772",
+      "evidence_span": "及發汗後。身疼痛。脈沉遲者。桂枝加芍藥生薑人參新加湯主之者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002580",
+      "evidence_span": "以芍藥甘草附子湯。及發汗後身疼痛。脈沉遲者。桂枝加芍藥生薑人參新加湯主之者。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "身疼痛",
+        "count": 4
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉遲",
+        "count": 4
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝加芍藥生薑人參新加湯",
+    "身疼痛",
+    "脈沉遲"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

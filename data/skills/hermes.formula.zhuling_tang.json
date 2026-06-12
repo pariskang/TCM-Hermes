@@ -1,0 +1,587 @@
+{
+  "skill_id": "hermes.formula.zhuling_tang",
+  "kind": "formula",
+  "title": "豬苓湯方證合併規則",
+  "subject": "豬苓湯",
+  "abstracted_claim": "豬苓湯可歸納為小便不利、下利、少陰病、陽明病、腹滿、傷寒等方證的核心方（支持條文 66 條，跨 28 部書）。",
+  "merged_rule_id": "MHR_FORMULA_ZHULING_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.909,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000386",
+    "IR_B0B74DF58_000681",
+    "IR_B11498305_000576",
+    "IR_B11498305_000598",
+    "IR_B1CAC3ADF_000615",
+    "IR_B1CAC3ADF_000800",
+    "IR_B294D68B8_000018",
+    "IR_B3E16D849_000931",
+    "IR_B3E16D849_001127",
+    "IR_B3E16D849_001236",
+    "IR_B3E16D849_001390",
+    "IR_B3E16D849_001669",
+    "IR_B3E16D849_001672",
+    "IR_B3E16D849_001701",
+    "IR_B3E16D849_001720",
+    "IR_B3E16D849_001787",
+    "IR_B41512D4B_000748",
+    "IR_B41512D4B_000994",
+    "IR_B5C5ECAC2_000050",
+    "IR_B5C5ECAC2_000123",
+    "IR_B5FF1CA1B_000606",
+    "IR_B5FF1CA1B_000630",
+    "IR_B8E444005_000132",
+    "IR_B8E444005_000227",
+    "IR_B9119D083_000375",
+    "IR_B9119D083_000380",
+    "IR_B9119D083_000494",
+    "IR_B9119D083_000496",
+    "IR_B9119D083_000684",
+    "IR_BB7301DF2_000252",
+    "IR_BBAACE965_000966",
+    "IR_BBAACE965_000976",
+    "IR_BBAACE965_001250",
+    "IR_BC91F4420_000407",
+    "IR_BC91F4420_000505",
+    "IR_BD20B1D70_000028",
+    "IR_BF5CDC206_000084",
+    "IR_BF5CDC206_000134",
+    "IR_BF5CDC206_000182",
+    "IR_CAOSHI_FAWEI_001197",
+    "IR_JGYH_ERZHU_000175",
+    "IR_JGYL_JIYI_000251",
+    "IR_JGYL_XINDIAN_000148",
+    "IR_SHL_GUANZHU_000458",
+    "IR_SHL_GUANZHU_000580",
+    "IR_SHL_GUIBEN_000801",
+    "IR_SHL_GUIBEN_001044",
+    "IR_SHL_LAISU_000374",
+    "IR_SHL_LAISU_000683",
+    "IR_SHL_LAISU_000684",
+    "IR_SHL_LAISU_000687",
+    "IR_SHL_LUNZHU_000370",
+    "IR_SHL_LUNZHU_000677",
+    "IR_SHL_LUNZHU_000678",
+    "IR_SHL_LUNZHU_000679",
+    "IR_SHL_QJYF_000167",
+    "IR_SHL_QJYF_000237",
+    "IR_SHL_SONGBEN_000297",
+    "IR_SHL_SONGBEN_000393",
+    "IR_SHL_SUYUAN_000667",
+    "IR_SHL_SUYUAN_001193",
+    "IR_SHL_SUYUAN_001194",
+    "IR_SHL_TIAOWEN_000251",
+    "IR_SHL_TIAOWEN_000347",
+    "IR_SHL_ZHUJIE_000699",
+    "IR_SHL_ZHUJIE_000913"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000386",
+      "IR_B0B74DF58_000681",
+      "IR_B11498305_000576",
+      "IR_B11498305_000598",
+      "IR_B1CAC3ADF_000615",
+      "IR_B1CAC3ADF_000800",
+      "IR_B294D68B8_000018",
+      "IR_B3E16D849_000931",
+      "IR_B3E16D849_001127",
+      "IR_B3E16D849_001236",
+      "IR_B3E16D849_001390",
+      "IR_B3E16D849_001669",
+      "IR_B3E16D849_001672",
+      "IR_B3E16D849_001701",
+      "IR_B3E16D849_001720",
+      "IR_B3E16D849_001787",
+      "IR_B41512D4B_000748",
+      "IR_B41512D4B_000994",
+      "IR_B5C5ECAC2_000050",
+      "IR_B5C5ECAC2_000123",
+      "IR_B5FF1CA1B_000606",
+      "IR_B5FF1CA1B_000630",
+      "IR_B8E444005_000132",
+      "IR_B8E444005_000227",
+      "IR_B9119D083_000375",
+      "IR_B9119D083_000380",
+      "IR_B9119D083_000494",
+      "IR_B9119D083_000496",
+      "IR_B9119D083_000684",
+      "IR_BB7301DF2_000252",
+      "IR_BBAACE965_000966",
+      "IR_BBAACE965_000976",
+      "IR_BBAACE965_001250",
+      "IR_BC91F4420_000407",
+      "IR_BC91F4420_000505",
+      "IR_BD20B1D70_000028",
+      "IR_BF5CDC206_000084",
+      "IR_BF5CDC206_000134",
+      "IR_BF5CDC206_000182",
+      "IR_CAOSHI_FAWEI_001197",
+      "IR_JGYH_ERZHU_000175",
+      "IR_JGYL_JIYI_000251",
+      "IR_JGYL_XINDIAN_000148",
+      "IR_SHL_GUANZHU_000458",
+      "IR_SHL_GUANZHU_000580",
+      "IR_SHL_GUIBEN_000801",
+      "IR_SHL_GUIBEN_001044",
+      "IR_SHL_LAISU_000374",
+      "IR_SHL_LAISU_000683",
+      "IR_SHL_LAISU_000684",
+      "IR_SHL_LAISU_000687",
+      "IR_SHL_LUNZHU_000370",
+      "IR_SHL_LUNZHU_000677",
+      "IR_SHL_LUNZHU_000678",
+      "IR_SHL_LUNZHU_000679",
+      "IR_SHL_QJYF_000167",
+      "IR_SHL_QJYF_000237",
+      "IR_SHL_SONGBEN_000297",
+      "IR_SHL_SONGBEN_000393",
+      "IR_SHL_SUYUAN_000667",
+      "IR_SHL_SUYUAN_001193",
+      "IR_SHL_SUYUAN_001194",
+      "IR_SHL_TIAOWEN_000251",
+      "IR_SHL_TIAOWEN_000347",
+      "IR_SHL_ZHUJIE_000699",
+      "IR_SHL_ZHUJIE_000913"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第七十一證‧咳嗽歌",
+      "source_unit_id": "SU_BB7301DF2_000215",
+      "evidence_span": "心煩不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰後篇證治第二十",
+      "source_unit_id": "SU_SHL_SUYUAN_002824",
+      "evidence_span": "故心煩不得眠也。豬苓湯主之者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咳悸",
+      "source_unit_id": "SU_B3E16D849_003398",
+      "evidence_span": "渴。心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "渴",
+      "source_unit_id": "SU_B3E16D849_003404",
+      "evidence_span": "渴。心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B3E16D849_003482",
+      "evidence_span": "渴。心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "不得臥",
+      "source_unit_id": "SU_B3E16D849_003540",
+      "evidence_span": "渴。心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003695",
+      "evidence_span": "渴。心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B3E16D849_002494",
+      "evidence_span": "渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "四逆散方",
+      "source_unit_id": "SU_B41512D4B_002047",
+      "evidence_span": "咳而嘔。渴心煩。不得眠者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "小承氣湯方第七十四",
+      "source_unit_id": "SU_B1CAC3ADF_001754",
+      "evidence_span": "發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "小便不利",
+      "source_unit_id": "SU_B3E16D849_002798",
+      "evidence_span": "發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "白虎加人參湯方",
+      "source_unit_id": "SU_B41512D4B_001511",
+      "evidence_span": "發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002288",
+      "evidence_span": "發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒法祖",
+      "chapter_title": "溫暑指歸第五",
+      "source_unit_id": "SU_B294D68B8_000062",
+      "evidence_span": "脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002300",
+      "evidence_span": "脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "消渴小便不利淋病脈證治第十三",
+      "source_unit_id": "SU_JGYH_ERZHU_001130",
+      "evidence_span": "脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "脈證九條、方六首",
+      "source_unit_id": "SU_JGYL_JIYI_002084",
+      "evidence_span": "脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "消渴小便不利淋病脈證治第十三",
+      "source_unit_id": "SU_JGYL_XINDIAN_000981",
+      "evidence_span": "脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000207",
+      "evidence_span": "若脈浮發熱，渴欲飲水，小便不利，豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "陽明經脈",
+      "source_unit_id": "SU_B3E16D849_001973",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "渴",
+      "source_unit_id": "SU_B3E16D849_002273",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "陽明本病述古",
+      "source_unit_id": "SU_B5C5ECAC2_000369",
+      "evidence_span": "若發熱脈浮。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "溫熱病篇",
+      "source_unit_id": "SU_B5FF1CA1B_000974",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨陽明病脈證並治第四",
+      "source_unit_id": "SU_BC91F4420_000873",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "陽明篇",
+      "source_unit_id": "SU_BF5CDC206_000096",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LAISU_000269",
+      "evidence_span": "若脈浮發熱，渴欲飲水，小便不利者，豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000669",
+      "evidence_span": "若脈浮發熱，渴欲飲水，小便不利者，豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "豬苓湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001199",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001538",
+      "evidence_span": "若脈浮發熱。渴欲飲水。小便不利者。豬苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨陽明病脈證並治法第八",
+      "source_unit_id": "SU_SHL_ZHUJIE_001157",
+      "evidence_span": "若脈浮發熱，渴欲飲水，小便不利者，豬苓湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "舌上苔"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000386",
+        "IR_B0B74DF58_000681"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9119D083",
+      "book_title": "傷寒大白",
+      "distinct_conditions": [
+        "舌上白苔"
+      ],
+      "rule_ids": [
+        "IR_B9119D083_000375",
+        "IR_B9119D083_000380",
+        "IR_B9119D083_000494",
+        "IR_B9119D083_000496",
+        "IR_B9119D083_000684"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BD20B1D70",
+      "book_title": "傷寒論翼",
+      "distinct_conditions": [
+        "傷寒"
+      ],
+      "rule_ids": [
+        "IR_BD20B1D70_000028"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUANZHU",
+      "book_title": "傷寒貫珠集",
+      "distinct_conditions": [
+        "腹中痛",
+        "譫語"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000458",
+        "IR_SHL_GUANZHU_000580"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LAISU",
+      "book_title": "傷寒來蘇集",
+      "distinct_conditions": [
+        "不得臥",
+        "但欲寐",
+        "虛煩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000374",
+        "IR_SHL_LAISU_000683",
+        "IR_SHL_LAISU_000684",
+        "IR_SHL_LAISU_000687"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "滑石",
+        "澤瀉",
+        "茯苓",
+        "豬苓",
+        "阿膠"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000979",
+        "IR_BC91F4420_000408",
+        "IR_SHL_GUANZHU_000461",
+        "IR_SHL_LAISU_000685",
+        "IR_SHL_ZHUJIE_000702"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "滑石一兩",
+        "澤瀉一兩",
+        "茯苓一兩",
+        "豬苓一兩",
+        "阿膠一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000802",
+        "IR_SHL_GUIBEN_001045"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "豬苓"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000578"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 34
+      },
+      {
+        "term": "下利",
+        "count": 23
+      },
+      {
+        "term": "少陰病",
+        "count": 16
+      },
+      {
+        "term": "陽明病",
+        "count": 6
+      },
+      {
+        "term": "腹滿",
+        "count": 3
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 63
+      },
+      {
+        "term": "不得眠",
+        "count": 34
+      },
+      {
+        "term": "發熱",
+        "count": 32
+      },
+      {
+        "term": "心煩",
+        "count": 31
+      },
+      {
+        "term": "咳",
+        "count": 18
+      },
+      {
+        "term": "惡寒",
+        "count": 4
+      },
+      {
+        "term": "惡熱",
+        "count": 4
+      },
+      {
+        "term": "口苦",
+        "count": 3
+      },
+      {
+        "term": "喘",
+        "count": 3
+      },
+      {
+        "term": "汗出",
+        "count": 3
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 29
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "利水養陰清熱",
+        "count": 66
+      }
+    ]
+  },
+  "keywords": [
+    "豬苓湯",
+    "小便不利",
+    "下利",
+    "少陰病",
+    "陽明病",
+    "腹滿",
+    "渴",
+    "不得眠",
+    "發熱",
+    "心煩",
+    "咳",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

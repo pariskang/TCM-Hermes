@@ -1,0 +1,285 @@
+{
+  "skill_id": "hermes.formula.formula_9a935695",
+  "kind": "formula",
+  "title": "麻黃附子細辛湯方證合併規則",
+  "subject": "麻黃附子細辛湯",
+  "abstracted_claim": "麻黃附子細辛湯可歸納為少陰病、發熱、惡寒、無汗、口中和、背惡寒等方證的核心方（支持條文 15 條，跨 15 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_9A935695",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000612",
+    "IR_B11498305_000360",
+    "IR_B1CAC3ADF_000761",
+    "IR_B2EB248E3_000096",
+    "IR_B3E16D849_001630",
+    "IR_B54968951_000003",
+    "IR_B5FF1CA1B_000392",
+    "IR_B8E444005_000068",
+    "IR_BC91F4420_000457",
+    "IR_CAOSHI_FAWEI_000727",
+    "IR_SHL_GUANZHU_000594",
+    "IR_SHL_GUIBEN_000991",
+    "IR_SHL_LAISU_000610",
+    "IR_SHL_LUNZHU_000616",
+    "IR_SHL_SUYUAN_001115"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000612",
+      "IR_B11498305_000360",
+      "IR_B1CAC3ADF_000761",
+      "IR_B2EB248E3_000096",
+      "IR_B3E16D849_001630",
+      "IR_B54968951_000003",
+      "IR_B5FF1CA1B_000392",
+      "IR_B8E444005_000068",
+      "IR_BC91F4420_000457",
+      "IR_CAOSHI_FAWEI_000727",
+      "IR_SHL_GUANZHU_000594",
+      "IR_SHL_GUIBEN_000991",
+      "IR_SHL_LAISU_000610",
+      "IR_SHL_LUNZHU_000616",
+      "IR_SHL_SUYUAN_001115"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003318",
+      "evidence_span": "惡寒。反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "辯太陰少陰厥陰病中寒脈證並治法",
+      "source_unit_id": "SU_B2EB248E3_000170",
+      "evidence_span": "始得之。反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001039",
+      "evidence_span": "始得之。反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000802",
+      "evidence_span": "始得之。反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002553",
+      "evidence_span": "始得之。反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰上編",
+      "source_unit_id": "SU_B5FF1CA1B_000625",
+      "evidence_span": "少陰病。始得之反發熱脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰上篇",
+      "source_unit_id": "SU_B11498305_000473",
+      "evidence_span": "少陰病，始得之，反發熱脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_B1CAC3ADF_002011",
+      "evidence_span": "少陰病。始得之反發熱。脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "少陰溫法十五條",
+      "source_unit_id": "SU_SHL_GUANZHU_000402",
+      "evidence_span": "少陰病，始得之，反發熱，脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B8E444005_000182",
+      "evidence_span": "如經云少陰病。始得之。反發熱脈沉者。麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "少陰〔前〕篇",
+      "source_unit_id": "SU_B0B74DF58_001212",
+      "evidence_span": "**二、少陰病，始得之，反發熱，脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000895",
+      "evidence_span": "11.21少陰病始得之，反發熱，脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "麻黃附子湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001043",
+      "evidence_span": "少陰病，始得之，無汗惡寒，反發熱脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "麻黃附子證",
+      "source_unit_id": "SU_SHL_LAISU_000417",
+      "evidence_span": "少陰病，始得之，無汗惡寒，反發熱，脈沉者，麻黃附子細辛湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "劉河間傷寒醫鑑",
+      "chapter_title": "論汗下",
+      "source_unit_id": "SU_B54968951_000015",
+      "evidence_span": "《活人書》云：陽明證宜下，少陰證宜溫。又曰：少陰病，一二日，口中和，其背惡寒者，宜著艾，並四逆湯。又云：三陽證宜下，三陰證宜溫。少陰病，發熱，脈沉，麻黃附子細辛湯主之，少陰病，二三日，當見少陰證，無陽者，宜麻黃附子甘草湯，皆陰證表藥也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B54968951",
+      "book_title": "劉河間傷寒醫鑑",
+      "distinct_conditions": [
+        "口中和",
+        "四逆",
+        "背惡寒"
+      ],
+      "rule_ids": [
+        "IR_B54968951_000003"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論辯證廣注"
+      ],
+      "composition": [
+        "甘草",
+        "細辛",
+        "附子",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_B41512D4B_000971"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "細辛",
+        "附子",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000458",
+        "IR_CAOSHI_FAWEI_000728"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "麻黃二升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000595"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "細辛二兩",
+        "附子一枚",
+        "麻黃二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000992"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 10
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 15
+      },
+      {
+        "term": "惡寒",
+        "count": 3
+      },
+      {
+        "term": "無汗",
+        "count": 2
+      },
+      {
+        "term": "口中和",
+        "count": 1
+      },
+      {
+        "term": "背惡寒",
+        "count": 1
+      },
+      {
+        "term": "四逆",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 15
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "麻黃附子細辛湯",
+    "少陰病",
+    "發熱",
+    "惡寒",
+    "無汗",
+    "口中和",
+    "背惡寒",
+    "脈沉"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

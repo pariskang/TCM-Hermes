@@ -1,0 +1,321 @@
+{
+  "skill_id": "hermes.formula.formula_99ead915",
+  "kind": "formula",
+  "title": "白通加豬膽汁湯方證合併規則",
+  "subject": "白通加豬膽汁湯",
+  "abstracted_claim": "白通加豬膽汁湯可歸納為下利、少陰病、厥、乾嘔、脈微等方證的核心方（支持條文 25 條，跨 21 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_99EAD915",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000635",
+    "IR_B11498305_000366",
+    "IR_B1CAC3ADF_000788",
+    "IR_B3E16D849_001651",
+    "IR_B3E16D849_001697",
+    "IR_B3E16D849_001739",
+    "IR_B3E16D849_001783",
+    "IR_B41512D4B_000990",
+    "IR_B5C5ECAC2_000135",
+    "IR_B5FF1CA1B_000398",
+    "IR_B8E444005_000417",
+    "IR_BBAACE965_001233",
+    "IR_BC91F4420_000497",
+    "IR_BF5CDC206_000123",
+    "IR_BF5CDC206_000178",
+    "IR_CAOSHI_FAWEI_000755",
+    "IR_JGYL_JIYI_000265",
+    "IR_SHL_GUANZHU_000620",
+    "IR_SHL_GUIBEN_001032",
+    "IR_SHL_LAISU_000674",
+    "IR_SHL_LUNZHU_000672",
+    "IR_SHL_QJYF_000232",
+    "IR_SHL_SONGBEN_000389",
+    "IR_SHL_TIAOWEN_000343",
+    "IR_SHL_ZHUJIE_000898"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000635",
+      "IR_B11498305_000366",
+      "IR_B1CAC3ADF_000788",
+      "IR_B3E16D849_001651",
+      "IR_B3E16D849_001697",
+      "IR_B3E16D849_001739",
+      "IR_B3E16D849_001783",
+      "IR_B41512D4B_000990",
+      "IR_B5C5ECAC2_000135",
+      "IR_B5FF1CA1B_000398",
+      "IR_B8E444005_000417",
+      "IR_BBAACE965_001233",
+      "IR_BC91F4420_000497",
+      "IR_BF5CDC206_000123",
+      "IR_BF5CDC206_000178",
+      "IR_CAOSHI_FAWEI_000755",
+      "IR_JGYL_JIYI_000265",
+      "IR_SHL_GUANZHU_000620",
+      "IR_SHL_GUIBEN_001032",
+      "IR_SHL_LAISU_000674",
+      "IR_SHL_LUNZHU_000672",
+      "IR_SHL_QJYF_000232",
+      "IR_SHL_SONGBEN_000389",
+      "IR_SHL_TIAOWEN_000343",
+      "IR_SHL_ZHUJIE_000898"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論七首、脈證五條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_002141",
+      "evidence_span": "乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003354",
+      "evidence_span": "厥逆。無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000151",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "白通湯方第九十五",
+      "source_unit_id": "SU_B1CAC3ADF_002088",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B3E16D849_003472",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003580",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003683",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "下利",
+      "source_unit_id": "SU_B5C5ECAC2_000710",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "白通加豬膽汁湯",
+      "source_unit_id": "SU_B8E444005_000794",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002893",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001146",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000199",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000849",
+      "evidence_span": "利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "半夏散及湯方",
+      "source_unit_id": "SU_B41512D4B_002033",
+      "evidence_span": "下利脈微者與白通湯利不止。厥逆無脈。乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰上編",
+      "source_unit_id": "SU_B5FF1CA1B_000640",
+      "evidence_span": "少陰病下利脈微者。與白通利不止。厥逆無脈乾嘔煩者。白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000300",
+      "evidence_span": "少陰病，下利脈微，服白通湯，利不止，厥逆無脈，干煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "白通湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001176",
+      "evidence_span": "少陰病下利脈微者，與白通湯。利不止，厥逆、無脈、乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001407",
+      "evidence_span": "少陰病，下利脈微者，與白通湯；利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000762",
+      "evidence_span": "少陰病，下利，脈微者，與白通湯。利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000609",
+      "evidence_span": "少陰病，下利，脈微者，與白通湯。利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "少陰〔前〕篇",
+      "source_unit_id": "SU_B0B74DF58_001273",
+      "evidence_span": "**十四、少陰病，下利，脈微者，與白通湯；利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000923",
+      "evidence_span": "11.36少陰病，下利，脈微者，與白通湯；利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰上篇",
+      "source_unit_id": "SU_B11498305_000485",
+      "evidence_span": "少陰病，下利脈微者，與白通湯，利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之，服湯脈暴出者死，微續者生。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "白通湯證",
+      "source_unit_id": "SU_SHL_LAISU_000470",
+      "evidence_span": "少陰病下利，脈微者，與白通湯，利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之，服湯後脈暴出者死，微續者生。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "少陰溫法十五條",
+      "source_unit_id": "SU_SHL_GUANZHU_000425",
+      "evidence_span": "少陰病下利，白通湯主之。少陰病下利，脈微者，與白通湯，利不止，厥逆無脈，乾嘔煩者，白通加豬膽汁湯主之，服湯脈暴出者，死，微續者，生。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人尿",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001234",
+        "IR_SHL_GUANZHU_000623"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑一兩",
+        "人尿五合",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001033"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 12
+      },
+      {
+        "term": "少陰病",
+        "count": 11
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "厥",
+        "count": 24
+      },
+      {
+        "term": "乾嘔",
+        "count": 24
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微",
+        "count": 12
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "白通加豬膽汁湯",
+    "下利",
+    "少陰病",
+    "厥",
+    "乾嘔",
+    "脈微"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

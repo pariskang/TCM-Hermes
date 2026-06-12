@@ -1,0 +1,120 @@
+{
+  "skill_id": "hermes.disease.38242909",
+  "kind": "disease",
+  "title": "蓄血證治合併規則",
+  "subject": "蓄血",
+  "abstracted_claim": "蓄血相關條文 10 條；主要方劑：抵當湯、黃連阿膠湯、桃仁承氣湯及犀角地黃湯、桃花湯、犀角地黃湯。",
+  "merged_rule_id": "MHR_DISEASE_38242909",
+  "release_level": "silver",
+  "consensus_score": 0.905,
+  "supporting_initial_rules": [
+    "IR_B18FAB5FB_000046",
+    "IR_B9119D083_000394",
+    "IR_B9119D083_000395",
+    "IR_BBA9FB4A6_000152",
+    "IR_JF_SHIYANLU_000255",
+    "IR_JGYH_ERZHU_000381",
+    "IR_SHL_LAISU_000265",
+    "IR_SHL_LUNZHU_000259",
+    "IR_SHL_QJYF_000181",
+    "IR_SHL_SUYUAN_000183"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B18FAB5FB_000046",
+      "IR_B9119D083_000394",
+      "IR_B9119D083_000395",
+      "IR_BBA9FB4A6_000152",
+      "IR_JF_SHIYANLU_000255",
+      "IR_JGYH_ERZHU_000381",
+      "IR_SHL_LAISU_000265",
+      "IR_SHL_LUNZHU_000259",
+      "IR_SHL_QJYF_000181",
+      "IR_SHL_SUYUAN_000183"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001862",
+      "evidence_span": "其人喜忘者。必有蓄血。大便黑色。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "",
+      "source_unit_id": "SU_B18FAB5FB_000071",
+      "evidence_span": "小便利。大便黑。此蓄血症也。宜桃仁承氣湯及犀角地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SUYUAN_000384",
+      "evidence_span": "如此乃為蓄血發黃。此血證最詳最審。更無差誤之真諦也。故必以抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000225",
+      "evidence_span": "陽明證，其人喜忘，必有蓄血，所以然者，本有久瘀血，故令喜忘，雖堅，大便必黑，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_000471",
+      "evidence_span": "前條據症推原，此條憑脈辨症。表裡熱極，陽盛陰虛，必傷陰絡。故仍不大便者，必有蓄血，熱利不止，必大便膿血矣。宜黃連阿膠湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001033",
+      "evidence_span": "若小便不利者，或是氣結溺澀，非蓄血症。若小便自利，兼有身黃目黃，如狂喜忘，漱水不得下咽等症，即是蓄血，急以桃仁承氣湯、抵當湯下之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001033",
+      "evidence_span": "按蓄血治法，有上中下三條。傷寒失汗，淤其血於上焦，用犀角地黃湯；如狂喜忘，心下滿，淤其血於中焦，桃仁承氣湯；小腹硬痛，小便自利，淤其血於下焦，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000248",
+      "evidence_span": "不愈，用桂枝湯。陽明下血譫語，胸滿如結胸，夜則如見鬼，此為熱入血室，小柴胡湯。下焦蓄血，其人如狂，小腹急結，小便自利，大便黑，與夫下利，無表裡證，脈數不解，消穀易飢，多日不大便，此為瘀血，桃仁承氣湯。少陰病，下利膿血，或腹滿，下如魚腦者，桃花湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "",
+      "source_unit_id": "SU_JF_SHIYANLU_000696",
+      "evidence_span": "《千金》曰：「犀角地黃湯治傷寒及溫病，應發汗而不汗之，內蓄血者，及鼻衄吐血不盡，內餘瘀血，面黃，大便黑，消瘀血。」可以證之。《溫病條辨》曰：「太陰溫病，血從上溢者，犀角地黃湯合銀翅散治之。」又曰：「時欲漱口，不欲咽，大便黑而易者，有瘀血也，犀角地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000189",
+      "evidence_span": "病人無表裏症，發熱七八日，不大便，雖脈浮數者，可下之，假令已下，脈數不解，合熱則消穀善饑，至六七日不大便者，有瘀血也，宜抵當湯，若脈數不解，而下利不止，必協熱而便膿血也。[不頭痛惡寒，為無表症，不煩燥嘔湯，為無裏症，非無熱也，七八日下，當有不大便句，故脈雖浮數，有可下之理，觀下後六七日，猶然不便可知，合熱協熱，內外熱也，前條據症推原，此條憑脈辨症，表裏熱極，陽盛陰虛，必傷陰絡，故仍不大便者，必有蓄血，熱利不止，必大便膿血矣，宜黃連阿膠湯主之，上條大便反易，知瘀血留久，是驗之於已形，此條仍不大便，知瘀血已結，是料之於未形。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "蓄血"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

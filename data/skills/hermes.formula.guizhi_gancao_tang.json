@@ -1,0 +1,334 @@
+{
+  "skill_id": "hermes.formula.guizhi_gancao_tang",
+  "kind": "formula",
+  "title": "桂枝甘草湯方證合併規則",
+  "subject": "桂枝甘草湯",
+  "abstracted_claim": "桂枝甘草湯可歸納為傷寒、亡陽、心下悸、煩躁、汗出、喘等方證的核心方（支持條文 20 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_GUIZHI_GANCAO_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.915,
+  "supporting_initial_rules": [
+    "IR_B11498305_000090",
+    "IR_B1CAC3ADF_000224",
+    "IR_B3E16D849_000576",
+    "IR_B3E520529_000187",
+    "IR_B3E520529_000325",
+    "IR_B41512D4B_000207",
+    "IR_B5C5ECAC2_000166",
+    "IR_B8E444005_000274",
+    "IR_BB711944D_000996",
+    "IR_BBAACE965_000292",
+    "IR_BC91F4420_000150",
+    "IR_CAOSHI_FAWEI_000164",
+    "IR_SHL_GUIBEN_000474",
+    "IR_SHL_LAISU_000086",
+    "IR_SHL_LUNZHU_000082",
+    "IR_SHL_QJYF_000321",
+    "IR_SHL_SONGBEN_000118",
+    "IR_SHL_SUYUAN_000265",
+    "IR_SHL_TIAOWEN_000072",
+    "IR_SHL_ZHUJIE_000267"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000090",
+      "IR_B1CAC3ADF_000224",
+      "IR_B3E16D849_000576",
+      "IR_B3E520529_000187",
+      "IR_B3E520529_000325",
+      "IR_B41512D4B_000207",
+      "IR_B5C5ECAC2_000166",
+      "IR_B8E444005_000274",
+      "IR_BB711944D_000996",
+      "IR_BBAACE965_000292",
+      "IR_BC91F4420_000150",
+      "IR_CAOSHI_FAWEI_000164",
+      "IR_SHL_GUIBEN_000474",
+      "IR_SHL_LAISU_000086",
+      "IR_SHL_LUNZHU_000082",
+      "IR_SHL_QJYF_000321",
+      "IR_SHL_SONGBEN_000118",
+      "IR_SHL_SUYUAN_000265",
+      "IR_SHL_TIAOWEN_000072",
+      "IR_SHL_ZHUJIE_000267"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "火邪三條",
+      "source_unit_id": "SU_BB711944D_001289",
+      "evidence_span": "火逆下之。因燒針煩躁者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "麻黃杏仁甘草石膏湯方第二十四",
+      "source_unit_id": "SU_B1CAC3ADF_001014",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "悸",
+      "source_unit_id": "SU_B3E16D849_001231",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "麻黃杏人甘草石膏湯方",
+      "source_unit_id": "SU_B41512D4B_000644",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "誤汗例",
+      "source_unit_id": "SU_B5C5ECAC2_000821",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝甘草湯",
+      "source_unit_id": "SU_B8E444005_000389",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000541",
+      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000135",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000697",
+      "evidence_span": "發汗過多。其人叉手自冒心。心下悸欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000202",
+      "evidence_span": "發汗過多。其人叉手自冒心。心下悸俗得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000064",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000142",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000290",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000137",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000656",
+      "evidence_span": "發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000367",
+      "evidence_span": "（十七）發汗過多。其人叉手自冒心。心下悸欲得按者。桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000507",
+      "evidence_span": "7.33發汗過多，其人叉手自冒心、心下悸欲得按者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "發汗吐下後病狀第五",
+      "source_unit_id": "SU_SHL_QJYF_000505",
+      "evidence_span": "發汗過多以後，其人叉手自冒心，心下悸，而欲得按之，桂枝甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "卷第二",
+      "source_unit_id": "SU_B3E520529_000301",
+      "evidence_span": "四十一面，三行，煩喘顧本喘作渴。四十二面，十三行，微喘顧本喘作熱。四十三面，十行，閞陰顧本作關，十一行同。四十四面，八行，桂枝甘草湯主之薛本作桂枝甘草龍骨牡蠣湯主之，十一行，並宜火劫治之薛本宜下有依字。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "火邪證醫以火臥床下，或週身用火迫卻汗，或熨或誤灸，皆屬火邪也。",
+      "source_unit_id": "SU_B3E520529_000101",
+      "evidence_span": "傷寒脈浮，醫以火迫，劫之亡陽，驚或狂起臥不安者，宜桂枝去芍藥加蜀漆牡蠣龍骨救逆湯。桂枝〔壹兩半〕、蜀漆〔壹兩半〕、甘草〔壹兩〕、龍骨〔貳兩〕、牡蠣〔貳兩半〕、生薑〔壹兩半〕、大棗〔陸枚〕，以水陸升，先煮蜀漆，減壹升，內諸藥，煮取貳升，去滓，溫服壹盞，無蜀漆以恆山代之，火劫後脈浮，當汗出而愈。火邪下之，因燒針煩躁者，桂枝甘草湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E520529",
+      "book_title": "傷寒總病論",
+      "distinct_conditions": [
+        "亡陽",
+        "傷寒",
+        "喘",
+        "汗出",
+        "渴",
+        "脈浮"
+      ],
+      "rule_ids": [
+        "IR_B3E520529_000187",
+        "IR_B3E520529_000325"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒恆論"
+      ],
+      "composition": [
+        "桂枝",
+        "甘草",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000168"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "甘草"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000295",
+        "IR_BC91F4420_000151",
+        "IR_SHL_GUANZHU_000130",
+        "IR_SHL_ZHUJIE_000269"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "桂枝四兩",
+        "甘草二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000475"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "亡陽",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心下悸",
+        "count": 17
+      },
+      {
+        "term": "煩躁",
+        "count": 2
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      },
+      {
+        "term": "喘",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 1
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "亡陽",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "溫通心陽",
+        "count": 20
+      }
+    ]
+  },
+  "keywords": [
+    "桂枝甘草湯",
+    "傷寒",
+    "亡陽",
+    "心下悸",
+    "煩躁",
+    "汗出",
+    "喘",
+    "渴",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

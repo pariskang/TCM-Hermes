@@ -1,0 +1,163 @@
+{
+  "skill_id": "hermes.formula.huangqi_jianzhong_tang",
+  "kind": "formula",
+  "title": "黃耆建中湯方證合併規則",
+  "subject": "黃耆建中湯",
+  "abstracted_claim": "黃耆建中湯可歸納為虛勞、亡血、喘、渴、腹痛等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_HUANGQI_JIANZHONG_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001030",
+    "IR_JGYL_FANGLUN_000053",
+    "IR_JGYL_QIANZHU_000069",
+    "IR_JGYL_TIAOWEN_000053",
+    "IR_SHL_GUIBEN_001347"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001030",
+      "IR_JGYL_FANGLUN_000053",
+      "IR_JGYL_QIANZHU_000069",
+      "IR_JGYL_TIAOWEN_000053",
+      "IR_SHL_GUIBEN_001347"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001339",
+      "evidence_span": "虛勞裏急諸不足，黃耆建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_FANGLUN_000228",
+      "evidence_span": "虛勞裏急、諸不足，黃耆建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000226",
+      "evidence_span": "虛勞裏急、諸不足，黃耆建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘧病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001172",
+      "evidence_span": "13.29虛勞裏急，諸不足者，黃耆建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_QIANZHU_000304",
+      "evidence_span": "虛勞裡（虛脈）急（以及眩悸喘渴失精亡血腹痛）諸（證之）不足。（相因而至。以）黃耆建中湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "亡血",
+        "喘",
+        "渴",
+        "腹痛"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000069"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏三兩",
+        "茯苓一兩",
+        "黃耆一兩"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001031"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏三兩",
+        "枳實一兩",
+        "生薑一兩",
+        "茯苓一兩",
+        "黃耆一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001348"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "虛勞",
+        "count": 5
+      },
+      {
+        "term": "亡血",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "腹痛",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "溫中補氣",
+        "count": 5
+      },
+      {
+        "term": "和裏緩急",
+        "count": 5
+      }
+    ]
+  },
+  "keywords": [
+    "黃耆建中湯",
+    "虛勞",
+    "亡血",
+    "喘",
+    "渴",
+    "腹痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

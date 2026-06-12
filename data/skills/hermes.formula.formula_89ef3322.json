@@ -1,0 +1,150 @@
+{
+  "skill_id": "hermes.formula.formula_89ef3322",
+  "kind": "formula",
+  "title": "歸貝母苦參丸方證合併規則",
+  "subject": "歸貝母苦參丸",
+  "abstracted_claim": "歸貝母苦參丸可歸納為妊娠、小便難等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_89EF3322",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001405",
+    "IR_JGYH_ERZHU_000339",
+    "IR_JGYL_FANGLUN_000262",
+    "IR_JGYL_JIYI_000435",
+    "IR_JGYL_QIANZHU_000298",
+    "IR_JGYL_TIAOWEN_000262",
+    "IR_JGYL_XINDIAN_000292",
+    "IR_SHL_GUIBEN_001577"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001405",
+      "IR_JGYH_ERZHU_000339",
+      "IR_JGYL_FANGLUN_000262",
+      "IR_JGYL_JIYI_000435",
+      "IR_JGYL_QIANZHU_000298",
+      "IR_JGYL_TIAOWEN_000262",
+      "IR_JGYL_XINDIAN_000292",
+      "IR_SHL_GUIBEN_001577"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002052",
+      "evidence_span": "妊娠小便難，當歸貝母苦參丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYH_ERZHU_001723",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "證三條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_003248",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_XINDIAN_001545",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000906",
+      "evidence_span": "妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000904",
+      "evidence_span": "妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_QIANZHU_001283",
+      "evidence_span": "妊娠小便難。飲食如故。（以）當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001366",
+      "evidence_span": "16.7妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "當歸",
+        "苦參",
+        "貝母"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001406"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "當歸四兩",
+        "苦參四兩",
+        "貝母四兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001578"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "妊娠",
+        "count": 8
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "小便難",
+        "count": 8
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "歸貝母苦參丸",
+    "妊娠",
+    "小便難"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

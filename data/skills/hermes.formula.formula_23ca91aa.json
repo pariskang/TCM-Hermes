@@ -1,0 +1,193 @@
+{
+  "skill_id": "hermes.formula.formula_23ca91aa",
+  "kind": "formula",
+  "title": "柴胡加芒硝湯方證合併規則",
+  "subject": "柴胡加芒硝湯",
+  "abstracted_claim": "柴胡加芒硝湯可歸納為傷寒、潮熱、汗出等方證的核心方（支持條文 9 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_23CA91AA",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B41512D4B_000322",
+    "IR_B41512D4B_000894",
+    "IR_B5FF1CA1B_000378",
+    "IR_SHL_GUIBEN_000558",
+    "IR_SHL_LAISU_000550",
+    "IR_SHL_LUNZHU_000546",
+    "IR_SHL_QJYF_000031",
+    "IR_SHL_SONGBEN_000166",
+    "IR_SHL_TIAOWEN_000120"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B41512D4B_000322",
+      "IR_B41512D4B_000894",
+      "IR_B5FF1CA1B_000378",
+      "IR_SHL_GUIBEN_000558",
+      "IR_SHL_LAISU_000550",
+      "IR_SHL_LUNZHU_000546",
+      "IR_SHL_QJYF_000031",
+      "IR_SHL_SONGBEN_000166",
+      "IR_SHL_TIAOWEN_000120"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "大柴胡湯方",
+      "source_unit_id": "SU_B41512D4B_001789",
+      "evidence_span": "潮熱者。實也。先宜小柴胡湯以解外。後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陽篇",
+      "source_unit_id": "SU_B5FF1CA1B_000575",
+      "evidence_span": "下之非其治也。潮熱者實也。先宜小柴胡湯以解外。後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "大柴胡湯方",
+      "source_unit_id": "SU_B41512D4B_000806",
+      "evidence_span": "傷寒十三日不解。胸脅滿而嘔。（云云至）先宜小柴胡湯以解外。後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "柴胡湯證",
+      "source_unit_id": "SU_SHL_LAISU_000372",
+      "evidence_span": "傷寒十三日，下之胸脅滿而嘔，日晡所發潮熱，已而微利，此本柴胡證，下之而不得利，今反利者，知醫以丸藥下之，非其治也，潮熱者實也，先宜小柴胡以解外，後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "柴胡湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000920",
+      "evidence_span": "傷寒十三日，下之，胸脅滿而嘔，日晡所發潮熱，已而微利。此本柴胡證，下之而不得利，今反利者，知醫以丸藥下之，非其治也。潮熱者實也，先宜小柴胡以解外，後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000382",
+      "evidence_span": "傷寒十三日不解，胸脇滿而嘔，日晡所發潮熱，已而微利。此本柴胡證，下之以不得利，今反利者，知醫以丸藥下之，此非其治也。潮熱者，實也。先宜服小柴胡湯以解外，後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000229",
+      "evidence_span": "傷寒十三日不解，胸脇滿而嘔，日晡所發潮熱，已而微利。此本柴胡證，下之以不得利，今反利者，知醫以丸藥下之，此非其治也。潮熱者，實也。先宜服小柴胡湯以解外，後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000569",
+      "evidence_span": "7.76傷寒十三日不解，胸脇滿而嘔，日晡所發潮熱，已而微利，此本柴胡證，下之以不得利，今反利者，知醫以丸藥下之，非其治也。潮熱者，實也，宜先服小柴胡湯以解外，後以柴胡加芒硝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病用柴胡湯法第四",
+      "source_unit_id": "SU_SHL_QJYF_000038",
+      "evidence_span": "假令純陰結，不得有外證，悉入在於裡；此為半在外半在裡，脈雖沉緊，不得為少陰，所以然者，陰不得有汗，今頭大汗出，故傷寒十三日不解，胸脅滿而嘔，日晡所發潮熱，而微利，此本當柴胡下之，不得利，今反利者，故知醫以丸藥下之，非其治也。潮熱者，實也。先再服小柴胡湯，以解其外，後以柴胡加芒硝湯主之，方：柴胡（二兩十六銖）　黃芩　人參　甘草（炙）　生薑（各一兩，切）　半夏（一合，洗）　大棗（四枚，擘）　芒硝（二兩）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "汗出"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000031"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "柴胡",
+        "芒硝"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000271"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "芒硝六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000538",
+        "IR_SHL_ZHUJIE_001152"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參一兩",
+        "半夏二十銖",
+        "大棗四枚",
+        "柴胡二兩",
+        "甘草一兩",
+        "生薑一兩",
+        "芒硝二兩",
+        "黃芩一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000560"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 7
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "潮熱",
+        "count": 8
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "柴胡加芒硝湯",
+    "傷寒",
+    "潮熱",
+    "汗出"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,61 @@
+{
+  "skill_id": "hermes.formula.formula_27a848ad",
+  "kind": "formula",
+  "title": "仲景以梔子大黃湯方證合併規則",
+  "subject": "仲景以梔子大黃湯",
+  "abstracted_claim": "仲景以梔子大黃湯可歸納為宿食等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_27A848AD",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_BBAACE965_000751",
+    "IR_JGYL_JIYI_000183"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BBAACE965_000751",
+      "IR_JGYL_JIYI_000183"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001828",
+      "evidence_span": "東垣試效方曰。若有宿食而煩者。仲景以梔子大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證十六條、方十三首",
+      "source_unit_id": "SU_JGYL_JIYI_001566",
+      "evidence_span": "東垣試效方云。若有宿食而煩者。仲景以梔子大黃湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "宿食",
+        "count": 2
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "仲景以梔子大黃湯",
+    "宿食"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

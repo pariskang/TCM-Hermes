@@ -1,0 +1,137 @@
+{
+  "skill_id": "hermes.formula.formula_0a2b1361",
+  "kind": "formula",
+  "title": "去芍藥加蜀漆龍骨牡蠣救逆湯方證合併規則",
+  "subject": "去芍藥加蜀漆龍骨牡蠣救逆湯",
+  "abstracted_claim": "去芍藥加蜀漆龍骨牡蠣救逆湯可歸納為亡陽、傷寒、驚狂、脈浮等方證的核心方（支持條文 8 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_0A2B1361",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000177",
+    "IR_B3E16D849_000168",
+    "IR_B3E16D849_000672",
+    "IR_B3E16D849_001279",
+    "IR_BC91F4420_000293",
+    "IR_BCA15D57E_000226",
+    "IR_SHL_LUNZHU_000107",
+    "IR_SHL_LUNZHU_000267"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000177",
+      "IR_B3E16D849_000168",
+      "IR_B3E16D849_000672",
+      "IR_B3E16D849_001279",
+      "IR_BC91F4420_000293",
+      "IR_BCA15D57E_000226",
+      "IR_SHL_LUNZHU_000107",
+      "IR_SHL_LUNZHU_000267"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "太陽經脈",
+      "source_unit_id": "SU_B3E16D849_000472",
+      "evidence_span": "亡陽。必驚狂。起臥不安者。桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嗜臥不臥",
+      "source_unit_id": "SU_B3E16D849_001436",
+      "evidence_span": "亡陽。必驚狂。起臥不安者。桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發狂",
+      "source_unit_id": "SU_B3E16D849_002627",
+      "evidence_span": "亡陽。必驚狂。起臥不安者。桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治下編第三",
+      "source_unit_id": "SU_BC91F4420_000629",
+      "evidence_span": "醫以火迫劫之。亡陽。必驚狂起臥不安者。桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000232",
+      "evidence_span": "傷寒脈浮，醫以火迫刦之，亡陽必驚狂，起臥不安者，桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000167",
+      "evidence_span": "傷寒脈浮，醫以火迫劫之，亡陽，必驚狂起臥不安者，桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "火逆諸證",
+      "source_unit_id": "SU_SHL_LUNZHU_000480",
+      "evidence_span": "傷寒脈浮，醫以火迫劫之，亡陽，必驚狂起臥不安者，桂枝去芍藥加蜀漆龍骨牡蠣救逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "桂枝去芍藥加蜀漆龍骨牡蠣證十二（太陽一百零三）",
+      "source_unit_id": "SU_BCA15D57E_000308",
+      "evidence_span": "傷寒脈浮醫以火迫劫之亡陽必驚狂起臥不安者桂枝湯去芍藥加蜀漆龍骨牡蠣救逆湯主之汗多亡陽君火飛騰神魂失歸是以驚生濁氣上逆化生敗濁迷塞心宮是以狂作桂枝加蜀漆龍骨牡蠣湯桂枝甘草疏木而培中生薑大棗補脾而降逆蜀漆吐腐瘀而療狂龍骨牡蠣斂神魂而止驚也",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "亡陽",
+        "count": 8
+      },
+      {
+        "term": "傷寒",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "驚狂",
+        "count": 8
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 4
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "亡陽",
+        "count": 8
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "去芍藥加蜀漆龍骨牡蠣救逆湯",
+    "亡陽",
+    "傷寒",
+    "驚狂",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,282 @@
+{
+  "skill_id": "hermes.formula.formula_1b19a98f",
+  "kind": "formula",
+  "title": "葛根加半夏湯方證合併規則",
+  "subject": "葛根加半夏湯",
+  "abstracted_claim": "葛根加半夏湯可歸納為下利等方證的核心方（支持條文 19 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_1B19A98F",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000552",
+    "IR_B11498305_000535",
+    "IR_B1CAC3ADF_000152",
+    "IR_B3E16D849_000540",
+    "IR_B41512D4B_000122",
+    "IR_B8E444005_000333",
+    "IR_B9119D083_000308",
+    "IR_BBAACE965_000145",
+    "IR_BC91F4420_000096",
+    "IR_CAOSHI_FAWEI_000076",
+    "IR_SHL_GUIBEN_000422",
+    "IR_SHL_LAISU_000159",
+    "IR_SHL_LEIFANG_000031",
+    "IR_SHL_LUNZHU_000154",
+    "IR_SHL_QJYF_000016",
+    "IR_SHL_SONGBEN_000080",
+    "IR_SHL_SUYUAN_000992",
+    "IR_SHL_TIAOWEN_000034",
+    "IR_SHL_ZHUJIE_000194"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000552",
+      "IR_B11498305_000535",
+      "IR_B1CAC3ADF_000152",
+      "IR_B3E16D849_000540",
+      "IR_B41512D4B_000122",
+      "IR_B8E444005_000333",
+      "IR_B9119D083_000308",
+      "IR_BBAACE965_000145",
+      "IR_BC91F4420_000096",
+      "IR_CAOSHI_FAWEI_000076",
+      "IR_SHL_GUIBEN_000422",
+      "IR_SHL_LAISU_000159",
+      "IR_SHL_LEIFANG_000031",
+      "IR_SHL_LUNZHU_000154",
+      "IR_SHL_QJYF_000016",
+      "IR_SHL_SONGBEN_000080",
+      "IR_SHL_SUYUAN_000992",
+      "IR_SHL_TIAOWEN_000034",
+      "IR_SHL_ZHUJIE_000194"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病用麻黃湯法第二",
+      "source_unit_id": "SU_SHL_QJYF_000020",
+      "evidence_span": "不下利但嘔，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "葛根加半夏湯",
+      "source_unit_id": "SU_B8E444005_000513",
+      "evidence_span": "葛根湯主之。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B9119D083_000750",
+      "evidence_span": "太陽與陽明合病，不下利但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "葛根湯證",
+      "source_unit_id": "SU_SHL_LAISU_000131",
+      "evidence_span": "大陽與陽明合病，不下利但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "合病併病篇",
+      "source_unit_id": "SU_B11498305_000723",
+      "evidence_span": "太陽與陽明合病，不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "葛根湯方第十七",
+      "source_unit_id": "SU_B1CAC3ADF_000889",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B3E16D849_001160",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "葛根湯方",
+      "source_unit_id": "SU_B41512D4B_000502",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000391",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000126",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "葛根湯症",
+      "source_unit_id": "SU_SHL_LUNZHU_000304",
+      "evidence_span": "太陽與陽明合病，不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000231",
+      "evidence_span": "太陽與陽明合病，不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "合病證治第十五",
+      "source_unit_id": "SU_SHL_SUYUAN_002282",
+      "evidence_span": "太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000078",
+      "evidence_span": "太陽與陽明合病，不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000560",
+      "evidence_span": "太陽與陽明合病，不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000258",
+      "evidence_span": "（五十六）太陽與陽明合病。不下利但嘔者。葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000467",
+      "evidence_span": "7.2太陽與陽明合病者，必自下利，葛根湯主之；若不下利，但嘔者，葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "傷寒合病",
+      "source_unit_id": "SU_B0B74DF58_001100",
+      "evidence_span": "**三、太陽與陽明合病，**（則）**不下利**（而）〔但〕**嘔者，**（用）**葛根加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "葛根加半夏湯（三）",
+      "source_unit_id": "SU_SHL_LEIFANG_000029",
+      "evidence_span": "葛根湯原方，加半夏半升洗，煎服法同，太陽與陽明合病，不下利，前條因下利而知太陽陽明合病，今既不下利，則合病何從而知，必須從兩經本症，一一對勘即不下利，而亦可定為合病矣，但嘔者，葛根加半夏湯主之，前條太陽誤下而成利，則用芩連治利，因其本屬桂枝症而脈促，故止加葛根一味，以解陽明初入之邪，此條乃太陽陽明合病，故用葛根湯全方，因其但嘔，加半夏一味以止嘔，隨病立方，各有法度。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "半夏",
+        "甘草",
+        "葛根",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000147"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "半夏半升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000041",
+        "IR_SHL_ZHUJIE_001149"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏半升",
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩",
+        "芍藥二兩",
+        "葛根四兩",
+        "麻黃三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000423"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "半夏",
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥",
+        "葛根",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000196"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 19
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "葛根加半夏湯",
+    "下利"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

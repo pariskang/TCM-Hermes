@@ -1,0 +1,174 @@
+{
+  "skill_id": "hermes.disease.53530011",
+  "kind": "disease",
+  "title": "痰飲證治合併規則",
+  "subject": "痰飲",
+  "abstracted_claim": "痰飲相關條文 16 條；主要方劑：苓桂朮甘湯、篇胸脇支滿目眩芩桂朮甘湯、真武湯、芍藥甘草附子湯、小半夏茯苓湯。",
+  "merged_rule_id": "MHR_DISEASE_53530011",
+  "release_level": "silver",
+  "consensus_score": 0.911,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000653",
+    "IR_B3E16D849_000533",
+    "IR_B8E444005_000361",
+    "IR_BBAACE965_000315",
+    "IR_CAOSHI_FAWEI_000175",
+    "IR_JF_SHIYANLU_000220",
+    "IR_JF_SHIYANLU_000221",
+    "IR_JGYH_ERZHU_000132",
+    "IR_JGYH_ERZHU_000252",
+    "IR_JGYL_FANGLUN_000113",
+    "IR_JGYL_JIYI_000195",
+    "IR_JGYL_QIANZHU_000080",
+    "IR_JGYL_TIAOWEN_000113",
+    "IR_JGYL_XINDIAN_000112",
+    "IR_SHL_GUIBEN_001404",
+    "IR_SHL_SUYUAN_000472"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000653",
+      "IR_B3E16D849_000533",
+      "IR_B8E444005_000361",
+      "IR_BBAACE965_000315",
+      "IR_CAOSHI_FAWEI_000175",
+      "IR_JF_SHIYANLU_000220",
+      "IR_JF_SHIYANLU_000221",
+      "IR_JGYH_ERZHU_000132",
+      "IR_JGYH_ERZHU_000252",
+      "IR_JGYL_FANGLUN_000113",
+      "IR_JGYL_JIYI_000195",
+      "IR_JGYL_QIANZHU_000080",
+      "IR_JGYL_TIAOWEN_000113",
+      "IR_JGYL_XINDIAN_000112",
+      "IR_SHL_GUIBEN_001404",
+      "IR_SHL_SUYUAN_000472"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001145",
+      "evidence_span": "是要下其痰飲也。嘔多雖有陽明症不可下者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001747",
+      "evidence_span": "心下有痰飲。胸脅支滿目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "",
+      "source_unit_id": "SU_B8E444005_000627",
+      "evidence_span": "心下有痰飲。胸脅支滿。目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_000743",
+      "evidence_span": "心下有痰飲。胸脅支滿。目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000938",
+      "evidence_span": "心下有痰飲。胸脅支滿。目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000477",
+      "evidence_span": "心下有痰飲，胸脅支滿，目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000475",
+      "evidence_span": "心下有痰飲，胸脅支滿，目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000804",
+      "evidence_span": "心下有痰飲。胸脅支滿。目眩。苓桂朮甘湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001442",
+      "evidence_span": "第三段本渴。今反不渴。亦痰飲條中。小半夏茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_000357",
+      "evidence_span": "咳而脈沉者。（為痰飲病之裡也。痰飲宜蕩滌。以）澤漆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000219",
+      "evidence_span": "氣上衝胸。起則頭眩。為水氣淩心。此與痰飲篇胸脇支滿目眩芩桂朮甘湯主之者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001229",
+      "evidence_span": "14.33心下有痰飲，胸脇支滿，目眩，脈沉弦者，茯苓桂枝白朮甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SUYUAN_000902",
+      "evidence_span": "然終不若結胸之有實熱者也。所以當蠲其水濕痰飲之邪。則胃和而氣自流通矣。故以十棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_001302",
+      "evidence_span": "若膈上有寒飲，證見乾嘔，此屬陽氣不化之寒飲。病痰飲者，當以溫藥和之，宜四逆湯以溫之，則寒去胃和，故不可吐也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "",
+      "source_unit_id": "SU_JF_SHIYANLU_000612",
+      "evidence_span": "以不宜發汗之人，令大發其汗，自有變證。大論曰；「發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草場主之。」此蓋為無痰飲者言之耳，又曰：「太陽病，發汗，汗出不解，其人仍發熱，心下悸，頭眩，身瞤動，振振欲擗地者，真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "",
+      "source_unit_id": "SU_JF_SHIYANLU_000612",
+      "evidence_span": "「發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草場主之。」此蓋為無痰飲者言之耳，又曰：「太陽病，發汗，汗出不解，其人仍發熱，心下悸，頭眩，身瞤動，振振欲擗地者，真武湯主之。」此蓋為有痰飲者言之。又曰：「發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "痰飲"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

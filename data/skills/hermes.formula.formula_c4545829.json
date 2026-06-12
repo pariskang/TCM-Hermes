@@ -1,0 +1,148 @@
+{
+  "skill_id": "hermes.formula.formula_c4545829",
+  "kind": "formula",
+  "title": "木防己湯方證合併規則",
+  "subject": "木防己湯",
+  "abstracted_claim": "木防己湯可歸納為支飲、心下痞、喘、脈沉緊、脈緊等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_C4545829",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001146",
+    "IR_JGYL_FANGLUN_000119",
+    "IR_JGYL_JIYI_000206",
+    "IR_JGYL_TIAOWEN_000119",
+    "IR_SHL_GUIBEN_001411"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001146",
+      "IR_JGYL_FANGLUN_000119",
+      "IR_JGYL_JIYI_000206",
+      "IR_JGYL_TIAOWEN_000119",
+      "IR_SHL_GUIBEN_001411"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001816",
+      "evidence_span": "其脈緊。得之數十日。醫吐下之不愈。木防己湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000500",
+      "evidence_span": "膈間支飲，其人喘滿，心下痞堅，面色黧黑，其脈沉緊，得之數十日，醫吐下之不愈，木防己湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000498",
+      "evidence_span": "膈間支飲，其人喘滿，心下痞堅，面色黧黑，其脈沉緊，得之數十日，醫吐下之不愈，木防己湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001234",
+      "evidence_span": "14.36膈間支飲，其人喘滿，心下痞堅，面色黧黑，其脈沉緊，得之數十日，醫吐下之不愈者，木防己湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001573",
+      "evidence_span": "膈間支飲，其人喘滿，心下痞堅，面色黎黑，其脈沉緊。得之數十日，醫吐下之不愈，木防己湯主之，虛者即愈，實者三日，復發，與不愈者宜木防己湯去石膏加茯苓芒硝湯主之",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "脈緊"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000206"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參四兩",
+        "桂枝二兩",
+        "防己三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001413"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "防己"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001149"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "支飲",
+        "count": 4
+      },
+      {
+        "term": "心下痞",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 4
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉緊",
+        "count": 4
+      },
+      {
+        "term": "脈緊",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "木防己湯",
+    "支飲",
+    "心下痞",
+    "喘",
+    "脈沉緊",
+    "脈緊"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

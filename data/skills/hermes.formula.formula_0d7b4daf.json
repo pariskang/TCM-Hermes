@@ -1,0 +1,144 @@
+{
+  "skill_id": "hermes.formula.formula_0d7b4daf",
+  "kind": "formula",
+  "title": "桂枝加厚朴杏子湯方證合併規則",
+  "subject": "桂枝加厚朴杏子湯",
+  "abstracted_claim": "桂枝加厚朴杏子湯可歸納為太陽病、喘等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_0D7B4DAF",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_BB711944D_000091",
+    "IR_BBAACE965_000202",
+    "IR_SHL_GUIBEN_000442",
+    "IR_SHL_SONGBEN_000093",
+    "IR_SHL_TIAOWEN_000047"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BB711944D_000091",
+      "IR_BBAACE965_000202",
+      "IR_SHL_GUIBEN_000442",
+      "IR_SHL_SONGBEN_000093",
+      "IR_SHL_TIAOWEN_000047"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "太陽經證治上九十五條",
+      "source_unit_id": "SU_BB711944D_000266",
+      "evidence_span": "下之。微喘者。表未解故也。桂枝加厚朴杏子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000545",
+      "evidence_span": "太陽病。下之微喘者。表未解故也。桂枝加厚朴杏子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000257",
+      "evidence_span": "太陽病，下之微喘者，表未解故也，桂枝加厚朴杏子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000104",
+      "evidence_span": "太陽病，下之微喘者，表未解故也，桂枝加厚朴杏子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000482",
+      "evidence_span": "7.12太陽病，下之微喘者，表未解故也，桂枝加厚朴杏子湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "厚朴",
+        "大棗",
+        "杏仁",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000204"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "厚朴二兩",
+        "大棗十二枚",
+        "杏仁五十枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩",
+        "芍藥三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000443"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "厚朴二兩",
+        "杏仁五十個"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_001141"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 5
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝加厚朴杏子湯",
+    "太陽病",
+    "喘"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

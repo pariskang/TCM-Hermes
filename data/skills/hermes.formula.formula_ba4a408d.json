@@ -1,0 +1,116 @@
+{
+  "skill_id": "hermes.formula.formula_ba4a408d",
+  "kind": "formula",
+  "title": "黃石膏湯方證合併規則",
+  "subject": "黃石膏湯",
+  "abstracted_claim": "黃石膏湯可歸納為傷寒、渴、心煩、譫語、喘息、衄等方證的核心方（支持條文 4 條，跨 1 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_BA4A408D",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_BBA9FB4A6_000056",
+    "IR_BBA9FB4A6_000063",
+    "IR_BBA9FB4A6_000076",
+    "IR_BBA9FB4A6_000077"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BBA9FB4A6_000056",
+      "IR_BBA9FB4A6_000063",
+      "IR_BBA9FB4A6_000076",
+      "IR_BBA9FB4A6_000077"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "死生脈候",
+      "source_unit_id": "SU_BBA9FB4A6_000058",
+      "evidence_span": "病八九日，已經汗下，脈尚洪數，兩目如火，五心煩熱，狂叫欲走，三黃石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "諸方",
+      "source_unit_id": "SU_BBA9FB4A6_000127",
+      "evidence_span": "陽毒傷寒，皮膚斑爛，身如凝血，兩目如火，十指皮俱脫，煩渴，躁急不寧，庸醫不識，莫能措手，命在須臾，三黃石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "陰證",
+      "source_unit_id": "SU_BBA9FB4A6_000069",
+      "evidence_span": "凡治傷寒，尺脈弱而無力者，切忌汗下，宜小柴胡湯和解之。陽毒傷寒，服藥不效，斑爛皮膚，手足皮俱脫，身如塗朱，眼珠如火，燥渴欲死，脈洪大而有力，昏不知人，宜三黃石膏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "諸方",
+      "source_unit_id": "SU_BBA9FB4A6_000126",
+      "evidence_span": "上每服一兩，水二鐘，煎服。未中病再服，其效如神。傷寒已經汗、吐、下誤治後三焦生熱，脈復洪數，譫語不休，晝夜喘息，鼻加衄血，病勢不解，身目俱黃，狂叫欲走，三黃石膏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 3
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "譫語",
+        "count": 1
+      },
+      {
+        "term": "喘息",
+        "count": 1
+      },
+      {
+        "term": "衄",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "尺脈弱",
+        "count": 1
+      },
+      {
+        "term": "脈洪大",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "黃石膏湯",
+    "傷寒",
+    "渴",
+    "心煩",
+    "譫語",
+    "喘息",
+    "衄",
+    "尺脈弱",
+    "脈洪大"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

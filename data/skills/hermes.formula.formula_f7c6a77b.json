@@ -1,0 +1,117 @@
+{
+  "skill_id": "hermes.formula.formula_f7c6a77b",
+  "kind": "formula",
+  "title": "抵當烏頭桂枝湯方證合併規則",
+  "subject": "抵當烏頭桂枝湯",
+  "abstracted_claim": "抵當烏頭桂枝湯可歸納為寒疝、身疼痛、腹中痛等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_F7C6A77B",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001117",
+    "IR_JGYH_ERZHU_000117",
+    "IR_JGYL_FANGLUN_000101",
+    "IR_JGYL_JIYI_000170",
+    "IR_JGYL_TIAOWEN_000101",
+    "IR_JGYL_XINDIAN_000103",
+    "IR_JG_FANGGEKUO_000007"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001117",
+      "IR_JGYH_ERZHU_000117",
+      "IR_JGYL_FANGLUN_000101",
+      "IR_JGYL_JIYI_000170",
+      "IR_JGYL_TIAOWEN_000101",
+      "IR_JGYL_XINDIAN_000103",
+      "IR_JG_FANGGEKUO_000007"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱方歌括",
+      "chapter_title": "烏頭桂枝湯",
+      "source_unit_id": "SU_JG_FANGGEKUO_000419",
+      "evidence_span": "手足不仁。若身疼痛。灸刺諸能治者。抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYH_ERZHU_000799",
+      "evidence_span": "手足不仁。若身疼痛。灸刺諸藥不能治。抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_XINDIAN_000683",
+      "evidence_span": "手足不仁。若身疼痛。灸刺諸藥不能治。抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證十六條、方十三首",
+      "source_unit_id": "SU_JGYL_JIYI_001494",
+      "evidence_span": "逆冷手足不仁。若身疼痛。灸刺諸藥不能治。抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001496",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，炙刺諸藥不能治，抵當烏頭桂枝湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000410",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，灸刺諸藥不能治，抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000408",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，灸刺諸藥不能治，抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "寒疝",
+        "count": 3
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "身疼痛",
+        "count": 7
+      },
+      {
+        "term": "腹中痛",
+        "count": 3
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "抵當烏頭桂枝湯",
+    "寒疝",
+    "身疼痛",
+    "腹中痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

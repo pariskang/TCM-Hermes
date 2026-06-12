@@ -1,0 +1,71 @@
+{
+  "skill_id": "hermes.formula.formula_e8662043",
+  "kind": "formula",
+  "title": "甘薑苓朮湯方證合併規則",
+  "subject": "甘薑苓朮湯",
+  "abstracted_claim": "甘薑苓朮湯可歸納為渴、小便自利、汗出等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E8662043",
+  "release_level": "silver",
+  "consensus_score": 0.9,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000112",
+    "IR_JGYL_TIAOWEN_000112"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000112",
+      "IR_JGYL_TIAOWEN_000112"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "五臟風寒積聚病脈證并治第十一",
+      "source_unit_id": "SU_JGYL_FANGLUN_000454",
+      "evidence_span": "腎著之病，其人身體重，腰中冷，如坐水中，形如水狀，反不渴，小便自利，飲食如故，病屬下焦，身勞汗出，衣一作表裏冷濕，久久得之，腰以下冷痛，腹重如帶五千錢，甘薑苓朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "五臟風寒積聚病脈證并治第十一",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000452",
+      "evidence_span": "腎著之病，其人身體重，腰中冷，如坐水中，形如水狀，反不渴，小便自利，飲食如故，病屬下焦，身勞汗出，衣一作表裏冷濕，久久得之，腰以下冷痛，腹重如帶五千錢，甘薑苓朮湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "小便自利",
+        "count": 2
+      },
+      {
+        "term": "汗出",
+        "count": 2
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "甘薑苓朮湯",
+    "渴",
+    "小便自利",
+    "汗出"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

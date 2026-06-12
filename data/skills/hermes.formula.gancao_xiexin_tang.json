@@ -1,0 +1,357 @@
+{
+  "skill_id": "hermes.formula.gancao_xiexin_tang",
+  "kind": "formula",
+  "title": "甘草瀉心湯方證合併規則",
+  "subject": "甘草瀉心湯",
+  "abstracted_claim": "甘草瀉心湯可歸納為傷寒、中風、下利、心下痞、痞、狐惑等方證的核心方（支持條文 17 條，跨 15 部書）。",
+  "merged_rule_id": "MHR_FORMULA_GANCAO_XIEXIN_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000175",
+    "IR_B11498305_000503",
+    "IR_B3E520529_000218",
+    "IR_BBAACE965_000521",
+    "IR_BC2BA03C0_000227",
+    "IR_JGYL_FANGLUN_000031",
+    "IR_JGYL_TIAOWEN_000031",
+    "IR_SHL_GUANZHU_000232",
+    "IR_SHL_GUIBEN_000335",
+    "IR_SHL_GUIBEN_000702",
+    "IR_SHL_GUIBEN_001304",
+    "IR_SHL_LAISU_000226",
+    "IR_SHL_LUNZHU_000224",
+    "IR_SHL_QJYF_000083",
+    "IR_SHL_SONGBEN_000234",
+    "IR_SHL_TIAOWEN_000188",
+    "IR_SHL_ZHUJIE_000527"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000175",
+      "IR_B11498305_000503",
+      "IR_B3E520529_000218",
+      "IR_BBAACE965_000521",
+      "IR_BC2BA03C0_000227",
+      "IR_JGYL_FANGLUN_000031",
+      "IR_JGYL_TIAOWEN_000031",
+      "IR_SHL_GUANZHU_000232",
+      "IR_SHL_GUIBEN_000335",
+      "IR_SHL_GUIBEN_000702",
+      "IR_SHL_GUIBEN_001304",
+      "IR_SHL_LAISU_000226",
+      "IR_SHL_LUNZHU_000224",
+      "IR_SHL_QJYF_000083",
+      "IR_SHL_SONGBEN_000234",
+      "IR_SHL_TIAOWEN_000188",
+      "IR_SHL_ZHUJIE_000527"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_001298",
+      "evidence_span": "案千金方狐惑篇。引本條。以甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "寒病脈證並治第十二",
+      "source_unit_id": "SU_SHL_GUIBEN_000408",
+      "evidence_span": "5.49寒病，胸脇支滿，膺背肩胛間痛，甚則喜悲，時發眩仆而不知人，此寒邪乘心也，通脈四逆湯主之；其著也，則肘外痛，臂不能伸，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000114",
+      "evidence_span": "狐𧌒之為病，狀如傷寒，默默欲眠，目不得閉，臥起不安，蝕於喉為𧌒，蝕於陰為狐，不欲飲食，惡聞食臭，其面目乍赤、乍黑、乍白。蝕於上部則聲喝一作嗄，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000112",
+      "evidence_span": "狐𧌒之為病，狀如傷寒，默默欲眠，目不得閉，臥起不安，蝕於喉為𧌒，蝕於陰為狐，不欲飲食，惡聞食臭，其面目乍赤、乍黑、乍白。蝕於上部則聲喝一作嗄，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨百合狐惑陰陽毒病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001137",
+      "evidence_span": "13.9狐惑之為病，狀如傷寒，默默欲眠，目不得閉，臥起不安。蝕於喉為惑，蝕於陰為狐。不欲飲食，惡聞食臭，其面目乍赤、乍黑、乍白。蝕於上部則聲嗄，甘草瀉心湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "狐惑證",
+      "source_unit_id": "SU_BC2BA03C0_000504",
+      "evidence_span": "狐惑之為病，狀如傷寒，或因傷寒變成斯疾。其候默默欲眠，目不得閉，臥起不安，蝕於喉為惑，蝕於陰為狐，不欲飲食，惡聞食臭，其面乍赤乍黑乍白。蝕於上部則聲嗄，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "藏結結胸痞篇",
+      "source_unit_id": "SU_B11498305_000696",
+      "evidence_span": "傷寒中風，醫反下之，其人下利日數十行，穀不化，腹中雷鳴，心下痞鞕而滿，乾嘔心煩不得安，醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "痞證七條",
+      "source_unit_id": "SU_SHL_GUANZHU_000137",
+      "evidence_span": "傷寒中風，醫反下之，其人下利，日數十行，穀不化，腹中雷鳴，心下痞鞕而滿，乾嘔心煩不得安，醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "瀉心湯證",
+      "source_unit_id": "SU_SHL_LAISU_000169",
+      "evidence_span": "傷寒中風，醫反下之，其人下利，日數十行，穀不化，腹中雷鳴，心下痞硬而滿，乾嘔心煩不得安，醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中空虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "瀉心湯症",
+      "source_unit_id": "SU_SHL_LUNZHU_000413",
+      "evidence_span": "傷寒中風，醫反下之。其人下利日數十行，穀不化，腹中雷鳴，心下痞硬而滿，乾嘔，心煩不得安。醫見心下痞，謂病不盡，復下之，其痞益甚。此非結熱，但以胃中空虛，客氣上逆，故使硬也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病用陷胸湯法第六",
+      "source_unit_id": "SU_SHL_QJYF_000100",
+      "evidence_span": "傷寒中風，醫反下之，其人下利日數十行，穀不化，腹中雷鳴，心下痞堅而滿，乾嘔而煩，不能得安，醫見心下痞，為病不盡，復重下之，其痞益甚，此非結熱，但胃中虛，客氣上逆，故使之堅，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000497",
+      "evidence_span": "傷寒中風，醫反下之，其人下利，日數十行，穀不化，腹中雷鳴，心下痞鞕而滿，乾嘔，心煩不得安。醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000344",
+      "evidence_span": "傷寒中風，醫反下之，其人下利，日數十行，穀不化，腹中雷鳴，心下痞鞕而滿，乾嘔，心煩不得安。醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_000972",
+      "evidence_span": "傷寒中風，醫反下之，其人下利，日數十行，穀不化；腹中雷鳴，心下痞硬而滿，乾嘔，心煩不得安。醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使硬也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000664",
+      "evidence_span": "8.37傷寒中風，醫反下之，其人下利，日數十行，穀不化，腹中雷鳴，心下痞鞕而滿，乾嘔，心煩不得安，醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆，故使鞕也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000368",
+      "evidence_span": "**二十八、傷寒中風，醫反下之，其人下利，日數十**（次）〔行〕，（完）**穀不化**(就是食穀不消化)**，腹中雷鳴，心下痞鞭而滿，乾嘔心煩不得安。醫見心下痞，謂病不盡，復下之，其痞益甚，此非結熱，但以胃中虛，客氣上逆**（胃中虛氣上逆）**，故使鞭也，甘草瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "狐惑證",
+      "source_unit_id": "SU_B3E520529_000106",
+      "evidence_span": "狐感之為狀如傷寒，或因傷寒變成斯疾，其候默默欲眠，目不得閉，臥起不安，蝕於喉為惑，蝕於陰為狐，不欲飲食，惡聞食臭，其面乍黑乍白，上部則聲嗄，甘草瀉心湯主之，方在痞證中，蝕於下部則咽乾，蝕於肛門者燒雄黃薰之，雄黃壹味燒薰下部，病者脈數則熱，微煩，默默但欲臥，汗出，初得之三四日，目赤如鳩眼，七八日則兩目四眥周皆黑，若能食者，膿已成也，赤小豆當歸散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "四逆"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000335",
+        "IR_SHL_GUIBEN_000702",
+        "IR_SHL_GUIBEN_001304"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "半夏",
+        "大棗",
+        "甘草",
+        "黃芩",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000718",
+        "IR_BC91F4420_000158",
+        "IR_SHL_ZHUJIE_001157"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "甘草"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000406"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "半夏",
+        "大棗",
+        "甘草",
+        "生薑",
+        "黃芩",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000235"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參三兩",
+        "半夏半升",
+        "大棗十二枚",
+        "甘草四兩",
+        "黃芩三兩",
+        "黃連一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000338",
+        "IR_SHL_GUIBEN_000704"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "半夏半升",
+        "大棗十二枚",
+        "甘草四兩",
+        "黃芩三兩",
+        "黃連一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001305"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 15
+      },
+      {
+        "term": "中風",
+        "count": 10
+      },
+      {
+        "term": "下利",
+        "count": 10
+      },
+      {
+        "term": "心下痞",
+        "count": 10
+      },
+      {
+        "term": "痞",
+        "count": 10
+      },
+      {
+        "term": "狐惑",
+        "count": 3
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "乾嘔",
+        "count": 10
+      },
+      {
+        "term": "心煩",
+        "count": 9
+      },
+      {
+        "term": "不欲飲食",
+        "count": 5
+      },
+      {
+        "term": "心下痞硬",
+        "count": 3
+      },
+      {
+        "term": "四逆",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "和胃補中",
+        "count": 17
+      },
+      {
+        "term": "消痞止利",
+        "count": 17
+      }
+    ]
+  },
+  "keywords": [
+    "甘草瀉心湯",
+    "傷寒",
+    "中風",
+    "下利",
+    "心下痞",
+    "痞",
+    "乾嘔",
+    "心煩",
+    "不欲飲食",
+    "心下痞硬",
+    "四逆"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

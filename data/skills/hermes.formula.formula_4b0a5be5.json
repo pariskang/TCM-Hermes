@@ -1,0 +1,128 @@
+{
+  "skill_id": "hermes.formula.formula_4b0a5be5",
+  "kind": "formula",
+  "title": "甘遂半夏湯方證合併規則",
+  "subject": "甘遂半夏湯",
+  "abstracted_claim": "甘遂半夏湯可歸納為留飲、自利、脈伏等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_4B0A5BE5",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001139",
+    "IR_JGYL_FANGLUN_000115",
+    "IR_JGYL_QIANZHU_000132",
+    "IR_JGYL_TIAOWEN_000115",
+    "IR_SHL_GUIBEN_001401"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001139",
+      "IR_JGYL_FANGLUN_000115",
+      "IR_JGYL_QIANZHU_000132",
+      "IR_JGYL_TIAOWEN_000115",
+      "IR_SHL_GUIBEN_001401"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001565",
+      "evidence_span": "病者脈估，其人欲自利，利反快，雖利心下續堅滿，此為留飲欲去故也，甘遂半夏湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000482",
+      "evidence_span": "病者脈伏，其人欲自利，利反快，雖利，心下續堅滿，此為留飲欲去故也，甘遂半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000480",
+      "evidence_span": "病者脈伏，其人欲自利，利反快，雖利，心下續堅滿，此為留飲欲去故也，甘遂半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_000648",
+      "evidence_span": "）此為留飲欲去（而不能盡去）故也。（治者。宜乘其欲去之勢而導之。以）甘遂半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001227",
+      "evidence_span": "14.32病者脈伏，其人欲自利，利反快，雖利，心下續堅滿，此為留飲，甘遂半夏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏",
+        "甘遂"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001140"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏十二枚",
+        "芍藥五枚",
+        "蜜半升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001402"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "留飲",
+        "count": 5
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "自利",
+        "count": 4
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈伏",
+        "count": 3
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "甘遂半夏湯",
+    "留飲",
+    "自利",
+    "脈伏"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

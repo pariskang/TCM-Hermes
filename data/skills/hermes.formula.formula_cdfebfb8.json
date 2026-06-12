@@ -1,0 +1,161 @@
+{
+  "skill_id": "hermes.formula.formula_cdfebfb8",
+  "kind": "formula",
+  "title": "葵子茯苓散方證合併規則",
+  "subject": "葵子茯苓散",
+  "abstracted_claim": "葵子茯苓散可歸納為小便不利、妊娠、惡寒、頭眩、身重等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_CDFEBFB8",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001407",
+    "IR_JGYH_ERZHU_000340",
+    "IR_JGYL_FANGLUN_000264",
+    "IR_JGYL_JIYI_000436",
+    "IR_JGYL_QIANZHU_000300",
+    "IR_JGYL_TIAOWEN_000264",
+    "IR_JGYL_XINDIAN_000293",
+    "IR_SHL_GUIBEN_001580"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001407",
+      "IR_JGYH_ERZHU_000340",
+      "IR_JGYL_FANGLUN_000264",
+      "IR_JGYL_JIYI_000436",
+      "IR_JGYL_QIANZHU_000300",
+      "IR_JGYL_TIAOWEN_000264",
+      "IR_JGYL_XINDIAN_000293",
+      "IR_SHL_GUIBEN_001580"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYH_ERZHU_001729",
+      "evidence_span": "小便不利。洒淅惡寒。起即頭眩。葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_XINDIAN_001550",
+      "evidence_span": "小便不利。洒淅惡寒。起即頭眩。葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "證三條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_003259",
+      "evidence_span": "身重小便不利。洒淅惡寒。起即頭眩。葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002057",
+      "evidence_span": "妊娠有水氣，身重，小便不利，灑淅惡寒，起即頭眩，葵子茯苓散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000910",
+      "evidence_span": "妊娠有水氣，身重，小便不利，洒淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000908",
+      "evidence_span": "妊娠有水氣，身重，小便不利，洒淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001368",
+      "evidence_span": "16.8妊娠，有水氣，小便不利，灑淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_QIANZHU_001288",
+      "evidence_span": "則）洒淅惡寒。（水能阻遏陽氣上升。故）起即頭眩。（以）葵子茯苓散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001408"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "茯苓三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001581"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 7
+      },
+      {
+        "term": "妊娠",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "惡寒",
+        "count": 8
+      },
+      {
+        "term": "頭眩",
+        "count": 8
+      },
+      {
+        "term": "身重",
+        "count": 4
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "葵子茯苓散",
+    "小便不利",
+    "妊娠",
+    "惡寒",
+    "頭眩",
+    "身重"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

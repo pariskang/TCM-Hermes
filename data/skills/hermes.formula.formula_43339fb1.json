@@ -1,0 +1,164 @@
+{
+  "skill_id": "hermes.formula.formula_43339fb1",
+  "kind": "formula",
+  "title": "烏頭赤石脂丸方證合併規則",
+  "subject": "烏頭赤石脂丸",
+  "abstracted_claim": "烏頭赤石脂丸可歸納為心痛、胸痹、心痛徹背、胸痛等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_43339FB1",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001085",
+    "IR_JGYH_ERZHU_000102",
+    "IR_JGYL_FANGLUN_000086",
+    "IR_JGYL_JIYI_000142",
+    "IR_JGYL_TIAOWEN_000086",
+    "IR_JGYL_XINDIAN_000089",
+    "IR_SHL_GUIBEN_001548"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001085",
+      "IR_JGYH_ERZHU_000102",
+      "IR_JGYL_FANGLUN_000086",
+      "IR_JGYL_JIYI_000142",
+      "IR_JGYL_TIAOWEN_000086",
+      "IR_JGYL_XINDIAN_000089",
+      "IR_SHL_GUIBEN_001548"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001444",
+      "evidence_span": "心痛澈背，背痛澈心，烏頭赤石脂丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000705",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000356",
+      "evidence_span": "心痛徹背，背痛徹心，烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證一首、方十首",
+      "source_unit_id": "SU_JGYL_JIYI_001326",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000354",
+      "evidence_span": "心痛徹背，背痛徹心，烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_XINDIAN_000597",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001346",
+      "evidence_span": "15.26胸痹，胸痛徹背，背痛徹胸者，烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "胸痛",
+        "胸痹"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001548"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "烏頭",
+        "赤石脂"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001086"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑一兩",
+        "烏頭一兩",
+        "蜀椒一兩",
+        "赤石脂一兩",
+        "附子五錢"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001549"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "心痛",
+        "count": 6
+      },
+      {
+        "term": "胸痹",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心痛徹背",
+        "count": 5
+      },
+      {
+        "term": "胸痛",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "烏頭赤石脂丸",
+    "心痛",
+    "胸痹",
+    "心痛徹背",
+    "胸痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

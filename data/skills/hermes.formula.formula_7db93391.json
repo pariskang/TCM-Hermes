@@ -1,0 +1,174 @@
+{
+  "skill_id": "hermes.formula.formula_7db93391",
+  "kind": "formula",
+  "title": "越婢加半夏湯方證合併規則",
+  "subject": "越婢加半夏湯",
+  "abstracted_claim": "越婢加半夏湯可歸納為肺脹、喘、咳、上氣、脈浮大、脈浮等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_7DB93391",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001061",
+    "IR_JGYH_ERZHU_000089",
+    "IR_JGYL_FANGLUN_000072",
+    "IR_JGYL_QIANZHU_000086",
+    "IR_JGYL_TIAOWEN_000072",
+    "IR_JGYL_XINDIAN_000074",
+    "IR_SHL_GUIBEN_001387"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001061",
+      "IR_JGYH_ERZHU_000089",
+      "IR_JGYL_FANGLUN_000072",
+      "IR_JGYL_QIANZHU_000086",
+      "IR_JGYL_TIAOWEN_000072",
+      "IR_JGYL_XINDIAN_000074",
+      "IR_SHL_GUIBEN_001387"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYH_ERZHU_000624",
+      "evidence_span": "其人喘。目如脫狀。脈浮大者。越婢加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_XINDIAN_000494",
+      "evidence_span": "其人喘。目如脫狀。脈浮大者。越婢加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "肺痿肺癱咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001391",
+      "evidence_span": "咳而上氣，此為肺脹，其人喘，目如脫狀，脈浮大者，越婢加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000287",
+      "evidence_span": "咳而上氣，此為肺脹，其人喘，目如脫狀，脈浮大者，越婢加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000285",
+      "evidence_span": "咳而上氣，此為肺脹，其人喘，目如脫狀，脈浮大者，越婢加半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001211",
+      "evidence_span": "14.22咳而氣喘，目如脫狀，脈浮大者，此為肺脹，越婢加半夏湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_QIANZHU_000381",
+      "evidence_span": "（診其）脈浮（則知其風邪。若浮而且）大者。（則知其風火挾水飲而乘於肺。以）越婢加半夏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "脈浮"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000086"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001062"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏半升",
+        "大棗十五枚",
+        "甘草二兩",
+        "生薑三兩",
+        "石膏半斤",
+        "麻黃六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001389"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "肺脹",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 6
+      },
+      {
+        "term": "咳",
+        "count": 4
+      },
+      {
+        "term": "上氣",
+        "count": 3
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮大",
+        "count": 6
+      },
+      {
+        "term": "脈浮",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "越婢加半夏湯",
+    "肺脹",
+    "喘",
+    "咳",
+    "上氣",
+    "脈浮大",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

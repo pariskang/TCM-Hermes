@@ -1,0 +1,97 @@
+{
+  "skill_id": "hermes.formula.formula_f4c10f28",
+  "kind": "formula",
+  "title": "蜘蛛散方證合併規則",
+  "subject": "蜘蛛散",
+  "abstracted_claim": "蜘蛛散可歸納為陰狐疝等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_F4C10F28",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001389",
+    "IR_JGYH_ERZHU_000330",
+    "IR_JGYL_FANGLUN_000250",
+    "IR_JGYL_JIYI_000419",
+    "IR_JGYL_TIAOWEN_000250",
+    "IR_JGYL_XINDIAN_000282"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001389",
+      "IR_JGYH_ERZHU_000330",
+      "IR_JGYL_FANGLUN_000250",
+      "IR_JGYL_JIYI_000419",
+      "IR_JGYL_TIAOWEN_000250",
+      "IR_JGYL_XINDIAN_000282"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "趺蹶手指臂腫轉筋狐疝疣蟲病脈證第十九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002015",
+      "evidence_span": "陰狐疝氣者，偏有小大，時時上下，蜘蛛散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蛔蟲病脈證第十九",
+      "source_unit_id": "SU_JGYH_ERZHU_001669",
+      "evidence_span": "陰狐疝氣者。偏有小大。時時上下。蜘蛛散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蚘蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000877",
+      "evidence_span": "陰狐疝氣者，偏有小大，時時上下，蜘蛛散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證一條、方五首",
+      "source_unit_id": "SU_JGYL_JIYI_003132",
+      "evidence_span": "陰狐疝氣者。偏有小大。時時上下。蜘蛛散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蚘蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000875",
+      "evidence_span": "陰狐疝氣者，偏有小大，時時上下，蜘蛛散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "趺蹶手指臂腫轉筋狐疝蛔蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_XINDIAN_001492",
+      "evidence_span": "陰狐疝氣者。偏有小大。時時上下。蜘蛛散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "陰狐疝",
+        "count": 6
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "蜘蛛散",
+    "陰狐疝"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

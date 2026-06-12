@@ -1,0 +1,108 @@
+{
+  "skill_id": "hermes.formula.formula_72f16d03",
+  "kind": "formula",
+  "title": "栝蔞牡蠣散方證合併規則",
+  "subject": "栝蔞牡蠣散",
+  "abstracted_claim": "栝蔞牡蠣散可歸納為百合病、百合、渴等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_72F16D03",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E16D849_001978",
+    "IR_JGYH_ERZHU_000047",
+    "IR_JGYL_JIYI_000062",
+    "IR_JGYL_QIANZHU_000035",
+    "IR_JGYL_XINDIAN_000036",
+    "IR_SHL_GUIBEN_001295"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E16D849_001978",
+      "IR_JGYH_ERZHU_000047",
+      "IR_JGYL_JIYI_000062",
+      "IR_JGYL_QIANZHU_000035",
+      "IR_JGYL_XINDIAN_000036",
+      "IR_SHL_GUIBEN_001295"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYH_ERZHU_000241",
+      "evidence_span": "百合病。渴不瘥者。栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證三條、方十二首",
+      "source_unit_id": "SU_JGYL_JIYI_000389",
+      "evidence_span": "百合病。渴不瘥者。栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYL_XINDIAN_000202",
+      "evidence_span": "百合病。渴不瘥者。栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "百合病",
+      "source_unit_id": "SU_B3E16D849_004133",
+      "evidence_span": "百合洗方主之。百合病。渴不瘥者。栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYL_QIANZHU_000143",
+      "evidence_span": "百合病。（洗後而）渴不瘥者。（內熱盛而津傷也。以）栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨百合狐惑陰陽毒病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001131",
+      "evidence_span": "13.6百合病一月不解，變成渴者，百合洗方主之。不差，栝蔞牡蠣散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "百合病",
+        "count": 6
+      },
+      {
+        "term": "百合",
+        "count": 2
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 6
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "栝蔞牡蠣散",
+    "百合病",
+    "百合",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

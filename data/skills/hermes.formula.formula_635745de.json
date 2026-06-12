@@ -1,0 +1,339 @@
+{
+  "skill_id": "hermes.formula.formula_635745de",
+  "kind": "formula",
+  "title": "茯苓桂枝甘草大棗湯方證合併規則",
+  "subject": "茯苓桂枝甘草大棗湯",
+  "abstracted_claim": "茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 28 條，跨 24 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_635745DE",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000169",
+    "IR_B11498305_000089",
+    "IR_B1CAC3ADF_000226",
+    "IR_B3E16D849_000433",
+    "IR_B3E16D849_000474",
+    "IR_B3E16D849_000577",
+    "IR_B41512D4B_000208",
+    "IR_B5C5ECAC2_000398",
+    "IR_B5FF1CA1B_000111",
+    "IR_BBAACE965_000297",
+    "IR_BC91F4420_000152",
+    "IR_CAOSHI_FAWEI_000165",
+    "IR_CAOSHI_FAWEI_001070",
+    "IR_JGYH_ERZHU_000095",
+    "IR_JGYL_FANGLUN_000078",
+    "IR_JGYL_JIYI_000218",
+    "IR_JGYL_TIAOWEN_000078",
+    "IR_JGYL_XINDIAN_000082",
+    "IR_SHL_GUANZHU_000132",
+    "IR_SHL_GUIBEN_000477",
+    "IR_SHL_LAISU_000087",
+    "IR_SHL_LUNZHU_000083",
+    "IR_SHL_QJYF_000320",
+    "IR_SHL_SONGBEN_000119",
+    "IR_SHL_SUYUAN_000259",
+    "IR_SHL_SUYUAN_000261",
+    "IR_SHL_TIAOWEN_000073",
+    "IR_SHL_ZHUJIE_000270"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000169",
+      "IR_B11498305_000089",
+      "IR_B1CAC3ADF_000226",
+      "IR_B3E16D849_000433",
+      "IR_B3E16D849_000474",
+      "IR_B3E16D849_000577",
+      "IR_B41512D4B_000208",
+      "IR_B5C5ECAC2_000398",
+      "IR_B5FF1CA1B_000111",
+      "IR_BBAACE965_000297",
+      "IR_BC91F4420_000152",
+      "IR_CAOSHI_FAWEI_000165",
+      "IR_CAOSHI_FAWEI_001070",
+      "IR_JGYH_ERZHU_000095",
+      "IR_JGYL_FANGLUN_000078",
+      "IR_JGYL_JIYI_000218",
+      "IR_JGYL_TIAOWEN_000078",
+      "IR_JGYL_XINDIAN_000082",
+      "IR_SHL_GUANZHU_000132",
+      "IR_SHL_GUIBEN_000477",
+      "IR_SHL_LAISU_000087",
+      "IR_SHL_LUNZHU_000083",
+      "IR_SHL_QJYF_000320",
+      "IR_SHL_SONGBEN_000119",
+      "IR_SHL_SUYUAN_000259",
+      "IR_SHL_SUYUAN_000261",
+      "IR_SHL_TIAOWEN_000073",
+      "IR_SHL_ZHUJIE_000270"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "奔豚氣病脈證治第八",
+      "source_unit_id": "SU_JGYH_ERZHU_000656",
+      "evidence_span": "發汗後。臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "奔豚氣病脈證治第八",
+      "source_unit_id": "SU_JGYL_FANGLUN_000320",
+      "evidence_span": "發汗後，臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "奔豚氣病脈證治第八",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000318",
+      "evidence_span": "發汗後，臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "奔豚氣病脈證治第八",
+      "source_unit_id": "SU_JGYL_XINDIAN_000550",
+      "evidence_span": "發汗後。臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "動氣",
+      "source_unit_id": "SU_B3E16D849_000997",
+      "evidence_span": "發汗後。其人臍下悸。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "悸",
+      "source_unit_id": "SU_B3E16D849_001232",
+      "evidence_span": "發汗後。其人臍下悸。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000205",
+      "evidence_span": "發汗後其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000065",
+      "evidence_span": "發汗後，其人臍下悸，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000144",
+      "evidence_span": "發汗後，其人臍下悸，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "發汗吐下後病狀第五",
+      "source_unit_id": "SU_SHL_QJYF_000503",
+      "evidence_span": "發汗後，其人臍下悸，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000133",
+      "evidence_span": "發汗後，其人臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "桂枝甘草湯方第二十五",
+      "source_unit_id": "SU_B1CAC3ADF_001020",
+      "evidence_span": "發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桂枝甘草湯方",
+      "source_unit_id": "SU_B41512D4B_000650",
+      "evidence_span": "發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000171",
+      "evidence_span": "發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000708",
+      "evidence_span": "發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "發汗後脈證治法十五條",
+      "source_unit_id": "SU_SHL_GUANZHU_000084",
+      "evidence_span": "發汗後，其人臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000294",
+      "evidence_span": "發汗後，其人臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000528",
+      "evidence_span": "發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000141",
+      "evidence_span": "發汗後，其人臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000661",
+      "evidence_span": "發汗後，其人臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "奔豚",
+      "source_unit_id": "SU_B3E16D849_001039",
+      "evidence_span": "太陽發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "奔豚述古",
+      "source_unit_id": "SU_B5C5ECAC2_001591",
+      "evidence_span": "一曰發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000371",
+      "evidence_span": "（十八）發汗後。其人臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000509",
+      "evidence_span": "7.34發汗後，其人臍下悸者，欲作奔豚也，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001907",
+      "evidence_span": "是水停臍下為病也。若欲作奔豚。則為陽虛。當以茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000529",
+      "evidence_span": "但因臍下悸。知陰氣已動。恐其欲作奔豚。故以茯苓桂枝甘草大棗湯主之也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000344",
+      "evidence_span": "**二十五、發汗後，其人臍下悸者，欲作奔豚**(諸病源候論云「奔豚者，氣上下游走，如豚之奔，故曰奔豚」。此兩字在這裏是形容悸氣自小腹上衝心胸之勢，與腎積為奔豚不同。)**，茯苓桂枝甘草大棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "奔豚氣病脈證第八",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001411",
+      "evidence_span": "發汗後，臍下悸者，欲作奔豚，茯苓桂枝甘草大棗湯主之（茯苓桂枝甘草大棗湯方　茯苓半斤　甘草二兩　大棗十五枚　桂枝四兩　上四味，以甘瀾水法，取水二斗，置大盆內，以杓揭之，上有珠子五六千顆相逐，取用之也）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000298",
+        "IR_BC91F4420_000153",
+        "IR_SHL_GUANZHU_000133",
+        "IR_SHL_ZHUJIE_000272"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十五枚",
+        "桂枝四兩",
+        "甘草二兩",
+        "茯苓半斤"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000478",
+        "IR_SHL_GUIBEN_000625"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "奔豚",
+        "count": 28
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "臍下悸",
+        "count": 27
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "茯苓桂枝甘草大棗湯",
+    "奔豚",
+    "臍下悸"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,586 @@
+{
+  "skill_id": "hermes.formula.zhenwu_tang",
+  "kind": "formula",
+  "title": "真武湯方證合併規則",
+  "subject": "真武湯",
+  "abstracted_claim": "真武湯可歸納為下利、太陽病、少陰病、小便不利、傷寒、亡陽等方證的核心方（支持條文 56 條，跨 27 部書）。",
+  "merged_rule_id": "MHR_FORMULA_ZHENWU_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000022",
+    "IR_B0B74DF58_000637",
+    "IR_B11498305_000085",
+    "IR_B11498305_000369",
+    "IR_B11498305_000903",
+    "IR_B18FAB5FB_000035",
+    "IR_B1CAC3ADF_000270",
+    "IR_B1CAC3ADF_000792",
+    "IR_B2EB248E3_000037",
+    "IR_B2EB248E3_000122",
+    "IR_B3E16D849_000200",
+    "IR_B3E16D849_000258",
+    "IR_B3E16D849_000334",
+    "IR_B3E16D849_001668",
+    "IR_B3E16D849_001671",
+    "IR_B3E16D849_001704",
+    "IR_B3E16D849_001769",
+    "IR_B3E16D849_001810",
+    "IR_B41512D4B_000273",
+    "IR_B41512D4B_000991",
+    "IR_B5C5ECAC2_000167",
+    "IR_B5C5ECAC2_000370",
+    "IR_B5FF1CA1B_000107",
+    "IR_B8E444005_000183",
+    "IR_B8E444005_000217",
+    "IR_B9119D083_000352",
+    "IR_B9119D083_000659",
+    "IR_B9DD8A693_000017",
+    "IR_BB7301DF2_000217",
+    "IR_BB7301DF2_000281",
+    "IR_BBAACE965_001235",
+    "IR_BC91F4420_000030",
+    "IR_BC91F4420_000498",
+    "IR_BF5CDC206_000011",
+    "IR_BF5CDC206_000179",
+    "IR_CAOSHI_FAWEI_000214",
+    "IR_CAOSHI_FAWEI_000759",
+    "IR_JF_SHIYANLU_000220",
+    "IR_SHL_GUANZHU_000605",
+    "IR_SHL_GUIBEN_000526",
+    "IR_SHL_GUIBEN_001035",
+    "IR_SHL_LAISU_000618",
+    "IR_SHL_LAISU_000619",
+    "IR_SHL_LUNZHU_000627",
+    "IR_SHL_LUNZHU_000628",
+    "IR_SHL_MINGLI_000101",
+    "IR_SHL_MINGLI_000129",
+    "IR_SHL_SONGBEN_000142",
+    "IR_SHL_SONGBEN_000390",
+    "IR_SHL_SUYUAN_000097",
+    "IR_SHL_SUYUAN_001141",
+    "IR_SHL_TIAOWEN_000096",
+    "IR_SHL_TIAOWEN_000344",
+    "IR_SHL_ZHUJIE_000325",
+    "IR_SHL_ZHUJIE_000326",
+    "IR_SHL_ZHUJIE_000902"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000022",
+      "IR_B0B74DF58_000637",
+      "IR_B11498305_000085",
+      "IR_B11498305_000369",
+      "IR_B11498305_000903",
+      "IR_B18FAB5FB_000035",
+      "IR_B1CAC3ADF_000270",
+      "IR_B1CAC3ADF_000792",
+      "IR_B2EB248E3_000037",
+      "IR_B2EB248E3_000122",
+      "IR_B3E16D849_000200",
+      "IR_B3E16D849_000258",
+      "IR_B3E16D849_000334",
+      "IR_B3E16D849_001668",
+      "IR_B3E16D849_001671",
+      "IR_B3E16D849_001704",
+      "IR_B3E16D849_001769",
+      "IR_B3E16D849_001810",
+      "IR_B41512D4B_000273",
+      "IR_B41512D4B_000991",
+      "IR_B5C5ECAC2_000167",
+      "IR_B5C5ECAC2_000370",
+      "IR_B5FF1CA1B_000107",
+      "IR_B8E444005_000183",
+      "IR_B8E444005_000217",
+      "IR_B9119D083_000352",
+      "IR_B9119D083_000659",
+      "IR_B9DD8A693_000017",
+      "IR_BB7301DF2_000217",
+      "IR_BB7301DF2_000281",
+      "IR_BBAACE965_001235",
+      "IR_BC91F4420_000030",
+      "IR_BC91F4420_000498",
+      "IR_BF5CDC206_000011",
+      "IR_BF5CDC206_000179",
+      "IR_CAOSHI_FAWEI_000214",
+      "IR_CAOSHI_FAWEI_000759",
+      "IR_JF_SHIYANLU_000220",
+      "IR_SHL_GUANZHU_000605",
+      "IR_SHL_GUIBEN_000526",
+      "IR_SHL_GUIBEN_001035",
+      "IR_SHL_LAISU_000618",
+      "IR_SHL_LAISU_000619",
+      "IR_SHL_LUNZHU_000627",
+      "IR_SHL_LUNZHU_000628",
+      "IR_SHL_MINGLI_000101",
+      "IR_SHL_MINGLI_000129",
+      "IR_SHL_SONGBEN_000142",
+      "IR_SHL_SONGBEN_000390",
+      "IR_SHL_SUYUAN_000097",
+      "IR_SHL_SUYUAN_001141",
+      "IR_SHL_TIAOWEN_000096",
+      "IR_SHL_TIAOWEN_000344",
+      "IR_SHL_ZHUJIE_000325",
+      "IR_SHL_ZHUJIE_000326",
+      "IR_SHL_ZHUJIE_000902"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咳悸",
+      "source_unit_id": "SU_B3E16D849_003395",
+      "evidence_span": "或小便利。或下利。嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003652",
+      "evidence_span": "或小便利。或下利。嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "小便不利",
+      "source_unit_id": "SU_B3E16D849_003732",
+      "evidence_span": "或小便利。或下利。嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "白通加豬膽汁方第九十六",
+      "source_unit_id": "SU_B1CAC3ADF_002098",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "白通加豬膽汁湯方",
+      "source_unit_id": "SU_B2EB248E3_000244",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "振戰栗",
+      "source_unit_id": "SU_B3E16D849_000656",
+      "evidence_span": "頭眩。身動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "腹痛",
+      "source_unit_id": "SU_B3E16D849_003492",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002906",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001151",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000200",
+      "evidence_span": "或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "梔子乾薑湯方第三十七",
+      "source_unit_id": "SU_B1CAC3ADF_001115",
+      "evidence_span": "頭眩。身　。動振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "茯苓四逆湯方",
+      "source_unit_id": "SU_B2EB248E3_000073",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B3E16D849_000551",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "筋惕肉",
+      "source_unit_id": "SU_B3E16D849_000855",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咳悸",
+      "source_unit_id": "SU_B3E16D849_003402",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "梔子乾薑湯方",
+      "source_unit_id": "SU_B41512D4B_000762",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第八十二證‧筋惕肉歌",
+      "source_unit_id": "SU_BB7301DF2_000243",
+      "evidence_span": "頭眩。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒九十論",
+      "chapter_title": "筋惕肉證（十七）",
+      "source_unit_id": "SU_B9DD8A693_000069",
+      "evidence_span": "心下悸。身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "誤汗例",
+      "source_unit_id": "SU_B5C5ECAC2_000823",
+      "evidence_span": "熱仍不退。身肉　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "停飲（述古）",
+      "source_unit_id": "SU_B5C5ECAC2_001442",
+      "evidence_span": "小便不利。自下利者。此為有水氣也。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000163",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "頭眩",
+      "source_unit_id": "SU_B8E444005_000316",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第六十二證‧心悸歌",
+      "source_unit_id": "SU_BB7301DF2_000186",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000113",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_BF5CDC206_000020",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000853",
+      "evidence_span": "其人或咳或小便利。或下利。或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000244",
+      "evidence_span": "心下悸。頭眩身　動。振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002629",
+      "evidence_span": "其人或咳。或小便利。或下利或嘔者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "戰汗",
+      "source_unit_id": "SU_B8E444005_000283",
+      "evidence_span": "其人仍發熱。心下悸。頭眩身　動振振欲擗地者。真武湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "亡陽",
+      "source_unit_id": "SU_B18FAB5FB_000065",
+      "evidence_span": "為下焦真元之主。此陽虛遂有發熱眩悸。　振擗地之症。宜真武湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B11498305",
+      "book_title": "傷寒纘論·傷寒緒論",
+      "distinct_conditions": [
+        "乾嘔",
+        "喘",
+        "心下痞",
+        "短氣"
+      ],
+      "rule_ids": [
+        "IR_B11498305_000085",
+        "IR_B11498305_000369",
+        "IR_B11498305_000903"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
+      "distinct_conditions": [
+        "痰飲"
+      ],
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000220"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "亡血",
+        "傷寒",
+        "厥",
+        "惡寒",
+        "惡風",
+        "氣上衝胸",
+        "筋惕肉瞤",
+        "脈微弱"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000101",
+        "IR_SHL_MINGLI_000129"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "生薑",
+        "白朮",
+        "芍藥",
+        "茯苓",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001236",
+        "IR_BC91F4420_000499"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "生薑三兩",
+        "白朮二兩",
+        "芍藥三兩",
+        "茯苓三兩",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000527"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑二兩",
+        "五味子半升",
+        "生薑三兩",
+        "白朮二兩",
+        "芍藥三兩",
+        "茯苓三兩",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001036"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "生薑",
+        "白朮",
+        "芍藥",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000904"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現真武湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000129"
+      ],
+      "book_title": "傷寒明理論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 24
+      },
+      {
+        "term": "太陽病",
+        "count": 13
+      },
+      {
+        "term": "少陰病",
+        "count": 12
+      },
+      {
+        "term": "小便不利",
+        "count": 11
+      },
+      {
+        "term": "傷寒",
+        "count": 2
+      },
+      {
+        "term": "亡陽",
+        "count": 2
+      },
+      {
+        "term": "心下痞",
+        "count": 1
+      },
+      {
+        "term": "痰飲",
+        "count": 1
+      },
+      {
+        "term": "亡血",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "頭眩",
+        "count": 29
+      },
+      {
+        "term": "振振欲擗地",
+        "count": 29
+      },
+      {
+        "term": "心下悸",
+        "count": 21
+      },
+      {
+        "term": "小便利",
+        "count": 20
+      },
+      {
+        "term": "發熱",
+        "count": 17
+      },
+      {
+        "term": "汗出",
+        "count": 14
+      },
+      {
+        "term": "腹痛",
+        "count": 12
+      },
+      {
+        "term": "身瞤動",
+        "count": 9
+      },
+      {
+        "term": "咳",
+        "count": 8
+      },
+      {
+        "term": "喘",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微弱",
+        "count": 1
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "亡陽",
+        "count": 2
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "溫陽利水",
+        "count": 56
+      }
+    ]
+  },
+  "keywords": [
+    "真武湯",
+    "下利",
+    "太陽病",
+    "少陰病",
+    "小便不利",
+    "傷寒",
+    "頭眩",
+    "振振欲擗地",
+    "心下悸",
+    "小便利",
+    "發熱",
+    "脈微弱"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,118 @@
+{
+  "skill_id": "hermes.formula.formula_9c56b223",
+  "kind": "formula",
+  "title": "附子粳米湯方證合併規則",
+  "subject": "附子粳米湯",
+  "abstracted_claim": "附子粳米湯可歸納為中寒、嘔吐、霍亂、四逆等方證的核心方（支持條文 5 條，跨 4 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_9C56B223",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000091",
+    "IR_JGYL_JIYI_000153",
+    "IR_JGYL_JIYI_000154",
+    "IR_JGYL_TIAOWEN_000091",
+    "IR_JGYL_XINDIAN_000095"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000091",
+      "IR_JGYL_JIYI_000153",
+      "IR_JGYL_JIYI_000154",
+      "IR_JGYL_TIAOWEN_000091",
+      "IR_JGYL_XINDIAN_000095"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證十六條、方十三首",
+      "source_unit_id": "SU_JGYL_JIYI_001393",
+      "evidence_span": "仲景論。霍亂四逆。吐少嘔多者。附子粳米湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證十六條、方十三首",
+      "source_unit_id": "SU_JGYL_JIYI_001385",
+      "evidence_span": "腹中寒氣。雷鳴切痛。胸脅逆滿嘔吐。附子粳米湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_XINDIAN_000634",
+      "evidence_span": "腹中寒氣。雷鳴切痛。胸脅逆滿嘔吐。附子粳米湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000375",
+      "evidence_span": "腹中寒氣，雷鳴切痛，胸脅逆滿，嘔吐，附子粳米湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "腹滿寒疝宿食病脈證治第十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000373",
+      "evidence_span": "腹中寒氣，雷鳴切痛，胸脅逆滿，嘔吐，附子粳米湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "四逆",
+        "霍亂"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000153",
+        "IR_JGYL_JIYI_000154"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "中寒",
+        "count": 4
+      },
+      {
+        "term": "嘔吐",
+        "count": 4
+      },
+      {
+        "term": "霍亂",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "四逆",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "附子粳米湯",
+    "中寒",
+    "嘔吐",
+    "霍亂",
+    "四逆"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

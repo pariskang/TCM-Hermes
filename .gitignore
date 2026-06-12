@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# local working copies of the corpus (re-import with `hermes import/download`)
+corpus_uploads/
+*.7z
+
+# bulky regenerable artifacts — `hermes pipeline` rebuilds everything below
+data/downloads/
+data/corpus/raw/
+data/corpus/source_units/
+data/rag/
+data/rules/initial/
+data/memory/
+data/rules_rejected/*
+data/rules/released/silver/*
+data/rules/released/bronze/*
+
+# keep evidence-rich samples for the two reference editions
+!data/rules/released/silver/BOOK_SHL_SONGBEN.jsonl
+!data/rules/released/silver/BOOK_JGYL_FANGLUN.jsonl
+!data/rules_rejected/BOOK_SHL_SONGBEN.jsonl

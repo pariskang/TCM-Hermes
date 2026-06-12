@@ -1,0 +1,147 @@
+{
+  "skill_id": "hermes.formula.formula_6a852602",
+  "kind": "formula",
+  "title": "百合地黃湯方證合併規則",
+  "subject": "百合地黃湯",
+  "abstracted_claim": "百合地黃湯可歸納為百合病、傷寒、百合等方證的核心方（支持條文 9 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_6A852602",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B18FAB5FB_000133",
+    "IR_B3E16D849_001976",
+    "IR_CAOSHI_FAWEI_000980",
+    "IR_JGYH_ERZHU_000046",
+    "IR_JGYL_FANGLUN_000029",
+    "IR_JGYL_JIYI_000061",
+    "IR_JGYL_TIAOWEN_000029",
+    "IR_JGYL_XINDIAN_000035",
+    "IR_SHL_GUIBEN_001292"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B18FAB5FB_000133",
+      "IR_B3E16D849_001976",
+      "IR_CAOSHI_FAWEI_000980",
+      "IR_JGYH_ERZHU_000046",
+      "IR_JGYL_FANGLUN_000029",
+      "IR_JGYL_JIYI_000061",
+      "IR_JGYL_TIAOWEN_000029",
+      "IR_JGYL_XINDIAN_000035",
+      "IR_SHL_GUIBEN_001292"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "百合病",
+      "source_unit_id": "SU_B3E16D849_004127",
+      "evidence_span": "百合病。不經吐下發汗。病形如初者。百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001208",
+      "evidence_span": "百合病。不經吐下發汗。病形如初者。百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYH_ERZHU_000234",
+      "evidence_span": "百合病。不經吐下發汗。病形如初者。百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證三條、方十二首",
+      "source_unit_id": "SU_JGYL_JIYI_000375",
+      "evidence_span": "百合病。不經吐下發汗。病形如初者。百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "source_unit_id": "SU_JGYL_XINDIAN_000192",
+      "evidence_span": "百合病。不經吐下發汗。病形如初者。百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000098",
+      "evidence_span": "百合病，不經吐、下、發汗，病形如初者，百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000096",
+      "evidence_span": "百合病，不經吐、下、發汗，病形如初者，百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨百合狐惑陰陽毒病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001129",
+      "evidence_span": "13.5百合病，不經發汗、吐下，病形如初者，百合地黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "百合",
+      "source_unit_id": "SU_B18FAB5FB_000173",
+      "evidence_span": "如有鬼神狀。此是傷寒病後。虛邪所致。宜以百合知母湯、百合雞子湯、百合代赭湯、百合地黃湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B18FAB5FB",
+      "book_title": "傷寒捷訣",
+      "distinct_conditions": [
+        "傷寒",
+        "百合"
+      ],
+      "rule_ids": [
+        "IR_B18FAB5FB_000133"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "百合病",
+        "count": 8
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "百合",
+        "count": 1
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "百合地黃湯",
+    "百合病",
+    "傷寒",
+    "百合"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

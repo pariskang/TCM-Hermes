@@ -1,0 +1,119 @@
+{
+  "skill_id": "hermes.formula.formula_5771a090",
+  "kind": "formula",
+  "title": "乾薑黃芩黃連人參湯方證合併規則",
+  "subject": "乾薑黃芩黃連人參湯",
+  "abstracted_claim": "乾薑黃芩黃連人參湯可歸納為傷寒等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_5771A090",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000743",
+    "IR_SHL_GUIBEN_001104",
+    "IR_SHL_QJYF_000271",
+    "IR_SHL_SONGBEN_000427",
+    "IR_SHL_TIAOWEN_000381"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000743",
+      "IR_SHL_GUIBEN_001104",
+      "IR_SHL_QJYF_000271",
+      "IR_SHL_SONGBEN_000427",
+      "IR_SHL_TIAOWEN_000381"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "厥陰病狀第三",
+      "source_unit_id": "SU_SHL_QJYF_000356",
+      "evidence_span": "傷寒本自寒下，醫復吐之，而寒格更逆吐，食入即出，乾薑黃芩黃連人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨厥陰病脈證並治第十二",
+      "source_unit_id": "SU_SHL_SONGBEN_000830",
+      "evidence_span": "傷寒本自寒下，醫復吐下之，寒格，更逆吐下，若食入口即吐，乾薑黃芩黃連人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000677",
+      "evidence_span": "傷寒本自寒下，醫復吐下之，寒格，更逆吐下，若食入口即吐，乾薑黃芩黃連人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000982",
+      "evidence_span": "11.79傷寒本自寒，下醫復吐下之，寒格，更逆吐下，麻黃升麻湯主之。若食入口即吐，乾薑黃芩黃連人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "厥陰中篇",
+      "source_unit_id": "SU_B0B74DF58_001533",
+      "evidence_span": "**九、傷寒本自寒下，醫復吐下之，寒**（鬲）〔格〕**，更逆吐下，若食入〔口〕即吐，乾薑黃芩黃連人參湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "黃芩",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001332"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參三兩",
+        "黃芩三兩",
+        "黃連三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001107"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 5
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "乾薑黃芩黃連人參湯",
+    "傷寒"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

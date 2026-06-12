@@ -1,0 +1,317 @@
+{
+  "skill_id": "hermes.formula.formula_db60681b",
+  "kind": "formula",
+  "title": "橘皮湯方證合併規則",
+  "subject": "橘皮湯",
+  "abstracted_claim": "橘皮湯可歸納為噦、傷寒、下利、嘔吐、小便不利、中暍等方證的核心方（支持條文 14 條，跨 12 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_DB60681B",
+  "release_level": "silver",
+  "consensus_score": 0.915,
+  "supporting_initial_rules": [
+    "IR_B3E520529_000040",
+    "IR_B3E520529_000104",
+    "IR_BB711944D_001245",
+    "IR_BC2BA03C0_000044",
+    "IR_BC2BA03C0_000103",
+    "IR_CAOSHI_FAWEI_001324",
+    "IR_JGYH_ERZHU_000284",
+    "IR_JGYL_FANGLUN_000217",
+    "IR_JGYL_JIYI_000368",
+    "IR_JGYL_QIANZHU_000247",
+    "IR_JGYL_TIAOWEN_000217",
+    "IR_JGYL_XINDIAN_000243",
+    "IR_SHL_GUIBEN_001159",
+    "IR_SHL_LAISU_000672"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E520529_000040",
+      "IR_B3E520529_000104",
+      "IR_BB711944D_001245",
+      "IR_BC2BA03C0_000044",
+      "IR_BC2BA03C0_000103",
+      "IR_CAOSHI_FAWEI_001324",
+      "IR_JGYH_ERZHU_000284",
+      "IR_JGYL_FANGLUN_000217",
+      "IR_JGYL_JIYI_000368",
+      "IR_JGYL_QIANZHU_000247",
+      "IR_JGYL_TIAOWEN_000217",
+      "IR_JGYL_XINDIAN_000243",
+      "IR_SHL_GUIBEN_001159",
+      "IR_SHL_LAISU_000672"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "嘔吐噦下利，病脈證治第十七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001906",
+      "evidence_span": "乾嘔噦若手足厥者，橘皮湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001532",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002851",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_XINDIAN_001358",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000787",
+      "evidence_span": "乾嘔、噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000785",
+      "evidence_span": "乾嘔、噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001026",
+      "evidence_span": "11.108乾嘔噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "中六條",
+      "source_unit_id": "SU_BB711944D_001714",
+      "evidence_span": "按之無力。白虎湯主之。其厥逆惡寒者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_QIANZHU_001111",
+      "evidence_span": "若手足厥者。（氣逆胸膈。不復行於四肢也。以）橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "不可發汗證",
+      "source_unit_id": "SU_BC2BA03C0_000254",
+      "evidence_span": "虛煩或嘔吐，脈弦細芤遲，手足微寒，胸滿者，橘皮湯主之，兼治暴煩下利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "四逆湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000467",
+      "evidence_span": "茯苓澤瀉湯茯苓、桂枝、白朮、澤瀉、甘草、生薑，乾嘔噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "太陰證",
+      "source_unit_id": "SU_BC2BA03C0_000071",
+      "evidence_span": "若小便自利者，不能發黃，至七八日，雖暴煩下利日十余行，必自止，以脾家實，腐穢當去故也，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "太陰證",
+      "source_unit_id": "SU_B3E520529_000043",
+      "evidence_span": "傷寒三日，太陽脈弱，至四日，太陰脈大，脈大而胸滿多痰者，宜吐之，無此證者，宜汗之，傷寒脈浮緩，亦大之類，手足自溫者，繫在太陰，小便不利者，必發黃，五苓散加茵蔯主之，若小便自利者，不能發黃，至七八日，雖暴煩下利，日十餘行，必自止，以脾家實，腐穢當去故也，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "不可發汗證",
+      "source_unit_id": "SU_B3E520529_000091",
+      "evidence_span": "以上並宜建中湯，若煩躁者宜竹葉湯。竹葉湯治虛煩，病似傷寒，身亦熱而煩躁，頭不痛，身不疼，脈不數者，兼治中暍，渴吐逆而脈滑數者，及傷寒解後，虛羸少氣逆欲吐者，並宜服之。淡竹葉〔半把〕、石膏〔肆兩〕、半夏〔參分〕、人參〔半兩〕、甘草〔半兩〕、麥門冬〔貳兩〕、粳米〔壹合淘過〕，細剉，以水伍升，煎貳升半，米熟去滓，溫飲一盞，日進三服，夜二服，嘔者加生薑一兩半，不嘔不用，虛煩或嘔吐，脈弦細芤遲，手足微寒胸滿者，橘皮湯主之，兼治暴煩下利方在太陰證中。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E520529",
+      "book_title": "傷寒總病論",
+      "distinct_conditions": [
+        "中暍",
+        "傷寒",
+        "小便不利",
+        "渴",
+        "煩躁",
+        "脈大",
+        "脈弱",
+        "脈浮緩"
+      ],
+      "rule_ids": [
+        "IR_B3E520529_000040",
+        "IR_B3E520529_000104"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BB711944D",
+      "book_title": "仲景傷寒補亡論",
+      "distinct_conditions": [
+        "惡寒"
+      ],
+      "rule_ids": [
+        "IR_BB711944D_001245"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "橘皮四兩",
+        "生薑半斤"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001160"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "橘皮"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001325"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "噦",
+        "count": 8
+      },
+      {
+        "term": "傷寒",
+        "count": 2
+      },
+      {
+        "term": "下利",
+        "count": 2
+      },
+      {
+        "term": "嘔吐",
+        "count": 2
+      },
+      {
+        "term": "小便不利",
+        "count": 1
+      },
+      {
+        "term": "中暍",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "厥",
+        "count": 10
+      },
+      {
+        "term": "乾嘔",
+        "count": 8
+      },
+      {
+        "term": "胸滿",
+        "count": 3
+      },
+      {
+        "term": "發黃",
+        "count": 2
+      },
+      {
+        "term": "小便自利",
+        "count": 2
+      },
+      {
+        "term": "虛煩",
+        "count": 2
+      },
+      {
+        "term": "煩躁",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈弦",
+        "count": 2
+      },
+      {
+        "term": "脈弱",
+        "count": 1
+      },
+      {
+        "term": "脈大",
+        "count": 1
+      },
+      {
+        "term": "脈浮緩",
+        "count": 1
+      },
+      {
+        "term": "脈滑",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "橘皮湯",
+    "噦",
+    "傷寒",
+    "下利",
+    "嘔吐",
+    "小便不利",
+    "厥",
+    "乾嘔",
+    "胸滿",
+    "發黃",
+    "小便自利",
+    "脈弦",
+    "脈弱",
+    "脈大",
+    "脈浮緩",
+    "脈滑"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

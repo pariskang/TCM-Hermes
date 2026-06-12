@@ -1,0 +1,337 @@
+{
+  "skill_id": "hermes.formula.formula_b5178b1b",
+  "kind": "formula",
+  "title": "麻黃升麻湯方證合併規則",
+  "subject": "麻黃升麻湯",
+  "abstracted_claim": "麻黃升麻湯可歸納為傷寒、唾膿血、厥、手足溫、脈不至、脈沉等方證的核心方（支持條文 11 條，跨 10 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_B5178B1B",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000741",
+    "IR_B0B74DF58_000742",
+    "IR_B11498305_000459",
+    "IR_B8E444005_000429",
+    "IR_BC91F4420_000536",
+    "IR_BF5CDC206_000223",
+    "IR_SHL_GUANZHU_000685",
+    "IR_SHL_QJYF_000270",
+    "IR_SHL_SONGBEN_000426",
+    "IR_SHL_SUYUAN_001252",
+    "IR_SHL_TIAOWEN_000380"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000741",
+      "IR_B0B74DF58_000742",
+      "IR_B11498305_000459",
+      "IR_B8E444005_000429",
+      "IR_BC91F4420_000536",
+      "IR_BF5CDC206_000223",
+      "IR_SHL_GUANZHU_000685",
+      "IR_SHL_QJYF_000270",
+      "IR_SHL_SONGBEN_000426",
+      "IR_SHL_SUYUAN_001252",
+      "IR_SHL_TIAOWEN_000380"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_BF5CDC206_000250",
+      "evidence_span": "唾膿血。泄利不止。為難治。麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨厥陰病脈證並治第八",
+      "source_unit_id": "SU_BC91F4420_001289",
+      "evidence_span": "唾膿血。泄利不止者。為難治。麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "麻黃升麻湯",
+      "source_unit_id": "SU_B8E444005_000833",
+      "evidence_span": "咽喉不利。唾膿血。泄利下重者為難治。麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "厥陰證治第二十一",
+      "source_unit_id": "SU_SHL_SUYUAN_002997",
+      "evidence_span": "咽喉不利。唾膿血。泄利不止者為難治。麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "厥陰病狀第三",
+      "source_unit_id": "SU_SHL_QJYF_000353",
+      "evidence_span": "傷寒六七日，其人大下後，脈沉遲，手足厥逆，下部脈不至，咽喉不利，唾膿血，瀉利不止，為難治，麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "厥陰清法五條",
+      "source_unit_id": "SU_SHL_GUANZHU_000476",
+      "evidence_span": "傷寒六七日，大下後，寸脈沉而遲，手足厥逆，下部脈不至，咽喉不利，吐膿血，泄利不止者，為難治，麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨厥陰病脈證並治第十二",
+      "source_unit_id": "SU_SHL_SONGBEN_000825",
+      "evidence_span": "傷寒六七日，大下後，寸脈沉而遲，手足厥逆，下部脈不至，喉咽不利，唾膿血，泄利不止者，為難治，麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000672",
+      "evidence_span": "傷寒六七日，大下後，寸脈沉而遲，手足厥逆，下部脈不至，喉咽不利，唾膿血，泄利不止者，為難治，麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "厥陰中篇",
+      "source_unit_id": "SU_B0B74DF58_001522",
+      "evidence_span": "**七、傷寒六七日，大下後，寸脈沉而遲，手足厥**（冷）〔逆〕**，下部脈不至，咽喉不利，唾膿血，泄利不止者，為難治，麻黃升麻湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "厥陰中篇",
+      "source_unit_id": "SU_B0B74DF58_001524",
+      "evidence_span": "【闡釋】　對於本條，歷代注家如柯韻伯、舒馳遠等均持否定態度。鄭氏認為此證「陽虛之極已明甚，法宜大劑回陽，陽回利止，手足溫，方為合法。」是有見地的。筆者認為此條方證不相符，原文後云「難治」，論中凡言難治，仲景多不出方，「麻黃升麻湯主之」一句，當係衍文。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B11498305_000634",
+      "evidence_span": "傷寒六七日，大下後，寸脈沉而遲，手足厥逆，下部脈不至，咽候不利，唾膿血，泄利不止者，為難治，麻黃升麻湯主之，此表裏錯雜之邪，雖為難治，非死證也大下後寸脈沉而遲，明是陽邪陷陰之故，非陽氣衰微可擬，手足厥冷者，胃氣不布也，下部脈不至者，因泄利不止而陰津下脫也，咽候不利，唾膿血者，陽邪搏陰上逆也，所以仲景特於陰中提出其陽，得汗出而錯雜之邪盡解也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "手足溫"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000741",
+        "IR_B0B74DF58_000742"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "脈沉遲"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000270"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "乾薑",
+        "升麻",
+        "天門冬",
+        "桂枝",
+        "甘草",
+        "當歸",
+        "白朮",
+        "知母",
+        "石膏",
+        "芍藥",
+        "茯苓",
+        "麥門冬",
+        "麻黃",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001329"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨"
+      ],
+      "composition": [
+        "乾薑",
+        "升麻",
+        "當歸",
+        "白朮",
+        "知母",
+        "石膏",
+        "芍藥",
+        "麻黃",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000537"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "升麻",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000844"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "升麻",
+        "桂枝",
+        "甘草",
+        "當歸",
+        "白朮",
+        "白芍",
+        "知母",
+        "石膏",
+        "茯苓",
+        "麻黃",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000686"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "升麻一兩",
+        "桂枝二兩",
+        "甘草一兩",
+        "白朮一兩",
+        "知母一兩",
+        "麻黃二兩",
+        "黃芩一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001105"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "乾薑",
+        "升麻",
+        "桂枝",
+        "甘草",
+        "當歸",
+        "白朮",
+        "知母",
+        "石膏",
+        "芍藥",
+        "茯苓",
+        "麻黃",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000649"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "升麻",
+        "當歸",
+        "知母",
+        "石膏",
+        "麻黃",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000992"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 6
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "唾膿血",
+        "count": 9
+      },
+      {
+        "term": "厥",
+        "count": 6
+      },
+      {
+        "term": "手足溫",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈不至",
+        "count": 6
+      },
+      {
+        "term": "脈沉",
+        "count": 5
+      },
+      {
+        "term": "脈沉遲",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "麻黃升麻湯",
+    "傷寒",
+    "唾膿血",
+    "厥",
+    "手足溫",
+    "脈不至",
+    "脈沉",
+    "脈沉遲"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

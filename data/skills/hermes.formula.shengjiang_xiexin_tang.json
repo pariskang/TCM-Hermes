@@ -1,0 +1,413 @@
+{
+  "skill_id": "hermes.formula.shengjiang_xiexin_tang",
+  "kind": "formula",
+  "title": "生薑瀉心湯方證合併規則",
+  "subject": "生薑瀉心湯",
+  "abstracted_claim": "生薑瀉心湯可歸納為下利、心下痞、傷寒、痞、小便不利、汗出等方證的核心方（支持條文 23 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_SHENGJIANG_XIEXIN_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.911,
+  "supporting_initial_rules": [
+    "IR_B11498305_000501",
+    "IR_B18FAB5FB_000030",
+    "IR_B18FAB5FB_000036",
+    "IR_B1CAC3ADF_000451",
+    "IR_B3E16D849_000392",
+    "IR_B3E16D849_000430",
+    "IR_B3E16D849_000543",
+    "IR_B41512D4B_000453",
+    "IR_B5FF1CA1B_000533",
+    "IR_B8E444005_000379",
+    "IR_B9119D083_000616",
+    "IR_BBAACE965_000711",
+    "IR_CAOSHI_FAWEI_000402",
+    "IR_SHL_GUANZHU_000228",
+    "IR_SHL_GUIBEN_000699",
+    "IR_SHL_LAISU_000223",
+    "IR_SHL_LUNZHU_000222",
+    "IR_SHL_QJYF_000082",
+    "IR_SHL_SONGBEN_000232",
+    "IR_SHL_SUYUAN_000447",
+    "IR_SHL_SUYUAN_000449",
+    "IR_SHL_TIAOWEN_000186",
+    "IR_SHL_ZHUJIE_000524"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000501",
+      "IR_B18FAB5FB_000030",
+      "IR_B18FAB5FB_000036",
+      "IR_B1CAC3ADF_000451",
+      "IR_B3E16D849_000392",
+      "IR_B3E16D849_000430",
+      "IR_B3E16D849_000543",
+      "IR_B41512D4B_000453",
+      "IR_B5FF1CA1B_000533",
+      "IR_B8E444005_000379",
+      "IR_B9119D083_000616",
+      "IR_BBAACE965_000711",
+      "IR_CAOSHI_FAWEI_000402",
+      "IR_SHL_GUANZHU_000228",
+      "IR_SHL_GUIBEN_000699",
+      "IR_SHL_LAISU_000223",
+      "IR_SHL_LUNZHU_000222",
+      "IR_SHL_QJYF_000082",
+      "IR_SHL_SONGBEN_000232",
+      "IR_SHL_SUYUAN_000447",
+      "IR_SHL_SUYUAN_000449",
+      "IR_SHL_TIAOWEN_000186",
+      "IR_SHL_ZHUJIE_000524"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "痞",
+      "source_unit_id": "SU_B3E16D849_000942",
+      "evidence_span": "下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "腹中雷鳴",
+      "source_unit_id": "SU_B3E16D849_000993",
+      "evidence_span": "下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B3E16D849_001170",
+      "evidence_span": "下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "附子瀉心湯方第五十九",
+      "source_unit_id": "SU_B1CAC3ADF_001490",
+      "evidence_span": "脅下有水氣。腹中雷鳴。下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000474",
+      "evidence_span": "脇下有水氣。腹中雷鳴。下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "附子瀉心湯方",
+      "source_unit_id": "SU_B41512D4B_000977",
+      "evidence_span": "干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "臟結結胸痞痛",
+      "source_unit_id": "SU_B5FF1CA1B_000879",
+      "evidence_span": "干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "生薑瀉心湯",
+      "source_unit_id": "SU_B8E444005_000705",
+      "evidence_span": "干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001724",
+      "evidence_span": "干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "心下痞證治第四",
+      "source_unit_id": "SU_SHL_SUYUAN_000849",
+      "evidence_span": "干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "心下痞證治第四",
+      "source_unit_id": "SU_SHL_SUYUAN_000852",
+      "evidence_span": "清陽不升。脾氣下陷。水穀不分而下利。故以生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "亡陽",
+      "source_unit_id": "SU_B18FAB5FB_000065",
+      "evidence_span": "此陽虛遂有腹脹滿。胃不和。而成心下痞之症。宜生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "痞氣",
+      "source_unit_id": "SU_B18FAB5FB_000059",
+      "evidence_span": "胸滿而不痛。脈濡者半夏瀉心湯主之。若乾嘔有水氣者。生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "藏結結胸痞篇",
+      "source_unit_id": "SU_B11498305_000694",
+      "evidence_span": "傷寒汗出解之後，胃中不和，心下痞鞕，乾噫食臭，脇下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "痞證七條",
+      "source_unit_id": "SU_SHL_GUANZHU_000135",
+      "evidence_span": "傷寒汗出解之後，胃中不和，心下痞鞕，乾噫食臭，脅下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "瀉心湯證",
+      "source_unit_id": "SU_SHL_LAISU_000167",
+      "evidence_span": "傷寒汗出解之後，胃中不和，心下痞硬，乾嘔食臭，脅下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "瀉心湯症",
+      "source_unit_id": "SU_SHL_LUNZHU_000408",
+      "evidence_span": "傷寒汗出解之後，胃中不和，心下痞硬，乾嘔食臭，脅下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "痞滿",
+      "source_unit_id": "SU_B9119D083_001606",
+      "evidence_span": "傷寒汗出解之後，胃中不和，心下痞硬，乾嘔噫食臭，脅下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000492",
+      "evidence_span": "傷寒汗出，解之後，胃中不和，心下痞鞕，乾噫食臭，脇下有水氣，腹中雷鳴，下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000339",
+      "evidence_span": "傷寒汗出，解之後，胃中不和，心下痞鞕，乾噫食臭，脇下有水氣，腹中雷鳴，下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_000969",
+      "evidence_span": "傷寒汗出，解之後，胃中不和，心下痞硬，干噫，食臭，脅下有水氣，腹中雷鳴下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000662",
+      "evidence_span": "8.36傷寒，汗出，解之後，胃中不和，心下痞鞕，乾噫食臭，脇下有水氣，腹中雷鳴，下利者，生薑瀉心湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病用陷胸湯法第六",
+      "source_unit_id": "SU_SHL_QJYF_000098",
+      "evidence_span": "上四味，以麻沸湯二升漬之須臾，去滓，納附子汁，分溫再服。本以下之，故心下痞，與之瀉心，其痞不解，其人渴而口燥煩，小便不利者，五苓散主之。一方言，忍之一日乃愈（用傷寒汗出，解之後，胃中不和，心下痞堅，干噫食臭，脅下有水氣，腹中雷鳴而利，生薑瀉心湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B18FAB5FB",
+      "book_title": "傷寒捷訣",
+      "distinct_conditions": [
+        "胸滿"
+      ],
+      "rule_ids": [
+        "IR_B18FAB5FB_000030",
+        "IR_B18FAB5FB_000036"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "口燥",
+        "小便不利",
+        "渴",
+        "痞"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000082"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "半夏",
+        "大棗",
+        "甘草",
+        "生薑",
+        "黃芩",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000712",
+        "IR_BC91F4420_000140",
+        "IR_SHL_GUANZHU_000230",
+        "IR_SHL_LAISU_000224"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000403"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑一兩",
+        "人參三兩",
+        "半夏半升",
+        "大棗十二枚",
+        "甘草三兩",
+        "生薑四兩",
+        "黃芩三兩",
+        "黃連一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000700"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "半夏",
+        "甘草",
+        "生薑",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_001156"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 20
+      },
+      {
+        "term": "心下痞",
+        "count": 11
+      },
+      {
+        "term": "傷寒",
+        "count": 10
+      },
+      {
+        "term": "痞",
+        "count": 1
+      },
+      {
+        "term": "小便不利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "汗出",
+        "count": 10
+      },
+      {
+        "term": "乾噫食臭",
+        "count": 5
+      },
+      {
+        "term": "乾嘔",
+        "count": 4
+      },
+      {
+        "term": "心下痞硬",
+        "count": 4
+      },
+      {
+        "term": "胸滿",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "口燥",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "和胃消痞",
+        "count": 23
+      },
+      {
+        "term": "宣散水氣",
+        "count": 23
+      }
+    ]
+  },
+  "keywords": [
+    "生薑瀉心湯",
+    "下利",
+    "心下痞",
+    "傷寒",
+    "痞",
+    "小便不利",
+    "汗出",
+    "乾噫食臭",
+    "乾嘔",
+    "心下痞硬",
+    "胸滿"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

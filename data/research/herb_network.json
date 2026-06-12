@@ -1,0 +1,1746 @@
+{
+  "nodes": [
+    {
+      "id": "甘草",
+      "count": 476
+    },
+    {
+      "id": "桂枝",
+      "count": 313
+    },
+    {
+      "id": "生薑",
+      "count": 225
+    },
+    {
+      "id": "芍藥",
+      "count": 203
+    },
+    {
+      "id": "大棗",
+      "count": 198
+    },
+    {
+      "id": "人參",
+      "count": 187
+    },
+    {
+      "id": "半夏",
+      "count": 179
+    },
+    {
+      "id": "乾薑",
+      "count": 162
+    },
+    {
+      "id": "附子",
+      "count": 155
+    },
+    {
+      "id": "茯苓",
+      "count": 138
+    },
+    {
+      "id": "大黃",
+      "count": 128
+    },
+    {
+      "id": "黃芩",
+      "count": 123
+    },
+    {
+      "id": "白朮",
+      "count": 113
+    },
+    {
+      "id": "麻黃",
+      "count": 113
+    },
+    {
+      "id": "黃連",
+      "count": 106
+    },
+    {
+      "id": "枳實",
+      "count": 74
+    },
+    {
+      "id": "石膏",
+      "count": 67
+    },
+    {
+      "id": "柴胡",
+      "count": 63
+    },
+    {
+      "id": "杏仁",
+      "count": 62
+    },
+    {
+      "id": "厚朴",
+      "count": 61
+    },
+    {
+      "id": "芒硝",
+      "count": 52
+    },
+    {
+      "id": "梔子",
+      "count": 51
+    },
+    {
+      "id": "當歸",
+      "count": 46
+    },
+    {
+      "id": "澤瀉",
+      "count": 40
+    },
+    {
+      "id": "細辛",
+      "count": 36
+    },
+    {
+      "id": "阿膠",
+      "count": 35
+    },
+    {
+      "id": "牡蠣",
+      "count": 34
+    },
+    {
+      "id": "知母",
+      "count": 33
+    },
+    {
+      "id": "粳米",
+      "count": 31
+    },
+    {
+      "id": "葛根",
+      "count": 29
+    },
+    {
+      "id": "桃仁",
+      "count": 27
+    },
+    {
+      "id": "豬苓",
+      "count": 24
+    },
+    {
+      "id": "桔梗",
+      "count": 23
+    },
+    {
+      "id": "龍骨",
+      "count": 21
+    },
+    {
+      "id": "黃柏",
+      "count": 20
+    },
+    {
+      "id": "栝蔞根",
+      "count": 20
+    },
+    {
+      "id": "水蛭",
+      "count": 18
+    },
+    {
+      "id": "黃耆",
+      "count": 18
+    },
+    {
+      "id": "吳茱萸",
+      "count": 17
+    },
+    {
+      "id": "香豉",
+      "count": 17
+    },
+    {
+      "id": "甘遂",
+      "count": 17
+    },
+    {
+      "id": "蜜",
+      "count": 17
+    },
+    {
+      "id": "赤小豆",
+      "count": 15
+    },
+    {
+      "id": "赤石脂",
+      "count": 14
+    },
+    {
+      "id": "滑石",
+      "count": 14
+    },
+    {
+      "id": "葶藶",
+      "count": 13
+    },
+    {
+      "id": "炙甘草",
+      "count": 13
+    },
+    {
+      "id": "牡丹皮",
+      "count": 13
+    },
+    {
+      "id": "清酒",
+      "count": 12
+    },
+    {
+      "id": "五味子",
+      "count": 12
+    },
+    {
+      "id": "白頭翁",
+      "count": 11
+    },
+    {
+      "id": "升麻",
+      "count": 11
+    },
+    {
+      "id": "麥門冬",
+      "count": 11
+    },
+    {
+      "id": "虻蟲",
+      "count": 11
+    },
+    {
+      "id": "竹葉",
+      "count": 10
+    },
+    {
+      "id": "秦皮",
+      "count": 9
+    },
+    {
+      "id": "蜀漆",
+      "count": 9
+    },
+    {
+      "id": "蜀椒",
+      "count": 9
+    },
+    {
+      "id": "文蛤",
+      "count": 8
+    },
+    {
+      "id": "禹餘糧",
+      "count": 8
+    }
+  ],
+  "edges": [
+    {
+      "source": "桂枝",
+      "target": "甘草",
+      "weight": 199
+    },
+    {
+      "source": "大棗",
+      "target": "甘草",
+      "weight": 164
+    },
+    {
+      "source": "大棗",
+      "target": "生薑",
+      "weight": 149
+    },
+    {
+      "source": "甘草",
+      "target": "生薑",
+      "weight": 149
+    },
+    {
+      "source": "甘草",
+      "target": "芍藥",
+      "weight": 131
+    },
+    {
+      "source": "人參",
+      "target": "甘草",
+      "weight": 119
+    },
+    {
+      "source": "桂枝",
+      "target": "芍藥",
+      "weight": 117
+    },
+    {
+      "source": "桂枝",
+      "target": "生薑",
+      "weight": 109
+    },
+    {
+      "source": "大棗",
+      "target": "桂枝",
+      "weight": 108
+    },
+    {
+      "source": "乾薑",
+      "target": "甘草",
+      "weight": 95
+    },
+    {
+      "source": "生薑",
+      "target": "芍藥",
+      "weight": 92
+    },
+    {
+      "source": "半夏",
+      "target": "甘草",
+      "weight": 90
+    },
+    {
+      "source": "大棗",
+      "target": "芍藥",
+      "weight": 89
+    },
+    {
+      "source": "甘草",
+      "target": "麻黃",
+      "weight": 81
+    },
+    {
+      "source": "甘草",
+      "target": "黃芩",
+      "weight": 75
+    },
+    {
+      "source": "半夏",
+      "target": "生薑",
+      "weight": 74
+    },
+    {
+      "source": "乾薑",
+      "target": "人參",
+      "weight": 72
+    },
+    {
+      "source": "人參",
+      "target": "半夏",
+      "weight": 68
+    },
+    {
+      "source": "甘草",
+      "target": "附子",
+      "weight": 67
+    },
+    {
+      "source": "人參",
+      "target": "大棗",
+      "weight": 66
+    },
+    {
+      "source": "人參",
+      "target": "生薑",
+      "weight": 65
+    },
+    {
+      "source": "半夏",
+      "target": "大棗",
+      "weight": 65
+    },
+    {
+      "source": "桂枝",
+      "target": "茯苓",
+      "weight": 64
+    },
+    {
+      "source": "半夏",
+      "target": "黃芩",
+      "weight": 61
+    },
+    {
+      "source": "桂枝",
+      "target": "麻黃",
+      "weight": 60
+    },
+    {
+      "source": "白朮",
+      "target": "茯苓",
+      "weight": 59
+    },
+    {
+      "source": "甘草",
+      "target": "茯苓",
+      "weight": 59
+    },
+    {
+      "source": "甘草",
+      "target": "白朮",
+      "weight": 58
+    },
+    {
+      "source": "甘草",
+      "target": "石膏",
+      "weight": 56
+    },
+    {
+      "source": "大棗",
+      "target": "黃芩",
+      "weight": 56
+    },
+    {
+      "source": "桂枝",
+      "target": "白朮",
+      "weight": 54
+    },
+    {
+      "source": "乾薑",
+      "target": "附子",
+      "weight": 54
+    },
+    {
+      "source": "黃芩",
+      "target": "黃連",
+      "weight": 51
+    },
+    {
+      "source": "人參",
+      "target": "桂枝",
+      "weight": 48
+    },
+    {
+      "source": "人參",
+      "target": "黃芩",
+      "weight": 46
+    },
+    {
+      "source": "生薑",
+      "target": "黃芩",
+      "weight": 44
+    },
+    {
+      "source": "桂枝",
+      "target": "附子",
+      "weight": 42
+    },
+    {
+      "source": "杏仁",
+      "target": "甘草",
+      "weight": 42
+    },
+    {
+      "source": "大黃",
+      "target": "芒硝",
+      "weight": 42
+    },
+    {
+      "source": "甘草",
+      "target": "黃連",
+      "weight": 42
+    },
+    {
+      "source": "乾薑",
+      "target": "半夏",
+      "weight": 39
+    },
+    {
+      "source": "柴胡",
+      "target": "黃芩",
+      "weight": 39
+    },
+    {
+      "source": "乾薑",
+      "target": "桂枝",
+      "weight": 38
+    },
+    {
+      "source": "半夏",
+      "target": "柴胡",
+      "weight": 38
+    },
+    {
+      "source": "生薑",
+      "target": "麻黃",
+      "weight": 38
+    },
+    {
+      "source": "杏仁",
+      "target": "麻黃",
+      "weight": 38
+    },
+    {
+      "source": "大棗",
+      "target": "麻黃",
+      "weight": 37
+    },
+    {
+      "source": "芍藥",
+      "target": "黃芩",
+      "weight": 37
+    },
+    {
+      "source": "半夏",
+      "target": "黃連",
+      "weight": 37
+    },
+    {
+      "source": "芍藥",
+      "target": "麻黃",
+      "weight": 36
+    },
+    {
+      "source": "半夏",
+      "target": "桂枝",
+      "weight": 36
+    },
+    {
+      "source": "柴胡",
+      "target": "甘草",
+      "weight": 36
+    },
+    {
+      "source": "乾薑",
+      "target": "黃連",
+      "weight": 36
+    },
+    {
+      "source": "大棗",
+      "target": "柴胡",
+      "weight": 34
+    },
+    {
+      "source": "人參",
+      "target": "黃連",
+      "weight": 34
+    },
+    {
+      "source": "大黃",
+      "target": "枳實",
+      "weight": 34
+    },
+    {
+      "source": "半夏",
+      "target": "芍藥",
+      "weight": 33
+    },
+    {
+      "source": "乾薑",
+      "target": "黃芩",
+      "weight": 33
+    },
+    {
+      "source": "人參",
+      "target": "附子",
+      "weight": 32
+    },
+    {
+      "source": "柴胡",
+      "target": "生薑",
+      "weight": 32
+    },
+    {
+      "source": "人參",
+      "target": "柴胡",
+      "weight": 31
+    },
+    {
+      "source": "澤瀉",
+      "target": "茯苓",
+      "weight": 31
+    },
+    {
+      "source": "厚朴",
+      "target": "枳實",
+      "weight": 31
+    },
+    {
+      "source": "杏仁",
+      "target": "桂枝",
+      "weight": 29
+    },
+    {
+      "source": "生薑",
+      "target": "茯苓",
+      "weight": 27
+    },
+    {
+      "source": "甘草",
+      "target": "知母",
+      "weight": 26
+    },
+    {
+      "source": "石膏",
+      "target": "麻黃",
+      "weight": 26
+    },
+    {
+      "source": "茯苓",
+      "target": "附子",
+      "weight": 26
+    },
+    {
+      "source": "芍藥",
+      "target": "附子",
+      "weight": 25
+    },
+    {
+      "source": "甘草",
+      "target": "粳米",
+      "weight": 25
+    },
+    {
+      "source": "知母",
+      "target": "石膏",
+      "weight": 25
+    },
+    {
+      "source": "芍藥",
+      "target": "茯苓",
+      "weight": 25
+    },
+    {
+      "source": "人參",
+      "target": "茯苓",
+      "weight": 25
+    },
+    {
+      "source": "人參",
+      "target": "白朮",
+      "weight": 25
+    },
+    {
+      "source": "厚朴",
+      "target": "大黃",
+      "weight": 25
+    },
+    {
+      "source": "乾薑",
+      "target": "白朮",
+      "weight": 25
+    },
+    {
+      "source": "石膏",
+      "target": "粳米",
+      "weight": 24
+    },
+    {
+      "source": "大黃",
+      "target": "甘草",
+      "weight": 24
+    },
+    {
+      "source": "桂枝",
+      "target": "細辛",
+      "weight": 24
+    },
+    {
+      "source": "乾薑",
+      "target": "大棗",
+      "weight": 24
+    },
+    {
+      "source": "大棗",
+      "target": "黃連",
+      "weight": 24
+    },
+    {
+      "source": "白朮",
+      "target": "附子",
+      "weight": 24
+    },
+    {
+      "source": "白朮",
+      "target": "芍藥",
+      "weight": 23
+    },
+    {
+      "source": "澤瀉",
+      "target": "豬苓",
+      "weight": 22
+    },
+    {
+      "source": "茯苓",
+      "target": "豬苓",
+      "weight": 22
+    },
+    {
+      "source": "枳實",
+      "target": "芍藥",
+      "weight": 22
+    },
+    {
+      "source": "半夏",
+      "target": "茯苓",
+      "weight": 21
+    },
+    {
+      "source": "桂枝",
+      "target": "當歸",
+      "weight": 21
+    },
+    {
+      "source": "當歸",
+      "target": "芍藥",
+      "weight": 21
+    },
+    {
+      "source": "乾薑",
+      "target": "芍藥",
+      "weight": 20
+    },
+    {
+      "source": "桂枝",
+      "target": "牡蠣",
+      "weight": 20
+    },
+    {
+      "source": "柴胡",
+      "target": "桂枝",
+      "weight": 20
+    },
+    {
+      "source": "知母",
+      "target": "粳米",
+      "weight": 20
+    },
+    {
+      "source": "柴胡",
+      "target": "芍藥",
+      "weight": 20
+    },
+    {
+      "source": "大黃",
+      "target": "黃芩",
+      "weight": 20
+    },
+    {
+      "source": "人參",
+      "target": "芍藥",
+      "weight": 20
+    },
+    {
+      "source": "大黃",
+      "target": "桃仁",
+      "weight": 20
+    },
+    {
+      "source": "附子",
+      "target": "麻黃",
+      "weight": 19
+    },
+    {
+      "source": "大棗",
+      "target": "茯苓",
+      "weight": 19
+    },
+    {
+      "source": "乾薑",
+      "target": "茯苓",
+      "weight": 19
+    },
+    {
+      "source": "牡蠣",
+      "target": "龍骨",
+      "weight": 18
+    },
+    {
+      "source": "甘草",
+      "target": "細辛",
+      "weight": 18
+    },
+    {
+      "source": "甘草",
+      "target": "葛根",
+      "weight": 18
+    },
+    {
+      "source": "生薑",
+      "target": "附子",
+      "weight": 18
+    },
+    {
+      "source": "大棗",
+      "target": "杏仁",
+      "weight": 18
+    },
+    {
+      "source": "桂枝",
+      "target": "石膏",
+      "weight": 18
+    },
+    {
+      "source": "半夏",
+      "target": "麻黃",
+      "weight": 18
+    },
+    {
+      "source": "細辛",
+      "target": "芍藥",
+      "weight": 18
+    },
+    {
+      "source": "桂枝",
+      "target": "黃芩",
+      "weight": 18
+    },
+    {
+      "source": "甘草",
+      "target": "當歸",
+      "weight": 18
+    },
+    {
+      "source": "細辛",
+      "target": "附子",
+      "weight": 17
+    },
+    {
+      "source": "細辛",
+      "target": "麻黃",
+      "weight": 17
+    },
+    {
+      "source": "杏仁",
+      "target": "生薑",
+      "weight": 17
+    },
+    {
+      "source": "人參",
+      "target": "石膏",
+      "weight": 17
+    },
+    {
+      "source": "桂枝",
+      "target": "龍骨",
+      "weight": 16
+    },
+    {
+      "source": "生薑",
+      "target": "白朮",
+      "weight": 16
+    },
+    {
+      "source": "甘草",
+      "target": "芒硝",
+      "weight": 16
+    },
+    {
+      "source": "澤瀉",
+      "target": "白朮",
+      "weight": 16
+    },
+    {
+      "source": "桃仁",
+      "target": "水蛭",
+      "weight": 16
+    },
+    {
+      "source": "大黃",
+      "target": "黃連",
+      "weight": 16
+    },
+    {
+      "source": "大黃",
+      "target": "水蛭",
+      "weight": 16
+    },
+    {
+      "source": "枳實",
+      "target": "甘草",
+      "weight": 16
+    },
+    {
+      "source": "牡蠣",
+      "target": "甘草",
+      "weight": 15
+    },
+    {
+      "source": "大棗",
+      "target": "附子",
+      "weight": 15
+    },
+    {
+      "source": "乾薑",
+      "target": "細辛",
+      "weight": 15
+    },
+    {
+      "source": "厚朴",
+      "target": "甘草",
+      "weight": 15
+    },
+    {
+      "source": "半夏",
+      "target": "枳實",
+      "weight": 15
+    },
+    {
+      "source": "大黃",
+      "target": "桂枝",
+      "weight": 15
+    },
+    {
+      "source": "大黃",
+      "target": "芍藥",
+      "weight": 15
+    },
+    {
+      "source": "桔梗",
+      "target": "甘草",
+      "weight": 15
+    },
+    {
+      "source": "當歸",
+      "target": "細辛",
+      "weight": 15
+    },
+    {
+      "source": "吳茱萸",
+      "target": "生薑",
+      "weight": 14
+    },
+    {
+      "source": "杏仁",
+      "target": "芍藥",
+      "weight": 14
+    },
+    {
+      "source": "人參",
+      "target": "粳米",
+      "weight": 14
+    },
+    {
+      "source": "大棗",
+      "target": "石膏",
+      "weight": 14
+    },
+    {
+      "source": "枳實",
+      "target": "柴胡",
+      "weight": 14
+    },
+    {
+      "source": "大棗",
+      "target": "大黃",
+      "weight": 14
+    },
+    {
+      "source": "大黃",
+      "target": "生薑",
+      "weight": 14
+    },
+    {
+      "source": "阿膠",
+      "target": "黃連",
+      "weight": 14
+    },
+    {
+      "source": "桂枝",
+      "target": "澤瀉",
+      "weight": 14
+    },
+    {
+      "source": "厚朴",
+      "target": "杏仁",
+      "weight": 13
+    },
+    {
+      "source": "生薑",
+      "target": "石膏",
+      "weight": 13
+    },
+    {
+      "source": "杏仁",
+      "target": "石膏",
+      "weight": 13
+    },
+    {
+      "source": "白朮",
+      "target": "豬苓",
+      "weight": 13
+    },
+    {
+      "source": "枳實",
+      "target": "生薑",
+      "weight": 13
+    },
+    {
+      "source": "乾薑",
+      "target": "生薑",
+      "weight": 13
+    },
+    {
+      "source": "半夏",
+      "target": "石膏",
+      "weight": 13
+    },
+    {
+      "source": "甘草",
+      "target": "阿膠",
+      "weight": 13
+    },
+    {
+      "source": "桂枝",
+      "target": "葛根",
+      "weight": 12
+    },
+    {
+      "source": "生薑",
+      "target": "葛根",
+      "weight": 12
+    },
+    {
+      "source": "葛根",
+      "target": "麻黃",
+      "weight": 12
+    },
+    {
+      "source": "乾薑",
+      "target": "麻黃",
+      "weight": 12
+    },
+    {
+      "source": "梔子",
+      "target": "香豉",
+      "weight": 12
+    },
+    {
+      "source": "枳實",
+      "target": "梔子",
+      "weight": 12
+    },
+    {
+      "source": "半夏",
+      "target": "大黃",
+      "weight": 12
+    },
+    {
+      "source": "大黃",
+      "target": "柴胡",
+      "weight": 12
+    },
+    {
+      "source": "枳實",
+      "target": "芒硝",
+      "weight": 12
+    },
+    {
+      "source": "白朮",
+      "target": "麻黃",
+      "weight": 12
+    },
+    {
+      "source": "黃柏",
+      "target": "黃連",
+      "weight": 12
+    },
+    {
+      "source": "桂枝",
+      "target": "黃耆",
+      "weight": 12
+    },
+    {
+      "source": "芍藥",
+      "target": "葛根",
+      "weight": 11
+    },
+    {
+      "source": "石膏",
+      "target": "芍藥",
+      "weight": 11
+    },
+    {
+      "source": "大棗",
+      "target": "白朮",
+      "weight": 11
+    },
+    {
+      "source": "附子",
+      "target": "黃連",
+      "weight": 11
+    },
+    {
+      "source": "厚朴",
+      "target": "芒硝",
+      "weight": 11
+    },
+    {
+      "source": "茯苓",
+      "target": "阿膠",
+      "weight": 11
+    },
+    {
+      "source": "人參",
+      "target": "吳茱萸",
+      "weight": 11
+    },
+    {
+      "source": "乾薑",
+      "target": "當歸",
+      "weight": 11
+    },
+    {
+      "source": "大黃",
+      "target": "虻蟲",
+      "weight": 11
+    },
+    {
+      "source": "水蛭",
+      "target": "虻蟲",
+      "weight": 11
+    },
+    {
+      "source": "半夏",
+      "target": "厚朴",
+      "weight": 11
+    },
+    {
+      "source": "栝蔞根",
+      "target": "甘草",
+      "weight": 11
+    },
+    {
+      "source": "大棗",
+      "target": "細辛",
+      "weight": 11
+    },
+    {
+      "source": "生薑",
+      "target": "當歸",
+      "weight": 10
+    },
+    {
+      "source": "柴胡",
+      "target": "牡蠣",
+      "weight": 10
+    },
+    {
+      "source": "甘草",
+      "target": "龍骨",
+      "weight": 10
+    },
+    {
+      "source": "大棗",
+      "target": "葛根",
+      "weight": 10
+    },
+    {
+      "source": "乾薑",
+      "target": "五味子",
+      "weight": 10
+    },
+    {
+      "source": "五味子",
+      "target": "半夏",
+      "weight": 10
+    },
+    {
+      "source": "梔子",
+      "target": "甘草",
+      "weight": 10
+    },
+    {
+      "source": "茯苓",
+      "target": "黃芩",
+      "weight": 10
+    },
+    {
+      "source": "大黃",
+      "target": "甘遂",
+      "weight": 10
+    },
+    {
+      "source": "桂枝",
+      "target": "黃連",
+      "weight": 10
+    },
+    {
+      "source": "桂枝",
+      "target": "豬苓",
+      "weight": 10
+    },
+    {
+      "source": "乾薑",
+      "target": "柴胡",
+      "weight": 9
+    },
+    {
+      "source": "人參",
+      "target": "知母",
+      "weight": 9
+    },
+    {
+      "source": "葛根",
+      "target": "黃芩",
+      "weight": 9
+    },
+    {
+      "source": "五味子",
+      "target": "芍藥",
+      "weight": 9
+    },
+    {
+      "source": "五味子",
+      "target": "麻黃",
+      "weight": 9
+    },
+    {
+      "source": "厚朴",
+      "target": "生薑",
+      "weight": 9
+    },
+    {
+      "source": "大棗",
+      "target": "枳實",
+      "weight": 9
+    },
+    {
+      "source": "枳實",
+      "target": "黃芩",
+      "weight": 9
+    },
+    {
+      "source": "生薑",
+      "target": "黃連",
+      "weight": 9
+    },
+    {
+      "source": "桂枝",
+      "target": "炙甘草",
+      "weight": 9
+    },
+    {
+      "source": "炙甘草",
+      "target": "甘草",
+      "weight": 9
+    },
+    {
+      "source": "滑石",
+      "target": "澤瀉",
+      "weight": 9
+    },
+    {
+      "source": "滑石",
+      "target": "茯苓",
+      "weight": 9
+    },
+    {
+      "source": "滑石",
+      "target": "豬苓",
+      "weight": 9
+    },
+    {
+      "source": "滑石",
+      "target": "阿膠",
+      "weight": 9
+    },
+    {
+      "source": "澤瀉",
+      "target": "阿膠",
+      "weight": 9
+    },
+    {
+      "source": "豬苓",
+      "target": "阿膠",
+      "weight": 9
+    },
+    {
+      "source": "吳茱萸",
+      "target": "大棗",
+      "weight": 9
+    },
+    {
+      "source": "芍藥",
+      "target": "阿膠",
+      "weight": 9
+    },
+    {
+      "source": "阿膠",
+      "target": "黃芩",
+      "weight": 9
+    },
+    {
+      "source": "桂枝",
+      "target": "知母",
+      "weight": 9
+    },
+    {
+      "source": "甘草",
+      "target": "麥門冬",
+      "weight": 9
+    },
+    {
+      "source": "白朮",
+      "target": "石膏",
+      "weight": 9
+    },
+    {
+      "source": "白朮",
+      "target": "黃芩",
+      "weight": 9
+    },
+    {
+      "source": "石膏",
+      "target": "黃芩",
+      "weight": 9
+    },
+    {
+      "source": "栝蔞根",
+      "target": "牡蠣",
+      "weight": 9
+    },
+    {
+      "source": "桃仁",
+      "target": "虻蟲",
+      "weight": 9
+    },
+    {
+      "source": "芍藥",
+      "target": "黃耆",
+      "weight": 9
+    },
+    {
+      "source": "清酒",
+      "target": "甘草",
+      "weight": 8
+    },
+    {
+      "source": "葛根",
+      "target": "黃連",
+      "weight": 8
+    },
+    {
+      "source": "五味子",
+      "target": "桂枝",
+      "weight": 8
+    },
+    {
+      "source": "五味子",
+      "target": "甘草",
+      "weight": 8
+    },
+    {
+      "source": "半夏",
+      "target": "細辛",
+      "weight": 8
+    },
+    {
+      "source": "甘遂",
+      "target": "芒硝",
+      "weight": 8
+    },
+    {
+      "source": "細辛",
+      "target": "黃連",
+      "weight": 8
+    },
+    {
+      "source": "白頭翁",
+      "target": "秦皮",
+      "weight": 8
+    },
+    {
+      "source": "白頭翁",
+      "target": "黃連",
+      "weight": 8
+    },
+    {
+      "source": "秦皮",
+      "target": "黃連",
+      "weight": 8
+    },
+    {
+      "source": "人參",
+      "target": "麥門冬",
+      "weight": 8
+    },
+    {
+      "source": "石膏",
+      "target": "竹葉",
+      "weight": 8
+    },
+    {
+      "source": "乾薑",
+      "target": "栝蔞根",
+      "weight": 8
+    },
+    {
+      "source": "栝蔞根",
+      "target": "桂枝",
+      "weight": 8
+    },
+    {
+      "source": "當歸",
+      "target": "附子",
+      "weight": 8
+    },
+    {
+      "source": "人參",
+      "target": "當歸",
+      "weight": 8
+    },
+    {
+      "source": "枳實",
+      "target": "白朮",
+      "weight": 8
+    },
+    {
+      "source": "五味子",
+      "target": "細辛",
+      "weight": 7
+    },
+    {
+      "source": "厚朴",
+      "target": "桂枝",
+      "weight": 7
+    },
+    {
+      "source": "人參",
+      "target": "牡蠣",
+      "weight": 7
+    },
+    {
+      "source": "大棗",
+      "target": "牡蠣",
+      "weight": 7
+    },
+    {
+      "source": "牡蠣",
+      "target": "黃芩",
+      "weight": 7
+    },
+    {
+      "source": "大黃",
+      "target": "杏仁",
+      "weight": 7
+    },
+    {
+      "source": "大黃",
+      "target": "附子",
+      "weight": 7
+    },
+    {
+      "source": "禹餘糧",
+      "target": "赤石脂",
+      "weight": 7
+    },
+    {
+      "source": "大黃",
+      "target": "梔子",
+      "weight": 7
+    },
+    {
+      "source": "芍藥",
+      "target": "黃連",
+      "weight": 7
+    },
+    {
+      "source": "乾薑",
+      "target": "烏梅",
+      "weight": 7
+    },
+    {
+      "source": "烏梅",
+      "target": "細辛",
+      "weight": 7
+    },
+    {
+      "source": "烏梅",
+      "target": "黃連",
+      "weight": 7
+    },
+    {
+      "source": "當歸",
+      "target": "黃連",
+      "weight": 7
+    },
+    {
+      "source": "升麻",
+      "target": "當歸",
+      "weight": 7
+    },
+    {
+      "source": "升麻",
+      "target": "知母",
+      "weight": 7
+    },
+    {
+      "source": "升麻",
+      "target": "麻黃",
+      "weight": 7
+    },
+    {
+      "source": "升麻",
+      "target": "黃芩",
+      "weight": 7
+    },
+    {
+      "source": "當歸",
+      "target": "白朮",
+      "weight": 7
+    },
+    {
+      "source": "當歸",
+      "target": "黃芩",
+      "weight": 7
+    },
+    {
+      "source": "知母",
+      "target": "黃芩",
+      "weight": 7
+    },
+    {
+      "source": "秦皮",
+      "target": "黃柏",
+      "weight": 7
+    },
+    {
+      "source": "牡蠣",
+      "target": "蜀漆",
+      "weight": 7
+    },
+    {
+      "source": "人參",
+      "target": "竹葉",
+      "weight": 7
+    },
+    {
+      "source": "大棗",
+      "target": "當歸",
+      "weight": 7
+    },
+    {
+      "source": "枳實",
+      "target": "桂枝",
+      "weight": 7
+    },
+    {
+      "source": "乾薑",
+      "target": "蜀椒",
+      "weight": 7
+    },
+    {
+      "source": "人參",
+      "target": "阿膠",
+      "weight": 7
+    },
+    {
+      "source": "栝蔞根",
+      "target": "茯苓",
+      "weight": 7
+    },
+    {
+      "source": "甘草",
+      "target": "黃耆",
+      "weight": 7
+    },
+    {
+      "source": "柴胡",
+      "target": "龍骨",
+      "weight": 6
+    },
+    {
+      "source": "桂枝",
+      "target": "膠飴",
+      "weight": 6
+    },
+    {
+      "source": "厚朴",
+      "target": "梔子",
+      "weight": 6
+    },
+    {
+      "source": "乾薑",
+      "target": "梔子",
+      "weight": 6
+    },
+    {
+      "source": "人參",
+      "target": "龍骨",
+      "weight": 6
+    },
+    {
+      "source": "半夏",
+      "target": "牡蠣",
+      "weight": 6
+    },
+    {
+      "source": "大棗",
+      "target": "龍骨",
+      "weight": 6
+    },
+    {
+      "source": "柴胡",
+      "target": "茯苓",
+      "weight": 6
+    },
+    {
+      "source": "牡蠣",
+      "target": "生薑",
+      "weight": 6
+    },
+    {
+      "source": "大黃",
+      "target": "葶藶",
+      "weight": 6
+    },
+    {
+      "source": "半夏",
+      "target": "栝蔞實",
+      "weight": 6
+    },
+    {
+      "source": "大戟",
+      "target": "甘遂",
+      "weight": 6
+    },
+    {
+      "source": "大戟",
+      "target": "芫花",
+      "weight": 6
+    },
+    {
+      "source": "甘遂",
+      "target": "芫花",
+      "weight": 6
+    },
+    {
+      "source": "附子",
+      "target": "黃芩",
+      "weight": 6
+    },
+    {
+      "source": "炙甘草",
+      "target": "生薑",
+      "weight": 6
+    },
+    {
+      "source": "甘草",
+      "target": "黃柏",
+      "weight": 6
+    },
+    {
+      "source": "芍藥",
+      "target": "雞子黃",
+      "weight": 6
+    },
+    {
+      "source": "乾薑",
+      "target": "赤石脂",
+      "weight": 6
+    },
+    {
+      "source": "烏梅",
+      "target": "當歸",
+      "weight": 6
+    },
+    {
+      "source": "乾薑",
+      "target": "石膏",
+      "weight": 6
+    },
+    {
+      "source": "升麻",
+      "target": "甘草",
+      "weight": 6
+    },
+    {
+      "source": "知母",
+      "target": "麻黃",
+      "weight": 6
+    },
+    {
+      "source": "茯苓",
+      "target": "麻黃",
+      "weight": 6
+    },
+    {
+      "source": "麻黃",
+      "target": "黃芩",
+      "weight": 6
+    },
+    {
+      "source": "白頭翁",
+      "target": "黃柏",
+      "weight": 6
+    },
+    {
+      "source": "澤瀉",
+      "target": "牡蠣",
+      "weight": 6
+    },
+    {
+      "source": "半夏",
+      "target": "竹葉",
+      "weight": 6
+    },
+    {
+      "source": "桂枝",
+      "target": "桃仁",
+      "weight": 6
+    },
+    {
+      "source": "桂枝",
+      "target": "芒硝",
+      "weight": 6
+    },
+    {
+      "source": "柴胡",
+      "target": "栝蔞根",
+      "weight": 6
+    },
+    {
+      "source": "栝蔞根",
+      "target": "黃芩",
+      "weight": 6
+    },
+    {
+      "source": "人參",
+      "target": "細辛",
+      "weight": 6
+    },
+    {
+      "source": "當歸",
+      "target": "黃柏",
+      "weight": 6
+    },
+    {
+      "source": "石膏",
+      "target": "黃連",
+      "weight": 6
+    },
+    {
+      "source": "大棗",
+      "target": "黃耆",
+      "weight": 6
+    },
+    {
+      "source": "生薑",
+      "target": "黃耆",
+      "weight": 6
+    },
+    {
+      "source": "桔梗",
+      "target": "生薑",
+      "weight": 6
+    },
+    {
+      "source": "當歸",
+      "target": "芎藭",
+      "weight": 6
+    },
+    {
+      "source": "芍藥",
+      "target": "芎藭",
+      "weight": 6
+    },
+    {
+      "source": "吳茱萸",
+      "target": "當歸",
+      "weight": 5
+    }
+  ]
+}

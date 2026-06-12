@@ -1,0 +1,190 @@
+[
+  {
+    "classical": "白疕",
+    "modern": "银屑病",
+    "certainty": "medium",
+    "note": "外科古籍概念，伤寒金匮类罕见，需扩展本草/外科类目",
+    "corpus_mentions": 0,
+    "example_books": []
+  },
+  {
+    "classical": "胸痹",
+    "modern": "冠心病/心绞痛相关胸痛",
+    "certainty": "medium",
+    "note": "金匮胸痹心痛短气病脉证治",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒尋源",
+      "傷寒補例",
+      "傷寒論輯義",
+      "曹氏傷寒金匱發微合刊",
+      "金匱玉函經二註"
+    ]
+  },
+  {
+    "classical": "消渴",
+    "modern": "糖尿病及多饮多尿综合征",
+    "certainty": "medium",
+    "note": "金匮消渴小便不利淋病脉证并治",
+    "corpus_mentions": 50,
+    "example_books": [
+      "中寒論辯證廣注",
+      "仲景傷寒補亡論",
+      "傷寒六書",
+      "傷寒大白",
+      "傷寒尋源"
+    ]
+  },
+  {
+    "classical": "歷節",
+    "modern": "类风湿关节炎/痛风性关节炎",
+    "certainty": "medium",
+    "note": "金匮中风历节病脉证并治",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒尋源",
+      "傷寒論綱目",
+      "曹氏傷寒金匱發微合刊",
+      "經方實驗錄",
+      "金匱玉函經二註"
+    ]
+  },
+  {
+    "classical": "肺癰",
+    "modern": "肺脓肿",
+    "certainty": "high",
+    "note": "咳唾膿血、吐如米粥",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒大白",
+      "傷寒恆論",
+      "傷寒指掌",
+      "傷寒纘論·傷寒緒論",
+      "傷寒論輯義"
+    ]
+  },
+  {
+    "classical": "腸癰",
+    "modern": "阑尾炎/腹腔脓肿",
+    "certainty": "high",
+    "note": "金匮疮痈肠痈浸淫病",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒指掌",
+      "傷寒纘論·傷寒緒論",
+      "傷寒雜病論(桂本)",
+      "曹氏傷寒金匱發微合刊",
+      "經方實驗錄"
+    ]
+  },
+  {
+    "classical": "黃疸",
+    "modern": "黄疸（肝胆疾病）",
+    "certainty": "high",
+    "note": "",
+    "corpus_mentions": 32,
+    "example_books": [
+      "傷寒恆論",
+      "傷寒直格",
+      "傷寒總病論",
+      "傷寒論類方",
+      "傷寒雜病論(桂本)"
+    ]
+  },
+  {
+    "classical": "奔豚",
+    "modern": "惊恐发作/自主神经功能紊乱（参考）",
+    "certainty": "low",
+    "note": "氣上衝胸",
+    "corpus_mentions": 50,
+    "example_books": [
+      "中寒論辯證廣注",
+      "傷寒恆論",
+      "傷寒指掌",
+      "傷寒捷訣",
+      "傷寒纘論"
+    ]
+  },
+  {
+    "classical": "臟躁",
+    "modern": "焦虑/癔症样发作（参考）",
+    "certainty": "low",
+    "note": "妇人脏躁，喜悲伤欲哭",
+    "corpus_mentions": 7,
+    "example_books": [
+      "金匱玉函經二註",
+      "金匱玉函要略輯義",
+      "金匱玉函要略述義",
+      "金匱要略方論"
+    ]
+  },
+  {
+    "classical": "痰飲",
+    "modern": "慢性支气管炎/胸腔积液等水液代谢病（参考）",
+    "certainty": "low",
+    "note": "",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒大白",
+      "傷寒尋源",
+      "傷寒指掌",
+      "傷寒纘論",
+      "傷寒纘論·傷寒緒論"
+    ]
+  },
+  {
+    "classical": "水氣病",
+    "modern": "水肿（心源性/肾源性等）",
+    "certainty": "medium",
+    "note": "",
+    "corpus_mentions": 10,
+    "example_books": [
+      "曹氏傷寒金匱發微合刊",
+      "金匱方歌括",
+      "金匱玉函要略輯義",
+      "金匱要略方論"
+    ]
+  },
+  {
+    "classical": "虛勞",
+    "modern": "慢性虚弱性疾病/消耗性疾病",
+    "certainty": "low",
+    "note": "",
+    "corpus_mentions": 50,
+    "example_books": [
+      "傷寒六書",
+      "傷寒兼證析義",
+      "傷寒括要",
+      "傷寒指掌",
+      "傷寒捷訣"
+    ]
+  },
+  {
+    "classical": "百合病",
+    "modern": "情感障碍/躯体化障碍（参考）",
+    "certainty": "low",
+    "note": "",
+    "corpus_mentions": 50,
+    "example_books": [
+      "仲景傷寒補亡論",
+      "傷寒括要",
+      "傷寒總病論",
+      "傷寒纘論·傷寒緒論",
+      "傷寒論綱目"
+    ]
+  },
+  {
+    "classical": "狐惑",
+    "modern": "白塞病（参考）",
+    "certainty": "medium",
+    "note": "蝕於喉為惑，蝕於陰為狐",
+    "corpus_mentions": 50,
+    "example_books": [
+      "仲景傷寒補亡論",
+      "傷寒六書",
+      "傷寒括要",
+      "傷寒指掌",
+      "傷寒捷訣"
+    ]
+  }
+]

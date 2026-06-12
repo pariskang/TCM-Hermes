@@ -1,0 +1,82 @@
+{
+  "skill_id": "hermes.formula.formula_44a4f014",
+  "kind": "formula",
+  "title": "耆芍桂酒湯方證合併規則",
+  "subject": "耆芍桂酒湯",
+  "abstracted_claim": "耆芍桂酒湯可歸納為黃汗、風水、發熱、汗出、渴等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_44A4F014",
+  "release_level": "silver",
+  "consensus_score": 0.9,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000160",
+    "IR_JGYL_TIAOWEN_000160"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000160",
+      "IR_JGYL_TIAOWEN_000160"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_FANGLUN_000631",
+      "evidence_span": "問曰：黃汗之為病，身體腫一作重。發熱汗出而渴，狀如風水，汗沾衣，色正黃如柏汁，脈自沉，何從得之？師曰：以汗出入水中浴，水從汗孔入得之，宜耆芍桂酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "水氣病脈證并治第十四",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000629",
+      "evidence_span": "問曰：黃汗之為病，身體腫一作重。發熱汗出而渴，狀如風水，汗沾衣，色正黃如柏汁，脈自沉，何從得之？師曰：以汗出入水中浴，水從汗孔入得之，宜耆芍桂酒湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "黃汗",
+        "count": 2
+      },
+      {
+        "term": "風水",
+        "count": 2
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 2
+      },
+      {
+        "term": "汗出",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 2
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "耆芍桂酒湯",
+    "黃汗",
+    "風水",
+    "發熱",
+    "汗出",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

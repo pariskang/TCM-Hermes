@@ -1,0 +1,78 @@
+{
+  "skill_id": "hermes.formula.formula_e157f5a3",
+  "kind": "formula",
+  "title": "猪苓湯方證合併規則",
+  "subject": "猪苓湯",
+  "abstracted_claim": "猪苓湯可歸納為小便不利、發熱、渴、脈浮等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E157F5A3",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000148",
+    "IR_JGYL_TIAOWEN_000148"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000148",
+      "IR_JGYL_TIAOWEN_000148"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "消渴小便利淋病脈證并治第十三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000585",
+      "evidence_span": "脈浮發熱，渴欲飲水，小便不利者，猪苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "消渴小便利淋病脈證并治第十三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000583",
+      "evidence_span": "脈浮發熱，渴欲飲水，小便不利者，猪苓湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 2
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 2
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 2
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "猪苓湯",
+    "小便不利",
+    "發熱",
+    "渴",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,90 @@
+{
+  "skill_id": "hermes.formula.formula_575002da",
+  "kind": "formula",
+  "title": "麻仁丸方證合併規則",
+  "subject": "麻仁丸",
+  "abstracted_claim": "麻仁丸可歸納為小便數、大便難、趺陽脈浮等方證的核心方（支持條文 4 條，跨 4 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_575002DA",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000246",
+    "IR_CAOSHI_FAWEI_001129",
+    "IR_JGYL_JIYI_000190",
+    "IR_SHL_SUYUAN_000723"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000246",
+      "IR_CAOSHI_FAWEI_001129",
+      "IR_JGYL_JIYI_000190",
+      "IR_SHL_SUYUAN_000723"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論二首、脈證十七條",
+      "source_unit_id": "SU_JGYL_JIYI_001623",
+      "evidence_span": "約束其脾。不化津液。故大便難也。以麻仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001637",
+      "evidence_span": "脾既無精可散。胃終熱燥而大便難。故當以通腸潤燥為治。而以麻仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "陽明下篇",
+      "source_unit_id": "SU_B11498305_000339",
+      "evidence_span": "趺陽脈浮而濇，浮則胃氣強，濇則小便數，浮濇相搏，大便則難，其脾為約，麻仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "五藏風寒積聚病脈證並治第十一",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001533",
+      "evidence_span": "趺陽脈浮而嗇，浮則胃氣強，嗇則小便數，浮嗇相搏，大便則堅，其脾為約，麻仁丸主之（麻仁丸方，麻仁二升，芍藥半斤，大黃去皮一斤，枳實半斤，厚朴一斤去皮，杏仁一升去皮尖熬別作脂，上六味，末之煉蜜和丸，桐子大，飲服十丸，日三服，漸加以知為度）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "小便數",
+        "count": 2
+      },
+      {
+        "term": "大便難",
+        "count": 2
+      }
+    ],
+    "pulse": [
+      {
+        "term": "趺陽脈浮",
+        "count": 2
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "麻仁丸",
+    "小便數",
+    "大便難",
+    "趺陽脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

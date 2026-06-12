@@ -1,0 +1,365 @@
+{
+  "skill_id": "hermes.formula.formula_553593bd",
+  "kind": "formula",
+  "title": "梔子柏皮湯方證合併規則",
+  "subject": "梔子柏皮湯",
+  "abstracted_claim": "梔子柏皮湯可歸納為傷寒、陽明病、身黃、發熱、發黃、無汗等方證的核心方（支持條文 25 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_553593BD",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000281",
+    "IR_B0B74DF58_000421",
+    "IR_B11498305_000132",
+    "IR_B1CAC3ADF_000065",
+    "IR_B1CAC3ADF_000702",
+    "IR_B3E16D849_000228",
+    "IR_B3E16D849_000601",
+    "IR_B3E16D849_001287",
+    "IR_B41512D4B_000809",
+    "IR_B5C5ECAC2_000332",
+    "IR_B5FF1CA1B_000158",
+    "IR_B8E444005_000354",
+    "IR_BBAACE965_001090",
+    "IR_BC91F4420_000440",
+    "IR_BF5CDC206_000074",
+    "IR_CAOSHI_FAWEI_000664",
+    "IR_SHL_GUIBEN_000873",
+    "IR_SHL_LUNZHU_000391",
+    "IR_SHL_QJYF_000188",
+    "IR_SHL_SONGBEN_000342",
+    "IR_SHL_SUYUAN_000865",
+    "IR_SHL_SUYUAN_000866",
+    "IR_SHL_TIAOWEN_000296",
+    "IR_SHL_ZHUJIE_000104",
+    "IR_SHL_ZHUJIE_000797"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000281",
+      "IR_B0B74DF58_000421",
+      "IR_B11498305_000132",
+      "IR_B1CAC3ADF_000065",
+      "IR_B1CAC3ADF_000702",
+      "IR_B3E16D849_000228",
+      "IR_B3E16D849_000601",
+      "IR_B3E16D849_001287",
+      "IR_B41512D4B_000809",
+      "IR_B5C5ECAC2_000332",
+      "IR_B5FF1CA1B_000158",
+      "IR_B8E444005_000354",
+      "IR_BBAACE965_001090",
+      "IR_BC91F4420_000440",
+      "IR_BF5CDC206_000074",
+      "IR_CAOSHI_FAWEI_000664",
+      "IR_SHL_GUIBEN_000873",
+      "IR_SHL_LUNZHU_000391",
+      "IR_SHL_QJYF_000188",
+      "IR_SHL_SONGBEN_000342",
+      "IR_SHL_SUYUAN_000865",
+      "IR_SHL_SUYUAN_000866",
+      "IR_SHL_TIAOWEN_000296",
+      "IR_SHL_ZHUJIE_000104",
+      "IR_SHL_ZHUJIE_000797"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002527",
+      "evidence_span": "傷寒身黃發熱。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000180",
+      "evidence_span": "傷寒身黃發熱者，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "麻仁丸方第八十",
+      "source_unit_id": "SU_B1CAC3ADF_001882",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "麻仁丸方",
+      "source_unit_id": "SU_B41512D4B_001607",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000228",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "梔子柏皮湯",
+      "source_unit_id": "SU_B8E444005_000601",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "陽明篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000718",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000694",
+      "evidence_span": "傷寒身熱發黃者，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "正陽陽明證治第十二",
+      "source_unit_id": "SU_SHL_SUYUAN_001899",
+      "evidence_span": "傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨陽明病脈證並治第八",
+      "source_unit_id": "SU_SHL_SONGBEN_000663",
+      "evidence_span": "傷寒，身黃，發熱，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000510",
+      "evidence_span": "傷寒，身黃，發熱，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "發黃（述古）",
+      "source_unit_id": "SU_B5C5ECAC2_001290",
+      "evidence_span": "傷寒身熱發黃。無表裡症者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨陽明病脈證並治第四",
+      "source_unit_id": "SU_BC91F4420_000977",
+      "evidence_span": "（七十七）傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000796",
+      "evidence_span": "9.84傷寒，身黃、發熱者，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發黃",
+      "source_unit_id": "SU_B3E16D849_002647",
+      "evidence_span": "【綱】仲景曰。傷寒身熱發黃者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨陽明病脈證並治法第八",
+      "source_unit_id": "SU_SHL_ZHUJIE_001253",
+      "evidence_span": "傷寒身黃發熱者，（趙本無「者」字）梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000567",
+      "evidence_span": "**五十八、傷寒身黃發熱**（者）**，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B3E16D849_000595",
+      "evidence_span": "麻黃連翹赤小豆湯主之。傷寒身黃。發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發黃",
+      "source_unit_id": "SU_B3E16D849_001316",
+      "evidence_span": "腹微滿者。茵陳蒿湯主之。傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨濕脈證第四",
+      "source_unit_id": "SU_B1CAC3ADF_000687",
+      "evidence_span": "此身色如似熏黃。即非陽明瘀熱。身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "正陽陽明證治第十二",
+      "source_unit_id": "SU_SHL_SUYUAN_001900",
+      "evidence_span": "是熱勝於濕。無形之邪鬱蒸而發黃也。故不必茵陳大黃。而以梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "陽明篇",
+      "source_unit_id": "SU_BF5CDC206_000088",
+      "evidence_span": "以大黃合茵陳蒿導之從小便出也。七十八節云。傷寒身黃發熱者。梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000232",
+      "evidence_span": "傷寒發其汗，則身目為黃，所以然者，寒濕相搏，在裡不解故也。傷寒其人發黃，梔子柏皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨濕脈證第四",
+      "source_unit_id": "SU_SHL_ZHUJIE_000448",
+      "evidence_span": "身黃如橘子色者，陽明瘀熱也。此身色如似熏黃，即非陽明瘀熱。身黃發熱者，梔子柏皮湯主之，為表裡有熱，則身不疼痛。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "陽明上篇",
+      "source_unit_id": "SU_B0B74DF58_000849",
+      "evidence_span": "【闡釋】　陽明病，無汗，本應以葛根湯發其汗，今竟以火劫取汗，則熱邪愈熾，津液被束，無復外布與下滲矣，其身必發黃。原文未出方治，根據辨證，必須清熱利濕，梔子柏皮湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "無汗",
+        "陽明病"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000281",
+        "IR_B0B74DF58_000421"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "梔子",
+        "甘草",
+        "黃柏"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001095",
+        "IR_BC91F4420_000441"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "梔子"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000665"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "梔子十五個",
+        "甘草一兩",
+        "黃柏二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000874"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "梔子",
+        "甘草",
+        "茵陳",
+        "黃柏"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000399"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 21
+      },
+      {
+        "term": "陽明病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "身黃",
+        "count": 19
+      },
+      {
+        "term": "發熱",
+        "count": 19
+      },
+      {
+        "term": "發黃",
+        "count": 6
+      },
+      {
+        "term": "無汗",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "梔子柏皮湯",
+    "傷寒",
+    "陽明病",
+    "身黃",
+    "發熱",
+    "發黃",
+    "無汗"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

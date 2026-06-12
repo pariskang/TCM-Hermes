@@ -1,0 +1,280 @@
+{
+  "skill_id": "hermes.formula.formula_b88cdee3",
+  "kind": "formula",
+  "title": "柴胡桂枝湯方證合併規則",
+  "subject": "柴胡桂枝湯",
+  "abstracted_claim": "柴胡桂枝湯可歸納為傷寒、發熱、惡寒、脈沉等方證的核心方（支持條文 15 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_B88CDEE3",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000236",
+    "IR_B11498305_000558",
+    "IR_B5FF1CA1B_000589",
+    "IR_B9119D083_000059",
+    "IR_B9119D083_000092",
+    "IR_B9119D083_000301",
+    "IR_B9119D083_000598",
+    "IR_SHL_GUIBEN_000321",
+    "IR_SHL_GUIBEN_000670",
+    "IR_SHL_LAISU_000058",
+    "IR_SHL_LAISU_000067",
+    "IR_SHL_LUNZHU_000063",
+    "IR_SHL_LUNZHU_000530",
+    "IR_SHL_SONGBEN_000214",
+    "IR_SHL_TIAOWEN_000168"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000236",
+      "IR_B11498305_000558",
+      "IR_B5FF1CA1B_000589",
+      "IR_B9119D083_000059",
+      "IR_B9119D083_000092",
+      "IR_B9119D083_000301",
+      "IR_B9119D083_000598",
+      "IR_SHL_GUIBEN_000321",
+      "IR_SHL_GUIBEN_000670",
+      "IR_SHL_LAISU_000058",
+      "IR_SHL_LAISU_000067",
+      "IR_SHL_LUNZHU_000063",
+      "IR_SHL_LUNZHU_000530",
+      "IR_SHL_SONGBEN_000214",
+      "IR_SHL_TIAOWEN_000168"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "合病並病篇",
+      "source_unit_id": "SU_B5FF1CA1B_000947",
+      "evidence_span": "發熱微惡寒。肢節煩疼微嘔。心下支結外證未去者。柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "合病併病篇",
+      "source_unit_id": "SU_B11498305_000747",
+      "evidence_span": "傷寒六七日，發熱微惡寒，肢節煩疼微嘔心下支結，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B9119D083_000738",
+      "evidence_span": "傷寒六七日，發熱惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "惡寒",
+      "source_unit_id": "SU_B9119D083_000053",
+      "evidence_span": "傷寒六七日，發熱微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B9119D083_000132",
+      "evidence_span": "傷寒六七日，發熱微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "結胸",
+      "source_unit_id": "SU_B9119D083_001583",
+      "evidence_span": "傷寒六七日，發熱微惡寒，骨節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "柴胡湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000890",
+      "evidence_span": "傷寒六七日，發熱微惡寒，肢節煩疼，微嘔，心下支結，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證上",
+      "source_unit_id": "SU_SHL_LAISU_000047",
+      "evidence_span": "傷寒六七日，發熱，微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證上",
+      "source_unit_id": "SU_SHL_LAISU_000050",
+      "evidence_span": "傷寒六七日，發熱，微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證上",
+      "source_unit_id": "SU_SHL_LUNZHU_000109",
+      "evidence_span": "傷寒六七日，發熱、微惡寒、肢節煩疼、微嘔、心下支結，外症未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000463",
+      "evidence_span": "傷寒六七日，發熱，微惡寒，支節煩疼，微嘔，心下支結，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000310",
+      "evidence_span": "傷寒六七日，發熱，微惡寒，支節煩疼，微嘔，心下支結，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000644",
+      "evidence_span": "8.25傷寒六七日，發熱微惡寒，支節煩疼，微嘔，心下支結，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "傷風脈證並治第十一",
+      "source_unit_id": "SU_SHL_GUIBEN_000400",
+      "evidence_span": "5.45風病，面目浮腫，脊痛不能正立，隱曲不利，甚則骨痿，脈沉而弦，此風邪乘腎也，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000440",
+      "evidence_span": "**四十一、傷寒六七日，發熱微惡寒，肢節煩疼**(四肢關節疼痛之甚。)**，微嘔，心下支結**(心下感覺支撐悶結。)**，外證未去者，柴胡桂枝湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "脈沉"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000321",
+        "IR_SHL_GUIBEN_000670"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "人參",
+        "半夏",
+        "大棗",
+        "柴胡",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000664"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "柴胡",
+        "桂枝"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000365"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參一兩",
+        "半夏二合",
+        "大棗六枚",
+        "柴胡四兩",
+        "桂枝一兩",
+        "甘草一兩",
+        "生薑一兩",
+        "芍藥一兩",
+        "黃芩一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000322",
+        "IR_SHL_GUIBEN_000671"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "人參",
+        "半夏",
+        "柴胡",
+        "桂枝",
+        "甘草",
+        "芍藥",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_001154"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 13
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 14
+      },
+      {
+        "term": "惡寒",
+        "count": 14
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "柴胡桂枝湯",
+    "傷寒",
+    "發熱",
+    "惡寒",
+    "脈沉"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,426 @@
+{
+  "skill_id": "hermes.formula.guizhi_qu_shaoyao_tang",
+  "kind": "formula",
+  "title": "桂枝去芍藥湯方證合併規則",
+  "subject": "桂枝去芍藥湯",
+  "abstracted_claim": "桂枝去芍藥湯可歸納為太陽病、傷寒、腹滿、胸滿、惡寒、心下滿等方證的核心方（支持條文 28 條，跨 26 部書）。",
+  "merged_rule_id": "MHR_FORMULA_GUIZHI_QU_SHAOYAO_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.889,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000062",
+    "IR_B11498305_000096",
+    "IR_B1CAC3ADF_000112",
+    "IR_B2EB248E3_000005",
+    "IR_B3E16D849_000131",
+    "IR_B3E16D849_000404",
+    "IR_B3E520529_000079",
+    "IR_B41512D4B_000087",
+    "IR_B434348CD_000039",
+    "IR_B5C5ECAC2_000192",
+    "IR_B5FF1CA1B_000118",
+    "IR_B8E444005_000283",
+    "IR_B8E444005_000286",
+    "IR_B9119D083_000536",
+    "IR_BBAACE965_000059",
+    "IR_BC2BA03C0_000076",
+    "IR_BC91F4420_000057",
+    "IR_CAOSHI_FAWEI_000042",
+    "IR_SHL_GUANZHU_000279",
+    "IR_SHL_GUIBEN_000375",
+    "IR_SHL_LAISU_000100",
+    "IR_SHL_LEIFANG_000007",
+    "IR_SHL_LUNZHU_000093",
+    "IR_SHL_MINGLI_000029",
+    "IR_SHL_SONGBEN_000064",
+    "IR_SHL_SUYUAN_000143",
+    "IR_SHL_TIAOWEN_000018",
+    "IR_SHL_ZHUJIE_000151"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000062",
+      "IR_B11498305_000096",
+      "IR_B1CAC3ADF_000112",
+      "IR_B2EB248E3_000005",
+      "IR_B3E16D849_000131",
+      "IR_B3E16D849_000404",
+      "IR_B3E520529_000079",
+      "IR_B41512D4B_000087",
+      "IR_B434348CD_000039",
+      "IR_B5C5ECAC2_000192",
+      "IR_B5FF1CA1B_000118",
+      "IR_B8E444005_000283",
+      "IR_B8E444005_000286",
+      "IR_B9119D083_000536",
+      "IR_BBAACE965_000059",
+      "IR_BC2BA03C0_000076",
+      "IR_BC91F4420_000057",
+      "IR_CAOSHI_FAWEI_000042",
+      "IR_SHL_GUANZHU_000279",
+      "IR_SHL_GUIBEN_000375",
+      "IR_SHL_LAISU_000100",
+      "IR_SHL_LEIFANG_000007",
+      "IR_SHL_LUNZHU_000093",
+      "IR_SHL_MINGLI_000029",
+      "IR_SHL_SONGBEN_000064",
+      "IR_SHL_SUYUAN_000143",
+      "IR_SHL_TIAOWEN_000018",
+      "IR_SHL_ZHUJIE_000151"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "可發汗證",
+      "source_unit_id": "SU_B3E520529_000080",
+      "evidence_span": "下後脈促胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "胸脅腹脹滿痛",
+      "source_unit_id": "SU_B3E16D849_000958",
+      "evidence_span": "下後。脈促。胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝去芍藥加附子湯",
+      "source_unit_id": "SU_B8E444005_000416",
+      "evidence_span": "太陽病。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "可發汗證",
+      "source_unit_id": "SU_BC2BA03C0_000194",
+      "evidence_span": "下後，脈促，胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "桂枝加附子湯方",
+      "source_unit_id": "SU_B2EB248E3_000018",
+      "evidence_span": "下之後。脈促。胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "太陽經脈",
+      "source_unit_id": "SU_B3E16D849_000403",
+      "evidence_span": "下之後。脈促。胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桂枝加葛根湯方",
+      "source_unit_id": "SU_B41512D4B_000438",
+      "evidence_span": "太陽病下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "誤下例",
+      "source_unit_id": "SU_B5C5ECAC2_000852",
+      "evidence_span": "太陽病下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000184",
+      "evidence_span": "太陽病下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_BBAACE965_000185",
+      "evidence_span": "太陽病下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "朮附湯方第五",
+      "source_unit_id": "SU_B1CAC3ADF_000810",
+      "evidence_span": "太陽病下之後。脈促、胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒附翼",
+      "chapter_title": "太陽方總論",
+      "source_unit_id": "SU_B434348CD_000063",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝去芍藥湯",
+      "source_unit_id": "SU_B8E444005_000413",
+      "evidence_span": "太陽病。下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000085",
+      "evidence_span": "太陽病。下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000156",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治上第五",
+      "source_unit_id": "SU_SHL_SONGBEN_000183",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000312",
+      "evidence_span": "太陽病。下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_SHL_TIAOWEN_000030",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "胸滿",
+      "source_unit_id": "SU_B9119D083_001462",
+      "evidence_span": "太陽病，下之，脈促，胸滿，微惡寒，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000181",
+      "evidence_span": "（三十八）太陽病。下之後。脈促胸滿者。桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_SHL_GUIBEN_000440",
+      "evidence_span": "6.22太陽病，下之後，脈促，胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法上第五",
+      "source_unit_id": "SU_SHL_ZHUJIE_000516",
+      "evidence_span": "太陽病，下之後，脈促（趙本注：「一作縱」）胸滿者，桂枝去芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000146",
+      "evidence_span": "太陽病下之後，脈促胸滿者，桂枝去芍藥湯主之，若微惡寒者，去芍藥，方中加附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000070",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之，若微惡寒者，去芍藥方中加附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "下後諸變證治八條",
+      "source_unit_id": "SU_SHL_GUANZHU_000158",
+      "evidence_span": "太陽病，下之後，脈促胸滿者，桂枝去芍藥湯主之，若微惡寒者，去芍藥方中，加附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽上篇",
+      "source_unit_id": "SU_B0B74DF58_000136",
+      "evidence_span": "**三十五、太陽病，下之**〔後〕**，脈促**（即是脈搏很急促的形狀，診察時手指下感覺得脈搏的波動相當躁急。）**，胸滿者，桂枝去芍藥湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "桂枝去芍藥加附子湯（五）",
+      "source_unit_id": "SU_SHL_LEIFANG_000008",
+      "evidence_span": "即前方加附子（一枚炮去皮破八片）餘依前法。太陽病，下之後脈促胸滿者，中虛而表邪仍在，桂枝去芍藥湯主之，太陽之邪未盡，故用桂枝下後傷陰，不宜更用涼藥，若微惡寒者去芍藥方中，加附子湯主之，微惡則陽亦虛矣，故加附子。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒明理論",
+      "chapter_title": "胸脅滿",
+      "source_unit_id": "SU_SHL_MINGLI_000014",
+      "evidence_span": "傷寒胸脅滿，何以明之，胸脅滿者，謂胸膈間氣塞滿悶也，非心下滿者也，脅滿者，謂脅肋下氣脹填滿也，非腹滿者也，邪氣自表傳裏，必先自胸膈，已次經心脅而入胃，邪氣入胃，為入府也，是以胸滿多帶表症，脅滿者，當半表半裏症也，經曰，下後脈促胸滿者，桂枝去芍藥湯主之，又曰，太陽與陽明合病，喘而胸滿者不可下，宜麻黃湯，是胸滿屬表，而須發汗者也，蓋胸中至表猶近也，及脅者則更不言發汗，但和解而已，經曰，設胸滿脅痛者，與小柴胡湯，又曰，胸滿不去者，小柴胡湯主之，本太陽病不解，傳入少陽者，脅下鞕滿，乾嘔不能食，往來寒熱，脈沉緊者，小柴胡湯主之，是知脅滿屬半表半裏明矣，大抵胸脅滿，以邪氣初入裏，未停留為實，氣鬱積而不行，致生滿也，和解斯可矣，若邪氣留於胸中，聚而為實者，非湧吐則不可已，故華陀曰，四日在胸，吐之則愈，是邪氣已收斂而不散漫者，則可吐之，內經曰，其高者因而越之，病在胸膈之上為高，越之為吐也，經曰，病在胸中當吐之，發汗若下之而煩熱，胸中窒者，則以梔子豉湯吐之，若胸中痞鞕，氣上衝咽喉，不得息者，此為胸中有寒也，則以瓜蒂散吐之，二者均是吐劑，梔子豉湯吐胸中虛煩客熱也，瓜蒂散吐胸中痰實宿寒也，若能審明藥劑之輕重，辨別邪氣之淺深，對症投湯，不為效者，未之有也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9119D083",
+      "book_title": "傷寒大白",
+      "distinct_conditions": [
+        "惡寒"
+      ],
+      "rule_ids": [
+        "IR_B9119D083_000536"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "傷寒",
+        "心下滿",
+        "腹滿"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000029"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000062"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000282"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000376"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_001143"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝去芍藥湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000029"
+      ],
+      "book_title": "傷寒明理論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 22
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "腹滿",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "胸滿",
+        "count": 28
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "心下滿",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈促",
+        "count": 28
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "解肌祛風",
+        "count": 28
+      },
+      {
+        "term": "通陽",
+        "count": 28
+      }
+    ]
+  },
+  "keywords": [
+    "桂枝去芍藥湯",
+    "太陽病",
+    "傷寒",
+    "腹滿",
+    "胸滿",
+    "惡寒",
+    "心下滿",
+    "脈促"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}
