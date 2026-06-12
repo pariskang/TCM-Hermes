@@ -25,10 +25,17 @@ class HermesConfig:
     # merging policy: ThemeRule/MergedHermesRule use silver+gold by default
     merge_include_bronze: bool = False
 
-    # model backend: "heuristic" (offline, deterministic) or "anthropic"
+    # model backend: "heuristic" (offline, deterministic), "litellm"
+    # (any provider via litellm) or "anthropic" (direct SDK)
     backend: str = field(default_factory=lambda: os.environ.get("HERMES_BACKEND", "heuristic"))
     anthropic_model: str = field(
         default_factory=lambda: os.environ.get("HERMES_MODEL", "claude-opus-4-8"))
+    litellm_model: str = field(
+        default_factory=lambda: os.environ.get("HERMES_LLM_MODEL", "gpt-4o-mini"))
+    # consensus mode: "deterministic" (formula scoring) or "panel"
+    # (multi-reviewer debate; auto-enabled when an LLM backend is active)
+    consensus_mode: str = field(
+        default_factory=lambda: os.environ.get("HERMES_CONSENSUS_MODE", "auto"))
 
     def __post_init__(self) -> None:
         self.root = Path(self.root)

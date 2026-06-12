@@ -1,0 +1,85 @@
+{
+  "skill_id": "hermes.disease.62865116",
+  "kind": "disease",
+  "title": "太陽傷寒證治合併規則",
+  "subject": "太陽傷寒",
+  "abstracted_claim": "太陽傷寒相關條文 6 條；主要方劑：何得即以五苓散、麻黃湯、附子湯。",
+  "merged_rule_id": "MHR_DISEASE_62865116",
+  "release_level": "silver",
+  "consensus_score": 0.902,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_000501",
+    "IR_B0B74DF58_000133",
+    "IR_B11498305_000582",
+    "IR_B9119D083_000391",
+    "IR_BCA15D57E_000297",
+    "IR_SHL_SUYUAN_001123"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_CAOSHI_FAWEI_000501"
+    ],
+    "silver": [
+      "IR_B0B74DF58_000133",
+      "IR_B11498305_000582",
+      "IR_B9119D083_000391",
+      "IR_BCA15D57E_000297",
+      "IR_SHL_SUYUAN_001123"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000592",
+      "evidence_span": "太陽之為病除太陽傷寒外。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001007",
+      "evidence_span": "太陽傷寒，脈浮緊，不發汗，因致衄者，麻黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SUYUAN_002574",
+      "evidence_span": "骨節痛。以脈沉論之。皆非太陽傷寒脈緊之體痛骨節疼可比。故亦以附子湯主之也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_000271",
+      "evidence_span": "【鄭論】　按太陽傷寒，既稱發汗已，想是外邪已去。又見其脈浮數，煩渴，必是外邪已去，而內熱未解，故其脈浮數尚見。至於煩渴者，熱傷津液也，理應清解其熱，熱去則煩渴自解，脈數便平，何得即以五苓散主之？",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCA15D57E_000395",
+      "evidence_span": "脈浮無汗而喘是太陽傷寒脈證故宜麻黃　太陽經病內傳陽明之腑陽明之腑邪未實太陽之經邪未罷是宜用太陽表藥即裡有下證而表病未解亦不可下當先以麻桂表其風寒然後議下也　風脈浮緩寒脈浮緊遲者緩之變文也風脈不言浮寒脈不言緊省文也太陽傳陽明緩緊之中必兼大象以傷寒三日陽明脈大前章已經提明故此不及",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000767",
+      "evidence_span": "太陽傷寒犯本，有五苓散兩解一法，而陽明溫熱，復有豬苓湯導熱滋乾一法，然汗出多而渴者不可服，蓋陽明胃主津液，津液充則不渴，津液少則渴矣，故陽明熱甚，必先耗其津液，加以汗多而奪之於外，復利其小便而奪之於下，則津液立亡而已，其脈浮發熱，渴欲飲水，小便不利而汗出少者，方可用豬苓湯，脈浮發熱，渴欲飲水，口乾舌燥而汗出多者，則宜白虎加人參，其法已具上條，若脈沉熱蒸多汗，渴欲飲水，而小便黃赤不利者，又當從承氣下之，以救陰為急也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "太陽傷寒"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

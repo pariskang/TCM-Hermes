@@ -3,16 +3,12 @@
   "kind": "formula",
   "title": "梔子豉湯方證合併規則",
   "subject": "梔子豉湯",
-  "abstracted_claim": "梔子豉湯可歸納為陽明病、傷寒、腹滿、結胸、下利、痞等方證的核心方（支持條文 97 條，跨 31 部書）。",
+  "abstracted_claim": "梔子豉湯可歸納為陽明病、結胸、傷寒、腹滿、下利、胸中窒等方證的核心方（支持條文 69 條，跨 26 部書）。",
   "merged_rule_id": "MHR_FORMULA_ZHIZI_CHI_TANG",
   "release_level": "silver",
-  "consensus_score": 0.903,
+  "consensus_score": 0.897,
   "supporting_initial_rules": [
-    "IR_B07FA055B_000029",
     "IR_B0B74DF58_000249",
-    "IR_B0B74DF58_000251",
-    "IR_B0B74DF58_000252",
-    "IR_B0B74DF58_000383",
     "IR_B0B74DF58_000404",
     "IR_B11498305_000120",
     "IR_B11498305_000121",
@@ -25,50 +21,33 @@
     "IR_B3E16D849_000215",
     "IR_B3E16D849_000413",
     "IR_B3E16D849_000436",
-    "IR_B3E16D849_000930",
-    "IR_B3E16D849_001095",
-    "IR_B3E16D849_001149",
     "IR_B3E16D849_001161",
     "IR_B3E16D849_001165",
     "IR_B3E16D849_001172",
-    "IR_B3E16D849_001196",
-    "IR_B3E16D849_001209",
     "IR_B3E16D849_001370",
     "IR_B41512D4B_000256",
-    "IR_B41512D4B_000729",
-    "IR_B41512D4B_000735",
     "IR_B41512D4B_000761",
     "IR_B54968951_000014",
-    "IR_B5FF1CA1B_000149",
     "IR_B5FF1CA1B_000281",
-    "IR_B5FF1CA1B_000604",
-    "IR_B8E444005_000116",
     "IR_B8E444005_000172",
     "IR_BBAACE965_000361",
-    "IR_BBAACE965_000989",
     "IR_BC91F4420_000186",
     "IR_BC91F4420_000404",
     "IR_BCA15D57E_000208",
-    "IR_BCCBDEC5F_000226",
-    "IR_BF5CDC206_000067",
     "IR_CAOSHI_FAWEI_000208",
-    "IR_CAOSHI_FAWEI_000574",
     "IR_CAOSHI_FAWEI_000587",
     "IR_CAOSHI_FAWEI_001362",
     "IR_JGYH_ERZHU_000314",
     "IR_JGYL_FANGLUN_000235",
     "IR_JGYL_JIYI_000401",
-    "IR_JGYL_QIANZHU_000265",
     "IR_JGYL_TIAOWEN_000235",
     "IR_JGYL_XINDIAN_000267",
-    "IR_SHL_GUANZHU_000243",
     "IR_SHL_GUANZHU_000251",
     "IR_SHL_GUANZHU_000253",
     "IR_SHL_GUANZHU_000456",
     "IR_SHL_GUANZHU_000465",
     "IR_SHL_GUIBEN_000516",
     "IR_SHL_GUIBEN_000520",
-    "IR_SHL_GUIBEN_000795",
     "IR_SHL_GUIBEN_000810",
     "IR_SHL_LAISU_000366",
     "IR_SHL_LAISU_000368",
@@ -77,21 +56,15 @@
     "IR_SHL_LAISU_000379",
     "IR_SHL_LAISU_000383",
     "IR_SHL_LAISU_000384",
-    "IR_SHL_LUNZHU_000363",
-    "IR_SHL_LUNZHU_000365",
-    "IR_SHL_LUNZHU_000371",
     "IR_SHL_LUNZHU_000377",
     "IR_SHL_LUNZHU_000381",
     "IR_SHL_LUNZHU_000383",
-    "IR_SHL_MINGLI_000055",
     "IR_SHL_SONGBEN_000133",
     "IR_SHL_SONGBEN_000136",
     "IR_SHL_SONGBEN_000138",
     "IR_SHL_SONGBEN_000294",
     "IR_SHL_SONGBEN_000301",
     "IR_SHL_SUYUAN_000299",
-    "IR_SHL_SUYUAN_000379",
-    "IR_SHL_SUYUAN_000681",
     "IR_SHL_SUYUAN_000687",
     "IR_SHL_SUYUAN_000815",
     "IR_SHL_SUYUAN_000816",
@@ -103,17 +76,12 @@
     "IR_SHL_ZHUJIE_000304",
     "IR_SHL_ZHUJIE_000309",
     "IR_SHL_ZHUJIE_000313",
-    "IR_SHL_ZHUJIE_000690",
     "IR_SHL_ZHUJIE_000709"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B07FA055B_000029",
       "IR_B0B74DF58_000249",
-      "IR_B0B74DF58_000251",
-      "IR_B0B74DF58_000252",
-      "IR_B0B74DF58_000383",
       "IR_B0B74DF58_000404",
       "IR_B11498305_000120",
       "IR_B11498305_000121",
@@ -126,50 +94,33 @@
       "IR_B3E16D849_000215",
       "IR_B3E16D849_000413",
       "IR_B3E16D849_000436",
-      "IR_B3E16D849_000930",
-      "IR_B3E16D849_001095",
-      "IR_B3E16D849_001149",
       "IR_B3E16D849_001161",
       "IR_B3E16D849_001165",
       "IR_B3E16D849_001172",
-      "IR_B3E16D849_001196",
-      "IR_B3E16D849_001209",
       "IR_B3E16D849_001370",
       "IR_B41512D4B_000256",
-      "IR_B41512D4B_000729",
-      "IR_B41512D4B_000735",
       "IR_B41512D4B_000761",
       "IR_B54968951_000014",
-      "IR_B5FF1CA1B_000149",
       "IR_B5FF1CA1B_000281",
-      "IR_B5FF1CA1B_000604",
-      "IR_B8E444005_000116",
       "IR_B8E444005_000172",
       "IR_BBAACE965_000361",
-      "IR_BBAACE965_000989",
       "IR_BC91F4420_000186",
       "IR_BC91F4420_000404",
       "IR_BCA15D57E_000208",
-      "IR_BCCBDEC5F_000226",
-      "IR_BF5CDC206_000067",
       "IR_CAOSHI_FAWEI_000208",
-      "IR_CAOSHI_FAWEI_000574",
       "IR_CAOSHI_FAWEI_000587",
       "IR_CAOSHI_FAWEI_001362",
       "IR_JGYH_ERZHU_000314",
       "IR_JGYL_FANGLUN_000235",
       "IR_JGYL_JIYI_000401",
-      "IR_JGYL_QIANZHU_000265",
       "IR_JGYL_TIAOWEN_000235",
       "IR_JGYL_XINDIAN_000267",
-      "IR_SHL_GUANZHU_000243",
       "IR_SHL_GUANZHU_000251",
       "IR_SHL_GUANZHU_000253",
       "IR_SHL_GUANZHU_000456",
       "IR_SHL_GUANZHU_000465",
       "IR_SHL_GUIBEN_000516",
       "IR_SHL_GUIBEN_000520",
-      "IR_SHL_GUIBEN_000795",
       "IR_SHL_GUIBEN_000810",
       "IR_SHL_LAISU_000366",
       "IR_SHL_LAISU_000368",
@@ -178,21 +129,15 @@
       "IR_SHL_LAISU_000379",
       "IR_SHL_LAISU_000383",
       "IR_SHL_LAISU_000384",
-      "IR_SHL_LUNZHU_000363",
-      "IR_SHL_LUNZHU_000365",
-      "IR_SHL_LUNZHU_000371",
       "IR_SHL_LUNZHU_000377",
       "IR_SHL_LUNZHU_000381",
       "IR_SHL_LUNZHU_000383",
-      "IR_SHL_MINGLI_000055",
       "IR_SHL_SONGBEN_000133",
       "IR_SHL_SONGBEN_000136",
       "IR_SHL_SONGBEN_000138",
       "IR_SHL_SONGBEN_000294",
       "IR_SHL_SONGBEN_000301",
       "IR_SHL_SUYUAN_000299",
-      "IR_SHL_SUYUAN_000379",
-      "IR_SHL_SUYUAN_000681",
       "IR_SHL_SUYUAN_000687",
       "IR_SHL_SUYUAN_000815",
       "IR_SHL_SUYUAN_000816",
@@ -204,19 +149,11 @@
       "IR_SHL_ZHUJIE_000304",
       "IR_SHL_ZHUJIE_000309",
       "IR_SHL_ZHUJIE_000313",
-      "IR_SHL_ZHUJIE_000690",
       "IR_SHL_ZHUJIE_000709"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "陽明經脈",
-      "source_unit_id": "SU_B3E16D849_001973",
-      "evidence_span": "心中懊　。舌上苔者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒論綱目",
       "chapter_title": "懊",
@@ -309,45 +246,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "喘",
-      "source_unit_id": "SU_B3E16D849_002244",
-      "evidence_span": "客氣動膈。心中懊　。舌上苔者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "舌苔",
-      "source_unit_id": "SU_B3E16D849_002335",
-      "evidence_span": "客氣動膈。心中懊　。舌上苔者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "不得臥",
-      "source_unit_id": "SU_B3E16D849_002434",
-      "evidence_span": "若加燒針。心怵惕。煩躁不得眠。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "身重",
-      "source_unit_id": "SU_B3E16D849_002453",
-      "evidence_span": "客氣動膈。心中懊　。舌上苔者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論辯證廣注",
       "chapter_title": "梔子生薑豉湯方",
       "source_unit_id": "SU_B41512D4B_000739",
       "evidence_span": "發汗若下之。而煩熱。胸中窒者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "白虎湯方",
-      "source_unit_id": "SU_B41512D4B_001491",
-      "evidence_span": "客氣動膈。心中懊　。舌上苔者。梔子豉湯主之。",
       "release_level": "silver"
     },
     {
@@ -365,13 +267,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "太陽陽明證治第十一",
-      "source_unit_id": "SU_SHL_SUYUAN_001563",
-      "evidence_span": "客氣動膈。心中懊　。舌上苔者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "註解傷寒論",
       "chapter_title": "辨太陽病脈證並治法第六",
       "source_unit_id": "SU_SHL_ZHUJIE_000717",
@@ -386,31 +281,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "白虎湯方",
-      "source_unit_id": "SU_B41512D4B_001499",
-      "evidence_span": "心中懊　。飢不能食。但頭汗出者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒尋源",
       "chapter_title": "頭汗",
       "source_unit_id": "SU_B8E444005_000272",
       "evidence_span": "心中懊　。飢不能食。但頭汗出者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨陽明病脈證並治",
-      "source_unit_id": "SU_BBAACE965_002323",
-      "evidence_span": "心中懊　。飢不能食。但頭汗出者。梔子豉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒括要",
-      "chapter_title": "梔子豉湯",
-      "source_unit_id": "SU_BCCBDEC5F_000450",
-      "evidence_span": "虛煩不得眠。若劇者。必心中懊　。梔子豉湯主之。",
       "release_level": "silver"
     },
     {
@@ -419,47 +293,86 @@
       "source_unit_id": "SU_CAOSHI_FAWEI_000652",
       "evidence_span": "心中懊惱。饑不能食。但頭汗出者。梔子豉湯主之。",
       "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000336",
+      "evidence_span": "發汗，若下之，而煩熱，胸中窒者，梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001570",
+      "evidence_span": "心中懊　。飢不欲食。但頭汗出者。梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000183",
+      "evidence_span": "發汗，若下之，而煩熱，胸中窒者，梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000432",
+      "evidence_span": "（三十）發汗若下之而煩熱胸中窒者。梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "嘔吐噦下利，病脈證治第十七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001958",
+      "evidence_span": "下利後更煩，按之心下濡者，為虛煩也，梔子豉湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LAISU_000271",
+      "evidence_span": "發汗，若下之，而發煩熱，胸中窒者，梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000673",
+      "evidence_span": "發汗，若下之，而發煩熱，胸中窒者，梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "正陽陽明證治第十二",
+      "source_unit_id": "SU_SHL_SUYUAN_001815",
+      "evidence_span": "心中懊　。舌上苔者。不用攻下。而以梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001610",
+      "evidence_span": "下利後更煩。按之心下濡者。為虛煩也。梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000828",
+      "evidence_span": "下利後更煩，按之心下濡者，為虛煩也，梔子豉湯主之。",
+      "release_level": "silver"
     }
   ],
   "variant_set": [
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_B07FA055B",
-      "book_title": "傷寒審證表",
-      "distinct_conditions": [
-        "不大便",
-        "中風",
-        "亡陽",
-        "厥",
-        "吐血",
-        "咽乾",
-        "噦",
-        "四逆"
-      ],
-      "rule_ids": [
-        "IR_B07FA055B_000029"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_B0B74DF58",
-      "book_title": "傷寒恆論",
-      "distinct_conditions": [
-        "痞"
-      ],
-      "rule_ids": [
-        "IR_B0B74DF58_000249",
-        "IR_B0B74DF58_000251",
-        "IR_B0B74DF58_000252",
-        "IR_B0B74DF58_000383",
-        "IR_B0B74DF58_000404"
-      ]
-    },
-    {
-      "kind": "condition_variant",
       "book_id": "BOOK_B54968951",
       "book_title": "劉河間傷寒醫鑑",
       "distinct_conditions": [
+        "心煩",
+        "渴",
         "脈沉微"
       ],
       "rule_ids": [
@@ -468,15 +381,13 @@
     },
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_SHL_MINGLI",
-      "book_title": "傷寒明理論",
+      "book_id": "BOOK_BCA15D57E",
+      "book_title": "傷寒懸解",
       "distinct_conditions": [
-        "喜嘔",
-        "少陰病",
-        "欲嘔"
+        "不得臥"
       ],
       "rule_ids": [
-        "IR_SHL_MINGLI_000055"
+        "IR_BCA15D57E_000208"
       ]
     },
     {
@@ -577,177 +488,112 @@
       ]
     }
   ],
-  "conflict_set": [
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現梔子豉湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B07FA055B_000029"
-      ],
-      "book_title": "傷寒審證表"
-    }
-  ],
+  "conflict_set": [],
   "if_profile": {
     "disease": [
       {
         "term": "陽明病",
-        "count": 19
-      },
-      {
-        "term": "傷寒",
-        "count": 14
-      },
-      {
-        "term": "腹滿",
-        "count": 11
+        "count": 17
       },
       {
         "term": "結胸",
         "count": 11
       },
       {
-        "term": "下利",
+        "term": "傷寒",
+        "count": 10
+      },
+      {
+        "term": "腹滿",
         "count": 7
       },
       {
-        "term": "痞",
-        "count": 2
-      },
-      {
-        "term": "太陽病",
-        "count": 1
-      },
-      {
-        "term": "中風",
-        "count": 1
-      },
-      {
-        "term": "噦",
-        "count": 1
-      },
-      {
-        "term": "小便不利",
-        "count": 1
+        "term": "下利",
+        "count": 5
       }
     ],
     "symptoms": [
       {
-        "term": "不得眠",
-        "count": 27
-      },
-      {
         "term": "胸中窒",
-        "count": 23
-      },
-      {
-        "term": "虛煩",
-        "count": 22
+        "count": 19
       },
       {
         "term": "心中懊憹",
-        "count": 21
+        "count": 17
       },
       {
         "term": "頭汗出",
-        "count": 20
+        "count": 15
       },
       {
-        "term": "舌上苔",
-        "count": 18
-      },
-      {
-        "term": "飢不能食",
+        "term": "不得眠",
         "count": 14
       },
       {
-        "term": "煩躁",
+        "term": "虛煩",
         "count": 13
       },
       {
-        "term": "怵惕",
-        "count": 12
+        "term": "飢不能食",
+        "count": 10
       },
       {
-        "term": "惡寒",
-        "count": 10
+        "term": "手足溫",
+        "count": 9
+      },
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "口苦",
+        "count": 7
+      },
+      {
+        "term": "喘",
+        "count": 7
       }
     ],
     "pulse": [
       {
         "term": "脈浮",
-        "count": 10
-      },
-      {
-        "term": "脈浮數",
-        "count": 1
-      },
-      {
-        "term": "寸口脈浮",
-        "count": 1
-      },
-      {
-        "term": "脈數",
-        "count": 1
-      },
-      {
-        "term": "脈細",
-        "count": 1
-      },
-      {
-        "term": "脈沉遲",
-        "count": 1
-      },
-      {
-        "term": "脈促",
-        "count": 1
+        "count": 7
       },
       {
         "term": "脈沉微",
         "count": 1
       }
     ],
-    "pathomechanism": [
-      {
-        "term": "胃氣不和",
-        "count": 1
-      },
-      {
-        "term": "亡陽",
-        "count": 1
-      }
-    ]
+    "pathomechanism": []
   },
   "then_profile": {
     "treatment_principle": [
       {
         "term": "清宣鬱熱",
-        "count": 97
+        "count": 69
       },
       {
         "term": "除煩",
-        "count": 97
+        "count": 69
       }
     ]
   },
   "keywords": [
     "梔子豉湯",
     "陽明病",
+    "結胸",
     "傷寒",
     "腹滿",
-    "結胸",
     "下利",
-    "不得眠",
     "胸中窒",
-    "虛煩",
     "心中懊憹",
     "頭汗出",
+    "不得眠",
+    "虛煩",
     "脈浮",
-    "脈浮數",
-    "寸口脈浮",
-    "脈數",
-    "脈細"
+    "脈沉微"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

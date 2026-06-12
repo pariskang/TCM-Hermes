@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_46d6355e`
 - **Merged rule**: `MHR_FORMULA_FORMULA_46D6355E`
 - **Release level**: silver
-- **Consensus score**: 0.919
-- **Supporting initial rules**: 18
+- **Consensus score**: 0.897
+- **Supporting initial rules**: 17
 
 ## 归纳主张
-芍藥甘草附子湯可歸納為太陽病、風水、痰飲、惡寒、骨節疼痛、渴等方證的核心方（支持條文 18 條，跨 17 部書）。
+芍藥甘草附子湯可歸納為風水、太陽病、惡寒、骨節疼痛、渴等方證的核心方（支持條文 17 條，跨 16 部書）。
 
 ## 原文证据（节选）
 > 病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。
@@ -35,8 +35,7 @@
 > ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000220，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["渴", "風水", "骨節疼痛"], "rule_ids": ["IR_CAOSHI_FAWEI_000178", "IR_CAOSHI_FAWEI_001201"]}
-- {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["心下悸", "振振欲擗地", "汗出", "痰飲", "發熱", "身瞤動", "頭眩"], "rule_ids": ["IR_JF_SHIYANLU_000221"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["太陽病", "渴", "風水", "骨節疼痛"], "rule_ids": ["IR_CAOSHI_FAWEI_000178", "IR_CAOSHI_FAWEI_001201"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["甘草", "芍藥", "附子"], "rule_ids": ["IR_BBAACE965_000318", "IR_BC91F4420_000142", "IR_CAOSHI_FAWEI_000179", "IR_SHL_GUANZHU_000139", "IR_SHL_ZHUJIE_000283"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草三兩", "芍藥三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000491"]}
 

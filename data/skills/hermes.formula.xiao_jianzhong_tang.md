@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.xiao_jianzhong_tang`
 - **Merged rule**: `MHR_FORMULA_XIAO_JIANZHONG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.914
-- **Supporting initial rules**: 42
+- **Consensus score**: 0.897
+- **Supporting initial rules**: 40
 
 ## 归纳主张
-小建中湯可歸納為傷寒、虛勞、腹中痛、手足煩熱、咽乾、口燥等方證的核心方（支持條文 42 條，跨 29 部書）。
+小建中湯可歸納為傷寒、虛勞、腹中痛、手足煩熱、咽乾、口燥等方證的核心方（支持條文 40 條，跨 27 部書）。
 
 ## 原文证据（节选）
 > 婦人腹中痛，小建中湯主之
@@ -43,7 +43,6 @@
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "註解傷寒論"], "composition": ["大棗", "桂枝", "甘草", "生薑", "膠飴", "芍藥"], "rule_ids": ["IR_BC91F4420_000201", "IR_SHL_ZHUJIE_000360"]}
 
 ## 冲突记录 conflict_set
-- 證據中同時出現小建中湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現小建中湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現小建中湯應用與禁忌表述，需按條件區分。
 

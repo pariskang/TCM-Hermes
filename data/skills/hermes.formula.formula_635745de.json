@@ -3,12 +3,11 @@
   "kind": "formula",
   "title": "茯苓桂枝甘草大棗湯方證合併規則",
   "subject": "茯苓桂枝甘草大棗湯",
-  "abstracted_claim": "茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 28 條，跨 24 部書）。",
+  "abstracted_claim": "茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 27 條，跨 23 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_635745DE",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.899,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000169",
     "IR_B11498305_000089",
     "IR_B1CAC3ADF_000226",
     "IR_B3E16D849_000433",
@@ -40,7 +39,6 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000169",
       "IR_B11498305_000089",
       "IR_B1CAC3ADF_000226",
       "IR_B3E16D849_000433",
@@ -255,13 +253,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒恆論",
-      "chapter_title": "太陽中篇",
-      "source_unit_id": "SU_B0B74DF58_000344",
-      "evidence_span": "**二十五、發汗後，其人臍下悸者，欲作奔豚**(諸病源候論云「奔豚者，氣上下游走，如豚之奔，故曰奔豚」。此兩字在這裏是形容悸氣自小腹上衝心胸之勢，與腎積為奔豚不同。)**，茯苓桂枝甘草大棗湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "奔豚氣病脈證第八",
       "source_unit_id": "SU_CAOSHI_FAWEI_001411",
@@ -313,13 +304,13 @@
     "disease": [
       {
         "term": "奔豚",
-        "count": 28
+        "count": 27
       }
     ],
     "symptoms": [
       {
         "term": "臍下悸",
-        "count": 27
+        "count": 26
       }
     ],
     "pulse": [],
@@ -334,6 +325,6 @@
     "臍下悸"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -6,7 +6,7 @@
   "abstracted_claim": "半夏麻黃丸可歸納為胸痹、心下悸等方證的核心方（支持條文 9 條，跨 9 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_E6F08AF1",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.907,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001279",
     "IR_JGYH_ERZHU_000243",
@@ -164,6 +164,6 @@
     "心下悸"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

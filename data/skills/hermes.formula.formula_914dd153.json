@@ -3,25 +3,21 @@
   "kind": "formula",
   "title": "己椒藶黃丸方證合併規則",
   "subject": "己椒藶黃丸",
-  "abstracted_claim": "己椒藶黃丸可歸納為腹滿等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "abstracted_claim": "己椒藶黃丸可歸納為腹滿等方證的核心方（支持條文 3 條，跨 3 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_914DD153",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.904,
   "supporting_initial_rules": [
-    "IR_JGYH_ERZHU_000146",
     "IR_JGYL_FANGLUN_000125",
     "IR_JGYL_JIYI_000215",
-    "IR_JGYL_TIAOWEN_000125",
-    "IR_JGYL_XINDIAN_000127"
+    "IR_JGYL_TIAOWEN_000125"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_JGYH_ERZHU_000146",
       "IR_JGYL_FANGLUN_000125",
       "IR_JGYL_JIYI_000215",
-      "IR_JGYL_TIAOWEN_000125",
-      "IR_JGYL_XINDIAN_000127"
+      "IR_JGYL_TIAOWEN_000125"
     ],
     "bronze": []
   },
@@ -31,13 +27,6 @@
       "chapter_title": "論一首、脈證二十一條、方十九首",
       "source_unit_id": "SU_JGYL_JIYI_001875",
       "evidence_span": "腹滿口舌乾燥。此腸間有水氣。己椒藶黃丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱玉函經二註",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYH_ERZHU_001012",
-      "evidence_span": "腹滿。口舌乾燥。此腸間有水氣。己椒藶黃丸主之。",
       "release_level": "silver"
     },
     {
@@ -53,13 +42,6 @@
       "source_unit_id": "SU_JGYL_TIAOWEN_000517",
       "evidence_span": "腹滿，口舌乾燥，此腸間有水氣，己椒藶黃丸主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略心典",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYL_XINDIAN_000863",
-      "evidence_span": "腹滿。口舌乾燥。此腸間有水氣。己椒藶黃丸主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [],
@@ -68,7 +50,7 @@
     "disease": [
       {
         "term": "腹滿",
-        "count": 5
+        "count": 3
       }
     ],
     "symptoms": [],
@@ -83,6 +65,6 @@
     "腹滿"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,16 +3,15 @@
   "kind": "formula",
   "title": "通脈四逆加豬膽汁湯方證合併規則",
   "subject": "通脈四逆加豬膽汁湯",
-  "abstracted_claim": "通脈四逆加豬膽汁湯可歸納為霍亂、嘔吐、汗出、厥、四逆、渴等方證的核心方（支持條文 15 條，跨 14 部書）。",
+  "abstracted_claim": "通脈四逆加豬膽汁湯可歸納為汗出、厥、四逆、脈微欲絕等方證的核心方（支持條文 14 條，跨 13 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_64D528C4",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.891,
   "supporting_initial_rules": [
     "IR_B11498305_000427",
     "IR_B1CAC3ADF_000914",
     "IR_B3E16D849_001642",
     "IR_B3E16D849_001734",
-    "IR_B54968951_000023",
     "IR_B5FF1CA1B_000456",
     "IR_B8E444005_000413",
     "IR_BC91F4420_000588",
@@ -31,7 +30,6 @@
       "IR_B1CAC3ADF_000914",
       "IR_B3E16D849_001642",
       "IR_B3E16D849_001734",
-      "IR_B54968951_000023",
       "IR_B5FF1CA1B_000456",
       "IR_B8E444005_000413",
       "IR_BC91F4420_000588",
@@ -143,84 +141,42 @@
       "source_unit_id": "SU_SHL_LEIFANG_000080",
       "evidence_span": "通脈四逆原方，加豬膽汁半合，煎如前法，煎成內豬膽汁，溫服，其脈即出。豬膽汁苦滑之極，引藥直達下焦。吐已下斷，利止也，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "劉河間傷寒醫鑑",
-      "chapter_title": "論霍亂",
-      "source_unit_id": "SU_B54968951_000024",
-      "evidence_span": "《活人書》云：霍亂，嘔吐而利，熱多而不渴，寒多而不飢，理中丸主之。吐利汗出，發熱惡寒，四肢拘急，手足厥冷，四逆湯主之。吐利已，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_B54968951",
-      "book_title": "劉河間傷寒醫鑑",
+      "book_id": "BOOK_SHL_LEIFANG",
+      "book_title": "傷寒論類方",
       "distinct_conditions": [
-        "吐利",
-        "嘔吐",
-        "惡寒",
-        "手足厥冷",
-        "渴",
-        "發熱",
-        "霍亂"
+        "四逆"
       ],
       "rule_ids": [
-        "IR_B54968951_000023"
+        "IR_SHL_LEIFANG_000059"
       ]
     }
   ],
   "conflict_set": [],
   "if_profile": {
-    "disease": [
-      {
-        "term": "霍亂",
-        "count": 1
-      },
-      {
-        "term": "嘔吐",
-        "count": 1
-      }
-    ],
+    "disease": [],
     "symptoms": [
       {
         "term": "汗出",
-        "count": 13
+        "count": 12
       },
       {
         "term": "厥",
-        "count": 13
+        "count": 12
       },
       {
         "term": "四逆",
-        "count": 2
-      },
-      {
-        "term": "渴",
-        "count": 1
-      },
-      {
-        "term": "吐利",
-        "count": 1
-      },
-      {
-        "term": "發熱",
-        "count": 1
-      },
-      {
-        "term": "惡寒",
-        "count": 1
-      },
-      {
-        "term": "手足厥冷",
         "count": 1
       }
     ],
     "pulse": [
       {
         "term": "脈微欲絕",
-        "count": 15
+        "count": 14
       }
     ],
     "pathomechanism": []
@@ -230,16 +186,12 @@
   },
   "keywords": [
     "通脈四逆加豬膽汁湯",
-    "霍亂",
-    "嘔吐",
     "汗出",
     "厥",
     "四逆",
-    "渴",
-    "吐利",
     "脈微欲絕"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_7db93391`
 - **Merged rule**: `MHR_FORMULA_FORMULA_7DB93391`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 7
+- **Consensus score**: 0.904
+- **Supporting initial rules**: 6
 
 ## 归纳主张
-越婢加半夏湯可歸納為肺脹、喘、咳、上氣、脈浮大、脈浮等方證的核心方（支持條文 7 條，跨 7 部書）。
+越婢加半夏湯可歸納為肺脹、喘、咳、上氣、脈浮大等方證的核心方（支持條文 6 條，跨 6 部書）。
 
 ## 原文证据（节选）
 > 其人喘。目如脫狀。脈浮大者。越婢加半夏湯主之。
@@ -28,11 +28,7 @@
 > 14.22咳而氣喘，目如脫狀，脈浮大者，此為肺脹，越婢加半夏湯主之；
 > ——《傷寒雜病論(桂本)》·辨咳嗽水飲黃汗歷節病脈證並治（SU_SHL_GUIBEN_001211，silver）
 
-> （診其）脈浮（則知其風邪。若浮而且）大者。（則知其風火挾水飲而乘於肺。以）越婢加半夏湯主之。
-> ——《金匱要略淺註》·肺痿肺癰咳嗽上氣病脈證治第七（SU_JGYL_QIANZHU_000381，silver）
-
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_JGYL_QIANZHU_000086"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001062"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "大棗十五枚", "甘草二兩", "生薑三兩", "石膏半斤", "麻黃六兩"], "rule_ids": ["IR_SHL_GUIBEN_001389"]}
 

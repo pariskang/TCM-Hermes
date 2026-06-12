@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.zhishi_xiebai_guizhi_tang`
 - **Merged rule**: `MHR_FORMULA_ZHISHI_XIEBAI_GUIZHI_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.895
 - **Supporting initial rules**: 6
 
 ## 归纳主张

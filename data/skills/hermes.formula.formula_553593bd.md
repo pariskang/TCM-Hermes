@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.formula_553593bd`
 - **Merged rule**: `MHR_FORMULA_FORMULA_553593BD`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.898
 - **Supporting initial rules**: 25
 
 ## 归纳主张

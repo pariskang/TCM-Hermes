@@ -3,48 +3,19 @@
   "kind": "formula",
   "title": "大承氣湯方證合併規則",
   "subject": "大承氣湯",
-  "abstracted_claim": "大承氣湯可歸納為陽明病、腹滿、傷寒、下利、產後、宿食等方證的核心方（支持條文 75 條，跨 27 部書）。",
+  "abstracted_claim": "大承氣湯可歸納為傷寒、陽明病、下利、產後、腹滿、宿食等方證的核心方（支持條文 33 條，跨 17 部書）。",
   "merged_rule_id": "MHR_FORMULA_DA_CHENGQI_TANG",
   "release_level": "silver",
-  "consensus_score": 0.891,
+  "consensus_score": 0.888,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000445",
-    "IR_B0B74DF58_000488",
     "IR_B0B74DF58_000489",
     "IR_B11498305_000253",
     "IR_B11498305_000264",
     "IR_B1CAC3ADF_000521",
-    "IR_B1CAC3ADF_000547",
-    "IR_B1CAC3ADF_000579",
-    "IR_B3E16D849_000947",
-    "IR_B3E16D849_000962",
-    "IR_B3E16D849_000969",
-    "IR_B3E16D849_000976",
-    "IR_B3E16D849_000992",
-    "IR_B3E16D849_001032",
-    "IR_B3E16D849_001045",
-    "IR_B3E16D849_001102",
-    "IR_B3E16D849_001203",
-    "IR_B3E16D849_001216",
-    "IR_B3E16D849_001319",
-    "IR_B3E16D849_001379",
-    "IR_B41512D4B_000619",
-    "IR_B41512D4B_000658",
     "IR_B434348CD_000072",
-    "IR_B5FF1CA1B_000293",
-    "IR_B5FF1CA1B_000306",
-    "IR_B8E444005_000099",
     "IR_B9119D083_000235",
-    "IR_B9119D083_000236",
     "IR_B9119D083_000240",
-    "IR_B9119D083_000284",
     "IR_B9119D083_000765",
-    "IR_BBAACE965_000880",
-    "IR_BBAACE965_000924",
-    "IR_BC91F4420_000353",
-    "IR_BC91F4420_000385",
-    "IR_CAOSHI_FAWEI_000521",
-    "IR_CAOSHI_FAWEI_000550",
     "IR_CAOSHI_FAWEI_000556",
     "IR_CAOSHI_FAWEI_000648",
     "IR_CAOSHI_FAWEI_000849",
@@ -63,67 +34,25 @@
     "IR_JGYL_XINDIAN_000302",
     "IR_SHL_GUANZHU_000405",
     "IR_SHL_GUANZHU_000471",
-    "IR_SHL_GUIBEN_000762",
     "IR_SHL_GUIBEN_000778",
     "IR_SHL_GUIBEN_000914",
     "IR_SHL_GUIBEN_001591",
     "IR_SHL_GUIBEN_001604",
-    "IR_SHL_LAISU_000459",
     "IR_SHL_LAISU_000474",
-    "IR_SHL_LUNZHU_000453",
     "IR_SHL_LUNZHU_000474",
-    "IR_SHL_MINGLI_000122",
-    "IR_SHL_SONGBEN_000270",
-    "IR_SHL_SONGBEN_000284",
-    "IR_SHL_SUYUAN_000770",
-    "IR_SHL_SUYUAN_000834",
-    "IR_SHL_SUYUAN_000838",
-    "IR_SHL_TIAOWEN_000224",
-    "IR_SHL_TIAOWEN_000238",
-    "IR_SHL_ZHUJIE_000600",
-    "IR_SHL_ZHUJIE_000631",
-    "IR_SHL_ZHUJIE_000661"
+    "IR_SHL_ZHUJIE_000600"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000445",
-      "IR_B0B74DF58_000488",
       "IR_B0B74DF58_000489",
       "IR_B11498305_000253",
       "IR_B11498305_000264",
       "IR_B1CAC3ADF_000521",
-      "IR_B1CAC3ADF_000547",
-      "IR_B1CAC3ADF_000579",
-      "IR_B3E16D849_000947",
-      "IR_B3E16D849_000962",
-      "IR_B3E16D849_000969",
-      "IR_B3E16D849_000976",
-      "IR_B3E16D849_000992",
-      "IR_B3E16D849_001032",
-      "IR_B3E16D849_001045",
-      "IR_B3E16D849_001102",
-      "IR_B3E16D849_001203",
-      "IR_B3E16D849_001216",
-      "IR_B3E16D849_001319",
-      "IR_B3E16D849_001379",
-      "IR_B41512D4B_000619",
-      "IR_B41512D4B_000658",
       "IR_B434348CD_000072",
-      "IR_B5FF1CA1B_000293",
-      "IR_B5FF1CA1B_000306",
-      "IR_B8E444005_000099",
       "IR_B9119D083_000235",
-      "IR_B9119D083_000236",
       "IR_B9119D083_000240",
-      "IR_B9119D083_000284",
       "IR_B9119D083_000765",
-      "IR_BBAACE965_000880",
-      "IR_BBAACE965_000924",
-      "IR_BC91F4420_000353",
-      "IR_BC91F4420_000385",
-      "IR_CAOSHI_FAWEI_000521",
-      "IR_CAOSHI_FAWEI_000550",
       "IR_CAOSHI_FAWEI_000556",
       "IR_CAOSHI_FAWEI_000648",
       "IR_CAOSHI_FAWEI_000849",
@@ -142,114 +71,17 @@
       "IR_JGYL_XINDIAN_000302",
       "IR_SHL_GUANZHU_000405",
       "IR_SHL_GUANZHU_000471",
-      "IR_SHL_GUIBEN_000762",
       "IR_SHL_GUIBEN_000778",
       "IR_SHL_GUIBEN_000914",
       "IR_SHL_GUIBEN_001591",
       "IR_SHL_GUIBEN_001604",
-      "IR_SHL_LAISU_000459",
       "IR_SHL_LAISU_000474",
-      "IR_SHL_LUNZHU_000453",
       "IR_SHL_LUNZHU_000474",
-      "IR_SHL_MINGLI_000122",
-      "IR_SHL_SONGBEN_000270",
-      "IR_SHL_SONGBEN_000284",
-      "IR_SHL_SUYUAN_000770",
-      "IR_SHL_SUYUAN_000834",
-      "IR_SHL_SUYUAN_000838",
-      "IR_SHL_TIAOWEN_000224",
-      "IR_SHL_TIAOWEN_000238",
-      "IR_SHL_ZHUJIE_000600",
-      "IR_SHL_ZHUJIE_000631",
-      "IR_SHL_ZHUJIE_000661"
+      "IR_SHL_ZHUJIE_000600"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "循衣摸床",
-      "source_unit_id": "SU_B3E16D849_002468",
-      "evidence_span": "但發熱譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "陽明經脈",
-      "source_unit_id": "SU_B3E16D849_002005",
-      "evidence_span": "微者但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨陽明病脈證並治第四",
-      "source_unit_id": "SU_BC91F4420_000836",
-      "evidence_span": "但發熱。譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "潮熱",
-      "source_unit_id": "SU_B3E16D849_002038",
-      "evidence_span": "微者。但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "譫語鄭聲",
-      "source_unit_id": "SU_B3E16D849_002124",
-      "evidence_span": "微者。但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "直視",
-      "source_unit_id": "SU_B3E16D849_002159",
-      "evidence_span": "微者。但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "不大便",
-      "source_unit_id": "SU_B3E16D849_002697",
-      "evidence_span": "微者。但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨陽明病脈證並治",
-      "source_unit_id": "SU_BBAACE965_002227",
-      "evidence_span": "微者。但發熱譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "潮熱譫狂",
-      "source_unit_id": "SU_B3E16D849_002016",
-      "evidence_span": "澀者死。微者。但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "張卿子傷寒論",
-      "chapter_title": "小承氣湯方第七十四",
-      "source_unit_id": "SU_B1CAC3ADF_001719",
-      "evidence_span": "澀者死。微者。但發熱譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "小承氣湯方",
-      "source_unit_id": "SU_B41512D4B_001418",
-      "evidence_span": "澀者死。微者但發熱。譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "陽明篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000615",
-      "evidence_span": "澀者死。微者但發熱。譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "金匱玉函經二註",
       "chapter_title": "婦人產後病脈證治第二十一",
@@ -269,20 +101,6 @@
       "chapter_title": "陽明篇",
       "source_unit_id": "SU_CAOSHI_FAWEI_000709",
       "evidence_span": "金匱云。下利脈滑者。當有所去。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "陽明下編",
-      "source_unit_id": "SU_B5FF1CA1B_000458",
-      "evidence_span": "脈弦者。生澀者死。微者但發熱譫語。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "正陽陽明證治第十二",
-      "source_unit_id": "SU_SHL_SUYUAN_001848",
-      "evidence_span": "若邪之輕微者。但發熱譫語而已。當以大承氣湯主之。",
       "release_level": "silver"
     },
     {
@@ -328,13 +146,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "正陽陽明證治第十二",
-      "source_unit_id": "SU_SHL_SUYUAN_001840",
-      "evidence_span": "脈弦者生。澀者死。微者但發熱譫語者。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱要略心典",
       "chapter_title": "婦人產後病脈證治第二十一",
       "source_unit_id": "SU_JGYL_XINDIAN_001577",
@@ -349,31 +160,136 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "潮熱",
-      "source_unit_id": "SU_B3E16D849_002031",
-      "evidence_span": "可攻裡也。手足　然而汗出。此大便已硬也。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨陽明病脈證並治",
-      "source_unit_id": "SU_BBAACE965_002129",
-      "evidence_span": "可攻裡也。手足　然汗出者。此大便已硬也。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "陽明篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000603",
-      "evidence_span": "可攻裏也。手足湒然汗出者。此大便已鞭也。大承氣湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、證六條、方八首",
       "source_unit_id": "SU_JGYL_JIYI_003350",
       "evidence_span": "日晡時煩躁者不食。食則譫語。至夜即愈。宜大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001378",
+      "evidence_span": "16.14鬱冒病解，能食，七八日更發熱者，此為胃實，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000945",
+      "evidence_span": "惟彼方多甘草桂枝半夏大棗而無黃芩耳。按金匱下利脈滑者。當有所去。大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "潮熱",
+      "source_unit_id": "SU_B9119D083_000547",
+      "evidence_span": "二陽並病，太陽症罷，但發潮熱，手足　汗出，大便難而譫語者，下之則愈，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "潮熱",
+      "source_unit_id": "SU_B9119D083_000542",
+      "evidence_span": "陽明病，譫語，有潮熱，反不能食者，胃中必有燥糞五六枚也。若能食者，但硬耳，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "大便秘結",
+      "source_unit_id": "SU_B9119D083_001939",
+      "evidence_span": "若劇者，發則不識人，循衣摸床，惕則不安，微喘直視，脈弦者生，澀者死。微者，但發熱譫語者，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000827",
+      "evidence_span": "9.103問曰：陽明宿食何以別之？師曰：寸口脈浮而大，按之反濇，尺中亦微而濇，故知其有宿食也，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_JGYL_FANGLUN_000936",
+      "evidence_span": "產後七八日，無太陽證，少腹堅痛，此惡露不盡；不大便，煩躁發熱、切脈微實，再倍發熱，日晡時煩躁者，不食，食則譫語，至夜即愈，宜大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000934",
+      "evidence_span": "產後七八日，無太陽證，少腹堅痛，此惡露不盡；不大便，煩躁發熱、切脈微實，再倍發熱，日晡時煩躁者，不食，食則譫語，至夜即愈，宜大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001386",
+      "evidence_span": "16.18產後七八日，無太陽證，少腹堅痛，此惡露不盡也；若不大便，煩躁發熱，脈微實者，宜和之；若日晡所煩躁，食則讝語，至夜即愈者，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨陽明病脈證並治法第八",
+      "source_unit_id": "SU_SHL_ZHUJIE_001056",
+      "evidence_span": "邪自陽明經傳入腑者，謂之正陽陽明。經曰：陽明病，脈遲，雖汗出不惡寒，其身必重，短氣，腹滿而喘，有潮熱者，外欲解可攻裡也。手足　然汗出者，此大便已硬也，大承氣湯主之，即是正陽陽明胃家實也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "陽明下篇",
+      "source_unit_id": "SU_B11498305_000351",
+      "evidence_span": "傷寒若吐若下後不解，不大便五六日，上至十餘日，日晡所發潮熱，不惡寒獨語，如見鬼狀，若劇者發則不識人，循衣摸床，惕而不安，微喘直視，脈弦者生，濇者死，微者但發熱讝語，大承氣湯主之，若一服利止後服。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "承氣湯證",
+      "source_unit_id": "SU_SHL_LAISU_000322",
+      "evidence_span": "傷寒若吐下後，不解，不大便五六日，上至十餘日，日晡所發潮熱，不惡寒，獨語如見鬼狀，若劇者，發則不識人，循衣摸床，惕而不安，微喘直視，脈弦者生，濇者死，微者但發熱譫語，大承氣湯主之，若一服利，止後服。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "承氣湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000791",
+      "evidence_span": "傷寒若吐下後，不解，不大便五六日，上至十余日，日晡所發潮熱，不惡寒，獨語如有所見。若劇者，發則不識人，循衣摸床，惕而不安，微喘直視，脈弦者生，澀者死。微者但發熱譫語。大承氣湯主之，若一服利，止後服。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "大承氣湯證九條",
+      "source_unit_id": "SU_SHL_GUANZHU_000264",
+      "evidence_span": "傷寒若吐若下後，不解，不大便五六日，上至十餘日，日晡所發潮熱，不惡寒，獨語如見鬼狀，若劇者，發則不識人，循衣摸床，惕而不安，微喘直視，脈弦者生，濇者死，微者但發熱譫語者，大承氣湯主之，若一服利，止後服。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000729",
+      "evidence_span": "9.35傷寒，若吐、若下後，不解，不大便五六日，上至十餘日，日晡所發潮熱，不惡寒，獨語如見鬼狀；若劇者，發則不識人，循衣摸床，惕而不安，微喘，直視；脈弦者生，濇者死；微者，但發熱，讝語者，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "陽明中篇",
+      "source_unit_id": "SU_B0B74DF58_000940",
+      "evidence_span": "【鄭論】　按既經吐下後不解，延至如見鬼狀，循衣摸床，微喘直視者，乃將死之徵。但脈弦者，弦為陰象，是陰尚未盡也，故曰生。若脈見澀，澀為血枯，枯則陰竭，不死何待？病形若但發熱譫語，而無直視可據，故以大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第三一案　大承氣湯證　其三穎師講授　佐景筆記",
+      "source_unit_id": "SU_JF_SHIYANLU_000207",
+      "evidence_span": "雖然大論又曰：「傷寒，若吐，若下後，不解，不大便五六日，上至十餘日，日晡所發潮熱，不惡寒，獨語，如見鬼狀，若劇者，發則不識人，循衣摸床，惕而不安，微喘，直視，脈弦則生，澀者死，微者，但發熱譫語者，大承氣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002094",
+      "evidence_span": "產後七八日，無太陽證，少腹堅痛，此惡露不盡，熱在裏，結在膀胱也。（二句舊認為節末，今校正）不大便，煩燥發熱，切脈微實，日晡時更倍煩躁發熱，（此句舊譌，在日晡句上無理，今校正）不食，食則譫語，至夜即愈，宜大承氣湯主之。",
       "release_level": "silver"
     }
   ],
@@ -386,8 +302,6 @@
         "陰竭"
       ],
       "rule_ids": [
-        "IR_B0B74DF58_000445",
-        "IR_B0B74DF58_000488",
         "IR_B0B74DF58_000489"
       ]
     },
@@ -396,7 +310,11 @@
       "book_id": "BOOK_B434348CD",
       "book_title": "傷寒附翼",
       "distinct_conditions": [
-        "不得臥"
+        "不得臥",
+        "惡熱",
+        "燥屎",
+        "脈實",
+        "自利"
       ],
       "rule_ids": [
         "IR_B434348CD_000072"
@@ -411,9 +329,7 @@
       ],
       "rule_ids": [
         "IR_B9119D083_000235",
-        "IR_B9119D083_000236",
         "IR_B9119D083_000240",
-        "IR_B9119D083_000284",
         "IR_B9119D083_000765"
       ]
     },
@@ -425,8 +341,6 @@
         "脈滑"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000521",
-        "IR_CAOSHI_FAWEI_000550",
         "IR_CAOSHI_FAWEI_000556",
         "IR_CAOSHI_FAWEI_000648",
         "IR_CAOSHI_FAWEI_000849",
@@ -442,24 +356,10 @@
         "寸口脈浮"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_000762",
         "IR_SHL_GUIBEN_000778",
         "IR_SHL_GUIBEN_000914",
         "IR_SHL_GUIBEN_001591",
         "IR_SHL_GUIBEN_001604"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_ZHUJIE",
-      "book_title": "註解傷寒論",
-      "distinct_conditions": [
-        "怵惕"
-      ],
-      "rule_ids": [
-        "IR_SHL_ZHUJIE_000600",
-        "IR_SHL_ZHUJIE_000631",
-        "IR_SHL_ZHUJIE_000661"
       ]
     },
     {
@@ -508,14 +408,6 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現大承氣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B0B74DF58_000445"
-      ],
-      "book_title": "傷寒恆論"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現大承氣湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
         "IR_B11498305_000253"
       ],
       "book_title": "傷寒纘論·傷寒緒論"
@@ -527,45 +419,29 @@
         "IR_SHL_GUANZHU_000471"
       ],
       "book_title": "傷寒貫珠集"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現大承氣湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_LAISU_000459"
-      ],
-      "book_title": "傷寒來蘇集"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現大承氣湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_MINGLI_000122"
-      ],
-      "book_title": "傷寒明理論"
     }
   ],
   "if_profile": {
     "disease": [
       {
-        "term": "陽明病",
-        "count": 11
-      },
-      {
-        "term": "腹滿",
-        "count": 10
-      },
-      {
         "term": "傷寒",
-        "count": 10
+        "count": 6
+      },
+      {
+        "term": "陽明病",
+        "count": 4
       },
       {
         "term": "下利",
-        "count": 5
+        "count": 4
       },
       {
         "term": "產後",
         "count": 4
+      },
+      {
+        "term": "腹滿",
+        "count": 3
       },
       {
         "term": "宿食",
@@ -575,57 +451,57 @@
     "symptoms": [
       {
         "term": "發熱",
-        "count": 39
+        "count": 19
       },
       {
         "term": "譫語",
-        "count": 35
-      },
-      {
-        "term": "汗出",
-        "count": 26
+        "count": 15
       },
       {
         "term": "喘",
-        "count": 24
-      },
-      {
-        "term": "潮熱",
-        "count": 24
-      },
-      {
-        "term": "惡寒",
-        "count": 21
-      },
-      {
-        "term": "不大便",
-        "count": 14
-      },
-      {
-        "term": "不識人",
         "count": 12
       },
       {
-        "term": "獨語",
+        "term": "潮熱",
+        "count": 12
+      },
+      {
+        "term": "不大便",
         "count": 11
       },
       {
+        "term": "惡寒",
+        "count": 10
+      },
+      {
+        "term": "能食",
+        "count": 8
+      },
+      {
+        "term": "不識人",
+        "count": 7
+      },
+      {
         "term": "如見鬼狀",
-        "count": 11
+        "count": 6
+      },
+      {
+        "term": "汗出",
+        "count": 6
       }
     ],
     "pulse": [
       {
         "term": "脈弦",
-        "count": 15
-      },
-      {
-        "term": "脈遲",
-        "count": 9
+        "count": 8
       },
       {
         "term": "脈微",
         "count": 4
+      },
+      {
+        "term": "脈遲",
+        "count": 3
       },
       {
         "term": "脈滑",
@@ -633,7 +509,7 @@
       },
       {
         "term": "脈實",
-        "count": 2
+        "count": 1
       },
       {
         "term": "寸口脈浮",
@@ -651,29 +527,29 @@
     "treatment_principle": [
       {
         "term": "峻下熱結",
-        "count": 75
+        "count": 33
       }
     ]
   },
   "keywords": [
     "大承氣湯",
-    "陽明病",
-    "腹滿",
     "傷寒",
+    "陽明病",
     "下利",
     "產後",
+    "腹滿",
     "發熱",
     "譫語",
-    "汗出",
     "喘",
     "潮熱",
+    "不大便",
     "脈弦",
-    "脈遲",
     "脈微",
+    "脈遲",
     "脈滑",
     "脈實"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.yiyi_fuzi_baijiang_san`
 - **Merged rule**: `MHR_FORMULA_YIYI_FUZI_BAIJIANG_SAN`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.904
 - **Supporting initial rules**: 6
 
 ## 归纳主张

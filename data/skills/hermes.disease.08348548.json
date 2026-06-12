@@ -1,0 +1,130 @@
+{
+  "skill_id": "hermes.disease.08348548",
+  "kind": "disease",
+  "title": "轉筋證治合併規則",
+  "subject": "轉筋",
+  "abstracted_claim": "轉筋相關條文 11 條；主要方劑：雞屎白散、雞矢白湯、香薷散、雉矢白散、理中加附子湯。",
+  "merged_rule_id": "MHR_DISEASE_08348548",
+  "release_level": "silver",
+  "consensus_score": 0.902,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001387",
+    "IR_B9FC1D1C8_000006",
+    "IR_BB7301DF2_000233",
+    "IR_CAOSHI_FAWEI_001386",
+    "IR_JGYH_ERZHU_000329",
+    "IR_JGYL_FANGLUN_000249",
+    "IR_JGYL_JIYI_000418",
+    "IR_JGYL_TIAOWEN_000249",
+    "IR_JGYL_XINDIAN_000281",
+    "IR_SHL_GUIBEN_001231",
+    "IR_SHL_LAISU_000622"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_CAOSHI_FAWEI_001387"
+    ],
+    "silver": [
+      "IR_B9FC1D1C8_000006",
+      "IR_BB7301DF2_000233",
+      "IR_CAOSHI_FAWEI_001386",
+      "IR_JGYH_ERZHU_000329",
+      "IR_JGYL_FANGLUN_000249",
+      "IR_JGYL_JIYI_000418",
+      "IR_JGYL_TIAOWEN_000249",
+      "IR_JGYL_XINDIAN_000281",
+      "IR_SHL_GUIBEN_001231",
+      "IR_SHL_LAISU_000622"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002011",
+      "evidence_span": "轉筋之為病，其人臂腳直，脈上下行，微弦轉筋入腹者，雉矢白散主之",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001665",
+      "evidence_span": "脈上下行。微弦。轉筋入腹者。雞屎白散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001487",
+      "evidence_span": "脈上下行。微弦。轉筋入腹者。雞屎白散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒發微論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9FC1D1C8_000021",
+      "evidence_span": "轉筋入腹（霍亂證。轉筋入腹者。雞矢白湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "",
+      "source_unit_id": "SU_BB7301DF2_000199",
+      "evidence_span": "腹中撮痛。大渴而煩。兩腳轉筋者。當用香薷散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003124",
+      "evidence_span": "其人臂腳直。脈上下行微弦。轉筋入腹者。雞屎白散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002011",
+      "evidence_span": "轉筋之為病，其人臂腳直，脈上下行，微弦轉筋入腹者，雉矢白散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000874",
+      "evidence_span": "轉筋之為病，其人臂腳直，脈上下行，微弦。轉筋入腹者，雞屎白散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000872",
+      "evidence_span": "轉筋之為病，其人臂腳直，脈上下行，微弦。轉筋入腹者，雞屎白散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001078",
+      "evidence_span": "12.14霍亂，轉筋，必先其時已有寒邪留於筋間，傷其榮氣，隨證而發，脈當濡弱，反見弦急厥逆者，理中加附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000429",
+      "evidence_span": "悸者加茯苓。腹中痛，虛者加人參。腹滿者去朮，加附子一枚。霍亂轉筋，吐利不止，頭目昏眩，四肢逆冷，須臾不救者，吳茱萸湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "轉筋"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

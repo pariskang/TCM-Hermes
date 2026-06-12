@@ -3,14 +3,13 @@
   "kind": "formula",
   "title": "柴胡桂枝湯方證合併規則",
   "subject": "柴胡桂枝湯",
-  "abstracted_claim": "柴胡桂枝湯可歸納為傷寒、發熱、惡寒、脈沉等方證的核心方（支持條文 15 條，跨 9 部書）。",
+  "abstracted_claim": "柴胡桂枝湯可歸納為傷寒、發熱、惡寒、脈沉等方證的核心方（支持條文 14 條，跨 8 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_B88CDEE3",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.916,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000236",
     "IR_B11498305_000558",
-    "IR_B5FF1CA1B_000589",
     "IR_B9119D083_000059",
     "IR_B9119D083_000092",
     "IR_B9119D083_000301",
@@ -29,7 +28,6 @@
     "silver": [
       "IR_B0B74DF58_000236",
       "IR_B11498305_000558",
-      "IR_B5FF1CA1B_000589",
       "IR_B9119D083_000059",
       "IR_B9119D083_000092",
       "IR_B9119D083_000301",
@@ -46,13 +44,6 @@
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "合病並病篇",
-      "source_unit_id": "SU_B5FF1CA1B_000947",
-      "evidence_span": "發熱微惡寒。肢節煩疼微嘔。心下支結外證未去者。柴胡桂枝湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒纘論·傷寒緒論",
       "chapter_title": "合病併病篇",
@@ -249,11 +240,11 @@
     "symptoms": [
       {
         "term": "發熱",
-        "count": 14
+        "count": 13
       },
       {
         "term": "惡寒",
-        "count": 14
+        "count": 13
       }
     ],
     "pulse": [
@@ -275,6 +266,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

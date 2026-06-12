@@ -6,7 +6,7 @@
   "abstracted_claim": "烏頭湯可歸納為歷節、不可屈伸等方證的核心方（支持條文 5 條，跨 5 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_76F6ED44",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.901,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001014",
     "IR_JGYH_ERZHU_000065",
@@ -130,6 +130,6 @@
     "不可屈伸"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

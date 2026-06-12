@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.gancao_xiexin_tang`
 - **Merged rule**: `MHR_FORMULA_GANCAO_XIEXIN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.912
+- **Consensus score**: 0.879
 - **Supporting initial rules**: 17
 
 ## 归纳主张

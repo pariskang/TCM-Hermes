@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.gualou_xiebai_banxia_tang`
 - **Merged rule**: `MHR_FORMULA_GUALOU_XIEBAI_BANXIA_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.914
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.905
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-栝蔞薤白半夏湯可歸納為胸痹、心痛、支飲、不得臥、心痛徹背等方證的核心方（支持條文 8 條，跨 8 部書）。
+栝蔞薤白半夏湯可歸納為胸痹、心痛、不得臥、心痛徹背等方證的核心方（支持條文 7 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 胸痹不得臥，心痛澈背，栝蔞薤白半夏湯主之
@@ -31,11 +31,7 @@
 > 15.21胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。
 > ——《傷寒雜病論(桂本)》·辨瘀血吐衄下血瘡癰病脈證並治（SU_SHL_GUIBEN_001334，silver）
 
-> 此證與支飲證相類。而唯）心痛徹背者。（為胸痹證所獨。以）栝蔞薤白半夏湯主之。
-> ——《金匱要略淺註》·胸痹心痛短氣病脈證并治第九（SU_JGYL_QIANZHU_000441，silver）
-
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["支飲"], "rule_ids": ["IR_JGYL_QIANZHU_000092"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "薤白"], "rule_ids": ["IR_CAOSHI_FAWEI_001074"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "栝蔞實一枚", "白酒一斗", "薤白三兩"], "rule_ids": ["IR_SHL_GUIBEN_001530"]}
 

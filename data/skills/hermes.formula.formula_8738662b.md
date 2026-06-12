@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_8738662b`
 - **Merged rule**: `MHR_FORMULA_FORMULA_8738662B`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.899
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-竹葉湯可歸納為產後、中風、發熱、喘、頭痛、面赤等方證的核心方（支持條文 8 條，跨 8 部書）。
+竹葉湯可歸納為產後、中風、發熱、喘、頭痛、面赤等方證的核心方（支持條文 7 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 產後中風發熱，面正赤，喘而頭痛，竹葉湯主之。
@@ -27,9 +27,6 @@
 
 > 產後中風，發熱，面正赤，喘而頭痛，竹葉湯主之。
 > ——《金匱要略方論》·婦人產後病脈證治第二十一（SU_JGYL_TIAOWEN_000936，silver）
-
-> 而產後正氣大虛。又不能以勝邪氣。誠恐變為痙證。以）竹葉湯主之。
-> ——《金匱要略淺註》·婦人產後病脈證治第二十一（SU_JGYL_QIANZHU_001333，silver）
 
 > 16.20產後中風，發熱，面赤，頭痛，汗出而喘，脈弦數者，竹葉湯主之。
 > ——《傷寒雜病論(桂本)》·辨婦人各病脈證並治（SU_SHL_GUIBEN_001388，silver）

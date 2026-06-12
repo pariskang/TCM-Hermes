@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.xiao_chaihu_tang`
 - **Merged rule**: `MHR_FORMULA_XIAO_CHAIHU_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.914
-- **Supporting initial rules**: 176
+- **Consensus score**: 0.901
+- **Supporting initial rules**: 156
 
 ## 归纳主张
-小柴胡湯可歸納為傷寒、中風、小便不利、熱入血室、痞、陽明病等方證的核心方（支持條文 176 條，跨 39 部書）。
+小柴胡湯可歸納為傷寒、中風、小便不利、熱入血室、痞、陽明病等方證的核心方（支持條文 156 條，跨 36 部書）。
 
 ## 原文证据（节选）
 > 而渴者。小柴胡湯主之。
@@ -35,16 +35,14 @@
 > ——《曹氏傷寒金匱發微合刊》·厥陰篇（SU_CAOSHI_FAWEI_000987，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["下利", "嘔吐", "少陽病", "心下痞", "心下痞硬"], "rule_ids": ["IR_B3E16D849_000016", "IR_B3E16D849_000505", "IR_B3E16D849_001255", "IR_B3E16D849_001408", "IR_B3E16D849_001419", "IR_B3E16D849_001439", "IR_B3E16D849_001484", "IR_B3E16D849_001489"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["胸滿"], "rule_ids": ["IR_B0B74DF58_000500", "IR_B0B74DF58_000510", "IR_B0B74DF58_000521", "IR_B0B74DF58_000523", "IR_B0B74DF58_000541", "IR_B0B74DF58_000546", "IR_B0B74DF58_000767", "IR_B0B74DF58_000779"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["如見鬼狀"], "rule_ids": ["IR_B11498305_000309", "IR_B11498305_000310", "IR_B11498305_000313", "IR_B11498305_000321", "IR_B11498305_000325", "IR_B11498305_000475", "IR_B11498305_000563", "IR_B11498305_000655"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["譫語"], "rule_ids": ["IR_B18FAB5FB_000130"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["下利", "嘔吐", "少陽病", "心下痞", "心下痞硬"], "rule_ids": ["IR_B3E16D849_000016", "IR_B3E16D849_000505", "IR_B3E16D849_001408", "IR_B3E16D849_001419", "IR_B3E16D849_001439", "IR_B3E16D849_001484", "IR_B3E16D849_001489", "IR_B3E16D849_001522"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["不大便", "舌上白苔"], "rule_ids": ["IR_B9119D083_000133", "IR_B9119D083_000307", "IR_B9119D083_000313", "IR_B9119D083_000378", "IR_B9119D083_000379", "IR_B9119D083_000556", "IR_B9119D083_000557", "IR_B9119D083_000795"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["噦", "小便難"], "rule_ids": ["IR_BB7301DF2_000132", "IR_BB7301DF2_000212", "IR_BB7301DF2_000241", "IR_BB7301DF2_000251"]}
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈沉實"], "rule_ids": ["IR_CAOSHI_FAWEI_000240", "IR_CAOSHI_FAWEI_000245", "IR_CAOSHI_FAWEI_000252", "IR_CAOSHI_FAWEI_000875", "IR_CAOSHI_FAWEI_000889", "IR_CAOSHI_FAWEI_001306", "IR_CAOSHI_FAWEI_001414", "IR_CAOSHI_FAWEI_001433"]}
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["胃氣不和"], "rule_ids": ["IR_JGYL_QIANZHU_000237", "IR_JGYL_QIANZHU_000306", "IR_JGYL_QIANZHU_000326"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_SHL_GUIBEN_000301", "IR_SHL_GUIBEN_000330", "IR_SHL_GUIBEN_000542", "IR_SHL_GUIBEN_000545", "IR_SHL_GUIBEN_000547", "IR_SHL_GUIBEN_000664", "IR_SHL_GUIBEN_001149", "IR_SHL_GUIBEN_001273"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈微弱", "脈沉實", "頭汗出"], "rule_ids": ["IR_CAOSHI_FAWEI_000240", "IR_CAOSHI_FAWEI_000245", "IR_CAOSHI_FAWEI_000252", "IR_CAOSHI_FAWEI_000875", "IR_CAOSHI_FAWEI_000889", "IR_CAOSHI_FAWEI_001306", "IR_CAOSHI_FAWEI_001414", "IR_CAOSHI_FAWEI_001433"]}
 
 ## 冲突记录 conflict_set
-- 證據中同時出現小柴胡湯應用與禁忌表述，需按條件區分。
-- 證據中同時出現小柴胡湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現小柴胡湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現小柴胡湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現小柴胡湯應用與禁忌表述，需按條件區分。

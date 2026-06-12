@@ -3,33 +3,24 @@
 - **Skill**: `hermes.formula.formula_b6c7e5f5`
 - **Merged rule**: `MHR_FORMULA_FORMULA_B6C7E5F5`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.91
+- **Supporting initial rules**: 5
 
 ## 归纳主张
-黃土湯可歸納為下血等方證的核心方（支持條文 8 條，跨 8 部書）。
+黃土湯可歸納為下血等方證的核心方（支持條文 5 條，跨 5 部書）。
 
 ## 原文证据（节选）
 > 下血，先便後血，此速血也，黃土湯主之
 > ——《曹氏傷寒金匱發微合刊》·黃疸病脈證並治第十五（SU_CAOSHI_FAWEI_001836，silver）
 
-> 下血。先便後血。此遠血也。黃土湯主之。
-> ——《金匱玉函經二註》·驚悸吐衄下血胸滿瘀血第十六（SU_JGYH_ERZHU_001422，silver）
-
 > 下血，先便後血，此遠血也，黃土湯主之。
 > ——《金匱要略方論》·驚悸吐衄下血胸滿瘀血病脈證治第十六（SU_JGYL_FANGLUN_000719，silver）
-
-> 下血。先便後血。此遠血也。黃土湯主之。
-> ——《金匱玉函要略輯義》·脈證十二條、方五首（SU_JGYL_JIYI_002627，silver）
 
 > 下血，先便後血，此遠血也，黃土湯主之。
 > ——《金匱要略方論》·驚悸吐衄下血胸滿瘀血病脈證治第十六（SU_JGYL_TIAOWEN_000717，silver）
 
 > 下血、先便後血。此遠血也。黃土湯主之。
 > ——《金匱要略心典》·驚悸吐衄下血胸滿瘀血病脈證治第十六（SU_JGYL_XINDIAN_001251，silver）
-
-> 凡）下血。先便後血。此遠血也。（以）黃土湯主之。
-> ——《金匱要略淺註》·驚悸吐衄下血胸滿瘀血病脈證第十六（SU_JGYL_QIANZHU_001015，silver）
 
 > 15.6下血，先便而後血者，此遠血也，黃土湯主之。
 > ——《傷寒雜病論(桂本)》·辨瘀血吐衄下血瘡癰病脈證並治（SU_SHL_GUIBEN_001311，silver）

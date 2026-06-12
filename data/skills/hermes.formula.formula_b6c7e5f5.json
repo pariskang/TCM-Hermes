@@ -3,16 +3,13 @@
   "kind": "formula",
   "title": "黃土湯方證合併規則",
   "subject": "黃土湯",
-  "abstracted_claim": "黃土湯可歸納為下血等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "abstracted_claim": "黃土湯可歸納為下血等方證的核心方（支持條文 5 條，跨 5 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_B6C7E5F5",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.91,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001282",
-    "IR_JGYH_ERZHU_000246",
     "IR_JGYL_FANGLUN_000191",
-    "IR_JGYL_JIYI_000320",
-    "IR_JGYL_QIANZHU_000212",
     "IR_JGYL_TIAOWEN_000191",
     "IR_JGYL_XINDIAN_000205",
     "IR_SHL_GUIBEN_001503"
@@ -21,10 +18,7 @@
     "gold": [],
     "silver": [
       "IR_CAOSHI_FAWEI_001282",
-      "IR_JGYH_ERZHU_000246",
       "IR_JGYL_FANGLUN_000191",
-      "IR_JGYL_JIYI_000320",
-      "IR_JGYL_QIANZHU_000212",
       "IR_JGYL_TIAOWEN_000191",
       "IR_JGYL_XINDIAN_000205",
       "IR_SHL_GUIBEN_001503"
@@ -40,24 +34,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "金匱玉函經二註",
-      "chapter_title": "驚悸吐衄下血胸滿瘀血第十六",
-      "source_unit_id": "SU_JGYH_ERZHU_001422",
-      "evidence_span": "下血。先便後血。此遠血也。黃土湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱要略方論",
       "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證治第十六",
       "source_unit_id": "SU_JGYL_FANGLUN_000719",
       "evidence_span": "下血，先便後血，此遠血也，黃土湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱玉函要略輯義",
-      "chapter_title": "脈證十二條、方五首",
-      "source_unit_id": "SU_JGYL_JIYI_002627",
-      "evidence_span": "下血。先便後血。此遠血也。黃土湯主之。",
       "release_level": "silver"
     },
     {
@@ -75,13 +55,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證第十六",
-      "source_unit_id": "SU_JGYL_QIANZHU_001015",
-      "evidence_span": "凡）下血。先便後血。此遠血也。（以）黃土湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒雜病論(桂本)",
       "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
       "source_unit_id": "SU_SHL_GUIBEN_001311",
@@ -95,7 +68,7 @@
     "disease": [
       {
         "term": "下血",
-        "count": 8
+        "count": 5
       }
     ],
     "symptoms": [],
@@ -110,6 +83,6 @@
     "下血"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

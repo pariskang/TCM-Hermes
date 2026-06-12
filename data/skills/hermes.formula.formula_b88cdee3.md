@@ -3,16 +3,13 @@
 - **Skill**: `hermes.formula.formula_b88cdee3`
 - **Merged rule**: `MHR_FORMULA_FORMULA_B88CDEE3`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 15
+- **Consensus score**: 0.916
+- **Supporting initial rules**: 14
 
 ## 归纳主张
-柴胡桂枝湯可歸納為傷寒、發熱、惡寒、脈沉等方證的核心方（支持條文 15 條，跨 9 部書）。
+柴胡桂枝湯可歸納為傷寒、發熱、惡寒、脈沉等方證的核心方（支持條文 14 條，跨 8 部書）。
 
 ## 原文证据（节选）
-> 發熱微惡寒。肢節煩疼微嘔。心下支結外證未去者。柴胡桂枝湯主之。
-> ——《傷寒纘論》·合病並病篇（SU_B5FF1CA1B_000947，silver）
-
 > 傷寒六七日，發熱微惡寒，肢節煩疼微嘔心下支結，外證未去者，柴胡桂枝湯主之。
 > ——《傷寒纘論·傷寒緒論》·合病併病篇（SU_B11498305_000747，silver）
 
@@ -33,6 +30,9 @@
 
 > 傷寒六七日，發熱，微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。
 > ——《傷寒來蘇集》·桂枝湯證上（SU_SHL_LAISU_000047，silver）
+
+> 傷寒六七日，發熱，微惡寒，肢節煩疼，微嘔，心下支結，外症未去者，柴胡桂枝湯主之。
+> ——《傷寒來蘇集》·桂枝湯證上（SU_SHL_LAISU_000050，silver）
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈沉"], "rule_ids": ["IR_SHL_GUIBEN_000321", "IR_SHL_GUIBEN_000670"]}

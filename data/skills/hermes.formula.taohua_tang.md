@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.taohua_tang`
 - **Merged rule**: `MHR_FORMULA_TAOHUA_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 54
+- **Consensus score**: 0.895
+- **Supporting initial rules**: 53
 
 ## 归纳主张
-桃花湯可歸納為下利、少陰病、小便不利、下血、結胸、熱入血室等方證的核心方（支持條文 54 條，跨 31 部書）。
+桃花湯可歸納為下利、少陰病、小便不利、下血、結胸、熱入血室等方證的核心方（支持條文 53 條，跨 30 部書）。
 
 ## 原文证据（节选）
 > 下利便膿血者。桃花湯主之。

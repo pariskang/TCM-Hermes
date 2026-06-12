@@ -3,15 +3,14 @@
   "kind": "formula",
   "title": "生薑半夏湯方證合併規則",
   "subject": "生薑半夏湯",
-  "abstracted_claim": "生薑半夏湯可歸納為噦、喘等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "abstracted_claim": "生薑半夏湯可歸納為噦、喘等方證的核心方（支持條文 6 條，跨 6 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_311040A7",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.904,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001321",
     "IR_JGYH_ERZHU_000282",
     "IR_JGYL_FANGLUN_000216",
-    "IR_JGYL_JIYI_000366",
     "IR_JGYL_TIAOWEN_000216",
     "IR_JGYL_XINDIAN_000242",
     "IR_SHL_GUIBEN_001156"
@@ -22,7 +21,6 @@
       "IR_CAOSHI_FAWEI_001321",
       "IR_JGYH_ERZHU_000282",
       "IR_JGYL_FANGLUN_000216",
-      "IR_JGYL_JIYI_000366",
       "IR_JGYL_TIAOWEN_000216",
       "IR_JGYL_XINDIAN_000242",
       "IR_SHL_GUIBEN_001156"
@@ -30,13 +28,6 @@
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "金匱玉函要略輯義",
-      "chapter_title": "論一首、脈證二十七條、方二十三首",
-      "source_unit_id": "SU_JGYL_JIYI_002832",
-      "evidence_span": "似噦不噦。徹心中憒憒然。無奈者。生薑半夏湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "金匱玉函經二註",
       "chapter_title": "嘔吐噦下利病脈證第十七",
@@ -113,7 +104,7 @@
     "disease": [
       {
         "term": "噦",
-        "count": 7
+        "count": 6
       }
     ],
     "symptoms": [
@@ -134,6 +125,6 @@
     "喘"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -6,7 +6,7 @@
   "abstracted_claim": "茯苓桂枝白朮甘草湯可歸納為傷寒、太陽病、痰飲、頭眩、氣上衝胸、目眩等方證的核心方（支持條文 10 條，跨 9 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_433E8872",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.918,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000263",
     "IR_B9119D083_000353",
@@ -256,6 +256,6 @@
     "脈沉弦"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

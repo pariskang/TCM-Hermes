@@ -3,18 +3,16 @@
   "kind": "formula",
   "title": "桂枝甘草湯方證合併規則",
   "subject": "桂枝甘草湯",
-  "abstracted_claim": "桂枝甘草湯可歸納為傷寒、亡陽、心下悸、煩躁、汗出、喘等方證的核心方（支持條文 20 條，跨 19 部書）。",
+  "abstracted_claim": "桂枝甘草湯可歸納為傷寒、亡陽、心下悸、煩躁、汗出、脈浮等方證的核心方（支持條文 18 條，跨 18 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_GANCAO_TANG",
   "release_level": "silver",
-  "consensus_score": 0.915,
+  "consensus_score": 0.898,
   "supporting_initial_rules": [
     "IR_B11498305_000090",
     "IR_B1CAC3ADF_000224",
     "IR_B3E16D849_000576",
     "IR_B3E520529_000187",
-    "IR_B3E520529_000325",
     "IR_B41512D4B_000207",
-    "IR_B5C5ECAC2_000166",
     "IR_B8E444005_000274",
     "IR_BB711944D_000996",
     "IR_BBAACE965_000292",
@@ -36,9 +34,7 @@
       "IR_B1CAC3ADF_000224",
       "IR_B3E16D849_000576",
       "IR_B3E520529_000187",
-      "IR_B3E520529_000325",
       "IR_B41512D4B_000207",
-      "IR_B5C5ECAC2_000166",
       "IR_B8E444005_000274",
       "IR_BB711944D_000996",
       "IR_BBAACE965_000292",
@@ -81,13 +77,6 @@
       "book_title": "傷寒論辯證廣注",
       "chapter_title": "麻黃杏人甘草石膏湯方",
       "source_unit_id": "SU_B41512D4B_000644",
-      "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒指掌",
-      "chapter_title": "誤汗例",
-      "source_unit_id": "SU_B5C5ECAC2_000821",
       "evidence_span": "其人叉手自冒心。心下悸。欲得按者。桂枝甘草湯主之。",
       "release_level": "silver"
     },
@@ -184,13 +173,6 @@
     },
     {
       "book_title": "傷寒總病論",
-      "chapter_title": "卷第二",
-      "source_unit_id": "SU_B3E520529_000301",
-      "evidence_span": "四十一面，三行，煩喘顧本喘作渴。四十二面，十三行，微喘顧本喘作熱。四十三面，十行，閞陰顧本作關，十一行同。四十四面，八行，桂枝甘草湯主之薛本作桂枝甘草龍骨牡蠣湯主之，十一行，並宜火劫治之薛本宜下有依字。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒總病論",
       "chapter_title": "火邪證醫以火臥床下，或週身用火迫卻汗，或熨或誤灸，皆屬火邪也。",
       "source_unit_id": "SU_B3E520529_000101",
       "evidence_span": "傷寒脈浮，醫以火迫，劫之亡陽，驚或狂起臥不安者，宜桂枝去芍藥加蜀漆牡蠣龍骨救逆湯。桂枝〔壹兩半〕、蜀漆〔壹兩半〕、甘草〔壹兩〕、龍骨〔貳兩〕、牡蠣〔貳兩半〕、生薑〔壹兩半〕、大棗〔陸枚〕，以水陸升，先煮蜀漆，減壹升，內諸藥，煮取貳升，去滓，溫服壹盞，無蜀漆以恆山代之，火劫後脈浮，當汗出而愈。火邪下之，因燒針煩躁者，桂枝甘草湯主之。",
@@ -205,14 +187,11 @@
       "distinct_conditions": [
         "亡陽",
         "傷寒",
-        "喘",
         "汗出",
-        "渴",
         "脈浮"
       ],
       "rule_ids": [
-        "IR_B3E520529_000187",
-        "IR_B3E520529_000325"
+        "IR_B3E520529_000187"
       ]
     },
     {
@@ -277,7 +256,7 @@
     "symptoms": [
       {
         "term": "心下悸",
-        "count": 17
+        "count": 16
       },
       {
         "term": "煩躁",
@@ -285,14 +264,6 @@
       },
       {
         "term": "汗出",
-        "count": 1
-      },
-      {
-        "term": "喘",
-        "count": 1
-      },
-      {
-        "term": "渴",
         "count": 1
       }
     ],
@@ -313,7 +284,7 @@
     "treatment_principle": [
       {
         "term": "溫通心陽",
-        "count": 20
+        "count": 18
       }
     ]
   },
@@ -324,11 +295,9 @@
     "心下悸",
     "煩躁",
     "汗出",
-    "喘",
-    "渴",
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -51,7 +51,12 @@ hermes/
 ├─ knowledge/         # 词表（病/证/脉/治法/药/名方）、实体抽取、简繁转换
 ├─ corpus/            # downloader / parser（wiki 标记）/ catalog / segmenter
 ├─ agents/            # extractor + 5 层审核 + repair + gate + orchestrator
-│                     # + theme + merger + skills + safety + prompts + backends
+│                     # + theme + merger + skills + safety + prompts
+│                     # + backends（heuristic/litellm/anthropic）
+│                     # + binding（span↔claim 绑定，Problem 2）
+│                     # + reviewer_profiles（多评审小组辩论，Problem 1/3）
+├─ disease/           # TCM-Disease-Hermes：profiles / planner / retrieval /
+│                     # relevance / ontology / analytics / report / pipeline
 ├─ memory/            # MemoryStore + MemoryCuratorAgent
 ├─ rag/               # ClassicalTextRAGAgent + SkillRAGAgent
 ├─ metrics/           # QualityMetrics + AutonomousReviewReporter
@@ -75,8 +80,14 @@ hermes/
 
 - 默认 heuristic 后端：经典文法模式（主之/宜/不可/誤下/之為病/脈X者…）+
   受控词表，0 依赖离线运行，66 书 ~7 万条文全管线分钟级完成；
-- `HERMES_BACKEND=anthropic`：抽取/语义审核/质疑/裁决/修复各角色可配不同
-  Claude 模型（见 `agents/backends.py` 的 role_models），prompts 见
-  `agents/prompts.py` 与 `prompts/`；
+- `HERMES_BACKEND=litellm`（推荐）：经 litellm 接入 OpenAI/Anthropic/Gemini/
+  Mistral/Groq/Ollama/vLLM/Bedrock 等；抽取/审核/质疑/裁决/修复及疾病三评审
+  各角色可绑不同模型（`HERMES_LLM_MODEL_<ROLE>`），使共识成为真正的多模型投票；
+  异常自动回落启发式（见 docs/LLM_BACKENDS.md）；
+- `HERMES_BACKEND=anthropic`：直连 Anthropic SDK；
+- `HERMES_CONSENSUS_MODE=panel`：强制启用多评审小组辩论（保守/训诂/方证/临床安全/
+  现代转译/对抗六视角），LLM 后端下默认开启；
 - 新增类目（温病/本草/针灸…）：将分类树落入 `corpus_raw` 后全管线自动适配，
-  `protocol.SUBCATEGORY_MAP` 增加映射即可。
+  `protocol.SUBCATEGORY_MAP` 增加映射即可；
+- 新增疾病：新增一个 `hermes/disease/profiles.py` 的 DiseaseProfile 并注册，
+  疾病多智能体管线零改动即可迁移。

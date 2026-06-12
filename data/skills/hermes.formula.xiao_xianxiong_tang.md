@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.xiao_xianxiong_tang`
 - **Merged rule**: `MHR_FORMULA_XIAO_XIANXIONG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.918
+- **Consensus score**: 0.906
 - **Supporting initial rules**: 20
 
 ## 归纳主张

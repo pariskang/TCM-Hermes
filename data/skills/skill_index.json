@@ -5,7 +5,7 @@
     "kind": "formula",
     "subject": "小柴胡湯",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.901,
     "keywords": [
       "小柴胡湯",
       "傷寒",
@@ -13,16 +13,16 @@
       "小便不利",
       "熱入血室",
       "痞",
-      "發熱",
       "渴",
+      "發熱",
       "往來寒熱",
       "咳",
       "手足溫",
       "脈弦",
       "脈澀",
       "脈緊",
-      "脈微弱",
-      "脈促"
+      "脈沉實",
+      "脈微弱"
     ]
   },
   {
@@ -31,21 +31,21 @@
     "kind": "formula",
     "subject": "五苓散",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.894,
     "keywords": [
       "五苓散",
       "小便不利",
-      "消渴",
       "痞",
-      "霍亂",
       "傷寒",
+      "消渴",
+      "霍亂",
       "渴",
       "發熱",
       "汗出",
       "口燥",
       "頭痛",
-      "脈浮",
-      "脈浮數"
+      "脈浮數",
+      "脈浮"
     ]
   },
   {
@@ -54,21 +54,21 @@
     "kind": "formula",
     "subject": "四逆湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.897,
     "keywords": [
       "四逆湯",
       "下利",
-      "傷寒",
       "霍亂",
       "嘔吐",
       "亡陽",
+      "傷寒",
       "厥",
       "惡寒",
       "汗出",
       "厥冷",
       "發熱",
-      "脈浮",
       "脈微欲絕",
+      "脈浮",
       "脈弱",
       "脈沉",
       "脈浮遲"
@@ -80,7 +80,7 @@
     "kind": "formula",
     "subject": "白虎加人參湯",
     "release_level": "silver",
-    "consensus_score": 0.91,
+    "consensus_score": 0.892,
     "keywords": [
       "白虎加人參湯",
       "傷寒",
@@ -95,33 +95,7 @@
       "口燥",
       "脈洪大",
       "脈浮",
-      "脈沉細",
-      "脈浮緊"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.da_xianxiong_tang",
-    "title": "大陷胸湯方證合併規則",
-    "kind": "formula",
-    "subject": "大陷胸湯",
-    "release_level": "silver",
-    "consensus_score": 0.905,
-    "keywords": [
-      "大陷胸湯",
-      "結胸",
-      "傷寒",
-      "太陽病",
-      "痞",
-      "陽明病",
-      "汗出",
-      "發熱",
-      "心下滿",
-      "潮熱",
-      "渴",
-      "脈沉",
-      "脈浮",
-      "脈沉緊",
-      "趺陽脈微"
+      "脈沉細"
     ]
   },
   {
@@ -130,7 +104,7 @@
     "kind": "formula",
     "subject": "麻黃湯",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.893,
     "keywords": [
       "麻黃湯",
       "太陽病",
@@ -138,16 +112,36 @@
       "中風",
       "腹滿",
       "太陽傷寒",
-      "無汗",
       "喘",
-      "衄",
+      "無汗",
       "惡風",
       "發熱",
+      "骨節疼痛",
       "脈浮緊",
       "脈浮",
-      "脈虛",
-      "陽浮",
-      "陰弱"
+      "脈虛"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.da_xianxiong_tang",
+    "title": "大陷胸湯方證合併規則",
+    "kind": "formula",
+    "subject": "大陷胸湯",
+    "release_level": "silver",
+    "consensus_score": 0.889,
+    "keywords": [
+      "大陷胸湯",
+      "結胸",
+      "傷寒",
+      "太陽病",
+      "汗出",
+      "發熱",
+      "心下滿",
+      "渴",
+      "潮熱",
+      "脈浮",
+      "脈沉",
+      "脈沉緊"
     ]
   },
   {
@@ -156,7 +150,7 @@
     "kind": "formula",
     "subject": "桂枝湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.896,
     "keywords": [
       "桂枝湯",
       "太陽病",
@@ -167,39 +161,13 @@
       "發熱",
       "汗出",
       "惡風",
-      "乾嘔",
       "鼻鳴",
+      "乾嘔",
       "陽浮",
       "陰弱",
-      "脈浮",
       "脈浮數",
-      "脈緩"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.zhizi_chi_tang",
-    "title": "梔子豉湯方證合併規則",
-    "kind": "formula",
-    "subject": "梔子豉湯",
-    "release_level": "silver",
-    "consensus_score": 0.903,
-    "keywords": [
-      "梔子豉湯",
-      "陽明病",
-      "傷寒",
-      "腹滿",
-      "結胸",
-      "下利",
-      "不得眠",
-      "胸中窒",
-      "虛煩",
-      "心中懊憹",
-      "頭汗出",
       "脈浮",
-      "脈浮數",
-      "寸口脈浮",
-      "脈數",
-      "脈細"
+      "脈浮緩"
     ]
   },
   {
@@ -208,14 +176,14 @@
     "kind": "formula",
     "subject": "白虎湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.895,
     "keywords": [
       "白虎湯",
       "傷寒",
       "腹滿",
       "下利",
       "中暍",
-      "溫病",
+      "宿食",
       "厥",
       "自汗出",
       "手足逆冷",
@@ -224,57 +192,31 @@
       "脈滑",
       "脈浮滑",
       "脈數",
-      "脈浮",
-      "脈弱"
+      "脈弱",
+      "脈浮遲"
     ]
   },
   {
-    "skill_id": "hermes.formula.wuzhuyu_tang",
-    "title": "吳茱萸湯方證合併規則",
+    "skill_id": "hermes.formula.zhizi_chi_tang",
+    "title": "梔子豉湯方證合併規則",
     "kind": "formula",
-    "subject": "吳茱萸湯",
+    "subject": "梔子豉湯",
     "release_level": "silver",
-    "consensus_score": 0.905,
+    "consensus_score": 0.897,
     "keywords": [
-      "吳茱萸湯",
-      "少陰病",
-      "嘔吐",
+      "梔子豉湯",
+      "陽明病",
+      "結胸",
       "傷寒",
       "腹滿",
-      "太陽病",
-      "頭痛",
-      "吐利",
-      "煩躁",
-      "欲嘔",
-      "乾嘔",
+      "下利",
+      "胸中窒",
+      "心中懊憹",
+      "頭汗出",
+      "不得眠",
+      "虛煩",
       "脈浮",
       "脈沉微"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.gegen_tang",
-    "title": "葛根湯方證合併規則",
-    "kind": "formula",
-    "subject": "葛根湯",
-    "release_level": "silver",
-    "consensus_score": 0.902,
-    "keywords": [
-      "葛根湯",
-      "太陽病",
-      "下利",
-      "剛痙",
-      "傷寒",
-      "溫病",
-      "無汗",
-      "項背強",
-      "惡風",
-      "氣上衝胸",
-      "口噤",
-      "脈浮",
-      "脈沉",
-      "脈浮緊",
-      "脈沉遲",
-      "脈促"
     ]
   },
   {
@@ -283,7 +225,7 @@
     "kind": "formula",
     "subject": "小青龍湯",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.896,
     "keywords": [
       "小青龍湯",
       "傷寒",
@@ -293,148 +235,31 @@
       "心下痞",
       "喘",
       "發熱",
-      "渴",
       "咳",
-      "乾嘔",
+      "渴",
+      "少腹滿",
       "脈浮"
     ]
   },
   {
-    "skill_id": "hermes.formula.da_chengqi_tang",
-    "title": "大承氣湯方證合併規則",
+    "skill_id": "hermes.formula.wuzhuyu_tang",
+    "title": "吳茱萸湯方證合併規則",
     "kind": "formula",
-    "subject": "大承氣湯",
+    "subject": "吳茱萸湯",
     "release_level": "silver",
-    "consensus_score": 0.891,
+    "consensus_score": 0.894,
     "keywords": [
-      "大承氣湯",
-      "陽明病",
-      "腹滿",
-      "傷寒",
-      "下利",
-      "產後",
-      "發熱",
-      "譫語",
-      "汗出",
-      "喘",
-      "潮熱",
-      "脈弦",
-      "脈遲",
-      "脈微",
-      "脈滑",
-      "脈實"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.tongmai_sini_tang",
-    "title": "通脈四逆湯方證合併規則",
-    "kind": "formula",
-    "subject": "通脈四逆湯",
-    "release_level": "silver",
-    "consensus_score": 0.91,
-    "keywords": [
-      "通脈四逆湯",
-      "下利",
+      "吳茱萸湯",
       "少陰病",
-      "厥",
-      "汗出",
-      "咽痛",
-      "乾嘔",
-      "腹痛",
-      "脈微欲絕",
-      "脈沉"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.zhuling_tang",
-    "title": "豬苓湯方證合併規則",
-    "kind": "formula",
-    "subject": "豬苓湯",
-    "release_level": "silver",
-    "consensus_score": 0.909,
-    "keywords": [
-      "豬苓湯",
-      "小便不利",
-      "下利",
-      "少陰病",
-      "陽明病",
+      "嘔吐",
       "腹滿",
-      "渴",
-      "不得眠",
-      "發熱",
-      "心煩",
-      "咳",
-      "脈浮"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.xiao_chengqi_tang",
-    "title": "小承氣湯方證合併規則",
-    "kind": "formula",
-    "subject": "小承氣湯",
-    "release_level": "silver",
-    "consensus_score": 0.889,
-    "keywords": [
-      "小承氣湯",
-      "陽明病",
-      "下利",
-      "傷寒",
-      "腹滿",
-      "痞",
-      "譫語",
-      "潮熱",
-      "燥屎",
-      "喘",
-      "發熱",
-      "脈滑",
-      "脈遲",
-      "脈結",
-      "脈結代",
-      "脈弦"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.zhenwu_tang",
-    "title": "真武湯方證合併規則",
-    "kind": "formula",
-    "subject": "真武湯",
-    "release_level": "silver",
-    "consensus_score": 0.912,
-    "keywords": [
-      "真武湯",
-      "下利",
-      "太陽病",
-      "少陰病",
-      "小便不利",
-      "傷寒",
-      "頭眩",
-      "振振欲擗地",
-      "心下悸",
-      "小便利",
-      "發熱",
-      "脈微弱"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.yinchenhao_tang",
-    "title": "茵陳蒿湯方證合併規則",
-    "kind": "formula",
-    "subject": "茵陳蒿湯",
-    "release_level": "silver",
-    "consensus_score": 0.91,
-    "keywords": [
-      "茵陳蒿湯",
-      "小便不利",
-      "傷寒",
-      "陽明病",
-      "穀疸",
-      "腹滿",
-      "發黃",
-      "身黃",
-      "渴",
-      "汗出",
-      "頭汗出",
-      "脈浮緩"
+      "霍亂",
+      "轉筋",
+      "吐利",
+      "頭痛",
+      "煩躁",
+      "手足厥冷",
+      "乾嘔"
     ]
   },
   {
@@ -443,7 +268,7 @@
     "kind": "formula",
     "subject": "桃花湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "桃花湯",
       "下利",
@@ -460,17 +285,124 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.tongmai_sini_tang",
+    "title": "通脈四逆湯方證合併規則",
+    "kind": "formula",
+    "subject": "通脈四逆湯",
+    "release_level": "silver",
+    "consensus_score": 0.899,
+    "keywords": [
+      "通脈四逆湯",
+      "下利",
+      "少陰病",
+      "厥",
+      "汗出",
+      "乾嘔",
+      "咽痛",
+      "腹痛",
+      "脈微欲絕",
+      "脈沉"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.zhuling_tang",
+    "title": "豬苓湯方證合併規則",
+    "kind": "formula",
+    "subject": "豬苓湯",
+    "release_level": "silver",
+    "consensus_score": 0.889,
+    "keywords": [
+      "豬苓湯",
+      "小便不利",
+      "下利",
+      "少陰病",
+      "陽明病",
+      "腹滿",
+      "渴",
+      "不得眠",
+      "心煩",
+      "發熱",
+      "咳",
+      "脈浮"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.zhenwu_tang",
+    "title": "真武湯方證合併規則",
+    "kind": "formula",
+    "subject": "真武湯",
+    "release_level": "silver",
+    "consensus_score": 0.886,
+    "keywords": [
+      "真武湯",
+      "下利",
+      "少陰病",
+      "太陽病",
+      "小便不利",
+      "心下痞",
+      "頭眩",
+      "振振欲擗地",
+      "小便利",
+      "心下悸",
+      "發熱",
+      "脈微弱"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.gegen_tang",
+    "title": "葛根湯方證合併規則",
+    "kind": "formula",
+    "subject": "葛根湯",
+    "release_level": "silver",
+    "consensus_score": 0.897,
+    "keywords": [
+      "葛根湯",
+      "太陽病",
+      "下利",
+      "剛痙",
+      "傷寒",
+      "溫病",
+      "無汗",
+      "惡風",
+      "項背強",
+      "氣上衝胸",
+      "口噤",
+      "脈浮"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.yinchenhao_tang",
+    "title": "茵陳蒿湯方證合併規則",
+    "kind": "formula",
+    "subject": "茵陳蒿湯",
+    "release_level": "silver",
+    "consensus_score": 0.888,
+    "keywords": [
+      "茵陳蒿湯",
+      "小便不利",
+      "傷寒",
+      "陽明病",
+      "穀疸",
+      "腹滿",
+      "發黃",
+      "身黃",
+      "渴",
+      "汗出",
+      "頭汗出"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.shizao_tang",
     "title": "十棗湯方證合併規則",
     "kind": "formula",
     "subject": "十棗湯",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.885,
     "keywords": [
       "十棗湯",
       "太陽中風",
-      "心下痞",
       "下利",
+      "心下痞",
       "懸飲",
       "傷寒",
       "汗出",
@@ -480,83 +412,27 @@
       "嘔逆",
       "脈弦",
       "脈沉",
-      "脈浮",
-      "趺陽脈微"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.da_qinglong_tang",
-    "title": "大青龍湯方證合併規則",
-    "kind": "formula",
-    "subject": "大青龍湯",
-    "release_level": "silver",
-    "consensus_score": 0.9,
-    "keywords": [
-      "大青龍湯",
-      "太陽中風",
-      "溢飲",
-      "傷寒",
-      "中風",
-      "太陽傷寒",
-      "汗出",
-      "惡寒",
-      "發熱",
-      "煩躁",
-      "身疼痛",
-      "脈浮緊",
-      "脈浮緩",
-      "脈微弱",
-      "陽浮",
-      "陰弱"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.didang_tang",
-    "title": "抵當湯方證合併規則",
-    "kind": "formula",
-    "subject": "抵當湯",
-    "release_level": "silver",
-    "consensus_score": 0.911,
-    "keywords": [
-      "抵當湯",
-      "太陽病",
-      "下血",
-      "小便不利",
-      "結胸",
-      "瘀血",
-      "小便自利",
-      "身黃",
-      "發熱",
-      "不大便",
-      "吐血",
-      "脈微",
-      "脈沉",
-      "脈浮數",
-      "脈數",
       "脈浮"
     ]
   },
   {
-    "skill_id": "hermes.formula.tiaowei_chengqi_tang",
-    "title": "調胃承氣湯方證合併規則",
+    "skill_id": "hermes.formula.formula_04c93228",
+    "title": "附子湯方證合併規則",
     "kind": "formula",
-    "subject": "調胃承氣湯",
+    "subject": "附子湯",
     "release_level": "silver",
-    "consensus_score": 0.909,
+    "consensus_score": 0.895,
     "keywords": [
-      "調胃承氣湯",
-      "太陽病",
-      "傷寒",
-      "下利",
-      "陽明病",
-      "腹滿",
-      "蒸蒸發熱",
-      "厥",
-      "小便利",
-      "譫語",
-      "汗出",
-      "脈微",
-      "脈實"
+      "附子湯",
+      "少陰病",
+      "太陽傷寒",
+      "骨節痛",
+      "口中和",
+      "背惡寒",
+      "體痛",
+      "渴",
+      "脈沉",
+      "脈緊"
     ]
   },
   {
@@ -565,7 +441,7 @@
     "kind": "formula",
     "subject": "小建中湯",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.897,
     "keywords": [
       "小建中湯",
       "傷寒",
@@ -582,23 +458,96 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_04c93228",
-    "title": "附子湯方證合併規則",
+    "skill_id": "hermes.formula.da_qinglong_tang",
+    "title": "大青龍湯方證合併規則",
     "kind": "formula",
-    "subject": "附子湯",
+    "subject": "大青龍湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.887,
     "keywords": [
-      "附子湯",
-      "少陰病",
-      "太陽傷寒",
-      "骨節痛",
-      "口中和",
-      "背惡寒",
-      "體痛",
-      "渴",
-      "脈沉",
-      "脈緊"
+      "大青龍湯",
+      "太陽中風",
+      "溢飲",
+      "傷寒",
+      "中風",
+      "發熱",
+      "惡寒",
+      "汗出",
+      "煩躁",
+      "身疼痛",
+      "脈浮緊",
+      "脈浮緩",
+      "脈微弱",
+      "陽浮",
+      "陰弱"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.xiao_chengqi_tang",
+    "title": "小承氣湯方證合併規則",
+    "kind": "formula",
+    "subject": "小承氣湯",
+    "release_level": "silver",
+    "consensus_score": 0.892,
+    "keywords": [
+      "小承氣湯",
+      "陽明病",
+      "下利",
+      "腹滿",
+      "傷寒",
+      "譫語",
+      "潮熱",
+      "燥屎",
+      "短氣",
+      "發熱",
+      "脈滑"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.tiaowei_chengqi_tang",
+    "title": "調胃承氣湯方證合併規則",
+    "kind": "formula",
+    "subject": "調胃承氣湯",
+    "release_level": "silver",
+    "consensus_score": 0.897,
+    "keywords": [
+      "調胃承氣湯",
+      "太陽病",
+      "下利",
+      "傷寒",
+      "陽明病",
+      "蒸蒸發熱",
+      "小便利",
+      "譫語",
+      "厥",
+      "汗出",
+      "脈微"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.da_chengqi_tang",
+    "title": "大承氣湯方證合併規則",
+    "kind": "formula",
+    "subject": "大承氣湯",
+    "release_level": "silver",
+    "consensus_score": 0.888,
+    "keywords": [
+      "大承氣湯",
+      "傷寒",
+      "陽明病",
+      "下利",
+      "產後",
+      "腹滿",
+      "發熱",
+      "譫語",
+      "喘",
+      "潮熱",
+      "不大便",
+      "脈弦",
+      "脈微",
+      "脈遲",
+      "脈滑",
+      "脈實"
     ]
   },
   {
@@ -607,7 +556,7 @@
     "kind": "formula",
     "subject": "四逆散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.889,
     "keywords": [
       "四逆散",
       "小便不利",
@@ -623,12 +572,37 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.didang_tang",
+    "title": "抵當湯方證合併規則",
+    "kind": "formula",
+    "subject": "抵當湯",
+    "release_level": "silver",
+    "consensus_score": 0.89,
+    "keywords": [
+      "抵當湯",
+      "太陽病",
+      "下血",
+      "小便不利",
+      "結胸",
+      "瘀血",
+      "小便自利",
+      "身黃",
+      "心下滿",
+      "腹痛",
+      "發熱",
+      "脈微",
+      "脈沉",
+      "脈浮數",
+      "脈數"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.da_chaihu_tang",
     "title": "大柴胡湯方證合併規則",
     "kind": "formula",
     "subject": "大柴胡湯",
     "release_level": "silver",
-    "consensus_score": 0.918,
+    "consensus_score": 0.9,
     "keywords": [
       "大柴胡湯",
       "嘔吐",
@@ -640,29 +614,20 @@
       "發熱",
       "心下痞硬",
       "往來寒熱",
-      "乾嘔"
+      "潮熱"
     ]
   },
   {
-    "skill_id": "hermes.formula.wumei_wan",
-    "title": "烏梅丸方證合併規則",
+    "skill_id": "hermes.formula.formula_635745de",
+    "title": "茯苓桂枝甘草大棗湯方證合併規則",
     "kind": "formula",
-    "subject": "烏梅丸",
+    "subject": "茯苓桂枝甘草大棗湯",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.899,
     "keywords": [
-      "烏梅丸",
-      "蛔厥",
-      "傷寒",
-      "消渴",
-      "厥陰病",
-      "嘔吐",
-      "厥",
-      "吐蚘",
-      "氣上衝",
-      "發熱",
-      "惡寒",
-      "脈微"
+      "茯苓桂枝甘草大棗湯",
+      "奔豚",
+      "臍下悸"
     ]
   },
   {
@@ -671,21 +636,12 @@
     "kind": "formula",
     "subject": "黃連阿膠湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.899,
     "keywords": [
       "黃連阿膠湯",
       "少陰病",
-      "蓄血",
-      "瘀血",
-      "下利",
-      "傷寒",
       "不得臥",
-      "心煩",
-      "不大便",
-      "便膿血",
-      "角弓反張",
-      "脈浮數",
-      "脈數"
+      "心煩"
     ]
   },
   {
@@ -694,21 +650,18 @@
     "kind": "formula",
     "subject": "白頭翁湯",
     "release_level": "silver",
-    "consensus_score": 0.919,
+    "consensus_score": 0.893,
     "keywords": [
       "白頭翁湯",
       "下利",
-      "厥陰病",
       "傷寒",
-      "陽明病",
-      "小便不利",
+      "厥陰病",
       "渴",
-      "厥",
+      "寒熱",
       "口燥",
       "咽乾",
-      "寒熱",
+      "厥",
       "脈弦",
-      "脈浮",
       "脈洪大"
     ]
   },
@@ -718,14 +671,13 @@
     "kind": "formula",
     "subject": "炙甘草湯",
     "release_level": "silver",
-    "consensus_score": 0.911,
+    "consensus_score": 0.895,
     "keywords": [
       "炙甘草湯",
       "傷寒",
       "溫病",
       "肺痿",
       "心動悸",
-      "口噤",
       "心下悸",
       "咳",
       "口渴",
@@ -737,34 +689,20 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.guizhi_qu_shaoyao_tang",
-    "title": "桂枝去芍藥湯方證合併規則",
+    "skill_id": "hermes.formula.formula_553593bd",
+    "title": "梔子柏皮湯方證合併規則",
     "kind": "formula",
-    "subject": "桂枝去芍藥湯",
+    "subject": "梔子柏皮湯",
     "release_level": "silver",
-    "consensus_score": 0.889,
+    "consensus_score": 0.898,
     "keywords": [
-      "桂枝去芍藥湯",
-      "太陽病",
+      "梔子柏皮湯",
       "傷寒",
-      "腹滿",
-      "胸滿",
-      "惡寒",
-      "心下滿",
-      "脈促"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_635745de",
-    "title": "茯苓桂枝甘草大棗湯方證合併規則",
-    "kind": "formula",
-    "subject": "茯苓桂枝甘草大棗湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "茯苓桂枝甘草大棗湯",
-      "奔豚",
-      "臍下悸"
+      "陽明病",
+      "身黃",
+      "發熱",
+      "發黃",
+      "無汗"
     ]
   },
   {
@@ -773,56 +711,17 @@
     "kind": "formula",
     "subject": "桂枝加葛根湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.895,
     "keywords": [
       "桂枝加葛根湯",
       "太陽病",
       "中風",
-      "剛痙",
-      "柔痙",
-      "傷寒",
-      "項背強",
       "汗出",
       "惡風",
-      "無汗",
-      "發熱",
-      "脈緩",
+      "項背強",
+      "腰痛",
+      "大便難",
       "脈沉"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.zhufu_tang",
-    "title": "豬膚湯方證合併規則",
-    "kind": "formula",
-    "subject": "豬膚湯",
-    "release_level": "silver",
-    "consensus_score": 0.912,
-    "keywords": [
-      "豬膚湯",
-      "少陰病",
-      "下利",
-      "傷寒",
-      "心煩",
-      "胸滿",
-      "咽痛",
-      "不得臥",
-      "咳"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.guizhi_jia_fuzi_tang",
-    "title": "桂枝加附子湯方證合併規則",
-    "kind": "formula",
-    "subject": "桂枝加附子湯",
-    "release_level": "silver",
-    "consensus_score": 0.916,
-    "keywords": [
-      "桂枝加附子湯",
-      "太陽病",
-      "亡陽",
-      "小便難",
-      "惡風",
-      "惡寒"
     ]
   },
   {
@@ -831,7 +730,7 @@
     "kind": "formula",
     "subject": "四逆加人參湯",
     "release_level": "silver",
-    "consensus_score": 0.917,
+    "consensus_score": 0.893,
     "keywords": [
       "四逆加人參湯",
       "亡血",
@@ -849,20 +748,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_553593bd",
-    "title": "梔子柏皮湯方證合併規則",
+    "skill_id": "hermes.formula.formula_06a39be8",
+    "title": "黃連湯方證合併規則",
     "kind": "formula",
-    "subject": "梔子柏皮湯",
+    "subject": "黃連湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
-      "梔子柏皮湯",
+      "黃連湯",
+      "嘔吐",
       "傷寒",
-      "陽明病",
-      "身黃",
-      "發熱",
-      "發黃",
-      "無汗"
+      "欲嘔",
+      "腹中痛"
     ]
   },
   {
@@ -871,142 +768,51 @@
     "kind": "formula",
     "subject": "白通加豬膽汁湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "白通加豬膽汁湯",
-      "下利",
       "少陰病",
+      "下利",
       "厥",
       "乾嘔",
       "脈微"
     ]
   },
   {
-    "skill_id": "hermes.formula.guizhi_renshen_tang",
-    "title": "桂枝人參湯方證合併規則",
+    "skill_id": "hermes.formula.zhufu_tang",
+    "title": "豬膚湯方證合併規則",
     "kind": "formula",
-    "subject": "桂枝人參湯",
+    "subject": "豬膚湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.903,
     "keywords": [
-      "桂枝人參湯",
-      "心下痞",
-      "太陽病",
+      "豬膚湯",
       "下利",
-      "噦",
-      "心下痞硬"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.ganjiang_fuzi_tang",
-    "title": "乾薑附子湯方證合併規則",
-    "kind": "formula",
-    "subject": "乾薑附子湯",
-    "release_level": "silver",
-    "consensus_score": 0.896,
-    "keywords": [
-      "乾薑附子湯",
-      "傷寒",
-      "太陽中風",
-      "太陽病",
-      "不得眠",
-      "渴",
-      "煩躁",
-      "四逆",
-      "虛煩",
-      "脈沉微",
-      "脈微",
-      "脈沉",
-      "脈浮"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_06a39be8",
-    "title": "黃連湯方證合併規則",
-    "kind": "formula",
-    "subject": "黃連湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "黃連湯",
-      "嘔吐",
-      "傷寒",
-      "腹中痛",
-      "欲嘔"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_031b0aa1",
-    "title": "茯苓甘草湯方證合併規則",
-    "kind": "formula",
-    "subject": "茯苓甘草湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "茯苓甘草湯",
-      "傷寒",
-      "小便不利",
-      "渴",
-      "汗出",
-      "心下悸",
-      "口渴",
-      "厥",
-      "脈浮數"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.shengjiang_xiexin_tang",
-    "title": "生薑瀉心湯方證合併規則",
-    "kind": "formula",
-    "subject": "生薑瀉心湯",
-    "release_level": "silver",
-    "consensus_score": 0.911,
-    "keywords": [
-      "生薑瀉心湯",
-      "下利",
-      "心下痞",
-      "傷寒",
-      "痞",
-      "小便不利",
-      "汗出",
-      "乾噫食臭",
-      "乾嘔",
-      "心下痞硬",
-      "胸滿"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.tingli_dazao_xiefei_tang",
-    "title": "葶藶大棗瀉肺湯方證合併規則",
-    "kind": "formula",
-    "subject": "葶藶大棗瀉肺湯",
-    "release_level": "silver",
-    "consensus_score": 0.915,
-    "keywords": [
-      "葶藶大棗瀉肺湯",
-      "肺癰",
-      "支飲",
-      "傷寒",
-      "肺脹",
-      "喘",
-      "不得臥",
+      "少陰病",
+      "心煩",
+      "咽痛",
       "胸滿",
       "咳",
-      "上氣",
-      "脈數"
+      "渴"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_42df2757",
-    "title": "黃芩加半夏生薑湯方證合併規則",
+    "skill_id": "hermes.formula.wumei_wan",
+    "title": "烏梅丸方證合併規則",
     "kind": "formula",
-    "subject": "黃芩加半夏生薑湯",
+    "subject": "烏梅丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.9,
     "keywords": [
-      "黃芩加半夏生薑湯",
-      "下利",
-      "乾嘔"
+      "烏梅丸",
+      "蛔厥",
+      "傷寒",
+      "消渴",
+      "厥陰病",
+      "厥",
+      "吐蚘",
+      "氣上衝",
+      "脈微"
     ]
   },
   {
@@ -1015,28 +821,11 @@
     "kind": "formula",
     "subject": "桂枝加芍藥湯",
     "release_level": "silver",
-    "consensus_score": 0.918,
+    "consensus_score": 0.892,
     "keywords": [
       "桂枝加芍藥湯",
       "腹滿",
       "太陽病"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_febcc5e2",
-    "title": "白通湯方證合併規則",
-    "kind": "formula",
-    "subject": "白通湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "白通湯",
-      "下利",
-      "少陰病",
-      "傷寒",
-      "譫語",
-      "鄭聲",
-      "脈浮滑"
     ]
   },
   {
@@ -1045,29 +834,10 @@
     "kind": "formula",
     "subject": "半夏散及湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.898,
     "keywords": [
       "半夏散及湯",
       "少陰病"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_dadfabf7",
-    "title": "竹葉石膏湯方證合併規則",
-    "kind": "formula",
-    "subject": "竹葉石膏湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "竹葉石膏湯",
-      "傷寒",
-      "渴",
-      "虛煩",
-      "口渴",
-      "汗出",
-      "神昏",
-      "脈弱",
-      "脈虛數"
     ]
   },
   {
@@ -1076,7 +846,7 @@
     "kind": "formula",
     "subject": "柴胡桂枝乾薑湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.892,
     "keywords": [
       "柴胡桂枝乾薑湯",
       "傷寒",
@@ -1089,33 +859,32 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.guizhi_renshen_tang",
+    "title": "桂枝人參湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝人參湯",
+    "release_level": "silver",
+    "consensus_score": 0.896,
+    "keywords": [
+      "桂枝人參湯",
+      "心下痞",
+      "太陽病",
+      "下利",
+      "噦",
+      "心下痞硬"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.xiao_xianxiong_tang",
     "title": "小陷胸湯方證合併規則",
     "kind": "formula",
     "subject": "小陷胸湯",
     "release_level": "silver",
-    "consensus_score": 0.918,
+    "consensus_score": 0.906,
     "keywords": [
       "小陷胸湯",
       "小結胸",
       "脈浮滑"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_68bbd530",
-    "title": "柴胡加龍骨牡蠣湯方證合併規則",
-    "kind": "formula",
-    "subject": "柴胡加龍骨牡蠣湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "柴胡加龍骨牡蠣湯",
-      "小便不利",
-      "傷寒",
-      "亡陽",
-      "譫語",
-      "胸滿",
-      "煩驚"
     ]
   },
   {
@@ -1124,7 +893,7 @@
     "kind": "formula",
     "subject": "梔子厚朴湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.894,
     "keywords": [
       "梔子厚朴湯",
       "傷寒",
@@ -1133,67 +902,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.guizhi_gancao_tang",
-    "title": "桂枝甘草湯方證合併規則",
+    "skill_id": "hermes.formula.formula_febcc5e2",
+    "title": "白通湯方證合併規則",
     "kind": "formula",
-    "subject": "桂枝甘草湯",
+    "subject": "白通湯",
     "release_level": "silver",
-    "consensus_score": 0.915,
+    "consensus_score": 0.903,
     "keywords": [
-      "桂枝甘草湯",
-      "傷寒",
-      "亡陽",
-      "心下悸",
-      "煩躁",
-      "汗出",
-      "喘",
-      "渴",
-      "脈浮"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.fuling_sini_tang",
-    "title": "茯苓四逆湯方證合併規則",
-    "kind": "formula",
-    "subject": "茯苓四逆湯",
-    "release_level": "silver",
-    "consensus_score": 0.907,
-    "keywords": [
-      "茯苓四逆湯",
-      "傷寒",
-      "太陽中風",
-      "太陽病",
-      "煩躁",
-      "渴",
-      "虛煩",
-      "躁煩",
-      "汗出",
-      "脈浮",
-      "脈沉微"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_e62c3559",
-    "title": "歸四逆湯方證合併規則",
-    "kind": "formula",
-    "subject": "歸四逆湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "歸四逆湯",
+      "白通湯",
       "下利",
       "少陰病",
-      "厥陰病",
-      "厥",
-      "四逆",
-      "手足厥冷",
-      "汗出",
-      "發熱",
-      "脈細",
-      "脈微",
-      "脈浮遲",
-      "脈浮",
-      "脈微欲絕"
+      "傷寒",
+      "脈浮滑"
     ]
   },
   {
@@ -1202,7 +922,7 @@
     "kind": "formula",
     "subject": "附子瀉心湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "附子瀉心湯",
       "心下痞",
@@ -1216,27 +936,67 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_a173b0bb",
-    "title": "梔子乾薑湯方證合併規則",
+    "skill_id": "hermes.formula.formula_e62c3559",
+    "title": "歸四逆湯方證合併規則",
     "kind": "formula",
-    "subject": "梔子乾薑湯",
+    "subject": "歸四逆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.894,
     "keywords": [
-      "梔子乾薑湯",
-      "傷寒"
+      "歸四逆湯",
+      "下利",
+      "少陰病",
+      "厥陰病",
+      "厥",
+      "手足厥冷",
+      "四逆",
+      "汗出",
+      "發熱",
+      "脈細",
+      "脈微",
+      "脈浮遲",
+      "脈浮",
+      "脈微欲絕"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_1b19a98f",
-    "title": "葛根加半夏湯方證合併規則",
+    "skill_id": "hermes.formula.shengjiang_xiexin_tang",
+    "title": "生薑瀉心湯方證合併規則",
     "kind": "formula",
-    "subject": "葛根加半夏湯",
+    "subject": "生薑瀉心湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
-      "葛根加半夏湯",
-      "下利"
+      "生薑瀉心湯",
+      "下利",
+      "心下痞",
+      "傷寒",
+      "痞",
+      "小便不利",
+      "汗出",
+      "乾噫食臭",
+      "心下痞硬",
+      "乾嘔",
+      "渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.tingli_dazao_xiefei_tang",
+    "title": "葶藶大棗瀉肺湯方證合併規則",
+    "kind": "formula",
+    "subject": "葶藶大棗瀉肺湯",
+    "release_level": "silver",
+    "consensus_score": 0.907,
+    "keywords": [
+      "葶藶大棗瀉肺湯",
+      "支飲",
+      "肺癰",
+      "肺脹",
+      "喘",
+      "不得臥",
+      "咳",
+      "胸滿",
+      "上氣"
     ]
   },
   {
@@ -1245,7 +1005,7 @@
     "kind": "formula",
     "subject": "小半夏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.893,
     "keywords": [
       "小半夏湯",
       "支飲",
@@ -1261,39 +1021,32 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_d94bcc94",
-    "title": "甘草附子湯方證合併規則",
+    "skill_id": "hermes.formula.formula_1b19a98f",
+    "title": "葛根加半夏湯方證合併規則",
     "kind": "formula",
-    "subject": "甘草附子湯",
+    "subject": "葛根加半夏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.9,
     "keywords": [
-      "甘草附子湯",
-      "小便不利",
-      "惡風",
-      "汗出",
-      "短氣",
-      "掣痛",
-      "小便自利"
+      "葛根加半夏湯",
+      "下利"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_46d6355e",
-    "title": "芍藥甘草附子湯方證合併規則",
+    "skill_id": "hermes.formula.guizhi_gancao_tang",
+    "title": "桂枝甘草湯方證合併規則",
     "kind": "formula",
-    "subject": "芍藥甘草附子湯",
+    "subject": "桂枝甘草湯",
     "release_level": "silver",
-    "consensus_score": 0.919,
+    "consensus_score": 0.898,
     "keywords": [
-      "芍藥甘草附子湯",
-      "太陽病",
-      "風水",
-      "痰飲",
-      "惡寒",
-      "骨節疼痛",
-      "渴",
+      "桂枝甘草湯",
+      "傷寒",
+      "亡陽",
       "心下悸",
-      "汗出"
+      "煩躁",
+      "汗出",
+      "脈浮"
     ]
   },
   {
@@ -1302,7 +1055,7 @@
     "kind": "formula",
     "subject": "甘草瀉心湯",
     "release_level": "silver",
-    "consensus_score": 0.912,
+    "consensus_score": 0.879,
     "keywords": [
       "甘草瀉心湯",
       "傷寒",
@@ -1318,37 +1071,48 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_1cf9a7cd",
-    "title": "大黃黃連瀉心湯方證合併規則",
+    "skill_id": "hermes.formula.formula_46d6355e",
+    "title": "芍藥甘草附子湯方證合併規則",
     "kind": "formula",
-    "subject": "大黃黃連瀉心湯",
+    "subject": "芍藥甘草附子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.897,
     "keywords": [
-      "大黃黃連瀉心湯",
-      "心下痞",
-      "痞",
-      "傷寒",
+      "芍藥甘草附子湯",
+      "風水",
+      "太陽病",
       "惡寒",
-      "惡熱",
-      "大便硬",
-      "脈浮"
+      "骨節疼痛",
+      "渴"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_e87260cc",
-    "title": "桂枝附子湯方證合併規則",
+    "skill_id": "hermes.formula.formula_d94bcc94",
+    "title": "甘草附子湯方證合併規則",
     "kind": "formula",
-    "subject": "桂枝附子湯",
+    "subject": "甘草附子湯",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.907,
     "keywords": [
-      "桂枝附子湯",
-      "傷寒",
-      "渴",
-      "脈浮虛",
-      "脈浮",
-      "脈虛"
+      "甘草附子湯",
+      "小便不利",
+      "惡風",
+      "汗出",
+      "短氣",
+      "掣痛",
+      "小便自利"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.fuling_sini_tang",
+    "title": "茯苓四逆湯方證合併規則",
+    "kind": "formula",
+    "subject": "茯苓四逆湯",
+    "release_level": "silver",
+    "consensus_score": 0.906,
+    "keywords": [
+      "茯苓四逆湯",
+      "煩躁"
     ]
   },
   {
@@ -1357,25 +1121,25 @@
     "kind": "formula",
     "subject": "桂枝甘草龍骨牡蠣湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "桂枝甘草龍骨牡蠣湯",
       "煩躁"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_b88cdee3",
-    "title": "柴胡桂枝湯方證合併規則",
+    "skill_id": "hermes.formula.guizhi_qu_shaoyao_tang",
+    "title": "桂枝去芍藥湯方證合併規則",
     "kind": "formula",
-    "subject": "柴胡桂枝湯",
+    "subject": "桂枝去芍藥湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.898,
     "keywords": [
-      "柴胡桂枝湯",
-      "傷寒",
-      "發熱",
+      "桂枝去芍藥湯",
+      "太陽病",
+      "胸滿",
       "惡寒",
-      "脈沉"
+      "脈促"
     ]
   },
   {
@@ -1384,7 +1148,7 @@
     "kind": "formula",
     "subject": "麻黃附子細辛湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "麻黃附子細辛湯",
       "少陰病",
@@ -1397,21 +1161,111 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_e87260cc",
+    "title": "桂枝附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.891,
+    "keywords": [
+      "桂枝附子湯",
+      "傷寒",
+      "渴",
+      "脈浮虛",
+      "脈浮",
+      "脈虛"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_b88cdee3",
+    "title": "柴胡桂枝湯方證合併規則",
+    "kind": "formula",
+    "subject": "柴胡桂枝湯",
+    "release_level": "silver",
+    "consensus_score": 0.916,
+    "keywords": [
+      "柴胡桂枝湯",
+      "傷寒",
+      "發熱",
+      "惡寒",
+      "脈沉"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_68bbd530",
+    "title": "柴胡加龍骨牡蠣湯方證合併規則",
+    "kind": "formula",
+    "subject": "柴胡加龍骨牡蠣湯",
+    "release_level": "silver",
+    "consensus_score": 0.91,
+    "keywords": [
+      "柴胡加龍骨牡蠣湯",
+      "小便不利",
+      "傷寒",
+      "亡陽",
+      "胸滿",
+      "煩驚",
+      "譫語"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_a173b0bb",
+    "title": "梔子乾薑湯方證合併規則",
+    "kind": "formula",
+    "subject": "梔子乾薑湯",
+    "release_level": "silver",
+    "consensus_score": 0.913,
+    "keywords": [
+      "梔子乾薑湯",
+      "傷寒"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.ganjiang_fuzi_tang",
+    "title": "乾薑附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "乾薑附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.899,
+    "keywords": [
+      "乾薑附子湯",
+      "不得眠",
+      "渴",
+      "煩躁",
+      "四逆",
+      "脈沉微",
+      "脈微",
+      "脈沉"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.guizhi_jia_fuzi_tang",
+    "title": "桂枝加附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝加附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.903,
+    "keywords": [
+      "桂枝加附子湯",
+      "太陽病",
+      "亡陽",
+      "惡風",
+      "小便難",
+      "惡寒"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_64d528c4",
     "title": "通脈四逆加豬膽汁湯方證合併規則",
     "kind": "formula",
     "subject": "通脈四逆加豬膽汁湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.891,
     "keywords": [
       "通脈四逆加豬膽汁湯",
-      "霍亂",
-      "嘔吐",
       "汗出",
       "厥",
       "四逆",
-      "渴",
-      "吐利",
       "脈微欲絕"
     ]
   },
@@ -1421,15 +1275,12 @@
     "kind": "formula",
     "subject": "苓桂朮甘湯",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.887,
     "keywords": [
       "苓桂朮甘湯",
       "痰飲",
-      "太陽中風",
-      "虛勞",
-      "短氣",
       "目眩",
-      "寒熱"
+      "短氣"
     ]
   },
   {
@@ -1438,39 +1289,26 @@
     "kind": "formula",
     "subject": "歸生薑羊肉湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.906,
     "keywords": [
       "歸生薑羊肉湯",
-      "產後",
       "寒疝",
+      "產後",
       "腹中痛",
       "脅痛"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_db60681b",
-    "title": "橘皮湯方證合併規則",
+    "skill_id": "hermes.formula.formula_42df2757",
+    "title": "黃芩加半夏生薑湯方證合併規則",
     "kind": "formula",
-    "subject": "橘皮湯",
+    "subject": "黃芩加半夏生薑湯",
     "release_level": "silver",
-    "consensus_score": 0.915,
+    "consensus_score": 0.89,
     "keywords": [
-      "橘皮湯",
-      "噦",
-      "傷寒",
+      "黃芩加半夏生薑湯",
       "下利",
-      "嘔吐",
-      "小便不利",
-      "厥",
-      "乾嘔",
-      "胸滿",
-      "發黃",
-      "小便自利",
-      "脈弦",
-      "脈弱",
-      "脈大",
-      "脈浮緩",
-      "脈滑"
+      "乾嘔"
     ]
   },
   {
@@ -1479,7 +1317,7 @@
     "kind": "formula",
     "subject": "蒲灰散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
       "蒲灰散",
       "小便不利",
@@ -1488,55 +1326,84 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_c21f579c",
-    "title": "赤石脂禹餘糧湯方證合併規則",
+    "skill_id": "hermes.formula.formula_dadfabf7",
+    "title": "竹葉石膏湯方證合併規則",
     "kind": "formula",
-    "subject": "赤石脂禹餘糧湯",
+    "subject": "竹葉石膏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.914,
     "keywords": [
-      "赤石脂禹餘糧湯",
+      "竹葉石膏湯",
       "傷寒",
-      "心下痞",
-      "下利",
-      "心下痞硬"
+      "渴",
+      "虛煩",
+      "口渴",
+      "汗出",
+      "神昏",
+      "脈弱",
+      "脈虛數"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_b5178b1b",
-    "title": "麻黃升麻湯方證合併規則",
+    "skill_id": "hermes.formula.formula_031b0aa1",
+    "title": "茯苓甘草湯方證合併規則",
     "kind": "formula",
-    "subject": "麻黃升麻湯",
+    "subject": "茯苓甘草湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.889,
     "keywords": [
-      "麻黃升麻湯",
+      "茯苓甘草湯",
       "傷寒",
-      "唾膿血",
+      "小便不利",
+      "渴",
+      "汗出",
+      "心下悸",
       "厥",
-      "手足溫",
-      "脈不至",
-      "脈沉",
-      "脈沉遲"
+      "小便利",
+      "脈浮數"
     ]
   },
   {
-    "skill_id": "hermes.formula.lizhong_wan",
-    "title": "理中丸方證合併規則",
+    "skill_id": "hermes.formula.formula_db60681b",
+    "title": "橘皮湯方證合併規則",
     "kind": "formula",
-    "subject": "理中丸",
+    "subject": "橘皮湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.906,
     "keywords": [
-      "理中丸",
-      "霍亂",
+      "橘皮湯",
+      "噦",
       "下利",
+      "傷寒",
+      "小便不利",
       "嘔吐",
-      "頭痛",
-      "發熱",
-      "身疼痛",
+      "厥",
+      "乾嘔",
+      "胸滿",
+      "發黃",
+      "小便自利",
+      "脈弱",
+      "脈大",
+      "脈浮緩",
+      "脈弦"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_1cf9a7cd",
+    "title": "大黃黃連瀉心湯方證合併規則",
+    "kind": "formula",
+    "subject": "大黃黃連瀉心湯",
+    "release_level": "silver",
+    "consensus_score": 0.903,
+    "keywords": [
+      "大黃黃連瀉心湯",
+      "心下痞",
+      "痞",
+      "傷寒",
       "惡寒",
-      "渴"
+      "惡熱",
+      "大便硬",
+      "脈浮"
     ]
   },
   {
@@ -1545,7 +1412,7 @@
     "kind": "formula",
     "subject": "承氣湯",
     "release_level": "silver",
-    "consensus_score": 0.918,
+    "consensus_score": 0.899,
     "keywords": [
       "承氣湯",
       "陽明病",
@@ -1563,43 +1430,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_e25a46c2",
-    "title": "瀉心湯方證合併規則",
-    "kind": "formula",
-    "subject": "瀉心湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "瀉心湯",
-      "痞",
-      "傷寒",
-      "吐血",
-      "衄"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_4dd9418d",
-    "title": "赤豆當歸散方證合併規則",
-    "kind": "formula",
-    "subject": "赤豆當歸散",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "赤豆當歸散",
-      "下血",
-      "能食",
-      "汗出",
-      "目赤",
-      "脈數"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_e39815e6",
     "title": "茱萸湯方證合併規則",
     "kind": "formula",
     "subject": "茱萸湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "茱萸湯",
       "少陰病",
@@ -1612,28 +1448,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_46aa9cf5",
-    "title": "旋覆代赭石湯方證合併規則",
-    "kind": "formula",
-    "subject": "旋覆代赭石湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "旋覆代赭石湯",
-      "心下痞",
-      "傷寒",
-      "下利",
-      "噫氣",
-      "心下痞硬"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_433e8872",
     "title": "茯苓桂枝白朮甘草湯方證合併規則",
     "kind": "formula",
     "subject": "茯苓桂枝白朮甘草湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.918,
     "keywords": [
       "茯苓桂枝白朮甘草湯",
       "傷寒",
@@ -1652,11 +1472,139 @@
     "kind": "formula",
     "subject": "麻黃連軺赤小豆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.904,
     "keywords": [
       "麻黃連軺赤小豆湯",
       "傷寒",
       "發黃"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_4dd9418d",
+    "title": "赤豆當歸散方證合併規則",
+    "kind": "formula",
+    "subject": "赤豆當歸散",
+    "release_level": "silver",
+    "consensus_score": 0.884,
+    "keywords": [
+      "赤豆當歸散",
+      "下血",
+      "能食",
+      "汗出",
+      "目赤",
+      "脈數"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_c95c1e5e",
+    "title": "橘皮竹茹湯方證合併規則",
+    "kind": "formula",
+    "subject": "橘皮竹茹湯",
+    "release_level": "silver",
+    "consensus_score": 0.91,
+    "keywords": [
+      "橘皮竹茹湯",
+      "噦",
+      "嘔逆"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_e25a46c2",
+    "title": "瀉心湯方證合併規則",
+    "kind": "formula",
+    "subject": "瀉心湯",
+    "release_level": "silver",
+    "consensus_score": 0.9,
+    "keywords": [
+      "瀉心湯",
+      "痞",
+      "傷寒",
+      "吐血",
+      "衄"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.jiegeng_tang",
+    "title": "桔梗湯方證合併規則",
+    "kind": "formula",
+    "subject": "桔梗湯",
+    "release_level": "silver",
+    "consensus_score": 0.907,
+    "keywords": [
+      "桔梗湯",
+      "肺癰",
+      "瘀血",
+      "咳",
+      "胸滿",
+      "咽乾",
+      "渴",
+      "吐血",
+      "脈數"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_ae97fba6",
+    "title": "奔豚湯方證合併規則",
+    "kind": "formula",
+    "subject": "奔豚湯",
+    "release_level": "silver",
+    "consensus_score": 0.901,
+    "keywords": [
+      "奔豚湯",
+      "奔豚氣",
+      "奔豚病",
+      "少陽病",
+      "奔豚",
+      "腹痛",
+      "往來寒熱",
+      "氣上衝胸",
+      "寒熱"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_46aa9cf5",
+    "title": "旋覆代赭石湯方證合併規則",
+    "kind": "formula",
+    "subject": "旋覆代赭石湯",
+    "release_level": "silver",
+    "consensus_score": 0.898,
+    "keywords": [
+      "旋覆代赭石湯",
+      "心下痞",
+      "傷寒",
+      "噫氣",
+      "心下痞硬"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_b5178b1b",
+    "title": "麻黃升麻湯方證合併規則",
+    "kind": "formula",
+    "subject": "麻黃升麻湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "麻黃升麻湯",
+      "傷寒",
+      "唾膿血",
+      "厥",
+      "手足溫",
+      "脈不至",
+      "脈沉",
+      "脈沉遲"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.maxing_ganshi_tang",
+    "title": "麻黃杏仁甘草石膏湯方證合併規則",
+    "kind": "formula",
+    "subject": "麻黃杏仁甘草石膏湯",
+    "release_level": "silver",
+    "consensus_score": 0.893,
+    "keywords": [
+      "麻黃杏仁甘草石膏湯",
+      "汗出",
+      "喘"
     ]
   },
   {
@@ -1665,7 +1613,7 @@
     "kind": "formula",
     "subject": "去桂加白朮湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.88,
     "keywords": [
       "去桂加白朮湯",
       "傷寒",
@@ -1681,7 +1629,7 @@
     "kind": "formula",
     "subject": "百合滑石散",
     "release_level": "silver",
-    "consensus_score": 0.912,
+    "consensus_score": 0.89,
     "keywords": [
       "百合滑石散",
       "百合病",
@@ -1690,194 +1638,21 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.banxia_xiexin_tang",
-    "title": "半夏瀉心湯方證合併規則",
+    "skill_id": "hermes.formula.lizhong_wan",
+    "title": "理中丸方證合併規則",
     "kind": "formula",
-    "subject": "半夏瀉心湯",
+    "subject": "理中丸",
     "release_level": "silver",
-    "consensus_score": 0.91,
+    "consensus_score": 0.883,
     "keywords": [
-      "半夏瀉心湯",
-      "心下痞",
-      "腹滿",
-      "痞",
-      "頭眩"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_c95c1e5e",
-    "title": "橘皮竹茹湯方證合併規則",
-    "kind": "formula",
-    "subject": "橘皮竹茹湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "橘皮竹茹湯",
-      "噦",
-      "嘔逆"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.jiegeng_tang",
-    "title": "桔梗湯方證合併規則",
-    "kind": "formula",
-    "subject": "桔梗湯",
-    "release_level": "silver",
-    "consensus_score": 0.918,
-    "keywords": [
-      "桔梗湯",
-      "肺癰",
-      "瘀血",
-      "咳",
-      "胸滿",
-      "咽乾",
-      "渴",
-      "吐血",
-      "脈數"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.shenqi_wan",
-    "title": "八味腎氣丸方證合併規則",
-    "kind": "formula",
-    "subject": "八味腎氣丸",
-    "release_level": "silver",
-    "consensus_score": 0.908,
-    "keywords": [
-      "八味腎氣丸",
-      "小便不利",
-      "虛勞",
-      "亡陽",
-      "嘔吐",
+      "理中丸",
+      "霍亂",
       "下利",
-      "腰痛",
-      "咽痛",
-      "發熱",
-      "無汗",
-      "汗出",
-      "脈沉"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_ae97fba6",
-    "title": "奔豚湯方證合併規則",
-    "kind": "formula",
-    "subject": "奔豚湯",
-    "release_level": "silver",
-    "consensus_score": 0.916,
-    "keywords": [
-      "奔豚湯",
-      "奔豚氣",
-      "奔豚病",
-      "少陽病",
-      "奔豚",
-      "腹痛",
-      "往來寒熱",
-      "氣上衝胸",
-      "寒熱"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.maxing_ganshi_tang",
-    "title": "麻黃杏仁甘草石膏湯方證合併規則",
-    "kind": "formula",
-    "subject": "麻黃杏仁甘草石膏湯",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "麻黃杏仁甘草石膏湯",
-      "汗出",
-      "喘"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_9a20840a",
-    "title": "去桂枝加白朮湯方證合併規則",
-    "kind": "formula",
-    "subject": "去桂枝加白朮湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "去桂枝加白朮湯",
-      "傷寒",
-      "小便自利",
-      "大便硬",
-      "渴",
-      "脈浮虛"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_6a852602",
-    "title": "百合地黃湯方證合併規則",
-    "kind": "formula",
-    "subject": "百合地黃湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "百合地黃湯",
-      "百合病",
-      "傷寒",
-      "百合"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_5021cf9e",
-    "title": "赤小豆當歸散方證合併規則",
-    "kind": "formula",
-    "subject": "赤小豆當歸散",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "赤小豆當歸散",
-      "下血",
-      "傷寒",
-      "痞",
-      "能食",
-      "不欲飲食",
-      "咽乾",
-      "汗出",
-      "目赤",
-      "脈數"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_23ca91aa",
-    "title": "柴胡加芒硝湯方證合併規則",
-    "kind": "formula",
-    "subject": "柴胡加芒硝湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "柴胡加芒硝湯",
-      "傷寒",
-      "潮熱",
-      "汗出"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.kujiu_tang",
-    "title": "苦酒湯方證合併規則",
-    "kind": "formula",
-    "subject": "苦酒湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "苦酒湯",
-      "少陰病"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_bb312de4",
-    "title": "小半夏加茯苓湯方證合併規則",
-    "kind": "formula",
-    "subject": "小半夏加茯苓湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "小半夏加茯苓湯",
       "嘔吐",
-      "心下痞",
-      "痞",
+      "頭痛",
+      "發熱",
+      "身疼痛",
+      "惡寒",
       "渴"
     ]
   },
@@ -1887,58 +1662,11 @@
     "kind": "formula",
     "subject": "半夏麻黃丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.907,
     "keywords": [
       "半夏麻黃丸",
       "胸痹",
       "心下悸"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_03dc020b",
-    "title": "甘草粉蜜湯方證合併規則",
-    "kind": "formula",
-    "subject": "甘草粉蜜湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "甘草粉蜜湯",
-      "心痛",
-      "蚘蟲",
-      "嘔吐",
-      "腹痛"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.fangji_huangqi_tang",
-    "title": "防己黃耆湯方證合併規則",
-    "kind": "formula",
-    "subject": "防己黃耆湯",
-    "release_level": "silver",
-    "consensus_score": 0.909,
-    "keywords": [
-      "防己黃耆湯",
-      "風水",
-      "汗出",
-      "惡風",
-      "身重",
-      "脈浮"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.gegen_qinlian_tang",
-    "title": "葛根黃芩黃連湯方證合併規則",
-    "kind": "formula",
-    "subject": "葛根黃芩黃連湯",
-    "release_level": "silver",
-    "consensus_score": 0.884,
-    "keywords": [
-      "葛根黃芩黃連湯",
-      "太陽病",
-      "喘",
-      "汗出",
-      "潮熱",
-      "脈促"
     ]
   },
   {
@@ -1947,7 +1675,7 @@
     "kind": "formula",
     "subject": "桂枝去桂加茯苓白朮湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "桂枝去桂加茯苓白朮湯",
       "小便不利",
@@ -1959,12 +1687,28 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_9a20840a",
+    "title": "去桂枝加白朮湯方證合併規則",
+    "kind": "formula",
+    "subject": "去桂枝加白朮湯",
+    "release_level": "silver",
+    "consensus_score": 0.883,
+    "keywords": [
+      "去桂枝加白朮湯",
+      "傷寒",
+      "小便自利",
+      "大便硬",
+      "渴",
+      "脈浮虛"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_0a2b1361",
     "title": "去芍藥加蜀漆龍骨牡蠣救逆湯方證合併規則",
     "kind": "formula",
     "subject": "去芍藥加蜀漆龍骨牡蠣救逆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.891,
     "keywords": [
       "去芍藥加蜀漆龍骨牡蠣救逆湯",
       "亡陽",
@@ -1979,10 +1723,30 @@
     "kind": "formula",
     "subject": "百合知母湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.89,
     "keywords": [
       "百合知母湯",
       "百合病"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_5021cf9e",
+    "title": "赤小豆當歸散方證合併規則",
+    "kind": "formula",
+    "subject": "赤小豆當歸散",
+    "release_level": "silver",
+    "consensus_score": 0.887,
+    "keywords": [
+      "赤小豆當歸散",
+      "下血",
+      "傷寒",
+      "痞",
+      "能食",
+      "不欲飲食",
+      "咽乾",
+      "汗出",
+      "目赤",
+      "脈數"
     ]
   },
   {
@@ -1991,7 +1755,7 @@
     "kind": "formula",
     "subject": "梔子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "梔子湯",
       "陽明病",
@@ -2010,7 +1774,7 @@
     "kind": "formula",
     "subject": "小青龍加石膏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.881,
     "keywords": [
       "小青龍加石膏湯",
       "肺脹",
@@ -2022,50 +1786,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_0ac574eb",
-    "title": "文蛤散方證合併規則",
+    "skill_id": "hermes.formula.banxia_xiexin_tang",
+    "title": "半夏瀉心湯方證合併規則",
     "kind": "formula",
-    "subject": "文蛤散",
+    "subject": "半夏瀉心湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.911,
     "keywords": [
-      "文蛤散",
-      "嘔吐",
-      "噦",
-      "下利",
-      "消渴",
-      "渴"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.maimendong_tang",
-    "title": "麥門冬湯方證合併規則",
-    "kind": "formula",
-    "subject": "麥門冬湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "麥門冬湯",
-      "勞復",
-      "傷寒",
-      "上氣",
-      "發熱",
-      "咳",
-      "脈數"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_54f591c3",
-    "title": "物瓜蒂湯方證合併規則",
-    "kind": "formula",
-    "subject": "物瓜蒂湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "物瓜蒂湯",
-      "中暍",
-      "傷寒",
-      "脈微弱"
+      "半夏瀉心湯",
+      "心下痞",
+      "腹滿",
+      "痞",
+      "頭眩"
     ]
   },
   {
@@ -2074,7 +1806,7 @@
     "kind": "formula",
     "subject": "皂莢丸",
     "release_level": "silver",
-    "consensus_score": 0.917,
+    "consensus_score": 0.896,
     "keywords": [
       "皂莢丸",
       "咳",
@@ -2083,28 +1815,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_ef5e04b8",
-    "title": "澤漆湯方證合併規則",
-    "kind": "formula",
-    "subject": "澤漆湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "澤漆湯",
-      "痰飲",
-      "咳",
-      "脈沉",
-      "脈浮",
-      "脈沈"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.gualou_xiebai_baijiu_tang",
     "title": "栝蔞薤白白酒湯方證合併規則",
     "kind": "formula",
     "subject": "栝蔞薤白白酒湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.892,
     "keywords": [
       "栝蔞薤白白酒湯",
       "胸痹",
@@ -2119,68 +1835,16 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.gualou_xiebai_banxia_tang",
-    "title": "栝蔞薤白半夏湯方證合併規則",
-    "kind": "formula",
-    "subject": "栝蔞薤白半夏湯",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "栝蔞薤白半夏湯",
-      "胸痹",
-      "心痛",
-      "支飲",
-      "不得臥",
-      "心痛徹背"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_75dc26ac",
     "title": "厚朴大黃湯方證合併規則",
     "kind": "formula",
     "subject": "厚朴大黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "厚朴大黃湯",
       "支飲",
       "胸滿"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.yuebi_tang",
-    "title": "越婢湯方證合併規則",
-    "kind": "formula",
-    "subject": "越婢湯",
-    "release_level": "silver",
-    "consensus_score": 0.906,
-    "keywords": [
-      "越婢湯",
-      "風水",
-      "渴",
-      "自汗出",
-      "惡風",
-      "目黃",
-      "脈浮"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_6d6457d2",
-    "title": "越婢加朮湯方證合併規則",
-    "kind": "formula",
-    "subject": "越婢加朮湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "越婢加朮湯",
-      "小便不利",
-      "皮水",
-      "渴",
-      "小便自利",
-      "目黃",
-      "自利",
-      "無汗",
-      "脈沉"
     ]
   },
   {
@@ -2189,22 +1853,10 @@
     "kind": "formula",
     "subject": "柏葉湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "柏葉湯",
       "吐血"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_b6c7e5f5",
-    "title": "黃土湯方證合併規則",
-    "kind": "formula",
-    "subject": "黃土湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "黃土湯",
-      "下血"
     ]
   },
   {
@@ -2213,7 +1865,7 @@
     "kind": "formula",
     "subject": "茯苓澤瀉湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.901,
     "keywords": [
       "茯苓澤瀉湯",
       "消渴",
@@ -2227,7 +1879,7 @@
     "kind": "formula",
     "subject": "紫參湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "紫參湯",
       "下利",
@@ -2236,25 +1888,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_f2c55974",
-    "title": "乾薑人參半夏丸方證合併規則",
-    "kind": "formula",
-    "subject": "乾薑人參半夏丸",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "乾薑人參半夏丸",
-      "嘔吐",
-      "妊娠"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_89ef3322",
     "title": "歸貝母苦參丸方證合併規則",
     "kind": "formula",
     "subject": "歸貝母苦參丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "歸貝母苦參丸",
       "妊娠",
@@ -2267,7 +1906,7 @@
     "kind": "formula",
     "subject": "葵子茯苓散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "葵子茯苓散",
       "小便不利",
@@ -2283,7 +1922,7 @@
     "kind": "formula",
     "subject": "白朮散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
       "白朮散",
       "妊娠",
@@ -2293,31 +1932,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_8738662b",
-    "title": "竹葉湯方證合併規則",
-    "kind": "formula",
-    "subject": "竹葉湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "竹葉湯",
-      "產後",
-      "中風",
-      "發熱",
-      "喘",
-      "頭痛",
-      "面赤",
-      "汗出",
-      "脈弦"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_99eaaaa0",
     "title": "竹皮大丸方證合併規則",
     "kind": "formula",
     "subject": "竹皮大丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "竹皮大丸",
       "產後",
@@ -2330,7 +1950,7 @@
     "kind": "formula",
     "subject": "白頭翁加甘草阿膠湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.911,
     "keywords": [
       "白頭翁加甘草阿膠湯",
       "產後",
@@ -2345,7 +1965,7 @@
     "kind": "formula",
     "subject": "麻子仁丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "麻子仁丸",
       "小便數",
@@ -2360,7 +1980,7 @@
     "kind": "formula",
     "subject": "桂枝加厚朴杏仁湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.881,
     "keywords": [
       "桂枝加厚朴杏仁湯",
       "太陽病",
@@ -2373,7 +1993,7 @@
     "kind": "formula",
     "subject": "茵陳湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.899,
     "keywords": [
       "茵陳湯",
       "小便不利",
@@ -2392,7 +2012,7 @@
     "kind": "formula",
     "subject": "麻黃連翹赤小豆湯",
     "release_level": "silver",
-    "consensus_score": 0.917,
+    "consensus_score": 0.886,
     "keywords": [
       "麻黃連翹赤小豆湯",
       "傷寒",
@@ -2402,18 +2022,19 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_eb202488",
-    "title": "去芍藥方中加附子湯方證合併規則",
+    "skill_id": "hermes.formula.formula_0ac574eb",
+    "title": "文蛤散方證合併規則",
     "kind": "formula",
-    "subject": "去芍藥方中加附子湯",
+    "subject": "文蛤散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.901,
     "keywords": [
-      "去芍藥方中加附子湯",
-      "太陽病",
-      "胸滿",
-      "惡寒",
-      "脈促"
+      "文蛤散",
+      "嘔吐",
+      "噦",
+      "下利",
+      "消渴",
+      "渴"
     ]
   },
   {
@@ -2422,7 +2043,7 @@
     "kind": "formula",
     "subject": "腎氣丸",
     "release_level": "silver",
-    "consensus_score": 0.911,
+    "consensus_score": 0.902,
     "keywords": [
       "腎氣丸",
       "消渴",
@@ -2439,7 +2060,7 @@
     "kind": "formula",
     "subject": "薯蕷丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.885,
     "keywords": [
       "薯蕷丸",
       "虛勞",
@@ -2453,7 +2074,7 @@
     "kind": "formula",
     "subject": "酸棗仁湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.907,
     "keywords": [
       "酸棗仁湯",
       "虛勞",
@@ -2467,7 +2088,7 @@
     "kind": "formula",
     "subject": "射干麻黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.899,
     "keywords": [
       "射干麻黃湯",
       "咳",
@@ -2480,7 +2101,7 @@
     "kind": "formula",
     "subject": "厚朴麻黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.906,
     "keywords": [
       "厚朴麻黃湯",
       "咳",
@@ -2488,20 +2109,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_7db93391",
-    "title": "越婢加半夏湯方證合併規則",
+    "skill_id": "hermes.formula.gualou_xiebai_banxia_tang",
+    "title": "栝蔞薤白半夏湯方證合併規則",
     "kind": "formula",
-    "subject": "越婢加半夏湯",
+    "subject": "栝蔞薤白半夏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
-      "越婢加半夏湯",
-      "肺脹",
-      "喘",
-      "咳",
-      "上氣",
-      "脈浮大",
-      "脈浮"
+      "栝蔞薤白半夏湯",
+      "胸痹",
+      "心痛",
+      "不得臥",
+      "心痛徹背"
     ]
   },
   {
@@ -2510,24 +2129,11 @@
     "kind": "formula",
     "subject": "茯苓杏仁甘草湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.901,
     "keywords": [
       "茯苓杏仁甘草湯",
       "胸痹",
       "短氣"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_d4b01d0e",
-    "title": "桂枝生薑枳實湯方證合併規則",
-    "kind": "formula",
-    "subject": "桂枝生薑枳實湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "桂枝生薑枳實湯",
-      "痞",
-      "胸痹"
     ]
   },
   {
@@ -2536,7 +2142,7 @@
     "kind": "formula",
     "subject": "烏頭赤石脂丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.899,
     "keywords": [
       "烏頭赤石脂丸",
       "心痛",
@@ -2551,7 +2157,7 @@
     "kind": "formula",
     "subject": "厚朴七物湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.894,
     "keywords": [
       "厚朴七物湯",
       "腹滿",
@@ -2566,7 +2172,7 @@
     "kind": "formula",
     "subject": "大烏頭煎",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.892,
     "keywords": [
       "大烏頭煎",
       "寒疝",
@@ -2587,7 +2193,7 @@
     "kind": "formula",
     "subject": "抵當烏頭桂枝湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.893,
     "keywords": [
       "抵當烏頭桂枝湯",
       "寒疝",
@@ -2601,10 +2207,43 @@
     "kind": "formula",
     "subject": "澤瀉湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.899,
     "keywords": [
       "澤瀉湯",
       "支飲"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_bb312de4",
+    "title": "小半夏加茯苓湯方證合併規則",
+    "kind": "formula",
+    "subject": "小半夏加茯苓湯",
+    "release_level": "silver",
+    "consensus_score": 0.906,
+    "keywords": [
+      "小半夏加茯苓湯",
+      "嘔吐",
+      "心下痞",
+      "痞",
+      "渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_6d6457d2",
+    "title": "越婢加朮湯方證合併規則",
+    "kind": "formula",
+    "subject": "越婢加朮湯",
+    "release_level": "silver",
+    "consensus_score": 0.882,
+    "keywords": [
+      "越婢加朮湯",
+      "小便不利",
+      "皮水",
+      "渴",
+      "小便自利",
+      "目黃",
+      "自利",
+      "脈沉"
     ]
   },
   {
@@ -2613,7 +2252,7 @@
     "kind": "formula",
     "subject": "桂枝加黃耆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "桂枝加黃耆湯",
       "黃汗",
@@ -2633,7 +2272,7 @@
     "kind": "formula",
     "subject": "文蛤湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.906,
     "keywords": [
       "文蛤湯",
       "消渴",
@@ -2646,7 +2285,7 @@
     "kind": "formula",
     "subject": "半夏乾薑散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.899,
     "keywords": [
       "半夏乾薑散",
       "嘔吐",
@@ -2654,32 +2293,51 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_311040a7",
-    "title": "生薑半夏湯方證合併規則",
+    "skill_id": "hermes.formula.formula_f2c55974",
+    "title": "乾薑人參半夏丸方證合併規則",
     "kind": "formula",
-    "subject": "生薑半夏湯",
+    "subject": "乾薑人參半夏丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
-      "生薑半夏湯",
-      "噦",
-      "喘"
+      "乾薑人參半夏丸",
+      "妊娠",
+      "嘔吐"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_01f8d46a",
-    "title": "硝石礬石散方證合併規則",
+    "skill_id": "hermes.formula.formula_8738662b",
+    "title": "竹葉湯方證合併規則",
     "kind": "formula",
-    "subject": "硝石礬石散",
+    "subject": "竹葉湯",
+    "release_level": "silver",
+    "consensus_score": 0.899,
+    "keywords": [
+      "竹葉湯",
+      "產後",
+      "中風",
+      "發熱",
+      "喘",
+      "頭痛",
+      "面赤",
+      "汗出",
+      "脈弦"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.fangji_huangqi_tang",
+    "title": "防己黃耆湯方證合併規則",
+    "kind": "formula",
+    "subject": "防己黃耆湯",
     "release_level": "silver",
     "consensus_score": 0.92,
     "keywords": [
-      "硝石礬石散",
-      "腹滿",
-      "少腹滿",
-      "發熱",
-      "惡寒",
-      "胸滿"
+      "防己黃耆湯",
+      "風水",
+      "身重",
+      "汗出",
+      "惡風",
+      "脈浮"
     ]
   },
   {
@@ -2688,7 +2346,7 @@
     "kind": "formula",
     "subject": "枳實梔子豉湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.916,
     "keywords": [
       "枳實梔子豉湯",
       "勞復",
@@ -2702,7 +2360,7 @@
     "kind": "formula",
     "subject": "燒褌散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.911,
     "keywords": [
       "燒褌散",
       "傷寒",
@@ -2711,16 +2369,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_38b6c1eb",
-    "title": "新加湯方證合併規則",
+    "skill_id": "hermes.formula.formula_c21f579c",
+    "title": "赤石脂禹餘糧湯方證合併規則",
     "kind": "formula",
-    "subject": "新加湯",
+    "subject": "赤石脂禹餘糧湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.897,
     "keywords": [
-      "新加湯",
-      "身疼痛",
-      "脈沉遲"
+      "赤石脂禹餘糧湯",
+      "傷寒",
+      "心下痞",
+      "下利",
+      "心下痞硬"
     ]
   },
   {
@@ -2729,7 +2389,7 @@
     "kind": "formula",
     "subject": "栝蔞桂枝湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.909,
     "keywords": [
       "栝蔞桂枝湯",
       "太陽病",
@@ -2741,27 +2401,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_e3b8bd26",
-    "title": "加附子湯方證合併規則",
-    "kind": "formula",
-    "subject": "加附子湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "加附子湯",
-      "太陽病",
-      "惡寒",
-      "胸滿",
-      "脈促"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_72f16d03",
     "title": "栝蔞牡蠣散方證合併規則",
     "kind": "formula",
     "subject": "栝蔞牡蠣散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.88,
     "keywords": [
       "栝蔞牡蠣散",
       "百合病",
@@ -2770,27 +2415,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.xuanfu_daizhe_tang",
-    "title": "旋覆代赭湯方證合併規則",
-    "kind": "formula",
-    "subject": "旋覆代赭湯",
-    "release_level": "silver",
-    "consensus_score": 0.912,
-    "keywords": [
-      "旋覆代赭湯",
-      "心下痞",
-      "傷寒",
-      "噫氣",
-      "心下痞硬"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_99b2b3e5",
     "title": "去芍藥加蜀漆牡蠣龍骨救逆湯方證合併規則",
     "kind": "formula",
     "subject": "去芍藥加蜀漆牡蠣龍骨救逆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.901,
     "keywords": [
       "去芍藥加蜀漆牡蠣龍骨救逆湯",
       "亡陽",
@@ -2805,11 +2435,57 @@
     "kind": "formula",
     "subject": "桂枝芍藥知母湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "桂枝芍藥知母湯",
       "頭眩",
       "短氣"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.shenqi_wan",
+    "title": "八味腎氣丸方證合併規則",
+    "kind": "formula",
+    "subject": "八味腎氣丸",
+    "release_level": "silver",
+    "consensus_score": 0.892,
+    "keywords": [
+      "八味腎氣丸",
+      "虛勞",
+      "小便不利",
+      "腰痛"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_ef5e04b8",
+    "title": "澤漆湯方證合併規則",
+    "kind": "formula",
+    "subject": "澤漆湯",
+    "release_level": "silver",
+    "consensus_score": 0.901,
+    "keywords": [
+      "澤漆湯",
+      "痰飲",
+      "咳",
+      "脈沉",
+      "脈沈",
+      "脈浮"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_7db93391",
+    "title": "越婢加半夏湯方證合併規則",
+    "kind": "formula",
+    "subject": "越婢加半夏湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "越婢加半夏湯",
+      "肺脹",
+      "喘",
+      "咳",
+      "上氣",
+      "脈浮大"
     ]
   },
   {
@@ -2818,7 +2494,7 @@
     "kind": "formula",
     "subject": "枳實薤白桂枝湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "枳實薤白桂枝湯",
       "胸痹",
@@ -2832,9 +2508,22 @@
     "kind": "formula",
     "subject": "薏苡附子散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "薏苡附子散",
+      "胸痹"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_d4b01d0e",
+    "title": "桂枝生薑枳實湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝生薑枳實湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "桂枝生薑枳實湯",
+      "痞",
       "胸痹"
     ]
   },
@@ -2844,11 +2533,24 @@
     "kind": "formula",
     "subject": "栝蔞瞿麥丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "栝蔞瞿麥丸",
       "小便不利",
       "渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_311040a7",
+    "title": "生薑半夏湯方證合併規則",
+    "kind": "formula",
+    "subject": "生薑半夏湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "生薑半夏湯",
+      "噦",
+      "喘"
     ]
   },
   {
@@ -2857,7 +2559,7 @@
     "kind": "formula",
     "subject": "薏苡附子敗醬散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.904,
     "keywords": [
       "薏苡附子敗醬散",
       "腸癰",
@@ -2866,15 +2568,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_f4c10f28",
-    "title": "蜘蛛散方證合併規則",
+    "skill_id": "hermes.formula.formula_03dc020b",
+    "title": "甘草粉蜜湯方證合併規則",
     "kind": "formula",
-    "subject": "蜘蛛散",
+    "subject": "甘草粉蜜湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
-      "蜘蛛散",
-      "陰狐疝"
+      "甘草粉蜜湯",
+      "心痛",
+      "蚘蟲",
+      "嘔吐",
+      "腹痛"
     ]
   },
   {
@@ -2883,7 +2588,7 @@
     "kind": "formula",
     "subject": "枳實芍藥散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.9,
     "keywords": [
       "枳實芍藥散",
       "產後",
@@ -2897,7 +2602,7 @@
     "kind": "formula",
     "subject": "土瓜根散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.895,
     "keywords": [
       "土瓜根散",
       "腹滿",
@@ -2906,28 +2611,43 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.yuebi_tang",
+    "title": "越婢湯方證合併規則",
+    "kind": "formula",
+    "subject": "越婢湯",
+    "release_level": "silver",
+    "consensus_score": 0.888,
+    "keywords": [
+      "越婢湯",
+      "風水",
+      "渴",
+      "自汗出",
+      "惡風",
+      "脈浮"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.kujiu_tang",
+    "title": "苦酒湯方證合併規則",
+    "kind": "formula",
+    "subject": "苦酒湯",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "苦酒湯",
+      "少陰病"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_5771a090",
     "title": "乾薑黃芩黃連人參湯方證合併規則",
     "kind": "formula",
     "subject": "乾薑黃芩黃連人參湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.91,
     "keywords": [
       "乾薑黃芩黃連人參湯",
       "傷寒"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_8201baaa",
-    "title": "滑石代赭湯方證合併規則",
-    "kind": "formula",
-    "subject": "滑石代赭湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "滑石代赭湯",
-      "百合病",
-      "百合"
     ]
   },
   {
@@ -2936,7 +2656,7 @@
     "kind": "formula",
     "subject": "黑奴丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.915,
     "keywords": [
       "黑奴丸",
       "溫病",
@@ -2951,7 +2671,7 @@
     "kind": "formula",
     "subject": "麻黃細辛附子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "麻黃細辛附子湯",
       "少陰病",
@@ -2960,28 +2680,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_027d0e3e",
-    "title": "加茯苓白朮湯方證合併規則",
-    "kind": "formula",
-    "subject": "加茯苓白朮湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "加茯苓白朮湯",
-      "小便不利",
-      "心下滿",
-      "頭項強痛",
-      "翕翕發熱",
-      "無汗"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_4fed552e",
     "title": "理中湯方證合併規則",
     "kind": "formula",
     "subject": "理中湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.888,
     "keywords": [
       "理中湯",
       "下利",
@@ -2999,29 +2703,35 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_3be6fc2a",
-    "title": "乾薑黃連黃芩人參湯方證合併規則",
+    "skill_id": "hermes.formula.xuanfu_daizhe_tang",
+    "title": "旋覆代赭湯方證合併規則",
     "kind": "formula",
-    "subject": "乾薑黃連黃芩人參湯",
+    "subject": "旋覆代赭湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.91,
     "keywords": [
-      "乾薑黃連黃芩人參湯",
+      "旋覆代赭湯",
       "傷寒",
-      "厥"
+      "心下痞",
+      "噫氣",
+      "心下痞硬"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_0d7b4daf",
-    "title": "桂枝加厚朴杏子湯方證合併規則",
+    "skill_id": "hermes.formula.maimendong_tang",
+    "title": "麥門冬湯方證合併規則",
     "kind": "formula",
-    "subject": "桂枝加厚朴杏子湯",
+    "subject": "麥門冬湯",
     "release_level": "silver",
-    "consensus_score": 0.912,
+    "consensus_score": 0.906,
     "keywords": [
-      "桂枝加厚朴杏子湯",
-      "太陽病",
-      "喘"
+      "麥門冬湯",
+      "勞復",
+      "傷寒",
+      "上氣",
+      "發熱",
+      "咳",
+      "脈數"
     ]
   },
   {
@@ -3030,7 +2740,7 @@
     "kind": "formula",
     "subject": "烏頭湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.901,
     "keywords": [
       "烏頭湯",
       "歷節",
@@ -3043,7 +2753,7 @@
     "kind": "formula",
     "subject": "黃耆建中湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.91,
     "keywords": [
       "黃耆建中湯",
       "虛勞",
@@ -3054,54 +2764,12 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.guizhi_jia_gui_tang",
-    "title": "桂枝加桂湯方證合併規則",
-    "kind": "formula",
-    "subject": "桂枝加桂湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "桂枝加桂湯",
-      "奔豚"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_4b0a5be5",
-    "title": "甘遂半夏湯方證合併規則",
-    "kind": "formula",
-    "subject": "甘遂半夏湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "甘遂半夏湯",
-      "留飲",
-      "自利",
-      "脈伏"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_c4545829",
-    "title": "木防己湯方證合併規則",
-    "kind": "formula",
-    "subject": "木防己湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "木防己湯",
-      "支飲",
-      "心下痞",
-      "喘",
-      "脈沉緊",
-      "脈緊"
-    ]
-  },
-  {
     "skill_id": "hermes.formula.formula_8303e904",
     "title": "梔子大黃湯方證合併規則",
     "kind": "formula",
     "subject": "梔子大黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.91,
     "keywords": [
       "梔子大黃湯",
       "酒疸",
@@ -3112,12 +2780,24 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_b6c7e5f5",
+    "title": "黃土湯方證合併規則",
+    "kind": "formula",
+    "subject": "黃土湯",
+    "release_level": "silver",
+    "consensus_score": 0.91,
+    "keywords": [
+      "黃土湯",
+      "下血"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.dahuang_mudan_tang",
     "title": "大黃牡丹湯方證合併規則",
     "kind": "formula",
     "subject": "大黃牡丹湯",
     "release_level": "silver",
-    "consensus_score": 0.906,
+    "consensus_score": 0.877,
     "keywords": [
       "大黃牡丹湯",
       "腸癰",
@@ -3131,42 +2811,17 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_a94ac551",
-    "title": "大黃甘遂湯方證合併規則",
+    "skill_id": "hermes.formula.formula_01f8d46a",
+    "title": "硝石礬石散方證合併規則",
     "kind": "formula",
-    "subject": "大黃甘遂湯",
+    "subject": "硝石礬石散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.891,
     "keywords": [
-      "大黃甘遂湯",
+      "硝石礬石散",
       "腹滿",
-      "渴",
-      "少腹滿"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_914dd153",
-    "title": "己椒藶黃丸方證合併規則",
-    "kind": "formula",
-    "subject": "己椒藶黃丸",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "己椒藶黃丸",
-      "腹滿"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_d4bf028b",
-    "title": "小半夏茯苓湯方證合併規則",
-    "kind": "formula",
-    "subject": "小半夏茯苓湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "小半夏茯苓湯",
-      "痰飲",
-      "渴"
+      "少腹滿",
+      "胸滿"
     ]
   },
   {
@@ -3175,7 +2830,7 @@
     "kind": "formula",
     "subject": "雞屎白散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "雞屎白散",
       "轉筋"
@@ -3187,7 +2842,7 @@
     "kind": "formula",
     "subject": "附子粳米湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.891,
     "keywords": [
       "附子粳米湯",
       "中寒",
@@ -3202,11 +2857,27 @@
     "kind": "formula",
     "subject": "桂枝加大黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.877,
     "keywords": [
       "桂枝加大黃湯",
       "太陽病",
       "腹滿"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.gegen_qinlian_tang",
+    "title": "葛根黃芩黃連湯方證合併規則",
+    "kind": "formula",
+    "subject": "葛根黃芩黃連湯",
+    "release_level": "silver",
+    "consensus_score": 0.89,
+    "keywords": [
+      "葛根黃芩黃連湯",
+      "太陽病",
+      "喘",
+      "汗出",
+      "潮熱",
+      "脈促"
     ]
   },
   {
@@ -3215,7 +2886,7 @@
     "kind": "formula",
     "subject": "藥生薑各一兩人參三兩新加湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.905,
     "keywords": [
       "藥生薑各一兩人參三兩新加湯",
       "身疼痛",
@@ -3228,7 +2899,7 @@
     "kind": "formula",
     "subject": "麻仁丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.902,
     "keywords": [
       "麻仁丸",
       "小便數",
@@ -3242,7 +2913,7 @@
     "kind": "formula",
     "subject": "屬當歸四逆湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.9,
     "keywords": [
       "屬當歸四逆湯",
       "下利",
@@ -3251,26 +2922,17 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.huangqin_tang",
-    "title": "黃芩湯方證合併規則",
+    "skill_id": "hermes.formula.formula_6a852602",
+    "title": "百合地黃湯方證合併規則",
     "kind": "formula",
-    "subject": "黃芩湯",
+    "subject": "百合地黃湯",
     "release_level": "silver",
-    "consensus_score": 0.875,
+    "consensus_score": 0.908,
     "keywords": [
-      "黃芩湯",
-      "下利",
-      "溫病",
-      "太陽病",
+      "百合地黃湯",
+      "百合病",
       "傷寒",
-      "發熱",
-      "渴",
-      "惡寒",
-      "口苦",
-      "惡熱",
-      "脈浮緊",
-      "脈弦",
-      "脈浮"
+      "百合"
     ]
   },
   {
@@ -3279,7 +2941,7 @@
     "kind": "formula",
     "subject": "桂枝加芍藥生薑人參新加湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "桂枝加芍藥生薑人參新加湯",
       "身疼痛",
@@ -3292,25 +2954,39 @@
     "kind": "formula",
     "subject": "百合雞子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.878,
     "keywords": [
       "百合雞子湯",
       "百合病"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_e3e605df",
-    "title": "加蜀漆龍骨牡蠣救逆湯方證合併規則",
+    "skill_id": "hermes.formula.formula_027d0e3e",
+    "title": "加茯苓白朮湯方證合併規則",
     "kind": "formula",
-    "subject": "加蜀漆龍骨牡蠣救逆湯",
+    "subject": "加茯苓白朮湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.89,
     "keywords": [
-      "加蜀漆龍骨牡蠣救逆湯",
-      "傷寒",
-      "亡陽",
-      "驚狂",
-      "脈浮"
+      "加茯苓白朮湯",
+      "小便不利",
+      "心下滿",
+      "頭項強痛",
+      "翕翕發熱",
+      "無汗"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_0d7b4daf",
+    "title": "桂枝加厚朴杏子湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝加厚朴杏子湯",
+    "release_level": "silver",
+    "consensus_score": 0.903,
+    "keywords": [
+      "桂枝加厚朴杏子湯",
+      "太陽病",
+      "喘"
     ]
   },
   {
@@ -3319,7 +2995,7 @@
     "kind": "formula",
     "subject": "玄武湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.89,
     "keywords": [
       "玄武湯",
       "下利",
@@ -3339,7 +3015,7 @@
     "kind": "formula",
     "subject": "黃石膏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.907,
     "keywords": [
       "黃石膏湯",
       "傷寒",
@@ -3353,12 +3029,26 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_4b0a5be5",
+    "title": "甘遂半夏湯方證合併規則",
+    "kind": "formula",
+    "subject": "甘遂半夏湯",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "甘遂半夏湯",
+      "留飲",
+      "自利",
+      "脈伏"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_15689a6a",
     "title": "大半夏湯方證合併規則",
     "kind": "formula",
     "subject": "大半夏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.902,
     "keywords": [
       "大半夏湯",
       "嘔吐"
@@ -3370,7 +3060,7 @@
     "kind": "formula",
     "subject": "桂枝茯苓丸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.894,
     "keywords": [
       "桂枝茯苓丸",
       "妊娠",
@@ -3379,16 +3069,15 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_3a056e8b",
-    "title": "升麻鱉甲湯方證合併規則",
+    "skill_id": "hermes.formula.formula_8201baaa",
+    "title": "滑石代赭湯方證合併規則",
     "kind": "formula",
-    "subject": "升麻鱉甲湯",
+    "subject": "滑石代赭湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.902,
     "keywords": [
-      "升麻鱉甲湯",
-      "唾膿血",
-      "面赤"
+      "滑石代赭湯",
+      "百合病"
     ]
   },
   {
@@ -3397,7 +3086,7 @@
     "kind": "formula",
     "subject": "旋覆花湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "旋覆花湯",
       "傷寒",
@@ -3406,12 +3095,26 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_23ca91aa",
+    "title": "柴胡加芒硝湯方證合併規則",
+    "kind": "formula",
+    "subject": "柴胡加芒硝湯",
+    "release_level": "silver",
+    "consensus_score": 0.872,
+    "keywords": [
+      "柴胡加芒硝湯",
+      "傷寒",
+      "潮熱",
+      "汗出"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_a4c498c8",
     "title": "加白朮湯方證合併規則",
     "kind": "formula",
     "subject": "加白朮湯",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.875,
     "keywords": [
       "加白朮湯",
       "傷寒",
@@ -3427,7 +3130,7 @@
     "kind": "formula",
     "subject": "桂枝湯去桂加茯苓白朮湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.888,
     "keywords": [
       "桂枝湯去桂加茯苓白朮湯",
       "小便不利",
@@ -3443,7 +3146,7 @@
     "kind": "formula",
     "subject": "加吳茱萸生薑湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "加吳茱萸生薑湯",
       "四逆",
@@ -3452,12 +3155,27 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_e3b8bd26",
+    "title": "加附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "加附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.888,
+    "keywords": [
+      "加附子湯",
+      "太陽病",
+      "惡寒",
+      "胸滿",
+      "脈促"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_4e801e45",
     "title": "桂枝加厚朴杏人湯方證合併規則",
     "kind": "formula",
     "subject": "桂枝加厚朴杏人湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.888,
     "keywords": [
       "桂枝加厚朴杏人湯",
       "太陽病",
@@ -3470,7 +3188,7 @@
     "kind": "formula",
     "subject": "茵陳五苓散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.907,
     "keywords": [
       "茵陳五苓散",
       "黃疸",
@@ -3485,7 +3203,7 @@
     "kind": "formula",
     "subject": "甘草乾薑湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "甘草乾薑湯",
       "咳",
@@ -3502,25 +3220,10 @@
     "kind": "formula",
     "subject": "枳實梔子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.904,
     "keywords": [
       "枳實梔子湯",
       "勞復"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_f9e0534c",
-    "title": "桂枝去芍藥加附子湯方證合併規則",
-    "kind": "formula",
-    "subject": "桂枝去芍藥加附子湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "桂枝去芍藥加附子湯",
-      "太陽病",
-      "惡寒",
-      "胸滿",
-      "脈促"
     ]
   },
   {
@@ -3529,44 +3232,48 @@
     "kind": "formula",
     "subject": "百合滑石代赭湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.888,
     "keywords": [
       "百合滑石代赭湯",
       "百合病"
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_5eca63b2",
-    "title": "木防己湯去石膏加茯苓芒硝湯方證合併規則",
+    "skill_id": "hermes.formula.guizhi_jia_gui_tang",
+    "title": "桂枝加桂湯方證合併規則",
     "kind": "formula",
-    "subject": "木防己湯去石膏加茯苓芒硝湯",
+    "subject": "桂枝加桂湯",
     "release_level": "silver",
     "consensus_score": 0.92,
     "keywords": [
-      "木防己湯去石膏加茯苓芒硝湯",
-      "支飲",
-      "心下痞",
-      "喘",
-      "脈沉緊"
+      "桂枝加桂湯",
+      "奔豚"
     ]
   },
   {
-    "skill_id": "hermes.formula.jiao_ai_tang",
-    "title": "膠艾湯方證合併規則",
+    "skill_id": "hermes.formula.formula_f4c10f28",
+    "title": "蜘蛛散方證合併規則",
     "kind": "formula",
-    "subject": "膠艾湯",
+    "subject": "蜘蛛散",
     "release_level": "silver",
-    "consensus_score": 0.898,
+    "consensus_score": 0.92,
     "keywords": [
-      "膠艾湯",
-      "下血",
-      "妊娠",
-      "產後",
-      "亡血",
-      "虛勞",
-      "腹中痛",
-      "衄",
-      "脈弦"
+      "蜘蛛散",
+      "陰狐疝"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_a94ac551",
+    "title": "大黃甘遂湯方證合併規則",
+    "kind": "formula",
+    "subject": "大黃甘遂湯",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "大黃甘遂湯",
+      "腹滿",
+      "渴",
+      "少腹滿"
     ]
   },
   {
@@ -3575,10 +3282,36 @@
     "kind": "formula",
     "subject": "建中湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.888,
     "keywords": [
       "建中湯",
       "虛勞"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_d4bf028b",
+    "title": "小半夏茯苓湯方證合併規則",
+    "kind": "formula",
+    "subject": "小半夏茯苓湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "小半夏茯苓湯",
+      "痰飲",
+      "渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_3a056e8b",
+    "title": "升麻鱉甲湯方證合併規則",
+    "kind": "formula",
+    "subject": "升麻鱉甲湯",
+    "release_level": "silver",
+    "consensus_score": 0.912,
+    "keywords": [
+      "升麻鱉甲湯",
+      "面赤",
+      "唾膿血"
     ]
   },
   {
@@ -3591,6 +3324,33 @@
     "keywords": [
       "黃耆桂枝五物湯",
       "血痹"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_c4545829",
+    "title": "木防己湯方證合併規則",
+    "kind": "formula",
+    "subject": "木防己湯",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "木防己湯",
+      "支飲",
+      "心下痞",
+      "喘",
+      "脈沉緊"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_914dd153",
+    "title": "己椒藶黃丸方證合併規則",
+    "kind": "formula",
+    "subject": "己椒藶黃丸",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "己椒藶黃丸",
+      "腹滿"
     ]
   },
   {
@@ -3611,7 +3371,7 @@
     "kind": "formula",
     "subject": "下瘀血湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.915,
     "keywords": [
       "下瘀血湯",
       "瘀血",
@@ -3625,7 +3385,7 @@
     "kind": "formula",
     "subject": "甘草麻黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.904,
     "keywords": [
       "甘草麻黃湯",
       "小便不利",
@@ -3637,17 +3397,30 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_84f70c49",
-    "title": "梔子生薑豉湯方證合併規則",
+    "skill_id": "hermes.formula.formula_3be6fc2a",
+    "title": "乾薑黃連黃芩人參湯方證合併規則",
     "kind": "formula",
-    "subject": "梔子生薑豉湯",
+    "subject": "乾薑黃連黃芩人參湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
-      "梔子生薑豉湯",
-      "虛煩",
-      "不得眠",
-      "心中懊憹"
+      "乾薑黃連黃芩人參湯",
+      "傷寒"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_e3e605df",
+    "title": "加蜀漆龍骨牡蠣救逆湯方證合併規則",
+    "kind": "formula",
+    "subject": "加蜀漆龍骨牡蠣救逆湯",
+    "release_level": "silver",
+    "consensus_score": 0.904,
+    "keywords": [
+      "加蜀漆龍骨牡蠣救逆湯",
+      "亡陽",
+      "傷寒",
+      "驚狂",
+      "脈浮"
     ]
   },
   {
@@ -3656,7 +3429,7 @@
     "kind": "formula",
     "subject": "茵陳篙湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.914,
     "keywords": [
       "茵陳篙湯",
       "小便不利",
@@ -3666,32 +3439,16 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_c98f4cb5",
-    "title": "方中加附子湯方證合併規則",
+    "skill_id": "hermes.formula.formula_38b6c1eb",
+    "title": "新加湯方證合併規則",
     "kind": "formula",
-    "subject": "方中加附子湯",
+    "subject": "新加湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
-      "方中加附子湯",
-      "太陽病",
-      "惡寒",
-      "胸滿",
-      "脈促"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_20e5f707",
-    "title": "歸四逆加吳茱萸生薑湯方證合併規則",
-    "kind": "formula",
-    "subject": "歸四逆加吳茱萸生薑湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "歸四逆加吳茱萸生薑湯",
-      "四逆",
-      "厥",
-      "脈細"
+      "新加湯",
+      "身疼痛",
+      "脈沉遲"
     ]
   },
   {
@@ -3700,59 +3457,10 @@
     "kind": "formula",
     "subject": "仲景以此湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "仲景以此湯",
       "下利"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_67125c51",
-    "title": "犀角地黃湯方證合併規則",
-    "kind": "formula",
-    "subject": "犀角地黃湯",
-    "release_level": "silver",
-    "consensus_score": 0.91,
-    "keywords": [
-      "犀角地黃湯",
-      "傷寒",
-      "溫病",
-      "蓄血",
-      "瘀血",
-      "吐血",
-      "鼻衄"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_130f5985",
-    "title": "柴胡湯方證合併規則",
-    "kind": "formula",
-    "subject": "柴胡湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "柴胡湯",
-      "頭痛",
-      "無汗",
-      "往來寒熱"
-    ]
-  },
-  {
-    "skill_id": "hermes.formula.formula_784d7bcc",
-    "title": "柴胡龍骨牡蠣湯方證合併規則",
-    "kind": "formula",
-    "subject": "柴胡龍骨牡蠣湯",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "柴胡龍骨牡蠣湯",
-      "小便不利",
-      "傷寒",
-      "譫語",
-      "惡風",
-      "渴",
-      "厥",
-      "胸滿"
     ]
   },
   {
@@ -3761,7 +3469,7 @@
     "kind": "formula",
     "subject": "升麻湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "升麻湯",
       "下利",
@@ -3803,7 +3511,7 @@
     "kind": "formula",
     "subject": "灸之附子湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.878,
     "keywords": [
       "灸之附子湯",
       "少陰病",
@@ -3817,7 +3525,7 @@
     "kind": "formula",
     "subject": "五苓湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.876,
     "keywords": [
       "五苓湯",
       "小便不利",
@@ -3832,7 +3540,7 @@
     "kind": "formula",
     "subject": "腹硬滿而痛不可近者大陷胸湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.903,
     "keywords": [
       "腹硬滿而痛不可近者大陷胸湯",
       "太陽病",
@@ -3874,12 +3582,25 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_f9e0534c",
+    "title": "桂枝去芍藥加附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "桂枝去芍藥加附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.908,
+    "keywords": [
+      "桂枝去芍藥加附子湯",
+      "太陽病",
+      "惡寒"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_27a848ad",
     "title": "仲景以梔子大黃湯方證合併規則",
     "kind": "formula",
     "subject": "仲景以梔子大黃湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "仲景以梔子大黃湯",
       "宿食"
@@ -3891,7 +3612,7 @@
     "kind": "formula",
     "subject": "人參湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "人參湯",
       "痞",
@@ -3905,7 +3626,7 @@
     "kind": "formula",
     "subject": "通脈四逆加豬膽湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.892,
     "keywords": [
       "通脈四逆加豬膽湯",
       "汗出",
@@ -3919,7 +3640,7 @@
     "kind": "formula",
     "subject": "李根湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "李根湯",
       "氣上衝"
@@ -3946,7 +3667,7 @@
     "kind": "formula",
     "subject": "噦者小半夏湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.892,
     "keywords": [
       "噦者小半夏湯",
       "腹滿",
@@ -3961,7 +3682,7 @@
     "kind": "formula",
     "subject": "豬苓散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.908,
     "keywords": [
       "豬苓散",
       "嘔吐",
@@ -3969,16 +3690,16 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.formula_32e13a08",
-    "title": "半夏加茯苓湯方證合併規則",
+    "skill_id": "hermes.formula.formula_54f591c3",
+    "title": "物瓜蒂湯方證合併規則",
     "kind": "formula",
-    "subject": "半夏加茯苓湯",
+    "subject": "物瓜蒂湯",
     "release_level": "silver",
     "consensus_score": 0.92,
     "keywords": [
-      "半夏加茯苓湯",
-      "心下痞",
-      "嘔吐"
+      "物瓜蒂湯",
+      "中暍",
+      "脈微弱"
     ]
   },
   {
@@ -3987,7 +3708,7 @@
     "kind": "formula",
     "subject": "桂枝加龍骨牡蠣湯",
     "release_level": "silver",
-    "consensus_score": 0.9,
+    "consensus_score": 0.876,
     "keywords": [
       "桂枝加龍骨牡蠣湯",
       "亡血",
@@ -4006,6 +3727,21 @@
       "渴",
       "小便自利",
       "汗出"
+    ]
+  },
+  {
+    "skill_id": "hermes.formula.formula_5eca63b2",
+    "title": "木防己湯去石膏加茯苓芒硝湯方證合併規則",
+    "kind": "formula",
+    "subject": "木防己湯去石膏加茯苓芒硝湯",
+    "release_level": "silver",
+    "consensus_score": 0.864,
+    "keywords": [
+      "木防己湯去石膏加茯苓芒硝湯",
+      "支飲",
+      "心下痞",
+      "喘",
+      "脈沉緊"
     ]
   },
   {
@@ -4029,7 +3765,7 @@
     "kind": "formula",
     "subject": "耆芍桂酒湯",
     "release_level": "silver",
-    "consensus_score": 0.9,
+    "consensus_score": 0.865,
     "keywords": [
       "耆芍桂酒湯",
       "黃汗",
@@ -4045,7 +3781,7 @@
     "kind": "formula",
     "subject": "猪苓散",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.896,
     "keywords": [
       "猪苓散",
       "嘔吐"
@@ -4064,17 +3800,18 @@
     ]
   },
   {
-    "skill_id": "hermes.formula.da_jianzhong_tang",
-    "title": "大建中湯方證合併規則",
+    "skill_id": "hermes.formula.jiao_ai_tang",
+    "title": "膠艾湯方證合併規則",
     "kind": "formula",
-    "subject": "大建中湯",
+    "subject": "膠艾湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.882,
     "keywords": [
-      "大建中湯",
-      "中寒",
-      "陽明病",
-      "不能食"
+      "膠艾湯",
+      "妊娠",
+      "下血",
+      "產後",
+      "腹中痛"
     ]
   },
   {
@@ -4083,7 +3820,7 @@
     "kind": "formula",
     "subject": "益之曰旋覆花湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "益之曰旋覆花湯",
       "虛勞",
@@ -4111,7 +3848,7 @@
     "kind": "formula",
     "subject": "葛根黃連黃芩湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.914,
     "keywords": [
       "葛根黃連黃芩湯",
       "太陽病",
@@ -4121,12 +3858,27 @@
     ]
   },
   {
+    "skill_id": "hermes.formula.formula_eb202488",
+    "title": "去芍藥方中加附子湯方證合併規則",
+    "kind": "formula",
+    "subject": "去芍藥方中加附子湯",
+    "release_level": "silver",
+    "consensus_score": 0.887,
+    "keywords": [
+      "去芍藥方中加附子湯",
+      "太陽病",
+      "胸滿",
+      "惡寒",
+      "脈促"
+    ]
+  },
+  {
     "skill_id": "hermes.formula.formula_55d4c798",
     "title": "半夏乾薑湯方證合併規則",
     "kind": "formula",
     "subject": "半夏乾薑湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "半夏乾薑湯",
       "乾嘔",
@@ -4152,7 +3904,7 @@
     "kind": "formula",
     "subject": "有麻黃之葛根湯",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.884,
     "keywords": [
       "有麻黃之葛根湯",
       "下利",
@@ -4161,568 +3913,502 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.08191272",
+    "skill_id": "hermes.disease.41067287",
     "title": "傷寒證治合併規則",
     "kind": "disease",
     "subject": "傷寒",
     "release_level": "silver",
-    "consensus_score": 0.91,
+    "consensus_score": 0.899,
     "keywords": [
       "傷寒"
     ]
   },
   {
-    "skill_id": "hermes.disease.14798554",
+    "skill_id": "hermes.disease.34391235",
     "title": "下利證治合併規則",
     "kind": "disease",
     "subject": "下利",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.896,
     "keywords": [
       "下利"
     ]
   },
   {
-    "skill_id": "hermes.disease.31081208",
+    "skill_id": "hermes.disease.93523783",
     "title": "太陽病證治合併規則",
     "kind": "disease",
     "subject": "太陽病",
     "release_level": "silver",
-    "consensus_score": 0.907,
+    "consensus_score": 0.9,
     "keywords": [
       "太陽病"
     ]
   },
   {
-    "skill_id": "hermes.disease.69290049",
+    "skill_id": "hermes.disease.56982276",
     "title": "小便不利證治合併規則",
     "kind": "disease",
     "subject": "小便不利",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.895,
     "keywords": [
       "小便不利"
     ]
   },
   {
-    "skill_id": "hermes.disease.26620794",
+    "skill_id": "hermes.disease.09308632",
     "title": "少陰病證治合併規則",
     "kind": "disease",
     "subject": "少陰病",
     "release_level": "silver",
-    "consensus_score": 0.915,
+    "consensus_score": 0.905,
     "keywords": [
       "少陰病"
     ]
   },
   {
-    "skill_id": "hermes.disease.22450135",
+    "skill_id": "hermes.disease.45361128",
     "title": "腹滿證治合併規則",
     "kind": "disease",
     "subject": "腹滿",
     "release_level": "silver",
-    "consensus_score": 0.909,
+    "consensus_score": 0.898,
     "keywords": [
       "腹滿"
     ]
   },
   {
-    "skill_id": "hermes.disease.82179030",
+    "skill_id": "hermes.disease.81156466",
     "title": "陽明病證治合併規則",
     "kind": "disease",
     "subject": "陽明病",
     "release_level": "silver",
-    "consensus_score": 0.898,
+    "consensus_score": 0.893,
     "keywords": [
       "陽明病"
     ]
   },
   {
-    "skill_id": "hermes.disease.73383473",
+    "skill_id": "hermes.disease.65712692",
     "title": "心下痞證治合併規則",
     "kind": "disease",
     "subject": "心下痞",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.898,
     "keywords": [
       "心下痞"
     ]
   },
   {
-    "skill_id": "hermes.disease.66604375",
+    "skill_id": "hermes.disease.95933716",
     "title": "結胸證治合併規則",
     "kind": "disease",
     "subject": "結胸",
     "release_level": "silver",
-    "consensus_score": 0.902,
+    "consensus_score": 0.889,
     "keywords": [
       "結胸"
     ]
   },
   {
-    "skill_id": "hermes.disease.45230562",
+    "skill_id": "hermes.disease.95644517",
     "title": "嘔吐證治合併規則",
     "kind": "disease",
     "subject": "嘔吐",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.899,
     "keywords": [
       "嘔吐"
     ]
   },
   {
-    "skill_id": "hermes.disease.02137709",
-    "title": "中風證治合併規則",
-    "kind": "disease",
-    "subject": "中風",
-    "release_level": "silver",
-    "consensus_score": 0.907,
-    "keywords": [
-      "中風"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.51157901",
+    "skill_id": "hermes.disease.90985168",
     "title": "痞證治合併規則",
     "kind": "disease",
     "subject": "痞",
     "release_level": "silver",
-    "consensus_score": 0.912,
+    "consensus_score": 0.89,
     "keywords": [
       "痞"
     ]
   },
   {
-    "skill_id": "hermes.disease.40418757",
+    "skill_id": "hermes.disease.99162643",
+    "title": "中風證治合併規則",
+    "kind": "disease",
+    "subject": "中風",
+    "release_level": "silver",
+    "consensus_score": 0.898,
+    "keywords": [
+      "中風"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.66594705",
     "title": "太陽中風證治合併規則",
     "kind": "disease",
     "subject": "太陽中風",
     "release_level": "silver",
-    "consensus_score": 0.902,
+    "consensus_score": 0.895,
     "keywords": [
       "太陽中風"
     ]
   },
   {
-    "skill_id": "hermes.disease.62080591",
-    "title": "消渴證治合併規則",
-    "kind": "disease",
-    "subject": "消渴",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "消渴"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.53265625",
+    "skill_id": "hermes.disease.13859529",
     "title": "亡血證治合併規則",
     "kind": "disease",
     "subject": "亡血",
     "release_level": "silver",
-    "consensus_score": 0.902,
+    "consensus_score": 0.887,
     "keywords": [
       "亡血"
     ]
   },
   {
-    "skill_id": "hermes.disease.42477609",
+    "skill_id": "hermes.disease.45908352",
+    "title": "消渴證治合併規則",
+    "kind": "disease",
+    "subject": "消渴",
+    "release_level": "silver",
+    "consensus_score": 0.912,
+    "keywords": [
+      "消渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.97524895",
     "title": "亡陽證治合併規則",
     "kind": "disease",
     "subject": "亡陽",
     "release_level": "silver",
-    "consensus_score": 0.903,
+    "consensus_score": 0.888,
     "keywords": [
       "亡陽"
     ]
   },
   {
-    "skill_id": "hermes.disease.57640847",
+    "skill_id": "hermes.disease.57511943",
     "title": "噦證治合併規則",
     "kind": "disease",
     "subject": "噦",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.896,
     "keywords": [
       "噦"
     ]
   },
   {
-    "skill_id": "hermes.disease.86361213",
-    "title": "下血證治合併規則",
-    "kind": "disease",
-    "subject": "下血",
-    "release_level": "silver",
-    "consensus_score": 0.909,
-    "keywords": [
-      "下血"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.87468514",
-    "title": "百合病證治合併規則",
-    "kind": "disease",
-    "subject": "百合病",
-    "release_level": "silver",
-    "consensus_score": 0.917,
-    "keywords": [
-      "百合病"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.70999453",
+    "skill_id": "hermes.disease.02529992",
     "title": "產後證治合併規則",
     "kind": "disease",
     "subject": "產後",
     "release_level": "silver",
-    "consensus_score": 0.918,
+    "consensus_score": 0.907,
     "keywords": [
       "產後"
     ]
   },
   {
-    "skill_id": "hermes.disease.98669161",
+    "skill_id": "hermes.disease.23199834",
+    "title": "百合病證治合併規則",
+    "kind": "disease",
+    "subject": "百合病",
+    "release_level": "silver",
+    "consensus_score": 0.891,
+    "keywords": [
+      "百合病"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.28329736",
     "title": "霍亂證治合併規則",
     "kind": "disease",
     "subject": "霍亂",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.889,
     "keywords": [
       "霍亂"
     ]
   },
   {
-    "skill_id": "hermes.disease.29089118",
-    "title": "支飲證治合併規則",
-    "kind": "disease",
-    "subject": "支飲",
-    "release_level": "silver",
-    "consensus_score": 0.918,
-    "keywords": [
-      "支飲"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.98683926",
-    "title": "心痛證治合併規則",
-    "kind": "disease",
-    "subject": "心痛",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "心痛"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.58256217",
+    "skill_id": "hermes.disease.41159386",
     "title": "虛勞證治合併規則",
     "kind": "disease",
     "subject": "虛勞",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.897,
     "keywords": [
       "虛勞"
     ]
   },
   {
-    "skill_id": "hermes.disease.52972077",
-    "title": "奔豚證治合併規則",
+    "skill_id": "hermes.disease.85802947",
+    "title": "支飲證治合併規則",
     "kind": "disease",
-    "subject": "奔豚",
+    "subject": "支飲",
     "release_level": "silver",
-    "consensus_score": 0.919,
+    "consensus_score": 0.903,
     "keywords": [
-      "奔豚"
+      "支飲"
     ]
   },
   {
-    "skill_id": "hermes.disease.45842829",
-    "title": "妊娠證治合併規則",
+    "skill_id": "hermes.disease.04324250",
+    "title": "心痛證治合併規則",
     "kind": "disease",
-    "subject": "妊娠",
+    "subject": "心痛",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.906,
     "keywords": [
-      "妊娠"
+      "心痛"
     ]
   },
   {
-    "skill_id": "hermes.disease.53953578",
+    "skill_id": "hermes.disease.44353212",
     "title": "胸痹證治合併規則",
     "kind": "disease",
     "subject": "胸痹",
     "release_level": "silver",
-    "consensus_score": 0.919,
+    "consensus_score": 0.909,
     "keywords": [
       "胸痹"
     ]
   },
   {
-    "skill_id": "hermes.disease.55922418",
+    "skill_id": "hermes.disease.91493451",
+    "title": "妊娠證治合併規則",
+    "kind": "disease",
+    "subject": "妊娠",
+    "release_level": "silver",
+    "consensus_score": 0.903,
+    "keywords": [
+      "妊娠"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.13684425",
+    "title": "奔豚證治合併規則",
+    "kind": "disease",
+    "subject": "奔豚",
+    "release_level": "silver",
+    "consensus_score": 0.9,
+    "keywords": [
+      "奔豚"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.17626052",
+    "title": "下血證治合併規則",
+    "kind": "disease",
+    "subject": "下血",
+    "release_level": "silver",
+    "consensus_score": 0.891,
+    "keywords": [
+      "下血"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.83266555",
     "title": "厥陰病證治合併規則",
     "kind": "disease",
     "subject": "厥陰病",
-    "release_level": "gold",
-    "consensus_score": 0.93,
+    "release_level": "silver",
+    "consensus_score": 0.925,
     "keywords": [
       "厥陰病"
     ]
   },
   {
-    "skill_id": "hermes.disease.85098644",
-    "title": "熱入血室證治合併規則",
-    "kind": "disease",
-    "subject": "熱入血室",
-    "release_level": "silver",
-    "consensus_score": 0.908,
-    "keywords": [
-      "熱入血室"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.48524212",
+    "skill_id": "hermes.disease.42095841",
     "title": "太陰病證治合併規則",
     "kind": "disease",
     "subject": "太陰病",
     "release_level": "silver",
-    "consensus_score": 0.928,
+    "consensus_score": 0.927,
     "keywords": [
       "太陰病"
     ]
   },
   {
-    "skill_id": "hermes.disease.93847535",
-    "title": "溫病證治合併規則",
+    "skill_id": "hermes.disease.45700605",
+    "title": "熱入血室證治合併規則",
     "kind": "disease",
-    "subject": "溫病",
+    "subject": "熱入血室",
     "release_level": "silver",
-    "consensus_score": 0.893,
+    "consensus_score": 0.905,
     "keywords": [
-      "溫病"
+      "熱入血室"
     ]
   },
   {
-    "skill_id": "hermes.disease.31528950",
-    "title": "剛痙證治合併規則",
-    "kind": "disease",
-    "subject": "剛痙",
-    "release_level": "silver",
-    "consensus_score": 0.888,
-    "keywords": [
-      "剛痙"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.19349436",
-    "title": "蛔厥證治合併規則",
-    "kind": "disease",
-    "subject": "蛔厥",
-    "release_level": "silver",
-    "consensus_score": 0.917,
-    "keywords": [
-      "蛔厥"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.26865498",
-    "title": "勞復證治合併規則",
-    "kind": "disease",
-    "subject": "勞復",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "勞復"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.12647839",
+    "skill_id": "hermes.disease.68938025",
     "title": "臟結證治合併規則",
     "kind": "disease",
     "subject": "臟結",
     "release_level": "silver",
-    "consensus_score": 0.898,
+    "consensus_score": 0.878,
     "keywords": [
       "臟結"
     ]
   },
   {
-    "skill_id": "hermes.disease.60240680",
+    "skill_id": "hermes.disease.22645815",
+    "title": "蛔厥證治合併規則",
+    "kind": "disease",
+    "subject": "蛔厥",
+    "release_level": "silver",
+    "consensus_score": 0.898,
+    "keywords": [
+      "蛔厥"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.86383389",
     "title": "肺癰證治合併規則",
     "kind": "disease",
     "subject": "肺癰",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.907,
     "keywords": [
       "肺癰"
     ]
   },
   {
-    "skill_id": "hermes.disease.06268742",
+    "skill_id": "hermes.disease.17949001",
     "title": "風水證治合併規則",
     "kind": "disease",
     "subject": "風水",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.909,
     "keywords": [
       "風水"
     ]
   },
   {
-    "skill_id": "hermes.disease.53530011",
-    "title": "痰飲證治合併規則",
-    "kind": "disease",
-    "subject": "痰飲",
-    "release_level": "silver",
-    "consensus_score": 0.911,
-    "keywords": [
-      "痰飲"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.99489485",
-    "title": "瘀血證治合併規則",
-    "kind": "disease",
-    "subject": "瘀血",
-    "release_level": "silver",
-    "consensus_score": 0.901,
-    "keywords": [
-      "瘀血"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.53913874",
-    "title": "皮水證治合併規則",
-    "kind": "disease",
-    "subject": "皮水",
-    "release_level": "silver",
-    "consensus_score": 0.919,
-    "keywords": [
-      "皮水"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.01397124",
+    "skill_id": "hermes.disease.05666868",
     "title": "寒疝證治合併規則",
     "kind": "disease",
     "subject": "寒疝",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.907,
     "keywords": [
       "寒疝"
     ]
   },
   {
-    "skill_id": "hermes.disease.39085664",
+    "skill_id": "hermes.disease.18829967",
+    "title": "皮水證治合併規則",
+    "kind": "disease",
+    "subject": "皮水",
+    "release_level": "silver",
+    "consensus_score": 0.9,
+    "keywords": [
+      "皮水"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.08133174",
     "title": "少陽病證治合併規則",
     "kind": "disease",
     "subject": "少陽病",
     "release_level": "gold",
-    "consensus_score": 0.934,
+    "consensus_score": 0.933,
     "keywords": [
       "少陽病"
     ]
   },
   {
-    "skill_id": "hermes.disease.57836761",
-    "title": "中寒證治合併規則",
+    "skill_id": "hermes.disease.15035749",
+    "title": "痰飲證治合併規則",
     "kind": "disease",
-    "subject": "中寒",
+    "subject": "痰飲",
     "release_level": "silver",
-    "consensus_score": 0.911,
+    "consensus_score": 0.878,
     "keywords": [
-      "中寒"
+      "痰飲"
     ]
   },
   {
-    "skill_id": "hermes.disease.30188424",
-    "title": "陰陽易證治合併規則",
+    "skill_id": "hermes.disease.58493128",
+    "title": "勞復證治合併規則",
     "kind": "disease",
-    "subject": "陰陽易",
+    "subject": "勞復",
     "release_level": "silver",
-    "consensus_score": 0.923,
+    "consensus_score": 0.902,
     "keywords": [
-      "陰陽易"
+      "勞復"
     ]
   },
   {
-    "skill_id": "hermes.disease.30141371",
+    "skill_id": "hermes.disease.99288456",
+    "title": "溫病證治合併規則",
+    "kind": "disease",
+    "subject": "溫病",
+    "release_level": "silver",
+    "consensus_score": 0.892,
+    "keywords": [
+      "溫病"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.05347354",
     "title": "小結胸證治合併規則",
     "kind": "disease",
     "subject": "小結胸",
     "release_level": "silver",
-    "consensus_score": 0.916,
+    "consensus_score": 0.913,
     "keywords": [
       "小結胸"
     ]
   },
   {
-    "skill_id": "hermes.disease.14258205",
+    "skill_id": "hermes.disease.03974628",
+    "title": "中寒證治合併規則",
+    "kind": "disease",
+    "subject": "中寒",
+    "release_level": "silver",
+    "consensus_score": 0.891,
+    "keywords": [
+      "中寒"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.54383619",
+    "title": "瘀血證治合併規則",
+    "kind": "disease",
+    "subject": "瘀血",
+    "release_level": "silver",
+    "consensus_score": 0.893,
+    "keywords": [
+      "瘀血"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.08348548",
     "title": "轉筋證治合併規則",
     "kind": "disease",
     "subject": "轉筋",
     "release_level": "silver",
-    "consensus_score": 0.922,
+    "consensus_score": 0.902,
     "keywords": [
       "轉筋"
     ]
   },
   {
-    "skill_id": "hermes.disease.22350515",
-    "title": "中暍證治合併規則",
+    "skill_id": "hermes.disease.33707876",
+    "title": "陰陽易證治合併規則",
     "kind": "disease",
-    "subject": "中暍",
+    "subject": "陰陽易",
     "release_level": "silver",
-    "consensus_score": 0.903,
+    "consensus_score": 0.918,
     "keywords": [
-      "中暍"
+      "陰陽易"
     ]
   },
   {
-    "skill_id": "hermes.disease.38242909",
-    "title": "蓄血證治合併規則",
-    "kind": "disease",
-    "subject": "蓄血",
-    "release_level": "silver",
-    "consensus_score": 0.905,
-    "keywords": [
-      "蓄血"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.00981661",
-    "title": "宿食證治合併規則",
-    "kind": "disease",
-    "subject": "宿食",
-    "release_level": "silver",
-    "consensus_score": 0.911,
-    "keywords": [
-      "宿食"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.09384179",
-    "title": "懸飲證治合併規則",
-    "kind": "disease",
-    "subject": "懸飲",
-    "release_level": "silver",
-    "consensus_score": 0.914,
-    "keywords": [
-      "懸飲"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.54985357",
-    "title": "腸癰證治合併規則",
-    "kind": "disease",
-    "subject": "腸癰",
-    "release_level": "silver",
-    "consensus_score": 0.903,
-    "keywords": [
-      "腸癰"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.52619780",
+    "skill_id": "hermes.disease.04725826",
     "title": "濕家病證治合併規則",
     "kind": "disease",
     "subject": "濕家病",
@@ -4733,40 +4419,40 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.92003662",
-    "title": "穀疸證治合併規則",
-    "kind": "disease",
-    "subject": "穀疸",
-    "release_level": "silver",
-    "consensus_score": 0.922,
-    "keywords": [
-      "穀疸"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.66047820",
+    "skill_id": "hermes.disease.76207016",
     "title": "黃汗證治合併規則",
     "kind": "disease",
     "subject": "黃汗",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.894,
     "keywords": [
       "黃汗"
     ]
   },
   {
-    "skill_id": "hermes.disease.15100105",
+    "skill_id": "hermes.disease.07845471",
+    "title": "宿食證治合併規則",
+    "kind": "disease",
+    "subject": "宿食",
+    "release_level": "silver",
+    "consensus_score": 0.894,
+    "keywords": [
+      "宿食"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.36174717",
     "title": "歷節證治合併規則",
     "kind": "disease",
     "subject": "歷節",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.904,
     "keywords": [
       "歷節"
     ]
   },
   {
-    "skill_id": "hermes.disease.35892837",
+    "skill_id": "hermes.disease.15959120",
     "title": "肺脹證治合併規則",
     "kind": "disease",
     "subject": "肺脹",
@@ -4777,117 +4463,161 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.88505171",
+    "skill_id": "hermes.disease.27843977",
+    "title": "懸飲證治合併規則",
+    "kind": "disease",
+    "subject": "懸飲",
+    "release_level": "silver",
+    "consensus_score": 0.888,
+    "keywords": [
+      "懸飲"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.22437637",
     "title": "溢飲證治合併規則",
     "kind": "disease",
     "subject": "溢飲",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.893,
     "keywords": [
       "溢飲"
     ]
   },
   {
-    "skill_id": "hermes.disease.03681944",
-    "title": "太陽傷寒證治合併規則",
+    "skill_id": "hermes.disease.21736575",
+    "title": "腸癰證治合併規則",
     "kind": "disease",
-    "subject": "太陽傷寒",
+    "subject": "腸癰",
     "release_level": "silver",
-    "consensus_score": 0.901,
+    "consensus_score": 0.895,
     "keywords": [
-      "太陽傷寒"
+      "腸癰"
     ]
   },
   {
-    "skill_id": "hermes.disease.89573298",
-    "title": "柔痙證治合併規則",
+    "skill_id": "hermes.disease.34049218",
+    "title": "穀疸證治合併規則",
     "kind": "disease",
-    "subject": "柔痙",
+    "subject": "穀疸",
     "release_level": "silver",
-    "consensus_score": 0.898,
+    "consensus_score": 0.91,
     "keywords": [
-      "柔痙"
+      "穀疸"
     ]
   },
   {
-    "skill_id": "hermes.disease.57820162",
-    "title": "百合證治合併規則",
+    "skill_id": "hermes.disease.40938154",
+    "title": "剛痙證治合併規則",
     "kind": "disease",
-    "subject": "百合",
+    "subject": "剛痙",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.899,
     "keywords": [
-      "百合"
+      "剛痙"
     ]
   },
   {
-    "skill_id": "hermes.disease.88985575",
-    "title": "留飲證治合併規則",
+    "skill_id": "hermes.disease.15861379",
+    "title": "中暍證治合併規則",
     "kind": "disease",
-    "subject": "留飲",
+    "subject": "中暍",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.909,
     "keywords": [
-      "留飲"
+      "中暍"
     ]
   },
   {
-    "skill_id": "hermes.disease.74903927",
+    "skill_id": "hermes.disease.61588982",
     "title": "狐惑證治合併規則",
     "kind": "disease",
     "subject": "狐惑",
     "release_level": "silver",
-    "consensus_score": 0.914,
+    "consensus_score": 0.876,
     "keywords": [
       "狐惑"
     ]
   },
   {
-    "skill_id": "hermes.disease.46253184",
+    "skill_id": "hermes.disease.62865116",
+    "title": "太陽傷寒證治合併規則",
+    "kind": "disease",
+    "subject": "太陽傷寒",
+    "release_level": "silver",
+    "consensus_score": 0.902,
+    "keywords": [
+      "太陽傷寒"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.55428555",
+    "title": "蓄血證治合併規則",
+    "kind": "disease",
+    "subject": "蓄血",
+    "release_level": "silver",
+    "consensus_score": 0.881,
+    "keywords": [
+      "蓄血"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.70101660",
+    "title": "百合證治合併規則",
+    "kind": "disease",
+    "subject": "百合",
+    "release_level": "silver",
+    "consensus_score": 0.874,
+    "keywords": [
+      "百合"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.96191026",
+    "title": "留飲證治合併規則",
+    "kind": "disease",
+    "subject": "留飲",
+    "release_level": "silver",
+    "consensus_score": 0.909,
+    "keywords": [
+      "留飲"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.61636969",
     "title": "奔豚氣證治合併規則",
     "kind": "disease",
     "subject": "奔豚氣",
     "release_level": "silver",
-    "consensus_score": 0.917,
+    "consensus_score": 0.908,
     "keywords": [
       "奔豚氣"
     ]
   },
   {
-    "skill_id": "hermes.disease.79091108",
-    "title": "陰狐疝證治合併規則",
-    "kind": "disease",
-    "subject": "陰狐疝",
-    "release_level": "silver",
-    "consensus_score": 0.92,
-    "keywords": [
-      "陰狐疝"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.54259824",
+    "skill_id": "hermes.disease.84217155",
     "title": "黃疸證治合併規則",
     "kind": "disease",
     "subject": "黃疸",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.912,
     "keywords": [
       "黃疸"
     ]
   },
   {
-    "skill_id": "hermes.disease.36759198",
-    "title": "風溫證治合併規則",
+    "skill_id": "hermes.disease.84287624",
+    "title": "柔痙證治合併規則",
     "kind": "disease",
-    "subject": "風溫",
+    "subject": "柔痙",
     "release_level": "silver",
-    "consensus_score": 0.904,
+    "consensus_score": 0.892,
     "keywords": [
-      "風溫"
+      "柔痙"
     ]
   },
   {
-    "skill_id": "hermes.disease.72418141",
+    "skill_id": "hermes.disease.79109504",
     "title": "腸癰病證治合併規則",
     "kind": "disease",
     "subject": "腸癰病",
@@ -4898,7 +4628,7 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.75591438",
+    "skill_id": "hermes.disease.53749828",
     "title": "陽毒病證治合併規則",
     "kind": "disease",
     "subject": "陽毒病",
@@ -4909,18 +4639,7 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.64872498",
-    "title": "痙病證治合併規則",
-    "kind": "disease",
-    "subject": "痙病",
-    "release_level": "silver",
-    "consensus_score": 0.902,
-    "keywords": [
-      "痙病"
-    ]
-  },
-  {
-    "skill_id": "hermes.disease.96735672",
+    "skill_id": "hermes.disease.02043794",
     "title": "血痹證治合併規則",
     "kind": "disease",
     "subject": "血痹",
@@ -4931,18 +4650,18 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.44166300",
+    "skill_id": "hermes.disease.80096497",
     "title": "帶下證治合併規則",
     "kind": "disease",
     "subject": "帶下",
     "release_level": "silver",
-    "consensus_score": 0.92,
+    "consensus_score": 0.906,
     "keywords": [
       "帶下"
     ]
   },
   {
-    "skill_id": "hermes.disease.42077384",
+    "skill_id": "hermes.disease.21571290",
     "title": "寒陰陽易證治合併規則",
     "kind": "disease",
     "subject": "寒陰陽易",
@@ -4953,7 +4672,18 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.23604441",
+    "skill_id": "hermes.disease.44644444",
+    "title": "風溫證治合併規則",
+    "kind": "disease",
+    "subject": "風溫",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "風溫"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.04600169",
     "title": "蚘蟲病證治合併規則",
     "kind": "disease",
     "subject": "蚘蟲病",
@@ -4964,18 +4694,29 @@
     ]
   },
   {
-    "skill_id": "hermes.disease.00945403",
+    "skill_id": "hermes.disease.14716073",
     "title": "驚悸證治合併規則",
     "kind": "disease",
     "subject": "驚悸",
     "release_level": "silver",
-    "consensus_score": 0.913,
+    "consensus_score": 0.905,
     "keywords": [
       "驚悸"
     ]
   },
   {
-    "skill_id": "hermes.disease.15979659",
+    "skill_id": "hermes.disease.38029604",
+    "title": "陰狐疝證治合併規則",
+    "kind": "disease",
+    "subject": "陰狐疝",
+    "release_level": "silver",
+    "consensus_score": 0.92,
+    "keywords": [
+      "陰狐疝"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.52142270",
     "title": "蚘蟲證治合併規則",
     "kind": "disease",
     "subject": "蚘蟲",

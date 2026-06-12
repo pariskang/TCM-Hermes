@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_01f8d46a`
 - **Merged rule**: `MHR_FORMULA_FORMULA_01F8D46A`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 7
+- **Consensus score**: 0.891
+- **Supporting initial rules**: 5
 
 ## 归纳主张
-硝石礬石散可歸納為腹滿、少腹滿、發熱、惡寒、胸滿等方證的核心方（支持條文 7 條，跨 7 部書）。
+硝石礬石散可歸納為腹滿、少腹滿、胸滿等方證的核心方（支持條文 5 條，跨 5 部書）。
 
 ## 原文证据（节选）
 > 此女勞之病。非水也。腹滿者難治。硝石礬石散主之。
@@ -25,14 +25,8 @@
 > 13.33女勞，膀胱急，少腹滿，身盡黃，額上黑，足下熱，其腹脹如水狀，大便溏而黑，胸滿者難治。硝石礬石散主之。
 > ——《傷寒雜病論(桂本)》·辨瘧病脈證並治（SU_SHL_GUIBEN_001180，silver）
 
-> 黃家日晡所發熱，而反惡寒，此為女勞得之；膀胱急，少腹滿、身盡黃，額上黑，足下熱，因作黑疸，其腹脹如水狀，大便必黑，時溏，此女勞之病，非水也。腹滿者難治。硝石礬石散主之。
-> ——《金匱要略方論》·黃疸病脈證并治第十五（SU_JGYL_FANGLUN_000668，silver）
-
-> 黃家日晡所發熱，而反惡寒，此為女勞得之；膀胱急，少腹滿、身盡黃，額上黑，足下熱，因作黑疸，其腹脹如水狀，大便必黑，時溏，此女勞之病，非水也。腹滿者難治。硝石礬石散主之。
-> ——《金匱要略方論》·黃疸病脈證并治第十五（SU_JGYL_TIAOWEN_000666，silver）
-
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["胸滿"], "rule_ids": ["IR_SHL_GUIBEN_001359"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["少腹滿", "胸滿"], "rule_ids": ["IR_SHL_GUIBEN_001359"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

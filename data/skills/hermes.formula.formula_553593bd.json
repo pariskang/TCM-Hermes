@@ -6,7 +6,7 @@
   "abstracted_claim": "梔子柏皮湯可歸納為傷寒、陽明病、身黃、發熱、發黃、無汗等方證的核心方（支持條文 25 條，跨 19 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_553593BD",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.898,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000281",
     "IR_B0B74DF58_000421",
@@ -360,6 +360,6 @@
     "無汗"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -1,0 +1,318 @@
+{
+  "skill_id": "hermes.disease.28329736",
+  "kind": "disease",
+  "title": "霍亂證治合併規則",
+  "subject": "霍亂",
+  "abstracted_claim": "霍亂相關條文 39 條；主要方劑：五苓散、理中丸、四逆湯、理中湯、雞矢白湯。",
+  "merged_rule_id": "MHR_DISEASE_28329736",
+  "release_level": "silver",
+  "consensus_score": 0.889,
+  "supporting_initial_rules": [
+    "IR_B11498305_000652",
+    "IR_B11498305_001050",
+    "IR_B1CAC3ADF_000903",
+    "IR_B54968951_000021",
+    "IR_B54968951_000022",
+    "IR_B5FF1CA1B_000684",
+    "IR_B8E444005_000062",
+    "IR_B8E444005_000193",
+    "IR_B8E444005_000247",
+    "IR_B9FC1D1C8_000006",
+    "IR_BBA9FB4A6_000187",
+    "IR_BBA9FB4A6_000337",
+    "IR_BBAACE965_001379",
+    "IR_BC2BA03C0_000184",
+    "IR_BCCBDEC5F_000271",
+    "IR_JGYL_JIYI_000154",
+    "IR_SHL_GUANZHU_000359",
+    "IR_SHL_GUANZHU_000360",
+    "IR_SHL_GUIBEN_001202",
+    "IR_SHL_GUIBEN_001211",
+    "IR_SHL_GUIBEN_001220",
+    "IR_SHL_GUIBEN_001231",
+    "IR_SHL_GUIBEN_001232",
+    "IR_SHL_GUIBEN_001233",
+    "IR_SHL_LAISU_000620",
+    "IR_SHL_LAISU_000621",
+    "IR_SHL_LAISU_000622",
+    "IR_SHL_LUNZHU_000629",
+    "IR_SHL_LUNZHU_000630",
+    "IR_SHL_MINGLI_000139",
+    "IR_SHL_QJYF_000352",
+    "IR_SHL_QJYF_000353",
+    "IR_SHL_SONGBEN_000449",
+    "IR_SHL_SONGBEN_000450",
+    "IR_SHL_SUYUAN_001087",
+    "IR_SHL_TIAOWEN_000403",
+    "IR_SHL_TIAOWEN_000404",
+    "IR_SHL_ZHUJIE_001035",
+    "IR_SHL_ZHUJIE_001036"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000652",
+      "IR_B11498305_001050",
+      "IR_B1CAC3ADF_000903",
+      "IR_B54968951_000021",
+      "IR_B54968951_000022",
+      "IR_B5FF1CA1B_000684",
+      "IR_B8E444005_000062",
+      "IR_B8E444005_000193",
+      "IR_B8E444005_000247",
+      "IR_B9FC1D1C8_000006",
+      "IR_BBA9FB4A6_000187",
+      "IR_BBA9FB4A6_000337",
+      "IR_BBAACE965_001379",
+      "IR_BC2BA03C0_000184",
+      "IR_BCCBDEC5F_000271",
+      "IR_JGYL_JIYI_000154",
+      "IR_SHL_GUANZHU_000359",
+      "IR_SHL_GUANZHU_000360",
+      "IR_SHL_GUIBEN_001202",
+      "IR_SHL_GUIBEN_001211",
+      "IR_SHL_GUIBEN_001220",
+      "IR_SHL_GUIBEN_001231",
+      "IR_SHL_GUIBEN_001232",
+      "IR_SHL_GUIBEN_001233",
+      "IR_SHL_LAISU_000620",
+      "IR_SHL_LAISU_000621",
+      "IR_SHL_LAISU_000622",
+      "IR_SHL_LUNZHU_000629",
+      "IR_SHL_LUNZHU_000630",
+      "IR_SHL_MINGLI_000139",
+      "IR_SHL_QJYF_000352",
+      "IR_SHL_QJYF_000353",
+      "IR_SHL_SONGBEN_000449",
+      "IR_SHL_SONGBEN_000450",
+      "IR_SHL_SUYUAN_001087",
+      "IR_SHL_TIAOWEN_000403",
+      "IR_SHL_TIAOWEN_000404",
+      "IR_SHL_ZHUJIE_001035",
+      "IR_SHL_ZHUJIE_001036"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒括要",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCCBDEC5F_000570",
+      "evidence_span": "吐利者。此名霍亂。熱多飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_001111",
+      "evidence_span": "霍亂頭痛發熱身疼痛熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒發微論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9FC1D1C8_000021",
+      "evidence_span": "轉筋入腹（霍亂證。轉筋入腹者。雞矢白湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B1CAC3ADF_002373",
+      "evidence_span": "霍亂頭痛發熱。身疼痛熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001393",
+      "evidence_span": "仲景論。霍亂四逆。吐少嘔多者。附子粳米湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "",
+      "source_unit_id": "SU_B8E444005_000179",
+      "evidence_span": "霍亂頭痛發熱。身疼痛。熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_003305",
+      "evidence_span": "霍亂頭痛。發熱身疼痛。熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC2BA03C0_000398",
+      "evidence_span": "霍亂，頭痛發熱，身體疼，熱多欲飲水，五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SUYUAN_002481",
+      "evidence_span": "霍亂頭痛發熱。身疼痛。熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000545",
+      "evidence_span": "霍亂而頭痛發熱，身體疼痛，熱多欲飲水，五苓散主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "",
+      "source_unit_id": "SU_B8E444005_000297",
+      "evidence_span": "經云。霍亂頭痛發熱身疼痛。熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "",
+      "source_unit_id": "SU_B8E444005_000345",
+      "evidence_span": "經云。霍亂頭痛發熱身疼痛。熱多欲飲水者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001059",
+      "evidence_span": "12.4霍亂嘔吐下利，無寒熱，脈濡弱者，理中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000866",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000713",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_001624",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001065",
+      "evidence_span": "12.7霍亂嘔吐，下利清穀，手足厥冷，脈沉而遲者，四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "劉河間傷寒醫鑑",
+      "chapter_title": "",
+      "source_unit_id": "SU_B54968951_000024",
+      "evidence_span": "《活人書》云：霍亂，嘔吐而利，熱多而不渴，寒多而不飢，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001079",
+      "evidence_span": "12.15霍亂已，頭痛，發熱，身疼痛，熱多，欲飲水者，五苓散主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000781",
+      "evidence_span": "霍亂後身痛不休，桂枝湯。濕家身疼痛，不可發汗，發汗則成　，葛根桂枝湯。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000870",
+      "evidence_span": "霍亂頭痛發熱身疼痛，熱多欲飲水者，五苓散主之，寒多不用水者，理中圓主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000219",
+      "evidence_span": "霍亂，頭痛發熱，身疼痛，熱多欲飲水者，五苓散主之，寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000219",
+      "evidence_span": "霍亂，頭痛發熱，身疼痛，熱多欲飲水者，五苓散主之，寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000545",
+      "evidence_span": "霍亂而頭痛發熱，身體疼痛，熱多欲飲水，五苓散主之；寒多不用水者，理中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001071",
+      "evidence_span": "12.10 霍亂吐、利，口渴，汗出，短氣，脈弱而濡者，理中加人參栝蔞根湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000866",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000713",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_001624",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之；寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_001524",
+      "evidence_span": "凡乾霍亂，不得吐者，用鹽兩許，置刀頭，炭火燒紅，淬水一升攪服，探吐之，若誤與粥飲即死。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001079",
+      "evidence_span": "12.15霍亂已，頭痛，發熱，身疼痛，熱多，欲飲水者，五苓散主之；寒多，不飲水者，理中丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "霍亂"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

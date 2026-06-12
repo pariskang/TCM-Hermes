@@ -3,17 +3,13 @@
   "kind": "formula",
   "title": "葛根黃芩黃連湯方證合併規則",
   "subject": "葛根黃芩黃連湯",
-  "abstracted_claim": "葛根黃芩黃連湯可歸納為太陽病、喘、汗出、潮熱、脈促等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "abstracted_claim": "葛根黃芩黃連湯可歸納為太陽病、喘、汗出、潮熱、脈促等方證的核心方（支持條文 4 條，跨 4 部書）。",
   "merged_rule_id": "MHR_FORMULA_GEGEN_QINLIAN_TANG",
   "release_level": "silver",
-  "consensus_score": 0.884,
+  "consensus_score": 0.89,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000058",
     "IR_B11498305_000753",
-    "IR_B5C5ECAC2_000203",
-    "IR_B5FF1CA1B_000576",
-    "IR_BBAACE965_000149",
-    "IR_CAOSHI_FAWEI_000078",
     "IR_SHL_SONGBEN_000082",
     "IR_SHL_TIAOWEN_000036"
   ],
@@ -22,44 +18,12 @@
     "silver": [
       "IR_B0B74DF58_000058",
       "IR_B11498305_000753",
-      "IR_B5C5ECAC2_000203",
-      "IR_B5FF1CA1B_000576",
-      "IR_BBAACE965_000149",
-      "IR_CAOSHI_FAWEI_000078",
       "IR_SHL_SONGBEN_000082",
       "IR_SHL_TIAOWEN_000036"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒指掌",
-      "chapter_title": "誤下例",
-      "source_unit_id": "SU_B5C5ECAC2_000861",
-      "evidence_span": "脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "合病並病篇",
-      "source_unit_id": "SU_B5FF1CA1B_000934",
-      "evidence_span": "脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治中",
-      "source_unit_id": "SU_BBAACE965_000400",
-      "evidence_span": "脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000128",
-      "evidence_span": "脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒論(宋本)",
       "chapter_title": "辨太陽病脈證並治中第六",
@@ -113,11 +77,11 @@
     "symptoms": [
       {
         "term": "喘",
-        "count": 8
+        "count": 4
       },
       {
         "term": "汗出",
-        "count": 8
+        "count": 4
       },
       {
         "term": "潮熱",
@@ -127,7 +91,7 @@
     "pulse": [
       {
         "term": "脈促",
-        "count": 8
+        "count": 4
       }
     ],
     "pathomechanism": []
@@ -136,7 +100,7 @@
     "treatment_principle": [
       {
         "term": "解表清裏止利",
-        "count": 8
+        "count": 4
       }
     ]
   },
@@ -149,6 +113,6 @@
     "脈促"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

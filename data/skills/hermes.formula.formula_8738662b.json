@@ -3,16 +3,15 @@
   "kind": "formula",
   "title": "竹葉湯方證合併規則",
   "subject": "竹葉湯",
-  "abstracted_claim": "竹葉湯可歸納為產後、中風、發熱、喘、頭痛、面赤等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "abstracted_claim": "竹葉湯可歸納為產後、中風、發熱、喘、頭痛、面赤等方證的核心方（支持條文 7 條，跨 7 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_8738662B",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.899,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001425",
     "IR_JGYH_ERZHU_000354",
     "IR_JGYL_FANGLUN_000278",
     "IR_JGYL_JIYI_000455",
-    "IR_JGYL_QIANZHU_000320",
     "IR_JGYL_TIAOWEN_000278",
     "IR_JGYL_XINDIAN_000306",
     "IR_SHL_GUIBEN_001606"
@@ -24,7 +23,6 @@
       "IR_JGYH_ERZHU_000354",
       "IR_JGYL_FANGLUN_000278",
       "IR_JGYL_JIYI_000455",
-      "IR_JGYL_QIANZHU_000320",
       "IR_JGYL_TIAOWEN_000278",
       "IR_JGYL_XINDIAN_000306",
       "IR_SHL_GUIBEN_001606"
@@ -72,13 +70,6 @@
       "chapter_title": "婦人產後病脈證治第二十一",
       "source_unit_id": "SU_JGYL_TIAOWEN_000936",
       "evidence_span": "產後中風，發熱，面正赤，喘而頭痛，竹葉湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "婦人產後病脈證治第二十一",
-      "source_unit_id": "SU_JGYL_QIANZHU_001333",
-      "evidence_span": "而產後正氣大虛。又不能以勝邪氣。誠恐變為痙證。以）竹葉湯主之。",
       "release_level": "silver"
     },
     {
@@ -139,7 +130,7 @@
     "disease": [
       {
         "term": "產後",
-        "count": 8
+        "count": 7
       },
       {
         "term": "中風",
@@ -191,6 +182,6 @@
     "脈弦"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

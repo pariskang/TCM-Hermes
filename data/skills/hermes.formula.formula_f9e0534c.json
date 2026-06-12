@@ -3,20 +3,18 @@
   "kind": "formula",
   "title": "桂枝去芍藥加附子湯方證合併規則",
   "subject": "桂枝去芍藥加附子湯",
-  "abstracted_claim": "桂枝去芍藥加附子湯可歸納為太陽病、惡寒、胸滿、脈促等方證的核心方（支持條文 3 條，跨 3 部書）。",
+  "abstracted_claim": "桂枝去芍藥加附子湯可歸納為太陽病、惡寒等方證的核心方（支持條文 2 條，跨 2 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_F9E0534C",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.908,
   "supporting_initial_rules": [
     "IR_BBAACE965_000063",
-    "IR_CAOSHI_FAWEI_000043",
     "IR_SHL_GUIBEN_000378"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_BBAACE965_000063",
-      "IR_CAOSHI_FAWEI_000043",
       "IR_SHL_GUIBEN_000378"
     ],
     "bronze": []
@@ -35,28 +33,9 @@
       "source_unit_id": "SU_SHL_GUIBEN_000442",
       "evidence_span": "6.23太陽病，下之後，其人惡寒者，桂枝去芍藥加附子湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000085",
-      "evidence_span": "脈促胸滿者。桂枝去芍藥湯主之。若微寒者。桂枝去芍藥加附子湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_CAOSHI_FAWEI",
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "distinct_conditions": [
-        "胸滿",
-        "脈促"
-      ],
-      "rule_ids": [
-        "IR_CAOSHI_FAWEI_000043"
-      ]
-    },
     {
       "kind": "condition_variant",
       "book_id": "BOOK_SHL_GUIBEN",
@@ -128,18 +107,9 @@
       {
         "term": "惡寒",
         "count": 2
-      },
-      {
-        "term": "胸滿",
-        "count": 1
       }
     ],
-    "pulse": [
-      {
-        "term": "脈促",
-        "count": 1
-      }
-    ],
+    "pulse": [],
     "pathomechanism": []
   },
   "then_profile": {
@@ -148,11 +118,9 @@
   "keywords": [
     "桂枝去芍藥加附子湯",
     "太陽病",
-    "惡寒",
-    "胸滿",
-    "脈促"
+    "惡寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

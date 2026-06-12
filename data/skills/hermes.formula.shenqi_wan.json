@@ -1,132 +1,93 @@
 {
   "skill_id": "hermes.formula.shenqi_wan",
   "kind": "formula",
-  "title": "腎氣丸方證合併規則",
-  "subject": "腎氣丸",
-  "abstracted_claim": "腎氣丸可歸納為消渴、虛勞、小便不利、轉胞、腰痛、不得臥等方證的核心方（支持條文 7 條，跨 4 部書）。",
+  "title": "八味腎氣丸方證合併規則",
+  "subject": "八味腎氣丸",
+  "abstracted_claim": "八味腎氣丸可歸納為虛勞、小便不利、腰痛等方證的核心方（支持條文 6 條，跨 6 部書）。",
   "merged_rule_id": "MHR_FORMULA_SHENQI_WAN",
   "release_level": "silver",
-  "consensus_score": 0.911,
+  "consensus_score": 0.892,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_000784",
-    "IR_CAOSHI_FAWEI_001181",
-    "IR_JGYL_FANGLUN_000136",
-    "IR_JGYL_TIAOWEN_000136",
-    "IR_SHL_GUIBEN_001187",
-    "IR_SHL_GUIBEN_001349",
-    "IR_SHL_GUIBEN_001655"
+    "IR_CAOSHI_FAWEI_001032",
+    "IR_JGYH_ERZHU_000075",
+    "IR_JGYL_FANGLUN_000054",
+    "IR_JGYL_JIYI_000098",
+    "IR_JGYL_TIAOWEN_000054",
+    "IR_JGYL_XINDIAN_000059"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_000784",
-      "IR_CAOSHI_FAWEI_001181",
-      "IR_JGYL_FANGLUN_000136",
-      "IR_JGYL_TIAOWEN_000136",
-      "IR_SHL_GUIBEN_001187",
-      "IR_SHL_GUIBEN_001349",
-      "IR_SHL_GUIBEN_001655"
+      "IR_CAOSHI_FAWEI_001032",
+      "IR_JGYH_ERZHU_000075",
+      "IR_JGYL_FANGLUN_000054",
+      "IR_JGYL_JIYI_000098",
+      "IR_JGYL_TIAOWEN_000054",
+      "IR_JGYL_XINDIAN_000059"
     ],
     "bronze": []
   },
   "original_evidence": [
     {
-      "book_title": "金匱要略方論",
-      "chapter_title": "消渴小便利淋病脈證并治第十三",
-      "source_unit_id": "SU_JGYL_FANGLUN_000561",
-      "evidence_span": "男子消渴，小便反多，以飲一斗，小便一斗，腎氣丸主之。",
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "血痹虛勞病脈證治第六",
+      "source_unit_id": "SU_JGYH_ERZHU_000516",
+      "evidence_span": "虛勞腰痛。少腹拘急。小便不利者。八味腎氣丸主之。",
       "release_level": "silver"
     },
     {
       "book_title": "金匱要略方論",
-      "chapter_title": "消渴小便利淋病脈證并治第十三",
-      "source_unit_id": "SU_JGYL_TIAOWEN_000559",
-      "evidence_span": "男子消渴，小便反多，以飲一斗，小便一斗，腎氣丸主之。",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_FANGLUN_000229",
+      "evidence_span": "虛勞腰痛，少腹拘急，小便不利者，八味腎氣丸主之。",
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒雜病論(桂本)",
-      "chapter_title": "辨瘧病脈證並治",
-      "source_unit_id": "SU_SHL_GUIBEN_001174",
-      "evidence_span": "13.30虛勞腰痛，少腹拘急，小便不利者，腎氣丸主之。",
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證九條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_000875",
+      "evidence_span": "虛勞腰痛。少腹拘急。小便不利者。八味腎氣丸主之。",
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒雜病論(桂本)",
-      "chapter_title": "辨厥陰病脈證並治",
-      "source_unit_id": "SU_SHL_GUIBEN_001046",
-      "evidence_span": "11.119消渴，小便多，飲一斗，小便亦一斗者，腎氣丸主之。",
+      "book_title": "金匱要略方論",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000227",
+      "evidence_span": "虛勞腰痛，少腹拘急，小便不利者，八味腎氣丸主之。",
       "release_level": "silver"
     },
     {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "厥陰篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000876",
-      "evidence_span": "次燥之膽汁用事。然後見消渴之證也。更即金匱男子亦一斗。腎氣丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒雜病論(桂本)",
-      "chapter_title": "辨婦人各病脈證並治",
-      "source_unit_id": "SU_SHL_GUIBEN_001421",
-      "evidence_span": "16.36問曰：婦人病，飲食如故，煩熱不得臥，而反倚息者，何也？師曰：此名轉胞，不得溺也，以胞系了戾，故致此病，但利小便則愈，腎氣丸主之。",
+      "book_title": "金匱要略心典",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_JGYL_XINDIAN_000408",
+      "evidence_span": "虛勞腰痛。少腹拘急。小便不利者。八味腎氣丸主之。",
       "release_level": "silver"
     },
     {
       "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "消渴小便不利，淋病脈證治第十三",
-      "source_unit_id": "SU_CAOSHI_FAWEI_001639",
-      "evidence_span": "男子消渴，小便反多，以飲一斗，小便亦一斗，腎氣丸主之（見婦人雜病）今之議病者，皆以寸口脈數浮為上消，趺陽脈浮為中消，男子消渴即為下消，此不知本之言也，惟黃坤載以陽明篇為消渴之原最得主要，素問別論云，二陽結，謂之消，黃氏引而申之曰，二陽者，陽明也，手陽明主燥化，燥在大腸則消，水而便堅，足陽明亦從燥化，在胃則消殺而溲數，太陰行氣於三陰，脈候於寸口，陽明行氣於三陽，脈候於趺陽，太陰主升，陰中之陽升於脈絡，則經氣盛，陽明主降，陽中之陰降於腸胃，則腑氣和，太陰虛而經氣衰，故寸口浮而遲，陽明盛而府氣旺，故趺陽浮而數，虛勞其營衛，為發熱作渴之原，燥熱耗其精液，為消殺引飲之漸，胃熱滲於大腸，故大便堅，水飲併入三焦，故小便多，經氣虛而腑氣實，所謂壯火食氣也。",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001342",
+      "evidence_span": "虛勞腰痛，少腹拘急，小便不利者，八味腎氣丸主之（八味腎氣丸見婦人雜病篇）",
       "release_level": "silver"
     }
   ],
-  "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_GUIBEN",
-      "book_title": "傷寒雜病論(桂本)",
-      "distinct_conditions": [
-        "不得臥",
-        "小便不利",
-        "腰痛",
-        "虛勞",
-        "轉胞"
-      ],
-      "rule_ids": [
-        "IR_SHL_GUIBEN_001187",
-        "IR_SHL_GUIBEN_001349",
-        "IR_SHL_GUIBEN_001655"
-      ]
-    }
-  ],
+  "variant_set": [],
   "conflict_set": [],
   "if_profile": {
     "disease": [
       {
-        "term": "消渴",
-        "count": 5
-      },
-      {
         "term": "虛勞",
-        "count": 1
+        "count": 6
       },
       {
         "term": "小便不利",
-        "count": 1
-      },
-      {
-        "term": "轉胞",
-        "count": 1
+        "count": 6
       }
     ],
     "symptoms": [
       {
         "term": "腰痛",
-        "count": 1
-      },
-      {
-        "term": "不得臥",
-        "count": 1
+        "count": 6
       }
     ],
     "pulse": [],
@@ -136,20 +97,17 @@
     "treatment_principle": [
       {
         "term": "溫補腎陽",
-        "count": 7
+        "count": 6
       }
     ]
   },
   "keywords": [
-    "腎氣丸",
-    "消渴",
+    "八味腎氣丸",
     "虛勞",
     "小便不利",
-    "轉胞",
-    "腰痛",
-    "不得臥"
+    "腰痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

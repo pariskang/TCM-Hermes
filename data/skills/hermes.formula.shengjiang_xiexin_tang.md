@@ -3,16 +3,13 @@
 - **Skill**: `hermes.formula.shengjiang_xiexin_tang`
 - **Merged rule**: `MHR_FORMULA_SHENGJIANG_XIEXIN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.911
-- **Supporting initial rules**: 23
+- **Consensus score**: 0.905
+- **Supporting initial rules**: 19
 
 ## 归纳主张
-生薑瀉心湯可歸納為下利、心下痞、傷寒、痞、小便不利、汗出等方證的核心方（支持條文 23 條，跨 19 部書）。
+生薑瀉心湯可歸納為下利、心下痞、傷寒、痞、小便不利、汗出等方證的核心方（支持條文 19 條，跨 18 部書）。
 
 ## 原文证据（节选）
-> 下利者。生薑瀉心湯主之。
-> ——《傷寒論綱目》·痞（SU_B3E16D849_000942，silver）
-
 > 下利者。生薑瀉心湯主之。
 > ——《傷寒論綱目》·腹中雷鳴（SU_B3E16D849_000993，silver）
 
@@ -32,10 +29,12 @@
 > ——《傷寒纘論》·臟結結胸痞痛（SU_B5FF1CA1B_000879，silver）
 
 > 干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。
-> ——《傷寒尋源》·生薑瀉心湯（SU_B8E444005_000705，silver）
+> ——《傷寒論輯義》·辨太陽病脈證並治下（SU_BBAACE965_001724，silver）
+
+> 干噫食臭。脅下有水氣。腹中雷鳴下利者。生薑瀉心湯主之。
+> ——《傷寒溯源集》·心下痞證治第四（SU_SHL_SUYUAN_000849，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["胸滿"], "rule_ids": ["IR_B18FAB5FB_000030", "IR_B18FAB5FB_000036"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["口燥", "小便不利", "渴", "痞"], "rule_ids": ["IR_SHL_QJYF_000082"]}
 - {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集"], "composition": ["乾薑", "人參", "半夏", "大棗", "甘草", "生薑", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000712", "IR_BC91F4420_000140", "IR_SHL_GUANZHU_000230", "IR_SHL_LAISU_000224"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_000403"]}

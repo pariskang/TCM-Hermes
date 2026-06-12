@@ -3,14 +3,13 @@
   "kind": "formula",
   "title": "甘遂半夏湯方證合併規則",
   "subject": "甘遂半夏湯",
-  "abstracted_claim": "甘遂半夏湯可歸納為留飲、自利、脈伏等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "abstracted_claim": "甘遂半夏湯可歸納為留飲、自利、脈伏等方證的核心方（支持條文 4 條，跨 4 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_4B0A5BE5",
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001139",
     "IR_JGYL_FANGLUN_000115",
-    "IR_JGYL_QIANZHU_000132",
     "IR_JGYL_TIAOWEN_000115",
     "IR_SHL_GUIBEN_001401"
   ],
@@ -19,7 +18,6 @@
     "silver": [
       "IR_CAOSHI_FAWEI_001139",
       "IR_JGYL_FANGLUN_000115",
-      "IR_JGYL_QIANZHU_000132",
       "IR_JGYL_TIAOWEN_000115",
       "IR_SHL_GUIBEN_001401"
     ],
@@ -45,13 +43,6 @@
       "chapter_title": "痰飲咳嗽病脈證并治第十二",
       "source_unit_id": "SU_JGYL_TIAOWEN_000480",
       "evidence_span": "病者脈伏，其人欲自利，利反快，雖利，心下續堅滿，此為留飲欲去故也，甘遂半夏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYL_QIANZHU_000648",
-      "evidence_span": "）此為留飲欲去（而不能盡去）故也。（治者。宜乘其欲去之勢而導之。以）甘遂半夏湯主之。",
       "release_level": "silver"
     },
     {
@@ -96,7 +87,7 @@
     "disease": [
       {
         "term": "留飲",
-        "count": 5
+        "count": 4
       }
     ],
     "symptoms": [
@@ -123,6 +114,6 @@
     "脈伏"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

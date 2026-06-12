@@ -3,16 +3,14 @@
   "kind": "formula",
   "title": "甘草附子湯方證合併規則",
   "subject": "甘草附子湯",
-  "abstracted_claim": "甘草附子湯可歸納為小便不利、惡風、汗出、短氣、掣痛、小便自利等方證的核心方（支持條文 18 條，跨 15 部書）。",
+  "abstracted_claim": "甘草附子湯可歸納為小便不利、惡風、汗出、短氣、掣痛、小便自利等方證的核心方（支持條文 16 條，跨 15 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_D94BCC94",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.907,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000271",
     "IR_B0B74DF58_000274",
     "IR_B11498305_000161",
-    "IR_B3E16D849_000255",
-    "IR_B3E16D849_000894",
     "IR_B3E16D849_001185",
     "IR_B3E520529_000236",
     "IR_B8E444005_000097",
@@ -33,8 +31,6 @@
       "IR_B0B74DF58_000271",
       "IR_B0B74DF58_000274",
       "IR_B11498305_000161",
-      "IR_B3E16D849_000255",
-      "IR_B3E16D849_000894",
       "IR_B3E16D849_001185",
       "IR_B3E520529_000236",
       "IR_B8E444005_000097",
@@ -57,20 +53,6 @@
       "chapter_title": "短氣",
       "source_unit_id": "SU_B3E16D849_002422",
       "evidence_span": "小便不利。惡風。不欲去衣。甘草附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "惡風",
-      "source_unit_id": "SU_B3E16D849_000652",
-      "evidence_span": "惡風。不欲去衣。或身微腫者。甘草附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "風濕",
-      "source_unit_id": "SU_B3E16D849_001895",
-      "evidence_span": "惡風。不欲去衣。或身微腫者。甘草附子湯主之。",
       "release_level": "silver"
     },
     {
@@ -258,7 +240,7 @@
     "symptoms": [
       {
         "term": "惡風",
-        "count": 18
+        "count": 16
       },
       {
         "term": "汗出",
@@ -297,6 +279,6 @@
     "小便自利"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

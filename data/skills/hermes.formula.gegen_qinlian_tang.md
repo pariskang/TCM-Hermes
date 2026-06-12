@@ -3,25 +3,13 @@
 - **Skill**: `hermes.formula.gegen_qinlian_tang`
 - **Merged rule**: `MHR_FORMULA_GEGEN_QINLIAN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.884
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.89
+- **Supporting initial rules**: 4
 
 ## 归纳主张
-葛根黃芩黃連湯可歸納為太陽病、喘、汗出、潮熱、脈促等方證的核心方（支持條文 8 條，跨 8 部書）。
+葛根黃芩黃連湯可歸納為太陽病、喘、汗出、潮熱、脈促等方證的核心方（支持條文 4 條，跨 4 部書）。
 
 ## 原文证据（节选）
-> 脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。
-> ——《傷寒指掌》·誤下例（SU_B5C5ECAC2_000861，silver）
-
-> 脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。
-> ——《傷寒纘論》·合病並病篇（SU_B5FF1CA1B_000934，silver）
-
-> 脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。
-> ——《傷寒論輯義》·辨太陽病脈證並治中（SU_BBAACE965_000400，silver）
-
-> 脈促者。表未解也。喘而汗出者。葛根黃芩黃連湯主之。
-> ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000128，silver）
-
 > 太陽病，桂枝證，醫反下之，利遂不止。脈促者，表未解也。喘而汗出者，葛根黃芩黃連湯主之。
 > ——《傷寒論(宋本)》·辨太陽病脈證並治中第六（SU_SHL_SONGBEN_000235，silver）
 

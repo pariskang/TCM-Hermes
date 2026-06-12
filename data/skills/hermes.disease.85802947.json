@@ -1,0 +1,316 @@
+{
+  "skill_id": "hermes.disease.85802947",
+  "kind": "disease",
+  "title": "支飲證治合併規則",
+  "subject": "支飲",
+  "abstracted_claim": "支飲相關條文 38 條；主要方劑：厚朴大黃湯、澤瀉湯、葶藶大棗瀉肺湯、小半夏湯、木防己湯。",
+  "merged_rule_id": "MHR_DISEASE_85802947",
+  "release_level": "silver",
+  "consensus_score": 0.903,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001150",
+    "IR_CAOSHI_FAWEI_001152",
+    "IR_CAOSHI_FAWEI_001154",
+    "IR_CAOSHI_FAWEI_001155",
+    "IR_CAOSHI_FAWEI_001156",
+    "IR_CAOSHI_FAWEI_001158",
+    "IR_CAOSHI_FAWEI_001159",
+    "IR_JGYH_ERZHU_000140",
+    "IR_JGYH_ERZHU_000141",
+    "IR_JGYH_ERZHU_000143",
+    "IR_JGYH_ERZHU_000145",
+    "IR_JGYL_FANGLUN_000119",
+    "IR_JGYL_FANGLUN_000120",
+    "IR_JGYL_FANGLUN_000121",
+    "IR_JGYL_FANGLUN_000122",
+    "IR_JGYL_FANGLUN_000123",
+    "IR_JGYL_FANGLUN_000124",
+    "IR_JGYL_JIYI_000208",
+    "IR_JGYL_JIYI_000209",
+    "IR_JGYL_JIYI_000211",
+    "IR_JGYL_JIYI_000330",
+    "IR_JGYL_QIANZHU_000139",
+    "IR_JGYL_TIAOWEN_000119",
+    "IR_JGYL_TIAOWEN_000120",
+    "IR_JGYL_TIAOWEN_000121",
+    "IR_JGYL_TIAOWEN_000122",
+    "IR_JGYL_TIAOWEN_000123",
+    "IR_JGYL_TIAOWEN_000124",
+    "IR_JGYL_XINDIAN_000121",
+    "IR_JGYL_XINDIAN_000122",
+    "IR_JGYL_XINDIAN_000123",
+    "IR_JGYL_XINDIAN_000125",
+    "IR_SHL_GUIBEN_001411",
+    "IR_SHL_GUIBEN_001412",
+    "IR_SHL_GUIBEN_001417",
+    "IR_SHL_GUIBEN_001420",
+    "IR_SHL_GUIBEN_001423",
+    "IR_SHL_GUIBEN_001424"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001150",
+      "IR_CAOSHI_FAWEI_001152",
+      "IR_CAOSHI_FAWEI_001154",
+      "IR_CAOSHI_FAWEI_001155",
+      "IR_CAOSHI_FAWEI_001156",
+      "IR_CAOSHI_FAWEI_001158",
+      "IR_CAOSHI_FAWEI_001159",
+      "IR_JGYH_ERZHU_000140",
+      "IR_JGYH_ERZHU_000141",
+      "IR_JGYH_ERZHU_000143",
+      "IR_JGYH_ERZHU_000145",
+      "IR_JGYL_FANGLUN_000119",
+      "IR_JGYL_FANGLUN_000120",
+      "IR_JGYL_FANGLUN_000121",
+      "IR_JGYL_FANGLUN_000122",
+      "IR_JGYL_FANGLUN_000123",
+      "IR_JGYL_FANGLUN_000124",
+      "IR_JGYL_JIYI_000208",
+      "IR_JGYL_JIYI_000209",
+      "IR_JGYL_JIYI_000211",
+      "IR_JGYL_JIYI_000330",
+      "IR_JGYL_QIANZHU_000139",
+      "IR_JGYL_TIAOWEN_000119",
+      "IR_JGYL_TIAOWEN_000120",
+      "IR_JGYL_TIAOWEN_000121",
+      "IR_JGYL_TIAOWEN_000122",
+      "IR_JGYL_TIAOWEN_000123",
+      "IR_JGYL_TIAOWEN_000124",
+      "IR_JGYL_XINDIAN_000121",
+      "IR_JGYL_XINDIAN_000122",
+      "IR_JGYL_XINDIAN_000123",
+      "IR_JGYL_XINDIAN_000125",
+      "IR_SHL_GUIBEN_001411",
+      "IR_SHL_GUIBEN_001412",
+      "IR_SHL_GUIBEN_001417",
+      "IR_SHL_GUIBEN_001420",
+      "IR_SHL_GUIBEN_001423",
+      "IR_SHL_GUIBEN_001424"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001583",
+      "evidence_span": "支飲胸滿者，厚朴大黃湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000999",
+      "evidence_span": "支飲胸滿者。厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000510",
+      "evidence_span": "支飲胸滿者，厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001839",
+      "evidence_span": "支飲胸滿者。厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_000679",
+      "evidence_span": "支飲胸滿者。厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000508",
+      "evidence_span": "支飲胸滿者，厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000848",
+      "evidence_span": "支飲胸滿者。厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001005",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000514",
+      "evidence_span": "支飲不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001852",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000512",
+      "evidence_span": "支飲不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000854",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001579",
+      "evidence_span": "心上有支飲，其人苦冒眩，澤瀉湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000991",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000506",
+      "evidence_span": "心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001830",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000504",
+      "evidence_span": "心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000843",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001239",
+      "evidence_span": "14.38支飲，胸滿者，厚朴大黃湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002695",
+      "evidence_span": "見飲病篇。此屬支飲。飲病篇。作小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001241",
+      "evidence_span": "14.39支飲，不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001237",
+      "evidence_span": "14.37心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000858",
+      "evidence_span": "渴者為欲解。今反不渴。心下有支飲故也。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001242",
+      "evidence_span": "14.40支飲，口不渴，作嘔者，或吐水者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001007",
+      "evidence_span": "嘔家本渴。渴者為欲解。今反不渴心下有支飲故也。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001589",
+      "evidence_span": "嘔家本渴者，為欲解，今反不渴，心下有支飲，故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000515",
+      "evidence_span": "嘔家本渴，渴者為欲解，今反不渴，心下有支飲故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000513",
+      "evidence_span": "嘔家本渴，渴者為欲解，今反不渴，心下有支飲故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000500",
+      "evidence_span": "膈間支飲，其人喘滿，心下痞堅，面色黧黑，其脈沉緊，得之數十日，醫吐下之不愈，木防己湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000498",
+      "evidence_span": "膈間支飲，其人喘滿，心下痞堅，面色黧黑，其脈沉緊，得之數十日，醫吐下之不愈，木防己湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "支飲"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

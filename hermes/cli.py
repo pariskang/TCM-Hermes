@@ -191,6 +191,27 @@ def cmd_patient(cfg: HermesConfig, args) -> None:
         _print(pt.explain_instruction(args.text or ""))
 
 
+def cmd_disease(cfg: HermesConfig, args) -> None:
+    from .disease.pipeline import DiseaseHermesPipeline
+    from .disease.profiles import get_profile
+    from .agents.backends import get_backend
+    backend = get_backend(cfg) if cfg.backend != "heuristic" else None
+    if args.action == "plan":
+        from .disease.planner import (AncientDiseaseNameExpansionAgent,
+                                      DiseaseConceptPlannerAgent)
+        p = get_profile(args.disease)
+        _print({"plan": DiseaseConceptPlannerAgent(cfg).plan(p),
+                "ancient_names": AncientDiseaseNameExpansionAgent(cfg).expand(p)})
+        return
+    pipe = DiseaseHermesPipeline(cfg, backend=backend,
+                                 include_bronze=args.include_bronze)
+    summary = pipe.run(args.disease, use_corpus=args.use_corpus,
+                       use_sample=not args.no_sample, resume=args.resume,
+                       limit=args.limit)
+    _print(summary)
+    print(f"workspace → {summary.get('workspace')}")
+
+
 def cmd_status(cfg: HermesConfig, args) -> None:
     from .utils import read_json
     from .memory.store import MemoryStore
@@ -313,6 +334,21 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("action", choices=["explain", "visit", "instruction"])
     sp.add_argument("--text", default=None)
     sp.set_defaults(func=cmd_patient)
+
+    sp = sub.add_parser("disease", help="TCM-Disease-Hermes multi-agent discovery")
+    sp.add_argument("action", choices=["plan", "run"])
+    sp.add_argument("--disease", default="psoriasis",
+                    help="disease id or name (e.g. psoriasis / 银屑病)")
+    sp.add_argument("--use-corpus", action="store_true",
+                    help="also search the imported corpus source units")
+    sp.add_argument("--no-sample", action="store_true",
+                    help="do not include the bundled illustrative sample corpus")
+    sp.add_argument("--include-bronze", action="store_true",
+                    help="include bronze candidates in analytics")
+    sp.add_argument("--resume", action="store_true",
+                    help="reuse existing candidates.jsonl, recompute analytics")
+    sp.add_argument("--limit", type=int, default=None)
+    sp.set_defaults(func=cmd_disease)
 
     sp = sub.add_parser("status", help="system status")
     sp.set_defaults(func=cmd_status)

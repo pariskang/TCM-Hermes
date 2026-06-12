@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "桃花湯方證合併規則",
   "subject": "桃花湯",
-  "abstracted_claim": "桃花湯可歸納為下利、少陰病、小便不利、下血、結胸、熱入血室等方證的核心方（支持條文 54 條，跨 31 部書）。",
+  "abstracted_claim": "桃花湯可歸納為下利、少陰病、小便不利、下血、結胸、熱入血室等方證的核心方（支持條文 53 條，跨 30 部書）。",
   "merged_rule_id": "MHR_FORMULA_TAOHUA_TANG",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.895,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000673",
     "IR_B0B74DF58_000674",
@@ -43,7 +43,6 @@
     "IR_JGYH_ERZHU_000312",
     "IR_JGYL_FANGLUN_000233",
     "IR_JGYL_JIYI_000397",
-    "IR_JGYL_QIANZHU_000263",
     "IR_JGYL_TIAOWEN_000233",
     "IR_JGYL_XINDIAN_000264",
     "IR_SHL_GUANZHU_000625",
@@ -101,7 +100,6 @@
       "IR_JGYH_ERZHU_000312",
       "IR_JGYL_FANGLUN_000233",
       "IR_JGYL_JIYI_000397",
-      "IR_JGYL_QIANZHU_000263",
       "IR_JGYL_TIAOWEN_000233",
       "IR_JGYL_XINDIAN_000264",
       "IR_SHL_GUANZHU_000625",
@@ -403,7 +401,7 @@
     "disease": [
       {
         "term": "下利",
-        "count": 52
+        "count": 51
       },
       {
         "term": "少陰病",
@@ -441,7 +439,7 @@
     "symptoms": [
       {
         "term": "便膿血",
-        "count": 52
+        "count": 51
       },
       {
         "term": "腹痛",
@@ -481,7 +479,7 @@
     "treatment_principle": [
       {
         "term": "溫中澀腸止利",
-        "count": 54
+        "count": 53
       }
     ]
   },
@@ -500,6 +498,6 @@
     "脈數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

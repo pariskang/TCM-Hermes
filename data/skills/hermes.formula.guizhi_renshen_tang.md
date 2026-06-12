@@ -3,24 +3,18 @@
 - **Skill**: `hermes.formula.guizhi_renshen_tang`
 - **Merged rule**: `MHR_FORMULA_GUIZHI_RENSHEN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.913
-- **Supporting initial rules**: 24
+- **Consensus score**: 0.896
+- **Supporting initial rules**: 20
 
 ## 归纳主张
-桂枝人參湯可歸納為心下痞、太陽病、下利、噦、心下痞硬等方證的核心方（支持條文 24 條，跨 21 部書）。
+桂枝人參湯可歸納為心下痞、太陽病、下利、噦、心下痞硬等方證的核心方（支持條文 20 條，跨 19 部書）。
 
 ## 原文证据（节选）
-> 利不止。心下痞硬。表裡不解者。桂枝人參湯主之。
-> ——《傷寒論綱目》·痞滿（SU_B3E16D849_002972，silver）
-
 > 利下不止。心下痞硬。表裡不解。桂枝人參湯主之。
 > ——《傷寒指掌》·誤下例（SU_B5C5ECAC2_000886，silver）
 
 > 利下不止。心下痞硬。表裡不解者。桂枝人參湯主之。
 > ——《張卿子傷寒論》·旋覆代赭石湯方第六十三（SU_B1CAC3ADF_001523，silver）
-
-> 利下不止。心下痞硬。表理不解者。桂枝人參湯主之。
-> ——《傷寒論綱目》·協熱利（SU_B3E16D849_001623，silver）
 
 > 利下不止。心下痞硬。表裡不解者。桂枝人參湯主之。
 > ——《傷寒論辯證廣注》·旋覆代赭石湯方（SU_B41512D4B_001023，silver）
@@ -33,6 +27,12 @@
 
 > 利下不止。心下痞鞭。表裏不解者。桂枝人參湯主之。
 > ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000496，silver）
+
+> 利下不止。心下痞硬。表裡不解者。桂枝人參湯主之。
+> ——《傷寒溯源集》·中風證治第一（SU_SHL_SUYUAN_000328，silver）
+
+> 利下不止。心下痞硬。表裡不解者。桂枝人參湯主之。
+> ——《傷寒溯源集》·心下痞證治第四（SU_SHL_SUYUAN_000909，silver）
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["下利"], "rule_ids": ["IR_B0B74DF58_000055"]}

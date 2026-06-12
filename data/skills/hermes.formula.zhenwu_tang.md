@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.zhenwu_tang`
 - **Merged rule**: `MHR_FORMULA_ZHENWU_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.912
-- **Supporting initial rules**: 56
+- **Consensus score**: 0.886
+- **Supporting initial rules**: 51
 
 ## 归纳主张
-真武湯可歸納為下利、太陽病、少陰病、小便不利、傷寒、亡陽等方證的核心方（支持條文 56 條，跨 27 部書）。
+真武湯可歸納為下利、少陰病、太陽病、小便不利、心下痞、傷寒等方證的核心方（支持條文 51 條，跨 26 部書）。
 
 ## 原文证据（节选）
 > 或小便利。或下利。嘔者。真武湯主之。
@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["乾嘔", "喘", "心下痞", "短氣"], "rule_ids": ["IR_B11498305_000085", "IR_B11498305_000369", "IR_B11498305_000903"]}
-- {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["痰飲"], "rule_ids": ["IR_JF_SHIYANLU_000220"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["亡血", "傷寒", "厥", "惡寒", "惡風", "氣上衝胸", "筋惕肉瞤", "脈微弱"], "rule_ids": ["IR_SHL_MINGLI_000101", "IR_SHL_MINGLI_000129"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["傷寒", "厥", "惡寒", "惡風", "筋惕肉瞤", "脈微弱", "頭痛"], "rule_ids": ["IR_SHL_MINGLI_000129"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_ZHUJIE", "book_title": "註解傷寒論", "distinct_conditions": ["亡陽"], "rule_ids": ["IR_SHL_ZHUJIE_000325", "IR_SHL_ZHUJIE_000326", "IR_SHL_ZHUJIE_000902"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["生薑", "白朮", "芍藥", "茯苓", "附子"], "rule_ids": ["IR_BBAACE965_001236", "IR_BC91F4420_000499"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["生薑三兩", "白朮二兩", "芍藥三兩", "茯苓三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000527"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑二兩", "五味子半升", "生薑三兩", "白朮二兩", "芍藥三兩", "茯苓三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_001036"]}

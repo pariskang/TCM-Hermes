@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.zhigancao_tang`
 - **Merged rule**: `MHR_FORMULA_ZHIGANCAO_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.911
-- **Supporting initial rules**: 29
+- **Consensus score**: 0.895
+- **Supporting initial rules**: 25
 
 ## 归纳主张
-炙甘草湯可歸納為傷寒、溫病、肺痿、心動悸、口噤、心下悸等方證的核心方（支持條文 29 條，跨 23 部書）。
+炙甘草湯可歸納為傷寒、溫病、肺痿、心動悸、心下悸、咳等方證的核心方（支持條文 25 條，跨 21 部書）。
 
 ## 原文证据（节选）
 > 傷寒脈結代心動悸者，炙甘草湯主之。
@@ -39,12 +39,10 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["溫病", "脈代"], "rule_ids": ["IR_B11498305_000129", "IR_B11498305_001013"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9FC1D1C8", "book_title": "傷寒發微論", "distinct_conditions": ["心下悸"], "rule_ids": ["IR_B9FC1D1C8_000018"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["口渴", "咳", "肺痿", "脈浮", "脈結"], "rule_ids": ["IR_SHL_GUIBEN_000745", "IR_SHL_GUIBEN_001397"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["惡寒", "目赤", "胸滿", "面赤", "頭痛"], "rule_ids": ["IR_SHL_LAISU_000283", "IR_SHL_LAISU_000738"]}
 - {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "桂枝", "炙甘草", "甘草", "生地黃", "生薑"], "rule_ids": ["IR_BBAACE965_000823"]}
+- {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["清酒七升"], "rule_ids": ["IR_SHL_GUANZHU_000109"]}
 
 ## 冲突记录 conflict_set
-- 證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。
-- 證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。
 - 證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。
 

@@ -1,0 +1,20 @@
+{
+  "disease": "psoriasis",
+  "display_name": "银屑病",
+  "generated_at": "2026-06-12T09:33:51Z",
+  "candidates": 10,
+  "by_level": {
+    "silver": 1,
+    "bronze": 4,
+    "rejected": 5
+  },
+  "by_subtype": {
+    "vulgaris": 4,
+    "arthropathic": 1
+  },
+  "included_for_analytics": 1,
+  "network_nodes": 0,
+  "network_edges": 0,
+  "core_herbs": [],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

@@ -1,0 +1,345 @@
+{
+  "skill_id": "hermes.disease.45908352",
+  "kind": "disease",
+  "title": "消渴證治合併規則",
+  "subject": "消渴",
+  "abstracted_claim": "消渴相關條文 52 條；主要方劑：五苓散、腎氣丸、烏梅丸、出其人當自吐蛔蛔厥者烏梅丸、文蛤散。",
+  "merged_rule_id": "MHR_DISEASE_45908352",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_B07FA055B_000123",
+    "IR_B0B74DF58_000687",
+    "IR_B11498305_000412",
+    "IR_B3E520529_000060",
+    "IR_B5FF1CA1B_000439",
+    "IR_B5FF1CA1B_000440",
+    "IR_BC2BA03C0_000058",
+    "IR_CAOSHI_FAWEI_001178",
+    "IR_JGYL_FANGLUN_000135",
+    "IR_JGYL_TIAOWEN_000135",
+    "IR_SHL_GUANZHU_000649",
+    "IR_SHL_GUIBEN_001058",
+    "IR_SHL_LAISU_000706",
+    "IR_SHL_LEIFANG_000072",
+    "IR_SHL_LUNZHU_000691",
+    "IR_SHL_QJYF_000245",
+    "IR_SHL_SONGBEN_000401",
+    "IR_SHL_TIAOWEN_000355",
+    "IR_SHL_ZHUJIE_000931",
+    "IR_B07FA055B_000121",
+    "IR_B07FA055B_000122",
+    "IR_B11498305_000067",
+    "IR_B33E29808_000022",
+    "IR_B3E16D849_000492",
+    "IR_B3E16D849_000557",
+    "IR_B3E16D849_000802",
+    "IR_B5C5ECAC2_000363",
+    "IR_B9119D083_000715",
+    "IR_BBAACE965_000641",
+    "IR_BC2BA03C0_000057",
+    "IR_CAOSHI_FAWEI_000784",
+    "IR_CAOSHI_FAWEI_001181",
+    "IR_CAOSHI_FAWEI_001183",
+    "IR_JGYH_ERZHU_000166",
+    "IR_JGYL_FANGLUN_000136",
+    "IR_JGYL_FANGLUN_000137",
+    "IR_JGYL_JIYI_000243",
+    "IR_JGYL_QIANZHU_000159",
+    "IR_JGYL_TIAOWEN_000136",
+    "IR_JGYL_TIAOWEN_000137",
+    "IR_JGYL_XINDIAN_000140",
+    "IR_SHL_GUANZHU_000153",
+    "IR_SHL_GUIBEN_000498",
+    "IR_SHL_GUIBEN_001187",
+    "IR_SHL_GUIBEN_001190",
+    "IR_SHL_GUIBEN_001193",
+    "IR_SHL_GUIBEN_001196",
+    "IR_SHL_LUNZHU_000178",
+    "IR_SHL_MINGLI_000097",
+    "IR_SHL_SONGBEN_000127",
+    "IR_SHL_TIAOWEN_000081",
+    "IR_SHL_ZHUJIE_000292"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_B07FA055B_000123",
+      "IR_B0B74DF58_000687",
+      "IR_B11498305_000412",
+      "IR_B3E520529_000060",
+      "IR_B5FF1CA1B_000439",
+      "IR_B5FF1CA1B_000440",
+      "IR_BC2BA03C0_000058",
+      "IR_CAOSHI_FAWEI_001178",
+      "IR_JGYL_FANGLUN_000135",
+      "IR_JGYL_TIAOWEN_000135",
+      "IR_SHL_GUANZHU_000649",
+      "IR_SHL_GUIBEN_001058",
+      "IR_SHL_LAISU_000706",
+      "IR_SHL_LEIFANG_000072",
+      "IR_SHL_LUNZHU_000691",
+      "IR_SHL_QJYF_000245",
+      "IR_SHL_SONGBEN_000401",
+      "IR_SHL_TIAOWEN_000355",
+      "IR_SHL_ZHUJIE_000931"
+    ],
+    "silver": [
+      "IR_B07FA055B_000121",
+      "IR_B07FA055B_000122",
+      "IR_B11498305_000067",
+      "IR_B33E29808_000022",
+      "IR_B3E16D849_000492",
+      "IR_B3E16D849_000557",
+      "IR_B3E16D849_000802",
+      "IR_B5C5ECAC2_000363",
+      "IR_B9119D083_000715",
+      "IR_BBAACE965_000641",
+      "IR_BC2BA03C0_000057",
+      "IR_CAOSHI_FAWEI_000784",
+      "IR_CAOSHI_FAWEI_001181",
+      "IR_CAOSHI_FAWEI_001183",
+      "IR_JGYH_ERZHU_000166",
+      "IR_JGYL_FANGLUN_000136",
+      "IR_JGYL_FANGLUN_000137",
+      "IR_JGYL_JIYI_000243",
+      "IR_JGYL_QIANZHU_000159",
+      "IR_JGYL_TIAOWEN_000136",
+      "IR_JGYL_TIAOWEN_000137",
+      "IR_JGYL_XINDIAN_000140",
+      "IR_SHL_GUANZHU_000153",
+      "IR_SHL_GUIBEN_000498",
+      "IR_SHL_GUIBEN_001187",
+      "IR_SHL_GUIBEN_001190",
+      "IR_SHL_GUIBEN_001193",
+      "IR_SHL_GUIBEN_001196",
+      "IR_SHL_LUNZHU_000178",
+      "IR_SHL_MINGLI_000097",
+      "IR_SHL_SONGBEN_000127",
+      "IR_SHL_TIAOWEN_000081",
+      "IR_SHL_ZHUJIE_000292"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000736",
+      "evidence_span": "厥陰之為病消渴氣上撞心。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_001425",
+      "evidence_span": "**一、厥陰之為病，消渴**（指飲水多而渴仍不解。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000785",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000632",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000732",
+      "evidence_span": "厥陰之為病消渴氣之血為少陰之熱所逼其趨必出二陰之竅以陰主降故也。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001636",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飲而不欲食，食則吐下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000560",
+      "evidence_span": "厥陰之為病，消渴氣上撞心，心中疼熱，饑而不欲食，食則吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000559",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食即吐，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000557",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食即吐，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LEIFANG_000121",
+      "evidence_span": "厥陰之為病消渴，氣上撞心，心中疼熱，饑而不欲食，食則吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000444",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食則吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000489",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，饑而不欲食，食即吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_001226",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食即吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_001472",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000318",
+      "evidence_span": "厥陰之為病，消渴，氣上撞，心中疼熱，飢而不欲食，甚者則欲吐蛔，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E520529_000072",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，中痛熱，飢而不欲食，食則吐蚘，下之利不止，烏梅丸主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC2BA03C0_000138",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中痛熱，飢而不欲食，食則吐蛔，下之利不止，烏梅丸主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000941",
+      "evidence_span": "11.47厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘，下之，利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000190",
+      "evidence_span": "臟病　厥陰之為病消渴氣上衝心心中熱疼飢而不欲食食則吐蛔下之利不止　傷寒脈微而厥至七八日膚冷其人躁無暫安時此為臟厥非蛔厥也蛔厥者當吐蛔令病者靜而復時煩此為臟寒蛔上入膈故煩須臾復止得食而嘔又煩者蛔聞食臭出其人當自吐蛔蛔厥者烏梅丸主之（烏梅丸症）陰陽不相順接便為厥厥者手足逆冷也諸四逆厥者不可下虛家亦然（手足厥逆症）",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001071",
+      "evidence_span": "若脈浮。小便不利。微熱消渴者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001209",
+      "evidence_span": "若脈浮。小便不利。微熱消渴者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001654",
+      "evidence_span": "若脈浮。小便不利。微熱消渴者。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001850",
+      "evidence_span": "若脈浮小便不利，微熱消渴者，與五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5C5ECAC2_001421",
+      "evidence_span": "如脈浮。小便不利。微熱消渴者。與五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001094",
+      "evidence_span": "小便不利。微熱消渴。宜利小便發汗。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002024",
+      "evidence_span": "小便不利。微熱消渴者。宜利小便發汗。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000943",
+      "evidence_span": "小便不利。微熱消渴者。宜利小便發汗。五苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000561",
+      "evidence_span": "男子消渴，小便反多，以飲一斗，小便一斗，腎氣丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000559",
+      "evidence_span": "男子消渴，小便反多，以飲一斗，小便一斗，腎氣丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001052",
+      "evidence_span": "11.122消渴，欲得水，而食飲不休者，文蛤湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "消渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

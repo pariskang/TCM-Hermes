@@ -53,7 +53,8 @@ class ConsensusJudgeAgent:
     def judge(self, rule: InitialRule, evidence: EvidenceReview,
               semantic: SemanticReview, critic: CriticReview,
               repair_round: int, repaired: bool,
-              schema_valid: bool = True) -> ConsensusJudgement:
+              schema_valid: bool = True, binding=None, panel=None
+              ) -> ConsensusJudgement:
         cfg = self.config
 
         # hard gates first — these cannot be argued away by any score
@@ -70,6 +71,12 @@ class ConsensusJudgeAgent:
                                                 critic.challenge_points[:2]))
         if semantic.semantic_review_result == "fail":
             return ConsensusJudgement("model_rejected", 0.0, "語義審核不通過。")
+        # panel hard gate: a strong reject majority cannot be overridden
+        if panel is not None and panel.reject > panel.support and \
+                panel.majority == "reject" and panel.agreement >= 0.5:
+            return ConsensusJudgement(
+                "model_rejected", round(clamp(panel.panel_score), 3),
+                f"評審小組多數否決（reject {panel.reject}/支持 {panel.support}）。")
 
         extractor_conf = clamp(rule.model_confidence)
         reviewer_conf = clamp(semantic.suggested_confidence)
@@ -89,6 +96,34 @@ class ConsensusJudgeAgent:
             score -= 0.05
         if evidence.evidence_type == "original_text":
             score += 0.02
+
+        # Problem 2: loose span↔claim binding lightly penalizes the score; the
+        # *release level* is capped by the gate (binding limits how strong a
+        # claim the rule may make, it does not by itself reject valid evidence).
+        # A rule that cleared the loop threshold pre-binding is floored there so
+        # binding downgrades it (to bronze at worst) rather than rejecting it.
+        binding_note = ""
+        if binding is not None:
+            penalized = score - 0.12 * (1.0 - binding.binding_score)
+            score = max(penalized, cfg.loop_min_consensus) \
+                if score >= cfg.loop_min_consensus else penalized
+            if binding.multi_formula:
+                binding_note = "；證據含多方並述，結合度受限（封頂 silver）"
+            elif binding.binding_score < 0.6:
+                binding_note = "；條件與結論結合較鬆"
+
+        # Problem 3: blend the multi-reviewer panel vote into the score and
+        # treat panel disagreement as a genuine conflict signal
+        panel_note = ""
+        if panel is not None:
+            score = 0.6 * score + 0.4 * panel.panel_score
+            panel_note = (f"；評審小組 {panel.support}支持/{panel.warn}存疑/"
+                          f"{panel.reject}否決，一致度 {panel.agreement:.0%}")
+            if panel.agreement < 0.5 and panel.support and panel.reject:
+                return ConsensusJudgement(
+                    "model_conflict", round(clamp(score), 3),
+                    "評審小組分歧顯著（無多數一致）" + panel_note + "。")
+
         score = round(clamp(score), 3)
 
         # repair budget exhausted but still standing ⇒ low confidence
@@ -110,7 +145,8 @@ class ConsensusJudgeAgent:
             bits.append(f"對抗審核 {critic.critic_result}")
         if repaired:
             bits.append("問題已自動修復")
-        return ConsensusJudgement(status, score, "，".join(bits) + "。")
+        return ConsensusJudgement(status, score,
+                                  "，".join(bits) + binding_note + panel_note + "。")
 
     # ------------------------------------------------------------------
     def judge_llm(self, rule: InitialRule, evidence: EvidenceReview,

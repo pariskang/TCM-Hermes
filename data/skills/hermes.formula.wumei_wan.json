@@ -3,19 +3,17 @@
   "kind": "formula",
   "title": "烏梅丸方證合併規則",
   "subject": "烏梅丸",
-  "abstracted_claim": "烏梅丸可歸納為蛔厥、傷寒、消渴、厥陰病、嘔吐、腹滿等方證的核心方（支持條文 31 條，跨 28 部書）。",
+  "abstracted_claim": "烏梅丸可歸納為蛔厥、傷寒、消渴、厥陰病、厥、吐蚘等方證的核心方（支持條文 23 條，跨 21 部書）。",
   "merged_rule_id": "MHR_FORMULA_WUMEI_WAN",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.9,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000710",
     "IR_B11498305_000414",
     "IR_B1CAC3ADF_000833",
     "IR_B33E29808_000022",
     "IR_B3E16D849_001875",
-    "IR_B3E520529_000059",
     "IR_B8E444005_000135",
-    "IR_BA504DABF_000009",
     "IR_BBAACE965_001294",
     "IR_BC2BA03C0_000057",
     "IR_BC91F4420_000521",
@@ -29,16 +27,10 @@
     "IR_JGYL_TIAOWEN_000253",
     "IR_JGYL_XINDIAN_000284",
     "IR_SHL_GUANZHU_000688",
-    "IR_SHL_GUIBEN_001069",
-    "IR_SHL_LAISU_000707",
     "IR_SHL_LAISU_000713",
     "IR_SHL_LUNZHU_000693",
-    "IR_SHL_QJYF_000255",
-    "IR_SHL_SONGBEN_000412",
     "IR_SHL_SUYUAN_001229",
-    "IR_SHL_SUYUAN_001230",
-    "IR_SHL_TIAOWEN_000366",
-    "IR_SHL_ZHUJIE_000952"
+    "IR_SHL_SUYUAN_001230"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
@@ -48,9 +40,7 @@
       "IR_B1CAC3ADF_000833",
       "IR_B33E29808_000022",
       "IR_B3E16D849_001875",
-      "IR_B3E520529_000059",
       "IR_B8E444005_000135",
-      "IR_BA504DABF_000009",
       "IR_BBAACE965_001294",
       "IR_BC2BA03C0_000057",
       "IR_BC91F4420_000521",
@@ -64,16 +54,10 @@
       "IR_JGYL_TIAOWEN_000253",
       "IR_JGYL_XINDIAN_000284",
       "IR_SHL_GUANZHU_000688",
-      "IR_SHL_GUIBEN_001069",
-      "IR_SHL_LAISU_000707",
       "IR_SHL_LAISU_000713",
       "IR_SHL_LUNZHU_000693",
-      "IR_SHL_QJYF_000255",
-      "IR_SHL_SONGBEN_000412",
       "IR_SHL_SUYUAN_001229",
-      "IR_SHL_SUYUAN_001230",
-      "IR_SHL_TIAOWEN_000366",
-      "IR_SHL_ZHUJIE_000952"
+      "IR_SHL_SUYUAN_001230"
     ],
     "bronze": []
   },
@@ -198,31 +182,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒雜病論(桂本)",
-      "chapter_title": "辨厥陰病脈證並治",
-      "source_unit_id": "SU_SHL_GUIBEN_000953",
-      "evidence_span": "蚘厥者，其人當吐蚘。今病者靜，而復時煩，此為臟寒，蚘上入其膈，故煩。須臾復止，得食而嘔又煩者，蚘聞食臭出，其人當自吐蚘。蚘厥者，烏梅丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒辨要箋記",
-      "chapter_title": "辨厥陰病：",
-      "source_unit_id": "SU_BA504DABF_000041",
-      "evidence_span": "又按：厥陰消渴，氣上撞心一條，直寬士粟以為上熱下寒，極合。正珍謂叔和所撰者非也。烏梅丸主之，厥陰正經也，煩躁有時，得食嘔吐，吐蛔而厥之蛔厥，亦厥陰正證，烏梅丸所言同也。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論注",
       "chapter_title": "厥陰脈證",
       "source_unit_id": "SU_SHL_LUNZHU_001227",
       "evidence_span": "肝脈挾胃，肝氣旺，故胃口閉塞而不欲食也。蟲為風化，厥陰病則生蛔，蛔聞食臭，則上入於膈而從口出也。病發於陰而反下之，則氣無止息而利不止矣。烏梅丸主之，可以除蛔，亦可以止利。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論(千金翼方)",
-      "chapter_title": "厥陰病狀第三",
-      "source_unit_id": "SU_SHL_QJYF_000330",
-      "evidence_span": "傷寒脈微而厥，至七八日，膚冷，其人躁無安時，此為臟寒，蛔上入其膈，蛔厥者，其人當吐蛔。令病者靜，而復時煩，此為臟寒。蛔上入其膈，故煩，須臾復止，得食而嘔又煩者，蛔聞食臭必出，其人常自吐蛔，蛔厥者，烏梅丸主之。",
       "release_level": "silver"
     },
     {
@@ -240,38 +203,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論(宋本)",
-      "chapter_title": "辨厥陰病脈證並治第十二",
-      "source_unit_id": "SU_SHL_SONGBEN_000797",
-      "evidence_span": "傷寒，脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也。蚘厥者，其人當吐蚘，令病者靜而復時煩者，此為藏寒。蚘上入其膈故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人常自吐蚘。蚘厥者，烏梅丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論",
-      "chapter_title": "辨厥陰病脈證並治",
-      "source_unit_id": "SU_SHL_TIAOWEN_000644",
-      "evidence_span": "傷寒，脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也。蚘厥者，其人當吐蚘，令病者靜而復時煩者，此為藏寒。蚘上入其膈故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人常自吐蚘。蚘厥者，烏梅丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "註解傷寒論",
-      "chapter_title": "辨厥陰病脈證並治法第十二",
-      "source_unit_id": "SU_SHL_ZHUJIE_001499",
-      "evidence_span": "蛔厥者，其人當吐蛔。令（《玉函經》作今）病者靜，而復時煩，（趙本有「者」字）此為臟寒。蛔上入（趙本有「其」字）膈，故煩，須臾復止，得食而嘔，又煩者，蛔聞食臭出，其人當（趙本作「常」）自吐蛔。蛔厥者，烏梅丸主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒貫珠集",
       "chapter_title": "厥陰溫法九條",
       "source_unit_id": "SU_SHL_GUANZHU_000478",
       "evidence_span": "傷寒脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也，蚘厥者，其人當吐蚘，今病者靜而復時煩，此為藏寒，蚘上入膈，故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人當自吐蚘，蚘厥者，烏梅丸主之，又主久痢。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒總病論",
-      "chapter_title": "厥陰證",
-      "source_unit_id": "SU_B3E520529_000072",
-      "evidence_span": "尺寸俱微者，厥陰受病他，六七日發，以其脈循陰而絡於肝，故煩滿而囊縮。微緩者囊必不縮，若外證發熱惡寒，似瘧為欲愈候，宜桂枝麻黃各半湯也，若尺寸俱沉短者，囊必縮，宜承氣湯下之，方在可下證中。厥陰之為病，消渴，氣上衝心，中痛熱，飢而不欲食，食則吐蚘，下之利不止，烏梅丸主之。",
       "release_level": "silver"
     },
     {
@@ -292,42 +227,13 @@
   "variant_set": [
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_B3E520529",
-      "book_title": "傷寒總病論",
+      "book_id": "BOOK_SHL_LUNZHU",
+      "book_title": "傷寒論注",
       "distinct_conditions": [
-        "惡寒",
-        "發熱"
+        "厥陰病"
       ],
       "rule_ids": [
-        "IR_B3E520529_000059"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_BA504DABF",
-      "book_title": "傷寒辨要箋記",
-      "distinct_conditions": [
-        "上熱下寒",
-        "嘔吐",
-        "煩躁"
-      ],
-      "rule_ids": [
-        "IR_BA504DABF_000009"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_LAISU",
-      "book_title": "傷寒來蘇集",
-      "distinct_conditions": [
-        "不能食",
-        "太陰病",
-        "腹滿",
-        "自利"
-      ],
-      "rule_ids": [
-        "IR_SHL_LAISU_000707",
-        "IR_SHL_LAISU_000713"
+        "IR_SHL_LUNZHU_000693"
       ]
     },
     {
@@ -440,89 +346,52 @@
     "disease": [
       {
         "term": "蛔厥",
-        "count": 15
+        "count": 12
       },
       {
         "term": "傷寒",
-        "count": 7
+        "count": 4
       },
       {
         "term": "消渴",
-        "count": 5
-      },
-      {
-        "term": "厥陰病",
         "count": 2
       },
       {
-        "term": "嘔吐",
-        "count": 1
-      },
-      {
-        "term": "腹滿",
-        "count": 1
-      },
-      {
-        "term": "太陰病",
+        "term": "厥陰病",
         "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "厥",
-        "count": 31
+        "count": 23
       },
       {
         "term": "吐蚘",
-        "count": 8
-      },
-      {
-        "term": "氣上衝",
         "count": 3
       },
       {
-        "term": "發熱",
-        "count": 1
-      },
-      {
-        "term": "惡寒",
-        "count": 1
-      },
-      {
-        "term": "煩躁",
-        "count": 1
-      },
-      {
-        "term": "不能食",
-        "count": 1
-      },
-      {
-        "term": "自利",
-        "count": 1
+        "term": "氣上衝",
+        "count": 2
       }
     ],
     "pulse": [
       {
         "term": "脈微",
-        "count": 7
+        "count": 4
       }
     ],
-    "pathomechanism": [
-      {
-        "term": "上熱下寒",
-        "count": 1
-      }
-    ]
+    "pathomechanism": []
   },
   "then_profile": {
     "treatment_principle": [
       {
         "term": "安蛔止痛",
-        "count": 31
+        "count": 23
       },
       {
         "term": "寒熱並調",
-        "count": 31
+        "count": 23
       }
     ]
   },
@@ -532,15 +401,12 @@
     "傷寒",
     "消渴",
     "厥陰病",
-    "嘔吐",
     "厥",
     "吐蚘",
     "氣上衝",
-    "發熱",
-    "惡寒",
     "脈微"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

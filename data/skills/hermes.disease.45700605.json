@@ -1,0 +1,228 @@
+{
+  "skill_id": "hermes.disease.45700605",
+  "kind": "disease",
+  "title": "熱入血室證治合併規則",
+  "subject": "熱入血室",
+  "abstracted_claim": "熱入血室相關條文 22 條；主要方劑：小柴胡湯、條言小柴胡湯、桃花湯、使如瘧狀發作有時小柴胡湯、理中湯。",
+  "merged_rule_id": "MHR_DISEASE_45700605",
+  "release_level": "silver",
+  "consensus_score": 0.905,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000541",
+    "IR_B11498305_000321",
+    "IR_B11498305_000323",
+    "IR_B9119D083_000127",
+    "IR_B9119D083_000795",
+    "IR_B9119D083_000801",
+    "IR_BBA9FB4A6_000152",
+    "IR_BC2BA03C0_000125",
+    "IR_BCA15D57E_000448",
+    "IR_BCCBDEC5F_000080",
+    "IR_CAOSHI_FAWEI_001433",
+    "IR_JGYL_FANGLUN_000283",
+    "IR_JGYL_TIAOWEN_000283",
+    "IR_SHL_GUIBEN_000664",
+    "IR_SHL_LAISU_000530",
+    "IR_SHL_LUNZHU_000528",
+    "IR_SHL_QJYF_000104",
+    "IR_SHL_SONGBEN_000210",
+    "IR_SHL_TIAOWEN_000164",
+    "IR_SHL_ZHUJIE_000477",
+    "IR_SHL_ZHUJIE_000486",
+    "IR_SHL_ZHUJIE_000487"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000541",
+      "IR_B11498305_000321",
+      "IR_B11498305_000323",
+      "IR_B9119D083_000127",
+      "IR_B9119D083_000795",
+      "IR_B9119D083_000801",
+      "IR_BBA9FB4A6_000152",
+      "IR_BC2BA03C0_000125",
+      "IR_BCA15D57E_000448",
+      "IR_BCCBDEC5F_000080",
+      "IR_CAOSHI_FAWEI_001433",
+      "IR_JGYL_FANGLUN_000283",
+      "IR_JGYL_TIAOWEN_000283",
+      "IR_SHL_GUIBEN_000664",
+      "IR_SHL_LAISU_000530",
+      "IR_SHL_LUNZHU_000528",
+      "IR_SHL_QJYF_000104",
+      "IR_SHL_SONGBEN_000210",
+      "IR_SHL_TIAOWEN_000164",
+      "IR_SHL_ZHUJIE_000477",
+      "IR_SHL_ZHUJIE_000486",
+      "IR_SHL_ZHUJIE_000487"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_000174",
+      "evidence_span": "兩條詳注熱入血室，皆不立方，但曰無犯胃氣，此禁汗吐互詞。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000932",
+      "evidence_span": "熱入血室，胸脅滿如結胸狀者，可刺期門；此雖熱入血室而無滿結，不可刺期門，犯其中焦。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒括要",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCCBDEC5F_000188",
+      "evidence_span": "為熱入血室。（小柴胡東加當歸生地丹皮）少陰下利膿血。（桃花湯）色紫黑。（理中湯主之）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002114",
+      "evidence_span": "婦人中風七八日，續來寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，使如瘧狀，發作有時，小柴胡湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000956",
+      "evidence_span": "婦人中風，七八日續來寒熱，發作有時，經水適斷，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000954",
+      "evidence_span": "婦人中風，七八日續來寒熱，發作有時，經水適斷，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000426",
+      "evidence_span": "婦人中風七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC2BA03C0_000309",
+      "evidence_span": "婦人中風七八日，續自寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000641",
+      "evidence_span": "8.23婦人中風，七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_000886",
+      "evidence_span": "婦人中風七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000461",
+      "evidence_span": "婦人中風，七八日續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000308",
+      "evidence_span": "婦人中風，七八日續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001979",
+      "evidence_span": "婦人中風，七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000360",
+      "evidence_span": "婦人中風，七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000929",
+      "evidence_span": "婦人中風，七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000932",
+      "evidence_span": "熱入血室，血結實（醫統本作「寒」）熱者，與小柴胡湯，散邪發汗；此雖熱入血室，而不留結，不可與發汗藥，犯其上焦。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_001072",
+      "evidence_span": "**十九、婦人中風，七八日續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000131",
+      "evidence_span": "婦人中風七八日，續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之（方見柴胡湯門。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001982",
+      "evidence_span": "上條一言結胸狀，一言如瘧狀，此條又言如見鬼狀，此互發熱入血室，病形不一。兩條言刺期門，一條言小柴胡湯主之，此條言無犯胃氣及上二焦，此總結上文熱入血室，惟刺期門、小柴胡湯二法。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000428",
+      "evidence_span": "婦人傷寒發熱，經水適來，晝日明了，暮則讝語，如見鬼狀者，此為熱入血室，無犯胃氣及上二焦，必自愈，傷寒邪熱在表，故經水來而不斷，雖為熱入血室，以氣分不受邪，故晝日明了，但夜則讝語，候經盡熱隨血散自愈，不可刺期門，妄犯胃氣，及用柴胡犯上二焦也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000248",
+      "evidence_span": "不愈，用桂枝湯。陽明下血譫語，胸滿如結胸，夜則如見鬼，此為熱入血室，小柴胡湯。下焦蓄血，其人如狂，小腹急結，小便自利，大便黑，與夫下利，無表裡證，脈數不解，消穀易飢，多日不大便，此為瘀血，桃仁承氣湯。少陰病，下利膿血，或腹滿，下如魚腦者，桃花湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCA15D57E_000528",
+      "evidence_span": "婦人中風七八日續得寒熱發作有時經水適斷者此為熱入血室其血必結故使如瘧狀發作有時小柴胡湯主之婦人中風七八日後續得寒熱往來發作有時之證而值經水適斷之時者此為熱入血室其血必當瘀結熱結血分少陽之經氣不得外達陰陽交爭互相束閉故使寒熱如瘧發作有時也小柴胡湯發少陽之經邪熱去則血可自下不下然後用抵當攻之上章因經水適來而熱入是血實之時此因經水適斷而熱入是血虛之時實宜清泄虛宜涼補",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "熱入血室"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

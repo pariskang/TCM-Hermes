@@ -3,20 +3,16 @@
   "kind": "formula",
   "title": "梔子乾薑湯方證合併規則",
   "subject": "梔子乾薑湯",
-  "abstracted_claim": "梔子乾薑湯可歸納為傷寒等方證的核心方（支持條文 19 條，跨 19 部書）。",
+  "abstracted_claim": "梔子乾薑湯可歸納為傷寒等方證的核心方（支持條文 14 條，跨 14 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_A173B0BB",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.913,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000248",
     "IR_B11498305_000127",
-    "IR_B3E16D849_001181",
     "IR_B3E520529_000251",
-    "IR_B41512D4B_000265",
     "IR_B5FF1CA1B_000153",
-    "IR_B8E444005_000127",
     "IR_B9119D083_000252",
-    "IR_BBAACE965_000367",
     "IR_BC91F4420_000181",
     "IR_SHL_GUANZHU_000258",
     "IR_SHL_GUIBEN_000524",
@@ -24,7 +20,6 @@
     "IR_SHL_LUNZHU_000385",
     "IR_SHL_QJYF_000343",
     "IR_SHL_SONGBEN_000140",
-    "IR_SHL_SUYUAN_000304",
     "IR_SHL_TIAOWEN_000094",
     "IR_SHL_ZHUJIE_000319"
   ],
@@ -33,13 +28,9 @@
     "silver": [
       "IR_B0B74DF58_000248",
       "IR_B11498305_000127",
-      "IR_B3E16D849_001181",
       "IR_B3E520529_000251",
-      "IR_B41512D4B_000265",
       "IR_B5FF1CA1B_000153",
-      "IR_B8E444005_000127",
       "IR_B9119D083_000252",
-      "IR_BBAACE965_000367",
       "IR_BC91F4420_000181",
       "IR_SHL_GUANZHU_000258",
       "IR_SHL_GUIBEN_000524",
@@ -47,7 +38,6 @@
       "IR_SHL_LUNZHU_000385",
       "IR_SHL_QJYF_000343",
       "IR_SHL_SONGBEN_000140",
-      "IR_SHL_SUYUAN_000304",
       "IR_SHL_TIAOWEN_000094",
       "IR_SHL_ZHUJIE_000319"
     ],
@@ -69,20 +59,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "虛煩",
-      "source_unit_id": "SU_B3E16D849_002411",
-      "evidence_span": "傷寒醫以丸藥大下之。身熱不去。微煩者。梔子乾薑湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "梔子厚朴湯方",
-      "source_unit_id": "SU_B41512D4B_000754",
-      "evidence_span": "傷寒醫以丸藥大下之。身熱不云。微煩者。梔子乾薑湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒大白",
       "chapter_title": "煩躁",
       "source_unit_id": "SU_B9119D083_000588",
@@ -90,31 +66,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治中",
-      "source_unit_id": "SU_BBAACE965_000903",
-      "evidence_span": "傷寒。醫以丸藥大下之。身熱不去微煩者。梔子乾薑湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論(千金翼方)",
       "chapter_title": "發汗吐下後病狀第五",
       "source_unit_id": "SU_SHL_QJYF_000532",
       "evidence_span": "傷寒，醫以丸藥大下後，身熱不去，微煩，梔子乾薑湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "傷寒證治第二",
-      "source_unit_id": "SU_SHL_SUYUAN_000610",
-      "evidence_span": "傷寒醫以丸藥大下之。身熱不去。微煩者。梔子乾薑湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "虛煩",
-      "source_unit_id": "SU_B8E444005_000232",
-      "evidence_span": "又傷寒。醫以丸藥大下之。身熱不去微煩者。梔子乾薑湯主之。",
       "release_level": "silver"
     },
     {
@@ -229,7 +184,7 @@
     "disease": [
       {
         "term": "傷寒",
-        "count": 19
+        "count": 14
       }
     ],
     "symptoms": [],
@@ -244,6 +199,6 @@
     "傷寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

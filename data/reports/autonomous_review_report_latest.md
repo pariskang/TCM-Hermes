@@ -1,6 +1,6 @@
 # Autonomous Review Report
 
-- Generated: 2026-06-12T05:05:46Z
+- Generated: 2026-06-12T09:33:07Z
 - Protocol: hermes-v5 (autonomous model review — no human review nodes)
 - Corpus version: jicheng-2026-06-12
 
@@ -26,8 +26,8 @@
 ## Release Levels
 
 - Gold: 1434
-- Silver: 5798
-- Bronze: 10387
+- Silver: 4939
+- Bronze: 11246
 - Rejected: 10802 (preserved in data/rules_rejected/)
 
 ## Quality Metrics
@@ -36,10 +36,10 @@
 - model_repair_rate: 0.5191
 - critic_rejection_rate: 0.0209
 - evidence_verification_rate: 1.0
-- consensus_score_mean: 0.5824
+- consensus_score_mean: 0.5679
 - gold_rule_rate: 0.0505
-- silver_rule_rate: 0.204
-- bronze_rule_rate: 0.3655
+- silver_rule_rate: 0.1738
+- bronze_rule_rate: 0.3957
 - model_conflict_rate: 0.0
 - false_support_detection_rate: 0.0214
 
@@ -70,8 +70,8 @@
 
 ## Rules Ready for Skill Compilation
 
-- Silver/Gold InitialRules: 7232
-- Coverage: 57 books, 1438 chapters
+- Silver/Gold InitialRules: 6373
+- Coverage: 57 books, 1325 chapters
 
 ---
 原则：自主审核 ≠ 无审核；自主审核 = 多模型、多轮、多证据、多门控的自动化审核。

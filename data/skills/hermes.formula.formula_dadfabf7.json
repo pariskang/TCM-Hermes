@@ -3,29 +3,20 @@
   "kind": "formula",
   "title": "竹葉石膏湯方證合併規則",
   "subject": "竹葉石膏湯",
-  "abstracted_claim": "竹葉石膏湯可歸納為傷寒、渴、虛煩、口渴、汗出、神昏等方證的核心方（支持條文 21 條，跨 17 部書）。",
+  "abstracted_claim": "竹葉石膏湯可歸納為傷寒、渴、虛煩、口渴、汗出、神昏等方證的核心方（支持條文 12 條，跨 11 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_DADFABF7",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.914,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000784",
     "IR_B11498305_000657",
-    "IR_B3E16D849_001914",
-    "IR_B41512D4B_001103",
-    "IR_B5C5ECAC2_000235",
     "IR_B5C5ECAC2_000346",
-    "IR_B5FF1CA1B_000692",
-    "IR_B8E444005_000438",
-    "IR_BBAACE965_001403",
     "IR_BBAACE965_001405",
-    "IR_BC91F4420_000597",
-    "IR_CAOSHI_FAWEI_000893",
     "IR_SHL_GUANZHU_000735",
     "IR_SHL_GUIBEN_000184",
     "IR_SHL_GUIBEN_001280",
     "IR_SHL_QJYF_000361",
     "IR_SHL_SONGBEN_000463",
-    "IR_SHL_SUYUAN_001312",
     "IR_SHL_SUYUAN_001313",
     "IR_SHL_TIAOWEN_000417",
     "IR_SHL_ZHUJIE_001058"
@@ -35,22 +26,13 @@
     "silver": [
       "IR_B0B74DF58_000784",
       "IR_B11498305_000657",
-      "IR_B3E16D849_001914",
-      "IR_B41512D4B_001103",
-      "IR_B5C5ECAC2_000235",
       "IR_B5C5ECAC2_000346",
-      "IR_B5FF1CA1B_000692",
-      "IR_B8E444005_000438",
-      "IR_BBAACE965_001403",
       "IR_BBAACE965_001405",
-      "IR_BC91F4420_000597",
-      "IR_CAOSHI_FAWEI_000893",
       "IR_SHL_GUANZHU_000735",
       "IR_SHL_GUIBEN_000184",
       "IR_SHL_GUIBEN_001280",
       "IR_SHL_QJYF_000361",
       "IR_SHL_SONGBEN_000463",
-      "IR_SHL_SUYUAN_001312",
       "IR_SHL_SUYUAN_001313",
       "IR_SHL_TIAOWEN_000417",
       "IR_SHL_ZHUJIE_001058"
@@ -70,20 +52,6 @@
       "chapter_title": "煩躁",
       "source_unit_id": "SU_B5C5ECAC2_001391",
       "evidence_span": "大汗後虛煩者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨陰陽易瘥後勞復病脈證並治",
-      "source_unit_id": "SU_BBAACE965_003429",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "厥陰篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_001034",
-      "evidence_span": "傷寒解後。虛贏少氣。氣逆欲吐。竹葉石膏湯主之。",
       "release_level": "silver"
     },
     {
@@ -115,59 +83,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "瘥後勞復食復",
-      "source_unit_id": "SU_B3E16D849_004012",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "理中丸方",
-      "source_unit_id": "SU_B41512D4B_002295",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒指掌",
-      "chapter_title": "瘥後諸病述古",
-      "source_unit_id": "SU_B5C5ECAC2_000931",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "雜篇",
-      "source_unit_id": "SU_B5FF1CA1B_001131",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "竹葉石膏湯",
-      "source_unit_id": "SU_B8E444005_000874",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒貫珠集",
       "chapter_title": "簡誤九條",
       "source_unit_id": "SU_SHL_GUANZHU_000510",
       "evidence_span": "傷寒解後，虛羸少氣，氣逆後吐者，竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "瘥後諸證證治第二十二",
-      "source_unit_id": "SU_SHL_SUYUAN_003217",
-      "evidence_span": "傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨陰陽易瘥後勞復脈證並治第十一",
-      "source_unit_id": "SU_BC91F4420_001481",
-      "evidence_span": "（六）傷寒解後。虛羸少氣。氣逆欲吐者。竹葉石膏湯主之。",
       "release_level": "silver"
     },
     {
@@ -215,7 +134,6 @@
         "虛煩"
       ],
       "rule_ids": [
-        "IR_B5C5ECAC2_000235",
         "IR_B5C5ECAC2_000346"
       ]
     },
@@ -242,7 +160,6 @@
         "脈虛數"
       ],
       "rule_ids": [
-        "IR_SHL_SUYUAN_001312",
         "IR_SHL_SUYUAN_001313"
       ]
     },
@@ -366,7 +283,7 @@
     "disease": [
       {
         "term": "傷寒",
-        "count": 17
+        "count": 8
       }
     ],
     "symptoms": [
@@ -418,6 +335,6 @@
     "脈虛數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "歸生薑羊肉湯方證合併規則",
   "subject": "歸生薑羊肉湯",
-  "abstracted_claim": "歸生薑羊肉湯可歸納為產後、寒疝、腹中痛、脅痛等方證的核心方（支持條文 15 條，跨 8 部書）。",
+  "abstracted_claim": "歸生薑羊肉湯可歸納為寒疝、產後、腹中痛、脅痛等方證的核心方（支持條文 14 條，跨 7 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_D17F4B87",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.906,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001115",
     "IR_CAOSHI_FAWEI_001418",
@@ -16,7 +16,6 @@
     "IR_JGYL_FANGLUN_000271",
     "IR_JGYL_JIYI_000168",
     "IR_JGYL_JIYI_000445",
-    "IR_JGYL_QIANZHU_000308",
     "IR_JGYL_TIAOWEN_000100",
     "IR_JGYL_TIAOWEN_000271",
     "IR_JGYL_XINDIAN_000102",
@@ -35,7 +34,6 @@
       "IR_JGYL_FANGLUN_000271",
       "IR_JGYL_JIYI_000168",
       "IR_JGYL_JIYI_000445",
-      "IR_JGYL_QIANZHU_000308",
       "IR_JGYL_TIAOWEN_000100",
       "IR_JGYL_TIAOWEN_000271",
       "IR_JGYL_XINDIAN_000102",
@@ -143,13 +141,6 @@
       "source_unit_id": "SU_SHL_GUIBEN_001038",
       "evidence_span": "11.114寒疝，腹中痛，若脇痛裏急者，當歸生薑羊肉湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "婦人產後病脈證治第二十一",
-      "source_unit_id": "SU_JGYL_QIANZHU_001314",
-      "evidence_span": "產後（屬虛。客寒阻滯氣血。則）腹中㽲痛。（以）當歸生薑羊肉湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -199,11 +190,11 @@
   "if_profile": {
     "disease": [
       {
-        "term": "產後",
-        "count": 8
+        "term": "寒疝",
+        "count": 7
       },
       {
-        "term": "寒疝",
+        "term": "產後",
         "count": 7
       }
     ],
@@ -225,12 +216,12 @@
   },
   "keywords": [
     "歸生薑羊肉湯",
-    "產後",
     "寒疝",
+    "產後",
     "腹中痛",
     "脅痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

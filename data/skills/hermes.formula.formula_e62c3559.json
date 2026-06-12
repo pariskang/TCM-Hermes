@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "歸四逆湯方證合併規則",
   "subject": "歸四逆湯",
-  "abstracted_claim": "歸四逆湯可歸納為下利、少陰病、厥陰病、厥、四逆、手足厥冷等方證的核心方（支持條文 20 條，跨 18 部書）。",
+  "abstracted_claim": "歸四逆湯可歸納為下利、少陰病、厥陰病、厥、手足厥冷、四逆等方證的核心方（支持條文 19 條，跨 18 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_E62C3559",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.894,
   "supporting_initial_rules": [
     "IR_B11498305_000447",
     "IR_B1CAC3ADF_000849",
@@ -16,7 +16,6 @@
     "IR_B41512D4B_001045",
     "IR_B9119D083_000025",
     "IR_BBAACE965_001317",
-    "IR_BBAACE965_001318",
     "IR_BC91F4420_000530",
     "IR_SHL_GUANZHU_000693",
     "IR_SHL_GUIBEN_001003",
@@ -40,7 +39,6 @@
       "IR_B41512D4B_001045",
       "IR_B9119D083_000025",
       "IR_BBAACE965_001317",
-      "IR_BBAACE965_001318",
       "IR_BC91F4420_000530",
       "IR_SHL_GUANZHU_000693",
       "IR_SHL_GUIBEN_001003",
@@ -145,13 +143,6 @@
       "chapter_title": "少陰經脈",
       "source_unit_id": "SU_B3E16D849_003347",
       "evidence_span": "【綱】仲景曰。手足厥冷。脈細欲絕者。當歸四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨厥陰病脈證並治",
-      "source_unit_id": "SU_BBAACE965_003123",
-      "evidence_span": "當以四逆湯。溫復其真陽。而加當歸以營養其陰血。故以當歸四逆湯主之。",
       "release_level": "silver"
     },
     {
@@ -337,11 +328,11 @@
         "count": 14
       },
       {
-        "term": "四逆",
-        "count": 4
+        "term": "手足厥冷",
+        "count": 3
       },
       {
-        "term": "手足厥冷",
+        "term": "四逆",
         "count": 3
       },
       {
@@ -407,8 +398,8 @@
     "少陰病",
     "厥陰病",
     "厥",
-    "四逆",
     "手足厥冷",
+    "四逆",
     "汗出",
     "發熱",
     "脈細",
@@ -418,6 +409,6 @@
     "脈微欲絕"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

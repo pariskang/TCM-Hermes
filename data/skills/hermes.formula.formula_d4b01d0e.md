@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_d4b01d0e`
 - **Merged rule**: `MHR_FORMULA_FORMULA_D4B01D0E`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 7
+- **Consensus score**: 0.904
+- **Supporting initial rules**: 6
 
 ## 归纳主张
-桂枝生薑枳實湯可歸納為痞、胸痹等方證的核心方（支持條文 7 條，跨 7 部書）。
+桂枝生薑枳實湯可歸納為痞、胸痹等方證的核心方（支持條文 6 條，跨 6 部書）。
 
 ## 原文证据（节选）
 > 心中痞諸逆，心絞痛，桂枝生薑枳實湯主之
@@ -24,9 +24,6 @@
 
 > 心中痞，諸逆，心懸痛，桂枝生薑枳實湯主之。
 > ——《金匱要略方論》·胸痹心痛短氣病脈證治第九（SU_JGYL_TIAOWEN_000350，silver）
-
-> 心中痞。諸逆。心懸痛。桂枝生薑枳實湯主之。
-> ——《金匱要略心典》·胸痹心痛短氣病脈證治第九（SU_JGYL_XINDIAN_000592，silver）
 
 > 15.25胸痹，心中懸痛者，桂枝生薑枳實湯主之。
 > ——《傷寒雜病論(桂本)》·辨瘀血吐衄下血瘡癰病脈證並治（SU_SHL_GUIBEN_001344，silver）
