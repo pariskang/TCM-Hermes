@@ -20,7 +20,7 @@
 > ——《傷寒恆論》·太陽下篇（SU_B0B74DF58_000625，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["無汗", "翕翕發熱", "頭痛"], "rule_ids": ["IR_B0B74DF58_000306"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["無汗", "翕翕發熱", "頭痛"], "rule_ids": ["IR_B0B74DF58_000305"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

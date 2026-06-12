@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["胸中窒"], "rule_ids": ["IR_B3E520529_000255"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "柴胡", "桂枝"], "rule_ids": ["IR_B41512D4B_000427", "IR_BBAACE965_000668", "IR_CAOSHI_FAWEI_000368"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "柴胡", "桂枝"], "rule_ids": ["IR_B41512D4B_000426", "IR_BBAACE965_000667", "IR_CAOSHI_FAWEI_000367"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["乾薑", "柴胡", "栝蔞根", "桂枝", "牡蠣", "甘草", "黃芩"], "rule_ids": ["IR_BC91F4420_000231"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑二兩", "柴胡半斤", "栝蔞根四兩", "桂枝三兩", "牡蠣二兩", "甘草二兩", "黃芩三兩"], "rule_ids": ["IR_SHL_GUIBEN_000674"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["乾薑", "柴胡", "栝蔞根", "桂枝"], "rule_ids": ["IR_SHL_ZHUJIE_000493"]}

@@ -23,7 +23,7 @@
 > ——《傷寒論(千金翼方)》·少陰病狀第二（SU_SHL_QJYF_000302，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["小便自利"], "rule_ids": ["IR_BB7301DF2_000226", "IR_BB7301DF2_000254"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["小便自利"], "rule_ids": ["IR_BB7301DF2_000225", "IR_BB7301DF2_000253"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["咳", "太陽病", "小便不利", "少陰病", "心下悸", "振振欲擗地", "發熱", "腹痛"], "rule_ids": ["IR_SHL_QJYF_000233", "IR_SHL_QJYF_000319"]}
 
 ## 安全声明

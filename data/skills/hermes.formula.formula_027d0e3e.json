@@ -8,8 +8,8 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B41512D4B_000108",
-    "IR_B5C5ECAC2_000368",
+    "IR_B41512D4B_000107",
+    "IR_B5C5ECAC2_000367",
     "IR_B5FF1CA1B_000180",
     "IR_SHL_GUANZHU_000119",
     "IR_SHL_ZHUJIE_000172"
@@ -17,8 +17,8 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B41512D4B_000108",
-      "IR_B5C5ECAC2_000368",
+      "IR_B41512D4B_000107",
+      "IR_B5C5ECAC2_000367",
       "IR_B5FF1CA1B_000180",
       "IR_SHL_GUANZHU_000119",
       "IR_SHL_ZHUJIE_000172"
@@ -104,6 +104,6 @@
     "無汗"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

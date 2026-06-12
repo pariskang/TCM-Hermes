@@ -8,23 +8,23 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001230",
-    "IR_JGYL_FANGLUN_000164",
-    "IR_JGYL_FANGLUN_000178",
-    "IR_JGYL_QIANZHU_000191",
-    "IR_JGYL_TIAOWEN_000164",
-    "IR_JGYL_TIAOWEN_000178",
+    "IR_CAOSHI_FAWEI_001229",
+    "IR_JGYL_FANGLUN_000162",
+    "IR_JGYL_FANGLUN_000176",
+    "IR_JGYL_QIANZHU_000189",
+    "IR_JGYL_TIAOWEN_000162",
+    "IR_JGYL_TIAOWEN_000176",
     "IR_SHL_GUIBEN_001462"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001230",
-      "IR_JGYL_FANGLUN_000164",
-      "IR_JGYL_FANGLUN_000178",
-      "IR_JGYL_QIANZHU_000191",
-      "IR_JGYL_TIAOWEN_000164",
-      "IR_JGYL_TIAOWEN_000178",
+      "IR_CAOSHI_FAWEI_001229",
+      "IR_JGYL_FANGLUN_000162",
+      "IR_JGYL_FANGLUN_000176",
+      "IR_JGYL_QIANZHU_000189",
+      "IR_JGYL_TIAOWEN_000162",
+      "IR_JGYL_TIAOWEN_000176",
       "IR_SHL_GUIBEN_001462"
     ],
     "bronze": []
@@ -90,7 +90,7 @@
         "盜汗"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001230"
+        "IR_CAOSHI_FAWEI_001229"
       ]
     },
     {
@@ -114,7 +114,7 @@
         "黃耆"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001232"
+        "IR_CAOSHI_FAWEI_001231"
       ]
     },
     {
@@ -210,6 +210,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

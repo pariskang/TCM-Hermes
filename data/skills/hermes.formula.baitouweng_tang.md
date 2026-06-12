@@ -35,12 +35,12 @@
 > ——《傷寒大白》·下利（SU_B9119D083_001787，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["脈弦"], "rule_ids": ["IR_B5C5ECAC2_000149", "IR_B5C5ECAC2_000311"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["脈弦"], "rule_ids": ["IR_B5C5ECAC2_000148", "IR_B5C5ECAC2_000310"]}
 - {"kind": "condition_variant", "book_id": "BOOK_BD20B1D70", "book_title": "傷寒論翼", "distinct_conditions": ["小便不利", "少陰病", "發熱", "發黃", "脈浮", "陽明病"], "rule_ids": ["IR_BD20B1D70_000030"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["脈洪大"], "rule_ids": ["IR_JF_SHIYANLU_000172"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["白頭翁", "秦皮", "黃柏", "黃連"], "rule_ids": ["IR_BBAACE965_001360", "IR_BC91F4420_000547", "IR_SHL_GUANZHU_000680", "IR_SHL_ZHUJIE_001015"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["白頭翁", "秦皮", "黃柏", "黃連"], "rule_ids": ["IR_BBAACE965_001355", "IR_BC91F4420_000547", "IR_SHL_GUANZHU_000680", "IR_SHL_ZHUJIE_001015"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["白頭翁二兩", "秦皮三兩", "黃柏三兩", "黃連三兩"], "rule_ids": ["IR_SHL_GUIBEN_001124"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集"], "composition": ["白頭翁", "秦皮", "黃連"], "rule_ids": ["IR_SHL_LAISU_000728"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集"], "composition": ["白頭翁", "秦皮", "黃連"], "rule_ids": ["IR_SHL_LAISU_000727"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

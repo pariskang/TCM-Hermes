@@ -20,7 +20,7 @@
 > ——《傷寒雜病論(桂本)》·辨瘧病脈證並治（SU_SHL_GUIBEN_001158，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "黃耆"], "rule_ids": ["IR_CAOSHI_FAWEI_001018"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "黃耆"], "rule_ids": ["IR_CAOSHI_FAWEI_001017"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "桂枝三兩", "生薑六兩", "芍藥三兩", "黃耆三兩"], "rule_ids": ["IR_SHL_GUIBEN_001334"]}
 
 ## 安全声明

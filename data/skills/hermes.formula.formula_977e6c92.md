@@ -32,9 +32,9 @@
 > ——《曹氏傷寒金匱發微合刊》·水氣病脈證並治第十四（SU_CAOSHI_FAWEI_001729，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["歷節", "盜汗"], "rule_ids": ["IR_CAOSHI_FAWEI_001230"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["歷節", "盜汗"], "rule_ids": ["IR_CAOSHI_FAWEI_001229"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["胸痛"], "rule_ids": ["IR_SHL_GUIBEN_001462"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "黃耆"], "rule_ids": ["IR_CAOSHI_FAWEI_001232"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "黃耆"], "rule_ids": ["IR_CAOSHI_FAWEI_001231"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十五枚", "桂枝三兩", "甘草二兩", "生薑三兩", "芍藥三兩", "黃耆二兩"], "rule_ids": ["IR_SHL_GUIBEN_000894", "IR_SHL_GUIBEN_001463"]}
 
 ## 安全声明

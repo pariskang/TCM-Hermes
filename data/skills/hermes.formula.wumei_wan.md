@@ -37,10 +37,10 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["惡寒", "發熱"], "rule_ids": ["IR_B3E520529_000059"]}
 - {"kind": "condition_variant", "book_id": "BOOK_BA504DABF", "book_title": "傷寒辨要箋記", "distinct_conditions": ["上熱下寒", "嘔吐", "煩躁"], "rule_ids": ["IR_BA504DABF_000009"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["不能食", "太陰病", "腹滿", "自利"], "rule_ids": ["IR_SHL_LAISU_000708", "IR_SHL_LAISU_000714"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "烏梅", "當歸", "細辛", "黃連"], "rule_ids": ["IR_BBAACE965_001302"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["不能食", "太陰病", "腹滿", "自利"], "rule_ids": ["IR_SHL_LAISU_000707", "IR_SHL_LAISU_000713"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "烏梅", "當歸", "細辛", "黃連"], "rule_ids": ["IR_BBAACE965_001297"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["乾薑", "烏梅", "當歸", "細辛", "附子", "黃連"], "rule_ids": ["IR_BC91F4420_000522"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒貫珠集"], "composition": ["乾薑", "人參", "桂枝", "烏梅", "當歸", "細辛", "苦酒", "蜀椒", "蜜", "附子", "黃柏", "黃連"], "rule_ids": ["IR_SHL_GUANZHU_000689", "IR_SHL_LAISU_000716"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒貫珠集"], "composition": ["乾薑", "人參", "桂枝", "烏梅", "當歸", "細辛", "苦酒", "蜀椒", "蜜", "附子", "黃柏", "黃連"], "rule_ids": ["IR_SHL_GUANZHU_000689", "IR_SHL_LAISU_000715"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現烏梅丸應用與禁忌表述，需按條件區分。

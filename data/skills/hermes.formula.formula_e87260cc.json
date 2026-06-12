@@ -10,19 +10,19 @@
   "supporting_initial_rules": [
     "IR_B11498305_000159",
     "IR_B1CAC3ADF_000508",
-    "IR_B2EB248E3_000056",
+    "IR_B2EB248E3_000055",
     "IR_B3E16D849_000160",
     "IR_B3E16D849_000321",
-    "IR_B41512D4B_000497",
-    "IR_B5C5ECAC2_000461",
+    "IR_B41512D4B_000496",
+    "IR_B5C5ECAC2_000459",
     "IR_B8E444005_000404",
     "IR_B9119D083_000151",
-    "IR_BBAACE965_000799",
+    "IR_BBAACE965_000797",
     "IR_BC91F4420_000203",
-    "IR_CAOSHI_FAWEI_000968",
+    "IR_CAOSHI_FAWEI_000967",
     "IR_SHL_GUANZHU_000345",
     "IR_SHL_LAISU_000289",
-    "IR_SHL_SUYUAN_000622",
+    "IR_SHL_SUYUAN_000621",
     "IR_SHL_ZHUJIE_000584"
   ],
   "supporting_rules_by_release_level": {
@@ -30,19 +30,19 @@
     "silver": [
       "IR_B11498305_000159",
       "IR_B1CAC3ADF_000508",
-      "IR_B2EB248E3_000056",
+      "IR_B2EB248E3_000055",
       "IR_B3E16D849_000160",
       "IR_B3E16D849_000321",
-      "IR_B41512D4B_000497",
-      "IR_B5C5ECAC2_000461",
+      "IR_B41512D4B_000496",
+      "IR_B5C5ECAC2_000459",
       "IR_B8E444005_000404",
       "IR_B9119D083_000151",
-      "IR_BBAACE965_000799",
+      "IR_BBAACE965_000797",
       "IR_BC91F4420_000203",
-      "IR_CAOSHI_FAWEI_000968",
+      "IR_CAOSHI_FAWEI_000967",
       "IR_SHL_GUANZHU_000345",
       "IR_SHL_LAISU_000289",
-      "IR_SHL_SUYUAN_000622",
+      "IR_SHL_SUYUAN_000621",
       "IR_SHL_ZHUJIE_000584"
     ],
     "bronze": []
@@ -187,8 +187,8 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000499",
-        "IR_CAOSHI_FAWEI_000460",
+        "IR_B41512D4B_000498",
+        "IR_CAOSHI_FAWEI_000459",
         "IR_SHL_ZHUJIE_000588"
       ]
     },
@@ -208,7 +208,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000803",
+        "IR_BBAACE965_000801",
         "IR_BC91F4420_000204",
         "IR_SHL_GUANZHU_000347",
         "IR_SHL_LAISU_000293"
@@ -273,6 +273,6 @@
     "脈虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

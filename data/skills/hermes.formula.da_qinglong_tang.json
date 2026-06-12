@@ -3,12 +3,12 @@
   "kind": "formula",
   "title": "大青龍湯方證合併規則",
   "subject": "大青龍湯",
-  "abstracted_claim": "大青龍湯可歸納為太陽中風、溢飲、傷寒、中風、太陽傷寒、太陽病等方證的核心方（支持條文 50 條，跨 33 部書）。",
+  "abstracted_claim": "大青龍湯可歸納為太陽中風、溢飲、傷寒、中風、太陽傷寒、太陽病等方證的核心方（支持條文 51 條，跨 33 部書）。",
   "merged_rule_id": "MHR_FORMULA_DA_QINGLONG_TANG",
   "release_level": "silver",
   "consensus_score": 0.9,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000284",
+    "IR_B0B74DF58_000283",
     "IR_B11498305_000046",
     "IR_B1CAC3ADF_000167",
     "IR_B294D68B8_000012",
@@ -16,10 +16,11 @@
     "IR_B3E16D849_000190",
     "IR_B3E16D849_000326",
     "IR_B3E16D849_000482",
+    "IR_B3E16D849_000623",
     "IR_B3E16D849_000681",
     "IR_B3E520529_000082",
     "IR_B3E520529_000085",
-    "IR_B41512D4B_000149",
+    "IR_B41512D4B_000148",
     "IR_B5FF1CA1B_000050",
     "IR_B8E444005_000137",
     "IR_B8E444005_000151",
@@ -35,13 +36,13 @@
     "IR_BC91F4420_000248",
     "IR_BD20B1D70_000016",
     "IR_CAOSHI_FAWEI_000093",
-    "IR_CAOSHI_FAWEI_001145",
+    "IR_CAOSHI_FAWEI_001144",
     "IR_JGYH_ERZHU_000136",
-    "IR_JGYL_FANGLUN_000119",
+    "IR_JGYL_FANGLUN_000118",
     "IR_JGYL_JIYI_000202",
     "IR_JGYL_JIYI_000204",
-    "IR_JGYL_QIANZHU_000135",
-    "IR_JGYL_TIAOWEN_000119",
+    "IR_JGYL_QIANZHU_000134",
+    "IR_JGYL_TIAOWEN_000118",
     "IR_JGYL_XINDIAN_000116",
     "IR_JG_FANGGEKUO_000010",
     "IR_SHL_GUANZHU_000079",
@@ -62,7 +63,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000284",
+      "IR_B0B74DF58_000283",
       "IR_B11498305_000046",
       "IR_B1CAC3ADF_000167",
       "IR_B294D68B8_000012",
@@ -70,10 +71,11 @@
       "IR_B3E16D849_000190",
       "IR_B3E16D849_000326",
       "IR_B3E16D849_000482",
+      "IR_B3E16D849_000623",
       "IR_B3E16D849_000681",
       "IR_B3E520529_000082",
       "IR_B3E520529_000085",
-      "IR_B41512D4B_000149",
+      "IR_B41512D4B_000148",
       "IR_B5FF1CA1B_000050",
       "IR_B8E444005_000137",
       "IR_B8E444005_000151",
@@ -89,13 +91,13 @@
       "IR_BC91F4420_000248",
       "IR_BD20B1D70_000016",
       "IR_CAOSHI_FAWEI_000093",
-      "IR_CAOSHI_FAWEI_001145",
+      "IR_CAOSHI_FAWEI_001144",
       "IR_JGYH_ERZHU_000136",
-      "IR_JGYL_FANGLUN_000119",
+      "IR_JGYL_FANGLUN_000118",
       "IR_JGYL_JIYI_000202",
       "IR_JGYL_JIYI_000204",
-      "IR_JGYL_QIANZHU_000135",
-      "IR_JGYL_TIAOWEN_000119",
+      "IR_JGYL_QIANZHU_000134",
+      "IR_JGYL_TIAOWEN_000118",
       "IR_JGYL_XINDIAN_000116",
       "IR_JG_FANGGEKUO_000010",
       "IR_SHL_GUANZHU_000079",
@@ -163,6 +165,13 @@
       "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
       "source_unit_id": "SU_SHL_GUIBEN_001232",
       "evidence_span": "14.35病溢飲者，當發其汗，大青龍湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "鼻衄",
+      "source_unit_id": "SU_B3E16D849_001356",
+      "evidence_span": "服之厥逆。筋惕肉。此為逆也。又以大青龍湯主之。",
       "release_level": "silver"
     },
     {
@@ -317,13 +326,6 @@
       "chapter_title": "太陽病用青龍湯法第三",
       "source_unit_id": "SU_SHL_QJYF_000024",
       "evidence_span": "太陽中風，脈浮緊，發熱惡寒，身體疼痛，不汗出而煩，大青龍湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒大白",
-      "chapter_title": "發熱",
-      "source_unit_id": "SU_B9119D083_000136",
-      "evidence_span": "太陽中風，脈浮緊，發熱惡寒，身疼痛，不汗出而煩躁者，大青龍湯主之。",
       "release_level": "silver"
     }
   ],
@@ -567,11 +569,11 @@
         "count": 33
       },
       {
-        "term": "惡風",
-        "count": 3
+        "term": "厥",
+        "count": 4
       },
       {
-        "term": "厥",
+        "term": "惡風",
         "count": 3
       },
       {
@@ -635,11 +637,11 @@
     "treatment_principle": [
       {
         "term": "發汗解表",
-        "count": 50
+        "count": 51
       },
       {
         "term": "兼清裏熱",
-        "count": 50
+        "count": 51
       }
     ]
   },
@@ -662,6 +664,6 @@
     "陰弱"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -8,7 +8,7 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000264",
+    "IR_B0B74DF58_000263",
     "IR_B9119D083_000353",
     "IR_SHL_GUIBEN_000486",
     "IR_SHL_GUIBEN_001404",
@@ -22,7 +22,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000264",
+      "IR_B0B74DF58_000263",
       "IR_B9119D083_000353",
       "IR_SHL_GUIBEN_000486",
       "IR_SHL_GUIBEN_001404",
@@ -147,7 +147,7 @@
         "茯苓"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000315",
+        "IR_BBAACE965_000314",
         "IR_BC91F4420_000199",
         "IR_SHL_ZHUJIE_000280"
       ]
@@ -256,6 +256,6 @@
     "脈沉弦"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

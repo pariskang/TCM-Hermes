@@ -38,9 +38,9 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["厥", "心動悸", "脈結", "脈結代", "腹中痛", "頭痛"], "rule_ids": ["IR_B11498305_000259", "IR_B11498305_000286", "IR_B11498305_000999"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["脈弦"], "rule_ids": ["IR_B18FAB5FB_000082"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["嘔吐", "往來寒熱", "痞"], "rule_ids": ["IR_B3E520529_000142"]}
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["小便難", "惡寒", "脈數", "頭眩", "食難用飽"], "rule_ids": ["IR_CAOSHI_FAWEI_000543", "IR_CAOSHI_FAWEI_000554", "IR_CAOSHI_FAWEI_000555", "IR_CAOSHI_FAWEI_001354", "IR_CAOSHI_FAWEI_001359"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["小便難", "惡寒", "脈數", "頭眩", "食難用飽"], "rule_ids": ["IR_CAOSHI_FAWEI_000542", "IR_CAOSHI_FAWEI_000553", "IR_CAOSHI_FAWEI_000554", "IR_CAOSHI_FAWEI_001353", "IR_CAOSHI_FAWEI_001358"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["下血", "不大便", "不識人", "亡陽", "如見鬼狀", "獨語", "神昏", "躁煩"], "rule_ids": ["IR_SHL_MINGLI_000108"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["厚朴", "大黃", "枳實"], "rule_ids": ["IR_BBAACE965_000900", "IR_BC91F4420_000360", "IR_SHL_GUANZHU_000393", "IR_SHL_ZHUJIE_000644"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["厚朴", "大黃", "枳實"], "rule_ids": ["IR_BBAACE965_000898", "IR_BC91F4420_000360", "IR_SHL_GUANZHU_000393", "IR_SHL_ZHUJIE_000644"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現小承氣湯應用與禁忌表述，需按條件區分。

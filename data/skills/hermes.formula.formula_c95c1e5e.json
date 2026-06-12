@@ -9,29 +9,29 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_BBA9FB4A6_000383",
-    "IR_CAOSHI_FAWEI_001328",
+    "IR_CAOSHI_FAWEI_001327",
     "IR_JGYH_ERZHU_000285",
-    "IR_JGYL_FANGLUN_000220",
+    "IR_JGYL_FANGLUN_000218",
     "IR_JGYL_JIYI_000369",
-    "IR_JGYL_QIANZHU_000251",
-    "IR_JGYL_TIAOWEN_000220",
+    "IR_JGYL_QIANZHU_000248",
+    "IR_JGYL_TIAOWEN_000218",
     "IR_JGYL_XINDIAN_000244",
     "IR_SHL_GUIBEN_001162",
-    "IR_SHL_LAISU_000674"
+    "IR_SHL_LAISU_000673"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_BBA9FB4A6_000383",
-      "IR_CAOSHI_FAWEI_001328",
+      "IR_CAOSHI_FAWEI_001327",
       "IR_JGYH_ERZHU_000285",
-      "IR_JGYL_FANGLUN_000220",
+      "IR_JGYL_FANGLUN_000218",
       "IR_JGYL_JIYI_000369",
-      "IR_JGYL_QIANZHU_000251",
-      "IR_JGYL_TIAOWEN_000220",
+      "IR_JGYL_QIANZHU_000248",
+      "IR_JGYL_TIAOWEN_000218",
       "IR_JGYL_XINDIAN_000244",
       "IR_SHL_GUIBEN_001162",
-      "IR_SHL_LAISU_000674"
+      "IR_SHL_LAISU_000673"
     ],
     "bronze": []
   },
@@ -116,7 +116,7 @@
         "嘔逆"
       ],
       "rule_ids": [
-        "IR_SHL_LAISU_000674"
+        "IR_SHL_LAISU_000673"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "竹茹"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001329"
+        "IR_CAOSHI_FAWEI_001328"
       ]
     },
     {
@@ -176,6 +176,6 @@
     "嘔逆"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -99,6 +99,21 @@
     {
       "kind": "composition_variant",
       "books": [
+        "傷寒論(宋本)",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "半夏半升",
+        "生薑一兩"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000505",
+        "IR_SHL_SONGBEN_000524"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
         "傷寒論辯證廣注",
         "曹氏傷寒金匱發微合刊"
       ],
@@ -106,8 +121,21 @@
         "黃芩"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000495",
-        "IR_CAOSHI_FAWEI_000454"
+        "IR_B41512D4B_000494",
+        "IR_CAOSHI_FAWEI_000453"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒尋源"
+      ],
+      "composition": [
+        "半夏半升",
+        "生薑三兩"
+      ],
+      "rule_ids": [
+        "IR_B8E444005_000396"
       ]
     },
     {
@@ -125,10 +153,24 @@
         "黃芩"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000792",
+        "IR_BBAACE965_000790",
         "IR_BC91F4420_000223",
         "IR_SHL_QJYF_000117",
         "IR_SHL_ZHUJIE_000580"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒懸解"
+      ],
+      "composition": [
+        "半夏",
+        "生薑",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_BCA15D57E_000435"
       ]
     },
     {
@@ -270,6 +312,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

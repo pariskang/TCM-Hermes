@@ -35,7 +35,7 @@
 > ——《金匱要略淺註》·婦人妊娠病脈證治第二十（SU_JGYL_QIANZHU_001288，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001409"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001408"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["茯苓三兩"], "rule_ids": ["IR_SHL_GUIBEN_001581"]}
 
 ## 安全声明

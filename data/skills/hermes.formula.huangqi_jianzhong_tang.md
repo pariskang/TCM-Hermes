@@ -27,7 +27,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["亡血", "喘", "渴", "腹痛"], "rule_ids": ["IR_JGYL_QIANZHU_000069"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏三兩", "茯苓一兩", "黃耆一兩"], "rule_ids": ["IR_CAOSHI_FAWEI_001032"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏三兩", "茯苓一兩", "黃耆一兩"], "rule_ids": ["IR_CAOSHI_FAWEI_001031"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏三兩", "枳實一兩", "生薑一兩", "茯苓一兩", "黃耆一兩"], "rule_ids": ["IR_SHL_GUIBEN_001348"]}
 
 ## 安全声明

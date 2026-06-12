@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B54968951", "book_title": "劉河間傷寒醫鑑", "distinct_conditions": ["口中和", "四逆", "背惡寒"], "rule_ids": ["IR_B54968951_000003"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["甘草", "細辛", "附子", "麻黃"], "rule_ids": ["IR_B41512D4B_000973"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "曹氏傷寒金匱發微合刊"], "composition": ["細辛", "附子", "麻黃"], "rule_ids": ["IR_BC91F4420_000458", "IR_CAOSHI_FAWEI_000729"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["甘草", "細辛", "附子", "麻黃"], "rule_ids": ["IR_B41512D4B_000971"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "曹氏傷寒金匱發微合刊"], "composition": ["細辛", "附子", "麻黃"], "rule_ids": ["IR_BC91F4420_000458", "IR_CAOSHI_FAWEI_000728"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["麻黃二升"], "rule_ids": ["IR_SHL_GUANZHU_000595"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["細辛二兩", "附子一枚", "麻黃二兩"], "rule_ids": ["IR_SHL_GUIBEN_000992"]}
 

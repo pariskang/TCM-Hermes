@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_ea0d3933`
 - **Merged rule**: `MHR_FORMULA_FORMULA_EA0D3933`
 - **Release level**: silver
-- **Consensus score**: 0.911
-- **Supporting initial rules**: 9
+- **Consensus score**: 0.912
+- **Supporting initial rules**: 10
 
 ## 归纳主张
-百合滑石散可歸納為百合病、發熱、寒熱等方證的核心方（支持條文 9 條，跨 9 部書）。
+百合滑石散可歸納為百合病、發熱、寒熱等方證的核心方（支持條文 10 條，跨 9 部書）。
 
 ## 原文证据（节选）
 > 百合病。變發熱者，百合滑石散主之。
@@ -31,11 +31,11 @@
 > 【綱】仲景金匱曰。百合病。變發熱者。百合滑石散主之。
 > ——《傷寒論綱目》·百合病（SU_B3E16D849_004135，silver）
 
-> 百合病。變發熱者。（〔原注〕一作發寒熱。）百合滑石散主之。
-> ——《金匱玉函要略輯義》·論一首、證三條、方十二首（SU_JGYL_JIYI_000395，silver）
+> 本不發熱。今變發熱者。其內熱可知也。故以百合滑石散主之。
+> ——《金匱玉函要略輯義》·論一首、證三條、方十二首（SU_JGYL_JIYI_000396，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["滑石", "百合"], "rule_ids": ["IR_CAOSHI_FAWEI_000987"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["滑石", "百合"], "rule_ids": ["IR_CAOSHI_FAWEI_000986"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["滑石二兩"], "rule_ids": ["IR_SHL_GUIBEN_001301"]}
 
 ## 安全声明

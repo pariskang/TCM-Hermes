@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["脈浮", "脈虛"], "rule_ids": ["IR_B3E16D849_000160", "IR_B3E16D849_000321"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝", "附子"], "rule_ids": ["IR_B41512D4B_000499", "IR_CAOSHI_FAWEI_000460", "IR_SHL_ZHUJIE_000588"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集"], "composition": ["大棗", "桂枝", "甘草", "生薑", "附子"], "rule_ids": ["IR_BBAACE965_000803", "IR_BC91F4420_000204", "IR_SHL_GUANZHU_000347", "IR_SHL_LAISU_000293"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝", "附子"], "rule_ids": ["IR_B41512D4B_000498", "IR_CAOSHI_FAWEI_000459", "IR_SHL_ZHUJIE_000588"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集"], "composition": ["大棗", "桂枝", "甘草", "生薑", "附子"], "rule_ids": ["IR_BBAACE965_000801", "IR_BC91F4420_000204", "IR_SHL_GUANZHU_000347", "IR_SHL_LAISU_000293"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "桂枝四兩", "甘草二兩", "生薑三兩", "附子二枚"], "rule_ids": ["IR_SHL_GUIBEN_000277"]}
 
 ## 安全声明

@@ -18,7 +18,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B5FF1CA1B", "book_title": "傷寒纘論", "distinct_conditions": ["脈浮數"], "rule_ids": ["IR_B5FF1CA1B_000088"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["小便不利", "煩躁"], "rule_ids": ["IR_BB7301DF2_000164"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["小便不利", "煩躁"], "rule_ids": ["IR_BB7301DF2_000163"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

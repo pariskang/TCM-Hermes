@@ -8,18 +8,18 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000137",
-    "IR_B0B74DF58_000139",
-    "IR_B0B74DF58_000141",
+    "IR_B0B74DF58_000136",
+    "IR_B0B74DF58_000138",
+    "IR_B0B74DF58_000140",
     "IR_B11498305_000075",
     "IR_B11498305_000077",
     "IR_B18FAB5FB_000126",
     "IR_B1CAC3ADF_000246",
     "IR_B3E16D849_000563",
-    "IR_B41512D4B_000238",
+    "IR_B41512D4B_000237",
     "IR_B5FF1CA1B_000095",
     "IR_B5FF1CA1B_000097",
-    "IR_BBAACE965_000341",
+    "IR_BBAACE965_000340",
     "IR_BC91F4420_000137",
     "IR_CAOSHI_FAWEI_000194",
     "IR_SHL_GUANZHU_000158",
@@ -35,18 +35,18 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000137",
-      "IR_B0B74DF58_000139",
-      "IR_B0B74DF58_000141",
+      "IR_B0B74DF58_000136",
+      "IR_B0B74DF58_000138",
+      "IR_B0B74DF58_000140",
       "IR_B11498305_000075",
       "IR_B11498305_000077",
       "IR_B18FAB5FB_000126",
       "IR_B1CAC3ADF_000246",
       "IR_B3E16D849_000563",
-      "IR_B41512D4B_000238",
+      "IR_B41512D4B_000237",
       "IR_B5FF1CA1B_000095",
       "IR_B5FF1CA1B_000097",
-      "IR_BBAACE965_000341",
+      "IR_BBAACE965_000340",
       "IR_BC91F4420_000137",
       "IR_CAOSHI_FAWEI_000194",
       "IR_SHL_GUANZHU_000158",
@@ -233,9 +233,9 @@
         "口渴"
       ],
       "rule_ids": [
-        "IR_B0B74DF58_000137",
-        "IR_B0B74DF58_000139",
-        "IR_B0B74DF58_000141"
+        "IR_B0B74DF58_000136",
+        "IR_B0B74DF58_000138",
+        "IR_B0B74DF58_000140"
       ]
     },
     {
@@ -275,7 +275,7 @@
         "茯苓"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000344",
+        "IR_BBAACE965_000343",
         "IR_BC91F4420_000138",
         "IR_SHL_ZHUJIE_000301"
       ]
@@ -387,6 +387,6 @@
     "脈浮數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

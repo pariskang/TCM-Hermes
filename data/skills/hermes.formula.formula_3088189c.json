@@ -3,33 +3,34 @@
   "kind": "formula",
   "title": "四逆加人參湯方證合併規則",
   "subject": "四逆加人參湯",
-  "abstracted_claim": "四逆加人參湯可歸納為亡血、下利、陽明病、傷寒、少陰病、惡寒等方證的核心方（支持條文 25 條，跨 20 部書）。",
+  "abstracted_claim": "四逆加人參湯可歸納為亡血、下利、陽明病、傷寒、少陰病、惡寒等方證的核心方（支持條文 26 條，跨 20 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_3088189C",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.917,
   "supporting_initial_rules": [
     "IR_B11498305_000428",
     "IR_B1CAC3ADF_000797",
     "IR_B1CAC3ADF_000901",
-    "IR_B3E16D849_001570",
-    "IR_B3E16D849_001595",
+    "IR_B3E16D849_001568",
+    "IR_B3E16D849_001593",
     "IR_B5C5ECAC2_000102",
-    "IR_B5FF1CA1B_000458",
+    "IR_B5FF1CA1B_000457",
     "IR_B8E444005_000411",
-    "IR_BB711944D_001247",
-    "IR_BBAACE965_001381",
+    "IR_BB711944D_001246",
+    "IR_BBAACE965_001376",
     "IR_BC91F4420_000589",
-    "IR_CAOSHI_FAWEI_000879",
+    "IR_CAOSHI_FAWEI_000878",
     "IR_SHL_GUANZHU_000357",
     "IR_SHL_GUIBEN_001238",
-    "IR_SHL_LAISU_000578",
-    "IR_SHL_LAISU_000642",
+    "IR_SHL_LAISU_000577",
+    "IR_SHL_LAISU_000641",
     "IR_SHL_LEIFANG_000058",
-    "IR_SHL_LUNZHU_000574",
-    "IR_SHL_LUNZHU_000650",
+    "IR_SHL_LUNZHU_000573",
+    "IR_SHL_LUNZHU_000649",
     "IR_SHL_QJYF_000351",
     "IR_SHL_SONGBEN_000448",
-    "IR_SHL_SUYUAN_001083",
+    "IR_SHL_SUYUAN_001081",
+    "IR_SHL_SUYUAN_001086",
     "IR_SHL_TIAOWEN_000402",
     "IR_SHL_ZHUJIE_000910",
     "IR_SHL_ZHUJIE_001033"
@@ -40,25 +41,26 @@
       "IR_B11498305_000428",
       "IR_B1CAC3ADF_000797",
       "IR_B1CAC3ADF_000901",
-      "IR_B3E16D849_001570",
-      "IR_B3E16D849_001595",
+      "IR_B3E16D849_001568",
+      "IR_B3E16D849_001593",
       "IR_B5C5ECAC2_000102",
-      "IR_B5FF1CA1B_000458",
+      "IR_B5FF1CA1B_000457",
       "IR_B8E444005_000411",
-      "IR_BB711944D_001247",
-      "IR_BBAACE965_001381",
+      "IR_BB711944D_001246",
+      "IR_BBAACE965_001376",
       "IR_BC91F4420_000589",
-      "IR_CAOSHI_FAWEI_000879",
+      "IR_CAOSHI_FAWEI_000878",
       "IR_SHL_GUANZHU_000357",
       "IR_SHL_GUIBEN_001238",
-      "IR_SHL_LAISU_000578",
-      "IR_SHL_LAISU_000642",
+      "IR_SHL_LAISU_000577",
+      "IR_SHL_LAISU_000641",
       "IR_SHL_LEIFANG_000058",
-      "IR_SHL_LUNZHU_000574",
-      "IR_SHL_LUNZHU_000650",
+      "IR_SHL_LUNZHU_000573",
+      "IR_SHL_LUNZHU_000649",
       "IR_SHL_QJYF_000351",
       "IR_SHL_SONGBEN_000448",
-      "IR_SHL_SUYUAN_001083",
+      "IR_SHL_SUYUAN_001081",
+      "IR_SHL_SUYUAN_001086",
       "IR_SHL_TIAOWEN_000402",
       "IR_SHL_ZHUJIE_000910",
       "IR_SHL_ZHUJIE_001033"
@@ -193,6 +195,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "霍亂證治第十八",
+      "source_unit_id": "SU_SHL_SUYUAN_002478",
+      "evidence_span": "寧非虛寒所致。而以利止為亡血。而又以四逆加人參湯主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒雜病論(桂本)",
       "chapter_title": "辨霍亂吐利病脈證並治",
       "source_unit_id": "SU_SHL_GUIBEN_001084",
@@ -276,8 +285,8 @@
         "自利"
       ],
       "rule_ids": [
-        "IR_SHL_LAISU_000578",
-        "IR_SHL_LAISU_000642"
+        "IR_SHL_LAISU_000577",
+        "IR_SHL_LAISU_000641"
       ]
     },
     {
@@ -303,7 +312,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001383"
+        "IR_BBAACE965_001378"
       ]
     },
     {
@@ -315,7 +324,7 @@
         "人參"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000880"
+        "IR_CAOSHI_FAWEI_000879"
       ]
     },
     {
@@ -353,7 +362,7 @@
     "disease": [
       {
         "term": "亡血",
-        "count": 24
+        "count": 25
       },
       {
         "term": "下利",
@@ -434,6 +443,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

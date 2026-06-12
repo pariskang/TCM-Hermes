@@ -3,15 +3,15 @@
   "kind": "formula",
   "title": "麻黃湯方證合併規則",
   "subject": "麻黃湯",
-  "abstracted_claim": "麻黃湯可歸納為太陽病、傷寒、中風、腹滿、太陽傷寒、溫病等方證的核心方（支持條文 119 條，跨 26 部書）。",
+  "abstracted_claim": "麻黃湯可歸納為太陽病、傷寒、中風、腹滿、太陽傷寒、溫病等方證的核心方（支持條文 121 條，跨 26 部書）。",
   "merged_rule_id": "MHR_FORMULA_MAHUANG_TANG",
   "release_level": "silver",
-  "consensus_score": 0.915,
+  "consensus_score": 0.914,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000120",
+    "IR_B0B74DF58_000119",
+    "IR_B0B74DF58_000285",
     "IR_B0B74DF58_000286",
-    "IR_B0B74DF58_000287",
-    "IR_B0B74DF58_000289",
+    "IR_B0B74DF58_000288",
     "IR_B11498305_000026",
     "IR_B11498305_000034",
     "IR_B11498305_000036",
@@ -35,16 +35,17 @@
     "IR_B3E16D849_000683",
     "IR_B3E16D849_000833",
     "IR_B3E520529_000081",
-    "IR_B41512D4B_000130",
-    "IR_B41512D4B_000133",
-    "IR_B41512D4B_000139",
-    "IR_B41512D4B_000142",
+    "IR_B41512D4B_000129",
+    "IR_B41512D4B_000132",
+    "IR_B41512D4B_000138",
+    "IR_B41512D4B_000141",
+    "IR_B41512D4B_000144",
     "IR_B41512D4B_000145",
-    "IR_B41512D4B_000146",
-    "IR_B41512D4B_000190",
+    "IR_B41512D4B_000170",
+    "IR_B41512D4B_000189",
     "IR_B5FF1CA1B_000027",
     "IR_B5FF1CA1B_000037",
-    "IR_B5FF1CA1B_000570",
+    "IR_B5FF1CA1B_000569",
     "IR_B8E444005_000087",
     "IR_B8E444005_000150",
     "IR_B8E444005_000186",
@@ -68,18 +69,18 @@
     "IR_B9119D083_000420",
     "IR_B9119D083_000428",
     "IR_B9119D083_000429",
-    "IR_BB7301DF2_000170",
-    "IR_BB7301DF2_000186",
-    "IR_BB7301DF2_000235",
+    "IR_BB7301DF2_000169",
+    "IR_BB7301DF2_000185",
+    "IR_BB7301DF2_000234",
     "IR_BBAACE965_000153",
-    "IR_BBAACE965_000197",
-    "IR_BBAACE965_000220",
-    "IR_BBAACE965_000222",
-    "IR_BBAACE965_000226",
+    "IR_BBAACE965_000196",
+    "IR_BBAACE965_000219",
+    "IR_BBAACE965_000221",
+    "IR_BBAACE965_000225",
+    "IR_BBAACE965_000257",
     "IR_BBAACE965_000258",
-    "IR_BBAACE965_000259",
+    "IR_BBAACE965_000265",
     "IR_BBAACE965_000266",
-    "IR_BBAACE965_000267",
     "IR_BC91F4420_000122",
     "IR_BC91F4420_000210",
     "IR_BC91F4420_000255",
@@ -113,13 +114,14 @@
     "IR_SHL_SONGBEN_000098",
     "IR_SHL_SONGBEN_000108",
     "IR_SHL_SUYUAN_000187",
+    "IR_SHL_SUYUAN_000188",
     "IR_SHL_SUYUAN_000194",
     "IR_SHL_SUYUAN_000196",
-    "IR_SHL_SUYUAN_000551",
-    "IR_SHL_SUYUAN_000738",
-    "IR_SHL_SUYUAN_000986",
-    "IR_SHL_SUYUAN_001134",
-    "IR_SHL_SUYUAN_001319",
+    "IR_SHL_SUYUAN_000550",
+    "IR_SHL_SUYUAN_000737",
+    "IR_SHL_SUYUAN_000985",
+    "IR_SHL_SUYUAN_001132",
+    "IR_SHL_SUYUAN_001315",
     "IR_SHL_TIAOWEN_000037",
     "IR_SHL_TIAOWEN_000052",
     "IR_SHL_TIAOWEN_000062",
@@ -131,10 +133,10 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000120",
+      "IR_B0B74DF58_000119",
+      "IR_B0B74DF58_000285",
       "IR_B0B74DF58_000286",
-      "IR_B0B74DF58_000287",
-      "IR_B0B74DF58_000289",
+      "IR_B0B74DF58_000288",
       "IR_B11498305_000026",
       "IR_B11498305_000034",
       "IR_B11498305_000036",
@@ -158,16 +160,17 @@
       "IR_B3E16D849_000683",
       "IR_B3E16D849_000833",
       "IR_B3E520529_000081",
-      "IR_B41512D4B_000130",
-      "IR_B41512D4B_000133",
-      "IR_B41512D4B_000139",
-      "IR_B41512D4B_000142",
+      "IR_B41512D4B_000129",
+      "IR_B41512D4B_000132",
+      "IR_B41512D4B_000138",
+      "IR_B41512D4B_000141",
+      "IR_B41512D4B_000144",
       "IR_B41512D4B_000145",
-      "IR_B41512D4B_000146",
-      "IR_B41512D4B_000190",
+      "IR_B41512D4B_000170",
+      "IR_B41512D4B_000189",
       "IR_B5FF1CA1B_000027",
       "IR_B5FF1CA1B_000037",
-      "IR_B5FF1CA1B_000570",
+      "IR_B5FF1CA1B_000569",
       "IR_B8E444005_000087",
       "IR_B8E444005_000150",
       "IR_B8E444005_000186",
@@ -191,18 +194,18 @@
       "IR_B9119D083_000420",
       "IR_B9119D083_000428",
       "IR_B9119D083_000429",
-      "IR_BB7301DF2_000170",
-      "IR_BB7301DF2_000186",
-      "IR_BB7301DF2_000235",
+      "IR_BB7301DF2_000169",
+      "IR_BB7301DF2_000185",
+      "IR_BB7301DF2_000234",
       "IR_BBAACE965_000153",
-      "IR_BBAACE965_000197",
-      "IR_BBAACE965_000220",
-      "IR_BBAACE965_000222",
-      "IR_BBAACE965_000226",
+      "IR_BBAACE965_000196",
+      "IR_BBAACE965_000219",
+      "IR_BBAACE965_000221",
+      "IR_BBAACE965_000225",
+      "IR_BBAACE965_000257",
       "IR_BBAACE965_000258",
-      "IR_BBAACE965_000259",
+      "IR_BBAACE965_000265",
       "IR_BBAACE965_000266",
-      "IR_BBAACE965_000267",
       "IR_BC91F4420_000122",
       "IR_BC91F4420_000210",
       "IR_BC91F4420_000255",
@@ -236,13 +239,14 @@
       "IR_SHL_SONGBEN_000098",
       "IR_SHL_SONGBEN_000108",
       "IR_SHL_SUYUAN_000187",
+      "IR_SHL_SUYUAN_000188",
       "IR_SHL_SUYUAN_000194",
       "IR_SHL_SUYUAN_000196",
-      "IR_SHL_SUYUAN_000551",
-      "IR_SHL_SUYUAN_000738",
-      "IR_SHL_SUYUAN_000986",
-      "IR_SHL_SUYUAN_001134",
-      "IR_SHL_SUYUAN_001319",
+      "IR_SHL_SUYUAN_000550",
+      "IR_SHL_SUYUAN_000737",
+      "IR_SHL_SUYUAN_000985",
+      "IR_SHL_SUYUAN_001132",
+      "IR_SHL_SUYUAN_001315",
       "IR_SHL_TIAOWEN_000037",
       "IR_SHL_TIAOWEN_000052",
       "IR_SHL_TIAOWEN_000062",
@@ -633,7 +637,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現麻黃湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B41512D4B_000133"
+        "IR_B41512D4B_000132"
       ],
       "book_title": "傷寒論辯證廣注"
     },
@@ -641,7 +645,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現麻黃湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B5FF1CA1B_000570"
+        "IR_B5FF1CA1B_000569"
       ],
       "book_title": "傷寒纘論"
     },
@@ -697,7 +701,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現麻黃湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_SHL_SUYUAN_000986"
+        "IR_SHL_SUYUAN_000985"
       ],
       "book_title": "傷寒溯源集"
     },
@@ -714,7 +718,7 @@
     "disease": [
       {
         "term": "太陽病",
-        "count": 36
+        "count": 37
       },
       {
         "term": "傷寒",
@@ -740,11 +744,11 @@
     "symptoms": [
       {
         "term": "無汗",
-        "count": 60
+        "count": 62
       },
       {
         "term": "喘",
-        "count": 57
+        "count": 58
       },
       {
         "term": "衄",
@@ -756,7 +760,7 @@
       },
       {
         "term": "發熱",
-        "count": 41
+        "count": 42
       },
       {
         "term": "骨節疼痛",
@@ -772,7 +776,7 @@
       },
       {
         "term": "身疼痛",
-        "count": 15
+        "count": 16
       },
       {
         "term": "目瞑",
@@ -782,7 +786,7 @@
     "pulse": [
       {
         "term": "脈浮緊",
-        "count": 36
+        "count": 37
       },
       {
         "term": "脈浮",
@@ -811,11 +815,11 @@
     "treatment_principle": [
       {
         "term": "發汗解表",
-        "count": 119
+        "count": 121
       },
       {
         "term": "宣肺平喘",
-        "count": 119
+        "count": 121
       }
     ]
   },
@@ -838,6 +842,6 @@
     "陰弱"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -8,10 +8,10 @@
   "release_level": "silver",
   "consensus_score": 0.912,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000176",
+    "IR_B0B74DF58_000175",
     "IR_B11498305_000503",
     "IR_B3E520529_000218",
-    "IR_BBAACE965_000522",
+    "IR_BBAACE965_000521",
     "IR_BC2BA03C0_000227",
     "IR_JGYL_FANGLUN_000031",
     "IR_JGYL_TIAOWEN_000031",
@@ -29,10 +29,10 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000176",
+      "IR_B0B74DF58_000175",
       "IR_B11498305_000503",
       "IR_B3E520529_000218",
-      "IR_BBAACE965_000522",
+      "IR_BBAACE965_000521",
       "IR_BC2BA03C0_000227",
       "IR_JGYL_FANGLUN_000031",
       "IR_JGYL_TIAOWEN_000031",
@@ -200,7 +200,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000720",
+        "IR_BBAACE965_000718",
         "IR_BC91F4420_000158",
         "IR_SHL_ZHUJIE_001157"
       ]
@@ -214,7 +214,7 @@
         "甘草"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000407"
+        "IR_CAOSHI_FAWEI_000406"
       ]
     },
     {
@@ -352,6 +352,6 @@
     "四逆"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

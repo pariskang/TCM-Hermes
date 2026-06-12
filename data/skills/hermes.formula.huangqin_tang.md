@@ -26,9 +26,9 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["口渴", "口苦", "咽痛", "太陽病", "寒熱", "惡寒", "惡熱", "渴"], "rule_ids": ["IR_B11498305_000800"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_B18FAB5FB_000081"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["傷寒", "厥", "自利"], "rule_ids": ["IR_SHL_MINGLI_000121"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["黃芩"], "rule_ids": ["IR_B41512D4B_000495", "IR_CAOSHI_FAWEI_000454"]}
-- {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["大棗", "甘草", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000792", "IR_BC91F4420_000223", "IR_SHL_QJYF_000117", "IR_SHL_ZHUJIE_000580"]}
-- {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "甘草二兩", "芍藥二兩", "黃芩三兩"], "rule_ids": ["IR_SHL_GUIBEN_000735"]}
+- {"kind": "composition_variant", "books": ["傷寒論(宋本)", "張卿子傷寒論"], "composition": ["半夏半升", "生薑一兩"], "rule_ids": ["IR_B1CAC3ADF_000505", "IR_SHL_SONGBEN_000524"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["黃芩"], "rule_ids": ["IR_B41512D4B_000494", "IR_CAOSHI_FAWEI_000453"]}
+- {"kind": "composition_variant", "books": ["傷寒尋源"], "composition": ["半夏半升", "生薑三兩"], "rule_ids": ["IR_B8E444005_000396"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現黃芩湯應用與禁忌表述，需按條件區分。

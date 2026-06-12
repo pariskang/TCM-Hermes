@@ -17,7 +17,7 @@
 > ——《傷寒總病論》·發汗吐下後雜病證（SU_B3E520529_000133，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["譫語"], "rule_ids": ["IR_B3E16D849_001482"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["譫語"], "rule_ids": ["IR_B3E16D849_001480"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["傷寒", "厥", "惡風", "渴", "煩驚", "熱結在裏", "胸滿"], "rule_ids": ["IR_B3E520529_000259"]}
 
 ## 冲突记录 conflict_set

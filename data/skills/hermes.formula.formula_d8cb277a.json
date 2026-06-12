@@ -8,20 +8,20 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001157",
-    "IR_CAOSHI_FAWEI_001159",
-    "IR_CAOSHI_FAWEI_001299",
+    "IR_CAOSHI_FAWEI_001156",
+    "IR_CAOSHI_FAWEI_001158",
+    "IR_CAOSHI_FAWEI_001298",
     "IR_JGYH_ERZHU_000145",
     "IR_JGYH_ERZHU_000227",
     "IR_JGYH_ERZHU_000268",
-    "IR_JGYL_FANGLUN_000125",
-    "IR_JGYL_FANGLUN_000183",
-    "IR_JGYL_FANGLUN_000205",
+    "IR_JGYL_FANGLUN_000124",
+    "IR_JGYL_FANGLUN_000181",
+    "IR_JGYL_FANGLUN_000203",
     "IR_JGYL_JIYI_000304",
     "IR_JGYL_JIYI_000346",
-    "IR_JGYL_TIAOWEN_000125",
-    "IR_JGYL_TIAOWEN_000183",
-    "IR_JGYL_TIAOWEN_000205",
+    "IR_JGYL_TIAOWEN_000124",
+    "IR_JGYL_TIAOWEN_000181",
+    "IR_JGYL_TIAOWEN_000203",
     "IR_JGYL_XINDIAN_000125",
     "IR_JGYL_XINDIAN_000226",
     "IR_SHL_GUIBEN_000845",
@@ -31,20 +31,20 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001157",
-      "IR_CAOSHI_FAWEI_001159",
-      "IR_CAOSHI_FAWEI_001299",
+      "IR_CAOSHI_FAWEI_001156",
+      "IR_CAOSHI_FAWEI_001158",
+      "IR_CAOSHI_FAWEI_001298",
       "IR_JGYH_ERZHU_000145",
       "IR_JGYH_ERZHU_000227",
       "IR_JGYH_ERZHU_000268",
-      "IR_JGYL_FANGLUN_000125",
-      "IR_JGYL_FANGLUN_000183",
-      "IR_JGYL_FANGLUN_000205",
+      "IR_JGYL_FANGLUN_000124",
+      "IR_JGYL_FANGLUN_000181",
+      "IR_JGYL_FANGLUN_000203",
       "IR_JGYL_JIYI_000304",
       "IR_JGYL_JIYI_000346",
-      "IR_JGYL_TIAOWEN_000125",
-      "IR_JGYL_TIAOWEN_000183",
-      "IR_JGYL_TIAOWEN_000205",
+      "IR_JGYL_TIAOWEN_000124",
+      "IR_JGYL_TIAOWEN_000181",
+      "IR_JGYL_TIAOWEN_000203",
       "IR_JGYL_XINDIAN_000125",
       "IR_JGYL_XINDIAN_000226",
       "IR_SHL_GUIBEN_000845",
@@ -199,9 +199,9 @@
         "乾嘔"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001157",
-        "IR_CAOSHI_FAWEI_001159",
-        "IR_CAOSHI_FAWEI_001299"
+        "IR_CAOSHI_FAWEI_001156",
+        "IR_CAOSHI_FAWEI_001158",
+        "IR_CAOSHI_FAWEI_001298"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "半夏"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001158"
+        "IR_CAOSHI_FAWEI_001157"
       ]
     }
   ],
@@ -258,7 +258,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_JGYL_FANGLUN_000183"
+        "IR_JGYL_FANGLUN_000181"
       ],
       "book_title": "金匱要略方論"
     },
@@ -266,7 +266,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_JGYL_TIAOWEN_000183"
+        "IR_JGYL_TIAOWEN_000181"
       ],
       "book_title": "金匱要略方論"
     },
@@ -352,6 +352,6 @@
     "不能食"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

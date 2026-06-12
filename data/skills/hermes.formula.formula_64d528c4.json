@@ -10,18 +10,18 @@
   "supporting_initial_rules": [
     "IR_B11498305_000427",
     "IR_B1CAC3ADF_000914",
-    "IR_B3E16D849_001644",
-    "IR_B3E16D849_001736",
+    "IR_B3E16D849_001642",
+    "IR_B3E16D849_001734",
     "IR_B54968951_000023",
-    "IR_B5FF1CA1B_000457",
+    "IR_B5FF1CA1B_000456",
     "IR_B8E444005_000413",
     "IR_BC91F4420_000588",
-    "IR_CAOSHI_FAWEI_000886",
+    "IR_CAOSHI_FAWEI_000885",
     "IR_SHL_GUIBEN_001246",
     "IR_SHL_LEIFANG_000059",
-    "IR_SHL_LUNZHU_000655",
+    "IR_SHL_LUNZHU_000654",
     "IR_SHL_SONGBEN_000455",
-    "IR_SHL_SUYUAN_001104",
+    "IR_SHL_SUYUAN_001102",
     "IR_SHL_TIAOWEN_000409"
   ],
   "supporting_rules_by_release_level": {
@@ -29,18 +29,18 @@
     "silver": [
       "IR_B11498305_000427",
       "IR_B1CAC3ADF_000914",
-      "IR_B3E16D849_001644",
-      "IR_B3E16D849_001736",
+      "IR_B3E16D849_001642",
+      "IR_B3E16D849_001734",
       "IR_B54968951_000023",
-      "IR_B5FF1CA1B_000457",
+      "IR_B5FF1CA1B_000456",
       "IR_B8E444005_000413",
       "IR_BC91F4420_000588",
-      "IR_CAOSHI_FAWEI_000886",
+      "IR_CAOSHI_FAWEI_000885",
       "IR_SHL_GUIBEN_001246",
       "IR_SHL_LEIFANG_000059",
-      "IR_SHL_LUNZHU_000655",
+      "IR_SHL_LUNZHU_000654",
       "IR_SHL_SONGBEN_000455",
-      "IR_SHL_SUYUAN_001104",
+      "IR_SHL_SUYUAN_001102",
       "IR_SHL_TIAOWEN_000409"
     ],
     "bronze": []
@@ -240,6 +240,6 @@
     "脈微欲絕"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

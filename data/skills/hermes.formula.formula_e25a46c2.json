@@ -8,30 +8,30 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B3E16D849_001330",
-    "IR_BBAACE965_000703",
-    "IR_CAOSHI_FAWEI_001285",
+    "IR_B3E16D849_001328",
+    "IR_BBAACE965_000701",
+    "IR_CAOSHI_FAWEI_001284",
     "IR_JGYH_ERZHU_000249",
-    "IR_JGYL_FANGLUN_000195",
-    "IR_JGYL_FANGLUN_000296",
-    "IR_JGYL_QIANZHU_000342",
-    "IR_JGYL_TIAOWEN_000195",
-    "IR_JGYL_TIAOWEN_000296",
+    "IR_JGYL_FANGLUN_000193",
+    "IR_JGYL_FANGLUN_000293",
+    "IR_JGYL_QIANZHU_000338",
+    "IR_JGYL_TIAOWEN_000193",
+    "IR_JGYL_TIAOWEN_000293",
     "IR_JGYL_XINDIAN_000207",
     "IR_SHL_GUIBEN_001500"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_001330",
-      "IR_BBAACE965_000703",
-      "IR_CAOSHI_FAWEI_001285",
+      "IR_B3E16D849_001328",
+      "IR_BBAACE965_000701",
+      "IR_CAOSHI_FAWEI_001284",
       "IR_JGYH_ERZHU_000249",
-      "IR_JGYL_FANGLUN_000195",
-      "IR_JGYL_FANGLUN_000296",
-      "IR_JGYL_QIANZHU_000342",
-      "IR_JGYL_TIAOWEN_000195",
-      "IR_JGYL_TIAOWEN_000296",
+      "IR_JGYL_FANGLUN_000193",
+      "IR_JGYL_FANGLUN_000293",
+      "IR_JGYL_QIANZHU_000338",
+      "IR_JGYL_TIAOWEN_000193",
+      "IR_JGYL_TIAOWEN_000293",
       "IR_JGYL_XINDIAN_000207",
       "IR_SHL_GUIBEN_001500"
     ],
@@ -122,7 +122,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現瀉心湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B3E16D849_001330"
+        "IR_B3E16D849_001328"
       ],
       "book_title": "傷寒論綱目"
     }
@@ -162,6 +162,6 @@
     "衄"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

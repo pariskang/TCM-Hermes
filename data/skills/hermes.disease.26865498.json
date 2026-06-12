@@ -1,0 +1,201 @@
+{
+  "skill_id": "hermes.disease.26865498",
+  "kind": "disease",
+  "title": "勞復證治合併規則",
+  "subject": "勞復",
+  "abstracted_claim": "勞復相關條文 19 條；主要方劑：枳實梔子豉湯、枳實梔子湯、麥門冬湯、羸少氣氣逆欲吐者竹葉石膏湯、從腰以下有水氣者牡蠣澤瀉散。",
+  "merged_rule_id": "MHR_DISEASE_26865498",
+  "release_level": "silver",
+  "consensus_score": 0.914,
+  "supporting_initial_rules": [
+    "IR_B07FA055B_000157",
+    "IR_B07FA055B_000158",
+    "IR_B07FA055B_000159",
+    "IR_B07FA055B_000160",
+    "IR_B0B74DF58_000778",
+    "IR_B11498305_000654",
+    "IR_B18FAB5FB_000146",
+    "IR_B294D68B8_000002",
+    "IR_BB7301DF2_000325",
+    "IR_BBAACE965_001391",
+    "IR_BBAACE965_001409",
+    "IR_BCCBDEC5F_000004",
+    "IR_CAOSHI_FAWEI_000887",
+    "IR_JGYL_JIYI_000116",
+    "IR_SHL_GUANZHU_000727",
+    "IR_SHL_MINGLI_000146",
+    "IR_SHL_QJYF_000358",
+    "IR_SHL_SONGBEN_000458",
+    "IR_SHL_TIAOWEN_000412"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B07FA055B_000157",
+      "IR_B07FA055B_000158",
+      "IR_B07FA055B_000159",
+      "IR_B07FA055B_000160",
+      "IR_B0B74DF58_000778",
+      "IR_B11498305_000654",
+      "IR_B18FAB5FB_000146",
+      "IR_B294D68B8_000002",
+      "IR_BB7301DF2_000325",
+      "IR_BBAACE965_001391",
+      "IR_BBAACE965_001409",
+      "IR_BCCBDEC5F_000004",
+      "IR_CAOSHI_FAWEI_000887",
+      "IR_JGYL_JIYI_000116",
+      "IR_SHL_GUANZHU_000727",
+      "IR_SHL_MINGLI_000146",
+      "IR_SHL_QJYF_000358",
+      "IR_SHL_SONGBEN_000458",
+      "IR_SHL_TIAOWEN_000412"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000558",
+      "evidence_span": "大病已後，勞復，枳實梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒法祖",
+      "chapter_title": "",
+      "source_unit_id": "SU_B294D68B8_000005",
+      "evidence_span": "於勞復後。重集可發汗不可發汗諸篇。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_003397",
+      "evidence_span": "大病瘥後。勞復者。枳實梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001022",
+      "evidence_span": "太病差後。勞復者。枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000882",
+      "evidence_span": "大病差後，勞復者，枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000729",
+      "evidence_span": "大病差後，勞復者，枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_003464",
+      "evidence_span": "玉函經。病後勞復。發熱者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "",
+      "source_unit_id": "SU_BB7301DF2_000283",
+      "evidence_span": "（仲景云。大病已後。勞復。枳實梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒括要",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCCBDEC5F_000047",
+      "evidence_span": "瘥後勞復篇七法。又據舊本太陽中篇不可汗六法。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001065",
+      "evidence_span": "玉函經。傷寒瘥後病篇云。病後勞復發熱者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "",
+      "source_unit_id": "SU_B18FAB5FB_000188",
+      "evidence_span": "余熱未盡。因勞動而復作者。名曰勞復。以枳實梔子豉湯及小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000878",
+      "evidence_span": "大病差後勞復者，枳實梔子豉湯主之，若有宿食者，加大黃如博碁子大五六枚。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_001626",
+      "evidence_span": "**一、大病差後，勞復者，枳實梔子豉湯主之（若有宿食者，加大黃，如博棋子大五六枚）。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000504",
+      "evidence_span": "大病差後勞復者，枳實梔子豉湯主之，若有宿食者，加大黃如博碁子大五六枚，大病新差，血氣未復，餘熱未盡，而強力作勞，因復發熱者，名曰勞復，為其餘熱之氣，因勞而外浮也，枳實梔子，所以下熱，豆豉所以散熱，蓋亦表裏之劑，而氣味輕薄，適宜於病後復發之體耳，若有宿食者，名曰食復，內經所謂食肉則復多食則遺也，故於枳實梔子豉湯中，少加大黃，以逐其宿食。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000217",
+      "evidence_span": "甘草　乾薑　附子　人參瘥後勞復陰陽易並方藥　大病瘥後喜唾久不了了者胃上有寒當以丸藥溫之宜理中丸傷寒解後虛羸少氣氣逆欲吐者竹葉石膏湯主之大病瘥後從腰以下有水氣者牡蠣澤瀉散主之　傷寒瘥已後更發熱小柴胡湯主之脈浮者以汗解脈沉實者以下解之　大病瘥後勞復枳實梔子湯主之若有宿食加大黃病患脈已解而日暮微煩以病新瘥人強與穀脾胃氣尚弱故令微煩捐穀則愈（以上瘥後勞復）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000217",
+      "evidence_span": "甘草　乾薑　附子　人參瘥後勞復陰陽易並方藥　大病瘥後喜唾久不了了者胃上有寒當以丸藥溫之宜理中丸傷寒解後虛羸少氣氣逆欲吐者竹葉石膏湯主之大病瘥後從腰以下有水氣者牡蠣澤瀉散主之　傷寒瘥已後更發熱小柴胡湯主之脈浮者以汗解脈沉實者以下解之　大病瘥後勞復枳實梔子湯主之若有宿食加大黃病患脈已解而日暮微煩以病新瘥人強與穀脾胃氣尚弱故令微煩捐穀則愈（以上瘥後勞復）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000217",
+      "evidence_span": "甘草　乾薑　附子　人參瘥後勞復陰陽易並方藥　大病瘥後喜唾久不了了者胃上有寒當以丸藥溫之宜理中丸傷寒解後虛羸少氣氣逆欲吐者竹葉石膏湯主之大病瘥後從腰以下有水氣者牡蠣澤瀉散主之　傷寒瘥已後更發熱小柴胡湯主之脈浮者以汗解脈沉實者以下解之　大病瘥後勞復枳實梔子湯主之若有宿食加大黃病患脈已解而日暮微煩以病新瘥人強與穀脾胃氣尚弱故令微煩捐穀則愈（以上瘥後勞復）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000217",
+      "evidence_span": "甘草　乾薑　附子　人參瘥後勞復陰陽易並方藥　大病瘥後喜唾久不了了者胃上有寒當以丸藥溫之宜理中丸傷寒解後虛羸少氣氣逆欲吐者竹葉石膏湯主之大病瘥後從腰以下有水氣者牡蠣澤瀉散主之　傷寒瘥已後更發熱小柴胡湯主之脈浮者以汗解脈沉實者以下解之　大病瘥後勞復枳實梔子湯主之若有宿食加大黃病患脈已解而日暮微煩以病新瘥人強與穀脾胃氣尚弱故令微煩捐穀則愈（以上瘥後勞復）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒明理論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_MINGLI_000050",
+      "evidence_span": "傷寒勞復，何以明之，勞為勞動之勞，復為再發也，是傷寒差後，因勞動再發者是也，傷寒新差後，血氣未平，餘熱未盡，勞動其熱，熱氣還經絡，遂復發也，此有二種，一者因勞動外傷，二者因飲食內傷，其勞動外傷者，非止強力搖體，持重遠行之勞，至於梳頭洗面則動氣，憂悲思慮則勞神，皆能復也，況其過用者乎，其飲食內傷者，為多食則遺，食肉則復者也，內經曰，熱病已愈，而時有遺者何也，以熱甚而強食之，病已衰而熱有所藏，因其穀氣留薄，兩陽相合，故有所遺，經曰，病已差尚微煩，設不了了者，以新虛不勝穀氣，故令微煩，損穀則愈。夫傷寒邪氣之傳，自表至裏，有次第焉，發汗吐下，自輕至重，有等差焉，又其勞復則不然，見其邪氣之復來也，必迎奪之，不待其傳也，經曰，大病差後勞後者，枳實梔子豉湯主之，若有宿食加大黃，且枳實梔子豉湯則吐之，豈待虛煩懊憹之證，加大黃則下之，豈待腹滿譫語之候，經曰，傷寒差後更發熱者，小柴胡湯主之，脈浮以汗解之，脈沉實者，以下解之，亦是便要折其邪也，蓋傷寒之邪，自外入也，勞復之邪，自內發也，發汗吐下，隨宜施用焉，嗚呼，勞復也，食復也，諸勞皆可及，御內則死矣，若男如相易，則為陰陽易，其不易自病者，謂之女勞復，以其內損真氣，外動邪熱，真虛邪盛，則不可治矣，昔督郵顧子獻，不以華敷之診為信，臨死致有出舌數寸之驗，由此觀之，豈不與後人為鋻誡哉。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "勞復"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -8,26 +8,26 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001411",
+    "IR_CAOSHI_FAWEI_001410",
     "IR_JGYH_ERZHU_000342",
-    "IR_JGYL_FANGLUN_000270",
-    "IR_JGYL_JIYI_000439",
-    "IR_JGYL_QIANZHU_000307",
-    "IR_JGYL_TIAOWEN_000270",
+    "IR_JGYL_FANGLUN_000267",
+    "IR_JGYL_JIYI_000438",
+    "IR_JGYL_QIANZHU_000303",
+    "IR_JGYL_TIAOWEN_000267",
     "IR_JGYL_XINDIAN_000294",
-    "IR_SHL_GUIBEN_001586"
+    "IR_SHL_GUIBEN_001585"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001411",
+      "IR_CAOSHI_FAWEI_001410",
       "IR_JGYH_ERZHU_000342",
-      "IR_JGYL_FANGLUN_000270",
-      "IR_JGYL_JIYI_000439",
-      "IR_JGYL_QIANZHU_000307",
-      "IR_JGYL_TIAOWEN_000270",
+      "IR_JGYL_FANGLUN_000267",
+      "IR_JGYL_JIYI_000438",
+      "IR_JGYL_QIANZHU_000303",
+      "IR_JGYL_TIAOWEN_000267",
       "IR_JGYL_XINDIAN_000294",
-      "IR_SHL_GUIBEN_001586"
+      "IR_SHL_GUIBEN_001585"
     ],
     "bronze": []
   },
@@ -100,7 +100,7 @@
         "腹痛"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001586"
+        "IR_SHL_GUIBEN_001585"
       ]
     },
     {
@@ -115,7 +115,7 @@
         "蜀椒"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001587"
+        "IR_SHL_GUIBEN_001586"
       ]
     },
     {
@@ -127,7 +127,7 @@
         "白朮"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001412"
+        "IR_CAOSHI_FAWEI_001411"
       ]
     }
   ],
@@ -167,6 +167,6 @@
     "心煩"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["亡陽"], "rule_ids": ["IR_B18FAB5FB_000097"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["柴胡", "牡蠣", "龍骨"], "rule_ids": ["IR_B41512D4B_000339"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "半夏", "大棗", "大黃", "柴胡", "桂枝", "牡蠣", "生薑", "茯苓", "鉛丹", "黃芩", "龍骨"], "rule_ids": ["IR_BBAACE965_000497"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["柴胡", "牡蠣", "龍骨"], "rule_ids": ["IR_B41512D4B_000338"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "半夏", "大棗", "大黃", "柴胡", "桂枝", "牡蠣", "生薑", "茯苓", "鉛丹", "黃芩", "龍骨"], "rule_ids": ["IR_BBAACE965_000496"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["人參", "半夏", "柴胡", "牡蠣", "龍骨"], "rule_ids": ["IR_BC91F4420_000174"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["人參", "半夏", "大棗", "大黃", "柴胡", "桂枝", "牡蠣", "生薑", "茯苓", "鉛丹", "龍骨"], "rule_ids": ["IR_SHL_GUANZHU_000292"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參一兩", "半夏二合", "大棗六枚", "大黃二兩", "柴胡四兩", "桂枝一兩", "牡蠣一兩", "生薑一兩", "茯苓一兩", "鉛丹一兩", "黃芩一兩", "龍骨一兩"], "rule_ids": ["IR_SHL_GUIBEN_000569"]}

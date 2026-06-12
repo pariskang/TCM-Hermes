@@ -8,7 +8,7 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000744",
+    "IR_B0B74DF58_000743",
     "IR_SHL_GUIBEN_001104",
     "IR_SHL_QJYF_000271",
     "IR_SHL_SONGBEN_000427",
@@ -17,7 +17,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000744",
+      "IR_B0B74DF58_000743",
       "IR_SHL_GUIBEN_001104",
       "IR_SHL_QJYF_000271",
       "IR_SHL_SONGBEN_000427",
@@ -75,7 +75,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001337"
+        "IR_BBAACE965_001332"
       ]
     },
     {
@@ -114,6 +114,6 @@
     "傷寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

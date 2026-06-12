@@ -35,9 +35,9 @@
 > ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000220，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["渴", "風水", "骨節疼痛"], "rule_ids": ["IR_CAOSHI_FAWEI_000178", "IR_CAOSHI_FAWEI_001202"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["渴", "風水", "骨節疼痛"], "rule_ids": ["IR_CAOSHI_FAWEI_000178", "IR_CAOSHI_FAWEI_001201"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["心下悸", "振振欲擗地", "汗出", "痰飲", "發熱", "身瞤動", "頭眩"], "rule_ids": ["IR_JF_SHIYANLU_000221"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["甘草", "芍藥", "附子"], "rule_ids": ["IR_BBAACE965_000319", "IR_BC91F4420_000142", "IR_CAOSHI_FAWEI_000179", "IR_SHL_GUANZHU_000139", "IR_SHL_ZHUJIE_000283"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["甘草", "芍藥", "附子"], "rule_ids": ["IR_BBAACE965_000318", "IR_BC91F4420_000142", "IR_CAOSHI_FAWEI_000179", "IR_SHL_GUANZHU_000139", "IR_SHL_ZHUJIE_000283"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草三兩", "芍藥三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000491"]}
 
 ## 冲突记录 conflict_set

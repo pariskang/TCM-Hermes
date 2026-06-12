@@ -8,70 +8,70 @@
   "release_level": "silver",
   "consensus_score": 0.916,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000711",
+    "IR_B0B74DF58_000710",
     "IR_B11498305_000414",
     "IR_B1CAC3ADF_000833",
     "IR_B33E29808_000022",
-    "IR_B3E16D849_001877",
+    "IR_B3E16D849_001875",
     "IR_B3E520529_000059",
     "IR_B8E444005_000135",
     "IR_BA504DABF_000009",
-    "IR_BBAACE965_001299",
+    "IR_BBAACE965_001294",
     "IR_BC2BA03C0_000057",
     "IR_BC91F4420_000521",
     "IR_BF5CDC206_000208",
-    "IR_CAOSHI_FAWEI_000818",
-    "IR_CAOSHI_FAWEI_001396",
+    "IR_CAOSHI_FAWEI_000817",
+    "IR_CAOSHI_FAWEI_001395",
     "IR_JGYH_ERZHU_000332",
-    "IR_JGYL_FANGLUN_000255",
+    "IR_JGYL_FANGLUN_000253",
     "IR_JGYL_JIYI_000421",
-    "IR_JGYL_QIANZHU_000291",
-    "IR_JGYL_TIAOWEN_000255",
+    "IR_JGYL_QIANZHU_000288",
+    "IR_JGYL_TIAOWEN_000253",
     "IR_JGYL_XINDIAN_000284",
     "IR_SHL_GUANZHU_000688",
     "IR_SHL_GUIBEN_001069",
-    "IR_SHL_LAISU_000708",
-    "IR_SHL_LAISU_000714",
-    "IR_SHL_LUNZHU_000694",
+    "IR_SHL_LAISU_000707",
+    "IR_SHL_LAISU_000713",
+    "IR_SHL_LUNZHU_000693",
     "IR_SHL_QJYF_000255",
     "IR_SHL_SONGBEN_000412",
-    "IR_SHL_SUYUAN_001233",
-    "IR_SHL_SUYUAN_001234",
+    "IR_SHL_SUYUAN_001229",
+    "IR_SHL_SUYUAN_001230",
     "IR_SHL_TIAOWEN_000366",
     "IR_SHL_ZHUJIE_000952"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000711",
+      "IR_B0B74DF58_000710",
       "IR_B11498305_000414",
       "IR_B1CAC3ADF_000833",
       "IR_B33E29808_000022",
-      "IR_B3E16D849_001877",
+      "IR_B3E16D849_001875",
       "IR_B3E520529_000059",
       "IR_B8E444005_000135",
       "IR_BA504DABF_000009",
-      "IR_BBAACE965_001299",
+      "IR_BBAACE965_001294",
       "IR_BC2BA03C0_000057",
       "IR_BC91F4420_000521",
       "IR_BF5CDC206_000208",
-      "IR_CAOSHI_FAWEI_000818",
-      "IR_CAOSHI_FAWEI_001396",
+      "IR_CAOSHI_FAWEI_000817",
+      "IR_CAOSHI_FAWEI_001395",
       "IR_JGYH_ERZHU_000332",
-      "IR_JGYL_FANGLUN_000255",
+      "IR_JGYL_FANGLUN_000253",
       "IR_JGYL_JIYI_000421",
-      "IR_JGYL_QIANZHU_000291",
-      "IR_JGYL_TIAOWEN_000255",
+      "IR_JGYL_QIANZHU_000288",
+      "IR_JGYL_TIAOWEN_000253",
       "IR_JGYL_XINDIAN_000284",
       "IR_SHL_GUANZHU_000688",
       "IR_SHL_GUIBEN_001069",
-      "IR_SHL_LAISU_000708",
-      "IR_SHL_LAISU_000714",
-      "IR_SHL_LUNZHU_000694",
+      "IR_SHL_LAISU_000707",
+      "IR_SHL_LAISU_000713",
+      "IR_SHL_LUNZHU_000693",
       "IR_SHL_QJYF_000255",
       "IR_SHL_SONGBEN_000412",
-      "IR_SHL_SUYUAN_001233",
-      "IR_SHL_SUYUAN_001234",
+      "IR_SHL_SUYUAN_001229",
+      "IR_SHL_SUYUAN_001230",
       "IR_SHL_TIAOWEN_000366",
       "IR_SHL_ZHUJIE_000952"
     ],
@@ -326,8 +326,8 @@
         "自利"
       ],
       "rule_ids": [
-        "IR_SHL_LAISU_000708",
-        "IR_SHL_LAISU_000714"
+        "IR_SHL_LAISU_000707",
+        "IR_SHL_LAISU_000713"
       ]
     },
     {
@@ -343,7 +343,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001302"
+        "IR_BBAACE965_001297"
       ]
     },
     {
@@ -385,7 +385,7 @@
       ],
       "rule_ids": [
         "IR_SHL_GUANZHU_000689",
-        "IR_SHL_LAISU_000716"
+        "IR_SHL_LAISU_000715"
       ]
     },
     {
@@ -431,7 +431,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現烏梅丸應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001396"
+        "IR_CAOSHI_FAWEI_001395"
       ],
       "book_title": "曹氏傷寒金匱發微合刊"
     }
@@ -541,6 +541,6 @@
     "脈微"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_GUIZHI_JIA_FUZI_TANG`
 - **Release level**: silver
 - **Consensus score**: 0.916
-- **Supporting initial rules**: 26
+- **Supporting initial rules**: 27
 
 ## 归纳主张
-桂枝加附子湯可歸納為太陽病、小便難、惡風、惡寒等方證的核心方（支持條文 26 條，跨 23 部書）。
+桂枝加附子湯可歸納為太陽病、亡陽、小便難、惡風、惡寒等方證的核心方（支持條文 27 條，跨 23 部書）。
 
 ## 原文证据（节选）
 > 惡風。小便難。四肢急。桂枝加附子湯主之。
@@ -36,6 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["惡寒"], "rule_ids": ["IR_B18FAB5FB_000033"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_SUYUAN", "book_title": "傷寒溯源集", "distinct_conditions": ["亡陽"], "rule_ids": ["IR_SHL_SUYUAN_000092", "IR_SHL_SUYUAN_000095"]}
 - {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["大棗", "桂枝", "甘草", "生薑", "芍藥", "附子"], "rule_ids": ["IR_BBAACE965_000058"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["人參三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUANZHU_000129"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "桂枝三兩", "甘草二兩", "生薑三兩", "芍藥三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000373"]}

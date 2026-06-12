@@ -32,7 +32,7 @@
 > ——《曹氏傷寒金匱發微合刊》·血痹虛勞病脈證並治第六（SU_CAOSHI_FAWEI_001343，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["小便不利", "腰痛"], "rule_ids": ["IR_CAOSHI_FAWEI_001034"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["小便不利", "腰痛"], "rule_ids": ["IR_CAOSHI_FAWEI_001033"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

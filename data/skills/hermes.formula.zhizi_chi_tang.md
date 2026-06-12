@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_ZHIZI_CHI_TANG`
 - **Release level**: silver
 - **Consensus score**: 0.903
-- **Supporting initial rules**: 95
+- **Supporting initial rules**: 97
 
 ## 归纳主张
-梔子豉湯可歸納為陽明病、傷寒、腹滿、結胸、下利、痞等方證的核心方（支持條文 95 條，跨 31 部書）。
+梔子豉湯可歸納為陽明病、傷寒、腹滿、結胸、下利、痞等方證的核心方（支持條文 97 條，跨 31 部書）。
 
 ## 原文证据（节选）
 > 心中懊　。舌上苔者。梔子豉湯主之。
@@ -36,11 +36,11 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B07FA055B", "book_title": "傷寒審證表", "distinct_conditions": ["不大便", "中風", "亡陽", "厥", "吐血", "咽乾", "噦", "四逆"], "rule_ids": ["IR_B07FA055B_000029"]}
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["痞"], "rule_ids": ["IR_B0B74DF58_000250", "IR_B0B74DF58_000252", "IR_B0B74DF58_000253", "IR_B0B74DF58_000384", "IR_B0B74DF58_000405"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["痞"], "rule_ids": ["IR_B0B74DF58_000249", "IR_B0B74DF58_000251", "IR_B0B74DF58_000252", "IR_B0B74DF58_000383", "IR_B0B74DF58_000404"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B54968951", "book_title": "劉河間傷寒醫鑑", "distinct_conditions": ["脈沉微"], "rule_ids": ["IR_B54968951_000014"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["喜嘔", "少陰病", "欲嘔"], "rule_ids": ["IR_SHL_MINGLI_000055"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "曹氏傷寒金匱發微合刊"], "composition": ["梔子"], "rule_ids": ["IR_BBAACE965_000358", "IR_CAOSHI_FAWEI_000204"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒貫珠集", "註解傷寒論"], "composition": ["梔子", "香豉"], "rule_ids": ["IR_BC91F4420_000184", "IR_SHL_GUANZHU_000247", "IR_SHL_LAISU_000386", "IR_SHL_ZHUJIE_000306"]}
+- {"kind": "composition_variant", "books": ["傷寒尋源", "傷寒溯源集", "傷寒論(宋本)", "張卿子傷寒論"], "composition": ["甘草二兩"], "rule_ids": ["IR_B1CAC3ADF_000256", "IR_B8E444005_000349", "IR_SHL_SONGBEN_000519", "IR_SHL_SUYUAN_000312"]}
+- {"kind": "composition_variant", "books": ["傷寒尋源", "傷寒溯源集", "傷寒論(宋本)", "張卿子傷寒論"], "composition": ["生薑五兩"], "rule_ids": ["IR_B1CAC3ADF_000257", "IR_B8E444005_000350", "IR_SHL_SONGBEN_000520", "IR_SHL_SUYUAN_000313"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現梔子豉湯應用與禁忌表述，需按條件區分。

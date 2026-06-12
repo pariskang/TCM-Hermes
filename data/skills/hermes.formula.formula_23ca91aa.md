@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["汗出"], "rule_ids": ["IR_SHL_QJYF_000031"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["柴胡", "芒硝"], "rule_ids": ["IR_CAOSHI_FAWEI_000272"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["柴胡", "芒硝"], "rule_ids": ["IR_CAOSHI_FAWEI_000271"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集", "註解傷寒論"], "composition": ["芒硝六兩"], "rule_ids": ["IR_SHL_GUANZHU_000538", "IR_SHL_ZHUJIE_001152"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參一兩", "半夏二十銖", "大棗四枚", "柴胡二兩", "甘草一兩", "生薑一兩", "芒硝二兩", "黃芩一兩"], "rule_ids": ["IR_SHL_GUIBEN_000560"]}
 

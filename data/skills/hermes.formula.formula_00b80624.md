@@ -35,7 +35,7 @@
 > ——《傷寒論注》·火逆諸證（SU_SHL_LUNZHU_000488，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝", "牡蠣", "甘草", "龍骨"], "rule_ids": ["IR_B41512D4B_000345", "IR_BBAACE965_000528", "IR_BC91F4420_000295", "IR_CAOSHI_FAWEI_000300", "IR_SHL_ZHUJIE_000406"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝", "牡蠣", "甘草", "龍骨"], "rule_ids": ["IR_B41512D4B_000344", "IR_BBAACE965_000527", "IR_BC91F4420_000295", "IR_CAOSHI_FAWEI_000299", "IR_SHL_ZHUJIE_000406"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["桂枝", "炙甘草", "牡蠣", "甘草", "芍藥", "蜀漆", "龍骨"], "rule_ids": ["IR_SHL_GUANZHU_000327"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參三兩", "桂枝一兩", "牡蠣二兩", "甘草二兩", "龍骨二兩"], "rule_ids": ["IR_SHL_GUIBEN_000584"]}
 

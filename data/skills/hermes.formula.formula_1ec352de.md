@@ -32,7 +32,7 @@
 > ——《傷寒雜病論(桂本)》·辨咳嗽水飲黃汗歷節病脈證並治（SU_SHL_GUIBEN_001197，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["射干", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001046"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["射干", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001045"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["五味子半升", "半夏半升", "大棗七枚", "射干三兩", "生薑四兩", "細辛三兩", "麻黃三兩"], "rule_ids": ["IR_SHL_GUIBEN_001367"]}
 
 ## 安全声明

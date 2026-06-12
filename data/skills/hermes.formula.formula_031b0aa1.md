@@ -35,10 +35,10 @@
 > ——《傷寒論(宋本)》·辨太陽病脈證並治中第六（SU_SHL_SONGBEN_000320，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["口渴"], "rule_ids": ["IR_B0B74DF58_000137", "IR_B0B74DF58_000139", "IR_B0B74DF58_000141"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["口渴"], "rule_ids": ["IR_B0B74DF58_000136", "IR_B0B74DF58_000138", "IR_B0B74DF58_000140"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["小便利"], "rule_ids": ["IR_B11498305_000075", "IR_B11498305_000077"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUANZHU", "book_title": "傷寒貫珠集", "distinct_conditions": ["脈浮數"], "rule_ids": ["IR_SHL_GUANZHU_000158"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桂枝", "甘草", "生薑", "茯苓"], "rule_ids": ["IR_BBAACE965_000344", "IR_BC91F4420_000138", "IR_SHL_ZHUJIE_000301"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桂枝", "甘草", "生薑", "茯苓"], "rule_ids": ["IR_BBAACE965_000343", "IR_BC91F4420_000138", "IR_SHL_ZHUJIE_000301"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_000195"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["桂枝", "桃核", "甘草", "生薑", "茯苓"], "rule_ids": ["IR_SHL_GUANZHU_000160"]}
 

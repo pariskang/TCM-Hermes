@@ -1,0 +1,334 @@
+{
+  "skill_id": "hermes.disease.86361213",
+  "kind": "disease",
+  "title": "下血證治合併規則",
+  "subject": "下血",
+  "abstracted_claim": "下血相關條文 47 條；主要方劑：抵當湯、黃土湯、赤豆當歸散、桂枝茯苓丸、赤小豆當歸散。",
+  "merged_rule_id": "MHR_DISEASE_86361213",
+  "release_level": "silver",
+  "consensus_score": 0.909,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000072",
+    "IR_B11498305_000080",
+    "IR_B3E16D849_000163",
+    "IR_B3E16D849_000465",
+    "IR_B3E16D849_000647",
+    "IR_B9119D083_000295",
+    "IR_B9119D083_000398",
+    "IR_BBA9FB4A6_000152",
+    "IR_BC91F4420_000026",
+    "IR_BCA15D57E_000125",
+    "IR_CAOSHI_FAWEI_001282",
+    "IR_CAOSHI_FAWEI_001283",
+    "IR_CAOSHI_FAWEI_001397",
+    "IR_CAOSHI_FAWEI_001454",
+    "IR_JF_SHIYANLU_000166",
+    "IR_JGYH_ERZHU_000246",
+    "IR_JGYH_ERZHU_000248",
+    "IR_JGYL_FANGLUN_000191",
+    "IR_JGYL_FANGLUN_000192",
+    "IR_JGYL_FANGLUN_000255",
+    "IR_JGYL_JIYI_000320",
+    "IR_JGYL_JIYI_000321",
+    "IR_JGYL_JIYI_000430",
+    "IR_JGYL_QIANZHU_000212",
+    "IR_JGYL_QIANZHU_000213",
+    "IR_JGYL_TIAOWEN_000191",
+    "IR_JGYL_TIAOWEN_000192",
+    "IR_JGYL_TIAOWEN_000255",
+    "IR_JGYL_XINDIAN_000205",
+    "IR_JGYL_XINDIAN_000206",
+    "IR_SHL_GUANZHU_000164",
+    "IR_SHL_GUIBEN_000316",
+    "IR_SHL_GUIBEN_000589",
+    "IR_SHL_GUIBEN_001503",
+    "IR_SHL_GUIBEN_001504",
+    "IR_SHL_GUIBEN_001563",
+    "IR_SHL_GUIBEN_001568",
+    "IR_SHL_LAISU_000248",
+    "IR_SHL_LUNZHU_000247",
+    "IR_SHL_MINGLI_000108",
+    "IR_SHL_MINGLI_000132",
+    "IR_SHL_MINGLI_000141",
+    "IR_SHL_MINGLI_000142",
+    "IR_SHL_SONGBEN_000183",
+    "IR_SHL_SUYUAN_000180",
+    "IR_SHL_TIAOWEN_000137",
+    "IR_SHL_ZHUJIE_000414"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000072",
+      "IR_B11498305_000080",
+      "IR_B3E16D849_000163",
+      "IR_B3E16D849_000465",
+      "IR_B3E16D849_000647",
+      "IR_B9119D083_000295",
+      "IR_B9119D083_000398",
+      "IR_BBA9FB4A6_000152",
+      "IR_BC91F4420_000026",
+      "IR_BCA15D57E_000125",
+      "IR_CAOSHI_FAWEI_001282",
+      "IR_CAOSHI_FAWEI_001283",
+      "IR_CAOSHI_FAWEI_001397",
+      "IR_CAOSHI_FAWEI_001454",
+      "IR_JF_SHIYANLU_000166",
+      "IR_JGYH_ERZHU_000246",
+      "IR_JGYH_ERZHU_000248",
+      "IR_JGYL_FANGLUN_000191",
+      "IR_JGYL_FANGLUN_000192",
+      "IR_JGYL_FANGLUN_000255",
+      "IR_JGYL_JIYI_000320",
+      "IR_JGYL_JIYI_000321",
+      "IR_JGYL_JIYI_000430",
+      "IR_JGYL_QIANZHU_000212",
+      "IR_JGYL_QIANZHU_000213",
+      "IR_JGYL_TIAOWEN_000191",
+      "IR_JGYL_TIAOWEN_000192",
+      "IR_JGYL_TIAOWEN_000255",
+      "IR_JGYL_XINDIAN_000205",
+      "IR_JGYL_XINDIAN_000206",
+      "IR_SHL_GUANZHU_000164",
+      "IR_SHL_GUIBEN_000316",
+      "IR_SHL_GUIBEN_000589",
+      "IR_SHL_GUIBEN_001503",
+      "IR_SHL_GUIBEN_001504",
+      "IR_SHL_GUIBEN_001563",
+      "IR_SHL_GUIBEN_001568",
+      "IR_SHL_LAISU_000248",
+      "IR_SHL_LUNZHU_000247",
+      "IR_SHL_MINGLI_000108",
+      "IR_SHL_MINGLI_000132",
+      "IR_SHL_MINGLI_000141",
+      "IR_SHL_MINGLI_000142",
+      "IR_SHL_SONGBEN_000183",
+      "IR_SHL_SUYUAN_000180",
+      "IR_SHL_TIAOWEN_000137",
+      "IR_SHL_ZHUJIE_000414"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001836",
+      "evidence_span": "下血，先便後血，此速血也，黃土湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001422",
+      "evidence_span": "下血。先便後血。此遠血也。黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000719",
+      "evidence_span": "下血，先便後血，此遠血也，黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002627",
+      "evidence_span": "下血。先便後血。此遠血也。黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000717",
+      "evidence_span": "下血，先便後血，此遠血也，黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001251",
+      "evidence_span": "下血、先便後血。此遠血也。黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001429",
+      "evidence_span": "下血先血後便。此近血也。赤小豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001257",
+      "evidence_span": "下血、先血後便。此近血也。赤豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000723",
+      "evidence_span": "下血，先血後便，此近血也，赤小豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002639",
+      "evidence_span": "下血。先血後便。此近血也。赤小豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000721",
+      "evidence_span": "下血，先血後便，此近血也，赤小豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001015",
+      "evidence_span": "凡）下血。先便後血。此遠血也。（以）黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003194",
+      "evidence_span": "有妊娠下血者。假令妊娠腹中痛。為胞阻。膠艾湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001311",
+      "evidence_span": "15.6下血，先便而後血者，此遠血也，黃土湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001022",
+      "evidence_span": "凡）下血。先血後便。此近血也。（以）赤豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001312",
+      "evidence_span": "15.7下血，先血而便者，此近血也，赤豆當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001395",
+      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_000465",
+      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001020",
+      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC91F4420_000101",
+      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SUYUAN_000367",
+      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001037",
+      "evidence_span": "小便自利，下血乃愈。所以然者，以太陽經淤熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001840",
+      "evidence_span": "下血，先血後便，此近血也，赤豆當歸散主之（赤豆當歸散方見狐惑篇）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001360",
+      "evidence_span": "16.4 師曰：婦人有漏下者；有半產後續下血都不絕者；假令妊娠腹中痛者，此為胞阻，膠艾湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000117",
+      "evidence_span": "太陽病六七日，表證仍在，脈微而況，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈，所以然者，以太陽隨經瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_000684",
+      "evidence_span": "太陽病，六七日，表症仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，小腹當硬滿。小便自利者，下血乃愈。所以然者，以太陽經淤熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000420",
+      "evidence_span": "太陽病，六七日表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裏故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000267",
+      "evidence_span": "太陽病，六七日表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裏故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000865",
+      "evidence_span": "太陽病六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當硬滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000104",
+      "evidence_span": "太陽病，六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈，所以然者，以太陽隨經，瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "下血"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

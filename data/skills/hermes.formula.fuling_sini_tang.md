@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["不大便", "不得眠", "傷寒", "太陽中風", "太陽病", "汗出", "渴", "燥屎"], "rule_ids": ["IR_SHL_MINGLI_000066"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "甘草", "茯苓", "附子"], "rule_ids": ["IR_BBAACE965_000325"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "人參", "甘草", "茯苓", "附子"], "rule_ids": ["IR_BC91F4420_000323", "IR_SHL_GUANZHU_000309", "IR_SHL_LAISU_000661", "IR_SHL_ZHUJIE_000288"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "甘草", "茯苓", "附子"], "rule_ids": ["IR_BBAACE965_000324"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "人參", "甘草", "茯苓", "附子"], "rule_ids": ["IR_BC91F4420_000323", "IR_SHL_GUANZHU_000309", "IR_SHL_LAISU_000660", "IR_SHL_ZHUJIE_000288"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_000183"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "人參二兩", "甘草二兩", "茯苓四兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000495"]}
 

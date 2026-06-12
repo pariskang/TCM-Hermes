@@ -17,7 +17,7 @@
 > ——《曹氏傷寒金匱發微合刊》·黃疸病脈證並治第十五（SU_CAOSHI_FAWEI_001794，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["自利"], "rule_ids": ["IR_CAOSHI_FAWEI_001266"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["自利"], "rule_ids": ["IR_CAOSHI_FAWEI_001265"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現噦者小半夏湯應用與禁忌表述，需按條件區分。

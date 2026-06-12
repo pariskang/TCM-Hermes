@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_SINI_TANG`
 - **Release level**: silver
 - **Consensus score**: 0.913
-- **Supporting initial rules**: 142
+- **Supporting initial rules**: 147
 
 ## 归纳主张
-四逆湯可歸納為下利、傷寒、霍亂、嘔吐、腹滿、陽明病等方證的核心方（支持條文 142 條，跨 30 部書）。
+四逆湯可歸納為下利、傷寒、霍亂、嘔吐、亡陽、腹滿等方證的核心方（支持條文 147 條，跨 30 部書）。
 
 ## 原文证据（节选）
 > 大汗大下利而厥冷者。四逆湯主之。

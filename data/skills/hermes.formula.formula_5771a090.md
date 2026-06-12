@@ -26,7 +26,7 @@
 > ——《傷寒恆論》·厥陰中篇（SU_B0B74DF58_001533，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "人參", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_001337"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "人參", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_001332"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "人參三兩", "黃芩三兩", "黃連三兩"], "rule_ids": ["IR_SHL_GUIBEN_001107"]}
 
 ## 安全声明

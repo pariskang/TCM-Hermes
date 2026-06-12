@@ -21,7 +21,7 @@
     "IR_B3E16D849_000647",
     "IR_B3E16D849_000648",
     "IR_B3E16D849_000807",
-    "IR_B41512D4B_000360",
+    "IR_B41512D4B_000359",
     "IR_B5FF1CA1B_000101",
     "IR_B9119D083_000295",
     "IR_B9119D083_000296",
@@ -30,17 +30,17 @@
     "IR_B9119D083_000399",
     "IR_B9119D083_000400",
     "IR_BB711944D_000218",
-    "IR_BBAACE965_000558",
+    "IR_BBAACE965_000557",
     "IR_BC91F4420_000026",
     "IR_BC91F4420_000028",
-    "IR_CAOSHI_FAWEI_000312",
+    "IR_CAOSHI_FAWEI_000311",
     "IR_JF_SHIYANLU_000166",
     "IR_JGYH_ERZHU_000223",
-    "IR_JGYH_ERZHU_000382",
+    "IR_JGYH_ERZHU_000381",
     "IR_SHL_GUANZHU_000164",
     "IR_SHL_GUIBEN_000589",
     "IR_SHL_GUIBEN_000592",
-    "IR_SHL_GUIBEN_001647",
+    "IR_SHL_GUIBEN_001645",
     "IR_SHL_LAISU_000248",
     "IR_SHL_LAISU_000253",
     "IR_SHL_LUNZHU_000247",
@@ -75,7 +75,7 @@
       "IR_B3E16D849_000647",
       "IR_B3E16D849_000648",
       "IR_B3E16D849_000807",
-      "IR_B41512D4B_000360",
+      "IR_B41512D4B_000359",
       "IR_B5FF1CA1B_000101",
       "IR_B9119D083_000295",
       "IR_B9119D083_000296",
@@ -84,17 +84,17 @@
       "IR_B9119D083_000399",
       "IR_B9119D083_000400",
       "IR_BB711944D_000218",
-      "IR_BBAACE965_000558",
+      "IR_BBAACE965_000557",
       "IR_BC91F4420_000026",
       "IR_BC91F4420_000028",
-      "IR_CAOSHI_FAWEI_000312",
+      "IR_CAOSHI_FAWEI_000311",
       "IR_JF_SHIYANLU_000166",
       "IR_JGYH_ERZHU_000223",
-      "IR_JGYH_ERZHU_000382",
+      "IR_JGYH_ERZHU_000381",
       "IR_SHL_GUANZHU_000164",
       "IR_SHL_GUIBEN_000589",
       "IR_SHL_GUIBEN_000592",
-      "IR_SHL_GUIBEN_001647",
+      "IR_SHL_GUIBEN_001645",
       "IR_SHL_LAISU_000248",
       "IR_SHL_LAISU_000253",
       "IR_SHL_LUNZHU_000247",
@@ -367,7 +367,7 @@
       "rule_ids": [
         "IR_SHL_GUIBEN_000589",
         "IR_SHL_GUIBEN_000592",
-        "IR_SHL_GUIBEN_001647"
+        "IR_SHL_GUIBEN_001645"
       ]
     },
     {
@@ -399,7 +399,7 @@
         "水蛭"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000557"
+        "IR_BBAACE965_000556"
       ]
     },
     {
@@ -449,7 +449,7 @@
         "水蛭三十個"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001648"
+        "IR_SHL_GUIBEN_001646"
       ]
     },
     {
@@ -605,6 +605,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

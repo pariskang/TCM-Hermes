@@ -8,14 +8,14 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B41512D4B_000977",
-    "IR_CAOSHI_FAWEI_000735"
+    "IR_B41512D4B_000975",
+    "IR_CAOSHI_FAWEI_000734"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B41512D4B_000977",
-      "IR_CAOSHI_FAWEI_000735"
+      "IR_B41512D4B_000975",
+      "IR_CAOSHI_FAWEI_000734"
     ],
     "bronze": []
   },
@@ -44,7 +44,7 @@
         "少陰病"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000977"
+        "IR_B41512D4B_000975"
       ]
     }
   ],
@@ -79,6 +79,6 @@
     "背惡寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -33,7 +33,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["澤瀉五兩", "白朮二兩"], "rule_ids": ["IR_SHL_GUIBEN_001418"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤瀉"], "rule_ids": ["IR_CAOSHI_FAWEI_001152"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤瀉"], "rule_ids": ["IR_CAOSHI_FAWEI_001151"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

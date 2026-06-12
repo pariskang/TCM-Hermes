@@ -35,10 +35,10 @@
 > ——《金匱要略心典》·痰飲咳嗽病脈證治第十二（SU_JGYL_XINDIAN_000858，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["下利", "不能食", "乾嘔"], "rule_ids": ["IR_CAOSHI_FAWEI_001157", "IR_CAOSHI_FAWEI_001159", "IR_CAOSHI_FAWEI_001299"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["下利", "不能食", "乾嘔"], "rule_ids": ["IR_CAOSHI_FAWEI_001156", "IR_CAOSHI_FAWEI_001158", "IR_CAOSHI_FAWEI_001298"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["欲嘔"], "rule_ids": ["IR_SHL_GUIBEN_000845", "IR_SHL_GUIBEN_000892", "IR_SHL_GUIBEN_001424"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏一升", "生薑半斤"], "rule_ids": ["IR_SHL_GUIBEN_000848", "IR_SHL_GUIBEN_001167", "IR_SHL_GUIBEN_001425"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001158"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001157"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。

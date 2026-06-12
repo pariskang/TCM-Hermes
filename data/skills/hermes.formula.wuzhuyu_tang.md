@@ -37,9 +37,9 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["下利"], "rule_ids": ["IR_B18FAB5FB_000096"]}
 - {"kind": "condition_variant", "book_id": "BOOK_BBA9FB4A6", "book_title": "傷寒六書", "distinct_conditions": ["寒熱", "鼻塞"], "rule_ids": ["IR_BBA9FB4A6_000115"]}
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["噦"], "rule_ids": ["IR_CAOSHI_FAWEI_000536", "IR_CAOSHI_FAWEI_000619", "IR_CAOSHI_FAWEI_000621", "IR_CAOSHI_FAWEI_000622", "IR_CAOSHI_FAWEI_000875", "IR_CAOSHI_FAWEI_001293", "IR_CAOSHI_FAWEI_001294"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["噦"], "rule_ids": ["IR_CAOSHI_FAWEI_000535", "IR_CAOSHI_FAWEI_000618", "IR_CAOSHI_FAWEI_000620", "IR_CAOSHI_FAWEI_000621", "IR_CAOSHI_FAWEI_000874", "IR_CAOSHI_FAWEI_001292", "IR_CAOSHI_FAWEI_001293"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUANZHU", "book_title": "傷寒貫珠集", "distinct_conditions": ["厥冷"], "rule_ids": ["IR_SHL_GUANZHU_000439", "IR_SHL_GUANZHU_000615", "IR_SHL_GUANZHU_000616", "IR_SHL_GUANZHU_000691"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["腹中痛", "轉筋", "霍亂"], "rule_ids": ["IR_SHL_LAISU_000623", "IR_SHL_LAISU_000665", "IR_SHL_LAISU_000666", "IR_SHL_LAISU_000668"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["腹中痛", "轉筋", "霍亂"], "rule_ids": ["IR_SHL_LAISU_000622", "IR_SHL_LAISU_000664", "IR_SHL_LAISU_000665", "IR_SHL_LAISU_000667"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["不大便", "不得眠", "中風", "傷寒", "喘", "太陽中風", "太陽病", "惡風"], "rule_ids": ["IR_SHL_MINGLI_000020", "IR_SHL_MINGLI_000067", "IR_SHL_MINGLI_000089"]}
 
 ## 冲突记录 conflict_set

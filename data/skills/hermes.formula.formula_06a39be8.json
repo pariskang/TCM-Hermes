@@ -3,25 +3,25 @@
   "kind": "formula",
   "title": "黃連湯方證合併規則",
   "subject": "黃連湯",
-  "abstracted_claim": "黃連湯可歸納為嘔吐、傷寒、欲嘔、腹中痛等方證的核心方（支持條文 24 條，跨 21 部書）。",
+  "abstracted_claim": "黃連湯可歸納為嘔吐、傷寒、腹中痛、欲嘔等方證的核心方（支持條文 24 條，跨 21 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_06A39BE8",
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000317",
+    "IR_B0B74DF58_000316",
     "IR_B11498305_000519",
     "IR_B1CAC3ADF_000506",
-    "IR_B3E16D849_001500",
-    "IR_B3E16D849_001529",
-    "IR_B41512D4B_000496",
+    "IR_B3E16D849_001498",
+    "IR_B3E16D849_001527",
+    "IR_B41512D4B_000495",
     "IR_B5C5ECAC2_000078",
-    "IR_B5FF1CA1B_000549",
+    "IR_B5FF1CA1B_000548",
     "IR_B8E444005_000392",
     "IR_B9119D083_000302",
     "IR_B9119D083_000656",
-    "IR_BB7301DF2_000221",
-    "IR_BB7301DF2_000249",
-    "IR_BBAACE965_000795",
+    "IR_BB7301DF2_000220",
+    "IR_BB7301DF2_000248",
+    "IR_BBAACE965_000793",
     "IR_BC91F4420_000329",
     "IR_SHL_GUANZHU_000311",
     "IR_SHL_GUIBEN_000739",
@@ -29,27 +29,27 @@
     "IR_SHL_LUNZHU_000560",
     "IR_SHL_QJYF_000119",
     "IR_SHL_SONGBEN_000256",
-    "IR_SHL_SUYUAN_001050",
+    "IR_SHL_SUYUAN_001048",
     "IR_SHL_TIAOWEN_000210",
     "IR_SHL_ZHUJIE_000581"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000317",
+      "IR_B0B74DF58_000316",
       "IR_B11498305_000519",
       "IR_B1CAC3ADF_000506",
-      "IR_B3E16D849_001500",
-      "IR_B3E16D849_001529",
-      "IR_B41512D4B_000496",
+      "IR_B3E16D849_001498",
+      "IR_B3E16D849_001527",
+      "IR_B41512D4B_000495",
       "IR_B5C5ECAC2_000078",
-      "IR_B5FF1CA1B_000549",
+      "IR_B5FF1CA1B_000548",
       "IR_B8E444005_000392",
       "IR_B9119D083_000302",
       "IR_B9119D083_000656",
-      "IR_BB7301DF2_000221",
-      "IR_BB7301DF2_000249",
-      "IR_BBAACE965_000795",
+      "IR_BB7301DF2_000220",
+      "IR_BB7301DF2_000248",
+      "IR_BBAACE965_000793",
       "IR_BC91F4420_000329",
       "IR_SHL_GUANZHU_000311",
       "IR_SHL_GUIBEN_000739",
@@ -57,7 +57,7 @@
       "IR_SHL_LUNZHU_000560",
       "IR_SHL_QJYF_000119",
       "IR_SHL_SONGBEN_000256",
-      "IR_SHL_SUYUAN_001050",
+      "IR_SHL_SUYUAN_001048",
       "IR_SHL_TIAOWEN_000210",
       "IR_SHL_ZHUJIE_000581"
     ],
@@ -235,6 +235,17 @@
   ],
   "variant_set": [
     {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "欲嘔"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000739"
+      ]
+    },
+    {
       "kind": "composition_variant",
       "books": [
         "傷寒論條辨",
@@ -251,7 +262,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000797",
+        "IR_BBAACE965_000795",
         "IR_BC91F4420_000330",
         "IR_SHL_GUANZHU_000312"
       ]
@@ -299,7 +310,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000457"
+        "IR_CAOSHI_FAWEI_000456"
       ]
     }
   ],
@@ -317,12 +328,12 @@
     ],
     "symptoms": [
       {
-        "term": "欲嘔",
-        "count": 24
-      },
-      {
         "term": "腹中痛",
         "count": 23
+      },
+      {
+        "term": "欲嘔",
+        "count": 1
       }
     ],
     "pulse": [],
@@ -335,10 +346,10 @@
     "黃連湯",
     "嘔吐",
     "傷寒",
-    "欲嘔",
-    "腹中痛"
+    "腹中痛",
+    "欲嘔"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -33,7 +33,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["汗出"], "rule_ids": ["IR_SHL_QJYF_000187"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["大黃", "枳實", "芍藥"], "rule_ids": ["IR_BBAACE965_001060"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["大黃", "枳實", "芍藥"], "rule_ids": ["IR_BBAACE965_001056"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大黃一斤", "杏仁一升", "枳實半斤", "芍藥半斤"], "rule_ids": ["IR_SHL_GUIBEN_000856"]}
 
 ## 安全声明

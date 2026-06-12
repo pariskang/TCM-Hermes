@@ -75,10 +75,12 @@ class DoctorAssistantAgent:
             score = (0.65 * recall + 0.35 * precision) \
                 * level_w.get(r.autonomous_review.release_level, 0.6) \
                 * (0.5 + 0.5 * r.autonomous_review.consensus_score)
-            # very long evidence spans (tabular/compiled rows) are weak
-            # support for a specific pattern match
+            # long evidence spans (tabular/compiled rows) list many findings
+            # without binding them to one pattern — penalize hard
             if len(r.evidence_span) > 200:
-                score *= 0.8
+                score *= 0.5
+            elif len(r.evidence_span) > 120:
+                score *= 0.85
             for f in r.then_conclusions.get("formula", []):
                 per_formula[f].append((score, inter, r))
 
@@ -86,10 +88,11 @@ class DoctorAssistantAgent:
         for formula, items in per_formula.items():
             items.sort(key=lambda x: -x[0])
             best = items[0]
-            agg = min(1.0, best[0] + 0.05 * (len(items) - 1))
+            # corroboration helps but never outranks a better best-evidence
+            agg = best[0] + 0.02 * min(len(items) - 1, 5)
             ranked.append({
                 "formula": formula,
-                "match_score": round(agg, 3),
+                "match_score": round(min(agg, 1.0), 3),
                 "matched_findings": sorted(set().union(*(i[1] for i in items[:3]))),
                 "unmatched_findings": sorted(q_all - set().union(
                     *(set(i[2].all_condition_terms()) for i in items[:3]))),
@@ -102,9 +105,12 @@ class DoctorAssistantAgent:
                     "evidence_span": i[2].evidence_span,
                 } for i in items[:3]],
                 "contraindication_reminders": self._contraindications_for(formula),
+                "_agg": agg,
             })
-        ranked.sort(key=lambda x: -x["match_score"])
+        ranked.sort(key=lambda x: (-x["_agg"], -len(x["matched_findings"])))
         ranked = ranked[:top]
+        for c in ranked:
+            c.pop("_agg", None)
 
         result = {
             "query": {"symptoms": sorted(q_sym), "pulse": sorted(q_pulse),

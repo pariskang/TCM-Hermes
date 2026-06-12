@@ -8,7 +8,7 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001067",
+    "IR_CAOSHI_FAWEI_001066",
     "IR_JGYH_ERZHU_000094",
     "IR_JGYL_FANGLUN_000077",
     "IR_JGYL_JIYI_000129",
@@ -17,7 +17,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001067",
+      "IR_CAOSHI_FAWEI_001066",
       "IR_JGYH_ERZHU_000094",
       "IR_JGYL_FANGLUN_000077",
       "IR_JGYL_JIYI_000129",
@@ -76,7 +76,7 @@
         "芍藥"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000525"
+        "IR_BBAACE965_000524"
       ]
     },
     {
@@ -90,8 +90,8 @@
         "桂枝"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000296",
-        "IR_CAOSHI_FAWEI_001068",
+        "IR_CAOSHI_FAWEI_000295",
+        "IR_CAOSHI_FAWEI_001067",
         "IR_SHL_GUANZHU_000330",
         "IR_SHL_ZHUJIE_001153"
       ]
@@ -142,6 +142,6 @@
     "奔豚"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

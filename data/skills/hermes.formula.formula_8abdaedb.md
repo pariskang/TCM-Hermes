@@ -32,7 +32,7 @@
 > ——《傷寒雜病論(桂本)》·辨瘀血吐衄下血瘡癰病脈證並治（SU_SHL_GUIBEN_001339，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["杏仁", "甘草", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001080"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["杏仁", "甘草", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001079"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["杏仁五十個", "甘草一兩", "茯苓二兩"], "rule_ids": ["IR_SHL_GUIBEN_001538"]}
 
 ## 安全声明

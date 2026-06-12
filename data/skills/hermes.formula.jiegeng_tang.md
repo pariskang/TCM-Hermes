@@ -36,9 +36,9 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["吐血", "瘀血"], "rule_ids": ["IR_SHL_GUIBEN_001384", "IR_SHL_GUIBEN_001491"]}
-- {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桔梗", "甘草"], "rule_ids": ["IR_BBAACE965_001220", "IR_BC91F4420_000489", "IR_SHL_QJYF_000228", "IR_SHL_ZHUJIE_000889"]}
+- {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桔梗", "甘草"], "rule_ids": ["IR_BBAACE965_001216", "IR_BC91F4420_000489", "IR_SHL_QJYF_000228", "IR_SHL_ZHUJIE_000889"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桔梗一兩", "甘草二兩"], "rule_ids": ["IR_SHL_GUIBEN_001020", "IR_SHL_GUIBEN_001385", "IR_SHL_GUIBEN_001493"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桔梗"], "rule_ids": ["IR_CAOSHI_FAWEI_000748"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桔梗"], "rule_ids": ["IR_CAOSHI_FAWEI_000747"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

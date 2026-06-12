@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_B46A4644`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 6
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-茵陳湯可歸納為小便不利、陽明病、傷寒、渴、發黃、發熱等方證的核心方（支持條文 6 條，跨 4 部書）。
+茵陳湯可歸納為小便不利、陽明病、傷寒、渴、發黃、發熱等方證的核心方（支持條文 7 條，跨 4 部書）。
 
 ## 原文证据（节选）
 > 身無汗。渴飲水漿。小便不利者。茵陳湯主之。
@@ -15,6 +15,9 @@
 
 > 渴引水漿者。此為瘀熱在裡。身必發黃。茵陳湯主之。
 > ——《張卿子傷寒論》·豬膽汁方第七十七（SU_B1CAC3ADF_001794，silver）
+
+> 陽明是靜者。洒洒振寒也。傷寒發黃渴。亦茵陳湯主之。
+> ——《金匱玉函經二註》·黃膽病脈證並治第十五（SU_JGYH_ERZHU_001316，silver）
 
 > 傷寒七八日，身黃如橘，小便不利，其腹微滿，茵陳湯主之。
 > ——《傷寒論(千金翼方)》·陽明病狀第八（SU_SHL_QJYF_000223，silver）
@@ -29,7 +32,7 @@
 > ——《傷寒論(千金翼方)》·陽明病狀第八（SU_SHL_QJYF_000222，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["傷寒", "身黃"], "rule_ids": ["IR_SHL_QJYF_000179", "IR_SHL_QJYF_000180"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["身黃"], "rule_ids": ["IR_SHL_QJYF_000179", "IR_SHL_QJYF_000180"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

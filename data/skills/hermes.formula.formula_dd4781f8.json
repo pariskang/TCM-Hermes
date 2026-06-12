@@ -11,7 +11,7 @@
     "IR_B1CAC3ADF_000704",
     "IR_B3E16D849_000227",
     "IR_B3E16D849_000594",
-    "IR_B5C5ECAC2_000328",
+    "IR_B5C5ECAC2_000327",
     "IR_BF5CDC206_000075",
     "IR_SHL_LUNZHU_000150",
     "IR_SHL_QJYF_000189"
@@ -22,7 +22,7 @@
       "IR_B1CAC3ADF_000704",
       "IR_B3E16D849_000227",
       "IR_B3E16D849_000594",
-      "IR_B5C5ECAC2_000328",
+      "IR_B5C5ECAC2_000327",
       "IR_BF5CDC206_000075",
       "IR_SHL_LUNZHU_000150",
       "IR_SHL_QJYF_000189"
@@ -90,7 +90,7 @@
         "無汗"
       ],
       "rule_ids": [
-        "IR_B5C5ECAC2_000328"
+        "IR_B5C5ECAC2_000327"
       ]
     }
   ],
@@ -130,6 +130,6 @@
     "無汗"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -10,12 +10,12 @@
   "supporting_initial_rules": [
     "IR_B1CAC3ADF_000904",
     "IR_B54968951_000021",
-    "IR_B5FF1CA1B_000686",
-    "IR_BBAACE965_001387",
+    "IR_B5FF1CA1B_000685",
+    "IR_BBAACE965_001382",
     "IR_SHL_GUANZHU_000360",
     "IR_SHL_GUIBEN_001233",
-    "IR_SHL_LAISU_000622",
-    "IR_SHL_LUNZHU_000631",
+    "IR_SHL_LAISU_000621",
+    "IR_SHL_LUNZHU_000630",
     "IR_SHL_SONGBEN_000450",
     "IR_SHL_TIAOWEN_000404",
     "IR_SHL_ZHUJIE_001036"
@@ -25,12 +25,12 @@
     "silver": [
       "IR_B1CAC3ADF_000904",
       "IR_B54968951_000021",
-      "IR_B5FF1CA1B_000686",
-      "IR_BBAACE965_001387",
+      "IR_B5FF1CA1B_000685",
+      "IR_BBAACE965_001382",
       "IR_SHL_GUANZHU_000360",
       "IR_SHL_GUIBEN_001233",
-      "IR_SHL_LAISU_000622",
-      "IR_SHL_LUNZHU_000631",
+      "IR_SHL_LAISU_000621",
+      "IR_SHL_LUNZHU_000630",
       "IR_SHL_SONGBEN_000450",
       "IR_SHL_TIAOWEN_000404",
       "IR_SHL_ZHUJIE_001036"
@@ -137,7 +137,7 @@
         "吐利"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001387"
+        "IR_BBAACE965_001382"
       ]
     },
     {
@@ -258,6 +258,6 @@
     "渴"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

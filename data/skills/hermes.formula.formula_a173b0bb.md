@@ -35,7 +35,7 @@
 > ——《傷寒溯源集》·傷寒證治第二（SU_SHL_SUYUAN_000610，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "梔子"], "rule_ids": ["IR_BBAACE965_000369", "IR_BC91F4420_000182", "IR_SHL_GUANZHU_000259", "IR_SHL_LAISU_000393", "IR_SHL_ZHUJIE_000321"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "梔子"], "rule_ids": ["IR_BBAACE965_000368", "IR_BC91F4420_000182", "IR_SHL_GUANZHU_000259", "IR_SHL_LAISU_000393", "IR_SHL_ZHUJIE_000321"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑二兩", "梔子十四枚"], "rule_ids": ["IR_SHL_GUIBEN_000510"]}
 
 ## 安全声明

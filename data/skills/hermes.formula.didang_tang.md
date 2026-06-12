@@ -37,9 +37,9 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["陽明病"], "rule_ids": ["IR_B11498305_000080", "IR_B11498305_000081", "IR_B11498305_000221"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["心下滿"], "rule_ids": ["IR_B9119D083_000295", "IR_B9119D083_000296", "IR_B9119D083_000395", "IR_B9119D083_000398", "IR_B9119D083_000399", "IR_B9119D083_000400"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["腹痛"], "rule_ids": ["IR_SHL_GUIBEN_000589", "IR_SHL_GUIBEN_000592", "IR_SHL_GUIBEN_001647"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["腹痛"], "rule_ids": ["IR_SHL_GUIBEN_000589", "IR_SHL_GUIBEN_000592", "IR_SHL_GUIBEN_001645"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["便膿血", "厥", "吐血", "少腹急結", "少腹滿", "渴", "潮熱", "脈浮"], "rule_ids": ["IR_SHL_MINGLI_000141", "IR_SHL_MINGLI_000142"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桃仁", "水蛭"], "rule_ids": ["IR_BBAACE965_000557"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桃仁", "水蛭"], "rule_ids": ["IR_BBAACE965_000556"]}
 - {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論(千金翼方)", "傷寒論條辨", "傷寒貫珠集"], "composition": ["大黃", "桃仁", "水蛭", "虻蟲"], "rule_ids": ["IR_BC91F4420_000027", "IR_SHL_GUANZHU_000166", "IR_SHL_LAISU_000255", "IR_SHL_QJYF_000101"]}
 
 ## 安全声明

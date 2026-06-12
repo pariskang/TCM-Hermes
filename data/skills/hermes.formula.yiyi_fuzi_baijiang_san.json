@@ -8,21 +8,21 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001376",
+    "IR_CAOSHI_FAWEI_001375",
     "IR_JGYH_ERZHU_000320",
-    "IR_JGYL_FANGLUN_000242",
+    "IR_JGYL_FANGLUN_000240",
     "IR_JGYL_JIYI_000406",
-    "IR_JGYL_TIAOWEN_000242",
+    "IR_JGYL_TIAOWEN_000240",
     "IR_SHL_GUIBEN_001519"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001376",
+      "IR_CAOSHI_FAWEI_001375",
       "IR_JGYH_ERZHU_000320",
-      "IR_JGYL_FANGLUN_000242",
+      "IR_JGYL_FANGLUN_000240",
       "IR_JGYL_JIYI_000406",
-      "IR_JGYL_TIAOWEN_000242",
+      "IR_JGYL_TIAOWEN_000240",
       "IR_SHL_GUIBEN_001519"
     ],
     "bronze": []
@@ -80,7 +80,7 @@
         "痞"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001376"
+        "IR_CAOSHI_FAWEI_001375"
       ]
     },
     {
@@ -93,7 +93,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001378"
+        "IR_CAOSHI_FAWEI_001377"
       ]
     },
     {
@@ -150,6 +150,6 @@
     "脈數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -29,7 +29,7 @@
 > ——《傷寒雜病論(桂本)》·辨太陽病脈證並治下（SU_SHL_GUIBEN_000669，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "代赭", "大棗", "旋覆花", "甘草", "生薑"], "rule_ids": ["IR_BBAACE965_000729"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "代赭", "大棗", "旋覆花", "甘草", "生薑"], "rule_ids": ["IR_BBAACE965_000727"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參二兩", "代赭石一兩", "半夏半升", "大棗十二枚", "旋覆花三兩", "甘草三兩", "生薑五兩"], "rule_ids": ["IR_SHL_GUIBEN_000711"]}
 
 ## 安全声明

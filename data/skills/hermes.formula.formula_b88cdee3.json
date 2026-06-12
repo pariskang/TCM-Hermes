@@ -8,9 +8,9 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000237",
+    "IR_B0B74DF58_000236",
     "IR_B11498305_000558",
-    "IR_B5FF1CA1B_000590",
+    "IR_B5FF1CA1B_000589",
     "IR_B9119D083_000059",
     "IR_B9119D083_000092",
     "IR_B9119D083_000301",
@@ -27,9 +27,9 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000237",
+      "IR_B0B74DF58_000236",
       "IR_B11498305_000558",
-      "IR_B5FF1CA1B_000590",
+      "IR_B5FF1CA1B_000589",
       "IR_B9119D083_000059",
       "IR_B9119D083_000092",
       "IR_B9119D083_000301",
@@ -182,7 +182,7 @@
         "黃芩"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000665"
+        "IR_BBAACE965_000664"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "桂枝"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000366"
+        "IR_CAOSHI_FAWEI_000365"
       ]
     },
     {
@@ -275,6 +275,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

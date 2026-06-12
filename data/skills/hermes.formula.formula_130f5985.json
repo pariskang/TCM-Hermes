@@ -1,0 +1,95 @@
+{
+  "skill_id": "hermes.formula.formula_130f5985",
+  "kind": "formula",
+  "title": "柴胡湯方證合併規則",
+  "subject": "柴胡湯",
+  "abstracted_claim": "柴胡湯可歸納為頭痛、無汗、往來寒熱等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_130F5985",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E16D849_000290",
+    "IR_SHL_SUYUAN_000977"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E16D849_000290",
+      "IR_SHL_SUYUAN_000977"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陽證治第十四",
+      "source_unit_id": "SU_SHL_SUYUAN_002257",
+      "evidence_span": "往來寒熱。默默不欲食。皆少陽本病也。故以柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "頭痛項強",
+      "source_unit_id": "SU_B3E16D849_000732",
+      "evidence_span": "蓋川芎亦膽經藥也。凡少陽頭痛。不分有汗無汗。皆以柴胡湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E16D849",
+      "book_title": "傷寒論綱目",
+      "distinct_conditions": [
+        "無汗",
+        "頭痛"
+      ],
+      "rule_ids": [
+        "IR_B3E16D849_000290"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "往來寒熱"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000977"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "頭痛",
+        "count": 1
+      },
+      {
+        "term": "無汗",
+        "count": 1
+      },
+      {
+        "term": "往來寒熱",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "柴胡湯",
+    "頭痛",
+    "無汗",
+    "往來寒熱"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

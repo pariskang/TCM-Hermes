@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.mahuang_tang`
 - **Merged rule**: `MHR_FORMULA_MAHUANG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.915
-- **Supporting initial rules**: 119
+- **Consensus score**: 0.914
+- **Supporting initial rules**: 121
 
 ## 归纳主张
-麻黃湯可歸納為太陽病、傷寒、中風、腹滿、太陽傷寒、溫病等方證的核心方（支持條文 119 條，跨 26 部書）。
+麻黃湯可歸納為太陽病、傷寒、中風、腹滿、太陽傷寒、溫病等方證的核心方（支持條文 121 條，跨 26 部書）。
 
 ## 原文证据（节选）
 > 傷寒脈浮緊者。麻黃湯主之。

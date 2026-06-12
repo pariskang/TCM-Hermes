@@ -8,12 +8,12 @@
   "release_level": "silver",
   "consensus_score": 0.918,
   "supporting_initial_rules": [
-    "IR_B3E16D849_001222",
+    "IR_B3E16D849_001220",
     "IR_B9DD8A693_000077",
+    "IR_BB7301DF2_000191",
     "IR_BB7301DF2_000192",
-    "IR_BB7301DF2_000193",
-    "IR_BB7301DF2_000208",
-    "IR_BB7301DF2_000210",
+    "IR_BB7301DF2_000207",
+    "IR_BB7301DF2_000209",
     "IR_BBA9FB4A6_000439",
     "IR_SHL_QJYF_000048",
     "IR_SHL_QJYF_000133",
@@ -23,12 +23,12 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_001222",
+      "IR_B3E16D849_001220",
       "IR_B9DD8A693_000077",
+      "IR_BB7301DF2_000191",
       "IR_BB7301DF2_000192",
-      "IR_BB7301DF2_000193",
-      "IR_BB7301DF2_000208",
-      "IR_BB7301DF2_000210",
+      "IR_BB7301DF2_000207",
+      "IR_BB7301DF2_000209",
       "IR_BBA9FB4A6_000439",
       "IR_SHL_QJYF_000048",
       "IR_SHL_QJYF_000133",
@@ -125,7 +125,7 @@
         "脈弦"
       ],
       "rule_ids": [
-        "IR_B3E16D849_001222"
+        "IR_B3E16D849_001220"
       ]
     },
     {
@@ -147,10 +147,10 @@
         "下利"
       ],
       "rule_ids": [
+        "IR_BB7301DF2_000191",
         "IR_BB7301DF2_000192",
-        "IR_BB7301DF2_000193",
-        "IR_BB7301DF2_000208",
-        "IR_BB7301DF2_000210"
+        "IR_BB7301DF2_000207",
+        "IR_BB7301DF2_000209"
       ]
     },
     {
@@ -191,7 +191,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現承氣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_BB7301DF2_000208"
+        "IR_BB7301DF2_000207"
       ],
       "book_title": "傷寒百證歌"
     }
@@ -292,6 +292,6 @@
     "脈遲"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -688,7 +688,14 @@
           "evidence_span": "傷寒差以後，更發熱，小柴胡湯主之。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_SHL_SONGBEN_000521",
+          "composition": [
+            "芒硝六兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "辨太陽病脈證並治中第六",
@@ -984,7 +991,7 @@
           "evidence_span": "12.40傷寒差已後，更發熱者，小柴胡湯主之；"
         },
         {
-          "rule_id": "IR_SHL_GUIBEN_001589",
+          "rule_id": "IR_SHL_GUIBEN_001588",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1000,7 +1007,7 @@
           "evidence_span": "16.13產婦鬱冒，其脈微弱，嘔不能食，大便反堅，但頭汗出。所以然者，血虛而厥，厥則必冒，冒家欲解，必大汗出，以血虛下厥，孤陽上出，故頭汗出也。所以產婦喜汗出者，亡陰血虛，陽氣獨盛，故當汗出，陰陽乃復。大便堅，嘔不能食者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_GUIBEN_001606",
+          "rule_id": "IR_SHL_GUIBEN_001605",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1125,7 +1132,7 @@
           ]
         },
         {
-          "rule_id": "IR_SHL_GUIBEN_001590",
+          "rule_id": "IR_SHL_GUIBEN_001589",
           "composition": [
             "柴胡半斤",
             "黃芩三兩",
@@ -1160,7 +1167,7 @@
       "mentions": 6,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_FANGLUN_000210",
+          "rule_id": "IR_JGYL_FANGLUN_000208",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1170,7 +1177,7 @@
           "evidence_span": "嘔而發熱者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_FANGLUN_000272",
+          "rule_id": "IR_JGYL_FANGLUN_000269",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1183,7 +1190,7 @@
           "evidence_span": "冒家欲解，必大汗出。以血虛下厥，孤陽上出，故頭汗出。所以產婦喜汗出者，亡陰血虛，陽氣獨盛，故當汗出，陰陽乃復。大便堅，嘔不能食，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_FANGLUN_000285",
+          "rule_id": "IR_JGYL_FANGLUN_000282",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1193,7 +1200,7 @@
           "evidence_span": "**《千金》三物黃芩湯：**治婦人在草蓐，自發露得風，四肢苦煩熱，頭痛者與小柴胡湯；"
         },
         {
-          "rule_id": "IR_JGYL_FANGLUN_000286",
+          "rule_id": "IR_JGYL_FANGLUN_000283",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1234,7 +1241,7 @@
       "mentions": 6,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000210",
+          "rule_id": "IR_JGYL_TIAOWEN_000208",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1244,7 +1251,7 @@
           "evidence_span": "嘔而發熱者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000272",
+          "rule_id": "IR_JGYL_TIAOWEN_000269",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1257,7 +1264,7 @@
           "evidence_span": "冒家欲解，必大汗出。以血虛下厥，孤陽上出，故頭汗出。所以產婦喜汗出者，亡陰血虛，陽氣獨盛，故當汗出，陰陽乃復。大便堅，嘔不能食，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000285",
+          "rule_id": "IR_JGYL_TIAOWEN_000282",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1267,7 +1274,7 @@
           "evidence_span": "**《千金》三物黃芩湯：**治婦人在草蓐，自發露得風，四肢苦煩熱，頭痛者與小柴胡湯；"
         },
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000286",
+          "rule_id": "IR_JGYL_TIAOWEN_000283",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1544,7 +1551,7 @@
           "evidence_span": "非其治也。潮熱者。實也。先宜服小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_BB711944D_000982",
+          "rule_id": "IR_BB711944D_000981",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -1555,7 +1562,7 @@
           "evidence_span": "易愈。雍曰。發熱惡寒。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001027",
+          "rule_id": "IR_BB711944D_001026",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -1568,7 +1575,7 @@
           "evidence_span": "仲景曰。太陽病轉入少陽。脈沉遲者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001030",
+          "rule_id": "IR_BB711944D_001029",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -1581,7 +1588,7 @@
           "evidence_span": "往來寒熱。尚未可吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001067",
+          "rule_id": "IR_BB711944D_001066",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1592,7 +1599,7 @@
           "evidence_span": "若外尚未解。胸滿脅痛者。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001185",
+          "rule_id": "IR_BB711944D_001184",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1605,7 +1612,7 @@
           "evidence_span": "傷寒。瘥已後。更發熱。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB711944D_001207",
+          "rule_id": "IR_BB711944D_001206",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1615,19 +1622,19 @@
           "evidence_span": "熱氣復還入經絡。名曰勞復。仲景云。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB711944D_001281",
+          "rule_id": "IR_BB711944D_001280",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "又曰。升麻湯解肌湯最良。熱多者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB711944D_001303",
+          "rule_id": "IR_BB711944D_001302",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "無犯胃氣及上二焦。無犯胃氣者。言不可下也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB711944D_001315",
+          "rule_id": "IR_BB711944D_001314",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1643,7 +1650,7 @@
           "evidence_span": "如見鬼狀者。此為熱入血室。無犯胃氣及上二焦。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001316",
+          "rule_id": "IR_BB711944D_001315",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -1656,7 +1663,7 @@
           "evidence_span": "此為熱入血室。其血必結。故使如瘧狀。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001337",
+          "rule_id": "IR_BB711944D_001336",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "婦人蓐中傷風。四肢苦煩熱。頭疼。與小柴胡湯。"
@@ -1786,7 +1793,7 @@
       "mentions": 24,
       "indication_rules": [
         {
-          "rule_id": "IR_BB7301DF2_000080",
+          "rule_id": "IR_BB7301DF2_000079",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1796,7 +1803,7 @@
           "evidence_span": "）虛煩壞病尤須戒。（仲景云。虛煩壞病。皆不可發汗宜用小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000126",
+          "rule_id": "IR_BB7301DF2_000125",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1809,7 +1816,7 @@
           "evidence_span": "有表證在者。未可下。）惡寒脈浮表證在。與小柴胡湯勿下。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000133",
+          "rule_id": "IR_BB7301DF2_000132",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1823,13 +1830,13 @@
           "evidence_span": "小便難。有潮熱。時時噦。宜與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000134",
+          "rule_id": "IR_BB7301DF2_000133",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。而胸脅滿不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000136",
+          "rule_id": "IR_BB7301DF2_000135",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1841,7 +1848,7 @@
           "evidence_span": "胸脅苦滿。默默不欲食。心煩喜嘔者。屬小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000213",
+          "rule_id": "IR_BB7301DF2_000212",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -1856,19 +1863,19 @@
           "evidence_span": "心下悸。小便不利。心煩喜嘔者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000239",
+          "rule_id": "IR_BB7301DF2_000238",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "舌上有苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000240",
+          "rule_id": "IR_BB7301DF2_000239",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "默默不欲食。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000242",
+          "rule_id": "IR_BB7301DF2_000241",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1878,7 +1885,7 @@
           "evidence_span": "轉入少陽。脅下堅滿。乾嘔者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000252",
+          "rule_id": "IR_BB7301DF2_000251",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -1888,7 +1895,7 @@
           "evidence_span": "身有微熱。或咳者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000266",
+          "rule_id": "IR_BB7301DF2_000265",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1898,7 +1905,7 @@
           "evidence_span": "陰不得有汗。今頭汗出。故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000286",
+          "rule_id": "IR_BB7301DF2_000285",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1910,7 +1917,7 @@
           "evidence_span": "又云。少陽之為病。口苦咽乾目眩者。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000295",
+          "rule_id": "IR_BB7301DF2_000294",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -1921,13 +1928,13 @@
           "evidence_span": "一身及目悉黃。小便難。有潮熱。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000323",
+          "rule_id": "IR_BB7301DF2_000322",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其血必結。故使如瘧狀。發作有時。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000327",
+          "rule_id": "IR_BB7301DF2_000326",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -4561,7 +4568,7 @@
           "evidence_span": "裡氣拒格。上逆作嘔。屬少陽。宜小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000208",
+          "rule_id": "IR_B5C5ECAC2_000207",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -4607,6 +4614,16 @@
           "evidence_span": "　動而悸者。宜真武湯主之。有因陽明壯熱往來而悸者。宜小柴胡湯主之。"
         },
         {
+          "rule_id": "IR_B18FAB5FB_000130",
+          "release_level": "silver",
+          "conditions": {
+            "symptoms": [
+              "譫語"
+            ]
+          },
+          "evidence_span": "宜小柴胡湯主之。有因少陽發汗。譫語而動悸者。亦宜小柴胡湯主之。"
+        },
+        {
           "rule_id": "IR_B18FAB5FB_000149",
           "release_level": "bronze",
           "conditions": {
@@ -4641,37 +4658,37 @@
       "mentions": 60,
       "indication_rules": [
         {
-          "rule_id": "IR_SHL_SUYUAN_000545",
+          "rule_id": "IR_SHL_SUYUAN_000544",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "皆以小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000694",
+          "rule_id": "IR_SHL_SUYUAN_000693",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "外不解。病過十日。脈續浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000699",
+          "rule_id": "IR_SHL_SUYUAN_000698",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "有向外復出之機。重歸少陽之經。故與小柴胡湯和解之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000881",
+          "rule_id": "IR_SHL_SUYUAN_000880",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。胸脅滿不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000883",
+          "rule_id": "IR_SHL_SUYUAN_000882",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "不必悉具。故凡見少陽一證。便不可汗下。惟宜以小柴胡湯和解之也。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000884",
+          "rule_id": "IR_SHL_SUYUAN_000883",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -4683,13 +4700,13 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000887",
+          "rule_id": "IR_SHL_SUYUAN_000886",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "則不可汗。邪在半表。則不可下。故可與小柴胡湯以和解之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000888",
+          "rule_id": "IR_SHL_SUYUAN_000887",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -4700,19 +4717,19 @@
           "evidence_span": "或不渴。身有微熱。或咳者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000891",
+          "rule_id": "IR_SHL_SUYUAN_000890",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "反二三下之。亦可謂虛矣。更後四五日而柴胡證仍在。故先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000897",
+          "rule_id": "IR_SHL_SUYUAN_000896",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "便是邪氣已入少陽。不必如上文之諸證悉具也。如但見少陽本經證。止宜以小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000899",
+          "rule_id": "IR_SHL_SUYUAN_000898",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -4724,31 +4741,37 @@
           "evidence_span": "頸項強。脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000902",
+          "rule_id": "IR_SHL_SUYUAN_000900",
+          "release_level": "rejected",
+          "conditions": {},
+          "evidence_span": "不必悉具。故雖有太陽未罷之證。汗之則犯禁例。故仍以小柴胡湯主之。"
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000901",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛者。先用小建中湯。不瘥者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000903",
+          "rule_id": "IR_SHL_SUYUAN_000902",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "肝邪當退矣。若猶不瘥者。是少陽之邪猶未解也。仍與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000904",
+          "rule_id": "IR_SHL_SUYUAN_000903",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000906",
+          "rule_id": "IR_SHL_SUYUAN_000905",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故知非少陰也。邪氣仍在半表半裡。是仍在少陽也。可與小柴胡湯以和解之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000921",
+          "rule_id": "IR_SHL_SUYUAN_000920",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -4761,25 +4784,25 @@
           "evidence_span": "往來寒熱。尚未吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000923",
+          "rule_id": "IR_SHL_SUYUAN_000922",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "是脈雖沉緊。而邪氣猶在少陽。未入於裡也。故當仍與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000952",
+          "rule_id": "IR_SHL_SUYUAN_000951",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "反二三下之。後四五日。柴胡證仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000954",
+          "rule_id": "IR_SHL_SUYUAN_000953",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "則知雖屢經誤下。而外邪猶未全入於裡。尚在少陽半表半裡之間。故先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000961",
+          "rule_id": "IR_SHL_SUYUAN_000960",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -4794,7 +4817,7 @@
           "evidence_span": "脈浮細而嗜臥者。外已解也。設胸滿脅痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000963",
+          "rule_id": "IR_SHL_SUYUAN_000962",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -4805,7 +4828,7 @@
           "evidence_span": "設或胸滿脅痛者。是太陽雖罷。而邪已轉入少陽矣。故與小柴胡湯以和解半表半裡之邪。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000964",
+          "rule_id": "IR_SHL_SUYUAN_000963",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -4816,19 +4839,19 @@
           "evidence_span": "病雖已。和解之。並不言設胸滿脅痛者。與小柴胡湯之義。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000973",
+          "rule_id": "IR_SHL_SUYUAN_000972",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000974",
+          "rule_id": "IR_SHL_SUYUAN_000973",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "而在表裡之間。仍屬少陽。故使如瘧狀而發作有時也。當以小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001056",
+          "rule_id": "IR_SHL_SUYUAN_001054",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -4839,19 +4862,19 @@
           "evidence_span": "更不待言矣。況少陽篇中云。設胸滿脅痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001066",
+          "rule_id": "IR_SHL_SUYUAN_001064",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001068",
+          "rule_id": "IR_SHL_SUYUAN_001066",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001237",
+          "rule_id": "IR_SHL_SUYUAN_001233",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -4861,7 +4884,7 @@
           "evidence_span": "嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001308",
+          "rule_id": "IR_SHL_SUYUAN_001304",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -4874,13 +4897,20 @@
           "evidence_span": "傷寒瘥以後。更發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001309",
+          "rule_id": "IR_SHL_SUYUAN_001305",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "亦屬病後新虛。理宜和解。但察其脈證之有類於半表半裡之少陽者。以小柴胡湯主之。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_SHL_SUYUAN_000971",
+          "composition": [
+            "芒硝六兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "結胸證治第三",
@@ -4910,19 +4940,19 @@
           "evidence_span": "咽喉干躁不可發汗。常器之云。與小柴胡湯石頑曰宜小建中。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000221",
+          "rule_id": "IR_B5FF1CA1B_000220",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "耳前後腫刺之小瘥。外不解病過十日。脈續浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000226",
+          "rule_id": "IR_B5FF1CA1B_000225",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "要知陽明之邪來。自太陽去。自少陽所以脈續浮者。與小柴胡湯推其邪。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000353",
+          "rule_id": "IR_B5FF1CA1B_000352",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -4938,7 +4968,7 @@
           "evidence_span": "傷寒四五日。身熱惡風頸項強脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000355",
+          "rule_id": "IR_B5FF1CA1B_000354",
           "release_level": "silver",
           "conditions": {
             "pulse": [
@@ -4948,7 +4978,7 @@
           "evidence_span": "陰脈弦。法當腹中急痛。先與小建中湯不瘥者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000357",
+          "rule_id": "IR_B5FF1CA1B_000356",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -4962,7 +4992,7 @@
           "evidence_span": "小便不利或不渴。身有微熱。或咳者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000361",
+          "rule_id": "IR_B5FF1CA1B_000360",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -4972,7 +5002,7 @@
           "evidence_span": "陰不得有汗。今頭汗出。故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000363",
+          "rule_id": "IR_B5FF1CA1B_000362",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -4985,7 +5015,7 @@
           "evidence_span": "此為熱入血室。其血必結故使如瘧狀。發作有時。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000367",
+          "rule_id": "IR_B5FF1CA1B_000366",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -4996,7 +5026,7 @@
           "evidence_span": "往來寒熱。休作有時。默默不欲飲食臟腑相連其痛必然邪高痛下故使嘔也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000368",
+          "rule_id": "IR_B5FF1CA1B_000367",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -5014,7 +5044,7 @@
           "evidence_span": "太陽病十日已去脈浮細而嗜臥者。外已解也。設胸滿脅痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000371",
+          "rule_id": "IR_B5FF1CA1B_000370",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -5030,7 +5060,7 @@
           "evidence_span": "脅下硬滿乾嘔不能食往來寒熱。尚未吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000372",
+          "rule_id": "IR_B5FF1CA1B_000371",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -5040,7 +5070,7 @@
           "evidence_span": "尚未吐下。雖脈沉緊者猶當與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000375",
+          "rule_id": "IR_B5FF1CA1B_000374",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -5050,7 +5080,7 @@
           "evidence_span": "太陽病過經十余日。反二三下之。後四五日柴胡證仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000378",
+          "rule_id": "IR_B5FF1CA1B_000377",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -5060,7 +5090,7 @@
           "evidence_span": "下之非其治也。潮熱者實也。先宜小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000594",
+          "rule_id": "IR_B5FF1CA1B_000593",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -5073,7 +5103,7 @@
           "evidence_span": "陽明病發潮熱。大便瀉小便自可。胸脅滿不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000595",
+          "rule_id": "IR_B5FF1CA1B_000594",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -5088,7 +5118,7 @@
           "evidence_span": "陽明病脅痛硬滿不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000689",
+          "rule_id": "IR_B5FF1CA1B_000688",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6014,7 +6044,7 @@
           "evidence_span": "脈若弦若浮。及外症惡寒。猶有表症。且與小柴胡湯以解之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001053",
+          "rule_id": "IR_B3E16D849_001051",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6024,13 +6054,13 @@
           "evidence_span": "嘔多雖不大便。不可下。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001055",
+          "rule_id": "IR_B3E16D849_001053",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "雖顯然有可下症者。兼嘔多猶屬上焦。未可遽下。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001064",
+          "rule_id": "IR_B3E16D849_001062",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6042,7 +6072,7 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001066",
+          "rule_id": "IR_B3E16D849_001064",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6052,7 +6082,7 @@
           "evidence_span": "惟不大便為正陽陽明。其余盡少陽陽明所應有之病。但俱屬欲轉少陽而未全成少陽也。與以小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001071",
+          "rule_id": "IR_B3E16D849_001069",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6062,7 +6092,7 @@
           "evidence_span": "外不解。病過十日。脈弦浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001098",
+          "rule_id": "IR_B3E16D849_001096",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6072,7 +6102,7 @@
           "evidence_span": "有喘。非少陽也。其見少陽症而嗽者。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001147",
+          "rule_id": "IR_B3E16D849_001145",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6084,7 +6114,7 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001257",
+          "rule_id": "IR_B3E16D849_001255",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6094,7 +6124,7 @@
           "evidence_span": "陰不得有汗。今頭汗出。故知非少陰也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001285",
+          "rule_id": "IR_B3E16D849_001283",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6104,7 +6134,7 @@
           "evidence_span": "外不解。病過十日。脈弦浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001325",
+          "rule_id": "IR_B3E16D849_001323",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6116,7 +6146,7 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001395",
+          "rule_id": "IR_B3E16D849_001393",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6128,13 +6158,13 @@
           "evidence_span": "少陽受病。口苦咽乾目眩。宜小柴胡湯以解表。"
         },
         {
-          "rule_id": "IR_B3E16D849_001409",
+          "rule_id": "IR_B3E16D849_001407",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛。先用建中湯。不瘥者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001410",
+          "rule_id": "IR_B3E16D849_001408",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6144,19 +6174,19 @@
           "evidence_span": "指揮如意。所以服建中湯後。少陽病不瘥。仍與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001411",
+          "rule_id": "IR_B3E16D849_001409",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001412",
+          "rule_id": "IR_B3E16D849_001410",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "卻當汗。此兩症俱見者。仲景所謂半在表半在裡也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001416",
+          "rule_id": "IR_B3E16D849_001414",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6166,7 +6196,7 @@
           "evidence_span": "脈弦細者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001421",
+          "rule_id": "IR_B3E16D849_001419",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6181,13 +6211,13 @@
           "evidence_span": "或心下悸小便不利。或不渴身有微熱。或咳者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001423",
+          "rule_id": "IR_B3E16D849_001421",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其痛必下。邪高痛下。故使嘔也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001429",
+          "rule_id": "IR_B3E16D849_001427",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6197,7 +6227,7 @@
           "evidence_span": "脈弦細者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001441",
+          "rule_id": "IR_B3E16D849_001439",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6209,19 +6239,19 @@
           "evidence_span": "頭項強。脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001483",
+          "rule_id": "IR_B3E16D849_001481",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "反二三下之。後四五日。柴胡症仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001485",
+          "rule_id": "IR_B3E16D849_001483",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "因其人不虛。故樞機有主。而不致成壞病。與小柴胡湯和之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001486",
+          "rule_id": "IR_B3E16D849_001484",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6236,7 +6266,7 @@
           "evidence_span": "或心下悸小便不利。或不渴身有微熱。或咳者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001491",
+          "rule_id": "IR_B3E16D849_001489",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6248,13 +6278,13 @@
           "evidence_span": "頸項強。脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001492",
+          "rule_id": "IR_B3E16D849_001490",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。胸脅滿者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001493",
+          "rule_id": "IR_B3E16D849_001491",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6266,13 +6296,13 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001494",
+          "rule_id": "IR_B3E16D849_001492",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛。先用小建中湯。不瘥者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001495",
+          "rule_id": "IR_B3E16D849_001493",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6282,7 +6312,7 @@
           "evidence_span": "脈弦細者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001506",
+          "rule_id": "IR_B3E16D849_001504",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6294,7 +6324,7 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001510",
+          "rule_id": "IR_B3E16D849_001508",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6304,19 +6334,19 @@
           "evidence_span": "脈弦細者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001518",
+          "rule_id": "IR_B3E16D849_001516",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "反二三下之。後四五日。柴胡症仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001520",
+          "rule_id": "IR_B3E16D849_001518",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "又四五日。柴胡症仍在耳。先見柴胡症時。曾與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001524",
+          "rule_id": "IR_B3E16D849_001522",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6332,7 +6362,7 @@
           "evidence_span": "汗出不解。心下痞硬。嘔吐而下利者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001567",
+          "rule_id": "IR_B3E16D849_001565",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6345,13 +6375,13 @@
           "evidence_span": "往來寒熱。未經吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001852",
+          "rule_id": "IR_B3E16D849_001850",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "李時珍曰。此宜小柴胡湯、抵當湯、黃芩芍藥湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001913",
+          "rule_id": "IR_B3E16D849_001911",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6364,13 +6394,13 @@
           "evidence_span": "【綱】仲景曰。傷寒瘥已後。更發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001920",
+          "rule_id": "IR_B3E16D849_001918",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "熱氣乘虛。還入經絡。未免再復。宜小柴胡湯、麥門冬湯和之。"
         },
         {
-          "rule_id": "IR_B3E16D849_001941",
+          "rule_id": "IR_B3E16D849_001939",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其血必結。故使如瘧狀。發作有時。小柴胡湯主之。"
@@ -6454,7 +6484,7 @@
       "mentions": 80,
       "indication_rules": [
         {
-          "rule_id": "IR_B41512D4B_000135",
+          "rule_id": "IR_B41512D4B_000134",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -6472,7 +6502,7 @@
           "evidence_span": "太陽病十日以去脈浮細而嗜臥者。外已解也。設胸滿脅痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000137",
+          "rule_id": "IR_B41512D4B_000136",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6483,13 +6513,13 @@
           "evidence_span": "其嗜臥為膽熱而神昏。另宜與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000285",
+          "rule_id": "IR_B41512D4B_000284",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "補亡論皆有方。治咽喉干燥者。常器之云。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000310",
+          "rule_id": "IR_B41512D4B_000309",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6504,13 +6534,13 @@
           "evidence_span": "中風。往來寒熱胸脅苦滿。（云云至）身有微熱或咳者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000312",
+          "rule_id": "IR_B41512D4B_000311",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "血弱氣盡腠理開邪氣因入。（云云至）故使嘔也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000313",
+          "rule_id": "IR_B41512D4B_000312",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6523,19 +6553,19 @@
           "evidence_span": "身熱惡風頸項強。脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000315",
+          "rule_id": "IR_B41512D4B_000314",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛者。先與小建中湯。不瘥者。與小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000319",
+          "rule_id": "IR_B41512D4B_000318",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "反二三下之。後四五日。柴胡證仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000322",
+          "rule_id": "IR_B41512D4B_000321",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -6545,13 +6575,13 @@
           "evidence_span": "傷寒十三日不解。胸脅滿而嘔。（云云至）先宜小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_B41512D4B_000424",
+          "rule_id": "IR_B41512D4B_000423",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "發作有時。（云云至）故使如瘧狀。發作有時。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000582",
+          "rule_id": "IR_B41512D4B_000581",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6561,13 +6591,13 @@
           "evidence_span": "小柴胡湯。愚以嘔而口苦者。為少陽經證方。宜用小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000764",
+          "rule_id": "IR_B41512D4B_000762",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。胸脅滿不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000765",
+          "rule_id": "IR_B41512D4B_000763",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6582,7 +6612,7 @@
           "evidence_span": "陽明病脅下硬滿不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000766",
+          "rule_id": "IR_B41512D4B_000764",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6598,13 +6628,13 @@
           "evidence_span": "脈弦浮大而短氣。腹部滿。脅下及心痛。（云云至）耳前後腫（云云至）與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000769",
+          "rule_id": "IR_B41512D4B_000767",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "脅下痛。耳前後腫。可見少陽經病偏重。故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000829",
+          "rule_id": "IR_B41512D4B_000827",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6617,7 +6647,7 @@
           "evidence_span": "往來寒熱。尚未吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000833",
+          "rule_id": "IR_B41512D4B_000831",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6631,19 +6661,19 @@
           "evidence_span": "小便不利。或不渴身有微熱。或咳者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000834",
+          "rule_id": "IR_B41512D4B_000832",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "臟腑相連。其痛必下。邪高痛下故使嘔也。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000835",
+          "rule_id": "IR_B41512D4B_000833",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "高字作上字解。臟腑相連。臟從腑治。故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000840",
+          "rule_id": "IR_B41512D4B_000838",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6653,7 +6683,7 @@
           "evidence_span": "故小水澀也。若此者。醫人不可以其脅下滿痛。而與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000843",
+          "rule_id": "IR_B41512D4B_000841",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6666,7 +6696,7 @@
           "evidence_span": "身熱惡風。頸項強脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000844",
+          "rule_id": "IR_B41512D4B_000842",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6676,37 +6706,37 @@
           "evidence_span": "成注云。手足溫者。知邪在表裡之間也。故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000846",
+          "rule_id": "IR_B41512D4B_000844",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛者。先與小建中湯。不瘥者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000848",
+          "rule_id": "IR_B41512D4B_000846",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "痛猶未止者。為不瘥。此為少陽經有留邪也。後與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000852",
+          "rule_id": "IR_B41512D4B_000850",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其血必結。故使如瘧狀。發作有時。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000854",
+          "rule_id": "IR_B41512D4B_000852",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "無犯胃氣。及上二焦。以膽經有三禁。故止宜用小柴胡湯也。"
         },
         {
-          "rule_id": "IR_B41512D4B_000857",
+          "rule_id": "IR_B41512D4B_000855",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "此言三法。皆不可用也。必也。與小柴胡湯以和解邪熱。"
         },
         {
-          "rule_id": "IR_B41512D4B_000859",
+          "rule_id": "IR_B41512D4B_000857",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6719,7 +6749,7 @@
           "evidence_span": "不得為少陰病所以然者。陰不得有汗今頭汗出。故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000861",
+          "rule_id": "IR_B41512D4B_000859",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6729,19 +6759,19 @@
           "evidence_span": "云云。是重言以申明。頭汗出為陽微之義。可與小柴胡湯者。"
         },
         {
-          "rule_id": "IR_B41512D4B_000862",
+          "rule_id": "IR_B41512D4B_000860",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "小便自可。胸脅滿。不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000864",
+          "rule_id": "IR_B41512D4B_000862",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "非入府之證也。更加胸脅滿不去者。已傳入少陽也。故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000865",
+          "rule_id": "IR_B41512D4B_000863",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6756,25 +6786,25 @@
           "evidence_span": "陽明病脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000866",
+          "rule_id": "IR_B41512D4B_000864",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "成注云。為邪未入府。在表裡之間。故與小柴胡湯以和解之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000868",
+          "rule_id": "IR_B41512D4B_000866",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "外不解。病過十日。脈續浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000872",
+          "rule_id": "IR_B41512D4B_000870",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "以過十日。則邪不在表。當從少陽例治。故與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000877",
+          "rule_id": "IR_B41512D4B_000875",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -6784,19 +6814,19 @@
           "evidence_span": "嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000880",
+          "rule_id": "IR_B41512D4B_000878",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "過經十余日。反二三下之後。四五日柴胡證仍在者。先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000884",
+          "rule_id": "IR_B41512D4B_000882",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "更無他變。前此之柴胡證仍在者。其時縱有可下之證。須先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000895",
+          "rule_id": "IR_B41512D4B_000893",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6806,7 +6836,7 @@
           "evidence_span": "非其治也。潮熱者。實也。先宜小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_B41512D4B_000897",
+          "rule_id": "IR_B41512D4B_000895",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6816,7 +6846,7 @@
           "evidence_span": "夫潮熱者。胃府熱結而實也。然胸脅之邪未已。故先宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_001102",
+          "rule_id": "IR_B41512D4B_001100",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -6829,7 +6859,7 @@
           "evidence_span": "傷寒瘥以後。更發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_001120",
+          "rule_id": "IR_B41512D4B_001118",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6839,7 +6869,7 @@
           "evidence_span": "琥按上劉氏用藥。各有所宜。有如少陽勞復。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_001159",
+          "rule_id": "IR_B41512D4B_001157",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6851,7 +6881,7 @@
       ],
       "compositions": [
         {
-          "rule_id": "IR_B41512D4B_000311",
+          "rule_id": "IR_B41512D4B_000310",
           "composition": [
             "柴胡"
           ]
@@ -7171,6 +7201,12 @@
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "合上節之治節不行。水精不能四布。故舌上有白苔而嘔。與小柴胡湯轉少陽之樞。"
+        },
+        {
+          "rule_id": "IR_BF5CDC206_000106",
+          "release_level": "rejected",
+          "conditions": {},
+          "evidence_span": "熏膚充身澤毛。若霧露之溉。與胃中邪熱症不同。故以小柴胡湯主之。"
         },
         {
           "rule_id": "IR_BF5CDC206_000198",
@@ -7513,7 +7549,14 @@
           "evidence_span": "瘥後余熱未盡。更發熱者。與小柴胡湯以和解之。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_B1CAC3ADF_000320",
+          "composition": [
+            "芒硝六兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "麻黃湯方第二十",
@@ -7656,7 +7699,7 @@
           "evidence_span": "後四五日。柴胡證仍在。雖大便不行。仍當先與小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000270",
+          "rule_id": "IR_CAOSHI_FAWEI_000269",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -7666,13 +7709,13 @@
           "evidence_span": "知醫以丸藥下之。非其治也。潮熱者實也。先宜小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000363",
+          "rule_id": "IR_CAOSHI_FAWEI_000362",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其血必結。故使如瘧狀。發作有時。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000369",
+          "rule_id": "IR_CAOSHI_FAWEI_000368",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -7682,13 +7725,13 @@
           "evidence_span": "陰不得有汗。今頭汗出。故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000590",
+          "rule_id": "IR_CAOSHI_FAWEI_000589",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。胸脇滿而不去者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000591",
+          "rule_id": "IR_CAOSHI_FAWEI_000590",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -7698,13 +7741,13 @@
           "evidence_span": "脇下鞭滿。不大便而嘔。舌上白胎者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000594",
+          "rule_id": "IR_CAOSHI_FAWEI_000593",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "外不解。病過十日。脈續浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000676",
+          "rule_id": "IR_CAOSHI_FAWEI_000675",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -7717,13 +7760,13 @@
           "evidence_span": "往來寒熱。尚未吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000678",
+          "rule_id": "IR_CAOSHI_FAWEI_000677",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故以瀉心湯下之。其未經吐下而脇下硬滿。則所病猶為太陽水氣。故宜小柴胡湯以汗之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000876",
+          "rule_id": "IR_CAOSHI_FAWEI_000875",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -7733,7 +7776,7 @@
           "evidence_span": "嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000890",
+          "rule_id": "IR_CAOSHI_FAWEI_000889",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -7746,7 +7789,7 @@
           "evidence_span": "脈沉實者。以下解之。更發熱。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001125",
+          "rule_id": "IR_CAOSHI_FAWEI_001124",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -7759,7 +7802,7 @@
           "evidence_span": "肝中風者，頭目潤，兩脇痛，行常傴，兩臂不舉，舌本燥，善太息，令人嗜甘（此條兩臂不舉三句，在後條今訂正之）肝為藏血之藏，而主一身之筋，即所謂中風者，亦血虛生風之類，非比肺藏外應皮毛，真有外風襲之也。肝藏血虛，則風動於上而頭目潤，此證仲師無方治，當用熟地以補血，潞參以補氣，重有龍骨牡蠣以鎮之，其效至速，萬不可疏風破氣，潤甚"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001271",
+          "rule_id": "IR_CAOSHI_FAWEI_001270",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -7778,7 +7821,7 @@
           "evidence_span": "黃癉之病始於濕中於水，成於燥，予讀雜病論至痛而嘔者宜柴胡湯，恍然於膽火之為病也，未濕勝則腹滿，水勝則小便不利，燥勝則胃熱上攻而心中熱疼，或上薰於肺而鼻燥，或食入胃熱上浮而頭眩，原其所以病黃癉之由，則由胃底原不之膽汁不能容水與濕，水濕混入於胃，膽汁出而相抗，乃隨水濕溢出皮毛，手足頭目而成黃色，腹為足太陰部分，膽邪乘脾，乃"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001307",
+          "rule_id": "IR_CAOSHI_FAWEI_001306",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -7788,7 +7831,7 @@
           "evidence_span": "嘔而發熱者，小柴胡湯主之（小柴胡湯方，柴胡半斤，半夏半升，黃芩、人參、甘草、生薑各三兩，大棗十二枚，上七味，以水一斗，煮取六升，去滓再煮取三升，溫服一升，日三服）"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001308",
+          "rule_id": "IR_CAOSHI_FAWEI_001307",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -7801,7 +7844,7 @@
           "evidence_span": "凡瘧病多嘔，其脈必弦，所以多嘔者，膽胃之氣上逆也，故瘧病用小柴胡湯，往往取效，然則嘔而發熱者，仲師雖不言脈寓意脈亦見弦，故亦宜小柴胡湯，柴胡以發汗，黃芩以清膽，參草薑棗以和胃，汗出而外解，則表熱不吸引膽火，中氣不至上逆而無嘔吐之弊，此嘔而發熱所以與瘧同法也。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001415",
+          "rule_id": "IR_CAOSHI_FAWEI_001414",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -7820,7 +7863,7 @@
           "evidence_span": "產後鬱冒其脈微弱，嘔不能食，大便反堅，但頭汗出，所以然者，血虛而厥，厥而必冒，冒家欲解，必大汗出以血虛下厥，孤陽上出故頭汗出，所以產婦喜汗出者，亡陰血虛陽氣獨盛，故當汗出，陰陽乃復，大便堅嘔不能食，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001434",
+          "rule_id": "IR_CAOSHI_FAWEI_001433",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -7916,7 +7959,7 @@
       "mentions": 5,
       "indication_rules": [
         {
-          "rule_id": "IR_JG_FANGGEKUO_000038",
+          "rule_id": "IR_JG_FANGGEKUO_000037",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -7926,7 +7969,7 @@
           "evidence_span": "陰陽乃復。大便堅。嘔不能食。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JG_FANGGEKUO_000040",
+          "rule_id": "IR_JG_FANGGEKUO_000039",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -7936,7 +7979,7 @@
           "evidence_span": "自發露得風。四肢苦煩熱。頭痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_JG_FANGGEKUO_000041",
+          "rule_id": "IR_JG_FANGGEKUO_000040",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故與小柴胡湯達之。"
@@ -8048,7 +8091,7 @@
           "evidence_span": "嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_JIYI_000442",
+          "rule_id": "IR_JGYL_JIYI_000441",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8058,7 +8101,7 @@
           "evidence_span": "陰陽乃復。大便堅。嘔不能食。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_JIYI_000461",
+          "rule_id": "IR_JGYL_JIYI_000460",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8068,7 +8111,7 @@
           "evidence_span": "自發露得風。四肢苦煩熱。頭痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_JGYL_JIYI_000462",
+          "rule_id": "IR_JGYL_JIYI_000461",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其血必結。故使如瘧狀。發作有時。小柴胡湯主之。"
@@ -8158,7 +8201,7 @@
       "mentions": 10,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_QIANZHU_000240",
+          "rule_id": "IR_JGYL_QIANZHU_000237",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8169,7 +8212,7 @@
           "evidence_span": "今）嘔而（不厥。）發熱（不微）者。（是少陽相火之病也。以）小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000276",
+          "rule_id": "IR_JGYL_QIANZHU_000273",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8180,7 +8223,7 @@
           "evidence_span": "喜嘔脇痛。寒熱往來。為少陽證。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000310",
+          "rule_id": "IR_JGYL_QIANZHU_000306",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8193,7 +8236,7 @@
           "evidence_span": "其）不能食。（不為熱不殺穀。而為胃氣不和也。以）小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000328",
+          "rule_id": "IR_JGYL_QIANZHU_000324",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8203,7 +8246,7 @@
           "evidence_span": "（然此證當辨其頭之痛與不痛。若）頭痛者。（是風未全變為熱。）與小柴胡湯。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000330",
+          "rule_id": "IR_JGYL_QIANZHU_000326",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8213,13 +8256,13 @@
           "evidence_span": "乃屬少陽。）故使（寒熱往來）如瘧狀。發作有時。（以）小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000333",
+          "rule_id": "IR_JGYL_QIANZHU_000329",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "下之不可。無方之治。深於治也。郭白云謂其仍與小柴胡湯。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000356",
+          "rule_id": "IR_JGYL_QIANZHU_000351",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛。宜小建中湯主之。不瘥。更與小柴胡湯。"
@@ -8249,7 +8292,7 @@
       "mentions": 54,
       "indication_rules": [
         {
-          "rule_id": "IR_B0B74DF58_000395",
+          "rule_id": "IR_B0B74DF58_000394",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8271,7 +8314,17 @@
           "evidence_span": "**二十、陽明中風，脈弦浮大而短氣，腹都滿**(作腹部滿解）**，脅下及心痛，久按之氣不通**(言不按氣已短，若久按之氣愈不通，蓋言其邪氣充斥也。）**，鼻乾，不得汗，嗜臥，一身及**（面）**目悉黃，小便難，有潮熱，時時噦**(嘔吐）**，耳前後腫，刺之小差，外不解，病過十日，脈續浮者，與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000502",
+          "rule_id": "IR_B0B74DF58_000500",
+          "release_level": "silver",
+          "conditions": {
+            "symptoms": [
+              "潮熱"
+            ]
+          },
+          "evidence_span": "胸脅滿者，濁陰閉塞也；發潮熱者，陽氣浮也。此際正當溫中，又非柴胡湯所宜也。此條意著重在兩脅上，究其端倪，故以小柴胡湯主之。"
+        },
+        {
+          "rule_id": "IR_B0B74DF58_000501",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8285,7 +8338,7 @@
           "evidence_span": "**二、陽明病，**（而）**脅下鞭滿，不大便而嘔，舌上白苔者，可與小柴胡湯**（主之）**。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000511",
+          "rule_id": "IR_B0B74DF58_000510",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8311,7 +8364,7 @@
           "evidence_span": "**一、傷寒五六日，中風，往來寒熱**（惡寒時不知熱，當熱時不知寒，寒和熱間代出現，即所謂間歇型熱。）**，胸脅苦滿**（謂胸脅部有苦悶的感覺。因少陽脈循胸脅，邪入其經，所以胸滿。）**，默默不欲飲食，心煩喜嘔，或胸中煩而不嘔、或渴、或腹中痛、或脅下痞鞕、或心下悸、小便不利、或不渴、身有微熱，或咳者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000522",
+          "rule_id": "IR_B0B74DF58_000521",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8327,7 +8380,7 @@
           "evidence_span": "**九、傷寒四五日，身熱惡風，**（頭）〔頸〕**項強，脅下滿，手足溫而渴者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000524",
+          "rule_id": "IR_B0B74DF58_000523",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8341,7 +8394,7 @@
           "evidence_span": "**十、傷寒陽脈澀，陰脈弦，法當**（溫）〔腹〕**中急痛**（者）**，先與小建中湯，不差者，**（與）**小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000536",
+          "rule_id": "IR_B0B74DF58_000535",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8352,7 +8405,7 @@
           "evidence_span": "其症狀是身體重，不能食。大便反鞕，脈象多現沉遲。）**，不得復有外證，悉入在裏，此為半在裏半在外也。脈雖沉緊，不得為少**（陽）〔陰〕**病，所以然者，陰不得有汗，今頭汗出，故知非少陰也，可與小柴胡湯，**（若）〔設〕**不了了者，得屎而解。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000537",
+          "rule_id": "IR_B0B74DF58_000536",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8367,7 +8420,7 @@
           "evidence_span": "又曰復有裏，以為脈沉者裏也，汗出為陽微，既稱陽微，不得以柴胡湯加之。又曰：假令純陰結，不得復有外證，此是正論。少陰、少陽，原有區分，脈沉緊而頭汗出，頭屬三陽，故知非少陰也。其為陰結者，是指外之寒邪閉束，而非謂少陰之陰寒閉結也，可與小柴胡湯，是從頭汗而得之，若不了了，得屎而解者，裏氣通，則表氣暢也。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000542",
+          "rule_id": "IR_B0B74DF58_000541",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8384,7 +8437,7 @@
           "evidence_span": "**十九、婦人中風，七八日續得寒熱，發作有時，經水適斷者，此為熱入血室，其血必結，故使如瘧狀，發作有時，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000547",
+          "rule_id": "IR_B0B74DF58_000546",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8395,7 +8448,7 @@
           "evidence_span": "**二十一、血弱氣盡，腠裏開，邪氣因入，與正氣相搏，結於脅下。正邪分爭，往來寒熱，休作有時，默默不欲飲食，臟腑相連，其痛必下，邪高痛下，故使嘔也，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000585",
+          "rule_id": "IR_B0B74DF58_000584",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8413,7 +8466,7 @@
           "evidence_span": "**二、**〔本〕**太陽病不解，轉入少陽者，脅下鞕滿，乾嘔不能食，往來寒熱，尚未吐、下，脈沉緊者，與小柴胡湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000587",
+          "rule_id": "IR_B0B74DF58_000586",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8424,7 +8477,7 @@
           "evidence_span": "【鄭論】　按太陽之邪不解，應當傳入陽明，何得越位而轉入少陽也？然太陽寒水之氣，亦許結於脅下鞕滿，如此而言。亦可謂轉屬少陽也。迨至乾嘔不欲食，往來寒熱，少陽之本證具也，未經吐、下，可與小柴胡湯以和解之，若已經汗、吐、下，溫針而見譫語，未見柴胡證，似從譫語法治之，亦不得盡目之為壞病也。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000588",
+          "rule_id": "IR_B0B74DF58_000587",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8434,7 +8487,7 @@
           "evidence_span": "【闡釋】　本條前段提出太陽病不解，轉入少陽，既具少陽主證，脈雖沉緊與證不符，當舍脈從證，可與小柴胡湯治療。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000768",
+          "rule_id": "IR_B0B74DF58_000767",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8444,7 +8497,7 @@
           "evidence_span": "**七、嘔而發熱者，小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000781",
+          "rule_id": "IR_B0B74DF58_000779",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8520,13 +8573,13 @@
           "evidence_span": "尚見胸滿脅痛一證。則浮細自是少陽本脈。嗜臥為膽熱入而神昏。宜與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000377",
+          "rule_id": "IR_BBAACE965_000376",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "疑有漏落。〔汪〕補亡論。常器之云。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000422",
+          "rule_id": "IR_BBAACE965_000421",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8537,7 +8590,7 @@
           "evidence_span": "或不渴。身有微熱。或咳者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000429",
+          "rule_id": "IR_BBAACE965_000428",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8547,25 +8600,25 @@
           "evidence_span": "但煩熱。與三物黃芩湯。頭痛。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000433",
+          "rule_id": "IR_BBAACE965_000432",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "臟腑相違。其病必下。脅膈中痛。）小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000434",
+          "rule_id": "IR_BBAACE965_000433",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "裡氣與邪氣相搏。逆而上行。故使嘔也。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000440",
+          "rule_id": "IR_BBAACE965_000439",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "非柴胡症矣。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000441",
+          "rule_id": "IR_BBAACE965_000440",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8577,7 +8630,13 @@
           "evidence_span": "頸項強。脅下滿。手足溫而渴者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000444",
+          "rule_id": "IR_BBAACE965_000442",
+          "release_level": "rejected",
+          "conditions": {},
+          "evidence_span": "故雖有太陽未罷之證。汗之則犯禁例。故仍以小柴胡湯主之。"
+        },
+        {
+          "rule_id": "IR_BBAACE965_000443",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8587,13 +8646,13 @@
           "evidence_span": "○又案外台。引仲景傷寒論。本條亦云。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000446",
+          "rule_id": "IR_BBAACE965_000445",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "法當腹中急痛。先與小建中湯。不瘥者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000447",
+          "rule_id": "IR_BBAACE965_000446",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8607,7 +8666,7 @@
           "evidence_span": "乃少陽病兼挾裡虛之證。傷寒脈弦者。弦本少陽之脈。宜與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000454",
+          "rule_id": "IR_BBAACE965_000453",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8617,13 +8676,13 @@
           "evidence_span": "便宜與柴胡湯。故曰。嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000462",
+          "rule_id": "IR_BBAACE965_000461",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "更無他變。前此之柴胡證仍在者。其時縱有可下之證。須先與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000471",
+          "rule_id": "IR_BBAACE965_000470",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8633,13 +8692,13 @@
           "evidence_span": "知醫以丸藥下之。此非其治也。潮熱者實也。先宜服小柴胡湯以解外。"
         },
         {
-          "rule_id": "IR_BBAACE965_000655",
+          "rule_id": "IR_BBAACE965_000654",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000660",
+          "rule_id": "IR_BBAACE965_000659",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8655,7 +8714,7 @@
           "evidence_span": "犯其胃氣。熱入血室。血結寒熱者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000669",
+          "rule_id": "IR_BBAACE965_000668",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8665,7 +8724,7 @@
           "evidence_span": "陰不得有汗。今頭汗出。故知非少陰也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000671",
+          "rule_id": "IR_BBAACE965_000670",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8675,7 +8734,7 @@
           "evidence_span": "不上循頭。今頭汗出。知非少陰也。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000672",
+          "rule_id": "IR_BBAACE965_000671",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8688,25 +8747,25 @@
           "evidence_span": "而凡往來寒熱等證。不必一具。即可作少陽病處治。與以小柴胡湯矣。"
         },
         {
-          "rule_id": "IR_BBAACE965_000864",
+          "rule_id": "IR_BBAACE965_000862",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "常氏云。宜小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000995",
+          "rule_id": "IR_BBAACE965_000992",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "大便溏。小便自可。胸脅滿不去者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000996",
+          "rule_id": "IR_BBAACE965_000993",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "應氣降而胸脅滿去。今反不去者。邪氣猶在半表半裡之間。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000998",
+          "rule_id": "IR_BBAACE965_000995",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8718,13 +8777,13 @@
           "evidence_span": "脅下硬滿。不大便而嘔。舌上白苔者。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001000",
+          "rule_id": "IR_BBAACE965_000997",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "為邪未入腑。在表裡之間。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001002",
+          "rule_id": "IR_BBAACE965_000999",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8734,13 +8793,13 @@
           "evidence_span": "舌上白苔者。上焦不通。火鬱於上也。可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001004",
+          "rule_id": "IR_BBAACE965_001001",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "外不解。病過十日。脈續浮者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001009",
+          "rule_id": "IR_BBAACE965_001006",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8751,13 +8810,13 @@
           "evidence_span": "此與太陽篇中。十日以去。胸滿胸痛者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001011",
+          "rule_id": "IR_BBAACE965_001008",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "續浮之浮字。當是弦字。始與文義相屬。則可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001114",
+          "rule_id": "IR_BBAACE965_001110",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8770,7 +8829,7 @@
           "evidence_span": "往來寒熱。尚未吐下。脈沉緊者。與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001115",
+          "rule_id": "IR_BBAACE965_001111",
           "release_level": "rejected",
           "conditions": {
             "pulse": [
@@ -8780,7 +8839,7 @@
           "evidence_span": "當吐之診也。惟脈沉弦。始與上文之義相屬。故可與小柴胡湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001378",
+          "rule_id": "IR_BBAACE965_001373",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8790,7 +8849,7 @@
           "evidence_span": "嘔而發熱者。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_001401",
+          "rule_id": "IR_BBAACE965_001396",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8803,7 +8862,7 @@
           "evidence_span": "傷寒瘥以後。更發熱。小柴胡湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_001402",
+          "rule_id": "IR_BBAACE965_001397",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "亦屬病後新虛。理宜和解。但察其脈證之有類於半表半裡之少陽者。以小柴胡湯主之。"
@@ -8811,7 +8870,7 @@
       ],
       "compositions": [
         {
-          "rule_id": "IR_BBAACE965_000424",
+          "rule_id": "IR_BBAACE965_000423",
           "composition": [
             "柴胡",
             "黃芩",

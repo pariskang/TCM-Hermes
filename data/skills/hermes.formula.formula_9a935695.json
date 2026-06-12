@@ -8,40 +8,40 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000613",
+    "IR_B0B74DF58_000612",
     "IR_B11498305_000360",
     "IR_B1CAC3ADF_000761",
-    "IR_B2EB248E3_000098",
-    "IR_B3E16D849_001632",
+    "IR_B2EB248E3_000096",
+    "IR_B3E16D849_001630",
     "IR_B54968951_000003",
-    "IR_B5FF1CA1B_000393",
+    "IR_B5FF1CA1B_000392",
     "IR_B8E444005_000068",
     "IR_BC91F4420_000457",
-    "IR_CAOSHI_FAWEI_000728",
+    "IR_CAOSHI_FAWEI_000727",
     "IR_SHL_GUANZHU_000594",
     "IR_SHL_GUIBEN_000991",
-    "IR_SHL_LAISU_000611",
-    "IR_SHL_LUNZHU_000617",
-    "IR_SHL_SUYUAN_001117"
+    "IR_SHL_LAISU_000610",
+    "IR_SHL_LUNZHU_000616",
+    "IR_SHL_SUYUAN_001115"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000613",
+      "IR_B0B74DF58_000612",
       "IR_B11498305_000360",
       "IR_B1CAC3ADF_000761",
-      "IR_B2EB248E3_000098",
-      "IR_B3E16D849_001632",
+      "IR_B2EB248E3_000096",
+      "IR_B3E16D849_001630",
       "IR_B54968951_000003",
-      "IR_B5FF1CA1B_000393",
+      "IR_B5FF1CA1B_000392",
       "IR_B8E444005_000068",
       "IR_BC91F4420_000457",
-      "IR_CAOSHI_FAWEI_000728",
+      "IR_CAOSHI_FAWEI_000727",
       "IR_SHL_GUANZHU_000594",
       "IR_SHL_GUIBEN_000991",
-      "IR_SHL_LAISU_000611",
-      "IR_SHL_LUNZHU_000617",
-      "IR_SHL_SUYUAN_001117"
+      "IR_SHL_LAISU_000610",
+      "IR_SHL_LUNZHU_000616",
+      "IR_SHL_SUYUAN_001115"
     ],
     "bronze": []
   },
@@ -178,7 +178,7 @@
         "麻黃"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000973"
+        "IR_B41512D4B_000971"
       ]
     },
     {
@@ -194,7 +194,7 @@
       ],
       "rule_ids": [
         "IR_BC91F4420_000458",
-        "IR_CAOSHI_FAWEI_000729"
+        "IR_CAOSHI_FAWEI_000728"
       ]
     },
     {
@@ -280,6 +280,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

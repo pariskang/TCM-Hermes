@@ -17,7 +17,7 @@
 > ——《曹氏傷寒金匱發微合刊》·嘔吐噦下利，病脈證治第十七（SU_CAOSHI_FAWEI_001869，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["嘔吐"], "rule_ids": ["IR_CAOSHI_FAWEI_001303"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["嘔吐"], "rule_ids": ["IR_CAOSHI_FAWEI_001302"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_JIYI", "book_title": "金匱玉函要略輯義", "distinct_conditions": ["狐惑"], "rule_ids": ["IR_JGYL_JIYI_000068"]}
 
 ## 安全声明

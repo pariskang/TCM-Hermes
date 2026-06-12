@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_JIYI", "book_title": "金匱玉函要略輯義", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_JGYL_JIYI_000115", "IR_JGYL_JIYI_000116"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["咳", "脈數"], "rule_ids": ["IR_SHL_GUIBEN_001378"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參二兩", "半夏一升", "大棗十二枚", "甘草二兩", "粳米三合", "麥門冬七升"], "rule_ids": ["IR_SHL_GUIBEN_001379"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["麥門冬"], "rule_ids": ["IR_CAOSHI_FAWEI_001055"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["麥門冬"], "rule_ids": ["IR_CAOSHI_FAWEI_001054"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

@@ -8,21 +8,21 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000558",
+    "IR_B0B74DF58_000557",
     "IR_B11498305_000570",
     "IR_B1CAC3ADF_000501",
     "IR_B3E16D849_000762",
     "IR_B3E16D849_000837",
-    "IR_B3E16D849_001531",
-    "IR_B41512D4B_000494",
-    "IR_B41512D4B_000917",
-    "IR_B5FF1CA1B_000601",
-    "IR_BBAACE965_000785",
+    "IR_B3E16D849_001529",
+    "IR_B41512D4B_000493",
+    "IR_B41512D4B_000915",
+    "IR_B5FF1CA1B_000600",
+    "IR_BBAACE965_000783",
     "IR_BC91F4420_000222",
     "IR_JGYH_ERZHU_000263",
-    "IR_JGYL_FANGLUN_000204",
+    "IR_JGYL_FANGLUN_000202",
     "IR_JGYL_JIYI_000344",
-    "IR_JGYL_TIAOWEN_000204",
+    "IR_JGYL_TIAOWEN_000202",
     "IR_JGYL_XINDIAN_000224",
     "IR_SHL_GUIBEN_000734",
     "IR_SHL_LAISU_000567",
@@ -34,21 +34,21 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000558",
+      "IR_B0B74DF58_000557",
       "IR_B11498305_000570",
       "IR_B1CAC3ADF_000501",
       "IR_B3E16D849_000762",
       "IR_B3E16D849_000837",
-      "IR_B3E16D849_001531",
-      "IR_B41512D4B_000494",
-      "IR_B41512D4B_000917",
-      "IR_B5FF1CA1B_000601",
-      "IR_BBAACE965_000785",
+      "IR_B3E16D849_001529",
+      "IR_B41512D4B_000493",
+      "IR_B41512D4B_000915",
+      "IR_B5FF1CA1B_000600",
+      "IR_BBAACE965_000783",
       "IR_BC91F4420_000222",
       "IR_JGYH_ERZHU_000263",
-      "IR_JGYL_FANGLUN_000204",
+      "IR_JGYL_FANGLUN_000202",
       "IR_JGYL_JIYI_000344",
-      "IR_JGYL_TIAOWEN_000204",
+      "IR_JGYL_TIAOWEN_000202",
       "IR_JGYL_XINDIAN_000224",
       "IR_SHL_GUIBEN_000734",
       "IR_SHL_LAISU_000567",
@@ -230,7 +230,7 @@
         "黃芩"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000793"
+        "IR_BBAACE965_000791"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "黃芩"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000455",
+        "IR_CAOSHI_FAWEI_000454",
         "IR_SHL_QJYF_000118"
       ]
     },
@@ -319,6 +319,6 @@
     "乾嘔"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

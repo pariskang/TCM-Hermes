@@ -8,28 +8,28 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001392",
+    "IR_CAOSHI_FAWEI_001391",
     "IR_JGYH_ERZHU_000331",
-    "IR_JGYL_FANGLUN_000253",
+    "IR_JGYL_FANGLUN_000251",
     "IR_JGYL_JIYI_000420",
-    "IR_JGYL_QIANZHU_000290",
-    "IR_JGYL_TIAOWEN_000253",
+    "IR_JGYL_QIANZHU_000287",
+    "IR_JGYL_TIAOWEN_000251",
     "IR_JGYL_XINDIAN_000283",
     "IR_SHL_GUIBEN_001172",
-    "IR_SHL_LAISU_000718"
+    "IR_SHL_LAISU_000717"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001392",
+      "IR_CAOSHI_FAWEI_001391",
       "IR_JGYH_ERZHU_000331",
-      "IR_JGYL_FANGLUN_000253",
+      "IR_JGYL_FANGLUN_000251",
       "IR_JGYL_JIYI_000420",
-      "IR_JGYL_QIANZHU_000290",
-      "IR_JGYL_TIAOWEN_000253",
+      "IR_JGYL_QIANZHU_000287",
+      "IR_JGYL_TIAOWEN_000251",
       "IR_JGYL_XINDIAN_000283",
       "IR_SHL_GUIBEN_001172",
-      "IR_SHL_LAISU_000718"
+      "IR_SHL_LAISU_000717"
     ],
     "bronze": []
   },
@@ -122,7 +122,7 @@
         "蜜"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001394"
+        "IR_CAOSHI_FAWEI_001393"
       ]
     },
     {
@@ -176,6 +176,6 @@
     "腹痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

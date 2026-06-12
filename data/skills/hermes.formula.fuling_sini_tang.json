@@ -10,18 +10,18 @@
   "supporting_initial_rules": [
     "IR_B11498305_000152",
     "IR_B1CAC3ADF_000236",
-    "IR_B2EB248E3_000034",
-    "IR_B3E16D849_001695",
-    "IR_B41512D4B_000216",
+    "IR_B2EB248E3_000033",
+    "IR_B3E16D849_001693",
+    "IR_B41512D4B_000215",
     "IR_B434348CD_000105",
     "IR_B5FF1CA1B_000182",
     "IR_B8E444005_000143",
     "IR_B8E444005_000419",
-    "IR_BBAACE965_000323",
-    "IR_BBAACE965_000527",
+    "IR_BBAACE965_000322",
+    "IR_BBAACE965_000526",
     "IR_SHL_GUIBEN_000493",
-    "IR_SHL_LAISU_000659",
-    "IR_SHL_LUNZHU_000663",
+    "IR_SHL_LAISU_000658",
+    "IR_SHL_LUNZHU_000662",
     "IR_SHL_MINGLI_000066",
     "IR_SHL_QJYF_000333",
     "IR_SHL_SONGBEN_000124",
@@ -34,18 +34,18 @@
     "silver": [
       "IR_B11498305_000152",
       "IR_B1CAC3ADF_000236",
-      "IR_B2EB248E3_000034",
-      "IR_B3E16D849_001695",
-      "IR_B41512D4B_000216",
+      "IR_B2EB248E3_000033",
+      "IR_B3E16D849_001693",
+      "IR_B41512D4B_000215",
       "IR_B434348CD_000105",
       "IR_B5FF1CA1B_000182",
       "IR_B8E444005_000143",
       "IR_B8E444005_000419",
-      "IR_BBAACE965_000323",
-      "IR_BBAACE965_000527",
+      "IR_BBAACE965_000322",
+      "IR_BBAACE965_000526",
       "IR_SHL_GUIBEN_000493",
-      "IR_SHL_LAISU_000659",
-      "IR_SHL_LUNZHU_000663",
+      "IR_SHL_LAISU_000658",
+      "IR_SHL_LUNZHU_000662",
       "IR_SHL_MINGLI_000066",
       "IR_SHL_QJYF_000333",
       "IR_SHL_SONGBEN_000124",
@@ -228,7 +228,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000325"
+        "IR_BBAACE965_000324"
       ]
     },
     {
@@ -249,7 +249,7 @@
       "rule_ids": [
         "IR_BC91F4420_000323",
         "IR_SHL_GUANZHU_000309",
-        "IR_SHL_LAISU_000661",
+        "IR_SHL_LAISU_000660",
         "IR_SHL_ZHUJIE_000288"
       ]
     },
@@ -366,6 +366,6 @@
     "脈沉微"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

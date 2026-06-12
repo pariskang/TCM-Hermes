@@ -9,7 +9,7 @@
   "consensus_score": 0.912,
   "supporting_initial_rules": [
     "IR_BB711944D_000091",
-    "IR_BBAACE965_000203",
+    "IR_BBAACE965_000202",
     "IR_SHL_GUIBEN_000442",
     "IR_SHL_SONGBEN_000093",
     "IR_SHL_TIAOWEN_000047"
@@ -18,7 +18,7 @@
     "gold": [],
     "silver": [
       "IR_BB711944D_000091",
-      "IR_BBAACE965_000203",
+      "IR_BBAACE965_000202",
       "IR_SHL_GUIBEN_000442",
       "IR_SHL_SONGBEN_000093",
       "IR_SHL_TIAOWEN_000047"
@@ -78,7 +78,7 @@
         "芍藥"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000205"
+        "IR_BBAACE965_000204"
       ]
     },
     {
@@ -139,6 +139,6 @@
     "喘"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -8,17 +8,17 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000185",
+    "IR_B0B74DF58_000184",
     "IR_B11498305_000515",
     "IR_B1CAC3ADF_000445",
     "IR_B3E16D849_000241",
-    "IR_B3E16D849_001241",
-    "IR_B41512D4B_000449",
-    "IR_B5C5ECAC2_000275",
+    "IR_B3E16D849_001239",
+    "IR_B41512D4B_000448",
+    "IR_B5C5ECAC2_000274",
     "IR_B9119D083_000622",
-    "IR_BB7301DF2_000147",
+    "IR_BB7301DF2_000146",
     "IR_BC91F4420_000309",
-    "IR_CAOSHI_FAWEI_000395",
+    "IR_CAOSHI_FAWEI_000394",
     "IR_SHL_GUANZHU_000218",
     "IR_SHL_GUIBEN_000694",
     "IR_SHL_LUNZHU_000240",
@@ -31,17 +31,17 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000185",
+      "IR_B0B74DF58_000184",
       "IR_B11498305_000515",
       "IR_B1CAC3ADF_000445",
       "IR_B3E16D849_000241",
-      "IR_B3E16D849_001241",
-      "IR_B41512D4B_000449",
-      "IR_B5C5ECAC2_000275",
+      "IR_B3E16D849_001239",
+      "IR_B41512D4B_000448",
+      "IR_B5C5ECAC2_000274",
       "IR_B9119D083_000622",
-      "IR_BB7301DF2_000147",
+      "IR_BB7301DF2_000146",
       "IR_BC91F4420_000309",
-      "IR_CAOSHI_FAWEI_000395",
+      "IR_CAOSHI_FAWEI_000394",
       "IR_SHL_GUANZHU_000218",
       "IR_SHL_GUIBEN_000694",
       "IR_SHL_LUNZHU_000240",
@@ -204,7 +204,7 @@
         "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000708",
+        "IR_BBAACE965_000706",
         "IR_BC91F4420_000310",
         "IR_SHL_GUANZHU_000220",
         "IR_SHL_ZHUJIE_001155"
@@ -219,7 +219,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000396"
+        "IR_CAOSHI_FAWEI_000395"
       ]
     },
     {
@@ -295,6 +295,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

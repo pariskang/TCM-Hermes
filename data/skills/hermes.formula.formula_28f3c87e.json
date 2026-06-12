@@ -3,75 +3,79 @@
   "kind": "formula",
   "title": "四逆散方證合併規則",
   "subject": "四逆散",
-  "abstracted_claim": "四逆散可歸納為小便不利、少陰病、太陰病、下利、傷寒、腹中痛等方證的核心方（支持條文 31 條，跨 23 部書）。",
+  "abstracted_claim": "四逆散可歸納為小便不利、少陰病、太陰病、下利、傷寒、腹中痛等方證的核心方（支持條文 33 條，跨 23 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_28F3C87E",
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
+    "IR_B0B74DF58_000679",
     "IR_B0B74DF58_000680",
     "IR_B11498305_000400",
     "IR_B1CAC3ADF_000799",
     "IR_B3E16D849_000506",
     "IR_B3E16D849_000579",
-    "IR_B3E16D849_001672",
-    "IR_B3E16D849_001708",
-    "IR_B3E16D849_001744",
-    "IR_B3E16D849_001792",
-    "IR_B3E16D849_001814",
-    "IR_B3E16D849_001874",
+    "IR_B3E16D849_001670",
+    "IR_B3E16D849_001706",
+    "IR_B3E16D849_001742",
+    "IR_B3E16D849_001790",
+    "IR_B3E16D849_001812",
+    "IR_B3E16D849_001872",
     "IR_B3E520529_000056",
-    "IR_B41512D4B_000994",
+    "IR_B41512D4B_000992",
     "IR_B5C5ECAC2_000125",
-    "IR_B5FF1CA1B_000429",
+    "IR_B5FF1CA1B_000428",
     "IR_B9119D083_000011",
     "IR_B9119D083_000657",
-    "IR_BB7301DF2_000244",
-    "IR_BBAACE965_001248",
+    "IR_BB7301DF2_000243",
+    "IR_BBAACE965_001244",
+    "IR_BBAACE965_001245",
     "IR_BC91F4420_000503",
     "IR_BF5CDC206_000181",
-    "IR_CAOSHI_FAWEI_000762",
+    "IR_CAOSHI_FAWEI_000761",
     "IR_SHL_GUANZHU_000576",
     "IR_SHL_GUIBEN_001041",
-    "IR_SHL_LAISU_000704",
-    "IR_SHL_LUNZHU_000691",
+    "IR_SHL_LAISU_000703",
+    "IR_SHL_LUNZHU_000690",
     "IR_SHL_QJYF_000236",
     "IR_SHL_SONGBEN_000392",
-    "IR_SHL_SUYUAN_001193",
+    "IR_SHL_SUYUAN_001189",
     "IR_SHL_TIAOWEN_000346",
     "IR_SHL_ZHUJIE_000911"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
+      "IR_B0B74DF58_000679",
       "IR_B0B74DF58_000680",
       "IR_B11498305_000400",
       "IR_B1CAC3ADF_000799",
       "IR_B3E16D849_000506",
       "IR_B3E16D849_000579",
-      "IR_B3E16D849_001672",
-      "IR_B3E16D849_001708",
-      "IR_B3E16D849_001744",
-      "IR_B3E16D849_001792",
-      "IR_B3E16D849_001814",
-      "IR_B3E16D849_001874",
+      "IR_B3E16D849_001670",
+      "IR_B3E16D849_001706",
+      "IR_B3E16D849_001742",
+      "IR_B3E16D849_001790",
+      "IR_B3E16D849_001812",
+      "IR_B3E16D849_001872",
       "IR_B3E520529_000056",
-      "IR_B41512D4B_000994",
+      "IR_B41512D4B_000992",
       "IR_B5C5ECAC2_000125",
-      "IR_B5FF1CA1B_000429",
+      "IR_B5FF1CA1B_000428",
       "IR_B9119D083_000011",
       "IR_B9119D083_000657",
-      "IR_BB7301DF2_000244",
-      "IR_BBAACE965_001248",
+      "IR_BB7301DF2_000243",
+      "IR_BBAACE965_001244",
+      "IR_BBAACE965_001245",
       "IR_BC91F4420_000503",
       "IR_BF5CDC206_000181",
-      "IR_CAOSHI_FAWEI_000762",
+      "IR_CAOSHI_FAWEI_000761",
       "IR_SHL_GUANZHU_000576",
       "IR_SHL_GUIBEN_001041",
-      "IR_SHL_LAISU_000704",
-      "IR_SHL_LUNZHU_000691",
+      "IR_SHL_LAISU_000703",
+      "IR_SHL_LUNZHU_000690",
       "IR_SHL_QJYF_000236",
       "IR_SHL_SONGBEN_000392",
-      "IR_SHL_SUYUAN_001193",
+      "IR_SHL_SUYUAN_001189",
       "IR_SHL_TIAOWEN_000346",
       "IR_SHL_ZHUJIE_000911"
     ],
@@ -205,6 +209,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002943",
+      "evidence_span": "俱屬陽氣虛寒。然亦有陽氣內郁。不得外達而四逆者。又宜四逆散主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒來蘇集",
       "chapter_title": "四逆散證",
       "source_unit_id": "SU_SHL_LAISU_000487",
@@ -280,13 +291,6 @@
       "source_unit_id": "SU_SHL_GUIBEN_000929",
       "evidence_span": "11.39少陰病，四逆，其人或咳，或悸，或小便不利，或腹中痛，或泄利下重者，四逆散主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒恆論",
-      "chapter_title": "少陰〔後〕篇",
-      "source_unit_id": "SU_B0B74DF58_001403",
-      "evidence_span": "**十三、少陰病，四逆，其人或咳、或悸、或小便不利，或腹中痛，或**（上輕）〔泄利〕**下重者，四逆散主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -300,12 +304,12 @@
       "rule_ids": [
         "IR_B3E16D849_000506",
         "IR_B3E16D849_000579",
-        "IR_B3E16D849_001672",
-        "IR_B3E16D849_001708",
-        "IR_B3E16D849_001744",
-        "IR_B3E16D849_001792",
-        "IR_B3E16D849_001814",
-        "IR_B3E16D849_001874"
+        "IR_B3E16D849_001670",
+        "IR_B3E16D849_001706",
+        "IR_B3E16D849_001742",
+        "IR_B3E16D849_001790",
+        "IR_B3E16D849_001812",
+        "IR_B3E16D849_001872"
       ]
     },
     {
@@ -323,17 +327,6 @@
       ]
     },
     {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_LAISU",
-      "book_title": "傷寒來蘇集",
-      "distinct_conditions": [
-        "腹痛"
-      ],
-      "rule_ids": [
-        "IR_SHL_LAISU_000704"
-      ]
-    },
-    {
       "kind": "composition_variant",
       "books": [
         "傷寒來蘇集",
@@ -346,8 +339,8 @@
         "附子一枚"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001252",
-        "IR_SHL_LAISU_000705"
+        "IR_BBAACE965_001247",
+        "IR_SHL_LAISU_000704"
       ]
     },
     {
@@ -392,7 +385,7 @@
     "disease": [
       {
         "term": "小便不利",
-        "count": 29
+        "count": 30
       },
       {
         "term": "少陰病",
@@ -418,18 +411,18 @@
       },
       {
         "term": "四逆",
-        "count": 13
+        "count": 14
       },
       {
         "term": "咳",
-        "count": 11
-      },
-      {
-        "term": "厥",
-        "count": 1
+        "count": 12
       },
       {
         "term": "腹痛",
+        "count": 2
+      },
+      {
+        "term": "厥",
         "count": 1
       }
     ],
@@ -449,10 +442,10 @@
     "腹中痛",
     "四逆",
     "咳",
-    "厥",
-    "腹痛"
+    "腹痛",
+    "厥"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

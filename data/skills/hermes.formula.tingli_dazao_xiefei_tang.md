@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["不得眠", "傷寒", "厥", "遺尿"], "rule_ids": ["IR_B11498305_000891"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["咽乾"], "rule_ids": ["IR_JF_SHIYANLU_000196", "IR_JF_SHIYANLU_000197"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["肺脹"], "rule_ids": ["IR_SHL_GUIBEN_001391", "IR_SHL_GUIBEN_001423"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大棗", "葶藶"], "rule_ids": ["IR_CAOSHI_FAWEI_001058"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大棗", "葶藶"], "rule_ids": ["IR_CAOSHI_FAWEI_001057"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚"], "rule_ids": ["IR_SHL_GUIBEN_001392"]}
 
 ## 冲突记录 conflict_set

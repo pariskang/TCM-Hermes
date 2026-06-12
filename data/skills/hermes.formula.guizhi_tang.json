@@ -3,7 +3,7 @@
   "kind": "formula",
   "title": "桂枝湯方證合併規則",
   "subject": "桂枝湯",
-  "abstracted_claim": "桂枝湯可歸納為太陽病、太陽中風、傷寒、中風、妊娠、溫病等方證的核心方（支持條文 105 條，跨 31 部書）。",
+  "abstracted_claim": "桂枝湯可歸納為太陽病、太陽中風、傷寒、中風、妊娠、溫病等方證的核心方（支持條文 106 條，跨 31 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_TANG",
   "release_level": "silver",
   "consensus_score": 0.913,
@@ -34,10 +34,10 @@
     "IR_B41512D4B_000037",
     "IR_B41512D4B_000043",
     "IR_B41512D4B_000047",
-    "IR_B41512D4B_000071",
-    "IR_B41512D4B_000080",
-    "IR_B41512D4B_000169",
-    "IR_B41512D4B_000193",
+    "IR_B41512D4B_000070",
+    "IR_B41512D4B_000079",
+    "IR_B41512D4B_000168",
+    "IR_B41512D4B_000192",
     "IR_B54968951_000005",
     "IR_B5C5ECAC2_000046",
     "IR_B5FF1CA1B_000002",
@@ -77,6 +77,7 @@
     "IR_JGYH_ERZHU_000353",
     "IR_SHL_GUANZHU_000007",
     "IR_SHL_GUANZHU_000010",
+    "IR_SHL_GUANZHU_000011",
     "IR_SHL_GUANZHU_000013",
     "IR_SHL_GUANZHU_000018",
     "IR_SHL_GUANZHU_000300",
@@ -143,10 +144,10 @@
       "IR_B41512D4B_000037",
       "IR_B41512D4B_000043",
       "IR_B41512D4B_000047",
-      "IR_B41512D4B_000071",
-      "IR_B41512D4B_000080",
-      "IR_B41512D4B_000169",
-      "IR_B41512D4B_000193",
+      "IR_B41512D4B_000070",
+      "IR_B41512D4B_000079",
+      "IR_B41512D4B_000168",
+      "IR_B41512D4B_000192",
       "IR_B54968951_000005",
       "IR_B5C5ECAC2_000046",
       "IR_B5FF1CA1B_000002",
@@ -186,6 +187,7 @@
       "IR_JGYH_ERZHU_000353",
       "IR_SHL_GUANZHU_000007",
       "IR_SHL_GUANZHU_000010",
+      "IR_SHL_GUANZHU_000011",
       "IR_SHL_GUANZHU_000013",
       "IR_SHL_GUANZHU_000018",
       "IR_SHL_GUANZHU_000300",
@@ -552,14 +554,120 @@
       "kind": "composition_variant",
       "books": [
         "傷寒尋源",
+        "傷寒溯源集",
+        "傷寒論(宋本)",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "厚朴二兩",
+        "杏仁五十個"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000108",
+        "IR_B8E444005_000288",
+        "IR_SHL_SONGBEN_000511",
+        "IR_SHL_SUYUAN_000142"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "中寒論辯證廣注",
+        "傷寒尋源",
+        "傷寒懸解",
+        "傷寒溯源集",
+        "傷寒論(宋本)",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000111",
+        "IR_B1CAC3ADF_000118",
+        "IR_B2EB248E3_000004",
+        "IR_B2EB248E3_000008",
+        "IR_B8E444005_000271"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "中寒論辯證廣注",
+        "傷寒尋源",
+        "傷寒溯源集",
+        "傷寒論(宋本)",
+        "傷寒論類方",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000117",
+        "IR_B2EB248E3_000007",
+        "IR_B8E444005_000281",
+        "IR_SHL_LEIFANG_000005",
+        "IR_SHL_LEIFANG_000021"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒懸解",
+        "傷寒溯源集",
+        "傷寒論(宋本)",
+        "傷寒論辯證廣注",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "白朮",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000135",
+        "IR_B41512D4B_000109",
+        "IR_BCA15D57E_000200",
+        "IR_SHL_SONGBEN_000516",
+        "IR_SHL_SUYUAN_000528"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒尋源",
+        "傷寒溯源集",
+        "張卿子傷寒論",
         "曹氏傷寒金匱發微合刊"
       ],
       "composition": [
         "桂枝"
       ],
       "rule_ids": [
+        "IR_B1CAC3ADF_000351",
         "IR_B8E444005_000268",
+        "IR_SHL_SUYUAN_000070",
         "IR_CAOSHI_FAWEI_000016"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒尋源",
+        "傷寒溯源集",
+        "傷寒論辯證廣注",
+        "張卿子傷寒論"
+      ],
+      "composition": [
+        "芍藥三兩"
+      ],
+      "rule_ids": [
+        "IR_B1CAC3ADF_000732",
+        "IR_B41512D4B_000941",
+        "IR_B8E444005_000293",
+        "IR_SHL_SUYUAN_001075"
       ]
     },
     {
@@ -593,6 +701,19 @@
       ],
       "rule_ids": [
         "IR_BC91F4420_000056"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒懸解"
+      ],
+      "composition": [
+        "厚朴二兩",
+        "杏仁五十枚"
+      ],
+      "rule_ids": [
+        "IR_BCA15D57E_000198"
       ]
     },
     {
@@ -643,20 +764,6 @@
       ],
       "rule_ids": [
         "IR_SHL_LEIFANG_000001"
-      ]
-    },
-    {
-      "kind": "composition_variant",
-      "books": [
-        "傷寒論類方"
-      ],
-      "composition": [
-        "桂枝",
-        "芍藥"
-      ],
-      "rule_ids": [
-        "IR_SHL_LEIFANG_000005",
-        "IR_SHL_LEIFANG_000021"
       ]
     },
     {
@@ -776,6 +883,45 @@
       "rule_ids": [
         "IR_SHL_LEIFANG_000033"
       ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論(宋本)"
+      ],
+      "composition": [
+        "白朮四兩",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_SONGBEN_000512"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒溯源集"
+      ],
+      "composition": [
+        "桂枝",
+        "芍藥",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000151"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒溯源集"
+      ],
+      "composition": [
+        "葛根三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000659"
+      ]
     }
   ],
   "conflict_set": [
@@ -824,7 +970,7 @@
     "disease": [
       {
         "term": "太陽病",
-        "count": 38
+        "count": 39
       },
       {
         "term": "太陽中風",
@@ -832,11 +978,11 @@
       },
       {
         "term": "傷寒",
-        "count": 12
+        "count": 13
       },
       {
         "term": "中風",
-        "count": 9
+        "count": 10
       },
       {
         "term": "妊娠",
@@ -866,15 +1012,15 @@
     "symptoms": [
       {
         "term": "發熱",
-        "count": 46
+        "count": 47
       },
       {
         "term": "汗出",
-        "count": 37
+        "count": 38
       },
       {
         "term": "惡風",
-        "count": 34
+        "count": 35
       },
       {
         "term": "乾嘔",
@@ -885,11 +1031,11 @@
         "count": 28
       },
       {
-        "term": "翕翕發熱",
-        "count": 27
+        "term": "頭痛",
+        "count": 28
       },
       {
-        "term": "頭痛",
+        "term": "翕翕發熱",
         "count": 27
       },
       {
@@ -962,11 +1108,11 @@
     "treatment_principle": [
       {
         "term": "解肌發表",
-        "count": 105
+        "count": 106
       },
       {
         "term": "調和營衛",
-        "count": 105
+        "count": 106
       }
     ]
   },
@@ -989,6 +1135,6 @@
     "脈緩"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

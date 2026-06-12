@@ -3,7 +3,7 @@
   "kind": "formula",
   "title": "桂枝加附子湯方證合併規則",
   "subject": "桂枝加附子湯",
-  "abstracted_claim": "桂枝加附子湯可歸納為太陽病、小便難、惡風、惡寒等方證的核心方（支持條文 26 條，跨 23 部書）。",
+  "abstracted_claim": "桂枝加附子湯可歸納為太陽病、亡陽、小便難、惡風、惡寒等方證的核心方（支持條文 27 條，跨 23 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_JIA_FUZI_TANG",
   "release_level": "silver",
   "consensus_score": 0.916,
@@ -15,12 +15,12 @@
     "IR_B3E16D849_000254",
     "IR_B3E16D849_000810",
     "IR_B3E520529_000078",
-    "IR_B41512D4B_000086",
+    "IR_B41512D4B_000085",
     "IR_B5FF1CA1B_000108",
     "IR_B8E444005_000094",
     "IR_B8E444005_000167",
     "IR_BB7301DF2_000051",
-    "IR_BB7301DF2_000304",
+    "IR_BB7301DF2_000303",
     "IR_BBAACE965_000056",
     "IR_BC2BA03C0_000075",
     "IR_BC91F4420_000032",
@@ -32,6 +32,7 @@
     "IR_SHL_LUNZHU_000075",
     "IR_SHL_SONGBEN_000063",
     "IR_SHL_SUYUAN_000092",
+    "IR_SHL_SUYUAN_000095",
     "IR_SHL_TIAOWEN_000017",
     "IR_SHL_ZHUJIE_000149"
   ],
@@ -45,12 +46,12 @@
       "IR_B3E16D849_000254",
       "IR_B3E16D849_000810",
       "IR_B3E520529_000078",
-      "IR_B41512D4B_000086",
+      "IR_B41512D4B_000085",
       "IR_B5FF1CA1B_000108",
       "IR_B8E444005_000094",
       "IR_B8E444005_000167",
       "IR_BB7301DF2_000051",
-      "IR_BB7301DF2_000304",
+      "IR_BB7301DF2_000303",
       "IR_BBAACE965_000056",
       "IR_BC2BA03C0_000075",
       "IR_BC91F4420_000032",
@@ -62,6 +63,7 @@
       "IR_SHL_LUNZHU_000075",
       "IR_SHL_SONGBEN_000063",
       "IR_SHL_SUYUAN_000092",
+      "IR_SHL_SUYUAN_000095",
       "IR_SHL_TIAOWEN_000017",
       "IR_SHL_ZHUJIE_000149"
     ],
@@ -188,6 +190,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000239",
+      "evidence_span": "若此者。是犯誤汗亡陽之逆也。當隨證治之而桂枝湯不中與也。故以桂枝加附子湯主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒總病論",
       "chapter_title": "可發汗證",
       "source_unit_id": "SU_B3E520529_000079",
@@ -264,6 +273,18 @@
       ]
     },
     {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "亡陽"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000092",
+        "IR_SHL_SUYUAN_000095"
+      ]
+    },
+    {
       "kind": "composition_variant",
       "books": [
         "傷寒論輯義"
@@ -330,6 +351,10 @@
       {
         "term": "太陽病",
         "count": 10
+      },
+      {
+        "term": "亡陽",
+        "count": 1
       }
     ],
     "symptoms": [
@@ -347,28 +372,34 @@
       }
     ],
     "pulse": [],
-    "pathomechanism": []
+    "pathomechanism": [
+      {
+        "term": "亡陽",
+        "count": 1
+      }
+    ]
   },
   "then_profile": {
     "treatment_principle": [
       {
         "term": "調和營衛",
-        "count": 26
+        "count": 27
       },
       {
         "term": "復陽固表",
-        "count": 26
+        "count": 27
       }
     ]
   },
   "keywords": [
     "桂枝加附子湯",
     "太陽病",
+    "亡陽",
     "小便難",
     "惡風",
     "惡寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

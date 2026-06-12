@@ -8,24 +8,24 @@
   "release_level": "silver",
   "consensus_score": 0.906,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001175",
+    "IR_CAOSHI_FAWEI_001174",
     "IR_JGYH_ERZHU_000193",
     "IR_JGYH_ERZHU_000194",
-    "IR_JGYL_FANGLUN_000156",
+    "IR_JGYL_FANGLUN_000154",
     "IR_JGYL_JIYI_000269",
-    "IR_JGYL_TIAOWEN_000156",
+    "IR_JGYL_TIAOWEN_000154",
     "IR_JGYL_XINDIAN_000158",
     "IR_SHL_GUIBEN_001446"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001175",
+      "IR_CAOSHI_FAWEI_001174",
       "IR_JGYH_ERZHU_000193",
       "IR_JGYH_ERZHU_000194",
-      "IR_JGYL_FANGLUN_000156",
+      "IR_JGYL_FANGLUN_000154",
       "IR_JGYL_JIYI_000269",
-      "IR_JGYL_TIAOWEN_000156",
+      "IR_JGYL_TIAOWEN_000154",
       "IR_JGYL_XINDIAN_000158",
       "IR_SHL_GUIBEN_001446"
     ],
@@ -98,7 +98,7 @@
         "目黃"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001175"
+        "IR_CAOSHI_FAWEI_001174"
       ]
     },
     {
@@ -139,7 +139,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現越婢湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001175"
+        "IR_CAOSHI_FAWEI_001174"
       ],
       "book_title": "曹氏傷寒金匱發微合刊"
     }
@@ -195,6 +195,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

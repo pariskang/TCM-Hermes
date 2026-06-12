@@ -9,30 +9,30 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B3E520529_000051",
-    "IR_BBAACE965_001049",
-    "IR_BBAACE965_001377",
+    "IR_BBAACE965_001045",
+    "IR_BBAACE965_001372",
     "IR_JGYH_ERZHU_000260",
-    "IR_JGYL_FANGLUN_000201",
-    "IR_JGYL_FANGLUN_000202",
+    "IR_JGYL_FANGLUN_000199",
+    "IR_JGYL_FANGLUN_000200",
     "IR_JGYL_JIYI_000341",
     "IR_JGYL_JIYI_000342",
-    "IR_JGYL_TIAOWEN_000201",
-    "IR_JGYL_TIAOWEN_000202",
+    "IR_JGYL_TIAOWEN_000199",
+    "IR_JGYL_TIAOWEN_000200",
     "IR_SHL_QJYF_000224"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_B3E520529_000051",
-      "IR_BBAACE965_001049",
-      "IR_BBAACE965_001377",
+      "IR_BBAACE965_001045",
+      "IR_BBAACE965_001372",
       "IR_JGYH_ERZHU_000260",
-      "IR_JGYL_FANGLUN_000201",
-      "IR_JGYL_FANGLUN_000202",
+      "IR_JGYL_FANGLUN_000199",
+      "IR_JGYL_FANGLUN_000200",
       "IR_JGYL_JIYI_000341",
       "IR_JGYL_JIYI_000342",
-      "IR_JGYL_TIAOWEN_000201",
-      "IR_JGYL_TIAOWEN_000202",
+      "IR_JGYL_TIAOWEN_000199",
+      "IR_JGYL_TIAOWEN_000200",
       "IR_SHL_QJYF_000224"
     ],
     "bronze": []
@@ -196,6 +196,6 @@
     "乾嘔"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

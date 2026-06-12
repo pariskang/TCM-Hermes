@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["亡陽", "傷寒", "喘", "汗出", "渴", "脈浮"], "rule_ids": ["IR_B3E520529_000187", "IR_B3E520529_000325"]}
-- {"kind": "composition_variant", "books": ["傷寒恆論"], "composition": ["桂枝", "甘草", "附子"], "rule_ids": ["IR_B0B74DF58_000169"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["桂枝", "甘草"], "rule_ids": ["IR_BBAACE965_000296", "IR_BC91F4420_000151", "IR_SHL_GUANZHU_000130", "IR_SHL_ZHUJIE_000269"]}
+- {"kind": "composition_variant", "books": ["傷寒恆論"], "composition": ["桂枝", "甘草", "附子"], "rule_ids": ["IR_B0B74DF58_000168"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["桂枝", "甘草"], "rule_ids": ["IR_BBAACE965_000295", "IR_BC91F4420_000151", "IR_SHL_GUANZHU_000130", "IR_SHL_ZHUJIE_000269"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝四兩", "甘草二兩"], "rule_ids": ["IR_SHL_GUIBEN_000475"]}
 
 ## 安全声明

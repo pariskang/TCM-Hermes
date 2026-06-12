@@ -35,8 +35,8 @@
 > ——《傷寒論輯義》·辨少陰病脈證並治（SU_BBAACE965_002873，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "桂枝", "甘草"], "rule_ids": ["IR_BBAACE965_001229", "IR_BC91F4420_000491", "IR_SHL_ZHUJIE_000894"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_000752"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "桂枝", "甘草"], "rule_ids": ["IR_BBAACE965_001225", "IR_BC91F4420_000491", "IR_SHL_ZHUJIE_000894"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_000751"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

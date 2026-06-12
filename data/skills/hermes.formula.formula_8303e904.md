@@ -27,7 +27,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["發黃", "陽明病"], "rule_ids": ["IR_SHL_GUIBEN_000880"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃", "梔子"], "rule_ids": ["IR_CAOSHI_FAWEI_001256"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃", "梔子"], "rule_ids": ["IR_CAOSHI_FAWEI_001255"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大黃一兩", "枳實五枚", "梔子十四枚"], "rule_ids": ["IR_SHL_GUIBEN_000881"]}
 
 ## 安全声明

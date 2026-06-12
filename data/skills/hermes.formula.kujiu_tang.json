@@ -8,11 +8,11 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B41512D4B_000988",
-    "IR_B5FF1CA1B_000434",
+    "IR_B41512D4B_000986",
+    "IR_B5FF1CA1B_000433",
     "IR_B8E444005_000241",
     "IR_SHL_GUIBEN_001022",
-    "IR_SHL_LUNZHU_000690",
+    "IR_SHL_LUNZHU_000689",
     "IR_SHL_QJYF_000229",
     "IR_SHL_SONGBEN_000385",
     "IR_SHL_TIAOWEN_000339",
@@ -21,11 +21,11 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B41512D4B_000988",
-      "IR_B5FF1CA1B_000434",
+      "IR_B41512D4B_000986",
+      "IR_B5FF1CA1B_000433",
       "IR_B8E444005_000241",
       "IR_SHL_GUIBEN_001022",
-      "IR_SHL_LUNZHU_000690",
+      "IR_SHL_LUNZHU_000689",
       "IR_SHL_QJYF_000229",
       "IR_SHL_SONGBEN_000385",
       "IR_SHL_TIAOWEN_000339",
@@ -111,7 +111,7 @@
         "苦酒"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001226",
+        "IR_BBAACE965_001222",
         "IR_BC91F4420_000493",
         "IR_SHL_ZHUJIE_000892"
       ]
@@ -139,7 +139,7 @@
         "苦酒"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000750"
+        "IR_CAOSHI_FAWEI_000749"
       ]
     }
   ],
@@ -168,6 +168,6 @@
     "少陰病"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

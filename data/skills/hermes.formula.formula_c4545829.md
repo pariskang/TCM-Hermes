@@ -28,7 +28,7 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_JIYI", "book_title": "金匱玉函要略輯義", "distinct_conditions": ["脈緊"], "rule_ids": ["IR_JGYL_JIYI_000206"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參四兩", "桂枝二兩", "防己三兩"], "rule_ids": ["IR_SHL_GUIBEN_001413"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["防己"], "rule_ids": ["IR_CAOSHI_FAWEI_001150"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["防己"], "rule_ids": ["IR_CAOSHI_FAWEI_001149"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

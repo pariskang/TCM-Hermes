@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈沉"], "rule_ids": ["IR_SHL_GUIBEN_000321", "IR_SHL_GUIBEN_000670"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "半夏", "大棗", "柴胡", "桂枝", "甘草", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000665"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["柴胡", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000366"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "半夏", "大棗", "柴胡", "桂枝", "甘草", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000664"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["柴胡", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000365"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參一兩", "半夏二合", "大棗六枚", "柴胡四兩", "桂枝一兩", "甘草一兩", "生薑一兩", "芍藥一兩", "黃芩一兩"], "rule_ids": ["IR_SHL_GUIBEN_000322", "IR_SHL_GUIBEN_000671"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["人參", "半夏", "柴胡", "桂枝", "甘草", "芍藥", "黃芩"], "rule_ids": ["IR_SHL_ZHUJIE_001154"]}
 

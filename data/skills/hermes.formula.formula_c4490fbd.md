@@ -26,9 +26,9 @@
 > ——《傷寒雜病論(桂本)》·辨太陰病脈證並治（SU_SHL_GUIBEN_000853，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒貫珠集"], "composition": ["大棗", "大黃", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_001138", "IR_SHL_GUANZHU_000558"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒貫珠集"], "composition": ["大棗", "大黃", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_001134", "IR_SHL_GUANZHU_000558"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["大黃", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BC91F4420_000456"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000699"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000698"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "大黃二兩", "桂枝三兩", "甘草二兩", "生薑三兩", "芍藥六兩"], "rule_ids": ["IR_SHL_GUIBEN_000944"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["大黃二兩"], "rule_ids": ["IR_SHL_ZHUJIE_001159"]}
 

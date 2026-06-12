@@ -3,19 +3,19 @@
   "kind": "formula",
   "title": "桂枝加葛根湯方證合併規則",
   "subject": "桂枝加葛根湯",
-  "abstracted_claim": "桂枝加葛根湯可歸納為太陽病、中風、剛痙、柔痙、傷寒、項背強等方證的核心方（支持條文 27 條，跨 22 部書）。",
+  "abstracted_claim": "桂枝加葛根湯可歸納為太陽病、中風、剛痙、柔痙、傷寒、項背強等方證的核心方（支持條文 28 條，跨 22 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_JIA_GEGEN_TANG",
   "release_level": "silver",
   "consensus_score": 0.913,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000549",
+    "IR_B0B74DF58_000548",
     "IR_B11498305_000532",
     "IR_B1CAC3ADF_000091",
     "IR_B3E16D849_000057",
     "IR_B3E16D849_000284",
     "IR_B41512D4B_000045",
-    "IR_B41512D4B_000574",
-    "IR_B5FF1CA1B_000563",
+    "IR_B41512D4B_000573",
+    "IR_B5FF1CA1B_000562",
     "IR_B8E444005_000200",
     "IR_B8E444005_000330",
     "IR_BB7301DF2_000050",
@@ -31,22 +31,23 @@
     "IR_SHL_LUNZHU_000152",
     "IR_SHL_MINGLI_000022",
     "IR_SHL_SONGBEN_000055",
-    "IR_SHL_SUYUAN_000606",
-    "IR_SHL_SUYUAN_000655",
+    "IR_SHL_SUYUAN_000605",
+    "IR_SHL_SUYUAN_000654",
+    "IR_SHL_SUYUAN_000656",
     "IR_SHL_TIAOWEN_000009",
     "IR_SHL_ZHUJIE_000132"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000549",
+      "IR_B0B74DF58_000548",
       "IR_B11498305_000532",
       "IR_B1CAC3ADF_000091",
       "IR_B3E16D849_000057",
       "IR_B3E16D849_000284",
       "IR_B41512D4B_000045",
-      "IR_B41512D4B_000574",
-      "IR_B5FF1CA1B_000563",
+      "IR_B41512D4B_000573",
+      "IR_B5FF1CA1B_000562",
       "IR_B8E444005_000200",
       "IR_B8E444005_000330",
       "IR_BB7301DF2_000050",
@@ -62,8 +63,9 @@
       "IR_SHL_LUNZHU_000152",
       "IR_SHL_MINGLI_000022",
       "IR_SHL_SONGBEN_000055",
-      "IR_SHL_SUYUAN_000606",
-      "IR_SHL_SUYUAN_000655",
+      "IR_SHL_SUYUAN_000605",
+      "IR_SHL_SUYUAN_000654",
+      "IR_SHL_SUYUAN_000656",
       "IR_SHL_TIAOWEN_000009",
       "IR_SHL_ZHUJIE_000132"
     ],
@@ -218,6 +220,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陽陽明證治第十一",
+      "source_unit_id": "SU_SHL_SUYUAN_001517",
+      "evidence_span": "此以太陽風邪初入陽明。其汗出惡風之太陽表證仍在。故以桂枝加葛根湯主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒來蘇集",
       "chapter_title": "葛根湯證",
       "source_unit_id": "SU_SHL_LAISU_000129",
@@ -270,7 +279,7 @@
       ],
       "rule_ids": [
         "IR_B41512D4B_000045",
-        "IR_B41512D4B_000574"
+        "IR_B41512D4B_000573"
       ]
     },
     {
@@ -433,11 +442,11 @@
       },
       {
         "term": "汗出",
-        "count": 24
+        "count": 25
       },
       {
         "term": "惡風",
-        "count": 24
+        "count": 25
       },
       {
         "term": "無汗",
@@ -484,11 +493,11 @@
     "treatment_principle": [
       {
         "term": "解肌發表",
-        "count": 27
+        "count": 28
       },
       {
         "term": "升津舒筋",
-        "count": 27
+        "count": 28
       }
     ]
   },
@@ -508,6 +517,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

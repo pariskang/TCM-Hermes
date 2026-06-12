@@ -8,40 +8,40 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001116",
-    "IR_CAOSHI_FAWEI_001419",
+    "IR_CAOSHI_FAWEI_001115",
+    "IR_CAOSHI_FAWEI_001418",
     "IR_JGYH_ERZHU_000115",
     "IR_JGYH_ERZHU_000347",
-    "IR_JGYL_FANGLUN_000101",
-    "IR_JGYL_FANGLUN_000274",
+    "IR_JGYL_FANGLUN_000100",
+    "IR_JGYL_FANGLUN_000271",
     "IR_JGYL_JIYI_000168",
-    "IR_JGYL_JIYI_000446",
-    "IR_JGYL_QIANZHU_000312",
-    "IR_JGYL_TIAOWEN_000101",
-    "IR_JGYL_TIAOWEN_000274",
+    "IR_JGYL_JIYI_000445",
+    "IR_JGYL_QIANZHU_000308",
+    "IR_JGYL_TIAOWEN_000100",
+    "IR_JGYL_TIAOWEN_000271",
     "IR_JGYL_XINDIAN_000102",
     "IR_JGYL_XINDIAN_000299",
     "IR_SHL_GUIBEN_001178",
-    "IR_SHL_GUIBEN_001595"
+    "IR_SHL_GUIBEN_001594"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001116",
-      "IR_CAOSHI_FAWEI_001419",
+      "IR_CAOSHI_FAWEI_001115",
+      "IR_CAOSHI_FAWEI_001418",
       "IR_JGYH_ERZHU_000115",
       "IR_JGYH_ERZHU_000347",
-      "IR_JGYL_FANGLUN_000101",
-      "IR_JGYL_FANGLUN_000274",
+      "IR_JGYL_FANGLUN_000100",
+      "IR_JGYL_FANGLUN_000271",
       "IR_JGYL_JIYI_000168",
-      "IR_JGYL_JIYI_000446",
-      "IR_JGYL_QIANZHU_000312",
-      "IR_JGYL_TIAOWEN_000101",
-      "IR_JGYL_TIAOWEN_000274",
+      "IR_JGYL_JIYI_000445",
+      "IR_JGYL_QIANZHU_000308",
+      "IR_JGYL_TIAOWEN_000100",
+      "IR_JGYL_TIAOWEN_000271",
       "IR_JGYL_XINDIAN_000102",
       "IR_JGYL_XINDIAN_000299",
       "IR_SHL_GUIBEN_001178",
-      "IR_SHL_GUIBEN_001595"
+      "IR_SHL_GUIBEN_001594"
     ],
     "bronze": []
   },
@@ -163,7 +163,7 @@
         "當歸"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001117"
+        "IR_CAOSHI_FAWEI_001116"
       ]
     },
     {
@@ -191,7 +191,7 @@
         "當歸三兩"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001596"
+        "IR_SHL_GUIBEN_001595"
       ]
     }
   ],
@@ -231,6 +231,6 @@
     "脅痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

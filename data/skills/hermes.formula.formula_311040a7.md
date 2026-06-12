@@ -32,7 +32,7 @@
 > ——《傷寒雜病論(桂本)》·辨厥陰病脈證並治（SU_SHL_GUIBEN_001024，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_001323"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_001322"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "生薑一斤"], "rule_ids": ["IR_SHL_GUIBEN_001157"]}
 
 ## 安全声明

@@ -35,7 +35,7 @@
 > ——《傷寒論綱目》·百合病（SU_B3E16D849_004126，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["百合", "知母"], "rule_ids": ["IR_CAOSHI_FAWEI_000976"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["百合", "知母"], "rule_ids": ["IR_CAOSHI_FAWEI_000975"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["知母三兩"], "rule_ids": ["IR_SHL_GUIBEN_001284"]}
 
 ## 安全声明

@@ -35,11 +35,11 @@
 > ——《傷寒論》·辨厥陰病脈證並治（SU_SHL_TIAOWEN_000672，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["手足溫"], "rule_ids": ["IR_B0B74DF58_000742", "IR_B0B74DF58_000743"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["手足溫"], "rule_ids": ["IR_B0B74DF58_000741", "IR_B0B74DF58_000742"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["脈沉遲"], "rule_ids": ["IR_SHL_QJYF_000270"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "升麻", "天門冬", "桂枝", "甘草", "當歸", "白朮", "知母", "石膏", "芍藥", "茯苓", "麥門冬", "麻黃", "黃芩"], "rule_ids": ["IR_BBAACE965_001334"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["乾薑", "升麻", "天門冬", "桂枝", "甘草", "當歸", "白朮", "知母", "石膏", "芍藥", "茯苓", "麥門冬", "麻黃", "黃芩"], "rule_ids": ["IR_BBAACE965_001329"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["乾薑", "升麻", "當歸", "白朮", "知母", "石膏", "芍藥", "麻黃", "黃芩"], "rule_ids": ["IR_BC91F4420_000537"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["升麻", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_000845"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["升麻", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_000844"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["乾薑", "升麻", "桂枝", "甘草", "當歸", "白朮", "白芍", "知母", "石膏", "茯苓", "麻黃", "黃芩"], "rule_ids": ["IR_SHL_GUANZHU_000686"]}
 
 ## 安全声明

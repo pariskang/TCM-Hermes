@@ -20,7 +20,7 @@
 > ——《傷寒雜病論(桂本)》·辨太陽病脈證並治中（SU_SHL_GUIBEN_000532，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["梔子", "生薑", "香豉"], "rule_ids": ["IR_BBAACE965_000360"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["梔子", "生薑", "香豉"], "rule_ids": ["IR_BBAACE965_000359"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["梔子", "生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_000206"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集", "註解傷寒論"], "composition": ["生薑五兩"], "rule_ids": ["IR_SHL_GUANZHU_000250", "IR_SHL_ZHUJIE_001151"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["梔子十四枚", "生薑五兩", "香豉四合"], "rule_ids": ["IR_SHL_GUIBEN_000514"]}

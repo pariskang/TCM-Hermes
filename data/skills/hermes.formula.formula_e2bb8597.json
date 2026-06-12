@@ -8,50 +8,50 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000679",
+    "IR_B0B74DF58_000678",
     "IR_B11498305_000404",
     "IR_B1CAC3ADF_000784",
-    "IR_B41512D4B_000989",
-    "IR_B5FF1CA1B_000433",
+    "IR_B41512D4B_000987",
+    "IR_B5FF1CA1B_000432",
     "IR_B8E444005_000240",
     "IR_B8E444005_000432",
     "IR_B9119D083_000201",
-    "IR_BBAACE965_001228",
+    "IR_BBAACE965_001224",
     "IR_BC91F4420_000490",
     "IR_BF5CDC206_000131",
     "IR_BF5CDC206_000176",
-    "IR_CAOSHI_FAWEI_000751",
+    "IR_CAOSHI_FAWEI_000750",
     "IR_SHL_GUIBEN_001025",
-    "IR_SHL_LAISU_000701",
-    "IR_SHL_LUNZHU_000689",
+    "IR_SHL_LAISU_000700",
+    "IR_SHL_LUNZHU_000688",
     "IR_SHL_QJYF_000230",
     "IR_SHL_SONGBEN_000386",
-    "IR_SHL_SUYUAN_001189",
+    "IR_SHL_SUYUAN_001185",
     "IR_SHL_TIAOWEN_000340",
     "IR_SHL_ZHUJIE_000893"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000679",
+      "IR_B0B74DF58_000678",
       "IR_B11498305_000404",
       "IR_B1CAC3ADF_000784",
-      "IR_B41512D4B_000989",
-      "IR_B5FF1CA1B_000433",
+      "IR_B41512D4B_000987",
+      "IR_B5FF1CA1B_000432",
       "IR_B8E444005_000240",
       "IR_B8E444005_000432",
       "IR_B9119D083_000201",
-      "IR_BBAACE965_001228",
+      "IR_BBAACE965_001224",
       "IR_BC91F4420_000490",
       "IR_BF5CDC206_000131",
       "IR_BF5CDC206_000176",
-      "IR_CAOSHI_FAWEI_000751",
+      "IR_CAOSHI_FAWEI_000750",
       "IR_SHL_GUIBEN_001025",
-      "IR_SHL_LAISU_000701",
-      "IR_SHL_LUNZHU_000689",
+      "IR_SHL_LAISU_000700",
+      "IR_SHL_LUNZHU_000688",
       "IR_SHL_QJYF_000230",
       "IR_SHL_SONGBEN_000386",
-      "IR_SHL_SUYUAN_001189",
+      "IR_SHL_SUYUAN_001185",
       "IR_SHL_TIAOWEN_000340",
       "IR_SHL_ZHUJIE_000893"
     ],
@@ -220,7 +220,7 @@
         "甘草"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001229",
+        "IR_BBAACE965_001225",
         "IR_BC91F4420_000491",
         "IR_SHL_ZHUJIE_000894"
       ]
@@ -234,7 +234,7 @@
         "半夏"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000752"
+        "IR_CAOSHI_FAWEI_000751"
       ]
     }
   ],
@@ -258,6 +258,6 @@
     "少陰病"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

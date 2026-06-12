@@ -9,7 +9,7 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B3E520529_000044",
-    "IR_BB7301DF2_000123",
+    "IR_BB7301DF2_000122",
     "IR_SHL_QJYF_000217",
     "IR_SHL_SONGBEN_000375",
     "IR_SHL_TIAOWEN_000329"
@@ -18,7 +18,7 @@
     "gold": [],
     "silver": [
       "IR_B3E520529_000044",
-      "IR_BB7301DF2_000123",
+      "IR_BB7301DF2_000122",
       "IR_SHL_QJYF_000217",
       "IR_SHL_SONGBEN_000375",
       "IR_SHL_TIAOWEN_000329"
@@ -95,6 +95,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -32,7 +32,7 @@
 > ——《曹氏傷寒金匱發微合刊》·肺痿肺癱咳嗽上氣病脈證治第七（SU_CAOSHI_FAWEI_001375，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["厚朴", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001052"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["厚朴", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001051"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["五味子半升", "半夏半升", "厚朴五兩", "杏仁半升", "麻黃四兩"], "rule_ids": ["IR_SHL_GUIBEN_001373"]}
 
 ## 安全声明

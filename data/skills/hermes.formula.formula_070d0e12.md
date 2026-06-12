@@ -35,7 +35,7 @@
 > ——《傷寒直格》·（第十四節）懊憹（SU_BEF4B02F4_000325，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["舌上苔"], "rule_ids": ["IR_BB7301DF2_000268", "IR_BB7301DF2_000273"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["舌上苔"], "rule_ids": ["IR_BB7301DF2_000267", "IR_BB7301DF2_000272"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["下利", "手足溫", "結胸", "陽明病", "頭汗出"], "rule_ids": ["IR_SHL_QJYF_000164", "IR_SHL_QJYF_000287"]}
 
 ## 冲突记录 conflict_set

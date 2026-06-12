@@ -8,8 +8,8 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B5C5ECAC2_000150",
-    "IR_B5C5ECAC2_000222",
+    "IR_B5C5ECAC2_000149",
+    "IR_B5C5ECAC2_000221",
     "IR_SHL_GUANZHU_000704",
     "IR_SHL_LAISU_000236",
     "IR_SHL_LUNZHU_000237"
@@ -17,8 +17,8 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B5C5ECAC2_000150",
-      "IR_B5C5ECAC2_000222",
+      "IR_B5C5ECAC2_000149",
+      "IR_B5C5ECAC2_000221",
       "IR_SHL_GUANZHU_000704",
       "IR_SHL_LAISU_000236",
       "IR_SHL_LUNZHU_000237"
@@ -71,8 +71,8 @@
         "厥"
       ],
       "rule_ids": [
-        "IR_B5C5ECAC2_000150",
-        "IR_B5C5ECAC2_000222"
+        "IR_B5C5ECAC2_000149",
+        "IR_B5C5ECAC2_000221"
       ]
     },
     {
@@ -90,7 +90,7 @@
       ],
       "rule_ids": [
         "IR_BC91F4420_000555",
-        "IR_CAOSHI_FAWEI_000847",
+        "IR_CAOSHI_FAWEI_000846",
         "IR_SHL_GUANZHU_000705"
       ]
     },
@@ -137,6 +137,6 @@
     "厥"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

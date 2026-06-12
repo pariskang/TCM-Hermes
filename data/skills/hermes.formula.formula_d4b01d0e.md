@@ -33,7 +33,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["胸痹"], "rule_ids": ["IR_SHL_GUIBEN_001545"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["枳實", "桂枝", "生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_001085"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["枳實", "桂枝", "生薑"], "rule_ids": ["IR_CAOSHI_FAWEI_001084"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["枳實五枚", "桂枝三兩", "生薑三兩"], "rule_ids": ["IR_SHL_GUIBEN_001546"]}
 
 ## 安全声明

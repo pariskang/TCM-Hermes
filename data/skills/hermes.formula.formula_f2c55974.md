@@ -35,7 +35,7 @@
 > ——《金匱要略淺註》·婦人妊娠病脈證治第二十（SU_JGYL_QIANZHU_001278，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "人參", "半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001405"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "人參", "半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001404"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "人參一兩", "半夏二兩"], "rule_ids": ["IR_SHL_GUIBEN_001575"]}
 
 ## 安全声明

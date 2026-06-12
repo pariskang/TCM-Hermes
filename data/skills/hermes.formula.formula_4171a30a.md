@@ -35,7 +35,7 @@
 > ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000265，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["厚朴", "枳實", "梔子"], "rule_ids": ["IR_BBAACE965_000367", "IR_BC91F4420_000179", "IR_SHL_GUANZHU_000256", "IR_SHL_ZHUJIE_000318"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["厚朴", "枳實", "梔子"], "rule_ids": ["IR_BBAACE965_000366", "IR_BC91F4420_000179", "IR_SHL_GUANZHU_000256", "IR_SHL_ZHUJIE_000318"]}
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["厚朴", "梔子"], "rule_ids": ["IR_CAOSHI_FAWEI_000211"]}
 
 ## 冲突记录 conflict_set

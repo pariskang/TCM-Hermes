@@ -35,7 +35,7 @@
 > ——《傷寒雜病論(桂本)》·辨太陽病脈證並治下（SU_SHL_GUIBEN_000666，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["禹餘糧", "赤石脂"], "rule_ids": ["IR_BBAACE965_000725", "IR_BC91F4420_000162", "IR_CAOSHI_FAWEI_000410", "IR_SHL_GUANZHU_000274", "IR_SHL_LAISU_000242"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["禹餘糧", "赤石脂"], "rule_ids": ["IR_BBAACE965_000723", "IR_BC91F4420_000162", "IR_CAOSHI_FAWEI_000409", "IR_SHL_GUANZHU_000274", "IR_SHL_LAISU_000242"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["禹餘糧一斤", "赤石脂一斤"], "rule_ids": ["IR_SHL_GUIBEN_000707"]}
 
 ## 安全声明

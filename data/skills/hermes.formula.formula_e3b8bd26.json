@@ -9,9 +9,9 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B2EB248E3_000006",
-    "IR_B2EB248E3_000216",
-    "IR_B41512D4B_000089",
-    "IR_B5C5ECAC2_000194",
+    "IR_B2EB248E3_000213",
+    "IR_B41512D4B_000088",
+    "IR_B5C5ECAC2_000193",
     "IR_SHL_GUANZHU_000280",
     "IR_SHL_LEIFANG_000008"
   ],
@@ -19,9 +19,9 @@
     "gold": [],
     "silver": [
       "IR_B2EB248E3_000006",
-      "IR_B2EB248E3_000216",
-      "IR_B41512D4B_000089",
-      "IR_B5C5ECAC2_000194",
+      "IR_B2EB248E3_000213",
+      "IR_B41512D4B_000088",
+      "IR_B5C5ECAC2_000193",
       "IR_SHL_GUANZHU_000280",
       "IR_SHL_LEIFANG_000008"
     ],
@@ -109,6 +109,6 @@
     "脈促"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

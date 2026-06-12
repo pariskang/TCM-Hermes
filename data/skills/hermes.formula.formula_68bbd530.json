@@ -8,48 +8,48 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000240",
+    "IR_B0B74DF58_000239",
     "IR_B11498305_000334",
     "IR_B18FAB5FB_000097",
     "IR_B1CAC3ADF_000328",
     "IR_B3E16D849_000572",
-    "IR_B41512D4B_000898",
-    "IR_B5FF1CA1B_000374",
+    "IR_B41512D4B_000896",
+    "IR_B5FF1CA1B_000373",
     "IR_B9119D083_000342",
-    "IR_BBAACE965_000496",
+    "IR_BBAACE965_000495",
     "IR_BC91F4420_000173",
-    "IR_CAOSHI_FAWEI_000280",
+    "IR_CAOSHI_FAWEI_000279",
     "IR_SHL_GUANZHU_000291",
     "IR_SHL_GUIBEN_000568",
     "IR_SHL_LAISU_000549",
     "IR_SHL_LUNZHU_000545",
     "IR_SHL_QJYF_000034",
     "IR_SHL_SONGBEN_000172",
-    "IR_SHL_SUYUAN_000946",
+    "IR_SHL_SUYUAN_000945",
     "IR_SHL_TIAOWEN_000126",
     "IR_SHL_ZHUJIE_000383"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000240",
+      "IR_B0B74DF58_000239",
       "IR_B11498305_000334",
       "IR_B18FAB5FB_000097",
       "IR_B1CAC3ADF_000328",
       "IR_B3E16D849_000572",
-      "IR_B41512D4B_000898",
-      "IR_B5FF1CA1B_000374",
+      "IR_B41512D4B_000896",
+      "IR_B5FF1CA1B_000373",
       "IR_B9119D083_000342",
-      "IR_BBAACE965_000496",
+      "IR_BBAACE965_000495",
       "IR_BC91F4420_000173",
-      "IR_CAOSHI_FAWEI_000280",
+      "IR_CAOSHI_FAWEI_000279",
       "IR_SHL_GUANZHU_000291",
       "IR_SHL_GUIBEN_000568",
       "IR_SHL_LAISU_000549",
       "IR_SHL_LUNZHU_000545",
       "IR_SHL_QJYF_000034",
       "IR_SHL_SONGBEN_000172",
-      "IR_SHL_SUYUAN_000946",
+      "IR_SHL_SUYUAN_000945",
       "IR_SHL_TIAOWEN_000126",
       "IR_SHL_ZHUJIE_000383"
     ],
@@ -220,7 +220,7 @@
         "龍骨"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000339"
+        "IR_B41512D4B_000338"
       ]
     },
     {
@@ -243,7 +243,7 @@
         "龍骨"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000497"
+        "IR_BBAACE965_000496"
       ]
     },
     {
@@ -325,7 +325,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B0B74DF58_000240"
+        "IR_B0B74DF58_000239"
       ],
       "book_title": "傷寒恆論"
     },
@@ -357,7 +357,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B41512D4B_000898"
+        "IR_B41512D4B_000896"
       ],
       "book_title": "傷寒論辯證廣注"
     },
@@ -365,7 +365,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B5FF1CA1B_000374"
+        "IR_B5FF1CA1B_000373"
       ],
       "book_title": "傷寒纘論"
     },
@@ -373,7 +373,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_BBAACE965_000496"
+        "IR_BBAACE965_000495"
       ],
       "book_title": "傷寒論輯義"
     },
@@ -389,7 +389,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000280"
+        "IR_CAOSHI_FAWEI_000279"
       ],
       "book_title": "曹氏傷寒金匱發微合刊"
     },
@@ -445,7 +445,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡加龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_SHL_SUYUAN_000946"
+        "IR_SHL_SUYUAN_000945"
       ],
       "book_title": "傷寒溯源集"
     },
@@ -516,6 +516,6 @@
     "煩驚"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

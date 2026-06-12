@@ -32,7 +32,7 @@
 > ——《金匱要略方論》·腹滿寒疝宿食病脈證治第十（SU_JGYL_TIAOWEN_000400，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["腹滿"], "rule_ids": ["IR_CAOSHI_FAWEI_001115"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["腹滿"], "rule_ids": ["IR_CAOSHI_FAWEI_001114"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JGYH_ERZHU", "book_title": "金匱玉函經二註", "distinct_conditions": ["自汗出"], "rule_ids": ["IR_JGYH_ERZHU_000114"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["厥陰病"], "rule_ids": ["IR_SHL_GUIBEN_001175"]}
 

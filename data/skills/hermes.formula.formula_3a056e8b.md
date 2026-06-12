@@ -23,7 +23,7 @@
 > ——《傷寒雜病論(桂本)》·辨百合狐惑陰陽毒病脈證並治（SU_SHL_GUIBEN_001143，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["升麻"], "rule_ids": ["IR_CAOSHI_FAWEI_000996"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["升麻"], "rule_ids": ["IR_CAOSHI_FAWEI_000995"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["升麻二兩", "甘草二兩", "當歸一兩", "蜀椒一兩", "雄黃五錢"], "rule_ids": ["IR_SHL_GUIBEN_001316"]}
 
 ## 冲突记录 conflict_set

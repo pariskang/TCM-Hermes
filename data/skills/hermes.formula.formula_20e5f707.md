@@ -18,8 +18,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["厥"], "rule_ids": ["IR_B11498305_000448"]}
-- {"kind": "composition_variant", "books": ["中寒論辯證廣注"], "composition": ["吳茱萸", "生薑", "當歸"], "rule_ids": ["IR_B2EB248E3_000149"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["吳茱萸", "桂枝", "生薑", "當歸", "芍藥"], "rule_ids": ["IR_BBAACE965_001326"]}
+- {"kind": "composition_variant", "books": ["中寒論辯證廣注"], "composition": ["吳茱萸", "生薑", "當歸"], "rule_ids": ["IR_B2EB248E3_000147"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["吳茱萸", "桂枝", "生薑", "當歸", "芍藥"], "rule_ids": ["IR_BBAACE965_001321"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["吳茱萸半升", "生薑三兩"], "rule_ids": ["IR_BC91F4420_000533"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["清酒六升"], "rule_ids": ["IR_SHL_GUANZHU_000697"]}
 

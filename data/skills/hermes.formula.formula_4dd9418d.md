@@ -35,7 +35,7 @@
 > ——《曹氏傷寒金匱發微合刊》·黃疸病脈證並治第十五（SU_CAOSHI_FAWEI_001840，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["當歸"], "rule_ids": ["IR_CAOSHI_FAWEI_000994"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["當歸"], "rule_ids": ["IR_CAOSHI_FAWEI_000993"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["當歸十兩", "赤小豆三升"], "rule_ids": ["IR_SHL_GUIBEN_001312", "IR_SHL_GUIBEN_001505"]}
 
 ## 安全声明

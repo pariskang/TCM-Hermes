@@ -8,19 +8,19 @@
   "release_level": "silver",
   "consensus_score": 0.906,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001370",
+    "IR_CAOSHI_FAWEI_001369",
     "IR_JF_SHIYANLU_000180",
-    "IR_JGYL_FANGLUN_000244",
-    "IR_JGYL_TIAOWEN_000244",
+    "IR_JGYL_FANGLUN_000242",
+    "IR_JGYL_TIAOWEN_000242",
     "IR_SHL_GUIBEN_001523"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001370",
+      "IR_CAOSHI_FAWEI_001369",
       "IR_JF_SHIYANLU_000180",
-      "IR_JGYL_FANGLUN_000244",
-      "IR_JGYL_TIAOWEN_000244",
+      "IR_JGYL_FANGLUN_000242",
+      "IR_JGYL_TIAOWEN_000242",
       "IR_SHL_GUIBEN_001523"
     ],
     "bronze": []
@@ -71,7 +71,7 @@
         "汗出"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001370"
+        "IR_CAOSHI_FAWEI_001369"
       ]
     },
     {
@@ -94,7 +94,7 @@
         "大黃"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001373"
+        "IR_CAOSHI_FAWEI_001372"
       ]
     },
     {
@@ -118,7 +118,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001370"
+        "IR_CAOSHI_FAWEI_001369"
       ],
       "book_title": "曹氏傷寒金匱發微合刊"
     },
@@ -134,7 +134,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_JGYL_FANGLUN_000244"
+        "IR_JGYL_FANGLUN_000242"
       ],
       "book_title": "金匱要略方論"
     },
@@ -142,7 +142,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現大黃牡丹湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_JGYL_TIAOWEN_000244"
+        "IR_JGYL_TIAOWEN_000242"
       ],
       "book_title": "金匱要略方論"
     }
@@ -212,6 +212,6 @@
     "脈沉緊"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

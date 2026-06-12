@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_635745DE`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 27
+- **Supporting initial rules**: 28
 
 ## 归纳主张
-茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 27 條，跨 24 部書）。
+茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 28 條，跨 24 部書）。
 
 ## 原文证据（节选）
 > 發汗後。臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。
@@ -35,7 +35,7 @@
 > ——《傷寒來蘇集》·桂枝湯證下（SU_SHL_LAISU_000065，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大棗", "桂枝", "甘草", "茯苓"], "rule_ids": ["IR_BBAACE965_000299", "IR_BC91F4420_000153", "IR_SHL_GUANZHU_000133", "IR_SHL_ZHUJIE_000272"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大棗", "桂枝", "甘草", "茯苓"], "rule_ids": ["IR_BBAACE965_000298", "IR_BC91F4420_000153", "IR_SHL_GUANZHU_000133", "IR_SHL_ZHUJIE_000272"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十五枚", "桂枝四兩", "甘草二兩", "茯苓半斤"], "rule_ids": ["IR_SHL_GUIBEN_000478", "IR_SHL_GUIBEN_000625"]}
 
 ## 安全声明

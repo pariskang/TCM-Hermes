@@ -10,17 +10,17 @@
   "supporting_initial_rules": [
     "IR_B11498305_000559",
     "IR_B1CAC3ADF_000424",
-    "IR_B3E16D849_001422",
-    "IR_B3E16D849_001499",
+    "IR_B3E16D849_001420",
+    "IR_B3E16D849_001497",
     "IR_B3E520529_000255",
-    "IR_B41512D4B_000902",
-    "IR_B5FF1CA1B_000591",
+    "IR_B41512D4B_000900",
+    "IR_B5FF1CA1B_000590",
     "IR_B8E444005_000175",
     "IR_B9119D083_000717",
     "IR_BB711944D_000246",
-    "IR_BB7301DF2_000138",
+    "IR_BB7301DF2_000137",
     "IR_BC91F4420_000230",
-    "IR_CAOSHI_FAWEI_000367",
+    "IR_CAOSHI_FAWEI_000366",
     "IR_SHL_GUANZHU_000533",
     "IR_SHL_GUIBEN_000673",
     "IR_SHL_LAISU_000548",
@@ -35,17 +35,17 @@
     "silver": [
       "IR_B11498305_000559",
       "IR_B1CAC3ADF_000424",
-      "IR_B3E16D849_001422",
-      "IR_B3E16D849_001499",
+      "IR_B3E16D849_001420",
+      "IR_B3E16D849_001497",
       "IR_B3E520529_000255",
-      "IR_B41512D4B_000902",
-      "IR_B5FF1CA1B_000591",
+      "IR_B41512D4B_000900",
+      "IR_B5FF1CA1B_000590",
       "IR_B8E444005_000175",
       "IR_B9119D083_000717",
       "IR_BB711944D_000246",
-      "IR_BB7301DF2_000138",
+      "IR_BB7301DF2_000137",
       "IR_BC91F4420_000230",
-      "IR_CAOSHI_FAWEI_000367",
+      "IR_CAOSHI_FAWEI_000366",
       "IR_SHL_GUANZHU_000533",
       "IR_SHL_GUIBEN_000673",
       "IR_SHL_LAISU_000548",
@@ -231,9 +231,9 @@
         "桂枝"
       ],
       "rule_ids": [
-        "IR_B41512D4B_000427",
-        "IR_BBAACE965_000668",
-        "IR_CAOSHI_FAWEI_000368"
+        "IR_B41512D4B_000426",
+        "IR_BBAACE965_000667",
+        "IR_CAOSHI_FAWEI_000367"
       ]
     },
     {
@@ -348,6 +348,6 @@
     "胸中窒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

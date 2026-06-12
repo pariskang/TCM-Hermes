@@ -35,8 +35,8 @@
 > ——《傷寒論(千金翼方)》·太陽病用陷胸湯法第六（SU_SHL_QJYF_000089，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_B41512D4B_000430", "IR_CAOSHI_FAWEI_000374"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集"], "composition": ["乾薑", "人參", "半夏", "大棗", "甘草", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000685", "IR_BC91F4420_000239", "IR_SHL_GUANZHU_000226"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_B41512D4B_000429", "IR_CAOSHI_FAWEI_000373"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集"], "composition": ["乾薑", "人參", "半夏", "大棗", "甘草", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000684", "IR_BC91F4420_000239", "IR_SHL_GUANZHU_000226"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "人參三兩", "半夏半升", "大棗十二枚", "甘草三兩", "黃芩三兩", "黃連一兩"], "rule_ids": ["IR_SHL_GUIBEN_000681"]}
 - {"kind": "composition_variant", "books": ["傷寒論類方"], "composition": ["人參", "半夏", "大棗", "桂枝", "甘草", "黃芩", "黃連"], "rule_ids": ["IR_SHL_LEIFANG_000050"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["半夏一升"], "rule_ids": ["IR_SHL_ZHUJIE_000508"]}

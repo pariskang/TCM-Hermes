@@ -35,9 +35,9 @@
 > ——《傷寒論(千金翼方)》·太陽病雜療法第七（SU_SHL_QJYF_000148，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["小便自利", "渴"], "rule_ids": ["IR_B0B74DF58_000272", "IR_B0B74DF58_000275"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["甘草", "附子"], "rule_ids": ["IR_B41512D4B_000501", "IR_CAOSHI_FAWEI_000465"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["桂枝", "甘草", "白朮", "附子"], "rule_ids": ["IR_BBAACE965_000808", "IR_BC91F4420_000036", "IR_SHL_GUANZHU_000350", "IR_SHL_LAISU_000297", "IR_SHL_ZHUJIE_000591"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["小便自利", "渴"], "rule_ids": ["IR_B0B74DF58_000271", "IR_B0B74DF58_000274"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注", "曹氏傷寒金匱發微合刊"], "composition": ["甘草", "附子"], "rule_ids": ["IR_B41512D4B_000500", "IR_CAOSHI_FAWEI_000464"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["桂枝", "甘草", "白朮", "附子"], "rule_ids": ["IR_BBAACE965_000806", "IR_BC91F4420_000036", "IR_SHL_GUANZHU_000350", "IR_SHL_LAISU_000297", "IR_SHL_ZHUJIE_000591"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝四兩", "甘草二兩", "白朮二兩", "附子二枚"], "rule_ids": ["IR_SHL_GUIBEN_000282"]}
 
 ## 安全声明

@@ -35,7 +35,7 @@
 > ——《傷寒溯源集》·心下痞證治第四（SU_SHL_SUYUAN_000787，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_B0B74DF58_000190"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_B0B74DF58_000189"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

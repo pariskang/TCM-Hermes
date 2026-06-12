@@ -26,7 +26,7 @@
 > ——《傷寒總病論》·敗壞別行方（SU_B3E520529_000258，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["渴"], "rule_ids": ["IR_B3E16D849_001992"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["渴"], "rule_ids": ["IR_B3E16D849_001990"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

@@ -35,8 +35,8 @@
 > ——《金匱要略淺註》·痰飲咳嗽病脈證治第十二（SU_JGYL_QIANZHU_000754，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["痞"], "rule_ids": ["IR_JGYL_QIANZHU_000146", "IR_JGYL_QIANZHU_000158"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001164"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["痞"], "rule_ids": ["IR_JGYL_QIANZHU_000144", "IR_JGYL_QIANZHU_000156"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001163"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏一升", "生薑半斤", "茯苓四兩"], "rule_ids": ["IR_SHL_GUIBEN_001431"]}
 
 ## 安全声明

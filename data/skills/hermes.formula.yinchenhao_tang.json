@@ -3,46 +3,47 @@
   "kind": "formula",
   "title": "茵陳蒿湯方證合併規則",
   "subject": "茵陳蒿湯",
-  "abstracted_claim": "茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 53 條，跨 29 部書）。",
+  "abstracted_claim": "茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 54 條，跨 29 部書）。",
   "merged_rule_id": "MHR_FORMULA_YINCHENHAO_TANG",
   "release_level": "silver",
-  "consensus_score": 0.911,
+  "consensus_score": 0.91,
   "supporting_initial_rules": [
+    "IR_B0B74DF58_000407",
     "IR_B0B74DF58_000408",
-    "IR_B0B74DF58_000409",
     "IR_B11498305_000133",
     "IR_B18FAB5FB_000040",
+    "IR_B18FAB5FB_000043",
     "IR_B18FAB5FB_000139",
     "IR_B1CAC3ADF_000699",
     "IR_B3E16D849_000600",
-    "IR_B3E16D849_001259",
-    "IR_B3E16D849_001292",
-    "IR_B3E16D849_001293",
-    "IR_B41512D4B_000782",
-    "IR_B41512D4B_000783",
-    "IR_B41512D4B_000810",
+    "IR_B3E16D849_001257",
+    "IR_B3E16D849_001290",
+    "IR_B3E16D849_001291",
+    "IR_B41512D4B_000780",
+    "IR_B41512D4B_000781",
+    "IR_B41512D4B_000808",
     "IR_B5C5ECAC2_000051",
-    "IR_B5C5ECAC2_000329",
+    "IR_B5C5ECAC2_000328",
     "IR_B5FF1CA1B_000159",
     "IR_B8E444005_000426",
     "IR_B8E444005_000427",
-    "IR_BB7301DF2_000083",
-    "IR_BB7301DF2_000301",
-    "IR_BBAACE965_001022",
-    "IR_BBAACE965_001025",
-    "IR_BBAACE965_001092",
+    "IR_BB7301DF2_000082",
+    "IR_BB7301DF2_000300",
+    "IR_BBAACE965_001018",
+    "IR_BBAACE965_001021",
+    "IR_BBAACE965_001088",
     "IR_BC91F4420_000426",
     "IR_BC91F4420_000439",
     "IR_BF5CDC206_000073",
-    "IR_CAOSHI_FAWEI_000609",
-    "IR_CAOSHI_FAWEI_000662",
-    "IR_CAOSHI_FAWEI_001246",
-    "IR_CAOSHI_FAWEI_001252",
+    "IR_CAOSHI_FAWEI_000608",
+    "IR_CAOSHI_FAWEI_000661",
+    "IR_CAOSHI_FAWEI_001245",
+    "IR_CAOSHI_FAWEI_001251",
     "IR_JGYH_ERZHU_000215",
-    "IR_JGYL_FANGLUN_000172",
+    "IR_JGYL_FANGLUN_000170",
     "IR_JGYL_JIYI_000294",
-    "IR_JGYL_QIANZHU_000195",
-    "IR_JGYL_TIAOWEN_000172",
+    "IR_JGYL_QIANZHU_000193",
+    "IR_JGYL_TIAOWEN_000170",
     "IR_JGYL_XINDIAN_000187",
     "IR_SHL_GUANZHU_000499",
     "IR_SHL_GUANZHU_000504",
@@ -56,8 +57,8 @@
     "IR_SHL_MINGLI_000135",
     "IR_SHL_SONGBEN_000313",
     "IR_SHL_SONGBEN_000341",
-    "IR_SHL_SUYUAN_000859",
-    "IR_SHL_SUYUAN_000864",
+    "IR_SHL_SUYUAN_000858",
+    "IR_SHL_SUYUAN_000863",
     "IR_SHL_TIAOWEN_000267",
     "IR_SHL_TIAOWEN_000295",
     "IR_SHL_ZHUJIE_000794"
@@ -65,41 +66,42 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
+      "IR_B0B74DF58_000407",
       "IR_B0B74DF58_000408",
-      "IR_B0B74DF58_000409",
       "IR_B11498305_000133",
       "IR_B18FAB5FB_000040",
+      "IR_B18FAB5FB_000043",
       "IR_B18FAB5FB_000139",
       "IR_B1CAC3ADF_000699",
       "IR_B3E16D849_000600",
-      "IR_B3E16D849_001259",
-      "IR_B3E16D849_001292",
-      "IR_B3E16D849_001293",
-      "IR_B41512D4B_000782",
-      "IR_B41512D4B_000783",
-      "IR_B41512D4B_000810",
+      "IR_B3E16D849_001257",
+      "IR_B3E16D849_001290",
+      "IR_B3E16D849_001291",
+      "IR_B41512D4B_000780",
+      "IR_B41512D4B_000781",
+      "IR_B41512D4B_000808",
       "IR_B5C5ECAC2_000051",
-      "IR_B5C5ECAC2_000329",
+      "IR_B5C5ECAC2_000328",
       "IR_B5FF1CA1B_000159",
       "IR_B8E444005_000426",
       "IR_B8E444005_000427",
-      "IR_BB7301DF2_000083",
-      "IR_BB7301DF2_000301",
-      "IR_BBAACE965_001022",
-      "IR_BBAACE965_001025",
-      "IR_BBAACE965_001092",
+      "IR_BB7301DF2_000082",
+      "IR_BB7301DF2_000300",
+      "IR_BBAACE965_001018",
+      "IR_BBAACE965_001021",
+      "IR_BBAACE965_001088",
       "IR_BC91F4420_000426",
       "IR_BC91F4420_000439",
       "IR_BF5CDC206_000073",
-      "IR_CAOSHI_FAWEI_000609",
-      "IR_CAOSHI_FAWEI_000662",
-      "IR_CAOSHI_FAWEI_001246",
-      "IR_CAOSHI_FAWEI_001252",
+      "IR_CAOSHI_FAWEI_000608",
+      "IR_CAOSHI_FAWEI_000661",
+      "IR_CAOSHI_FAWEI_001245",
+      "IR_CAOSHI_FAWEI_001251",
       "IR_JGYH_ERZHU_000215",
-      "IR_JGYL_FANGLUN_000172",
+      "IR_JGYL_FANGLUN_000170",
       "IR_JGYL_JIYI_000294",
-      "IR_JGYL_QIANZHU_000195",
-      "IR_JGYL_TIAOWEN_000172",
+      "IR_JGYL_QIANZHU_000193",
+      "IR_JGYL_TIAOWEN_000170",
       "IR_JGYL_XINDIAN_000187",
       "IR_SHL_GUANZHU_000499",
       "IR_SHL_GUANZHU_000504",
@@ -113,8 +115,8 @@
       "IR_SHL_MINGLI_000135",
       "IR_SHL_SONGBEN_000313",
       "IR_SHL_SONGBEN_000341",
-      "IR_SHL_SUYUAN_000859",
-      "IR_SHL_SUYUAN_000864",
+      "IR_SHL_SUYUAN_000858",
+      "IR_SHL_SUYUAN_000863",
       "IR_SHL_TIAOWEN_000267",
       "IR_SHL_TIAOWEN_000295",
       "IR_SHL_ZHUJIE_000794"
@@ -263,6 +265,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "發黃",
+      "source_unit_id": "SU_B18FAB5FB_000071",
+      "evidence_span": "若身如橘色。小便不利。腹微滿者。亦宜茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒尋源",
       "chapter_title": "茵陳蒿湯",
       "source_unit_id": "SU_B8E444005_000827",
@@ -324,13 +333,6 @@
       "source_unit_id": "SU_B41512D4B_001606",
       "evidence_span": "（重出例）傷寒七八日身黃如橘子色（云云至）茵陳蒿湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒來蘇集",
-      "chapter_title": "茵陳湯證",
-      "source_unit_id": "SU_SHL_LAISU_000305",
-      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -345,10 +347,10 @@
         "胸滿"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000609",
-        "IR_CAOSHI_FAWEI_000662",
-        "IR_CAOSHI_FAWEI_001246",
-        "IR_CAOSHI_FAWEI_001252"
+        "IR_CAOSHI_FAWEI_000608",
+        "IR_CAOSHI_FAWEI_000661",
+        "IR_CAOSHI_FAWEI_001245",
+        "IR_CAOSHI_FAWEI_001251"
       ]
     },
     {
@@ -389,7 +391,7 @@
         "茵陳蒿"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001024",
+        "IR_BBAACE965_001020",
         "IR_SHL_ZHUJIE_000733"
       ]
     },
@@ -431,7 +433,7 @@
         "茵陳蒿"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000610"
+        "IR_CAOSHI_FAWEI_000609"
       ]
     }
   ],
@@ -457,7 +459,7 @@
     "disease": [
       {
         "term": "小便不利",
-        "count": 30
+        "count": 31
       },
       {
         "term": "傷寒",
@@ -535,7 +537,7 @@
     "treatment_principle": [
       {
         "term": "清熱利濕退黃",
-        "count": 53
+        "count": 54
       }
     ]
   },
@@ -554,6 +556,6 @@
     "脈浮緩"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

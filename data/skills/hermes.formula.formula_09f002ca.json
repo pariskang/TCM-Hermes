@@ -8,21 +8,21 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001420",
+    "IR_CAOSHI_FAWEI_001419",
     "IR_JGYH_ERZHU_000348",
-    "IR_JGYL_FANGLUN_000275",
-    "IR_JGYL_JIYI_000447",
-    "IR_JGYL_TIAOWEN_000275",
+    "IR_JGYL_FANGLUN_000272",
+    "IR_JGYL_JIYI_000446",
+    "IR_JGYL_TIAOWEN_000272",
     "IR_JGYL_XINDIAN_000300"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001420",
+      "IR_CAOSHI_FAWEI_001419",
       "IR_JGYH_ERZHU_000348",
-      "IR_JGYL_FANGLUN_000275",
-      "IR_JGYL_JIYI_000447",
-      "IR_JGYL_TIAOWEN_000275",
+      "IR_JGYL_FANGLUN_000272",
+      "IR_JGYL_JIYI_000446",
+      "IR_JGYL_TIAOWEN_000272",
       "IR_JGYL_XINDIAN_000300"
     ],
     "bronze": []
@@ -103,6 +103,6 @@
     "不得臥"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

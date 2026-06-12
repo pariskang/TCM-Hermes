@@ -35,7 +35,7 @@
 > ——《曹氏傷寒金匱發微合刊》·痰飲咳嗽病脈證治第十二（SU_CAOSHI_FAWEI_001629，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["目黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001175"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["目黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001174"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "甘草二兩", "生薑三兩", "石膏半斤", "麻黃六兩"], "rule_ids": ["IR_SHL_GUIBEN_001447"]}
 - {"kind": "composition_variant", "books": ["傷寒論類方"], "composition": ["杏仁", "桂枝", "甘草", "石膏", "麻黃"], "rule_ids": ["IR_SHL_LEIFANG_000025"]}
 

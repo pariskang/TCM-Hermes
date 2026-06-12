@@ -32,7 +32,7 @@
 > ——《傷寒論綱目》·發熱（SU_B3E16D849_000595，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["小便不利", "無汗"], "rule_ids": ["IR_B5C5ECAC2_000328"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["小便不利", "無汗"], "rule_ids": ["IR_B5C5ECAC2_000327"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

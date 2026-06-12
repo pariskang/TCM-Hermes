@@ -3,33 +3,33 @@
   "kind": "formula",
   "title": "豬苓湯方證合併規則",
   "subject": "豬苓湯",
-  "abstracted_claim": "豬苓湯可歸納為小便不利、下利、少陰病、陽明病、腹滿、傷寒等方證的核心方（支持條文 64 條，跨 28 部書）。",
+  "abstracted_claim": "豬苓湯可歸納為小便不利、下利、少陰病、陽明病、腹滿、傷寒等方證的核心方（支持條文 66 條，跨 28 部書）。",
   "merged_rule_id": "MHR_FORMULA_ZHULING_TANG",
   "release_level": "silver",
   "consensus_score": 0.909,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000387",
-    "IR_B0B74DF58_000682",
+    "IR_B0B74DF58_000386",
+    "IR_B0B74DF58_000681",
     "IR_B11498305_000576",
     "IR_B11498305_000598",
     "IR_B1CAC3ADF_000615",
     "IR_B1CAC3ADF_000800",
     "IR_B294D68B8_000018",
     "IR_B3E16D849_000931",
-    "IR_B3E16D849_001129",
-    "IR_B3E16D849_001238",
-    "IR_B3E16D849_001392",
-    "IR_B3E16D849_001671",
-    "IR_B3E16D849_001674",
-    "IR_B3E16D849_001703",
-    "IR_B3E16D849_001722",
-    "IR_B3E16D849_001789",
-    "IR_B41512D4B_000750",
-    "IR_B41512D4B_000996",
+    "IR_B3E16D849_001127",
+    "IR_B3E16D849_001236",
+    "IR_B3E16D849_001390",
+    "IR_B3E16D849_001669",
+    "IR_B3E16D849_001672",
+    "IR_B3E16D849_001701",
+    "IR_B3E16D849_001720",
+    "IR_B3E16D849_001787",
+    "IR_B41512D4B_000748",
+    "IR_B41512D4B_000994",
     "IR_B5C5ECAC2_000050",
     "IR_B5C5ECAC2_000123",
-    "IR_B5FF1CA1B_000607",
-    "IR_B5FF1CA1B_000631",
+    "IR_B5FF1CA1B_000606",
+    "IR_B5FF1CA1B_000630",
     "IR_B8E444005_000132",
     "IR_B8E444005_000227",
     "IR_B9119D083_000375",
@@ -37,17 +37,17 @@
     "IR_B9119D083_000494",
     "IR_B9119D083_000496",
     "IR_B9119D083_000684",
-    "IR_BB7301DF2_000253",
-    "IR_BBAACE965_000968",
-    "IR_BBAACE965_000978",
-    "IR_BBAACE965_001255",
+    "IR_BB7301DF2_000252",
+    "IR_BBAACE965_000966",
+    "IR_BBAACE965_000976",
+    "IR_BBAACE965_001250",
     "IR_BC91F4420_000407",
     "IR_BC91F4420_000505",
     "IR_BD20B1D70_000028",
     "IR_BF5CDC206_000084",
     "IR_BF5CDC206_000134",
     "IR_BF5CDC206_000182",
-    "IR_CAOSHI_FAWEI_001198",
+    "IR_CAOSHI_FAWEI_001197",
     "IR_JGYH_ERZHU_000175",
     "IR_JGYL_JIYI_000251",
     "IR_JGYL_XINDIAN_000148",
@@ -56,18 +56,20 @@
     "IR_SHL_GUIBEN_000801",
     "IR_SHL_GUIBEN_001044",
     "IR_SHL_LAISU_000374",
+    "IR_SHL_LAISU_000683",
     "IR_SHL_LAISU_000684",
-    "IR_SHL_LAISU_000688",
+    "IR_SHL_LAISU_000687",
     "IR_SHL_LUNZHU_000370",
+    "IR_SHL_LUNZHU_000677",
     "IR_SHL_LUNZHU_000678",
-    "IR_SHL_LUNZHU_000680",
+    "IR_SHL_LUNZHU_000679",
     "IR_SHL_QJYF_000167",
     "IR_SHL_QJYF_000237",
     "IR_SHL_SONGBEN_000297",
     "IR_SHL_SONGBEN_000393",
-    "IR_SHL_SUYUAN_000668",
-    "IR_SHL_SUYUAN_001197",
-    "IR_SHL_SUYUAN_001198",
+    "IR_SHL_SUYUAN_000667",
+    "IR_SHL_SUYUAN_001193",
+    "IR_SHL_SUYUAN_001194",
     "IR_SHL_TIAOWEN_000251",
     "IR_SHL_TIAOWEN_000347",
     "IR_SHL_ZHUJIE_000699",
@@ -76,28 +78,28 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000387",
-      "IR_B0B74DF58_000682",
+      "IR_B0B74DF58_000386",
+      "IR_B0B74DF58_000681",
       "IR_B11498305_000576",
       "IR_B11498305_000598",
       "IR_B1CAC3ADF_000615",
       "IR_B1CAC3ADF_000800",
       "IR_B294D68B8_000018",
       "IR_B3E16D849_000931",
-      "IR_B3E16D849_001129",
-      "IR_B3E16D849_001238",
-      "IR_B3E16D849_001392",
-      "IR_B3E16D849_001671",
-      "IR_B3E16D849_001674",
-      "IR_B3E16D849_001703",
-      "IR_B3E16D849_001722",
-      "IR_B3E16D849_001789",
-      "IR_B41512D4B_000750",
-      "IR_B41512D4B_000996",
+      "IR_B3E16D849_001127",
+      "IR_B3E16D849_001236",
+      "IR_B3E16D849_001390",
+      "IR_B3E16D849_001669",
+      "IR_B3E16D849_001672",
+      "IR_B3E16D849_001701",
+      "IR_B3E16D849_001720",
+      "IR_B3E16D849_001787",
+      "IR_B41512D4B_000748",
+      "IR_B41512D4B_000994",
       "IR_B5C5ECAC2_000050",
       "IR_B5C5ECAC2_000123",
-      "IR_B5FF1CA1B_000607",
-      "IR_B5FF1CA1B_000631",
+      "IR_B5FF1CA1B_000606",
+      "IR_B5FF1CA1B_000630",
       "IR_B8E444005_000132",
       "IR_B8E444005_000227",
       "IR_B9119D083_000375",
@@ -105,17 +107,17 @@
       "IR_B9119D083_000494",
       "IR_B9119D083_000496",
       "IR_B9119D083_000684",
-      "IR_BB7301DF2_000253",
-      "IR_BBAACE965_000968",
-      "IR_BBAACE965_000978",
-      "IR_BBAACE965_001255",
+      "IR_BB7301DF2_000252",
+      "IR_BBAACE965_000966",
+      "IR_BBAACE965_000976",
+      "IR_BBAACE965_001250",
       "IR_BC91F4420_000407",
       "IR_BC91F4420_000505",
       "IR_BD20B1D70_000028",
       "IR_BF5CDC206_000084",
       "IR_BF5CDC206_000134",
       "IR_BF5CDC206_000182",
-      "IR_CAOSHI_FAWEI_001198",
+      "IR_CAOSHI_FAWEI_001197",
       "IR_JGYH_ERZHU_000175",
       "IR_JGYL_JIYI_000251",
       "IR_JGYL_XINDIAN_000148",
@@ -124,18 +126,20 @@
       "IR_SHL_GUIBEN_000801",
       "IR_SHL_GUIBEN_001044",
       "IR_SHL_LAISU_000374",
+      "IR_SHL_LAISU_000683",
       "IR_SHL_LAISU_000684",
-      "IR_SHL_LAISU_000688",
+      "IR_SHL_LAISU_000687",
       "IR_SHL_LUNZHU_000370",
+      "IR_SHL_LUNZHU_000677",
       "IR_SHL_LUNZHU_000678",
-      "IR_SHL_LUNZHU_000680",
+      "IR_SHL_LUNZHU_000679",
       "IR_SHL_QJYF_000167",
       "IR_SHL_QJYF_000237",
       "IR_SHL_SONGBEN_000297",
       "IR_SHL_SONGBEN_000393",
-      "IR_SHL_SUYUAN_000668",
-      "IR_SHL_SUYUAN_001197",
-      "IR_SHL_SUYUAN_001198",
+      "IR_SHL_SUYUAN_000667",
+      "IR_SHL_SUYUAN_001193",
+      "IR_SHL_SUYUAN_001194",
       "IR_SHL_TIAOWEN_000251",
       "IR_SHL_TIAOWEN_000347",
       "IR_SHL_ZHUJIE_000699",
@@ -364,8 +368,8 @@
         "舌上苔"
       ],
       "rule_ids": [
-        "IR_B0B74DF58_000387",
-        "IR_B0B74DF58_000682"
+        "IR_B0B74DF58_000386",
+        "IR_B0B74DF58_000681"
       ]
     },
     {
@@ -408,6 +412,22 @@
       ]
     },
     {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LAISU",
+      "book_title": "傷寒來蘇集",
+      "distinct_conditions": [
+        "不得臥",
+        "但欲寐",
+        "虛煩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000374",
+        "IR_SHL_LAISU_000683",
+        "IR_SHL_LAISU_000684",
+        "IR_SHL_LAISU_000687"
+      ]
+    },
+    {
       "kind": "composition_variant",
       "books": [
         "傷寒來蘇集",
@@ -424,10 +444,10 @@
         "阿膠"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000981",
+        "IR_BBAACE965_000979",
         "IR_BC91F4420_000408",
         "IR_SHL_GUANZHU_000461",
-        "IR_SHL_LAISU_000686",
+        "IR_SHL_LAISU_000685",
         "IR_SHL_ZHUJIE_000702"
       ]
     },
@@ -457,7 +477,7 @@
         "豬苓"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000579"
+        "IR_CAOSHI_FAWEI_000578"
       ]
     }
   ],
@@ -470,11 +490,11 @@
       },
       {
         "term": "下利",
-        "count": 21
+        "count": 23
       },
       {
         "term": "少陰病",
-        "count": 15
+        "count": 16
       },
       {
         "term": "陽明病",
@@ -492,11 +512,11 @@
     "symptoms": [
       {
         "term": "渴",
-        "count": 61
+        "count": 63
       },
       {
         "term": "不得眠",
-        "count": 33
+        "count": 34
       },
       {
         "term": "發熱",
@@ -504,11 +524,11 @@
       },
       {
         "term": "心煩",
-        "count": 30
+        "count": 31
       },
       {
         "term": "咳",
-        "count": 17
+        "count": 18
       },
       {
         "term": "惡寒",
@@ -543,7 +563,7 @@
     "treatment_principle": [
       {
         "term": "利水養陰清熱",
-        "count": 64
+        "count": 66
       }
     ]
   },
@@ -562,6 +582,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

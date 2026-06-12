@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["乾嘔", "喘", "心下痞", "短氣"], "rule_ids": ["IR_B11498305_000085", "IR_B11498305_000369", "IR_B11498305_000903"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["痰飲"], "rule_ids": ["IR_JF_SHIYANLU_000220"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["亡血", "傷寒", "厥", "惡寒", "惡風", "氣上衝胸", "筋惕肉瞤", "脈微弱"], "rule_ids": ["IR_SHL_MINGLI_000101", "IR_SHL_MINGLI_000129"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["生薑", "白朮", "芍藥", "茯苓", "附子"], "rule_ids": ["IR_BBAACE965_001240", "IR_BC91F4420_000499"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["生薑", "白朮", "芍藥", "茯苓", "附子"], "rule_ids": ["IR_BBAACE965_001236", "IR_BC91F4420_000499"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["生薑三兩", "白朮二兩", "芍藥三兩", "茯苓三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000527"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑二兩", "五味子半升", "生薑三兩", "白朮二兩", "芍藥三兩", "茯苓三兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_001036"]}
 

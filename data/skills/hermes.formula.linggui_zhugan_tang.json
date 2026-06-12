@@ -9,17 +9,17 @@
   "consensus_score": 0.916,
   "supporting_initial_rules": [
     "IR_B8E444005_000361",
-    "IR_BBAACE965_000316",
+    "IR_BBAACE965_000315",
     "IR_BEF533107_000082",
-    "IR_CAOSHI_FAWEI_001139",
+    "IR_CAOSHI_FAWEI_001138",
     "IR_JGYH_ERZHU_000132",
     "IR_JGYH_ERZHU_000133",
+    "IR_JGYL_FANGLUN_000113",
     "IR_JGYL_FANGLUN_000114",
-    "IR_JGYL_FANGLUN_000115",
     "IR_JGYL_JIYI_000195",
     "IR_JGYL_JIYI_000196",
+    "IR_JGYL_TIAOWEN_000113",
     "IR_JGYL_TIAOWEN_000114",
-    "IR_JGYL_TIAOWEN_000115",
     "IR_JGYL_XINDIAN_000112",
     "IR_JGYL_XINDIAN_000113",
     "IR_JG_FANGGEKUO_000009"
@@ -28,17 +28,17 @@
     "gold": [],
     "silver": [
       "IR_B8E444005_000361",
-      "IR_BBAACE965_000316",
+      "IR_BBAACE965_000315",
       "IR_BEF533107_000082",
-      "IR_CAOSHI_FAWEI_001139",
+      "IR_CAOSHI_FAWEI_001138",
       "IR_JGYH_ERZHU_000132",
       "IR_JGYH_ERZHU_000133",
+      "IR_JGYL_FANGLUN_000113",
       "IR_JGYL_FANGLUN_000114",
-      "IR_JGYL_FANGLUN_000115",
       "IR_JGYL_JIYI_000195",
       "IR_JGYL_JIYI_000196",
+      "IR_JGYL_TIAOWEN_000113",
       "IR_JGYL_TIAOWEN_000114",
-      "IR_JGYL_TIAOWEN_000115",
       "IR_JGYL_XINDIAN_000112",
       "IR_JGYL_XINDIAN_000113",
       "IR_JG_FANGGEKUO_000009"
@@ -222,6 +222,6 @@
     "寒熱"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

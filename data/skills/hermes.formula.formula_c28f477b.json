@@ -8,16 +8,16 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_JGYL_FANGLUN_000277",
-    "IR_JGYL_TIAOWEN_000277",
-    "IR_SHL_GUIBEN_001602"
+    "IR_JGYL_FANGLUN_000274",
+    "IR_JGYL_TIAOWEN_000274",
+    "IR_SHL_GUIBEN_001601"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_JGYL_FANGLUN_000277",
-      "IR_JGYL_TIAOWEN_000277",
-      "IR_SHL_GUIBEN_001602"
+      "IR_JGYL_FANGLUN_000274",
+      "IR_JGYL_TIAOWEN_000274",
+      "IR_SHL_GUIBEN_001601"
     ],
     "bronze": []
   },
@@ -53,7 +53,7 @@
         "產後"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001602"
+        "IR_SHL_GUIBEN_001601"
       ]
     }
   ],
@@ -88,6 +88,6 @@
     "腹痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

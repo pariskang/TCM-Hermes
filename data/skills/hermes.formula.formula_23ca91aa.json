@@ -8,9 +8,9 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B41512D4B_000323",
-    "IR_B41512D4B_000896",
-    "IR_B5FF1CA1B_000379",
+    "IR_B41512D4B_000322",
+    "IR_B41512D4B_000894",
+    "IR_B5FF1CA1B_000378",
     "IR_SHL_GUIBEN_000558",
     "IR_SHL_LAISU_000550",
     "IR_SHL_LUNZHU_000546",
@@ -21,9 +21,9 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B41512D4B_000323",
-      "IR_B41512D4B_000896",
-      "IR_B5FF1CA1B_000379",
+      "IR_B41512D4B_000322",
+      "IR_B41512D4B_000894",
+      "IR_B5FF1CA1B_000378",
       "IR_SHL_GUIBEN_000558",
       "IR_SHL_LAISU_000550",
       "IR_SHL_LUNZHU_000546",
@@ -120,7 +120,7 @@
         "芒硝"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000272"
+        "IR_CAOSHI_FAWEI_000271"
       ]
     },
     {
@@ -188,6 +188,6 @@
     "汗出"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

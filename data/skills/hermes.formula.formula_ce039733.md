@@ -22,7 +22,7 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_JIYI", "book_title": "金匱玉函要略輯義", "distinct_conditions": ["皮水"], "rule_ids": ["IR_JGYL_JIYI_000273"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["小便不利", "歷節", "目黃", "脈沉", "脈沉緊"], "rule_ids": ["IR_SHL_GUIBEN_001452", "IR_SHL_GUIBEN_001471"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001220"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001219"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草二兩", "麻黃四兩"], "rule_ids": ["IR_SHL_GUIBEN_001453"]}
 
 ## 安全声明

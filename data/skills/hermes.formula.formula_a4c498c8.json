@@ -8,15 +8,15 @@
   "release_level": "silver",
   "consensus_score": 0.913,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000271",
-    "IR_B41512D4B_000498",
+    "IR_B0B74DF58_000270",
+    "IR_B41512D4B_000497",
     "IR_SHL_ZHUJIE_000587"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000271",
-      "IR_B41512D4B_000498",
+      "IR_B0B74DF58_000270",
+      "IR_B41512D4B_000497",
       "IR_SHL_ZHUJIE_000587"
     ],
     "bronze": []
@@ -55,7 +55,7 @@
         "脈浮虛"
       ],
       "rule_ids": [
-        "IR_B0B74DF58_000271"
+        "IR_B0B74DF58_000270"
       ]
     }
   ],
@@ -101,6 +101,6 @@
     "脈浮虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

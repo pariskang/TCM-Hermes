@@ -8,16 +8,16 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001148",
-    "IR_JGYL_FANGLUN_000121",
-    "IR_JGYL_TIAOWEN_000121"
+    "IR_CAOSHI_FAWEI_001147",
+    "IR_JGYL_FANGLUN_000120",
+    "IR_JGYL_TIAOWEN_000120"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001148",
-      "IR_JGYL_FANGLUN_000121",
-      "IR_JGYL_TIAOWEN_000121"
+      "IR_CAOSHI_FAWEI_001147",
+      "IR_JGYL_FANGLUN_000120",
+      "IR_JGYL_TIAOWEN_000120"
     ],
     "bronze": []
   },
@@ -82,6 +82,6 @@
     "脈沉緊"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

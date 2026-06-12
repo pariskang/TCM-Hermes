@@ -3,7 +3,7 @@
   "kind": "formula",
   "title": "十棗湯方證合併規則",
   "subject": "十棗湯",
-  "abstracted_claim": "十棗湯可歸納為太陽中風、心下痞、下利、懸飲、傷寒、腹滿等方證的核心方（支持條文 49 條，跨 29 部書）。",
+  "abstracted_claim": "十棗湯可歸納為太陽中風、心下痞、下利、懸飲、傷寒、腹滿等方證的核心方（支持條文 51 條，跨 29 部書）。",
   "merged_rule_id": "MHR_FORMULA_SHIZAO_TANG",
   "release_level": "silver",
   "consensus_score": 0.916,
@@ -17,32 +17,33 @@
     "IR_B3E16D849_000388",
     "IR_B3E16D849_000415",
     "IR_B3E16D849_000542",
-    "IR_B3E16D849_001190",
-    "IR_B3E16D849_001242",
-    "IR_B41512D4B_000439",
+    "IR_B3E16D849_001188",
+    "IR_B3E16D849_001240",
+    "IR_B41512D4B_000438",
     "IR_B8E444005_000369",
     "IR_B9119D083_000176",
     "IR_B9119D083_000298",
     "IR_B9119D083_000555",
     "IR_BB7301DF2_000026",
-    "IR_BB7301DF2_000237",
-    "IR_BBAACE965_000693",
+    "IR_BB7301DF2_000236",
+    "IR_BBAACE965_000692",
     "IR_BC91F4420_000043",
-    "IR_CAOSHI_FAWEI_000388",
-    "IR_CAOSHI_FAWEI_001143",
-    "IR_CAOSHI_FAWEI_001166",
+    "IR_CAOSHI_FAWEI_000387",
+    "IR_CAOSHI_FAWEI_001142",
+    "IR_CAOSHI_FAWEI_001165",
     "IR_JF_SHIYANLU_000199",
     "IR_JF_SHIYANLU_000200",
     "IR_JGYH_ERZHU_000135",
     "IR_JGYH_ERZHU_000149",
-    "IR_JGYL_FANGLUN_000118",
-    "IR_JGYL_FANGLUN_000132",
+    "IR_JGYL_FANGLUN_000117",
+    "IR_JGYL_FANGLUN_000130",
     "IR_JGYL_JIYI_000199",
     "IR_JGYL_JIYI_000220",
-    "IR_JGYL_QIANZHU_000134",
-    "IR_JGYL_QIANZHU_000149",
-    "IR_JGYL_TIAOWEN_000118",
-    "IR_JGYL_TIAOWEN_000132",
+    "IR_JGYL_JIYI_000227",
+    "IR_JGYL_QIANZHU_000133",
+    "IR_JGYL_QIANZHU_000147",
+    "IR_JGYL_TIAOWEN_000117",
+    "IR_JGYL_TIAOWEN_000130",
     "IR_JGYL_XINDIAN_000115",
     "IR_JGYL_XINDIAN_000130",
     "IR_SHL_GUANZHU_000091",
@@ -55,6 +56,7 @@
     "IR_SHL_QJYF_000077",
     "IR_SHL_SONGBEN_000223",
     "IR_SHL_SUYUAN_000467",
+    "IR_SHL_SUYUAN_000472",
     "IR_SHL_TIAOWEN_000177",
     "IR_SHL_ZHUJIE_000512"
   ],
@@ -70,32 +72,33 @@
       "IR_B3E16D849_000388",
       "IR_B3E16D849_000415",
       "IR_B3E16D849_000542",
-      "IR_B3E16D849_001190",
-      "IR_B3E16D849_001242",
-      "IR_B41512D4B_000439",
+      "IR_B3E16D849_001188",
+      "IR_B3E16D849_001240",
+      "IR_B41512D4B_000438",
       "IR_B8E444005_000369",
       "IR_B9119D083_000176",
       "IR_B9119D083_000298",
       "IR_B9119D083_000555",
       "IR_BB7301DF2_000026",
-      "IR_BB7301DF2_000237",
-      "IR_BBAACE965_000693",
+      "IR_BB7301DF2_000236",
+      "IR_BBAACE965_000692",
       "IR_BC91F4420_000043",
-      "IR_CAOSHI_FAWEI_000388",
-      "IR_CAOSHI_FAWEI_001143",
-      "IR_CAOSHI_FAWEI_001166",
+      "IR_CAOSHI_FAWEI_000387",
+      "IR_CAOSHI_FAWEI_001142",
+      "IR_CAOSHI_FAWEI_001165",
       "IR_JF_SHIYANLU_000199",
       "IR_JF_SHIYANLU_000200",
       "IR_JGYH_ERZHU_000135",
       "IR_JGYH_ERZHU_000149",
-      "IR_JGYL_FANGLUN_000118",
-      "IR_JGYL_FANGLUN_000132",
+      "IR_JGYL_FANGLUN_000117",
+      "IR_JGYL_FANGLUN_000130",
       "IR_JGYL_JIYI_000199",
       "IR_JGYL_JIYI_000220",
-      "IR_JGYL_QIANZHU_000134",
-      "IR_JGYL_QIANZHU_000149",
-      "IR_JGYL_TIAOWEN_000118",
-      "IR_JGYL_TIAOWEN_000132",
+      "IR_JGYL_JIYI_000227",
+      "IR_JGYL_QIANZHU_000133",
+      "IR_JGYL_QIANZHU_000147",
+      "IR_JGYL_TIAOWEN_000117",
+      "IR_JGYL_TIAOWEN_000130",
       "IR_JGYL_XINDIAN_000115",
       "IR_JGYL_XINDIAN_000130",
       "IR_SHL_GUANZHU_000091",
@@ -108,6 +111,7 @@
       "IR_SHL_QJYF_000077",
       "IR_SHL_SONGBEN_000223",
       "IR_SHL_SUYUAN_000467",
+      "IR_SHL_SUYUAN_000472",
       "IR_SHL_TIAOWEN_000177",
       "IR_SHL_ZHUJIE_000512"
     ],
@@ -269,6 +273,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001936",
+      "evidence_span": "本條之後。有一條云。咳而引脅下痛者。亦十棗湯主之。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒論綱目",
       "chapter_title": "頭痛項強",
       "source_unit_id": "SU_B3E16D849_000723",
@@ -316,13 +327,6 @@
       "source_unit_id": "SU_CAOSHI_FAWEI_000459",
       "evidence_span": "乾嘔短氣。汗出不惡寒者。此表解裏未和也。十棗湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "心下痞證治第四",
-      "source_unit_id": "SU_SHL_SUYUAN_000899",
-      "evidence_span": "乾嘔短氣。汗出不惡寒者。此表解裡未和也。十棗湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -334,9 +338,9 @@
         "脈浮"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000388",
-        "IR_CAOSHI_FAWEI_001143",
-        "IR_CAOSHI_FAWEI_001166"
+        "IR_CAOSHI_FAWEI_000387",
+        "IR_CAOSHI_FAWEI_001142",
+        "IR_CAOSHI_FAWEI_001165"
       ]
     },
     {
@@ -357,6 +361,19 @@
       ]
     },
     {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "痰飲",
+        "結胸"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000467",
+        "IR_SHL_SUYUAN_000472"
+      ]
+    },
+    {
       "kind": "composition_variant",
       "books": [
         "傷寒論條辨",
@@ -372,7 +389,7 @@
         "芫花"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000695",
+        "IR_BBAACE965_000694",
         "IR_BC91F4420_000044",
         "IR_SHL_GUANZHU_000092",
         "IR_SHL_GUIBEN_000689",
@@ -438,6 +455,14 @@
       {
         "term": "小便不利",
         "count": 1
+      },
+      {
+        "term": "結胸",
+        "count": 1
+      },
+      {
+        "term": "痰飲",
+        "count": 1
       }
     ],
     "symptoms": [
@@ -467,7 +492,7 @@
       },
       {
         "term": "咳",
-        "count": 8
+        "count": 9
       },
       {
         "term": "心下痞硬",
@@ -506,7 +531,7 @@
     "treatment_principle": [
       {
         "term": "攻逐水飲",
-        "count": 49
+        "count": 51
       }
     ]
   },
@@ -528,6 +553,6 @@
     "趺陽脈微"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

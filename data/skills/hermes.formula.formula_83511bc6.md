@@ -35,11 +35,11 @@
 > ——《傷寒雜病論(桂本)》·辨陽明病脈證並治（SU_SHL_GUIBEN_000798，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["杏仁", "赤小豆", "連翹", "連軺", "麻黃"], "rule_ids": ["IR_BBAACE965_001101"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["赤小豆", "連軺", "麻黃"], "rule_ids": ["IR_CAOSHI_FAWEI_000668"]}
-- {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["大棗", "杏仁", "甘草", "生薑", "赤小豆", "連軺", "麻黃"], "rule_ids": ["IR_SHL_GUANZHU_000509"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["杏仁", "赤小豆", "連翹", "連軺", "麻黃", "黃連"], "rule_ids": ["IR_BBAACE965_001097"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["赤小豆", "黃連"], "rule_ids": ["IR_CAOSHI_FAWEI_000667"]}
+- {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["大棗", "杏仁", "甘草", "生薑", "赤小豆", "連軺", "麻黃", "黃連"], "rule_ids": ["IR_SHL_GUANZHU_000509"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "杏仁四十個", "甘草二兩", "生梓白皮一斤", "生薑二兩", "赤小豆一升", "連軺二兩", "麻黃二兩"], "rule_ids": ["IR_SHL_GUIBEN_000877"]}
-- {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["大棗", "杏仁", "甘草", "生梓白皮", "生薑", "赤小豆", "連翹", "連軺", "麻黃"], "rule_ids": ["IR_SHL_ZHUJIE_000801"]}
+- {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["大棗", "杏仁", "甘草", "生梓白皮", "生薑", "赤小豆", "連翹", "連軺", "麻黃", "黃連"], "rule_ids": ["IR_SHL_ZHUJIE_000801"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

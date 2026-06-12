@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_DA_QINGLONG_TANG`
 - **Release level**: silver
 - **Consensus score**: 0.9
-- **Supporting initial rules**: 50
+- **Supporting initial rules**: 51
 
 ## 归纳主张
-大青龍湯可歸納為太陽中風、溢飲、傷寒、中風、太陽傷寒、太陽病等方證的核心方（支持條文 50 條，跨 33 部書）。
+大青龍湯可歸納為太陽中風、溢飲、傷寒、中風、太陽傷寒、太陽病等方證的核心方（支持條文 51 條，跨 33 部書）。
 
 ## 原文证据（节选）
 > 病溢飲者。當發其汗。大青龍湯主之。
@@ -31,8 +31,8 @@
 > 14.35病溢飲者，當發其汗，大青龍湯主之；
 > ——《傷寒雜病論(桂本)》·辨咳嗽水飲黃汗歷節病脈證並治（SU_SHL_GUIBEN_001232，silver）
 
-> （外台云。范汪溢飲者。當發其汗。大青龍湯主之。
-> ——《金匱玉函要略輯義》·論一首、脈證二十一條、方十九首（SU_JGYL_JIYI_001806，silver）
+> 服之厥逆。筋惕肉。此為逆也。又以大青龍湯主之。
+> ——《傷寒論綱目》·鼻衄（SU_B3E16D849_001356，silver）
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["頭痛"], "rule_ids": ["IR_B9119D083_000094", "IR_B9119D083_000152", "IR_B9119D083_000241", "IR_B9119D083_000254", "IR_B9119D083_000424"]}

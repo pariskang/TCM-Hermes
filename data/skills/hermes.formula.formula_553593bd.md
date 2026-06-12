@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_553593BD`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 24
+- **Supporting initial rules**: 25
 
 ## 归纳主张
-梔子柏皮湯可歸納為傷寒、陽明病、身黃、發熱、發黃、無汗等方證的核心方（支持條文 24 條，跨 19 部書）。
+梔子柏皮湯可歸納為傷寒、陽明病、身黃、發熱、發黃、無汗等方證的核心方（支持條文 25 條，跨 19 部書）。
 
 ## 原文证据（节选）
 > 傷寒身黃發熱。梔子柏皮湯主之。
@@ -35,9 +35,9 @@
 > ——《傷寒論注》·梔子豉湯證（SU_SHL_LUNZHU_000694，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["無汗", "陽明病"], "rule_ids": ["IR_B0B74DF58_000282", "IR_B0B74DF58_000422"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["梔子", "甘草", "黃柏"], "rule_ids": ["IR_BBAACE965_001099", "IR_BC91F4420_000441"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["梔子"], "rule_ids": ["IR_CAOSHI_FAWEI_000666"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["無汗", "陽明病"], "rule_ids": ["IR_B0B74DF58_000281", "IR_B0B74DF58_000421"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["梔子", "甘草", "黃柏"], "rule_ids": ["IR_BBAACE965_001095", "IR_BC91F4420_000441"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["梔子"], "rule_ids": ["IR_CAOSHI_FAWEI_000665"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["梔子十五個", "甘草一兩", "黃柏二兩"], "rule_ids": ["IR_SHL_GUIBEN_000874"]}
 - {"kind": "composition_variant", "books": ["傷寒來蘇集"], "composition": ["梔子", "甘草", "茵陳", "黃柏"], "rule_ids": ["IR_SHL_LAISU_000399"]}
 

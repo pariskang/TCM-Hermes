@@ -33,7 +33,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草一兩", "知母二兩", "芎藭一兩", "茯苓二兩", "酸棗仁二升"], "rule_ids": ["IR_SHL_GUIBEN_001353"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["酸棗仁"], "rule_ids": ["IR_CAOSHI_FAWEI_001037"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["酸棗仁"], "rule_ids": ["IR_CAOSHI_FAWEI_001036"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

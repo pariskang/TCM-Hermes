@@ -8,25 +8,25 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001206",
+    "IR_CAOSHI_FAWEI_001205",
     "IR_JGYH_ERZHU_000184",
-    "IR_JGYL_FANGLUN_000152",
+    "IR_JGYL_FANGLUN_000150",
     "IR_JGYL_JIYI_000257",
-    "IR_JGYL_QIANZHU_000175",
-    "IR_JGYL_QIANZHU_000184",
-    "IR_JGYL_TIAOWEN_000152",
+    "IR_JGYL_QIANZHU_000173",
+    "IR_JGYL_QIANZHU_000182",
+    "IR_JGYL_TIAOWEN_000150",
     "IR_JGYL_XINDIAN_000152"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001206",
+      "IR_CAOSHI_FAWEI_001205",
       "IR_JGYH_ERZHU_000184",
-      "IR_JGYL_FANGLUN_000152",
+      "IR_JGYL_FANGLUN_000150",
       "IR_JGYL_JIYI_000257",
-      "IR_JGYL_QIANZHU_000175",
-      "IR_JGYL_QIANZHU_000184",
-      "IR_JGYL_TIAOWEN_000152",
+      "IR_JGYL_QIANZHU_000173",
+      "IR_JGYL_QIANZHU_000182",
+      "IR_JGYL_TIAOWEN_000150",
       "IR_JGYL_XINDIAN_000152"
     ],
     "bronze": []
@@ -99,8 +99,8 @@
         "自利"
       ],
       "rule_ids": [
-        "IR_JGYL_QIANZHU_000175",
-        "IR_JGYL_QIANZHU_000184"
+        "IR_JGYL_QIANZHU_000173",
+        "IR_JGYL_QIANZHU_000182"
       ]
     },
     {
@@ -111,7 +111,7 @@
         "皮水"
       ],
       "rule_ids": [
-        "IR_JGYL_TIAOWEN_000152"
+        "IR_JGYL_TIAOWEN_000150"
       ]
     },
     {
@@ -201,6 +201,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

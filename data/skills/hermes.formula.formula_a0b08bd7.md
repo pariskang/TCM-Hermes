@@ -29,7 +29,7 @@
 > ——《傷寒論類方》·燒褌散（二十二）（SU_SHL_LEIFANG_000120，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["小便不利"], "rule_ids": ["IR_SHL_LAISU_000746"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["小便不利"], "rule_ids": ["IR_SHL_LAISU_000745"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

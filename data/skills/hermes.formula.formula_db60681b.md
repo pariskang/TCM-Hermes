@@ -36,9 +36,9 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["中暍", "傷寒", "小便不利", "渴", "煩躁", "脈大", "脈弱", "脈浮緩"], "rule_ids": ["IR_B3E520529_000040", "IR_B3E520529_000104"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BB711944D", "book_title": "仲景傷寒補亡論", "distinct_conditions": ["惡寒"], "rule_ids": ["IR_BB711944D_001246"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB711944D", "book_title": "仲景傷寒補亡論", "distinct_conditions": ["惡寒"], "rule_ids": ["IR_BB711944D_001245"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["橘皮四兩", "生薑半斤"], "rule_ids": ["IR_SHL_GUIBEN_001160"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["橘皮"], "rule_ids": ["IR_CAOSHI_FAWEI_001326"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["橘皮"], "rule_ids": ["IR_CAOSHI_FAWEI_001325"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

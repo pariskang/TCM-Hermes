@@ -8,26 +8,26 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001426",
+    "IR_CAOSHI_FAWEI_001425",
     "IR_JGYH_ERZHU_000354",
-    "IR_JGYL_FANGLUN_000281",
-    "IR_JGYL_JIYI_000456",
-    "IR_JGYL_QIANZHU_000324",
-    "IR_JGYL_TIAOWEN_000281",
+    "IR_JGYL_FANGLUN_000278",
+    "IR_JGYL_JIYI_000455",
+    "IR_JGYL_QIANZHU_000320",
+    "IR_JGYL_TIAOWEN_000278",
     "IR_JGYL_XINDIAN_000306",
-    "IR_SHL_GUIBEN_001607"
+    "IR_SHL_GUIBEN_001606"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001426",
+      "IR_CAOSHI_FAWEI_001425",
       "IR_JGYH_ERZHU_000354",
-      "IR_JGYL_FANGLUN_000281",
-      "IR_JGYL_JIYI_000456",
-      "IR_JGYL_QIANZHU_000324",
-      "IR_JGYL_TIAOWEN_000281",
+      "IR_JGYL_FANGLUN_000278",
+      "IR_JGYL_JIYI_000455",
+      "IR_JGYL_QIANZHU_000320",
+      "IR_JGYL_TIAOWEN_000278",
       "IR_JGYL_XINDIAN_000306",
-      "IR_SHL_GUIBEN_001607"
+      "IR_SHL_GUIBEN_001606"
     ],
     "bronze": []
   },
@@ -100,7 +100,7 @@
         "面赤"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001607"
+        "IR_SHL_GUIBEN_001606"
       ]
     },
     {
@@ -118,7 +118,7 @@
         "葛根三兩"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001608"
+        "IR_SHL_GUIBEN_001607"
       ]
     },
     {
@@ -130,7 +130,7 @@
         "竹葉"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001427"
+        "IR_CAOSHI_FAWEI_001426"
       ]
     }
   ],
@@ -191,6 +191,6 @@
     "脈弦"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -37,7 +37,7 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["痰飲"], "rule_ids": ["IR_JGYL_QIANZHU_000080"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參三兩", "半夏半升", "澤漆三升", "甘草三兩", "生薑五兩", "紫參五兩"], "rule_ids": ["IR_SHL_GUIBEN_001376"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤漆"], "rule_ids": ["IR_CAOSHI_FAWEI_001053"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤漆"], "rule_ids": ["IR_CAOSHI_FAWEI_001052"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

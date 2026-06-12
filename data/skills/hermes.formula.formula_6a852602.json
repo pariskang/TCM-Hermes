@@ -9,8 +9,8 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B18FAB5FB_000133",
-    "IR_B3E16D849_001978",
-    "IR_CAOSHI_FAWEI_000981",
+    "IR_B3E16D849_001976",
+    "IR_CAOSHI_FAWEI_000980",
     "IR_JGYH_ERZHU_000046",
     "IR_JGYL_FANGLUN_000029",
     "IR_JGYL_JIYI_000061",
@@ -22,8 +22,8 @@
     "gold": [],
     "silver": [
       "IR_B18FAB5FB_000133",
-      "IR_B3E16D849_001978",
-      "IR_CAOSHI_FAWEI_000981",
+      "IR_B3E16D849_001976",
+      "IR_CAOSHI_FAWEI_000980",
       "IR_JGYH_ERZHU_000046",
       "IR_JGYL_FANGLUN_000029",
       "IR_JGYL_JIYI_000061",
@@ -142,6 +142,6 @@
     "百合"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -13,14 +13,14 @@
     "IR_B18FAB5FB_000144",
     "IR_B1CAC3ADF_000467",
     "IR_B3E16D849_000789",
-    "IR_B3E16D849_001471",
+    "IR_B3E16D849_001469",
     "IR_B3E520529_000261",
-    "IR_B41512D4B_000471",
-    "IR_B5C5ECAC2_000220",
-    "IR_B5FF1CA1B_000557",
+    "IR_B41512D4B_000470",
+    "IR_B5C5ECAC2_000219",
+    "IR_B5FF1CA1B_000556",
     "IR_B9119D083_000669",
-    "IR_BBAACE965_000735",
-    "IR_CAOSHI_FAWEI_000424",
+    "IR_BBAACE965_000733",
+    "IR_CAOSHI_FAWEI_000423",
     "IR_JF_SHIYANLU_000066",
     "IR_SHL_GUIBEN_000713",
     "IR_SHL_LAISU_000095",
@@ -41,14 +41,14 @@
       "IR_B18FAB5FB_000144",
       "IR_B1CAC3ADF_000467",
       "IR_B3E16D849_000789",
-      "IR_B3E16D849_001471",
+      "IR_B3E16D849_001469",
       "IR_B3E520529_000261",
-      "IR_B41512D4B_000471",
-      "IR_B5C5ECAC2_000220",
-      "IR_B5FF1CA1B_000557",
+      "IR_B41512D4B_000470",
+      "IR_B5C5ECAC2_000219",
+      "IR_B5FF1CA1B_000556",
       "IR_B9119D083_000669",
-      "IR_BBAACE965_000735",
-      "IR_CAOSHI_FAWEI_000424",
+      "IR_BBAACE965_000733",
+      "IR_CAOSHI_FAWEI_000423",
       "IR_JF_SHIYANLU_000066",
       "IR_SHL_GUIBEN_000713",
       "IR_SHL_LAISU_000095",
@@ -269,7 +269,7 @@
         "白朮"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000737",
+        "IR_BBAACE965_000735",
         "IR_SHL_ZHUJIE_000543"
       ]
     },
@@ -299,7 +299,7 @@
         "桂枝"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000425"
+        "IR_CAOSHI_FAWEI_000424"
       ]
     },
     {
@@ -381,6 +381,6 @@
     "心下痞硬"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

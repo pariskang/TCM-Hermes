@@ -26,7 +26,7 @@
 > ——《傷寒論綱目》·百合病（SU_B3E16D849_004126，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["百合"], "rule_ids": ["IR_B3E16D849_001976"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["百合"], "rule_ids": ["IR_B3E16D849_001974"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

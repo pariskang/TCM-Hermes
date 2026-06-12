@@ -3,53 +3,55 @@
   "kind": "formula",
   "title": "白通湯方證合併規則",
   "subject": "白通湯",
-  "abstracted_claim": "白通湯可歸納為少陰病、下利、傷寒、譫語、鄭聲、脈浮滑等方證的核心方（支持條文 20 條，跨 19 部書）。",
+  "abstracted_claim": "白通湯可歸納為下利、少陰病、傷寒、譫語、鄭聲、脈浮滑等方證的核心方（支持條文 21 條，跨 19 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_FEBCC5E2",
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000634",
+    "IR_B0B74DF58_000633",
     "IR_B11498305_000365",
     "IR_B1CAC3ADF_000785",
-    "IR_B2EB248E3_000117",
+    "IR_B2EB248E3_000115",
     "IR_B3E16D849_001007",
-    "IR_B41512D4B_000990",
+    "IR_B41512D4B_000988",
     "IR_B8E444005_000415",
-    "IR_BBAACE965_000815",
-    "IR_BBAACE965_001232",
+    "IR_BBAACE965_000813",
+    "IR_BBAACE965_001228",
     "IR_BC91F4420_000494",
     "IR_BF5CDC206_000177",
-    "IR_CAOSHI_FAWEI_000754",
+    "IR_CAOSHI_FAWEI_000753",
     "IR_SHL_GUANZHU_000619",
     "IR_SHL_GUIBEN_001028",
     "IR_SHL_LEIFANG_000060",
     "IR_SHL_QJYF_000231",
     "IR_SHL_SONGBEN_000387",
-    "IR_SHL_SUYUAN_001160",
+    "IR_SHL_SUYUAN_001157",
+    "IR_SHL_SUYUAN_001161",
     "IR_SHL_TIAOWEN_000341",
     "IR_SHL_ZHUJIE_000895"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000634",
+      "IR_B0B74DF58_000633",
       "IR_B11498305_000365",
       "IR_B1CAC3ADF_000785",
-      "IR_B2EB248E3_000117",
+      "IR_B2EB248E3_000115",
       "IR_B3E16D849_001007",
-      "IR_B41512D4B_000990",
+      "IR_B41512D4B_000988",
       "IR_B8E444005_000415",
-      "IR_BBAACE965_000815",
-      "IR_BBAACE965_001232",
+      "IR_BBAACE965_000813",
+      "IR_BBAACE965_001228",
       "IR_BC91F4420_000494",
       "IR_BF5CDC206_000177",
-      "IR_CAOSHI_FAWEI_000754",
+      "IR_CAOSHI_FAWEI_000753",
       "IR_SHL_GUANZHU_000619",
       "IR_SHL_GUIBEN_001028",
       "IR_SHL_LEIFANG_000060",
       "IR_SHL_QJYF_000231",
       "IR_SHL_SONGBEN_000387",
-      "IR_SHL_SUYUAN_001160",
+      "IR_SHL_SUYUAN_001157",
+      "IR_SHL_SUYUAN_001161",
       "IR_SHL_TIAOWEN_000341",
       "IR_SHL_ZHUJIE_000895"
     ],
@@ -148,6 +150,13 @@
       "release_level": "silver"
     },
     {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002701",
+      "evidence_span": "上文少陰下利。即以白通湯主之矣。",
+      "release_level": "silver"
+    },
+    {
       "book_title": "傷寒恆論",
       "chapter_title": "少陰〔前〕篇",
       "source_unit_id": "SU_B0B74DF58_001265",
@@ -219,8 +228,8 @@
         "脈浮滑"
       ],
       "rule_ids": [
-        "IR_BBAACE965_000815",
-        "IR_BBAACE965_001232"
+        "IR_BBAACE965_000813",
+        "IR_BBAACE965_001228"
       ]
     },
     {
@@ -237,11 +246,23 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001234",
+        "IR_BBAACE965_001230",
         "IR_BC91F4420_000495",
         "IR_SHL_GUANZHU_000621",
-        "IR_SHL_LAISU_000677",
+        "IR_SHL_LAISU_000676",
         "IR_SHL_ZHUJIE_000896"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "人尿"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000756"
       ]
     },
     {
@@ -262,11 +283,11 @@
   "if_profile": {
     "disease": [
       {
-        "term": "少陰病",
-        "count": 18
+        "term": "下利",
+        "count": 19
       },
       {
-        "term": "下利",
+        "term": "少陰病",
         "count": 18
       },
       {
@@ -297,14 +318,14 @@
   },
   "keywords": [
     "白通湯",
-    "少陰病",
     "下利",
+    "少陰病",
     "傷寒",
     "譫語",
     "鄭聲",
     "脈浮滑"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

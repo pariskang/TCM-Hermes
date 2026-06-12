@@ -35,7 +35,7 @@
 > ——《傷寒指掌》·下利（SU_B5C5ECAC2_000710，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒貫珠集"], "composition": ["乾薑", "人尿", "附子"], "rule_ids": ["IR_BBAACE965_001238", "IR_SHL_GUANZHU_000623"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "傷寒貫珠集"], "composition": ["乾薑", "人尿", "附子"], "rule_ids": ["IR_BBAACE965_001234", "IR_SHL_GUANZHU_000623"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "人尿五合", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_001033"]}
 
 ## 安全声明

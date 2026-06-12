@@ -4,12 +4,15 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_4E801E45`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 2
+- **Supporting initial rules**: 3
 
 ## 归纳主张
-桂枝加厚朴杏人湯可歸納為太陽病、喘等方證的核心方（支持條文 2 條，跨 2 部書）。
+桂枝加厚朴杏人湯可歸納為太陽病、喘等方證的核心方（支持條文 3 條，跨 2 部書）。
 
 ## 原文证据（节选）
+> 太陽病下之微喘者表未解。故也桂枝加厚朴杏人湯主之。
+> ——《傷寒論辯證廣注》·小青龍湯方（SU_B41512D4B_000590，silver）
+
 > 太陽病下之微喘者。表未解故也。桂枝加厚朴杏人湯主之。
 > ——《傷寒論辯證廣注》·桂枝加葛根湯方（SU_B41512D4B_000415，silver）
 

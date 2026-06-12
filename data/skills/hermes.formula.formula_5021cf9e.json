@@ -9,27 +9,27 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B3E520529_000219",
-    "IR_BB711944D_001171",
-    "IR_CAOSHI_FAWEI_000872",
+    "IR_BB711944D_001170",
+    "IR_CAOSHI_FAWEI_000871",
     "IR_JGYH_ERZHU_000056",
     "IR_JGYH_ERZHU_000248",
-    "IR_JGYL_FANGLUN_000194",
+    "IR_JGYL_FANGLUN_000192",
     "IR_JGYL_JIYI_000070",
     "IR_JGYL_JIYI_000321",
-    "IR_JGYL_TIAOWEN_000194"
+    "IR_JGYL_TIAOWEN_000192"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_B3E520529_000219",
-      "IR_BB711944D_001171",
-      "IR_CAOSHI_FAWEI_000872",
+      "IR_BB711944D_001170",
+      "IR_CAOSHI_FAWEI_000871",
       "IR_JGYH_ERZHU_000056",
       "IR_JGYH_ERZHU_000248",
-      "IR_JGYL_FANGLUN_000194",
+      "IR_JGYL_FANGLUN_000192",
       "IR_JGYL_JIYI_000070",
       "IR_JGYL_JIYI_000321",
-      "IR_JGYL_TIAOWEN_000194"
+      "IR_JGYL_TIAOWEN_000192"
     ],
     "bronze": []
   },
@@ -179,6 +179,6 @@
     "脈數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

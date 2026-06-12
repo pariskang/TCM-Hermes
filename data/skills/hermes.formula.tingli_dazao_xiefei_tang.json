@@ -9,8 +9,8 @@
   "consensus_score": 0.915,
   "supporting_initial_rules": [
     "IR_B11498305_000891",
-    "IR_CAOSHI_FAWEI_001057",
-    "IR_CAOSHI_FAWEI_001155",
+    "IR_CAOSHI_FAWEI_001056",
+    "IR_CAOSHI_FAWEI_001154",
     "IR_JF_SHIYANLU_000196",
     "IR_JF_SHIYANLU_000197",
     "IR_JGYH_ERZHU_000087",
@@ -18,15 +18,15 @@
     "IR_JGYH_ERZHU_000143",
     "IR_JGYL_FANGLUN_000070",
     "IR_JGYL_FANGLUN_000075",
-    "IR_JGYL_FANGLUN_000124",
+    "IR_JGYL_FANGLUN_000123",
     "IR_JGYL_JIYI_000117",
     "IR_JGYL_JIYI_000124",
     "IR_JGYL_JIYI_000211",
     "IR_JGYL_QIANZHU_000085",
-    "IR_JGYL_QIANZHU_000141",
+    "IR_JGYL_QIANZHU_000140",
     "IR_JGYL_TIAOWEN_000070",
     "IR_JGYL_TIAOWEN_000075",
-    "IR_JGYL_TIAOWEN_000124",
+    "IR_JGYL_TIAOWEN_000123",
     "IR_JGYL_XINDIAN_000072",
     "IR_JGYL_XINDIAN_000123",
     "IR_SHL_GUIBEN_001391",
@@ -36,8 +36,8 @@
     "gold": [],
     "silver": [
       "IR_B11498305_000891",
-      "IR_CAOSHI_FAWEI_001057",
-      "IR_CAOSHI_FAWEI_001155",
+      "IR_CAOSHI_FAWEI_001056",
+      "IR_CAOSHI_FAWEI_001154",
       "IR_JF_SHIYANLU_000196",
       "IR_JF_SHIYANLU_000197",
       "IR_JGYH_ERZHU_000087",
@@ -45,15 +45,15 @@
       "IR_JGYH_ERZHU_000143",
       "IR_JGYL_FANGLUN_000070",
       "IR_JGYL_FANGLUN_000075",
-      "IR_JGYL_FANGLUN_000124",
+      "IR_JGYL_FANGLUN_000123",
       "IR_JGYL_JIYI_000117",
       "IR_JGYL_JIYI_000124",
       "IR_JGYL_JIYI_000211",
       "IR_JGYL_QIANZHU_000085",
-      "IR_JGYL_QIANZHU_000141",
+      "IR_JGYL_QIANZHU_000140",
       "IR_JGYL_TIAOWEN_000070",
       "IR_JGYL_TIAOWEN_000075",
-      "IR_JGYL_TIAOWEN_000124",
+      "IR_JGYL_TIAOWEN_000123",
       "IR_JGYL_XINDIAN_000072",
       "IR_JGYL_XINDIAN_000123",
       "IR_SHL_GUIBEN_001391",
@@ -273,7 +273,7 @@
         "葶藶"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001058"
+        "IR_CAOSHI_FAWEI_001057"
       ]
     },
     {
@@ -390,6 +390,6 @@
     "脈數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

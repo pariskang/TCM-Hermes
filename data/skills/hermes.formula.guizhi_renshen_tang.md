@@ -37,9 +37,9 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["下利"], "rule_ids": ["IR_B0B74DF58_000055"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["噦"], "rule_ids": ["IR_B18FAB5FB_000144"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "註解傷寒論"], "composition": ["人參", "桂枝", "甘草", "白朮"], "rule_ids": ["IR_BBAACE965_000737", "IR_SHL_ZHUJIE_000543"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "註解傷寒論"], "composition": ["人參", "桂枝", "甘草", "白朮"], "rule_ids": ["IR_BBAACE965_000735", "IR_SHL_ZHUJIE_000543"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["乾薑", "人參", "桂枝", "甘草", "白朮"], "rule_ids": ["IR_BC91F4420_000049"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["人參", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000425"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["人參", "桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000424"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "人參三兩", "桂枝四兩", "甘草四兩", "白朮三兩"], "rule_ids": ["IR_SHL_GUIBEN_000714"]}
 
 ## 安全声明

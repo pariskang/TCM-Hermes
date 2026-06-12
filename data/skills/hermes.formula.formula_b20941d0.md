@@ -35,9 +35,9 @@
 > ——《傷寒六書》·怫鬱（SU_BBA9FB4A6_001025，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["脈弦"], "rule_ids": ["IR_B3E16D849_001222"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["脈弦"], "rule_ids": ["IR_B3E16D849_001220"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9DD8A693", "book_title": "傷寒九十論", "distinct_conditions": ["不得眠"], "rule_ids": ["IR_B9DD8A693_000077"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["下利"], "rule_ids": ["IR_BB7301DF2_000192", "IR_BB7301DF2_000193", "IR_BB7301DF2_000208", "IR_BB7301DF2_000210"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["下利"], "rule_ids": ["IR_BB7301DF2_000191", "IR_BB7301DF2_000192", "IR_BB7301DF2_000207", "IR_BB7301DF2_000209"]}
 - {"kind": "condition_variant", "book_id": "BOOK_BBA9FB4A6", "book_title": "傷寒六書", "distinct_conditions": ["小便不利"], "rule_ids": ["IR_BBA9FB4A6_000439"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_QJYF", "book_title": "傷寒論(千金翼方)", "distinct_conditions": ["不能食", "傷寒", "喘", "惡寒", "汗出", "潮熱", "短氣", "能食"], "rule_ids": ["IR_SHL_QJYF_000048", "IR_SHL_QJYF_000133", "IR_SHL_QJYF_000144", "IR_SHL_QJYF_000149"]}
 

@@ -35,7 +35,7 @@
 > ——《曹氏傷寒金匱發微合刊》·胸痹心痛短氣病脈證治第九（SU_CAOSHI_FAWEI_001416，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["宿食", "留飲"], "rule_ids": ["IR_CAOSHI_FAWEI_001073"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["宿食", "留飲"], "rule_ids": ["IR_CAOSHI_FAWEI_001072"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_JIYI", "book_title": "金匱玉函要略輯義", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_JGYL_JIYI_000135", "IR_JGYL_JIYI_000136"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈沉遲"], "rule_ids": ["IR_SHL_GUIBEN_001526"]}
 

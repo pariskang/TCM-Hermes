@@ -35,9 +35,9 @@
 > ——《金匱要略心典》·腹滿寒疝宿食病脈證治第十（SU_JGYL_XINDIAN_000678，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["生薑", "當歸"], "rule_ids": ["IR_CAOSHI_FAWEI_001117"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["生薑", "當歸"], "rule_ids": ["IR_CAOSHI_FAWEI_001116"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["橘皮二兩", "生薑五兩", "當歸三兩", "白朮一兩"], "rule_ids": ["IR_SHL_GUIBEN_001179"]}
-- {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["生薑五兩", "當歸三兩"], "rule_ids": ["IR_SHL_GUIBEN_001596"]}
+- {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["生薑五兩", "當歸三兩"], "rule_ids": ["IR_SHL_GUIBEN_001595"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

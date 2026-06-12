@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B54968951", "book_title": "劉河間傷寒醫鑑", "distinct_conditions": ["嘔吐", "渴"], "rule_ids": ["IR_B54968951_000021"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["吐利"], "rule_ids": ["IR_BBAACE965_001387"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["吐利"], "rule_ids": ["IR_BBAACE965_001382"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "註解傷寒論"], "composition": ["乾薑", "人參", "甘草", "白朮"], "rule_ids": ["IR_BC91F4420_000584", "IR_SHL_ZHUJIE_001039"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["乾薑", "人參", "甘草", "白朮", "蜜"], "rule_ids": ["IR_SHL_GUANZHU_000361"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "人參三兩", "甘草三兩", "白朮三兩"], "rule_ids": ["IR_SHL_GUIBEN_001236"]}

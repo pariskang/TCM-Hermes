@@ -717,7 +717,43 @@
           "evidence_span": "下利後，身疼痛，清便自調者，急當救表，宜桂枝湯發汗。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_SHL_SONGBEN_000511",
+          "composition": [
+            "厚朴二兩",
+            "杏仁五十個"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SONGBEN_000512",
+          "composition": [
+            "附子一枚",
+            "白朮四兩"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SONGBEN_000513",
+          "composition": [
+            "桂枝",
+            "芍藥"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SONGBEN_000514",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SONGBEN_000516",
+          "composition": [
+            "桂枝",
+            "茯苓",
+            "白朮"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "辨太陽病脈證並治上第五",
@@ -1128,7 +1164,7 @@
       "mentions": 17,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_FANGLUN_000229",
+          "rule_id": "IR_JGYL_FANGLUN_000227",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1141,7 +1177,7 @@
           "evidence_span": "下利腹脹滿，身體疼痛者，先溫其裏，乃攻其表。溫裏宜四逆湯，攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_JGYL_FANGLUN_000256",
+          "rule_id": "IR_JGYL_FANGLUN_000254",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1156,7 +1192,7 @@
           "evidence_span": "師曰：婦人得平脈，陰脈小弱，其人渴，不能食，無寒熱，名妊娠，桂枝湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_FANGLUN_000313",
+          "rule_id": "IR_JGYL_FANGLUN_000309",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "徐徐抱解，不得截繩，上下安被臥之，一人以腳踏其兩肩，手少挽其髮，常弦弦勿縱之；一人以手按據胸上，數動之；一人摩捋臂脛，屈伸之。若已僵，但漸漸強屈之，并按其腹，如此一炊頃，氣從口出，呼吸眼開，而猶引按莫置，亦勿苦勞之，須臾，可少與桂枝湯及粥清，含與之，令濡喉，漸漸能嚥，及稍止，若向令兩人以管吹其兩耳朵，此法最善，無不活也"
@@ -1186,7 +1222,7 @@
       "mentions": 16,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000229",
+          "rule_id": "IR_JGYL_TIAOWEN_000227",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1199,7 +1235,7 @@
           "evidence_span": "下利腹脹滿，身體疼痛者，先溫其裏，乃攻其表。溫裏宜四逆湯，攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_JGYL_TIAOWEN_000256",
+          "rule_id": "IR_JGYL_TIAOWEN_000254",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -1788,7 +1824,7 @@
           "evidence_span": "卻與桂枝湯則愈。"
         },
         {
-          "rule_id": "IR_BB711944D_001083",
+          "rule_id": "IR_BB711944D_001082",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -1798,13 +1834,13 @@
           "evidence_span": "表解。乃可攻痞。解表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001143",
+          "rule_id": "IR_BB711944D_001142",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "其外不解者。尚未可攻。當先解其外。屬桂枝湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001159",
+          "rule_id": "IR_BB711944D_001158",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -1815,7 +1851,7 @@
           "evidence_span": "仍在表也。當須發汗。若頭痛者必衄。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BB711944D_001252",
+          "rule_id": "IR_BB711944D_001251",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -2063,19 +2099,19 @@
       "mentions": 12,
       "indication_rules": [
         {
-          "rule_id": "IR_BB7301DF2_000119",
+          "rule_id": "IR_BB7301DF2_000118",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "服桂枝湯。而反煩不解者。當先刺風池風府。卻與桂枝湯服之。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000196",
+          "rule_id": "IR_BB7301DF2_000195",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "服桂枝湯。煩不解者。宜刺風池風府。卻與桂枝湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000262",
+          "rule_id": "IR_BB7301DF2_000261",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -2085,7 +2121,7 @@
           "evidence_span": "自汗出而不愈者。此衛氣不和也。先其時發汗則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BB7301DF2_000294",
+          "rule_id": "IR_BB7301DF2_000293",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -4423,7 +4459,7 @@
           "evidence_span": "陽明病，脈遲，汗出多，微惡寒者，表未解也，可發汗，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_LAISU_000579",
+          "rule_id": "IR_SHL_LAISU_000578",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -5388,6 +5424,38 @@
           "composition": [
             "桂枝"
           ]
+        },
+        {
+          "rule_id": "IR_B8E444005_000271",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_B8E444005_000281",
+          "composition": [
+            "桂枝",
+            "芍藥"
+          ]
+        },
+        {
+          "rule_id": "IR_B8E444005_000285",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_B8E444005_000288",
+          "composition": [
+            "厚朴二兩",
+            "杏仁五十個"
+          ]
+        },
+        {
+          "rule_id": "IR_B8E444005_000293",
+          "composition": [
+            "芍藥三兩"
+          ]
         }
       ],
       "sample_quotes": [
@@ -5686,7 +5754,29 @@
           "evidence_span": "傷寒六七日發熱微惡寒肢節煩疼微嘔心下支結外證未去者柴胡桂枝湯主之太陽病發熱惡寒骨節疼痛此發熱惡寒肢節煩痛者以太陽之外證未去而相火旺於半表故惡寒不甚甲木侵克戊土土主四肢故痛在四肢素問太陰陽明論四肢皆秉氣於胃胃與四肢氣脈流通則疼痛不作胃病而氣不四達四肢經絡壅滯不行是以痛生節者四肢之溪穀經氣鬱遏溪穀填塞故痛在骨節相火鬱發是以"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_BCA15D57E_000196",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_BCA15D57E_000198",
+          "composition": [
+            "厚朴二兩",
+            "杏仁五十枚"
+          ]
+        },
+        {
+          "rule_id": "IR_BCA15D57E_000200",
+          "composition": [
+            "桂枝",
+            "茯苓",
+            "白朮"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "太陽中風桂枝湯證",
@@ -5775,7 +5865,7 @@
           "evidence_span": "舌苔微白兼紅。或淡紅而潤。此肺腎虛寒而感外邪也。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000183",
+          "rule_id": "IR_B5C5ECAC2_000182",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -5786,13 +5876,13 @@
           "evidence_span": "心煩。微惡寒。（以上俱似桂枝症）腳攣急。（此一症與桂枝獨異乃陰虛之象）反與桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000188",
+          "rule_id": "IR_B5C5ECAC2_000187",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000191",
+          "rule_id": "IR_B5C5ECAC2_000190",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -5802,7 +5892,7 @@
           "evidence_span": "當先解表。表解乃可攻痞。解表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000249",
+          "rule_id": "IR_B5C5ECAC2_000248",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -5813,13 +5903,13 @@
           "evidence_span": "仲景論云。若頭痛者。必衄。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000255",
+          "rule_id": "IR_B5C5ECAC2_000254",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "邪從血下而解也。其外不解者。當先解其外。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5C5ECAC2_000271",
+          "rule_id": "IR_B5C5ECAC2_000270",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6157,7 +6247,7 @@
           "evidence_span": "是中風之陽邪未去。熱鬱而煩也。可更發其微似汗則解矣。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000553",
+          "rule_id": "IR_SHL_SUYUAN_000552",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -6168,13 +6258,13 @@
           "evidence_span": "心煩。微惡寒。腳攣急。反與桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000557",
+          "rule_id": "IR_SHL_SUYUAN_000556",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "寒在下焦也。兼證如此。則又不可以桂枝湯汗解而愈虛其陽氣矣。若反與桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000559",
+          "rule_id": "IR_SHL_SUYUAN_000558",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6190,7 +6280,7 @@
           "evidence_span": "腳拘攣之正治也。若不察其微惡寒。腳拘攣之亡陽虛證。已經反與桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000650",
+          "rule_id": "IR_SHL_SUYUAN_000649",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6200,13 +6290,13 @@
           "evidence_span": "微惡寒者。表未解也。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000653",
+          "rule_id": "IR_SHL_SUYUAN_000652",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "是以知太陽之表證尚未解也。故云可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000677",
+          "rule_id": "IR_SHL_SUYUAN_000676",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -6217,13 +6307,13 @@
           "evidence_span": "脈實者宜下之。脈浮虛者宜發汗。下之與大承氣湯。發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_000679",
+          "rule_id": "IR_SHL_SUYUAN_000678",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故宜與桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001052",
+          "rule_id": "IR_SHL_SUYUAN_001050",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -6236,7 +6326,7 @@
           "evidence_span": "太陰病。脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001054",
+          "rule_id": "IR_SHL_SUYUAN_001052",
           "release_level": "rejected",
           "conditions": {
             "pulse": [
@@ -6246,7 +6336,7 @@
           "evidence_span": "故脈浮猶屬太陽也。即太陽上編陽浮陰弱之義。故亦宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001059",
+          "rule_id": "IR_SHL_SUYUAN_001057",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6260,7 +6350,7 @@
           "evidence_span": "既不能若少陰證之麻黃可與附子同用。若誤用之。適足以敗衛亡陽。況中風原屬桂枝湯之本證乎。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001096",
+          "rule_id": "IR_SHL_SUYUAN_001094",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6270,7 +6360,7 @@
           "evidence_span": "吐利止而身痛不休者。當消息和解其外。宜桂枝湯小和之。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001098",
+          "rule_id": "IR_SHL_SUYUAN_001096",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6280,7 +6370,7 @@
           "evidence_span": "後身疼痛。清便自調。急當救表。宜用桂枝湯者。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001277",
+          "rule_id": "IR_SHL_SUYUAN_001273",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6290,13 +6380,68 @@
           "evidence_span": "先溫其裡。乃攻其表。溫裡宜四逆湯。攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_SUYUAN_001280",
+          "rule_id": "IR_SHL_SUYUAN_001276",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "以陰經無陽之證。非比陽經表實之寒邪。故不宜以麻黃湯更亡其陽。而反宜以桂枝湯通行其陽氣。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_SHL_SUYUAN_000070",
+          "composition": [
+            "桂枝"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000096",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000142",
+          "composition": [
+            "厚朴二兩",
+            "杏仁五十個"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000150",
+          "composition": [
+            "桂枝",
+            "芍藥"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000151",
+          "composition": [
+            "桂枝",
+            "芍藥",
+            "附子"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000528",
+          "composition": [
+            "桂枝",
+            "茯苓",
+            "白朮"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_000659",
+          "composition": [
+            "葛根三兩"
+          ]
+        },
+        {
+          "rule_id": "IR_SHL_SUYUAN_001075",
+          "composition": [
+            "芍藥三兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "陰陽發病六經統論",
@@ -6517,13 +6662,13 @@
           "evidence_span": "陽明病脈遲汗出多。微惡寒者。表未解也可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000266",
+          "rule_id": "IR_B5FF1CA1B_000265",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000390",
+          "rule_id": "IR_B5FF1CA1B_000389",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -6536,7 +6681,7 @@
           "evidence_span": "太陰病脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000501",
+          "rule_id": "IR_B5FF1CA1B_000500",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6549,7 +6694,7 @@
           "evidence_span": "下利後身疼痛清便自調者。急當救表宜桂枝湯發汗。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000543",
+          "rule_id": "IR_B5FF1CA1B_000542",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -6563,7 +6708,7 @@
           "evidence_span": "心下痞惡寒者表未解也。不可攻痞當先解表。表解乃可攻痞。解表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000687",
+          "rule_id": "IR_B5FF1CA1B_000686",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -6573,7 +6718,7 @@
           "evidence_span": "吐利止而身痛不休者。當消息和解其外宜桂枝湯小和之。"
         },
         {
-          "rule_id": "IR_B5FF1CA1B_000788",
+          "rule_id": "IR_B5FF1CA1B_000787",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "仍屬桂枝湯證矣。"
@@ -7604,7 +7749,7 @@
           "evidence_span": "陽明病，脈遲，汗出多，微惡寒者，表未解也，可發汗，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_LUNZHU_000575",
+          "rule_id": "IR_SHL_LUNZHU_000574",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -7617,7 +7762,7 @@
           "evidence_span": "太陰病脈浮者，可發汗，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_SHL_LUNZHU_000576",
+          "rule_id": "IR_SHL_LUNZHU_000575",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8126,7 +8271,7 @@
           "evidence_span": "微惡寒者。表未解也。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001239",
+          "rule_id": "IR_B3E16D849_001237",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8136,7 +8281,7 @@
           "evidence_span": "此自汗而兼小便不利者。當分欲食不欲食。欲食者。宜桂枝湯、羌活湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001279",
+          "rule_id": "IR_B3E16D849_001277",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8146,7 +8291,7 @@
           "evidence_span": "若有蓄血症。而外不解。亦未可便用抵當。宜桂枝湯解外。"
         },
         {
-          "rule_id": "IR_B3E16D849_001469",
+          "rule_id": "IR_B3E16D849_001467",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8156,13 +8301,13 @@
           "evidence_span": "仲景云。當先解表。表解乃可攻痞。解表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001525",
+          "rule_id": "IR_B3E16D849_001523",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "【目】樓全善曰。酒客不可與桂枝湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001574",
+          "rule_id": "IR_B3E16D849_001572",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8175,7 +8320,7 @@
           "evidence_span": "太陰病。脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001596",
+          "rule_id": "IR_B3E16D849_001594",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8188,13 +8333,13 @@
           "evidence_span": "太陰病。脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B3E16D849_001824",
+          "rule_id": "IR_B3E16D849_001822",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "主治者。桂枝湯。升陽驅邪之用。仲師他條所言攻表宜桂枝湯者。"
         },
         {
-          "rule_id": "IR_B3E16D849_001857",
+          "rule_id": "IR_B3E16D849_001855",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8460,13 +8605,13 @@
           "evidence_span": "不可下也。下之為逆。欲解外者。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000063",
+          "rule_id": "IR_B41512D4B_000062",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "於治法為不順也。若下之而外證仍未解者。仍當解外。故云宜桂枝湯主之也。"
         },
         {
-          "rule_id": "IR_B41512D4B_000066",
+          "rule_id": "IR_B41512D4B_000065",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -8476,13 +8621,13 @@
           "evidence_span": "故令不愈今脈浮。故知在外。當須解外。則愈宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000069",
+          "rule_id": "IR_B41512D4B_000068",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "營衛和。則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000071",
+          "rule_id": "IR_B41512D4B_000070",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8492,13 +8637,13 @@
           "evidence_span": "自汗出而不愈者。此衛氣不和也。先其時發汗則愈。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000073",
+          "rule_id": "IR_B41512D4B_000072",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000075",
+          "rule_id": "IR_B41512D4B_000074",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8508,7 +8653,7 @@
           "evidence_span": "須乘其未衄之時。宜用桂枝湯以汗解之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000078",
+          "rule_id": "IR_B41512D4B_000077",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8521,7 +8666,7 @@
           "evidence_span": "傷寒發汗解半日許。復煩。脈浮數者。可更發汗宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000080",
+          "rule_id": "IR_B41512D4B_000079",
           "release_level": "silver",
           "conditions": {
             "symptoms": [
@@ -8534,13 +8679,13 @@
           "evidence_span": "此為營弱衛強。故使汗出。欲救邪風者。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000083",
+          "rule_id": "IR_B41512D4B_000082",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "若酒客病。不可與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000094",
+          "rule_id": "IR_B41512D4B_000093",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8550,7 +8695,7 @@
           "evidence_span": "（附後例）太陽病。初服桂枝湯反煩不解者。先刺風池風府卻與桂枝湯則愈（服桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000095",
+          "rule_id": "IR_B41512D4B_000094",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8563,7 +8708,7 @@
           "evidence_span": "服桂枝湯。大汗出。脈洪大者。與桂枝湯如前法。"
         },
         {
-          "rule_id": "IR_B41512D4B_000099",
+          "rule_id": "IR_B41512D4B_000098",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8577,7 +8722,7 @@
           "evidence_span": "（桂枝湯從今從俗。成注云。大汗出脈洪大不渴邪氣猶在表也。可更與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000100",
+          "rule_id": "IR_B41512D4B_000099",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8590,13 +8735,13 @@
           "evidence_span": "因上條大汗出後。脈洪大。雖與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000109",
+          "rule_id": "IR_B41512D4B_000108",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "止加茯苓白朮。以利小便燥停飲也。成注云。與桂枝湯以解外。"
         },
         {
-          "rule_id": "IR_B41512D4B_000111",
+          "rule_id": "IR_B41512D4B_000110",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8609,19 +8754,19 @@
           "evidence_span": "自汗出小便數。心煩微惡寒。腳攣急。反與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000117",
+          "rule_id": "IR_B41512D4B_000116",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "（此條亦系真寒證。以其證。似陽旦。故誤與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000155",
+          "rule_id": "IR_B41512D4B_000154",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "是風寒兩傷也。風兼寒。寒兼風。雖欲與桂枝湯解肌以祛風。"
         },
         {
-          "rule_id": "IR_B41512D4B_000164",
+          "rule_id": "IR_B41512D4B_000163",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8634,7 +8779,7 @@
           "evidence_span": "（重出例）太陽病外證未解脈浮弱者當以汗解宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000168",
+          "rule_id": "IR_B41512D4B_000167",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8644,7 +8789,7 @@
           "evidence_span": "太陽病外證未解者。不可下也。下之為逆。欲解外者宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000169",
+          "rule_id": "IR_B41512D4B_000168",
           "release_level": "silver",
           "conditions": {
             "pulse": [
@@ -8654,7 +8799,7 @@
           "evidence_span": "而復下之脈浮者。不愈（云云至）。當須解外則愈。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000187",
+          "rule_id": "IR_B41512D4B_000186",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8664,13 +8809,13 @@
           "evidence_span": "病常自汗出者。此為營氣和（云云至）營衛和則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000188",
+          "rule_id": "IR_B41512D4B_000187",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "病患藏無他病（云云至）先其時發汗則愈。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000192",
+          "rule_id": "IR_B41512D4B_000191",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8685,7 +8830,7 @@
           "evidence_span": "傷寒不大便六七日（云云至）。若頭痛者必衄。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000193",
+          "rule_id": "IR_B41512D4B_000192",
           "release_level": "silver",
           "conditions": {
             "disease": [
@@ -8695,13 +8840,13 @@
           "evidence_span": "傷寒發汗解半日許（云云至）。可更發汗。宜桂枝湯主之。"
         },
         {
-          "rule_id": "IR_B41512D4B_000295",
+          "rule_id": "IR_B41512D4B_000294",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000299",
+          "rule_id": "IR_B41512D4B_000298",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8711,13 +8856,13 @@
           "evidence_span": "用小柴胡湯。然此湯。非太陽病當用之藥。愚以表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000307",
+          "rule_id": "IR_B41512D4B_000306",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "千金云。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000308",
+          "rule_id": "IR_B41512D4B_000307",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8734,19 +8879,19 @@
           "evidence_span": "（重出例）太陽病發熱汗出者。此為營弱衛強。故使汗出欲救邪風者。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000318",
+          "rule_id": "IR_B41512D4B_000317",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "上湯不宜輕用也。內台方議或問曰。建中湯方。與桂枝湯同。"
         },
         {
-          "rule_id": "IR_B41512D4B_000333",
+          "rule_id": "IR_B41512D4B_000332",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "補亡論郭白云。采千金方云。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000441",
+          "rule_id": "IR_B41512D4B_000440",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -8757,7 +8902,7 @@
           "evidence_span": "發熱惡寒甚。乃太陽表證在也。仲景法。宜更用桂枝湯以解肌。"
         },
         {
-          "rule_id": "IR_B41512D4B_000444",
+          "rule_id": "IR_B41512D4B_000443",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8767,7 +8912,7 @@
           "evidence_span": "表解。乃可攻痞。解表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000447",
+          "rule_id": "IR_B41512D4B_000446",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8780,7 +8925,7 @@
           "evidence_span": "俱不解也。但其時惡寒甚。不可攻痞。當先與桂枝湯以解表邪。"
         },
         {
-          "rule_id": "IR_B41512D4B_000451",
+          "rule_id": "IR_B41512D4B_000450",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -8793,7 +8938,7 @@
           "evidence_span": "或問前條心下痞。惡寒。當先解表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000691",
+          "rule_id": "IR_B41512D4B_000689",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -8803,7 +8948,7 @@
           "evidence_span": "脈浮虛者。宜發汗下之。與大承氣湯。發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000694",
+          "rule_id": "IR_B41512D4B_000692",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8813,7 +8958,7 @@
           "evidence_span": "不過是煩熱而非潮熱。其邪未全入府。猶在於經。故云宜桂枝湯以透發其汗俟。"
         },
         {
-          "rule_id": "IR_B41512D4B_000774",
+          "rule_id": "IR_B41512D4B_000772",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8830,7 +8975,7 @@
           "evidence_span": "）陽明病脈遲。汗出多微惡寒者。表未解也。可發汗宜桂枝湯（此條言陽明病。"
         },
         {
-          "rule_id": "IR_B41512D4B_000776",
+          "rule_id": "IR_B41512D4B_000774",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8840,7 +8985,7 @@
           "evidence_span": "微惡寒者。太陽在表之風邪未盡解也。治宜桂枝湯以解肌發汗。"
         },
         {
-          "rule_id": "IR_B41512D4B_000793",
+          "rule_id": "IR_B41512D4B_000791",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8850,7 +8995,7 @@
           "evidence_span": "病患煩熱汗出則解。又如瘧狀（云云。）下之與大承氣湯。發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000936",
+          "rule_id": "IR_B41512D4B_000934",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -8863,13 +9008,13 @@
           "evidence_span": "太陰病脈浮者。可發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_000949",
+          "rule_id": "IR_B41512D4B_000947",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "即胃實急宜再下。與桂枝湯以和表。"
         },
         {
-          "rule_id": "IR_B41512D4B_001076",
+          "rule_id": "IR_B41512D4B_001074",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -8879,25 +9024,40 @@
           "evidence_span": "乃攻其表溫裡。宜四逆湯。攻表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_001138",
+          "rule_id": "IR_B41512D4B_001136",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "成注云。與桂枝湯以解未盡之表邪。"
         },
         {
-          "rule_id": "IR_B41512D4B_001174",
+          "rule_id": "IR_B41512D4B_001172",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "不解者。先刺風池。風府卻。與桂枝湯。"
         },
         {
-          "rule_id": "IR_B41512D4B_001175",
+          "rule_id": "IR_B41512D4B_001173",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "先刺風池風府。以通太陽之經。而泄風氣。卻與桂枝湯。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_B41512D4B_000109",
+          "composition": [
+            "桂枝",
+            "茯苓",
+            "白朮"
+          ]
+        },
+        {
+          "rule_id": "IR_B41512D4B_000941",
+          "composition": [
+            "芍藥三兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "纂注傷寒例",
@@ -9071,6 +9231,25 @@
             ]
           },
           "evidence_span": "太陽病，頭痛，發熱，汗出，惡風者，桂枝湯主之。"
+        },
+        {
+          "rule_id": "IR_SHL_GUANZHU_000011",
+          "release_level": "silver",
+          "conditions": {
+            "disease": [
+              "太陽病",
+              "中風",
+              "傷寒"
+            ],
+            "symptoms": [
+              "頭痛",
+              "發熱",
+              "汗出",
+              "惡風",
+              "無汗"
+            ]
+          },
+          "evidence_span": "太陽病，頭痛，發熱，汗出，惡風者，桂枝湯主之。 太陽受邪，無論中風傷寒，俱有頭痛，俱有發熱，但傷於寒，則表實無汗，傷於風，則表疏自汗，是頭痛發熱者，傷寒所同，而汗出惡風者，中風所獨也，中風必以風劑治之，云桂枝湯主之者，見非他藥所得而更者耳。"
         },
         {
           "rule_id": "IR_SHL_GUANZHU_000012",
@@ -10031,7 +10210,54 @@
           "evidence_span": "身疼痛。清便自調者。急當救表。宜桂枝湯發汗。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_B1CAC3ADF_000108",
+          "composition": [
+            "厚朴二兩",
+            "杏仁五十個"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000111",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000117",
+          "composition": [
+            "桂枝",
+            "芍藥"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000118",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000135",
+          "composition": [
+            "桂枝",
+            "茯苓",
+            "白朮"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000351",
+          "composition": [
+            "桂枝"
+          ]
+        },
+        {
+          "rule_id": "IR_B1CAC3ADF_000732",
+          "composition": [
+            "芍藥三兩"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "傷寒例第三",
@@ -10270,13 +10496,13 @@
           "evidence_span": "此為營弱衛強。故使汗出。欲救邪風者。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000297",
+          "rule_id": "IR_CAOSHI_FAWEI_000296",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "燒針令發汗。此本桂枝湯證。先服桂枝湯不解。針風池風府卻與桂枝湯即愈之證也。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000423",
+          "rule_id": "IR_CAOSHI_FAWEI_000422",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10287,7 +10513,7 @@
           "evidence_span": "加杏仁以宣肺氣。以肺為主氣之藏。喘家為表未開而肺氣鬱也。此可知氣上衝之可與桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000431",
+          "rule_id": "IR_CAOSHI_FAWEI_000430",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10297,7 +10523,7 @@
           "evidence_span": "俾水氣悉從汗解。然後可徐圖攻痞。此亦先解表後攻其裏之例也。然則本條言解表宜桂枝湯者。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000605",
+          "rule_id": "IR_CAOSHI_FAWEI_000604",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10307,7 +10533,7 @@
           "evidence_span": "微惡寒者。表未解也。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000615",
+          "rule_id": "IR_CAOSHI_FAWEI_000614",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -10318,7 +10544,7 @@
           "evidence_span": "脈實者宜下之。脈虛浮者宜發汗。下之與大承氣湯。發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000644",
+          "rule_id": "IR_CAOSHI_FAWEI_000643",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10330,7 +10556,7 @@
           "evidence_span": "脇下硬滿。不大便而嘔，服小柴胡湯湒然汗出而愈者。亦有汗出多而惡寒。宜桂枝湯發其汗者。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000690",
+          "rule_id": "IR_CAOSHI_FAWEI_000689",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10343,7 +10569,7 @@
           "evidence_span": "太陰病。脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000691",
+          "rule_id": "IR_CAOSHI_FAWEI_000690",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -10353,7 +10579,7 @@
           "evidence_span": "脈浮緩可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000868",
+          "rule_id": "IR_CAOSHI_FAWEI_000867",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10363,7 +10589,7 @@
           "evidence_span": "先溫其晨。乃攻其氣。溫裏宜四逆湯。攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000883",
+          "rule_id": "IR_CAOSHI_FAWEI_000882",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10373,7 +10599,7 @@
           "evidence_span": "吐利止而身痛不休者當消息和解其外。宜桂枝湯小和之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000934",
+          "rule_id": "IR_CAOSHI_FAWEI_000933",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10383,7 +10609,7 @@
           "evidence_span": "其人因致冒。終以自汗解者。亦有下後氣上衝。而仍宜桂枝湯者。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000948",
+          "rule_id": "IR_CAOSHI_FAWEI_000947",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10393,7 +10619,7 @@
           "evidence_span": "小便少。氣上衝。此與太陽篇下後氣上衝。可與桂枝湯如前法同。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000983",
+          "rule_id": "IR_CAOSHI_FAWEI_000982",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10403,7 +10629,7 @@
           "evidence_span": "不當用豬苓五苓之方治治之。仲師主以百合洗方。已食以不用鹵豉之蒸餅。其意與服桂枝湯後之啜熱粥略同。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_000991",
+          "rule_id": "IR_CAOSHI_FAWEI_000990",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10414,7 +10640,7 @@
           "evidence_span": "時發熱自汗出而不愈者。此衛氣不和也。先其時發汗則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001043",
+          "rule_id": "IR_CAOSHI_FAWEI_001042",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10433,7 +10659,7 @@
           "evidence_span": "咳逆之證有痰飲，有風邪，有水氣，所以決定為肺壅者，要有特異之脈證，肺壅之死證，固以吐膿血為最後一步，要其最初病因則甚輕，揆仲師所舉脈證，特為中風之證。其脈浮，發熱自汗惡寒，此宜桂枝湯以發之者也，今曰寸口脈浮而數，泛則為風，數則為熱，則汗出，數則惡寒，風中於衛，呼氣不入，熱過於營，吸而不出其與太陽中風發熱汗出鼻鳴乾嘔者何"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001069",
+          "rule_id": "IR_CAOSHI_FAWEI_001068",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10444,7 +10670,7 @@
           "evidence_span": "傷寒論此節發端，無發汗後三字，盡衍文也，燒針令發汗，本桂枝湯證，先服桂枝湯不解，刺風池風府，卻與桂枝湯則愈之證，乃針後不用桂枝湯，風邪未能外泄，寒氣乘虛而閉針孔，夫風池本少陽之穴，風府以營脈之穴而屬少陰，二穴為寒邪所遏，則少陽抗熱，挾少陰衛氣，一時暴奔而上，此所以針處核起而赤，必發奔豚也，故仲師救逆之法先炙核上，與桂枝"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001095",
+          "rule_id": "IR_CAOSHI_FAWEI_001094",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10458,7 +10684,7 @@
           "evidence_span": "風邪挾寒，由肌腠入，則脾陽為之不運，表受風寒者，多不欲食，此殺氣所由停也，殺氣停則濁不行，故繞臍痛，此寒積也。治此者即宜四逆理中，否則亦當溫下，若誤用寒涼，則氣必上衝，所以然者，宿食去而風寒不去也，按太陽篇下之後，氣上衝者，可與桂枝湯，不上衝者，不得與之，所以然者，氣上衝，則負邪不因下而陷，故仍宜村枝湯，若不上衝而心下"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001233",
+          "rule_id": "IR_CAOSHI_FAWEI_001232",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10477,7 +10703,7 @@
           "evidence_span": "中風之證，受病於肌腠，內困於脾陽，則用桂枝湯助脾陽，以解肌，使汗從腠理外泄，脾流血而主肌肉，為血絡凝聚之處，故風變肌理者，宜桂枝湯，所以達營變也，風從皮毛入，邪薄肌肉，遏其營分，是生表熱，惟黃汗一證，所以異於中風者，足脛必冷，所以然者，提變於上而下通也，中風證有汗，黃汗證亦有汗，或食已汗出，或暮夜盜汗，皆為營熱外達，或"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001397",
+          "rule_id": "IR_CAOSHI_FAWEI_001396",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -10492,7 +10718,7 @@
           "evidence_span": "師曰，婦人得平脈，陰脈中弱，其人渴，不能食，無寒熱，名妊娠，桂枝湯主之，於法六十日當有此證，設有醫治逆者，卻一月加吐下則絕之。"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001416",
+          "rule_id": "IR_CAOSHI_FAWEI_001415",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -10507,7 +10733,7 @@
           "evidence_span": "證情由於血虛自當以養血為主，是故產後血虛，不惟桂枝去芍藥加龍骨牡蠣為治標之法，而初非正治，即仲師小柴胡湯，亦為大便堅嘔不能食而設，亦非通治鬱冒，鬱冒之脈所以微弱者，亦由血虛，血虛則肝陰虧而膽液生燥，少陽之氣上逆，則嘔不能食，嘔則胃燥，津液不能下溉大腸而大便堅。故治此者，但需小柴胡湯以平膽胃之逆，使膈上津液足以下潤大腸，"
         },
         {
-          "rule_id": "IR_CAOSHI_FAWEI_001469",
+          "rule_id": "IR_CAOSHI_FAWEI_001466",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -10741,6 +10967,18 @@
           "evidence_span": "」一條，顯非仲聖原文，不論。）更未嘗曰：「太陽病，傷寒，麻黃湯主之。」然而後人聰敏，能合「太陽病，發熱，汗出，惡風，脈緩者，名為中風。」「太陽病，頭痛，發熱，汗出，惡風，桂枝湯主之。"
         },
         {
+          "rule_id": "IR_JF_SHIYANLU_000042",
+          "release_level": "bronze",
+          "conditions": {
+            "disease": [
+              "太陽中風",
+              "太陽傷寒",
+              "溫病"
+            ]
+          },
+          "evidence_span": "夫精者，津之聚於一處者也。津者，精之散於周身者也。故精與津原屬一而二，二而一之物。其人平日既不藏精，即是津液先傷，及其外受邪風之侵，乃不為太陽中風，亦不為太陽傷寒，而獨為太陽溫病，乃不宜乎桂枝湯，亦不宜乎麻黃湯，而獨宜乎葛根湯。"
+        },
+        {
           "rule_id": "IR_JF_SHIYANLU_000157",
           "release_level": "rejected",
           "conditions": {},
@@ -10792,7 +11030,7 @@
       "mentions": 14,
       "indication_rules": [
         {
-          "rule_id": "IR_JG_FANGGEKUO_000033",
+          "rule_id": "IR_JG_FANGGEKUO_000032",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11016,7 +11254,7 @@
       "mentions": 31,
       "indication_rules": [
         {
-          "rule_id": "IR_JGYL_QIANZHU_000260",
+          "rule_id": "IR_JGYL_QIANZHU_000257",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11026,7 +11264,7 @@
           "evidence_span": "陽氣外泄。則裡寒轉增也。）溫裡宜四逆湯。攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000273",
+          "rule_id": "IR_JGYL_QIANZHU_000270",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11038,7 +11276,7 @@
           "evidence_span": "如頭痛項強。惡寒惡風。為太陽證。自汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000292",
+          "rule_id": "IR_JGYL_QIANZHU_000289",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11048,7 +11286,7 @@
           "evidence_span": "）名（曰）妊娠。（凡一切溫涼補瀉之劑。皆未盡善。惟以）桂枝湯主之。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000293",
+          "rule_id": "IR_JGYL_QIANZHU_000290",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11058,7 +11296,7 @@
           "evidence_span": "夫脈無故而身有病。而又非寒熱邪氣。則無可施治。惟宜桂枝湯和調陰陽而已。"
         },
         {
-          "rule_id": "IR_JGYL_QIANZHU_000368",
+          "rule_id": "IR_JGYL_QIANZHU_000363",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "呼吸眼開。而猶引按莫置。亦勿苦勞之。須臾可少與桂枝湯。"
@@ -11115,13 +11353,13 @@
           "evidence_span": "心煩。微惡寒。腳攣急。反與桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000017",
+          "rule_id": "IR_B2EB248E3_000016",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "血脈凝泣而縮急也。當其時。急宜溫經散寒。反與桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000022",
+          "rule_id": "IR_B2EB248E3_000021",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -11132,19 +11370,19 @@
           "evidence_span": "琥按上方。治傷寒胃腑實熱藥也。今取以治中寒者。以前證誤與桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000044",
+          "rule_id": "IR_B2EB248E3_000043",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "救表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000049",
+          "rule_id": "IR_B2EB248E3_000048",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "為在表有邪。此非裡寒身如被杖之比。急當救表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000051",
+          "rule_id": "IR_B2EB248E3_000050",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11154,19 +11392,19 @@
           "evidence_span": "不可盡以為表邪。又有裡寒誤下。利不止而身疼痛者。故與桂枝湯證。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000053",
+          "rule_id": "IR_B2EB248E3_000052",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "知不在裡。仍在表。當發其汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000057",
+          "rule_id": "IR_B2EB248E3_000056",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "內台方議云。與桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000174",
+          "rule_id": "IR_B2EB248E3_000172",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11176,7 +11414,7 @@
           "evidence_span": "乃攻其表。溫裡宜四逆湯。攻表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000181",
+          "rule_id": "IR_B2EB248E3_000179",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11189,7 +11427,7 @@
           "evidence_span": "又厥陰病腹脹滿身體疼痛者。先溫其裡。乃攻其表。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B2EB248E3_000204",
+          "rule_id": "IR_B2EB248E3_000202",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -11202,7 +11440,27 @@
           "evidence_span": "又辯太陰證云。太陰病脈浮。可發汗。宜桂枝湯。"
         }
       ],
-      "compositions": [],
+      "compositions": [
+        {
+          "rule_id": "IR_B2EB248E3_000004",
+          "composition": [
+            "附子一枚"
+          ]
+        },
+        {
+          "rule_id": "IR_B2EB248E3_000007",
+          "composition": [
+            "桂枝",
+            "芍藥"
+          ]
+        },
+        {
+          "rule_id": "IR_B2EB248E3_000008",
+          "composition": [
+            "附子一枚"
+          ]
+        }
+      ],
       "sample_quotes": [
         {
           "chapter": "辯太陽陽明病中寒脈證並治法",
@@ -11420,7 +11678,7 @@
           "evidence_span": "【闡釋】　太陽病，頭項強痛而惡寒、脈浮，本應從表解，如誤用下法，病若不因下而變證，其脈浮、頭痛等之病證依然，病者自覺氣上衝者，知正氣未衰，邪猶在表，可與桂枝湯，用前之啜粥微汗法治之。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000132",
+          "rule_id": "IR_B0B74DF58_000131",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -11430,7 +11688,7 @@
           "evidence_span": "【闡釋】　本條為汗解後，表邪猶未盡，因而復煩，脈浮數者，邪氣仍在表之證，故可更發汗，以祛表邪。但已汗復汗，故不宜麻黃湯之峻發，而宜桂枝湯之緩發也。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000181",
+          "rule_id": "IR_B0B74DF58_000180",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11445,13 +11703,13 @@
           "evidence_span": "**二十九、傷寒大下後，復發汗，心下痞，惡寒者，表未解也，不可攻痞**(即治療痞證。痞：痞塊、痞積，腹中可觸摸之硬塊，傷寒病等會發生此症狀。)**，當先解表，表解乃可攻痞，解表宜桂枝湯，攻痞宜大黃黃連瀉心湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000238",
+          "rule_id": "IR_B0B74DF58_000237",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "此小柴胡與桂枝湯兩方各半合劑而成。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000246",
+          "rule_id": "IR_B0B74DF58_000245",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -11462,7 +11720,7 @@
           "evidence_span": ")**不止，身疼痛者，急當救裏；**（復）〔後〕**身疼痛，清便**（就是解大便。）**自調者，急當救表。救裏宜四逆湯，救表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000299",
+          "rule_id": "IR_B0B74DF58_000298",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -11475,7 +11733,7 @@
           "evidence_span": "**八、服桂枝湯，大汗出，脈洪大者**(脈形盛大如洪水氾濫，但來盛去衰，是其特點。）**，與桂枝湯，如前法。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000304",
+          "rule_id": "IR_B0B74DF58_000303",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11490,7 +11748,7 @@
           "evidence_span": "**九、傷寒不大便六七日，**（若）**頭痛有熱者，與承氣湯。其小便清者，知不在裏，仍在表也，當須發汗。若頭痛一者，必衄，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000312",
+          "rule_id": "IR_B0B74DF58_000311",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11510,7 +11768,7 @@
           "evidence_span": "【闡釋】　本節「傷寒脈浮……腳攣急」，為未治以前的證狀，類似桂枝湯證，但小便數，心煩，腳攣急則不是桂枝湯證所應有，與太陽上篇22條的太陽病，發汗，遂漏不止，其人惡風，小便難，四肢微急，難以屈伸等證，基本是一致的。此為表陽虛，腠理不固所致，法當溫經復陽，用桂枝加附子湯治療。但辨證不明，反與桂枝湯攻其表，耗散真陽，得之便厥"
         },
         {
-          "rule_id": "IR_B0B74DF58_000339",
+          "rule_id": "IR_B0B74DF58_000338",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11527,7 +11785,7 @@
           "evidence_span": "**一、陽明病，脈遲，汗出多，微惡寒者，表未解也，可發汗，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000340",
+          "rule_id": "IR_B0B74DF58_000339",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11544,7 +11802,7 @@
           "evidence_span": "【鄭論】　論陽明病，汗出多，脈應長大，今脈遲而汗出多，殊屬不合。又到微惡寒，表未解，可發汗，明是太陽寒邪，初入陽明，寒邪尚未化盡，故宜以桂枝湯導之也。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000429",
+          "rule_id": "IR_B0B74DF58_000428",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -11555,7 +11813,7 @@
           "evidence_span": "脈實者，宜下之；脈浮虛者，宜發汗。下之與大承氣湯；發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000523",
+          "rule_id": "IR_B0B74DF58_000522",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -11568,7 +11826,7 @@
           "evidence_span": "【鄭論】　按項強、身熱惡風者，太陽之表證也。口渴而手足溫者，胃中有熱也。脅下滿者，少陽氣機為寒束也。法宜桂枝湯加粉葛、柴胡、花粉之類，於此病庶為合法，若專主小柴胡湯，似未盡善。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000603",
+          "rule_id": "IR_B0B74DF58_000602",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11581,7 +11839,7 @@
           "evidence_span": "**三、太陰病，脈浮者，可發汗，宜桂枝湯。"
         },
         {
-          "rule_id": "IR_B0B74DF58_000752",
+          "rule_id": "IR_B0B74DF58_000751",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11824,7 +12082,7 @@
           "evidence_span": "若不察其微惡寒。腳拘攣之亡陽虛證。已經反與桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000201",
+          "rule_id": "IR_BBAACE965_000200",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -11837,31 +12095,31 @@
           "evidence_span": "太陽病外證未解。脈浮弱者。當以汗解。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000204",
+          "rule_id": "IR_BBAACE965_000203",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "則為裡氣上逆。邪不能傳裡。猶在表也。與桂枝湯以解外。"
         },
         {
-          "rule_id": "IR_BBAACE965_000207",
+          "rule_id": "IR_BBAACE965_000206",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "不可下也。下之為逆。欲解外者。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000209",
+          "rule_id": "IR_BBAACE965_000208",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "宜以桂枝湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000212",
+          "rule_id": "IR_BBAACE965_000211",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "窮至事理之極。尤且未肯放乎。尚言欲解外。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000214",
+          "rule_id": "IR_BBAACE965_000213",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -11871,49 +12129,49 @@
           "evidence_span": "故令不愈。今脈浮故在外。當須解外則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000216",
+          "rule_id": "IR_BBAACE965_000215",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "而反煩不解。必待先刺風池風府。使風邪得泄。然後卻與桂枝湯則愈者。"
         },
         {
-          "rule_id": "IR_BBAACE965_000219",
+          "rule_id": "IR_BBAACE965_000218",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故知邪仍在外。幸而猶未陷入也。當須仍解其外邪則愈矣。宜以桂枝湯主之。"
         },
         {
-          "rule_id": "IR_BBAACE965_000237",
+          "rule_id": "IR_BBAACE965_000236",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "可也。姚氏云。更發其汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000254",
+          "rule_id": "IR_BBAACE965_000253",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "復發其汗。營衛和則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000255",
+          "rule_id": "IR_BBAACE965_000254",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "衛氣不共營氣和諧故爾。復發其汗。營衛和則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000256",
+          "rule_id": "IR_BBAACE965_000255",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "如夫婦之不調也。宜桂枝湯發其汗。"
         },
         {
-          "rule_id": "IR_BBAACE965_000257",
+          "rule_id": "IR_BBAACE965_000256",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "此衛氣不和也。先其時。發汗則愈。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000269",
+          "rule_id": "IR_BBAACE965_000268",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11924,13 +12182,13 @@
           "evidence_span": "仍在表也。當須發汗。若頭痛者必衄。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000272",
+          "rule_id": "IR_BBAACE965_000271",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "小便清者。不可責邪在裡。是仍在表也。與桂枝湯以解外。"
         },
         {
-          "rule_id": "IR_BBAACE965_000273",
+          "rule_id": "IR_BBAACE965_000272",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11940,7 +12198,7 @@
           "evidence_span": "熱甚於經。勢必致衄。須乘其未衄之時。宜用桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000276",
+          "rule_id": "IR_BBAACE965_000275",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11951,7 +12209,7 @@
           "evidence_span": "又繼之曰。當須發汗。曰頭痛必衄血。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000279",
+          "rule_id": "IR_BBAACE965_000278",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -11961,7 +12219,7 @@
           "evidence_span": "半日許復煩。脈浮數者。可更發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000280",
+          "rule_id": "IR_BBAACE965_000279",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -11971,7 +12229,7 @@
           "evidence_span": "脈浮數者。邪不盡也。可更發汗。與桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000408",
+          "rule_id": "IR_BBAACE965_000407",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11981,7 +12239,7 @@
           "evidence_span": "清便自調者。急當救表。救裡宜四逆湯。救表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000410",
+          "rule_id": "IR_BBAACE965_000409",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -11991,13 +12249,13 @@
           "evidence_span": "急當救表。救裡宜四逆湯。以復其陽。救表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000417",
+          "rule_id": "IR_BBAACE965_000416",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "作陰微者。先下之而解。汗之宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000419",
+          "rule_id": "IR_BBAACE965_000418",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12007,7 +12265,7 @@
           "evidence_span": "先汗出而解。仲景無方。千金云。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000420",
+          "rule_id": "IR_BBAACE965_000419",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12020,7 +12278,7 @@
           "evidence_span": "此為營弱衛強。故使汗出。欲救邪風者。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000421",
+          "rule_id": "IR_BBAACE965_000420",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12031,25 +12289,25 @@
           "evidence_span": "是營中之陰氣弱也。所以使發熱汗出也。欲救邪風者。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000484",
+          "rule_id": "IR_BBAACE965_000483",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "乃可攻之。宜桃核承氣湯。（【原注】後云解外。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000485",
+          "rule_id": "IR_BBAACE965_000484",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "無其字。脈經。其外下。有屬桂枝湯證五字。"
         },
         {
-          "rule_id": "IR_BBAACE965_000487",
+          "rule_id": "IR_BBAACE965_000486",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "〔汪〕解其外。補亡論。郭白云采千金方云。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000490",
+          "rule_id": "IR_BBAACE965_000489",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -12059,13 +12317,13 @@
           "evidence_span": "案傷寒類方曰。當先解外。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000491",
+          "rule_id": "IR_BBAACE965_000490",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000699",
+          "rule_id": "IR_BBAACE965_000698",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12076,7 +12334,7 @@
           "evidence_span": "發熱惡寒甚。乃太陽表證在也。仲景法。宜更用桂枝湯以解肌。"
         },
         {
-          "rule_id": "IR_BBAACE965_000706",
+          "rule_id": "IR_BBAACE965_000704",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -12086,7 +12344,7 @@
           "evidence_span": "不可攻痞。當先解表。表解乃可攻痞。解表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000739",
+          "rule_id": "IR_BBAACE965_000737",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -12096,7 +12354,7 @@
           "evidence_span": "不可攻痞。當先解表。表解乃可攻痞。解表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000742",
+          "rule_id": "IR_BBAACE965_000740",
           "release_level": "rejected",
           "conditions": {
             "disease": [
@@ -12106,7 +12364,7 @@
           "evidence_span": "〔方〕傷寒病初之表當發。故用麻黃湯。此以汗後之表當解。故曰宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_000884",
+          "rule_id": "IR_BBAACE965_000882",
           "release_level": "bronze",
           "conditions": {
             "symptoms": [
@@ -12117,7 +12375,7 @@
           "evidence_span": "微發熱惡寒者。外未解也。（【原注】一法。與桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001017",
+          "rule_id": "IR_BBAACE965_001013",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12127,13 +12385,13 @@
           "evidence_span": "微惡寒者。表未解也。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001019",
+          "rule_id": "IR_BBAACE965_001015",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "治宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001035",
+          "rule_id": "IR_BBAACE965_001031",
           "release_level": "bronze",
           "conditions": {
             "pulse": [
@@ -12144,13 +12402,13 @@
           "evidence_span": "脈實者宜下之。脈浮虛者宜發汗。下之與大承氣湯。發汗宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001037",
+          "rule_id": "IR_BBAACE965_001033",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "故宜與大承氣湯。浮虛者汗之。以其風邪未解。故宜與桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001121",
+          "rule_id": "IR_BBAACE965_001117",
           "release_level": "bronze",
           "conditions": {
             "disease": [
@@ -12163,19 +12421,19 @@
           "evidence_span": "太陰病。脈浮者。可發汗。宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001122",
+          "rule_id": "IR_BBAACE965_001118",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "而浮。則知太陽經風邪。猶未解也。故宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001136",
+          "rule_id": "IR_BBAACE965_001132",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "以手按之不止者。乃胃實也。宜再下。與桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001362",
+          "rule_id": "IR_BBAACE965_001357",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12185,7 +12443,7 @@
           "evidence_span": "先溫其裡。乃攻其表。溫裡宜四逆湯。攻表宜桂枝湯。"
         },
         {
-          "rule_id": "IR_BBAACE965_001389",
+          "rule_id": "IR_BBAACE965_001384",
           "release_level": "rejected",
           "conditions": {
             "symptoms": [
@@ -12195,7 +12453,7 @@
           "evidence_span": "吐利止。而身痛不休者。當消息和解其外。宜桂枝湯小和之。"
         },
         {
-          "rule_id": "IR_BBAACE965_001390",
+          "rule_id": "IR_BBAACE965_001385",
           "release_level": "rejected",
           "conditions": {},
           "evidence_span": "裡和也。身痛不休。表未解也。與桂枝湯小和之。"

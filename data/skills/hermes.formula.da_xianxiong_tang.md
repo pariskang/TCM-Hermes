@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.da_xianxiong_tang`
 - **Merged rule**: `MHR_FORMULA_DA_XIANXIONG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.906
-- **Supporting initial rules**: 123
+- **Consensus score**: 0.905
+- **Supporting initial rules**: 124
 
 ## 归纳主张
-大陷胸湯可歸納為結胸、傷寒、太陽病、痞、陽明病、腹滿等方證的核心方（支持條文 123 條，跨 26 部書）。
+大陷胸湯可歸納為結胸、傷寒、太陽病、痞、陽明病、腹滿等方證的核心方（支持條文 124 條，跨 26 部書）。
 
 ## 原文证据（节选）
 > 此為結胸也。大陷胸湯主之。
@@ -37,7 +37,7 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_BBA9FB4A6", "book_title": "傷寒六書", "distinct_conditions": ["腹痛"], "rule_ids": ["IR_BBA9FB4A6_000073"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["不能食", "乾嘔", "喘", "小便不利", "惡風", "手足厥冷", "氣上衝", "腹滿"], "rule_ids": ["IR_SHL_MINGLI_000035", "IR_SHL_MINGLI_000114"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大黃", "甘遂", "芒硝"], "rule_ids": ["IR_BBAACE965_000609", "IR_BC91F4420_000070", "IR_SHL_GUANZHU_000185", "IR_SHL_LAISU_000209", "IR_SHL_QJYF_000067"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大黃", "甘遂", "芒硝"], "rule_ids": ["IR_BBAACE965_000608", "IR_BC91F4420_000070", "IR_SHL_GUANZHU_000185", "IR_SHL_LAISU_000209", "IR_SHL_QJYF_000067"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大黃六兩", "甘遂一錢", "芒硝一升"], "rule_ids": ["IR_SHL_GUIBEN_000642"]}
 
 ## 冲突记录 conflict_set

@@ -36,10 +36,10 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["角弓反張"], "rule_ids": ["IR_JF_SHIYANLU_000235"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["下利", "惡寒", "瘀血", "發熱", "脈數", "脈浮數", "頭痛"], "rule_ids": ["IR_SHL_LAISU_000265", "IR_SHL_LAISU_000681"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["下利", "惡寒", "瘀血", "發熱", "脈數", "脈浮數", "頭痛"], "rule_ids": ["IR_SHL_LAISU_000265", "IR_SHL_LAISU_000680"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["傷寒", "喜嘔", "虛煩"], "rule_ids": ["IR_SHL_MINGLI_000053"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論輯義", "註解傷寒論"], "composition": ["芍藥", "阿膠", "雞子黃", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_001190", "IR_SHL_LAISU_000682", "IR_SHL_ZHUJIE_000869"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["阿膠", "黃連"], "rule_ids": ["IR_CAOSHI_FAWEI_000734"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論輯義", "註解傷寒論"], "composition": ["芍藥", "阿膠", "雞子黃", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_001186", "IR_SHL_LAISU_000681", "IR_SHL_ZHUJIE_000869"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["阿膠", "黃連"], "rule_ids": ["IR_CAOSHI_FAWEI_000733"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["芍藥二兩", "阿膠三兩", "雞子黃三枚", "黃芩二兩", "黃連四兩"], "rule_ids": ["IR_SHL_GUIBEN_000173"]}
 
 ## 安全声明

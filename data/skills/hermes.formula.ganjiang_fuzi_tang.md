@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B434348CD", "book_title": "傷寒附翼", "distinct_conditions": ["四逆", "脈微"], "rule_ids": ["IR_B434348CD_000107"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈沉"], "rule_ids": ["IR_SHL_GUIBEN_000464"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["不大便", "傷寒", "太陽中風", "太陽病", "汗出", "燥屎", "脈浮", "虛煩"], "rule_ids": ["IR_SHL_MINGLI_000065"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["乾薑", "附子"], "rule_ids": ["IR_B41512D4B_000199", "IR_BBAACE965_000287", "IR_BC91F4420_000195", "IR_CAOSHI_FAWEI_000155", "IR_SHL_LAISU_000663"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "傷寒論辯證廣注", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["乾薑", "附子"], "rule_ids": ["IR_B41512D4B_000198", "IR_BBAACE965_000286", "IR_BC91F4420_000195", "IR_CAOSHI_FAWEI_000155", "IR_SHL_LAISU_000662"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["乾薑", "人參", "甘草", "茯苓", "附子"], "rule_ids": ["IR_SHL_GUANZHU_000307"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "附子一枚"], "rule_ids": ["IR_SHL_GUIBEN_000465"]}
 

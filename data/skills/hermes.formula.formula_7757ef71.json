@@ -8,26 +8,26 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_CAOSHI_FAWEI_001431",
-    "IR_CAOSHI_FAWEI_001433",
+    "IR_CAOSHI_FAWEI_001430",
+    "IR_CAOSHI_FAWEI_001432",
     "IR_JGYH_ERZHU_000356",
-    "IR_JGYL_FANGLUN_000284",
-    "IR_JGYL_JIYI_000459",
-    "IR_JGYL_TIAOWEN_000284",
+    "IR_JGYL_FANGLUN_000281",
+    "IR_JGYL_JIYI_000458",
+    "IR_JGYL_TIAOWEN_000281",
     "IR_JGYL_XINDIAN_000309",
-    "IR_SHL_GUIBEN_001613"
+    "IR_SHL_GUIBEN_001612"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_CAOSHI_FAWEI_001431",
-      "IR_CAOSHI_FAWEI_001433",
+      "IR_CAOSHI_FAWEI_001430",
+      "IR_CAOSHI_FAWEI_001432",
       "IR_JGYH_ERZHU_000356",
-      "IR_JGYL_FANGLUN_000284",
-      "IR_JGYL_JIYI_000459",
-      "IR_JGYL_TIAOWEN_000284",
+      "IR_JGYL_FANGLUN_000281",
+      "IR_JGYL_JIYI_000458",
+      "IR_JGYL_TIAOWEN_000281",
       "IR_JGYL_XINDIAN_000309",
-      "IR_SHL_GUIBEN_001613"
+      "IR_SHL_GUIBEN_001612"
     ],
     "bronze": []
   },
@@ -98,8 +98,8 @@
         "寒熱"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001431",
-        "IR_CAOSHI_FAWEI_001433"
+        "IR_CAOSHI_FAWEI_001430",
+        "IR_CAOSHI_FAWEI_001432"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "脈虛"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001613"
+        "IR_SHL_GUIBEN_001612"
       ]
     },
     {
@@ -124,7 +124,7 @@
         "阿膠"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001432"
+        "IR_CAOSHI_FAWEI_001431"
       ]
     },
     {
@@ -140,7 +140,7 @@
         "黃連三兩"
       ],
       "rule_ids": [
-        "IR_SHL_GUIBEN_001614"
+        "IR_SHL_GUIBEN_001613"
       ]
     }
   ],
@@ -149,7 +149,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現白頭翁加甘草阿膠湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001433"
+        "IR_CAOSHI_FAWEI_001432"
       ],
       "book_title": "曹氏傷寒金匱發微合刊"
     }
@@ -190,6 +190,6 @@
     "脈虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

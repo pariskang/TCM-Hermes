@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_d7059b18`
 - **Merged rule**: `MHR_FORMULA_FORMULA_D7059B18`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 20
+- **Consensus score**: 0.918
+- **Supporting initial rules**: 21
 
 ## 归纳主张
-桂枝加芍藥湯可歸納為腹滿、太陽病等方證的核心方（支持條文 20 條，跨 20 部書）。
+桂枝加芍藥湯可歸納為腹滿、太陽病等方證的核心方（支持條文 21 條，跨 21 部書）。
 
 ## 原文证据（节选）
 > 因腹滿時痛屬太陰。桂枝加芍藥湯主之。
@@ -35,7 +35,7 @@
 > ——《傷寒溯源集》·太陰證治第十七（SU_SHL_SUYUAN_002433，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "芍藥"], "rule_ids": ["IR_BBAACE965_001137", "IR_CAOSHI_FAWEI_000698"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "芍藥"], "rule_ids": ["IR_BBAACE965_001133", "IR_CAOSHI_FAWEI_000697"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集", "註解傷寒論"], "composition": ["芍藥三兩"], "rule_ids": ["IR_SHL_GUANZHU_000557", "IR_SHL_ZHUJIE_001160"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "桂枝三兩", "甘草二兩", "生薑三兩", "芍藥六兩"], "rule_ids": ["IR_SHL_GUIBEN_000942"]}
 

@@ -8,7 +8,7 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B3E16D849_001992",
+    "IR_B3E16D849_001990",
     "IR_B3E520529_000278",
     "IR_B3E520529_000295",
     "IR_BC2BA03C0_000270",
@@ -17,7 +17,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_001992",
+      "IR_B3E16D849_001990",
       "IR_B3E520529_000278",
       "IR_B3E520529_000295",
       "IR_BC2BA03C0_000270",
@@ -71,7 +71,7 @@
         "渴"
       ],
       "rule_ids": [
-        "IR_B3E16D849_001992"
+        "IR_B3E16D849_001990"
       ]
     }
   ],
@@ -111,6 +111,6 @@
     "渴"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

@@ -10,36 +10,36 @@
   "supporting_initial_rules": [
     "IR_B3E520529_000040",
     "IR_B3E520529_000104",
-    "IR_BB711944D_001246",
+    "IR_BB711944D_001245",
     "IR_BC2BA03C0_000044",
     "IR_BC2BA03C0_000103",
-    "IR_CAOSHI_FAWEI_001325",
+    "IR_CAOSHI_FAWEI_001324",
     "IR_JGYH_ERZHU_000284",
-    "IR_JGYL_FANGLUN_000219",
+    "IR_JGYL_FANGLUN_000217",
     "IR_JGYL_JIYI_000368",
-    "IR_JGYL_QIANZHU_000250",
-    "IR_JGYL_TIAOWEN_000219",
+    "IR_JGYL_QIANZHU_000247",
+    "IR_JGYL_TIAOWEN_000217",
     "IR_JGYL_XINDIAN_000243",
     "IR_SHL_GUIBEN_001159",
-    "IR_SHL_LAISU_000673"
+    "IR_SHL_LAISU_000672"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_B3E520529_000040",
       "IR_B3E520529_000104",
-      "IR_BB711944D_001246",
+      "IR_BB711944D_001245",
       "IR_BC2BA03C0_000044",
       "IR_BC2BA03C0_000103",
-      "IR_CAOSHI_FAWEI_001325",
+      "IR_CAOSHI_FAWEI_001324",
       "IR_JGYH_ERZHU_000284",
-      "IR_JGYL_FANGLUN_000219",
+      "IR_JGYL_FANGLUN_000217",
       "IR_JGYL_JIYI_000368",
-      "IR_JGYL_QIANZHU_000250",
-      "IR_JGYL_TIAOWEN_000219",
+      "IR_JGYL_QIANZHU_000247",
+      "IR_JGYL_TIAOWEN_000217",
       "IR_JGYL_XINDIAN_000243",
       "IR_SHL_GUIBEN_001159",
-      "IR_SHL_LAISU_000673"
+      "IR_SHL_LAISU_000672"
     ],
     "bronze": []
   },
@@ -171,7 +171,7 @@
         "惡寒"
       ],
       "rule_ids": [
-        "IR_BB711944D_001246"
+        "IR_BB711944D_001245"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "橘皮"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001326"
+        "IR_CAOSHI_FAWEI_001325"
       ]
     }
   ],
@@ -312,6 +312,6 @@
     "脈滑"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

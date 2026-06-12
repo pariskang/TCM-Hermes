@@ -35,8 +35,8 @@
 > ——《傷寒來蘇集》·四逆湯證下（SU_SHL_LAISU_000468，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["嘔逆"], "rule_ids": ["IR_SHL_LAISU_000674"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["橘皮", "竹茹"], "rule_ids": ["IR_CAOSHI_FAWEI_001329"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["嘔逆"], "rule_ids": ["IR_SHL_LAISU_000673"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["橘皮", "竹茹"], "rule_ids": ["IR_CAOSHI_FAWEI_001328"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["人參一兩", "大棗三十枚", "橘皮二斤", "甘草五兩", "生薑半斤", "竹茹二升"], "rule_ids": ["IR_SHL_GUIBEN_001163"]}
 
 ## 安全声明

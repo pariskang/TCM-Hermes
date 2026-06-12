@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["消渴"], "rule_ids": ["IR_SHL_GUIBEN_001193"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["嘔吐"], "rule_ids": ["IR_SHL_LAISU_000672"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤瀉", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001314"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["嘔吐"], "rule_ids": ["IR_SHL_LAISU_000671"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["澤瀉", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001313"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝二兩", "澤瀉四兩", "甘草二兩", "生薑四兩", "白朮三兩", "茯苓半斤"], "rule_ids": ["IR_SHL_GUIBEN_001194"]}
 
 ## 安全声明

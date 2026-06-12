@@ -26,9 +26,9 @@
 > ——《曹氏傷寒金匱發微合刊》·瘡癰，腸癰，浸淫病脈證治第十八（SU_CAOSHI_FAWEI_001981，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["汗出"], "rule_ids": ["IR_CAOSHI_FAWEI_001370"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["汗出"], "rule_ids": ["IR_CAOSHI_FAWEI_001369"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈沉緊"], "rule_ids": ["IR_SHL_GUIBEN_001523"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001373"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["大黃"], "rule_ids": ["IR_CAOSHI_FAWEI_001372"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["冬瓜子半升", "大黃四兩", "桃仁五十個", "芒硝三合"], "rule_ids": ["IR_SHL_GUIBEN_001524"]}
 
 ## 冲突记录 conflict_set

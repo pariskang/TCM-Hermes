@@ -8,11 +8,11 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000553",
+    "IR_B0B74DF58_000552",
     "IR_B11498305_000535",
     "IR_B1CAC3ADF_000152",
     "IR_B3E16D849_000540",
-    "IR_B41512D4B_000123",
+    "IR_B41512D4B_000122",
     "IR_B8E444005_000333",
     "IR_B9119D083_000308",
     "IR_BBAACE965_000145",
@@ -24,18 +24,18 @@
     "IR_SHL_LUNZHU_000154",
     "IR_SHL_QJYF_000016",
     "IR_SHL_SONGBEN_000080",
-    "IR_SHL_SUYUAN_000993",
+    "IR_SHL_SUYUAN_000992",
     "IR_SHL_TIAOWEN_000034",
     "IR_SHL_ZHUJIE_000194"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000553",
+      "IR_B0B74DF58_000552",
       "IR_B11498305_000535",
       "IR_B1CAC3ADF_000152",
       "IR_B3E16D849_000540",
-      "IR_B41512D4B_000123",
+      "IR_B41512D4B_000122",
       "IR_B8E444005_000333",
       "IR_B9119D083_000308",
       "IR_BBAACE965_000145",
@@ -47,7 +47,7 @@
       "IR_SHL_LUNZHU_000154",
       "IR_SHL_QJYF_000016",
       "IR_SHL_SONGBEN_000080",
-      "IR_SHL_SUYUAN_000993",
+      "IR_SHL_SUYUAN_000992",
       "IR_SHL_TIAOWEN_000034",
       "IR_SHL_ZHUJIE_000194"
     ],
@@ -277,6 +277,6 @@
     "下利"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

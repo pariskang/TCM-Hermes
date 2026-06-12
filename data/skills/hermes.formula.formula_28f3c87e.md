@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_28F3C87E`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 31
+- **Supporting initial rules**: 33
 
 ## 归纳主张
-四逆散可歸納為小便不利、少陰病、太陰病、下利、傷寒、腹中痛等方證的核心方（支持條文 31 條，跨 23 部書）。
+四逆散可歸納為小便不利、少陰病、太陰病、下利、傷寒、腹中痛等方證的核心方（支持條文 33 條，跨 23 部書）。
 
 ## 原文证据（节选）
 > 或悸。或小便不利。或腹中痛者。四逆散主之。
@@ -35,10 +35,9 @@
 > ——《張卿子傷寒論》·通脈四逆湯方第九十八（SU_B1CAC3ADF_002133，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["厥"], "rule_ids": ["IR_B3E16D849_000506", "IR_B3E16D849_000579", "IR_B3E16D849_001672", "IR_B3E16D849_001708", "IR_B3E16D849_001744", "IR_B3E16D849_001792", "IR_B3E16D849_001814", "IR_B3E16D849_001874"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["厥"], "rule_ids": ["IR_B3E16D849_000506", "IR_B3E16D849_000579", "IR_B3E16D849_001670", "IR_B3E16D849_001706", "IR_B3E16D849_001742", "IR_B3E16D849_001790", "IR_B3E16D849_001812", "IR_B3E16D849_001872"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["下利", "傷寒", "太陰病"], "rule_ids": ["IR_B9119D083_000011", "IR_B9119D083_000657"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["腹痛"], "rule_ids": ["IR_SHL_LAISU_000704"]}
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論輯義"], "composition": ["桂枝五分", "茯苓五分", "薤白三升", "附子一枚"], "rule_ids": ["IR_BBAACE965_001252", "IR_SHL_LAISU_000705"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論輯義"], "composition": ["桂枝五分", "茯苓五分", "薤白三升", "附子一枚"], "rule_ids": ["IR_BBAACE965_001247", "IR_SHL_LAISU_000704"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒貫珠集", "註解傷寒論"], "composition": ["枳實", "柴胡", "甘草", "芍藥"], "rule_ids": ["IR_BC91F4420_000504", "IR_SHL_GUANZHU_000578", "IR_SHL_ZHUJIE_000912"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "人參二兩", "桂枝五分", "甘草二兩", "茯苓五分", "薤白三兩"], "rule_ids": ["IR_SHL_GUIBEN_001042"]}
 

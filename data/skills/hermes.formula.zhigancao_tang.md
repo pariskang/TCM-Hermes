@@ -35,12 +35,12 @@
 > ——《傷寒百證歌》·第六十二證‧心悸歌（SU_BB7301DF2_000185，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["脈和"], "rule_ids": ["IR_B0B74DF58_000242"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["脈和"], "rule_ids": ["IR_B0B74DF58_000241"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["溫病", "脈代"], "rule_ids": ["IR_B11498305_000129", "IR_B11498305_001013"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9FC1D1C8", "book_title": "傷寒發微論", "distinct_conditions": ["心下悸"], "rule_ids": ["IR_B9FC1D1C8_000018"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["口渴", "咳", "肺痿", "脈浮", "脈結"], "rule_ids": ["IR_SHL_GUIBEN_000745", "IR_SHL_GUIBEN_001397"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["惡寒", "目赤", "胸滿", "面赤", "頭痛"], "rule_ids": ["IR_SHL_LAISU_000283", "IR_SHL_LAISU_000739"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "桂枝", "炙甘草", "甘草", "生地黃", "生薑"], "rule_ids": ["IR_BBAACE965_000825"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LAISU", "book_title": "傷寒來蘇集", "distinct_conditions": ["惡寒", "目赤", "胸滿", "面赤", "頭痛"], "rule_ids": ["IR_SHL_LAISU_000283", "IR_SHL_LAISU_000738"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["人參", "桂枝", "炙甘草", "甘草", "生地黃", "生薑"], "rule_ids": ["IR_BBAACE965_000823"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。

@@ -8,13 +8,13 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B3E16D849_001482",
+    "IR_B3E16D849_001480",
     "IR_B3E520529_000259"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_001482",
+      "IR_B3E16D849_001480",
       "IR_B3E520529_000259"
     ],
     "bronze": []
@@ -44,7 +44,7 @@
         "譫語"
       ],
       "rule_ids": [
-        "IR_B3E16D849_001482"
+        "IR_B3E16D849_001480"
       ]
     },
     {
@@ -70,7 +70,7 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現柴胡龍骨牡蠣湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B3E16D849_001482"
+        "IR_B3E16D849_001480"
       ],
       "book_title": "傷寒論綱目"
     },
@@ -142,6 +142,6 @@
     "胸滿"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

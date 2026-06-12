@@ -35,8 +35,8 @@
 > ——《曹氏傷寒金匱發微合刊》·太陽篇（SU_CAOSHI_FAWEI_000468，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大黃", "附子", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000708", "IR_BC91F4420_000310", "IR_SHL_GUANZHU_000220", "IR_SHL_ZHUJIE_001155"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["附子"], "rule_ids": ["IR_CAOSHI_FAWEI_000396"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["大黃", "附子", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000706", "IR_BC91F4420_000310", "IR_SHL_GUANZHU_000220", "IR_SHL_ZHUJIE_001155"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["附子"], "rule_ids": ["IR_CAOSHI_FAWEI_000395"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大黃二兩", "附子一枚", "黃芩一兩", "黃連一兩"], "rule_ids": ["IR_SHL_GUIBEN_000695"]}
 
 ## 安全声明

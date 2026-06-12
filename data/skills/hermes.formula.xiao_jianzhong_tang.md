@@ -35,11 +35,11 @@
 > ——《張卿子傷寒論》·小建中湯方第三十九（SU_B1CAC3ADF_001217，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈急"], "rule_ids": ["IR_CAOSHI_FAWEI_000265", "IR_CAOSHI_FAWEI_001030", "IR_CAOSHI_FAWEI_001471", "IR_CAOSHI_FAWEI_001472"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈急"], "rule_ids": ["IR_CAOSHI_FAWEI_000265", "IR_CAOSHI_FAWEI_001029", "IR_CAOSHI_FAWEI_001468", "IR_CAOSHI_FAWEI_001469"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["惡寒", "脈虛", "腹痛"], "rule_ids": ["IR_JF_SHIYANLU_000124", "IR_JF_SHIYANLU_000125", "IR_JF_SHIYANLU_000126"]}
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["脈澀"], "rule_ids": ["IR_JGYL_QIANZHU_000354", "IR_JGYL_QIANZHU_000355"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["脈澀"], "rule_ids": ["IR_JGYL_QIANZHU_000349", "IR_JGYL_QIANZHU_000350"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["小便自利"], "rule_ids": ["IR_SHL_GUIBEN_000554", "IR_SHL_GUIBEN_000896", "IR_SHL_GUIBEN_001344"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000449"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000448"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "註解傷寒論"], "composition": ["大棗", "桂枝", "甘草", "生薑", "膠飴", "芍藥"], "rule_ids": ["IR_BC91F4420_000201", "IR_SHL_ZHUJIE_000360"]}
 
 ## 冲突记录 conflict_set

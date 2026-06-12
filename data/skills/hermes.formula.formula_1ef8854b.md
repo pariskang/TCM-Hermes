@@ -30,7 +30,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUANZHU", "book_title": "傷寒貫珠集", "distinct_conditions": ["宿食", "發熱"], "rule_ids": ["IR_SHL_GUANZHU_000727"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["枳實", "梔子"], "rule_ids": ["IR_BC91F4420_000592", "IR_CAOSHI_FAWEI_000889", "IR_SHL_ZHUJIE_001050"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["枳實", "梔子"], "rule_ids": ["IR_BC91F4420_000592", "IR_CAOSHI_FAWEI_000888", "IR_SHL_ZHUJIE_001050"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["枳實", "梔子", "香豉"], "rule_ids": ["IR_SHL_GUANZHU_000728"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["枳實三枚", "梔子十四枚", "香豉一升"], "rule_ids": ["IR_SHL_GUIBEN_001271"]}
 

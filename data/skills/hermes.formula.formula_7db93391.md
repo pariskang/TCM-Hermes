@@ -33,7 +33,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_JGYL_QIANZHU_000086"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001063"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001062"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "大棗十五枚", "甘草二兩", "生薑三兩", "石膏半斤", "麻黃六兩"], "rule_ids": ["IR_SHL_GUIBEN_001389"]}
 
 ## 安全声明

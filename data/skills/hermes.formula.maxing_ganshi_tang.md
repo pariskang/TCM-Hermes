@@ -35,7 +35,7 @@
 > ——《傷寒論條辨》·辨太陽病脈證並治中篇第二（SU_BC91F4420_000360，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "曹氏傷寒金匱發微合刊"], "composition": ["杏仁", "甘草", "石膏", "麻黃"], "rule_ids": ["IR_BBAACE965_000292", "IR_BC91F4420_000148", "IR_CAOSHI_FAWEI_000161"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "曹氏傷寒金匱發微合刊"], "composition": ["杏仁", "甘草", "石膏", "麻黃"], "rule_ids": ["IR_BBAACE965_000291", "IR_BC91F4420_000148", "IR_CAOSHI_FAWEI_000161"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["杏仁", "炙甘草", "甘草", "石膏", "麻黃"], "rule_ids": ["IR_SHL_GUANZHU_000144"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["杏仁五十個", "甘草二兩", "石膏半斤", "麻黃四兩"], "rule_ids": ["IR_SHL_GUIBEN_000472"]}
 

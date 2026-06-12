@@ -35,10 +35,10 @@
 > ——《曹氏傷寒金匱發微合刊》·婦人產後病脈證治第二十一（SU_CAOSHI_FAWEI_002113，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["寒熱"], "rule_ids": ["IR_CAOSHI_FAWEI_001431", "IR_CAOSHI_FAWEI_001433"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈虛"], "rule_ids": ["IR_SHL_GUIBEN_001613"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "白頭翁", "阿膠"], "rule_ids": ["IR_CAOSHI_FAWEI_001432"]}
-- {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草二兩", "白頭翁二兩", "秦皮三兩", "阿膠二兩", "黃連三兩"], "rule_ids": ["IR_SHL_GUIBEN_001614"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["寒熱"], "rule_ids": ["IR_CAOSHI_FAWEI_001430", "IR_CAOSHI_FAWEI_001432"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈虛"], "rule_ids": ["IR_SHL_GUIBEN_001612"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "白頭翁", "阿膠"], "rule_ids": ["IR_CAOSHI_FAWEI_001431"]}
+- {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草二兩", "白頭翁二兩", "秦皮三兩", "阿膠二兩", "黃連三兩"], "rule_ids": ["IR_SHL_GUIBEN_001613"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現白頭翁加甘草阿膠湯應用與禁忌表述，需按條件區分。

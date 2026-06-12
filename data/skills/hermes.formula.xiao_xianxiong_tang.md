@@ -35,7 +35,7 @@
 > ——《傷寒論條辨》·辨太陽病脈證並治中篇第二（SU_BC91F4420_000510，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "栝蔞實", "黃連"], "rule_ids": ["IR_BBAACE965_000620", "IR_BC91F4420_000218", "IR_SHL_LAISU_000212", "IR_SHL_ZHUJIE_000459"]}
+- {"kind": "composition_variant", "books": ["傷寒來蘇集", "傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "栝蔞實", "黃連"], "rule_ids": ["IR_BBAACE965_000619", "IR_BC91F4420_000218", "IR_SHL_LAISU_000212", "IR_SHL_ZHUJIE_000459"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["半夏", "黃連"], "rule_ids": ["IR_SHL_GUANZHU_000197"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "黃連一兩"], "rule_ids": ["IR_SHL_GUIBEN_000653"]}
 

@@ -26,7 +26,7 @@
 > ——《傷寒雜病論(桂本)》·辨咳嗽水飲黃汗歷節病脈證並治（SU_SHL_GUIBEN_001227，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "甘遂"], "rule_ids": ["IR_CAOSHI_FAWEI_001141"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["半夏", "甘遂"], "rule_ids": ["IR_CAOSHI_FAWEI_001140"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏十二枚", "芍藥五枚", "蜜半升"], "rule_ids": ["IR_SHL_GUIBEN_001402"]}
 
 ## 安全声明

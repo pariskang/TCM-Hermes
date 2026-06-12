@@ -17,7 +17,7 @@
 > ——《曹氏傷寒金匱發微合刊》·少陰篇（SU_CAOSHI_FAWEI_000813，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B41512D4B", "book_title": "傷寒論辯證廣注", "distinct_conditions": ["少陰病"], "rule_ids": ["IR_B41512D4B_000977"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B41512D4B", "book_title": "傷寒論辯證廣注", "distinct_conditions": ["少陰病"], "rule_ids": ["IR_B41512D4B_000975"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

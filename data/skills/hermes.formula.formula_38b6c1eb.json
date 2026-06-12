@@ -10,7 +10,7 @@
   "supporting_initial_rules": [
     "IR_B11498305_000087",
     "IR_B1CAC3ADF_000220",
-    "IR_B41512D4B_000200",
+    "IR_B41512D4B_000199",
     "IR_B5FF1CA1B_000109",
     "IR_BC91F4420_000145",
     "IR_SHL_SUYUAN_000100"
@@ -20,7 +20,7 @@
     "silver": [
       "IR_B11498305_000087",
       "IR_B1CAC3ADF_000220",
-      "IR_B41512D4B_000200",
+      "IR_B41512D4B_000199",
       "IR_B5FF1CA1B_000109",
       "IR_BC91F4420_000145",
       "IR_SHL_SUYUAN_000100"
@@ -98,6 +98,6 @@
     "脈沉遲"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

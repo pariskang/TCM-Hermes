@@ -26,8 +26,8 @@
 > ——《金匱要略方論》·奔豚氣病脈證治第八（SU_JGYL_TIAOWEN_000314，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["大棗", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000525"]}
-- {"kind": "composition_variant", "books": ["傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000296", "IR_CAOSHI_FAWEI_001068", "IR_SHL_GUANZHU_000330", "IR_SHL_ZHUJIE_001153"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["大棗", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000524"]}
+- {"kind": "composition_variant", "books": ["傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000295", "IR_CAOSHI_FAWEI_001067", "IR_SHL_GUANZHU_000330", "IR_SHL_ZHUJIE_001153"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "桂枝五兩", "甘草二兩", "生薑三兩", "芍藥三兩"], "rule_ids": ["IR_SHL_GUIBEN_000581"]}
 
 ## 安全声明

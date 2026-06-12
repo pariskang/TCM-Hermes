@@ -37,7 +37,7 @@
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["太陽病"], "rule_ids": ["IR_B9119D083_000353"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["痰飲", "目眩", "脈沉弦"], "rule_ids": ["IR_SHL_GUIBEN_000486", "IR_SHL_GUIBEN_001404"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桂枝", "甘草", "白朮", "茯苓"], "rule_ids": ["IR_BBAACE965_000315", "IR_BC91F4420_000199", "IR_SHL_ZHUJIE_000280"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["桂枝", "甘草", "白朮", "茯苓"], "rule_ids": ["IR_BBAACE965_000314", "IR_BC91F4420_000199", "IR_SHL_ZHUJIE_000280"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["桂枝", "炙甘草", "甘草", "白朮", "茯苓"], "rule_ids": ["IR_SHL_GUANZHU_000151"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝三兩", "甘草二兩", "白朮二兩", "茯苓四兩"], "rule_ids": ["IR_SHL_GUIBEN_000488"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝三兩", "甘草二兩", "白朮三兩", "茯苓四兩"], "rule_ids": ["IR_SHL_GUIBEN_001405"]}

@@ -35,8 +35,8 @@
 > ——《曹氏傷寒金匱發微合刊》·消渴小便不利，淋病脈證治第十三（SU_CAOSHI_FAWEI_001645，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["下利", "嘔吐", "噦", "消渴"], "rule_ids": ["IR_BBAACE965_000642"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["文蛤"], "rule_ids": ["IR_BBAACE965_000640", "IR_BC91F4420_000570", "IR_SHL_ZHUJIE_000471", "IR_CAOSHI_FAWEI_000355"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["下利", "嘔吐", "噦", "消渴"], "rule_ids": ["IR_BBAACE965_000641"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["文蛤"], "rule_ids": ["IR_BBAACE965_000639", "IR_BC91F4420_000570", "IR_SHL_ZHUJIE_000471", "IR_CAOSHI_FAWEI_000354"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["文蛤五兩"], "rule_ids": ["IR_SHL_GUANZHU_000202"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "文蛤五兩", "甘草三兩", "生薑三兩", "石膏五兩", "芍藥三兩", "麻黃三兩"], "rule_ids": ["IR_SHL_GUIBEN_000658"]}
 

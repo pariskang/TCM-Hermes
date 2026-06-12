@@ -35,7 +35,7 @@
 > ——《金匱要略方論》·肺痿肺癰咳嗽上氣病脈證治第七（SU_JGYL_TIAOWEN_000289，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["石膏"], "rule_ids": ["IR_CAOSHI_FAWEI_001065"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["石膏"], "rule_ids": ["IR_CAOSHI_FAWEI_001064"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["石膏二兩"], "rule_ids": ["IR_SHL_GUIBEN_001390"]}
 
 ## 安全声明

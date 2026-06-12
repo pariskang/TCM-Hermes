@@ -9,7 +9,7 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B8E444005_000149",
-    "IR_CAOSHI_FAWEI_001064",
+    "IR_CAOSHI_FAWEI_001063",
     "IR_JGYH_ERZHU_000090",
     "IR_JGYL_FANGLUN_000073",
     "IR_JGYL_JIYI_000121",
@@ -21,7 +21,7 @@
     "gold": [],
     "silver": [
       "IR_B8E444005_000149",
-      "IR_CAOSHI_FAWEI_001064",
+      "IR_CAOSHI_FAWEI_001063",
       "IR_JGYH_ERZHU_000090",
       "IR_JGYL_FANGLUN_000073",
       "IR_JGYL_JIYI_000121",
@@ -99,7 +99,7 @@
         "石膏"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_001065"
+        "IR_CAOSHI_FAWEI_001064"
       ]
     },
     {
@@ -162,6 +162,6 @@
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

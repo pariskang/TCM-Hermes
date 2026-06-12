@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B18FAB5FB", "book_title": "傷寒捷訣", "distinct_conditions": ["寒熱"], "rule_ids": ["IR_B18FAB5FB_000108"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["潮熱"], "rule_ids": ["IR_B3E520529_000141"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["欲嘔", "腹滿", "自利"], "rule_ids": ["IR_SHL_MINGLI_000088"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["半夏", "大棗", "枳實", "柴胡", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000464"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["半夏", "大棗", "枳實", "柴胡", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000463"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨"], "composition": ["半夏", "大黃", "枳實", "柴胡", "芍藥", "黃芩"], "rule_ids": ["IR_BC91F4420_000088"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集", "註解傷寒論"], "composition": ["半夏", "大棗", "大黃", "枳實", "柴胡", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_SHL_GUANZHU_000542", "IR_SHL_ZHUJIE_000370"]}
 

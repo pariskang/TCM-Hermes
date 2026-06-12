@@ -39,7 +39,7 @@ graph herbs {
   "桂枝" -- "附子" [weight=42, penwidth=6];
   "杏仁" -- "甘草" [weight=42, penwidth=6];
   "大黃" -- "芒硝" [weight=42, penwidth=6];
-  "甘草" -- "黃連" [weight=40, penwidth=6];
+  "甘草" -- "黃連" [weight=42, penwidth=6];
   "乾薑" -- "半夏" [weight=39, penwidth=6];
   "柴胡" -- "黃芩" [weight=39, penwidth=6];
   "乾薑" -- "桂枝" [weight=38, penwidth=6];
@@ -80,12 +80,12 @@ graph herbs {
   "大黃" -- "甘草" [weight=24, penwidth=6];
   "桂枝" -- "細辛" [weight=24, penwidth=6];
   "乾薑" -- "大棗" [weight=24, penwidth=6];
+  "大棗" -- "黃連" [weight=24, penwidth=6];
   "白朮" -- "附子" [weight=24, penwidth=6];
   "白朮" -- "芍藥" [weight=23, penwidth=6];
   "澤瀉" -- "豬苓" [weight=22, penwidth=6];
   "茯苓" -- "豬苓" [weight=22, penwidth=6];
   "枳實" -- "芍藥" [weight=22, penwidth=6];
-  "大棗" -- "黃連" [weight=22, penwidth=6];
   "半夏" -- "茯苓" [weight=21, penwidth=6];
   "桂枝" -- "當歸" [weight=21, penwidth=6];
   "當歸" -- "芍藥" [weight=21, penwidth=6];

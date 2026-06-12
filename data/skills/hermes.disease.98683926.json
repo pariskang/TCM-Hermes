@@ -1,0 +1,323 @@
+{
+  "skill_id": "hermes.disease.98683926",
+  "kind": "disease",
+  "title": "心痛證治合併規則",
+  "subject": "心痛",
+  "abstracted_claim": "心痛相關條文 41 條；主要方劑：甘草粉蜜湯、栝蔞薤白半夏湯、烏頭赤石脂丸、白朮散。",
+  "merged_rule_id": "MHR_DISEASE_98683926",
+  "release_level": "silver",
+  "consensus_score": 0.914,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001392",
+    "IR_JGYL_FANGLUN_000252",
+    "IR_JGYL_TIAOWEN_000252",
+    "IR_SHL_LAISU_000718",
+    "IR_B07FA055B_000073",
+    "IR_B11498305_000188",
+    "IR_B5FF1CA1B_000219",
+    "IR_B9119D083_000516",
+    "IR_B9119D083_000640",
+    "IR_BC2BA03C0_000132",
+    "IR_CAOSHI_FAWEI_001073",
+    "IR_CAOSHI_FAWEI_001085",
+    "IR_CAOSHI_FAWEI_001391",
+    "IR_JGYH_ERZHU_000097",
+    "IR_JGYH_ERZHU_000102",
+    "IR_JGYH_ERZHU_000331",
+    "IR_JGYL_FANGLUN_000080",
+    "IR_JGYL_FANGLUN_000086",
+    "IR_JGYL_FANGLUN_000251",
+    "IR_JGYL_JIYI_000137",
+    "IR_JGYL_JIYI_000142",
+    "IR_JGYL_JIYI_000420",
+    "IR_JGYL_QIANZHU_000092",
+    "IR_JGYL_QIANZHU_000287",
+    "IR_JGYL_TIAOWEN_000080",
+    "IR_JGYL_TIAOWEN_000086",
+    "IR_JGYL_TIAOWEN_000251",
+    "IR_JGYL_XINDIAN_000084",
+    "IR_JGYL_XINDIAN_000089",
+    "IR_JGYL_XINDIAN_000283",
+    "IR_SHL_GUANZHU_000447",
+    "IR_SHL_GUIBEN_001172",
+    "IR_SHL_GUIBEN_001529",
+    "IR_SHL_GUIBEN_001585",
+    "IR_SHL_LAISU_000356",
+    "IR_SHL_LAISU_000717",
+    "IR_SHL_LUNZHU_000345",
+    "IR_SHL_QJYF_000172",
+    "IR_SHL_SONGBEN_000304",
+    "IR_SHL_TIAOWEN_000258",
+    "IR_SHL_ZHUJIE_000717"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_CAOSHI_FAWEI_001392",
+      "IR_JGYL_FANGLUN_000252",
+      "IR_JGYL_TIAOWEN_000252",
+      "IR_SHL_LAISU_000718"
+    ],
+    "silver": [
+      "IR_B07FA055B_000073",
+      "IR_B11498305_000188",
+      "IR_B5FF1CA1B_000219",
+      "IR_B9119D083_000516",
+      "IR_B9119D083_000640",
+      "IR_BC2BA03C0_000132",
+      "IR_CAOSHI_FAWEI_001073",
+      "IR_CAOSHI_FAWEI_001085",
+      "IR_CAOSHI_FAWEI_001391",
+      "IR_JGYH_ERZHU_000097",
+      "IR_JGYH_ERZHU_000102",
+      "IR_JGYH_ERZHU_000331",
+      "IR_JGYL_FANGLUN_000080",
+      "IR_JGYL_FANGLUN_000086",
+      "IR_JGYL_FANGLUN_000251",
+      "IR_JGYL_JIYI_000137",
+      "IR_JGYL_JIYI_000142",
+      "IR_JGYL_JIYI_000420",
+      "IR_JGYL_QIANZHU_000092",
+      "IR_JGYL_QIANZHU_000287",
+      "IR_JGYL_TIAOWEN_000080",
+      "IR_JGYL_TIAOWEN_000086",
+      "IR_JGYL_TIAOWEN_000251",
+      "IR_JGYL_XINDIAN_000084",
+      "IR_JGYL_XINDIAN_000089",
+      "IR_JGYL_XINDIAN_000283",
+      "IR_SHL_GUANZHU_000447",
+      "IR_SHL_GUIBEN_001172",
+      "IR_SHL_GUIBEN_001529",
+      "IR_SHL_GUIBEN_001585",
+      "IR_SHL_LAISU_000356",
+      "IR_SHL_LAISU_000717",
+      "IR_SHL_LUNZHU_000345",
+      "IR_SHL_QJYF_000172",
+      "IR_SHL_SONGBEN_000304",
+      "IR_SHL_TIAOWEN_000258",
+      "IR_SHL_ZHUJIE_000717"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002022",
+      "evidence_span": "疣蟲之為病，令人吐涎心痛，發作有時，毒藥不止者，甘草粉蜜湯主之",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000882",
+      "evidence_span": "蚘蟲之為病，令人吐涎，心痛，發作有時，毒藥不止，甘草粉蜜湯主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000880",
+      "evidence_span": "蚘蟲之為病，令人吐涎，心痛，發作有時，毒藥不止，甘草粉蜜湯主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000498",
+      "evidence_span": "蚘蟲之為病，令人吐涎心痛，發作有時，毒藥不止，甘草粉蜜湯主之，將甘草先煎，納粉蜜攪和服。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000340",
+      "evidence_span": "脅下及心痛。久按之氣不通鼻干不得汗。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001444",
+      "evidence_span": "心痛澈背，背痛澈心，烏頭赤石脂丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000705",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000356",
+      "evidence_span": "心痛徹背，背痛徹心，烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001326",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000354",
+      "evidence_span": "心痛徹背，背痛徹心，烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000597",
+      "evidence_span": "心痛徹背。背痛徹心。烏頭赤石脂丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001419",
+      "evidence_span": "胸痹不得臥，心痛澈背，栝蔞薤白半夏湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001678",
+      "evidence_span": "心痛。發作有時。毒藥不止。甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000673",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000330",
+      "evidence_span": "胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001263",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000328",
+      "evidence_span": "胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000566",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003143",
+      "evidence_span": "令人吐涎。心痛發作有時。毒藥不止者。甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001245",
+      "evidence_span": "令人吐涎心痛。發作有時。毒藥不止者。甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001500",
+      "evidence_span": "令人吐涎心痛。發作有時。毒藥不止者。甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001334",
+      "evidence_span": "15.21胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001385",
+      "evidence_span": "陽明中風，脈弦浮大，而短氣腹滿，脅下及心痛，鼻干不得汗。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002022",
+      "evidence_span": "疣蟲之為病，令人吐涎心痛，發作有時，毒藥不止者，甘草粉蜜湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000882",
+      "evidence_span": "蚘蟲之為病，令人吐涎，心痛，發作有時，毒藥不止，甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000880",
+      "evidence_span": "蚘蟲之為病，令人吐涎，心痛，發作有時，毒藥不止，甘草粉蜜湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_000441",
+      "evidence_span": "此證與支飲證相類。而唯）心痛徹背者。（為胸痹證所獨。以）栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000498",
+      "evidence_span": "蚘蟲之為病，令人吐涎心痛，發作有時，毒藥不止，甘草粉蜜湯主之，將甘草先煎，納粉蜜攪和服。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001372",
+      "evidence_span": "16.10妊娠，身有寒濕，或腹痛，或心煩心痛，不能飲食，其胎躍躍動者，宜養之，白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001034",
+      "evidence_span": "11.112病人嘔吐涎沫，心痛，若腹痛，發作有時，其脈反洪大者，此蟲之為病也，甘草粉蜜湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "心痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

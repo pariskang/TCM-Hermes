@@ -23,7 +23,7 @@
 > ——《傷寒雜病論(桂本)》·辨婦人各病脈證並治（SU_SHL_GUIBEN_001356，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001399"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝", "茯苓"], "rule_ids": ["IR_CAOSHI_FAWEI_001398"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["桂枝", "桃仁", "芍藥", "茯苓", "蜜"], "rule_ids": ["IR_SHL_GUIBEN_001564"]}
 
 ## 安全声明

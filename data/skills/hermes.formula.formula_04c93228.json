@@ -3,46 +3,48 @@
   "kind": "formula",
   "title": "附子湯方證合併規則",
   "subject": "附子湯",
-  "abstracted_claim": "附子湯可歸納為少陰病、骨節痛、口中和、背惡寒、體痛、渴等方證的核心方（支持條文 39 條，跨 21 部書）。",
+  "abstracted_claim": "附子湯可歸納為少陰病、太陽傷寒、骨節痛、口中和、背惡寒、體痛等方證的核心方（支持條文 41 條，跨 21 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_04C93228",
   "release_level": "silver",
-  "consensus_score": 0.919,
+  "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000616",
-    "IR_B0B74DF58_000632",
+    "IR_B0B74DF58_000615",
+    "IR_B0B74DF58_000631",
     "IR_B11498305_000361",
     "IR_B11498305_000363",
     "IR_B1CAC3ADF_000765",
     "IR_B1CAC3ADF_000768",
-    "IR_B2EB248E3_000099",
-    "IR_B2EB248E3_000102",
-    "IR_B3E16D849_001634",
-    "IR_B3E16D849_001710",
-    "IR_B41512D4B_000978",
+    "IR_B2EB248E3_000097",
+    "IR_B2EB248E3_000100",
+    "IR_B3E16D849_001632",
+    "IR_B3E16D849_001708",
+    "IR_B41512D4B_000976",
     "IR_B8E444005_000084",
     "IR_B8E444005_000208",
-    "IR_BB7301DF2_000148",
-    "IR_BBAACE965_000772",
-    "IR_BBAACE965_001192",
-    "IR_BBAACE965_001198",
+    "IR_BB7301DF2_000147",
+    "IR_BBAACE965_000770",
+    "IR_BBAACE965_001188",
+    "IR_BBAACE965_001194",
     "IR_BC91F4420_000459",
     "IR_BC91F4420_000478",
     "IR_BF5CDC206_000166",
     "IR_BF5CDC206_000167",
-    "IR_CAOSHI_FAWEI_000737",
+    "IR_CAOSHI_FAWEI_000736",
     "IR_SHL_GUANZHU_000600",
     "IR_SHL_GUIBEN_000999",
     "IR_SHL_GUIBEN_001002",
+    "IR_SHL_LAISU_000615",
     "IR_SHL_LAISU_000616",
-    "IR_SHL_LAISU_000617",
+    "IR_SHL_LUNZHU_000624",
     "IR_SHL_LUNZHU_000625",
-    "IR_SHL_LUNZHU_000626",
     "IR_SHL_QJYF_000219",
     "IR_SHL_QJYF_000220",
     "IR_SHL_SONGBEN_000377",
     "IR_SHL_SONGBEN_000378",
-    "IR_SHL_SUYUAN_001122",
-    "IR_SHL_SUYUAN_001126",
+    "IR_SHL_SUYUAN_001120",
+    "IR_SHL_SUYUAN_001123",
+    "IR_SHL_SUYUAN_001124",
+    "IR_SHL_SUYUAN_001125",
     "IR_SHL_TIAOWEN_000331",
     "IR_SHL_TIAOWEN_000332",
     "IR_SHL_ZHUJIE_000870",
@@ -51,41 +53,43 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000616",
-      "IR_B0B74DF58_000632",
+      "IR_B0B74DF58_000615",
+      "IR_B0B74DF58_000631",
       "IR_B11498305_000361",
       "IR_B11498305_000363",
       "IR_B1CAC3ADF_000765",
       "IR_B1CAC3ADF_000768",
-      "IR_B2EB248E3_000099",
-      "IR_B2EB248E3_000102",
-      "IR_B3E16D849_001634",
-      "IR_B3E16D849_001710",
-      "IR_B41512D4B_000978",
+      "IR_B2EB248E3_000097",
+      "IR_B2EB248E3_000100",
+      "IR_B3E16D849_001632",
+      "IR_B3E16D849_001708",
+      "IR_B41512D4B_000976",
       "IR_B8E444005_000084",
       "IR_B8E444005_000208",
-      "IR_BB7301DF2_000148",
-      "IR_BBAACE965_000772",
-      "IR_BBAACE965_001192",
-      "IR_BBAACE965_001198",
+      "IR_BB7301DF2_000147",
+      "IR_BBAACE965_000770",
+      "IR_BBAACE965_001188",
+      "IR_BBAACE965_001194",
       "IR_BC91F4420_000459",
       "IR_BC91F4420_000478",
       "IR_BF5CDC206_000166",
       "IR_BF5CDC206_000167",
-      "IR_CAOSHI_FAWEI_000737",
+      "IR_CAOSHI_FAWEI_000736",
       "IR_SHL_GUANZHU_000600",
       "IR_SHL_GUIBEN_000999",
       "IR_SHL_GUIBEN_001002",
+      "IR_SHL_LAISU_000615",
       "IR_SHL_LAISU_000616",
-      "IR_SHL_LAISU_000617",
+      "IR_SHL_LUNZHU_000624",
       "IR_SHL_LUNZHU_000625",
-      "IR_SHL_LUNZHU_000626",
       "IR_SHL_QJYF_000219",
       "IR_SHL_QJYF_000220",
       "IR_SHL_SONGBEN_000377",
       "IR_SHL_SONGBEN_000378",
-      "IR_SHL_SUYUAN_001122",
-      "IR_SHL_SUYUAN_001126",
+      "IR_SHL_SUYUAN_001120",
+      "IR_SHL_SUYUAN_001123",
+      "IR_SHL_SUYUAN_001124",
+      "IR_SHL_SUYUAN_001125",
       "IR_SHL_TIAOWEN_000331",
       "IR_SHL_TIAOWEN_000332",
       "IR_SHL_ZHUJIE_000870",
@@ -307,6 +311,21 @@
   ],
   "variant_set": [
     {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "太陽傷寒",
+        "脈緊"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_001120",
+        "IR_SHL_SUYUAN_001123",
+        "IR_SHL_SUYUAN_001124",
+        "IR_SHL_SUYUAN_001125"
+      ]
+    },
+    {
       "kind": "composition_variant",
       "books": [
         "傷寒論條辨",
@@ -321,7 +340,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001196",
+        "IR_BBAACE965_001192",
         "IR_BC91F4420_000460",
         "IR_SHL_GUANZHU_000602"
       ]
@@ -366,7 +385,7 @@
         "附子"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000736"
+        "IR_CAOSHI_FAWEI_000735"
       ]
     }
   ],
@@ -375,13 +394,17 @@
     "disease": [
       {
         "term": "少陰病",
-        "count": 21
+        "count": 22
+      },
+      {
+        "term": "太陽傷寒",
+        "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "骨節痛",
-        "count": 21
+        "count": 22
       },
       {
         "term": "口中和",
@@ -393,7 +416,7 @@
       },
       {
         "term": "體痛",
-        "count": 11
+        "count": 12
       },
       {
         "term": "渴",
@@ -407,7 +430,11 @@
     "pulse": [
       {
         "term": "脈沉",
-        "count": 21
+        "count": 22
+      },
+      {
+        "term": "脈緊",
+        "count": 1
       }
     ],
     "pathomechanism": []
@@ -418,14 +445,16 @@
   "keywords": [
     "附子湯",
     "少陰病",
+    "太陽傷寒",
     "骨節痛",
     "口中和",
     "背惡寒",
     "體痛",
     "渴",
-    "脈沉"
+    "脈沉",
+    "脈緊"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

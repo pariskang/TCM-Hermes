@@ -30,7 +30,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B11498305", "book_title": "傷寒纘論·傷寒緒論", "distinct_conditions": ["剛痙", "惡寒", "汗出", "發熱"], "rule_ids": ["IR_B11498305_000601"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000946"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["桂枝"], "rule_ids": ["IR_CAOSHI_FAWEI_000945"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十二枚", "栝蔞根三兩", "桂枝三兩", "甘草二兩", "生薑二兩", "芍藥三兩"], "rule_ids": ["IR_SHL_GUIBEN_001256"]}
 
 ## 安全声明

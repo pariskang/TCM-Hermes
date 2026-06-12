@@ -29,7 +29,7 @@
 > ——《傷寒雜病論(桂本)》·辨瘀血吐衄下血瘡癰病脈證並治（SU_SHL_GUIBEN_001342，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["附子"], "rule_ids": ["IR_CAOSHI_FAWEI_001083"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["附子"], "rule_ids": ["IR_CAOSHI_FAWEI_001082"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["附子十枚"], "rule_ids": ["IR_SHL_GUIBEN_001543"]}
 
 ## 安全声明

@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_BBA9FB4A6", "book_title": "傷寒六書", "distinct_conditions": ["下血", "不大便", "小便自利", "熱入血室", "瘀血", "結胸", "胸滿", "脈數"], "rule_ids": ["IR_BBA9FB4A6_000152"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "粳米", "赤石脂"], "rule_ids": ["IR_BBAACE965_001204", "IR_BC91F4420_000480", "IR_SHL_GUANZHU_000627", "IR_SHL_ZHUJIE_000877"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["乾薑", "粳米", "赤石脂"], "rule_ids": ["IR_BBAACE965_001200", "IR_BC91F4420_000480", "IR_SHL_GUANZHU_000627", "IR_SHL_ZHUJIE_000877"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑一兩", "粳米一升", "赤石脂一斤"], "rule_ids": ["IR_SHL_GUIBEN_001007"]}
 
 ## 冲突记录 conflict_set

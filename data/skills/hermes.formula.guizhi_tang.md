@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_GUIZHI_TANG`
 - **Release level**: silver
 - **Consensus score**: 0.913
-- **Supporting initial rules**: 105
+- **Supporting initial rules**: 106
 
 ## 归纳主张
-桂枝湯可歸納為太陽病、太陽中風、傷寒、中風、妊娠、溫病等方證的核心方（支持條文 105 條，跨 31 部書）。
+桂枝湯可歸納為太陽病、太陽中風、傷寒、中風、妊娠、溫病等方證的核心方（支持條文 106 條，跨 31 部書）。
 
 ## 原文证据（节选）
 > 脈浮虛者，桂枝湯主之。

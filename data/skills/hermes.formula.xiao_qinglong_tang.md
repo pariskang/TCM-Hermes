@@ -39,7 +39,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_JGYH_ERZHU", "book_title": "金匱玉函經二註", "distinct_conditions": ["心下痞"], "rule_ids": ["IR_JGYH_ERZHU_000156", "IR_JGYH_ERZHU_000372"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_SHL_GUIBEN_000437", "IR_SHL_GUIBEN_000440", "IR_SHL_GUIBEN_000685", "IR_SHL_GUIBEN_001381"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["下利", "少陰病", "腹痛"], "rule_ids": ["IR_SHL_MINGLI_000082"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["乾薑", "五味子", "半夏", "桂枝", "甘草", "細辛", "芍藥", "麻黃"], "rule_ids": ["IR_BBAACE965_000192", "IR_BC91F4420_000316"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義"], "composition": ["乾薑", "五味子", "半夏", "桂枝", "甘草", "細辛", "芍藥", "麻黃"], "rule_ids": ["IR_BBAACE965_000191", "IR_BC91F4420_000316"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["乾薑", "半夏", "桂枝", "炙甘草", "石膏", "細辛", "芍藥", "麻黃"], "rule_ids": ["IR_SHL_GUANZHU_000086"]}
 
 ## 冲突记录 conflict_set

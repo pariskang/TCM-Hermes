@@ -35,8 +35,8 @@
 > ——《金匱要略方論》·水氣病脈證并治第十四（SU_JGYL_TIAOWEN_000591，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["無汗", "自利"], "rule_ids": ["IR_JGYL_QIANZHU_000175", "IR_JGYL_QIANZHU_000184"]}
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_TIAOWEN", "book_title": "金匱要略方論", "distinct_conditions": ["皮水"], "rule_ids": ["IR_JGYL_TIAOWEN_000152"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["無汗", "自利"], "rule_ids": ["IR_JGYL_QIANZHU_000173", "IR_JGYL_QIANZHU_000182"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JGYL_TIAOWEN", "book_title": "金匱要略方論", "distinct_conditions": ["皮水"], "rule_ids": ["IR_JGYL_TIAOWEN_000150"]}
 - {"kind": "composition_variant", "books": ["金匱玉函經二註"], "composition": ["白朮四兩"], "rule_ids": ["IR_JGYH_ERZHU_000197"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十五枚", "甘草二兩", "生薑三兩", "白朮四兩", "石膏半斤", "麻黃六兩"], "rule_ids": ["IR_SHL_GUIBEN_001455"]}
 

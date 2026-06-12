@@ -17,7 +17,7 @@
 > ——《註解傷寒論》·辨厥陰病脈證並治法第十二（SU_SHL_ZHUJIE_001556，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["痞", "胸滿"], "rule_ids": ["IR_BBAACE965_001388"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BBAACE965", "book_title": "傷寒論輯義", "distinct_conditions": ["痞", "胸滿"], "rule_ids": ["IR_BBAACE965_001383"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_ZHUJIE", "book_title": "註解傷寒論", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_SHL_ZHUJIE_000993"]}
 
 ## 安全声明

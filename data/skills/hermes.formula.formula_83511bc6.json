@@ -8,28 +8,28 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000277",
+    "IR_B0B74DF58_000276",
     "IR_B11498305_000131",
     "IR_B8E444005_000425",
-    "IR_BBAACE965_001100",
-    "IR_CAOSHI_FAWEI_000667",
+    "IR_BBAACE965_001096",
+    "IR_CAOSHI_FAWEI_000666",
     "IR_SHL_GUIBEN_000876",
     "IR_SHL_SONGBEN_000343",
-    "IR_SHL_SUYUAN_000868",
+    "IR_SHL_SUYUAN_000867",
     "IR_SHL_TIAOWEN_000297",
     "IR_SHL_ZHUJIE_000799"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000277",
+      "IR_B0B74DF58_000276",
       "IR_B11498305_000131",
       "IR_B8E444005_000425",
-      "IR_BBAACE965_001100",
-      "IR_CAOSHI_FAWEI_000667",
+      "IR_BBAACE965_001096",
+      "IR_CAOSHI_FAWEI_000666",
       "IR_SHL_GUIBEN_000876",
       "IR_SHL_SONGBEN_000343",
-      "IR_SHL_SUYUAN_000868",
+      "IR_SHL_SUYUAN_000867",
       "IR_SHL_TIAOWEN_000297",
       "IR_SHL_ZHUJIE_000799"
     ],
@@ -118,10 +118,11 @@
         "赤小豆",
         "連翹",
         "連軺",
-        "麻黃"
+        "麻黃",
+        "黃連"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001101"
+        "IR_BBAACE965_001097"
       ]
     },
     {
@@ -131,11 +132,10 @@
       ],
       "composition": [
         "赤小豆",
-        "連軺",
-        "麻黃"
+        "黃連"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000668"
+        "IR_CAOSHI_FAWEI_000667"
       ]
     },
     {
@@ -150,7 +150,8 @@
         "生薑",
         "赤小豆",
         "連軺",
-        "麻黃"
+        "麻黃",
+        "黃連"
       ],
       "rule_ids": [
         "IR_SHL_GUANZHU_000509"
@@ -189,7 +190,8 @@
         "赤小豆",
         "連翹",
         "連軺",
-        "麻黃"
+        "麻黃",
+        "黃連"
       ],
       "rule_ids": [
         "IR_SHL_ZHUJIE_000801"
@@ -227,6 +229,6 @@
     "發黃"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

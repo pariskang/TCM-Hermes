@@ -8,20 +8,20 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000788",
+    "IR_B0B74DF58_000786",
     "IR_SHL_GUANZHU_000726",
-    "IR_SHL_LAISU_000746",
-    "IR_SHL_LEIFANG_000067",
+    "IR_SHL_LAISU_000745",
+    "IR_SHL_LEIFANG_000065",
     "IR_SHL_SONGBEN_000456",
     "IR_SHL_TIAOWEN_000410"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000788",
+      "IR_B0B74DF58_000786",
       "IR_SHL_GUANZHU_000726",
-      "IR_SHL_LAISU_000746",
-      "IR_SHL_LEIFANG_000067",
+      "IR_SHL_LAISU_000745",
+      "IR_SHL_LEIFANG_000065",
       "IR_SHL_SONGBEN_000456",
       "IR_SHL_TIAOWEN_000410"
     ],
@@ -80,7 +80,7 @@
         "小便不利"
       ],
       "rule_ids": [
-        "IR_SHL_LAISU_000746"
+        "IR_SHL_LAISU_000745"
       ]
     }
   ],
@@ -114,6 +114,6 @@
     "小便不利"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

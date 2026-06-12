@@ -1,0 +1,147 @@
+{
+  "skill_id": "hermes.disease.30141371",
+  "kind": "disease",
+  "title": "小結胸證治合併規則",
+  "subject": "小結胸",
+  "abstracted_claim": "小結胸相關條文 13 條；主要方劑：小陷胸湯、下按之則痛脈浮滑者小陷胸湯。",
+  "merged_rule_id": "MHR_DISEASE_30141371",
+  "release_level": "silver",
+  "consensus_score": 0.916,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000233",
+    "IR_B11498305_000499",
+    "IR_B5FF1CA1B_000531",
+    "IR_B9119D083_000594",
+    "IR_BCA15D57E_000244",
+    "IR_SHL_GUANZHU_000196",
+    "IR_SHL_GUIBEN_000652",
+    "IR_SHL_LAISU_000211",
+    "IR_SHL_LUNZHU_000207",
+    "IR_SHL_QJYF_000068",
+    "IR_SHL_SONGBEN_000203",
+    "IR_SHL_TIAOWEN_000157",
+    "IR_SHL_ZHUJIE_000457"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000233",
+      "IR_B11498305_000499",
+      "IR_B5FF1CA1B_000531",
+      "IR_B9119D083_000594",
+      "IR_BCA15D57E_000244",
+      "IR_SHL_GUANZHU_000196",
+      "IR_SHL_GUIBEN_000652",
+      "IR_SHL_LAISU_000211",
+      "IR_SHL_LUNZHU_000207",
+      "IR_SHL_QJYF_000068",
+      "IR_SHL_SONGBEN_000203",
+      "IR_SHL_TIAOWEN_000157",
+      "IR_SHL_ZHUJIE_000457"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000873",
+      "evidence_span": "小結胸病正在心下。按之則痛脈浮滑者。小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_000392",
+      "evidence_span": "小結胸病正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000690",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_001579",
+      "evidence_span": "小結胸症，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000120",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000162",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000077",
+      "evidence_span": "小結胸者，正在心下，按之即痛，其脈浮滑，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000446",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000293",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000906",
+      "evidence_span": "小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000632",
+      "evidence_span": "8.17小結胸病，正在心下，按之則痛，脈浮滑者，小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_000429",
+      "evidence_span": "**三十九、小結胸**（症）〔病〕，〔正〕**在心下，**（若）**按之則痛，脈浮滑者，**（小者）**小陷胸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "",
+      "source_unit_id": "SU_BCA15D57E_000338",
+      "evidence_span": "小結胸病正在心下按之則痛脈浮滑者小陷胸湯主之小結胸病正在心下位與大結胸同但按之則痛未如大結胸之不按亦痛也脈則浮滑亦不如大結胸之寸浮關沉白虎湯證脈浮滑者此裡有熱表有寒也此雖不如大結胸之熱實而亦有裡熱較之大結胸證同而病輕小陷胸湯黃連泄熱半夏降逆而滌飲栝蔞清金而去垢是即大陷胸之制變而從輕者也",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "小結胸"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T05:05:41Z",
+  "protocol": "hermes-v5"
+}

@@ -20,9 +20,9 @@
 > ——《傷寒雜病論(桂本)》·寒病脈證並治第十二（SU_SHL_GUIBEN_000414，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["厥"], "rule_ids": ["IR_BB7301DF2_000310"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB7301DF2", "book_title": "傷寒百證歌", "distinct_conditions": ["厥"], "rule_ids": ["IR_BB7301DF2_000309"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["咳", "喘", "渴", "耳聾", "脈沉"], "rule_ids": ["IR_SHL_GUIBEN_000346", "IR_SHL_GUIBEN_001394"]}
-- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["乾薑", "甘草", "芍藥"], "rule_ids": ["IR_B41512D4B_000115"]}
+- {"kind": "composition_variant", "books": ["傷寒論辯證廣注"], "composition": ["乾薑", "甘草", "芍藥"], "rule_ids": ["IR_B41512D4B_000114"]}
 - {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "曹氏傷寒金匱發微合刊", "註解傷寒論"], "composition": ["乾薑", "甘草"], "rule_ids": ["IR_BBAACE965_000117", "IR_BC91F4420_000299", "IR_CAOSHI_FAWEI_000070", "IR_SHL_GUANZHU_000123", "IR_SHL_QJYF_000328"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑二兩", "甘草四兩"], "rule_ids": ["IR_SHL_GUIBEN_000348", "IR_SHL_GUIBEN_000402", "IR_SHL_GUIBEN_001395"]}
 

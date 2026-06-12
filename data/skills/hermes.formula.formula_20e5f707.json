@@ -9,13 +9,13 @@
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_B11498305_000448",
-    "IR_B3E16D849_001885"
+    "IR_B3E16D849_001883"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_B11498305_000448",
-      "IR_B3E16D849_001885"
+      "IR_B3E16D849_001883"
     ],
     "bronze": []
   },
@@ -58,7 +58,7 @@
         "當歸"
       ],
       "rule_ids": [
-        "IR_B2EB248E3_000149"
+        "IR_B2EB248E3_000147"
       ]
     },
     {
@@ -74,7 +74,7 @@
         "芍藥"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001326"
+        "IR_BBAACE965_001321"
       ]
     },
     {
@@ -134,6 +134,6 @@
     "脈細"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

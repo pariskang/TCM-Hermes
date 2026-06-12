@@ -8,50 +8,50 @@
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000786",
+    "IR_B0B74DF58_000784",
     "IR_B11498305_000657",
-    "IR_B3E16D849_001916",
-    "IR_B41512D4B_001105",
-    "IR_B5C5ECAC2_000236",
-    "IR_B5C5ECAC2_000347",
-    "IR_B5FF1CA1B_000693",
+    "IR_B3E16D849_001914",
+    "IR_B41512D4B_001103",
+    "IR_B5C5ECAC2_000235",
+    "IR_B5C5ECAC2_000346",
+    "IR_B5FF1CA1B_000692",
     "IR_B8E444005_000438",
-    "IR_BBAACE965_001408",
-    "IR_BBAACE965_001410",
+    "IR_BBAACE965_001403",
+    "IR_BBAACE965_001405",
     "IR_BC91F4420_000597",
-    "IR_CAOSHI_FAWEI_000894",
+    "IR_CAOSHI_FAWEI_000893",
     "IR_SHL_GUANZHU_000735",
     "IR_SHL_GUIBEN_000184",
     "IR_SHL_GUIBEN_001280",
     "IR_SHL_QJYF_000361",
     "IR_SHL_SONGBEN_000463",
-    "IR_SHL_SUYUAN_001316",
-    "IR_SHL_SUYUAN_001317",
+    "IR_SHL_SUYUAN_001312",
+    "IR_SHL_SUYUAN_001313",
     "IR_SHL_TIAOWEN_000417",
     "IR_SHL_ZHUJIE_001058"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000786",
+      "IR_B0B74DF58_000784",
       "IR_B11498305_000657",
-      "IR_B3E16D849_001916",
-      "IR_B41512D4B_001105",
-      "IR_B5C5ECAC2_000236",
-      "IR_B5C5ECAC2_000347",
-      "IR_B5FF1CA1B_000693",
+      "IR_B3E16D849_001914",
+      "IR_B41512D4B_001103",
+      "IR_B5C5ECAC2_000235",
+      "IR_B5C5ECAC2_000346",
+      "IR_B5FF1CA1B_000692",
       "IR_B8E444005_000438",
-      "IR_BBAACE965_001408",
-      "IR_BBAACE965_001410",
+      "IR_BBAACE965_001403",
+      "IR_BBAACE965_001405",
       "IR_BC91F4420_000597",
-      "IR_CAOSHI_FAWEI_000894",
+      "IR_CAOSHI_FAWEI_000893",
       "IR_SHL_GUANZHU_000735",
       "IR_SHL_GUIBEN_000184",
       "IR_SHL_GUIBEN_001280",
       "IR_SHL_QJYF_000361",
       "IR_SHL_SONGBEN_000463",
-      "IR_SHL_SUYUAN_001316",
-      "IR_SHL_SUYUAN_001317",
+      "IR_SHL_SUYUAN_001312",
+      "IR_SHL_SUYUAN_001313",
       "IR_SHL_TIAOWEN_000417",
       "IR_SHL_ZHUJIE_001058"
     ],
@@ -215,8 +215,8 @@
         "虛煩"
       ],
       "rule_ids": [
-        "IR_B5C5ECAC2_000236",
-        "IR_B5C5ECAC2_000347"
+        "IR_B5C5ECAC2_000235",
+        "IR_B5C5ECAC2_000346"
       ]
     },
     {
@@ -242,8 +242,8 @@
         "脈虛數"
       ],
       "rule_ids": [
-        "IR_SHL_SUYUAN_001316",
-        "IR_SHL_SUYUAN_001317"
+        "IR_SHL_SUYUAN_001312",
+        "IR_SHL_SUYUAN_001313"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "麥門冬"
       ],
       "rule_ids": [
-        "IR_BBAACE965_001411"
+        "IR_BBAACE965_001406"
       ]
     },
     {
@@ -290,7 +290,7 @@
         "竹葉"
       ],
       "rule_ids": [
-        "IR_CAOSHI_FAWEI_000895"
+        "IR_CAOSHI_FAWEI_000894"
       ]
     },
     {
@@ -418,6 +418,6 @@
     "脈虛數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

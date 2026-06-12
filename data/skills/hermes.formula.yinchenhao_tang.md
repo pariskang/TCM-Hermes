@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.yinchenhao_tang`
 - **Merged rule**: `MHR_FORMULA_YINCHENHAO_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.911
-- **Supporting initial rules**: 53
+- **Consensus score**: 0.91
+- **Supporting initial rules**: 54
 
 ## 归纳主张
-茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 53 條，跨 29 部書）。
+茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 54 條，跨 29 部書）。
 
 ## 原文证据（节选）
 > 身必發黃。茵陳蒿湯主之。
@@ -35,10 +35,10 @@
 > ——《張卿子傷寒論》·麻仁丸方第八十（SU_B1CAC3ADF_001878，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["口燥", "惡寒", "惡熱", "胸滿"], "rule_ids": ["IR_CAOSHI_FAWEI_000609", "IR_CAOSHI_FAWEI_000662", "IR_CAOSHI_FAWEI_001246", "IR_CAOSHI_FAWEI_001252"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["口燥", "惡寒", "惡熱", "胸滿"], "rule_ids": ["IR_CAOSHI_FAWEI_000608", "IR_CAOSHI_FAWEI_000661", "IR_CAOSHI_FAWEI_001245", "IR_CAOSHI_FAWEI_001251"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["不能食"], "rule_ids": ["IR_SHL_GUIBEN_000832", "IR_SHL_GUIBEN_000872", "IR_SHL_GUIBEN_000879"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["少腹滿", "脈浮緩", "自汗出"], "rule_ids": ["IR_SHL_MINGLI_000135"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義", "註解傷寒論"], "composition": ["大黃", "梔子", "茵陳蒿"], "rule_ids": ["IR_BBAACE965_001024", "IR_SHL_ZHUJIE_000733"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義", "註解傷寒論"], "composition": ["大黃", "梔子", "茵陳蒿"], "rule_ids": ["IR_BBAACE965_001020", "IR_SHL_ZHUJIE_000733"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["大黃", "梔子", "茵陳", "茵陳蒿"], "rule_ids": ["IR_SHL_GUANZHU_000501"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大黃二兩", "梔子十四枚", "茵陳蒿六兩"], "rule_ids": ["IR_SHL_GUIBEN_000833"]}
 

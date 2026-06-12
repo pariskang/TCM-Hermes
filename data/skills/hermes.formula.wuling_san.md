@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.wuling_san`
 - **Merged rule**: `MHR_FORMULA_WULING_SAN`
 - **Release level**: silver
-- **Consensus score**: 0.914
-- **Supporting initial rules**: 161
+- **Consensus score**: 0.913
+- **Supporting initial rules**: 166
 
 ## 归纳主张
-五苓散可歸納為小便不利、消渴、痞、霍亂、傷寒、心下痞等方證的核心方（支持條文 161 條，跨 34 部書）。
+五苓散可歸納為小便不利、消渴、痞、霍亂、傷寒、心下痞等方證的核心方（支持條文 166 條，跨 35 部書）。
 
 ## 原文证据（节选）
 > 傷寒汗出而渴者。五苓散主之。
@@ -35,7 +35,7 @@
 > ——《註解傷寒論》·辨太陽病脈證並治法第六（SU_SHL_ZHUJIE_000696，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["心煩", "惡風"], "rule_ids": ["IR_B0B74DF58_000018", "IR_B0B74DF58_000021", "IR_B0B74DF58_000133", "IR_B0B74DF58_000136", "IR_B0B74DF58_000138", "IR_B0B74DF58_000140", "IR_B0B74DF58_000202"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["心煩", "惡風"], "rule_ids": ["IR_B0B74DF58_000018", "IR_B0B74DF58_000021", "IR_B0B74DF58_000132", "IR_B0B74DF58_000135", "IR_B0B74DF58_000137", "IR_B0B74DF58_000139", "IR_B0B74DF58_000201"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["咳"], "rule_ids": ["IR_B3E16D849_000153", "IR_B3E16D849_000387", "IR_B3E16D849_000492", "IR_B3E16D849_000557", "IR_B3E16D849_000562", "IR_B3E16D849_000565", "IR_B3E16D849_000802", "IR_B3E16D849_000804"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["咽乾"], "rule_ids": ["IR_B9119D083_000086", "IR_B9119D083_000244", "IR_B9119D083_000297", "IR_B9119D083_000358", "IR_B9119D083_000361", "IR_B9119D083_000362", "IR_B9119D083_000365", "IR_B9119D083_000625"]}
 - {"kind": "condition_variant", "book_id": "BOOK_BC2BA03C0", "book_title": "傷寒總病論", "distinct_conditions": ["小便數", "陽明病"], "rule_ids": ["IR_BC2BA03C0_000183", "IR_BC2BA03C0_000184", "IR_BC2BA03C0_000216"]}

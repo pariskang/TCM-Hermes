@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.da_chengqi_tang`
 - **Merged rule**: `MHR_FORMULA_DA_CHENGQI_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.89
-- **Supporting initial rules**: 74
+- **Consensus score**: 0.891
+- **Supporting initial rules**: 75
 
 ## 归纳主张
-大承氣湯可歸納為陽明病、腹滿、傷寒、下利、產後、宿食等方證的核心方（支持條文 74 條，跨 27 部書）。
+大承氣湯可歸納為陽明病、腹滿、傷寒、下利、產後、宿食等方證的核心方（支持條文 75 條，跨 27 部書）。
 
 ## 原文证据（节选）
 > 但發熱譫語者。大承氣湯主之。
@@ -35,12 +35,12 @@
 > ——《傷寒論輯義》·辨陽明病脈證並治（SU_BBAACE965_002227，silver）
 
 ## 版本差异 variant_set
+- {"kind": "condition_variant", "book_id": "BOOK_B0B74DF58", "book_title": "傷寒恆論", "distinct_conditions": ["陰竭"], "rule_ids": ["IR_B0B74DF58_000445", "IR_B0B74DF58_000488", "IR_B0B74DF58_000489"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B434348CD", "book_title": "傷寒附翼", "distinct_conditions": ["不得臥"], "rule_ids": ["IR_B434348CD_000072"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["大便難"], "rule_ids": ["IR_B9119D083_000235", "IR_B9119D083_000236", "IR_B9119D083_000240", "IR_B9119D083_000284", "IR_B9119D083_000765"]}
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈滑"], "rule_ids": ["IR_CAOSHI_FAWEI_000522", "IR_CAOSHI_FAWEI_000551", "IR_CAOSHI_FAWEI_000557", "IR_CAOSHI_FAWEI_000649", "IR_CAOSHI_FAWEI_000850", "IR_CAOSHI_FAWEI_001418", "IR_CAOSHI_FAWEI_001423"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["寸口脈浮"], "rule_ids": ["IR_SHL_GUIBEN_000762", "IR_SHL_GUIBEN_000778", "IR_SHL_GUIBEN_000914", "IR_SHL_GUIBEN_001592", "IR_SHL_GUIBEN_001605"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈滑"], "rule_ids": ["IR_CAOSHI_FAWEI_000521", "IR_CAOSHI_FAWEI_000550", "IR_CAOSHI_FAWEI_000556", "IR_CAOSHI_FAWEI_000648", "IR_CAOSHI_FAWEI_000849", "IR_CAOSHI_FAWEI_001417", "IR_CAOSHI_FAWEI_001422"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["寸口脈浮"], "rule_ids": ["IR_SHL_GUIBEN_000762", "IR_SHL_GUIBEN_000778", "IR_SHL_GUIBEN_000914", "IR_SHL_GUIBEN_001591", "IR_SHL_GUIBEN_001604"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_ZHUJIE", "book_title": "註解傷寒論", "distinct_conditions": ["怵惕"], "rule_ids": ["IR_SHL_ZHUJIE_000600", "IR_SHL_ZHUJIE_000631", "IR_SHL_ZHUJIE_000661"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "註解傷寒論"], "composition": ["厚朴", "大黃", "枳實", "芒硝"], "rule_ids": ["IR_BBAACE965_000895", "IR_BC91F4420_000358", "IR_SHL_GUANZHU_000400", "IR_SHL_ZHUJIE_000642"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現大承氣湯應用與禁忌表述，需按條件區分。

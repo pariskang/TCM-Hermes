@@ -4,10 +4,10 @@
 - **Merged rule**: `MHR_FORMULA_FORMULA_E62C3559`
 - **Release level**: silver
 - **Consensus score**: 0.92
-- **Supporting initial rules**: 18
+- **Supporting initial rules**: 20
 
 ## 归纳主张
-歸四逆湯可歸納為下利、少陰病、厥陰病、厥、手足厥冷、四逆等方證的核心方（支持條文 18 條，跨 18 部書）。
+歸四逆湯可歸納為下利、少陰病、厥陰病、厥、四逆、手足厥冷等方證的核心方（支持條文 20 條，跨 18 部書）。
 
 ## 原文证据（节选）
 > 手足厥寒。脈細欲絕者。當歸四逆湯主之。
@@ -38,7 +38,7 @@
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["惡寒", "發熱", "脈微欲絕", "脈浮", "脈浮遲", "頭痛"], "rule_ids": ["IR_B3E520529_000117"]}
 - {"kind": "condition_variant", "book_id": "BOOK_B9119D083", "book_title": "傷寒大白", "distinct_conditions": ["乾嘔", "厥陰病", "脈沉"], "rule_ids": ["IR_B9119D083_000025"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["榮衛不和"], "rule_ids": ["IR_SHL_GUIBEN_001003"]}
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桂枝", "甘草", "當歸", "細辛", "芍藥"], "rule_ids": ["IR_BBAACE965_001324"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["桂枝", "甘草", "當歸", "細辛", "芍藥"], "rule_ids": ["IR_BBAACE965_001319"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒貫珠集"], "composition": ["大棗", "桂枝", "甘草", "當歸", "細辛", "芍藥"], "rule_ids": ["IR_BC91F4420_000531", "IR_SHL_GUANZHU_000695"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗二十五枚", "桂枝三兩", "甘草二兩", "當歸三兩", "細辛三兩", "芍藥三兩"], "rule_ids": ["IR_SHL_GUIBEN_001004"]}
 

@@ -35,9 +35,9 @@
 > ——《傷寒尋源》·咽痛（SU_B8E444005_000338，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "苦酒"], "rule_ids": ["IR_BBAACE965_001226", "IR_BC91F4420_000493", "IR_SHL_ZHUJIE_000892"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["半夏", "苦酒"], "rule_ids": ["IR_BBAACE965_001222", "IR_BC91F4420_000493", "IR_SHL_ZHUJIE_000892"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集", "傷寒雜病論(桂本)"], "composition": ["半夏十四枚"], "rule_ids": ["IR_SHL_GUANZHU_000584", "IR_SHL_GUIBEN_001023"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["苦酒"], "rule_ids": ["IR_CAOSHI_FAWEI_000750"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["苦酒"], "rule_ids": ["IR_CAOSHI_FAWEI_000749"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

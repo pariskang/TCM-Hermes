@@ -18,7 +18,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E520529", "book_title": "傷寒總病論", "distinct_conditions": ["下利", "脈浮大", "面赤"], "rule_ids": ["IR_B3E520529_000213"]}
-- {"kind": "condition_variant", "book_id": "BOOK_BB711944D", "book_title": "仲景傷寒補亡論", "distinct_conditions": ["傷寒", "發熱"], "rule_ids": ["IR_BB711944D_001348"]}
+- {"kind": "condition_variant", "book_id": "BOOK_BB711944D", "book_title": "仲景傷寒補亡論", "distinct_conditions": ["傷寒", "發熱"], "rule_ids": ["IR_BB711944D_001347"]}
 
 ## 冲突记录 conflict_set
 - 證據中同時出現升麻湯應用與禁忌表述，需按條件區分。

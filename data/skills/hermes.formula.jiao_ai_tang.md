@@ -20,7 +20,7 @@
 > ——《曹氏傷寒金匱發微合刊》·婦人雜病脈證治第二十二（SU_CAOSHI_FAWEI_002144，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["亡血", "吐衄", "脈弦", "虛勞", "衄"], "rule_ids": ["IR_CAOSHI_FAWEI_001456"]}
+- {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["亡血", "吐衄", "脈弦", "虛勞", "衄"], "rule_ids": ["IR_CAOSHI_FAWEI_001454"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

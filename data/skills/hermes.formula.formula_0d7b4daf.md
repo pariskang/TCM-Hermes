@@ -26,7 +26,7 @@
 > ——《傷寒雜病論(桂本)》·辨太陽病脈證並治中（SU_SHL_GUIBEN_000482，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["厚朴", "大棗", "杏仁", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000205"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["厚朴", "大棗", "杏仁", "桂枝", "甘草", "生薑", "芍藥"], "rule_ids": ["IR_BBAACE965_000204"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["厚朴二兩", "大棗十二枚", "杏仁五十枚", "桂枝三兩", "甘草二兩", "生薑三兩", "芍藥三兩"], "rule_ids": ["IR_SHL_GUIBEN_000443"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["厚朴二兩", "杏仁五十個"], "rule_ids": ["IR_SHL_ZHUJIE_001141"]}
 

@@ -26,8 +26,8 @@
 > ——《傷寒貫珠集》·厥陰溫法九條（SU_SHL_GUANZHU_000489，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["厥"], "rule_ids": ["IR_B5C5ECAC2_000150", "IR_B5C5ECAC2_000222"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒貫珠集", "曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "人參", "黃芩", "黃連"], "rule_ids": ["IR_BC91F4420_000555", "IR_CAOSHI_FAWEI_000847", "IR_SHL_GUANZHU_000705"]}
+- {"kind": "condition_variant", "book_id": "BOOK_B5C5ECAC2", "book_title": "傷寒指掌", "distinct_conditions": ["厥"], "rule_ids": ["IR_B5C5ECAC2_000149", "IR_B5C5ECAC2_000221"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒貫珠集", "曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "人參", "黃芩", "黃連"], "rule_ids": ["IR_BC91F4420_000555", "IR_CAOSHI_FAWEI_000846", "IR_SHL_GUANZHU_000705"]}
 - {"kind": "composition_variant", "books": ["傷寒來蘇集"], "composition": ["乾薑", "人參", "大黃", "黃芩", "黃連"], "rule_ids": ["IR_SHL_LAISU_000237"]}
 
 ## 安全声明

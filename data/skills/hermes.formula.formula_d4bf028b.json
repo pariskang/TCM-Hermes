@@ -10,18 +10,18 @@
   "supporting_initial_rules": [
     "IR_JGYH_ERZHU_000158",
     "IR_JGYH_ERZHU_000252",
-    "IR_JGYL_FANGLUN_000136",
+    "IR_JGYL_FANGLUN_000134",
     "IR_JGYL_JIYI_000235",
-    "IR_JGYL_TIAOWEN_000136"
+    "IR_JGYL_TIAOWEN_000134"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_JGYH_ERZHU_000158",
       "IR_JGYH_ERZHU_000252",
-      "IR_JGYL_FANGLUN_000136",
+      "IR_JGYL_FANGLUN_000134",
       "IR_JGYL_JIYI_000235",
-      "IR_JGYL_TIAOWEN_000136"
+      "IR_JGYL_TIAOWEN_000134"
     ],
     "bronze": []
   },
@@ -102,6 +102,6 @@
     "渴"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T04:59:14Z",
+  "compiled_at": "2026-06-12T05:05:41Z",
   "protocol": "hermes-v5"
 }

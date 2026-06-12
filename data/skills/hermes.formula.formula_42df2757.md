@@ -35,8 +35,8 @@
 > ——《傷寒論綱目》·合病（SU_B3E16D849_001702，silver）
 
 ## 版本差异 variant_set
-- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["半夏", "大棗", "甘草", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000793"]}
-- {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "曹氏傷寒金匱發微合刊"], "composition": ["半夏", "生薑", "黃芩"], "rule_ids": ["IR_CAOSHI_FAWEI_000455", "IR_SHL_QJYF_000118"]}
+- {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["半夏", "大棗", "甘草", "生薑", "芍藥", "黃芩"], "rule_ids": ["IR_BBAACE965_000791"]}
+- {"kind": "composition_variant", "books": ["傷寒論(千金翼方)", "曹氏傷寒金匱發微合刊"], "composition": ["半夏", "生薑", "黃芩"], "rule_ids": ["IR_CAOSHI_FAWEI_000454", "IR_SHL_QJYF_000118"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["半夏半升", "生薑三兩"], "rule_ids": ["IR_SHL_GUANZHU_000043"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["半夏半升", "大棗十二枚", "甘草二兩", "生薑一兩", "芍藥二兩", "黃芩三兩"], "rule_ids": ["IR_SHL_GUIBEN_000737"]}
 - {"kind": "composition_variant", "books": ["註解傷寒論"], "composition": ["半夏半升", "生薑一兩"], "rule_ids": ["IR_SHL_ZHUJIE_001158"]}

@@ -36,8 +36,8 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["四逆"], "rule_ids": ["IR_SHL_GUIBEN_000335", "IR_SHL_GUIBEN_000702", "IR_SHL_GUIBEN_001304"]}
-- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["乾薑", "半夏", "大棗", "甘草", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000720", "IR_BC91F4420_000158", "IR_SHL_ZHUJIE_001157"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草"], "rule_ids": ["IR_CAOSHI_FAWEI_000407"]}
+- {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "註解傷寒論"], "composition": ["乾薑", "半夏", "大棗", "甘草", "黃芩", "黃連"], "rule_ids": ["IR_BBAACE965_000718", "IR_BC91F4420_000158", "IR_SHL_ZHUJIE_001157"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草"], "rule_ids": ["IR_CAOSHI_FAWEI_000406"]}
 - {"kind": "composition_variant", "books": ["傷寒貫珠集"], "composition": ["乾薑", "人參", "半夏", "大棗", "甘草", "生薑", "黃芩", "黃連"], "rule_ids": ["IR_SHL_GUANZHU_000235"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "人參三兩", "半夏半升", "大棗十二枚", "甘草四兩", "黃芩三兩", "黃連一兩"], "rule_ids": ["IR_SHL_GUIBEN_000338", "IR_SHL_GUIBEN_000704"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["乾薑三兩", "半夏半升", "大棗十二枚", "甘草四兩", "黃芩三兩", "黃連一兩"], "rule_ids": ["IR_SHL_GUIBEN_001305"]}

@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_GUIBEN", "book_title": "傷寒雜病論(桂本)", "distinct_conditions": ["嘔吐", "腹痛"], "rule_ids": ["IR_SHL_GUIBEN_001172"]}
-- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "粉", "蜜"], "rule_ids": ["IR_CAOSHI_FAWEI_001394"]}
+- {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["甘草", "粉", "蜜"], "rule_ids": ["IR_CAOSHI_FAWEI_001393"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["甘草二兩", "粉一兩", "蜜四兩"], "rule_ids": ["IR_SHL_GUIBEN_001173"]}
 
 ## 安全声明
