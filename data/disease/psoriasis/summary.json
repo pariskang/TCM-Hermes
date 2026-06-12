@@ -1,20 +1,33 @@
 {
   "disease": "psoriasis",
   "display_name": "银屑病",
-  "generated_at": "2026-06-12T10:36:50Z",
-  "candidates": 10,
+  "generated_at": "2026-06-12T12:38:45Z",
+  "candidates": 6556,
   "by_level": {
-    "silver": 1,
-    "bronze": 5,
-    "rejected": 4
+    "rejected": 6469,
+    "bronze": 84,
+    "silver": 3
   },
   "by_subtype": {
-    "vulgaris": 5,
-    "arthropathic": 1
+    "scalp": 11,
+    "nail": 30,
+    "arthropathic": 8,
+    "vulgaris": 21,
+    "erythrodermic": 14,
+    "pustular": 3
   },
-  "included_for_analytics": 6,
-  "network_nodes": 0,
-  "network_edges": 0,
-  "core_herbs": [],
+  "included_for_analytics": 87,
+  "network_nodes": 16,
+  "network_edges": 35,
+  "core_herbs": [
+    "甘草",
+    "當歸",
+    "附子",
+    "雄黃",
+    "白朮",
+    "黃連",
+    "水銀",
+    "川芎"
+  ],
   "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
 }

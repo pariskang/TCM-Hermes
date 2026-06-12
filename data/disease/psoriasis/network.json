@@ -1,8 +1,348 @@
 {
-  "candidates_analyzed": 0,
-  "n_nodes": 0,
-  "n_edges": 0,
-  "core_herbs": [],
-  "edges": [],
-  "interpretation": "样本不足，未形成稳定药物网络。"
+  "candidates_analyzed": 27,
+  "n_nodes": 16,
+  "n_edges": 35,
+  "core_herbs": [
+    {
+      "herb": "甘草",
+      "count": 7,
+      "degree": 0.7333333333333333,
+      "betweenness": 0.2,
+      "eigenvector": 0.4596,
+      "pagerank": 0.1252
+    },
+    {
+      "herb": "當歸",
+      "count": 5,
+      "degree": 0.6666666666666666,
+      "betweenness": 0.1048,
+      "eigenvector": 0.4509,
+      "pagerank": 0.1099
+    },
+    {
+      "herb": "附子",
+      "count": 3,
+      "degree": 0.4,
+      "betweenness": 0.0095,
+      "eigenvector": 0.2858,
+      "pagerank": 0.0666
+    },
+    {
+      "herb": "雄黃",
+      "count": 3,
+      "degree": 0.06666666666666667,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.0625
+    },
+    {
+      "herb": "白朮",
+      "count": 4,
+      "degree": 0.06666666666666667,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.0625
+    },
+    {
+      "herb": "黃連",
+      "count": 4,
+      "degree": 0.06666666666666667,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.0625
+    },
+    {
+      "herb": "水銀",
+      "count": 4,
+      "degree": 0.06666666666666667,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.0625
+    },
+    {
+      "herb": "川芎",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.255,
+      "pagerank": 0.0562
+    },
+    {
+      "herb": "桔梗",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.255,
+      "pagerank": 0.0562
+    },
+    {
+      "herb": "紫草",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.255,
+      "pagerank": 0.0562
+    },
+    {
+      "herb": "防風",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.255,
+      "pagerank": 0.0562
+    },
+    {
+      "herb": "白芍",
+      "count": 3,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.2618,
+      "pagerank": 0.056
+    },
+    {
+      "herb": "人參",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.2618,
+      "pagerank": 0.056
+    },
+    {
+      "herb": "荊芥",
+      "count": 2,
+      "degree": 0.3333333333333333,
+      "betweenness": 0.0,
+      "eigenvector": 0.2618,
+      "pagerank": 0.056
+    },
+    {
+      "herb": "蒼朮",
+      "count": 4,
+      "degree": 0.2,
+      "betweenness": 0.0,
+      "eigenvector": 0.1821,
+      "pagerank": 0.037
+    },
+    {
+      "herb": "苦參",
+      "count": 4,
+      "degree": 0.06666666666666667,
+      "betweenness": 0.0,
+      "eigenvector": 0.0699,
+      "pagerank": 0.0186
+    }
+  ],
+  "edges": [
+    {
+      "source": "甘草",
+      "target": "當歸",
+      "count": 3,
+      "pmi": 0.839
+    },
+    {
+      "source": "甘草",
+      "target": "苦參",
+      "count": 2,
+      "pmi": 0.657
+    },
+    {
+      "source": "甘草",
+      "target": "蒼朮",
+      "count": 2,
+      "pmi": 0.657
+    },
+    {
+      "source": "當歸",
+      "target": "蒼朮",
+      "count": 2,
+      "pmi": 0.993
+    },
+    {
+      "source": "蒼朮",
+      "target": "附子",
+      "count": 2,
+      "pmi": 1.504
+    },
+    {
+      "source": "白朮",
+      "target": "黃連",
+      "count": 2,
+      "pmi": 1.216
+    },
+    {
+      "source": "川芎",
+      "target": "桔梗",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "川芎",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "川芎",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "川芎",
+      "target": "紫草",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "川芎",
+      "target": "防風",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "桔梗",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "桔梗",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "桔梗",
+      "target": "紫草",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "桔梗",
+      "target": "防風",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "甘草",
+      "target": "紫草",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "甘草",
+      "target": "防風",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "當歸",
+      "target": "紫草",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "當歸",
+      "target": "防風",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "紫草",
+      "target": "防風",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "人參",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "人參",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "人參",
+      "target": "白芍",
+      "count": 2,
+      "pmi": 2.197
+    },
+    {
+      "source": "人參",
+      "target": "荊芥",
+      "count": 2,
+      "pmi": 2.603
+    },
+    {
+      "source": "人參",
+      "target": "附子",
+      "count": 2,
+      "pmi": 2.197
+    },
+    {
+      "source": "甘草",
+      "target": "白芍",
+      "count": 2,
+      "pmi": 0.944
+    },
+    {
+      "source": "甘草",
+      "target": "荊芥",
+      "count": 2,
+      "pmi": 1.35
+    },
+    {
+      "source": "甘草",
+      "target": "附子",
+      "count": 2,
+      "pmi": 0.944
+    },
+    {
+      "source": "當歸",
+      "target": "白芍",
+      "count": 2,
+      "pmi": 1.281
+    },
+    {
+      "source": "當歸",
+      "target": "荊芥",
+      "count": 2,
+      "pmi": 1.686
+    },
+    {
+      "source": "當歸",
+      "target": "附子",
+      "count": 2,
+      "pmi": 1.281
+    },
+    {
+      "source": "白芍",
+      "target": "荊芥",
+      "count": 2,
+      "pmi": 2.197
+    },
+    {
+      "source": "白芍",
+      "target": "附子",
+      "count": 2,
+      "pmi": 1.792
+    },
+    {
+      "source": "荊芥",
+      "target": "附子",
+      "count": 2,
+      "pmi": 2.197
+    },
+    {
+      "source": "水銀",
+      "target": "雄黃",
+      "count": 2,
+      "pmi": 1.504
+    }
+  ],
+  "interpretation": "核心药物（按 PageRank/度中心性）：甘草、當歸、附子、雄黃、白朮。"
 }

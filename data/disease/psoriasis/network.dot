@@ -1,3 +1,38 @@
 graph herbs {
   node [shape=ellipse];
+  "甘草" -- "當歸" [penwidth=3 color="firebrick"];
+  "甘草" -- "苦參" [penwidth=2 color="firebrick"];
+  "甘草" -- "蒼朮" [penwidth=2 color="firebrick"];
+  "當歸" -- "蒼朮" [penwidth=2 color="firebrick"];
+  "蒼朮" -- "附子" [penwidth=2 color="firebrick"];
+  "白朮" -- "黃連" [penwidth=2 color="firebrick"];
+  "川芎" -- "桔梗" [penwidth=2 color="firebrick"];
+  "川芎" -- "甘草" [penwidth=2 color="firebrick"];
+  "川芎" -- "當歸" [penwidth=2 color="firebrick"];
+  "川芎" -- "紫草" [penwidth=2 color="firebrick"];
+  "川芎" -- "防風" [penwidth=2 color="firebrick"];
+  "桔梗" -- "甘草" [penwidth=2 color="firebrick"];
+  "桔梗" -- "當歸" [penwidth=2 color="firebrick"];
+  "桔梗" -- "紫草" [penwidth=2 color="firebrick"];
+  "桔梗" -- "防風" [penwidth=2 color="firebrick"];
+  "甘草" -- "紫草" [penwidth=2 color="firebrick"];
+  "甘草" -- "防風" [penwidth=2 color="firebrick"];
+  "當歸" -- "紫草" [penwidth=2 color="firebrick"];
+  "當歸" -- "防風" [penwidth=2 color="firebrick"];
+  "紫草" -- "防風" [penwidth=2 color="firebrick"];
+  "人參" -- "甘草" [penwidth=2 color="firebrick"];
+  "人參" -- "當歸" [penwidth=2 color="firebrick"];
+  "人參" -- "白芍" [penwidth=2 color="firebrick"];
+  "人參" -- "荊芥" [penwidth=2 color="firebrick"];
+  "人參" -- "附子" [penwidth=2 color="firebrick"];
+  "甘草" -- "白芍" [penwidth=2 color="firebrick"];
+  "甘草" -- "荊芥" [penwidth=2 color="firebrick"];
+  "甘草" -- "附子" [penwidth=2 color="firebrick"];
+  "當歸" -- "白芍" [penwidth=2 color="firebrick"];
+  "當歸" -- "荊芥" [penwidth=2 color="firebrick"];
+  "當歸" -- "附子" [penwidth=2 color="firebrick"];
+  "白芍" -- "荊芥" [penwidth=2 color="firebrick"];
+  "白芍" -- "附子" [penwidth=2 color="firebrick"];
+  "荊芥" -- "附子" [penwidth=2 color="firebrick"];
+  "水銀" -- "雄黃" [penwidth=2 color="firebrick"];
 }

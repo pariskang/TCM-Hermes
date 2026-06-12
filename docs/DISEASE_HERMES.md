@@ -148,24 +148,48 @@ python3 -m hermes ask "白疕 鳞屑 血燥"                             # 经 S
 conflict / 安全声明），并附疾病专属字段：`ancient_disease_names`、`ontology_summary`、
 `mapping_caveat`（古今映射为候选/表型对应，非诊断）。
 
-## 可视化导出（交互式 ECharts HTML，含 DIY 参数）
+## 接入真实外科/温病语料（不污染伤寒金匮底座）
 
-把疾病知识导出为自包含的 HTML 仪表盘（数据内嵌，ECharts 走 CDN），五种图表：
-药物共现**网络**、病机→治法→药物**桑基图**、共现**热力图**、高频词**柱状图**、
-朝代**时序**。dashboard 顶部标签切换，每图都带**实时 DIY 控件**（最小共现阈值、
-节点大小指标 degree/betweenness/eigenvector/pagerank、力导向斥力、Top-N、明暗主题），
-浏览器内即时重绘。
+`disease-corpus` 从中醫笈成 7z（或已解压目录树）抽取相关书籍，建一个**隔离**的疾病
+语料（`data/disease_corpus/<类>/`，自带切分与书目），伤寒金匮底座与规则完全不受影响。
+内置精选书目：外科 19 部（外科正宗/外科大成/外科证治全书/医宗金鉴/疡科心得集/疡医
+大全…），温病 16 部（温病条辨/温热论/温热经纬/温疫论/时病论/湿热病篇…）。
 
 ```bash
-python3 -m hermes disease run --disease 类风湿 --use-corpus --no-sample --viz   # 跑流程并出图
-python3 -m hermes disease-viz --disease 类风湿 --size-metric pagerank --min-edge 2 --theme dark
+# 1) 建语料（首次需有 book-20180111.7z，或 --download 自动下载，或 --from-tree 指向已解压目录）
+python3 -m hermes disease-corpus --category 外科 --from-7z book-20180111.7z   # 40,264 条文 / 19 书
+python3 -m hermes disease-corpus --category 溫病 --from-7z book-20180111.7z   # 10,266 条文 / 16 书
+# 2) 在真实语料上跑疾病流程
+python3 -m hermes disease run --disease 银屑病 --corpus 外科 --no-sample --skills --viz
+python3 -m hermes disease run --disease 湿疹   --corpus 外科 --no-sample --skills --viz
+python3 -m hermes disease run --disease 温病   --corpus 溫病 --no-sample --skills --viz
 ```
 
-产物在 `data/disease/<病>/viz/`：`dashboard.html`（打开即用）+ `viz_data.json`
-（数据，供外部工具复用）。类风湿在真实金匮语料上的 dashboard 含 23 节点/88 边药物
-网络、漢/宋/明/清多朝代时序、373 条桑基流，核心药物为桂枝/甘草/附子/芍药/麻黄/白朮/
-乌头/知母/防风（= 桂枝芍药知母汤+乌头汤）。离线无网时 ECharts 加载失败会提示改用
-`--echarts-url` 指向本地副本，数据仍在 `viz_data.json` 中可用。
+真实语料结果（启发式后端）：**温病** 2300 候选 / 16 silver，药物网络核心
+连翘/石膏/知母/黄芩/竹叶（银翘散/白虎汤/桑菊饮）；**银屑病** 在外科语料上召回 6556 候选，
+经排除+审核得真实白疕/松皮癣 silver。LLM 后端会进一步提升 silver 比例。
+
+## 可视化导出（9 种交互式 ECharts 图 + PNG/SVG/JSON 导出 + DIY 参数）
+
+自包含 HTML 仪表盘（数据内嵌，ECharts 走 CDN），九种图表：
+**五层知识图谱**（古病名→症状→病机→治法→药物，分层布局可拖拽缩放）、药物共现**网络**、
+病机→治法→药物**桑基图**、病机治法**旭日图**、分型病机**雷达图**、共现**热力图**、
+高频词**柱状图**（症状/病机/治法/药物可切换）、朝代**时序**、召回→纳入 **PRISMA 漏斗**。
+
+- 每张图右上角一键**导出 PNG / SVG / JSON**（SVG 经 `renderToSVGString` 矢量导出）；
+- 顶部**明暗主题**切换；
+- **实时 DIY 控件**：最小共现阈值、节点大小指标（degree/betweenness/eigenvector/
+  pagerank）、力导向斥力、每层/整体 Top-N、桑基最小流量——浏览器内即时重绘；
+- 命令行也可定制导出默认值。
+
+```bash
+python3 -m hermes disease run --disease 类风湿 --use-corpus --no-sample --viz
+python3 -m hermes disease-viz --disease 温病 --size-metric pagerank --min-edge 2 --theme dark
+```
+
+产物在 `data/disease/<病>/viz/`：`dashboard.html`（打开即用）+ `viz_data.json`（数据，
+供外部工具复用，每图也可单独导出 JSON）。离线无网时会提示用 `--echarts-url` 指向本地
+echarts 副本，数据仍可复用。`hermes_disease_viz` 工具亦可经 MCP 调用。
 
 ## 迁移到其他疾病
 

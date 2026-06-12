@@ -1,67 +1,127 @@
 {
   "dynasty_trends": {
-    "隋": {
+    "宋": {
       "dominant_pathogenesis": [
         {
-          "term": "風濕",
-          "rel_freq": 0.2
-        },
-        {
-          "term": "血氣相搏",
-          "rel_freq": 0.2
-        },
-        {
-          "term": "寒濕",
-          "rel_freq": 0.2
-        },
-        {
-          "term": "腠理",
-          "rel_freq": 0.2
-        },
-        {
           "term": "風毒",
-          "rel_freq": 0.2
+          "rel_freq": 1.0
         }
       ],
       "dominant_treatments": []
     },
-    "清": {
+    "元": {
+      "dominant_pathogenesis": [],
+      "dominant_treatments": [
+        {
+          "term": "殺蟲",
+          "rel_freq": 1.0
+        }
+      ]
+    },
+    "明": {
       "dominant_pathogenesis": [
         {
-          "term": "血燥",
-          "rel_freq": 0.333
-        },
-        {
-          "term": "風邪",
-          "rel_freq": 0.167
-        },
-        {
-          "term": "風燥",
-          "rel_freq": 0.167
-        },
-        {
-          "term": "風濕",
-          "rel_freq": 0.167
+          "term": "濕熱",
+          "rel_freq": 0.24
         },
         {
           "term": "風毒",
-          "rel_freq": 0.167
+          "rel_freq": 0.24
+        },
+        {
+          "term": "風濕",
+          "rel_freq": 0.12
+        },
+        {
+          "term": "風熱",
+          "rel_freq": 0.12
+        },
+        {
+          "term": "腠理",
+          "rel_freq": 0.08
         }
       ],
       "dominant_treatments": [
         {
-          "term": "養血潤燥",
-          "rel_freq": 0.333
+          "term": "殺蟲",
+          "rel_freq": 0.375
         },
         {
-          "term": "祛風",
-          "rel_freq": 0.333
+          "term": "針刺",
+          "rel_freq": 0.125
+        },
+        {
+          "term": "艾灸",
+          "rel_freq": 0.125
+        },
+        {
+          "term": "熏洗",
+          "rel_freq": 0.125
+        },
+        {
+          "term": "涼血",
+          "rel_freq": 0.125
+        }
+      ]
+    },
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "濕熱",
+          "rel_freq": 0.271
+        },
+        {
+          "term": "風熱",
+          "rel_freq": 0.129
+        },
+        {
+          "term": "腠理",
+          "rel_freq": 0.129
+        },
+        {
+          "term": "風邪",
+          "rel_freq": 0.114
+        },
+        {
+          "term": "風濕",
+          "rel_freq": 0.1
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "針刺",
+          "rel_freq": 0.235
         },
         {
           "term": "殺蟲",
-          "rel_freq": 0.333
+          "rel_freq": 0.176
+        },
+        {
+          "term": "艾灸",
+          "rel_freq": 0.176
+        },
+        {
+          "term": "涼血",
+          "rel_freq": 0.176
+        },
+        {
+          "term": "外敷",
+          "rel_freq": 0.118
         }
       ]
+    },
+    "未知": {
+      "dominant_pathogenesis": [
+        {
+          "term": "風濕",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "寒濕",
+          "rel_freq": 0.5
+        }
+      ],
+      "dominant_treatments": []
     }
   }
 }

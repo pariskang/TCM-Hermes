@@ -40,10 +40,6 @@ graph herbs {
   "知母" -- "防風" [penwidth=4 color="firebrick"];
   "芍藥" -- "防風" [penwidth=4 color="firebrick"];
   "防風" -- "麻黃" [penwidth=4 color="firebrick"];
-  "烏頭" -- "蜜" [penwidth=4 color="firebrick"];
-  "甘草" -- "蜜" [penwidth=4 color="firebrick"];
-  "芍藥" -- "蜜" [penwidth=4 color="firebrick"];
-  "蜜" -- "麻黃" [penwidth=4 color="firebrick"];
   "大棗" -- "桂枝" [penwidth=3 color="firebrick"];
   "大棗" -- "甘草" [penwidth=3 color="firebrick"];
   "大棗" -- "生薑" [penwidth=3 color="firebrick"];
@@ -77,15 +73,11 @@ graph herbs {
   "烏頭" -- "附子" [penwidth=2 color="firebrick"];
   "牡蠣" -- "知母" [penwidth=2 color="firebrick"];
   "桂枝" -- "炙甘草" [penwidth=2 color="firebrick"];
-  "桂枝" -- "蜜" [penwidth=2 color="firebrick"];
   "炙甘草" -- "烏頭" [penwidth=2 color="firebrick"];
   "炙甘草" -- "甘草" [penwidth=2 color="firebrick"];
   "炙甘草" -- "知母" [penwidth=2 color="firebrick"];
   "炙甘草" -- "芍藥" [penwidth=2 color="firebrick"];
-  "炙甘草" -- "蜜" [penwidth=2 color="firebrick"];
   "炙甘草" -- "麻黃" [penwidth=2 color="firebrick"];
-  "知母" -- "蜜" [penwidth=2 color="firebrick"];
-  "粉" -- "蜜" [penwidth=2 color="firebrick"];
   "桂枝" -- "白芍" [penwidth=2 color="firebrick"];
   "白芍" -- "芍藥" [penwidth=2 color="firebrick"];
 }

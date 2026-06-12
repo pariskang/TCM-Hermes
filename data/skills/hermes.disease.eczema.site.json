@@ -5,48 +5,53 @@
   "subtype": "site",
   "title": "湿疹·site 古籍证候 Skill",
   "subject": "湿疹·site",
-  "abstracted_claim": "古籍中与湿疹·site表型相似的条文，核心古病名 旋耳瘡、四彎風；常见症候 旋耳、耳、腿彎、四彎、津水；病机多属 濕熱。（候选/表型对应，非诊断）",
+  "abstracted_claim": "古籍中与湿疹·site表型相似的条文，核心古病名 旋耳瘡、四彎風、濕癬；常见症候 旋耳、黃水、耳、腿彎、津水、四彎；病机多属 濕熱；高频药物 大麥。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.eczema.site",
   "release_level": "bronze",
-  "consensus_score": 0.655,
+  "consensus_score": 0.73,
   "supporting_initial_rules": [
-    "ECZEMA_000002",
-    "ECZEMA_000003"
+    "ECZEMA_000028",
+    "ECZEMA_000034"
   ],
   "supporting_rules_by_release_level": {
     "bronze": [
-      "ECZEMA_000002",
-      "ECZEMA_000003"
+      "ECZEMA_000028",
+      "ECZEMA_000034"
     ]
   },
   "original_evidence": [
     {
-      "book_title": "醫宗金鑒",
-      "chapter_title": "外科心法要訣·四彎風",
+      "book_title": "瘍醫大全",
+      "chapter_title": "四彎風門主論",
       "dynasty": "清",
-      "source_unit_id": "SU_ECZEMA_SAMPLE_0004",
-      "entry_id": "ECZEMA_000003",
-      "evidence_span": "四彎風，生於兩腿彎、腳彎，每月一發，形如風癬，屬風邪襲入腠理，其癢無度，搔破津水。",
+      "source_unit_id": "SU_B66C51E14_010097",
+      "entry_id": "ECZEMA_000034",
+      "evidence_span": "《心法》曰：四彎風，生於兩腿彎及兩腳拗，每月一發，形如風癬，乃風邪襲入腠理而成。",
       "release_level": "bronze"
     },
     {
-      "book_title": "醫宗金鑒",
-      "chapter_title": "外科心法要訣·旋耳瘡",
+      "book_title": "瘍醫大全",
+      "chapter_title": "月蝕疳瘡門主論",
       "dynasty": "清",
-      "source_unit_id": "SU_ECZEMA_SAMPLE_0003",
-      "entry_id": "ECZEMA_000002",
-      "evidence_span": "旋耳瘡，生於耳後縫間，色紅作癢，破流脂水，纏綿難愈，由膽脾濕熱所致。",
+      "source_unit_id": "SU_B66C51E14_005341",
+      "entry_id": "ECZEMA_000028",
+      "evidence_span": "《心法》曰：月蝕瘡，又名旋耳瘡，生於耳後縫間，延及耳折上下，如刀裂之狀，色紅時流津黃水。",
       "release_level": "bronze"
     }
   ],
   "ancient_disease_names": [
     "旋耳瘡",
-    "四彎風"
+    "四彎風",
+    "濕癬"
   ],
   "ontology_summary": {
     "symptoms": [
       {
         "term": "旋耳",
+        "count": 1
+      },
+      {
+        "term": "黃水",
         "count": 1
       },
       {
@@ -58,11 +63,11 @@
         "count": 1
       },
       {
-        "term": "四彎",
+        "term": "津水",
         "count": 1
       },
       {
-        "term": "津水",
+        "term": "四彎",
         "count": 1
       }
     ],
@@ -73,7 +78,12 @@
       }
     ],
     "treatment_method": [],
-    "herbs": [],
+    "herbs": [
+      {
+        "term": "大麥",
+        "count": 1
+      }
+    ],
     "ancient_disease_name": [
       {
         "term": "旋耳瘡",
@@ -81,6 +91,10 @@
       },
       {
         "term": "四彎風",
+        "count": 1
+      },
+      {
+        "term": "濕癬",
         "count": 1
       }
     ]
@@ -90,6 +104,11 @@
       "旋耳瘡",
       "has_symptom",
       "旋耳"
+    ],
+    [
+      "旋耳瘡",
+      "has_symptom",
+      "黃水"
     ],
     [
       "旋耳瘡",
@@ -124,12 +143,12 @@
     [
       "四彎風",
       "has_symptom",
-      "四彎"
+      "津水"
     ],
     [
       "四彎風",
       "has_symptom",
-      "津水"
+      "四彎"
     ],
     [
       "四彎風",
@@ -138,6 +157,31 @@
     ],
     [
       "四彎風",
+      "maps_to_candidate",
+      "湿疹·site"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "腿彎"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "津水"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "四彎"
+    ],
+    [
+      "濕癬",
+      "maps_to_candidate",
+      "湿疹·flexure"
+    ],
+    [
+      "濕癬",
       "maps_to_candidate",
       "湿疹·site"
     ]
@@ -149,6 +193,10 @@
         "count": 1
       },
       {
+        "term": "黃水",
+        "count": 1
+      },
+      {
         "term": "耳",
         "count": 1
       },
@@ -157,11 +205,11 @@
         "count": 1
       },
       {
-        "term": "四彎",
+        "term": "津水",
         "count": 1
       },
       {
-        "term": "津水",
+        "term": "四彎",
         "count": 1
       }
     ],
@@ -174,7 +222,12 @@
   },
   "then_profile": {
     "treatment_method": [],
-    "herbs": []
+    "herbs": [
+      {
+        "term": "大麥",
+        "count": 1
+      }
+    ]
   },
   "variant_set": [],
   "conflict_set": [],
@@ -184,13 +237,16 @@
     "eczema",
     "旋耳瘡",
     "四彎風",
+    "濕癬",
     "旋耳",
+    "黃水",
     "耳",
     "腿彎",
+    "津水",
     "四彎",
-    "津水"
+    "大麥"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:36:50Z",
+  "compiled_at": "2026-06-12T12:38:48Z",
   "protocol": "hermes-v5"
 }

@@ -5,7 +5,7 @@
   "subtype": "swelling",
   "title": "类风湿关节炎·关节肿胀 古籍证候 Skill",
   "subject": "类风湿关节炎·关节肿胀",
-  "abstracted_claim": "古籍中与类风湿关节炎·关节肿胀表型相似的条文，核心古病名 痹；常见症候 腫大、厥、咳、腫；病机多属 寒濕；高频药物 甘草、乾薑、桂枝。（候选/表型对应，非诊断）",
+  "abstracted_claim": "古籍中与类风湿关节炎·关节肿胀表型相似的条文，核心古病名 痹；常见症候 腫大、厥、咳、腫；病机多属 寒濕；高频药物 乾薑、甘草、桂枝。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.rheumatoid_arthritis.swelling",
   "release_level": "bronze",
   "consensus_score": 0.655,
@@ -59,11 +59,11 @@
     "treatment_method": [],
     "herbs": [
       {
-        "term": "甘草",
+        "term": "乾薑",
         "count": 1
       },
       {
-        "term": "乾薑",
+        "term": "甘草",
         "count": 1
       },
       {
@@ -115,17 +115,17 @@
       "痹"
     ],
     [
-      "甘草",
+      "乾薑",
       "co_occurs_with",
-      "乾薑"
+      "甘草"
     ],
     [
-      "甘草",
+      "乾薑",
       "co_occurs_with",
       "桂枝"
     ],
     [
-      "乾薑",
+      "甘草",
       "co_occurs_with",
       "桂枝"
     ]
@@ -160,11 +160,11 @@
     "treatment_method": [],
     "herbs": [
       {
-        "term": "甘草",
+        "term": "乾薑",
         "count": 1
       },
       {
-        "term": "乾薑",
+        "term": "甘草",
         "count": 1
       },
       {
@@ -184,11 +184,11 @@
     "厥",
     "咳",
     "腫",
-    "甘草",
     "乾薑",
+    "甘草",
     "桂枝"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:36:53Z",
+  "compiled_at": "2026-06-12T12:38:57Z",
   "protocol": "hermes-v5"
 }

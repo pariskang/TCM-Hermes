@@ -1,0 +1,363 @@
+{
+  "skill_id": "hermes.disease.psoriasis.pustular",
+  "kind": "disease",
+  "disease_id": "psoriasis",
+  "subtype": "pustular",
+  "title": "银屑病·脓疱型 古籍证候 Skill",
+  "subject": "银屑病·脓疱型",
+  "abstracted_claim": "古籍中与银屑病·脓疱型表型相似的条文，核心古病名 瘡、疥、癬；常见症候 結痂、黃水、甲、眉、嘔吐、膿水；病机多属 血熱；高频药物 白芍。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.psoriasis.pustular",
+  "release_level": "bronze",
+  "consensus_score": 0.686,
+  "supporting_initial_rules": [
+    "PSORIASIS_001127",
+    "PSORIASIS_002535",
+    "PSORIASIS_003482"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "PSORIASIS_001127",
+      "PSORIASIS_002535",
+      "PSORIASIS_003482"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "異痘須知（《錦囊》）",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012153",
+      "entry_id": "PSORIASIS_002535",
+      "evidence_span": "半邊痘：其痘或出於左，或出於右，歪斜頭偏，盤暈散漫者是也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科證治全書",
+      "chapter_title": "癰疽就簡",
+      "dynasty": "清",
+      "source_unit_id": "SU_B4E954120_000217",
+      "entry_id": "PSORIASIS_001127",
+      "evidence_span": "眉叢生細瘡如疥作膿，破流黃水結痂，小兒多患之。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "下部後",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_001475",
+      "entry_id": "PSORIASIS_003482",
+      "evidence_span": "俗名坐板瘡。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "瘡",
+    "疥",
+    "癬"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "結痂",
+        "count": 3
+      },
+      {
+        "term": "黃水",
+        "count": 2
+      },
+      {
+        "term": "甲",
+        "count": 1
+      },
+      {
+        "term": "眉",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "膿水",
+        "count": 1
+      },
+      {
+        "term": "泡瘡",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "遍身",
+        "count": 1
+      },
+      {
+        "term": "黑",
+        "count": 1
+      },
+      {
+        "term": "頭",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "血熱",
+        "count": 1
+      }
+    ],
+    "treatment_method": [],
+    "herbs": [
+      {
+        "term": "白芍",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "瘡",
+        "count": 3
+      },
+      {
+        "term": "疥",
+        "count": 2
+      },
+      {
+        "term": "癬",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "疥",
+      "has_symptom",
+      "結痂"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "甲"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "疥",
+      "maps_to_candidate",
+      "银屑病·脓疱型"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "結痂"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "甲"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "瘡",
+      "maps_to_candidate",
+      "银屑病·脓疱型"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "嘔吐"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "膿水"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "泡瘡"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "發熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "黑"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "瘡",
+      "maps_to_candidate",
+      "银屑病·头皮型"
+    ],
+    [
+      "血熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血熱"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "結痂"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "癬",
+      "maps_to_candidate",
+      "银屑病·脓疱型"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "結痂",
+        "count": 3
+      },
+      {
+        "term": "黃水",
+        "count": 2
+      },
+      {
+        "term": "甲",
+        "count": 1
+      },
+      {
+        "term": "眉",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "膿水",
+        "count": 1
+      },
+      {
+        "term": "泡瘡",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "遍身",
+        "count": 1
+      },
+      {
+        "term": "黑",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "血熱",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": [
+      {
+        "term": "白芍",
+        "count": 1
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科大成",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003482"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科證治全書",
+      "ancient_names": [
+        "疥",
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_001127"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_002535"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "银屑病",
+    "脓疱型",
+    "psoriasis",
+    "瘡",
+    "疥",
+    "癬",
+    "結痂",
+    "黃水",
+    "甲",
+    "眉",
+    "嘔吐",
+    "膿水",
+    "白芍"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:45Z",
+  "protocol": "hermes-v5"
+}

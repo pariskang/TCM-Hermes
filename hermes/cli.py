@@ -203,11 +203,20 @@ def cmd_disease(cfg: HermesConfig, args) -> None:
         _print({"plan": DiseaseConceptPlannerAgent(cfg).plan(p),
                 "ancient_names": AncientDiseaseNameExpansionAgent(cfg).expand(p)})
         return
+    units_dir = None
+    if getattr(args, "corpus", None):
+        from .disease.corpus import DiseaseCorpusBuilder
+        units_dir = DiseaseCorpusBuilder(cfg).source_units_dir(args.corpus)
+        if not units_dir.exists():
+            print(f"disease corpus '{args.corpus}' not built; run "
+                  f"`hermes disease-corpus --category {args.corpus}` first",
+                  file=sys.stderr)
+            return
     pipe = DiseaseHermesPipeline(cfg, backend=backend,
                                  include_bronze=args.include_bronze)
-    summary = pipe.run(args.disease, use_corpus=args.use_corpus,
+    summary = pipe.run(args.disease, use_corpus=args.use_corpus or bool(units_dir),
                        use_sample=not args.no_sample, resume=args.resume,
-                       limit=args.limit)
+                       limit=args.limit, units_dir=units_dir)
     if getattr(args, "skills", False):
         from .disease.skills import DiseaseSkillBuilder
         summary["disease_skills"] = DiseaseSkillBuilder(
@@ -222,6 +231,19 @@ def cmd_disease(cfg: HermesConfig, args) -> None:
 def cmd_disease_skills(cfg: HermesConfig, args) -> None:
     from .disease.skills import DiseaseSkillBuilder
     _print(DiseaseSkillBuilder(cfg, include_bronze=args.include_bronze).run(args.disease))
+
+
+def cmd_disease_corpus(cfg: HermesConfig, args) -> None:
+    from .disease.corpus import DiseaseCorpusBuilder
+    builder = DiseaseCorpusBuilder(cfg)
+    books = args.books or None
+    if args.from_tree:
+        out = builder.build_from_tree(args.from_tree, args.category, books)
+    else:
+        out = builder.build_from_7z(args.from_7z, args.category, books,
+                                    download=args.download)
+    out.pop("catalog", None)
+    _print(out)
 
 
 def cmd_disease_viz(cfg: HermesConfig, args) -> None:
@@ -384,6 +406,9 @@ def build_parser() -> argparse.ArgumentParser:
                     help="also compile Disease-Skills (into the Skill RAG index)")
     sp.add_argument("--viz", action="store_true",
                     help="also export interactive ECharts HTML dashboard")
+    sp.add_argument("--corpus", default=None,
+                    help="read from a built disease corpus (外科 / 溫病) instead "
+                         "of the 伤寒金匮 base")
     sp.add_argument("--limit", type=int, default=None)
     sp.set_defaults(func=cmd_disease)
 
@@ -391,6 +416,19 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--disease", default="psoriasis")
     sp.add_argument("--include-bronze", action="store_true")
     sp.set_defaults(func=cmd_disease_skills)
+
+    sp = sub.add_parser("disease-corpus",
+                        help="build an isolated 外科/溫病 corpus for disease mining")
+    sp.add_argument("--category", required=True, help="外科 or 溫病")
+    sp.add_argument("--from-7z", default=None,
+                    help="path to book-20180111.7z (default: data/downloads/)")
+    sp.add_argument("--from-tree", default=None,
+                    help="path to an extracted tree (book_name/*.txt dirs)")
+    sp.add_argument("--books", nargs="*", default=None,
+                    help="explicit book names (default: curated list)")
+    sp.add_argument("--download", action="store_true",
+                    help="download the jicheng 7z if not present")
+    sp.set_defaults(func=cmd_disease_corpus)
 
     sp = sub.add_parser("disease-viz",
                         help="export interactive ECharts HTML (network/sankey/"

@@ -87,10 +87,13 @@ class DiseaseHermesPipeline:
         return ensure_dir(self.config.data_dir / "disease" / disease_id)
 
     def _load_units(self, disease_id: str, use_corpus: bool,
-                    use_sample: bool) -> list[SourceUnit]:
+                    use_sample: bool, units_dir=None) -> list[SourceUnit]:
         units: list[SourceUnit] = []
-        if use_corpus:
-            for path in sorted(Path(self.config.source_units_dir).glob("BOOK_*.jsonl")):
+        # an explicit units_dir (e.g. a 外科/溫病 disease corpus) implies use_corpus
+        src = Path(units_dir) if units_dir else (
+            Path(self.config.source_units_dir) if use_corpus else None)
+        if src and src.exists():
+            for path in sorted(src.glob("BOOK_*.jsonl")):
                 units.extend(SourceUnit.from_dict(d) for d in read_jsonl(path))
         if use_sample or not units:
             from .sample_corpus import load_sample_units
@@ -194,7 +197,7 @@ class DiseaseHermesPipeline:
     # ------------------------------------------------------------------
     def run(self, disease: str = "psoriasis", use_corpus: bool = False,
             use_sample: bool = True, resume: bool = False,
-            limit: int | None = None) -> dict:
+            limit: int | None = None, units_dir=None) -> dict:
         profile = get_profile(disease)
         ws = self.workspace(profile.disease_id)
         cand_path = ws / "candidates.jsonl"
@@ -207,7 +210,8 @@ class DiseaseHermesPipeline:
                                           CandidateRecord.__dataclass_fields__})
                        for d in read_jsonl(cand_path)]
         else:
-            units = self._load_units(profile.disease_id, use_corpus, use_sample)
+            units = self._load_units(profile.disease_id, use_corpus, use_sample,
+                                     units_dir=units_dir)
             recalled = self._recall(units, profile)
             if limit:
                 recalled = recalled[:limit]

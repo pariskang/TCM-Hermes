@@ -49,19 +49,28 @@ def test_viz_export(cfg):
     ws = cfg.data_dir / "disease" / "warm_disease" / "viz"
     assert (ws / "dashboard.html").exists()
     assert (ws / "viz_data.json").exists()
-    assert set(out["charts"]) == {"network", "sankey", "heatmap", "bars", "timeline"}
+    assert set(out["charts"]) == {"kg", "network", "sankey", "sunburst", "radar",
+                                  "heatmap", "bars", "timeline", "prisma"}
+    assert set(out["export_formats"]) == {"png", "svg", "json"}
 
     html = (ws / "dashboard.html").read_text(encoding="utf-8")
-    # self-contained: embedded data + ECharts + DIY controls + caveat
+    # self-contained: embedded data + ECharts + DIY controls + export + caveat
     assert "echarts" in html
-    assert '"network"' in html and '"sankey"' in html
+    assert "kgOpt" in html and "sunOpt" in html and "radarOpt" in html
     assert "min_edge_count" in html and "size_metric" in html  # DIY controls
+    assert "renderToSVGString" in html and "导出 PNG" in html   # PNG/SVG export
     assert "非诊断" in html
 
     data = json.loads((ws / "viz_data.json").read_text(encoding="utf-8"))
     assert data["network"]["nodes"]                     # herbs present
     assert data["sankey"]["links"]                      # 病机→治法→药物 flows
     assert set(data["bars"]) == {"症状", "病机", "治法", "药物"}
+    # five-layer knowledge graph
+    assert data["kg"]["layers"] == ["古病名", "症状", "病机", "治法", "药物"]
+    assert data["kg"]["nodes"] and data["kg"]["links"]
+    assert {n["layer"] for n in data["kg"]["nodes"]} <= set(data["kg"]["layers"])
+    # PRISMA recall→inclusion funnel
+    assert data["prisma"]["recalled"] >= data["summary"]["candidates"]
 
 
 def test_viz_params_diy(cfg):

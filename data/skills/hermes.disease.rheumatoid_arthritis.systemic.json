@@ -5,7 +5,7 @@
   "subtype": "systemic",
   "title": "类风湿关节炎·全身症候 古籍证候 Skill",
   "subject": "类风湿关节炎·全身症候",
-  "abstracted_claim": "古籍中与类风湿关节炎·全身症候表型相似的条文，核心古病名 歷節、痹、行痹、白虎歷節、歷節風；常见症候 溫溫欲吐、短氣、頭眩、痛、掣痛、腫；病机多属 風濕、濕熱、風寒濕、寒濕；高频药物 防風、生薑、甘草、知母、麻黃、芍藥、白朮、桂枝。（候选/表型对应，非诊断）",
+  "abstracted_claim": "古籍中与类风湿关节炎·全身症候表型相似的条文，核心古病名 歷節、痹、行痹、白虎歷節、歷節風；常见症候 溫溫欲吐、短氣、頭眩、痛、掣痛、腫；病机多属 風濕、濕熱、風寒濕、寒濕；高频药物 生薑、防風、甘草、芍藥、附子、桂枝、麻黃、知母。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.rheumatoid_arthritis.systemic",
   "release_level": "bronze",
   "consensus_score": 0.737,
@@ -98,11 +98,11 @@
     "treatment_method": [],
     "herbs": [
       {
-        "term": "防風",
+        "term": "生薑",
         "count": 2
       },
       {
-        "term": "生薑",
+        "term": "防風",
         "count": 2
       },
       {
@@ -110,19 +110,11 @@
         "count": 2
       },
       {
-        "term": "知母",
-        "count": 1
-      },
-      {
-        "term": "麻黃",
-        "count": 1
-      },
-      {
         "term": "芍藥",
         "count": 1
       },
       {
-        "term": "白朮",
+        "term": "附子",
         "count": 1
       },
       {
@@ -130,7 +122,15 @@
         "count": 1
       },
       {
-        "term": "附子",
+        "term": "麻黃",
+        "count": 1
+      },
+      {
+        "term": "知母",
+        "count": 1
+      },
+      {
+        "term": "白朮",
         "count": 1
       }
     ],
@@ -199,114 +199,99 @@
       "歷節"
     ],
     [
-      "防風",
+      "芍藥",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "桂枝"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "芍藥",
       "co_occurs_with",
       "知母"
     ],
     [
-      "防風",
+      "芍藥",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "附子",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "附子",
+      "co_occurs_with",
+      "桂枝"
+    ],
+    [
+      "附子",
       "co_occurs_with",
       "麻黃"
     ],
     [
-      "防風",
+      "附子",
       "co_occurs_with",
-      "生薑"
+      "知母"
     ],
     [
-      "防風",
+      "附子",
       "co_occurs_with",
-      "芍藥"
+      "防風"
     ],
     [
-      "防風",
+      "附子",
       "co_occurs_with",
       "白朮"
     ],
     [
-      "防風",
+      "附子",
       "co_occurs_with",
       "甘草"
     ],
     [
-      "防風",
+      "生薑",
       "co_occurs_with",
       "桂枝"
     ],
     [
-      "防風",
-      "co_occurs_with",
-      "附子"
-    ],
-    [
-      "知母",
+      "生薑",
       "co_occurs_with",
       "麻黃"
     ],
     [
-      "知母",
+      "生薑",
       "co_occurs_with",
-      "生薑"
-    ],
-    [
-      "知母",
-      "co_occurs_with",
-      "芍藥"
-    ],
-    [
-      "知母",
-      "co_occurs_with",
-      "白朮"
-    ],
-    [
-      "知母",
-      "co_occurs_with",
-      "甘草"
-    ],
-    [
-      "知母",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "知母",
-      "co_occurs_with",
-      "附子"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "生薑"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "芍藥"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "白朮"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "甘草"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "麻黃",
-      "co_occurs_with",
-      "附子"
+      "知母"
     ],
     [
       "生薑",
       "co_occurs_with",
-      "芍藥"
+      "防風"
     ],
     [
       "生薑",
@@ -317,66 +302,81 @@
       "生薑",
       "co_occurs_with",
       "甘草"
-    ],
-    [
-      "生薑",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "生薑",
-      "co_occurs_with",
-      "附子"
-    ],
-    [
-      "芍藥",
-      "co_occurs_with",
-      "白朮"
-    ],
-    [
-      "芍藥",
-      "co_occurs_with",
-      "甘草"
-    ],
-    [
-      "芍藥",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "芍藥",
-      "co_occurs_with",
-      "附子"
-    ],
-    [
-      "白朮",
-      "co_occurs_with",
-      "甘草"
-    ],
-    [
-      "白朮",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "白朮",
-      "co_occurs_with",
-      "附子"
-    ],
-    [
-      "甘草",
-      "co_occurs_with",
-      "桂枝"
-    ],
-    [
-      "甘草",
-      "co_occurs_with",
-      "附子"
     ],
     [
       "桂枝",
       "co_occurs_with",
-      "附子"
+      "麻黃"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "知母"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "知母"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "白朮",
+      "co_occurs_with",
+      "甘草"
     ],
     [
       "歷節",
@@ -416,12 +416,12 @@
     [
       "痹",
       "has_symptom",
-      "痛"
+      "腫"
     ],
     [
       "痹",
       "has_symptom",
-      "腫"
+      "痛"
     ],
     [
       "痹",
@@ -513,11 +513,11 @@
     "treatment_method": [],
     "herbs": [
       {
-        "term": "防風",
+        "term": "生薑",
         "count": 2
       },
       {
-        "term": "生薑",
+        "term": "防風",
         "count": 2
       },
       {
@@ -525,19 +525,11 @@
         "count": 2
       },
       {
-        "term": "知母",
-        "count": 1
-      },
-      {
-        "term": "麻黃",
-        "count": 1
-      },
-      {
         "term": "芍藥",
         "count": 1
       },
       {
-        "term": "白朮",
+        "term": "附子",
         "count": 1
       },
       {
@@ -545,7 +537,15 @@
         "count": 1
       },
       {
-        "term": "附子",
+        "term": "麻黃",
+        "count": 1
+      },
+      {
+        "term": "知母",
+        "count": 1
+      },
+      {
+        "term": "白朮",
         "count": 1
       }
     ]
@@ -567,16 +567,16 @@
     "痛",
     "掣痛",
     "腫",
-    "防風",
     "生薑",
+    "防風",
     "甘草",
-    "知母",
-    "麻黃",
     "芍藥",
-    "白朮",
-    "桂枝"
+    "附子",
+    "桂枝",
+    "麻黃",
+    "知母"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:36:53Z",
+  "compiled_at": "2026-06-12T12:38:57Z",
   "protocol": "hermes-v5"
 }

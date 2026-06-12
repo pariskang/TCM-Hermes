@@ -85,27 +85,29 @@ class VisualizationExporter:
             "disease_id": profile.disease_id,
             "generated_at": utc_now(),
             "summary": summary,
+            "kg": self._kg_data(relations),
             "network": self._network_data(network),
             "sankey": self._sankey_data(relations),
+            "sunburst": self._sunburst_data(relations),
+            "radar": self._radar_data(candidates),
             "heatmap": self._heatmap_data(network),
             "bars": self._bar_data(candidates),
             "timeline": self._timeline_data(temporal),
+            "prisma": self._prisma_data(candidates, summary),
             "params": params.to_dict(),
         }
 
         out = ensure_dir(ws / "viz")
-        written = []
-        for name, builder in (("dashboard", self._dashboard),):
-            html = builder(data, params)
-            path = out / f"{name}.html"
-            path.write_text(html, encoding="utf-8")
-            written.append(str(path))
-        # also drop the data json for reuse / external tools
+        html = self._dashboard(data, params)
+        (out / "dashboard.html").write_text(html, encoding="utf-8")
         (out / "viz_data.json").write_text(
             json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         return {"disease": profile.disease_id, "workspace": str(ws),
-                "files": written + [str(out / "viz_data.json")],
-                "charts": ["network", "sankey", "heatmap", "bars", "timeline"],
+                "files": [str(out / "dashboard.html"), str(out / "viz_data.json")],
+                "charts": ["kg", "network", "sankey", "sunburst", "radar",
+                           "heatmap", "bars", "timeline", "prisma"],
+                "export_formats": ["png", "svg", "json"],
+                "kg_nodes": len(data["kg"]["nodes"]),
                 "network_nodes": len(data["network"]["nodes"]),
                 "sankey_links": len(data["sankey"]["links"])}
 
@@ -174,6 +176,92 @@ class VisualizationExporter:
                 layers[label].update(ont.get(k, []))
         return {label: c.most_common(20) for label, c in layers.items()}
 
+    # ---- five-layer knowledge graph 古病名↔症状↔病机↔治法↔药物 -------------
+    _LAYERS = ["古病名", "症状", "病机", "治法", "药物"]
+
+    def _kg_data(self, triples: list, per_layer: int = 12) -> dict:
+        layer_terms = {l: Counter() for l in self._LAYERS}
+        raw_links: Counter = Counter()
+        for s, rel, o in triples:
+            if rel == "has_symptom":
+                a, b = ("古病名", s), ("症状", o)
+            elif rel == "associated_with":          # 病机 → 古病名
+                a, b = ("病机", s), ("古病名", o)
+            elif rel == "treated_by":               # 病机 → 治法
+                a, b = ("病机", s), ("治法", o)
+            elif rel == "uses_herb":                # 治法 → 药物
+                a, b = ("治法", s), ("药物", o)
+            else:
+                continue
+            layer_terms[a[0]][a[1]] += 1
+            layer_terms[b[0]][b[1]] += 1
+            raw_links[(a, b)] += 1
+        # keep the top terms per layer for readability
+        keep = {l: dict(c.most_common(per_layer)) for l, c in layer_terms.items()}
+        nodes, idx = [], {}
+        for li, layer in enumerate(self._LAYERS):
+            for term, cnt in keep[layer].items():
+                idx[(layer, term)] = len(nodes)
+                nodes.append({"name": f"{layer}:{term}", "label": term,
+                              "category": li, "layer": layer, "value": cnt})
+        links = []
+        for (a, b), w in raw_links.items():
+            if a in idx and b in idx:
+                links.append({"source": nodes[idx[a]]["name"],
+                              "target": nodes[idx[b]]["name"], "value": w})
+        return {"nodes": nodes, "links": links, "layers": self._LAYERS}
+
+    def _sunburst_data(self, triples: list, breadth: int = 6) -> dict:
+        # 病机 → 治法 → 药物 hierarchy
+        p2t: dict = defaultdict(Counter)
+        t2h: dict = defaultdict(Counter)
+        for s, rel, o in triples:
+            if rel == "treated_by":
+                p2t[s][o] += 1
+            elif rel == "uses_herb":
+                t2h[s][o] += 1
+        roots = []
+        for patho, treats in sorted(p2t.items(),
+                                    key=lambda kv: -sum(kv[1].values()))[:breadth]:
+            tchildren = []
+            for treat, _ in treats.most_common(breadth):
+                hchildren = [{"name": h, "value": c}
+                             for h, c in t2h.get(treat, Counter()).most_common(breadth)]
+                tchildren.append({"name": treat,
+                                  "value": sum(treats.values()) if not hchildren else None,
+                                  "children": hchildren or None})
+            roots.append({"name": patho, "children": tchildren})
+        return {"roots": roots}
+
+    def _radar_data(self, candidates: list, dims: int = 6) -> dict:
+        by_sub: dict = defaultdict(Counter)
+        overall: Counter = Counter()
+        for c in candidates:
+            if c["review"]["release_level"] == "rejected":
+                continue
+            sub = c["phenotype_evidence"].get("candidate_modern_type") or "general"
+            for p in (c.get("ontology") or {}).get("pathogenesis", []):
+                by_sub[sub][p] += 1
+                overall[p] += 1
+        indicators = [p for p, _ in overall.most_common(dims)]
+        maxv = max((overall[i] for i in indicators), default=1)
+        series = []
+        for sub, c in sorted(by_sub.items()):
+            vals = [c.get(i, 0) for i in indicators]
+            if any(vals):
+                series.append({"name": sub, "value": vals})
+        return {"indicators": [{"name": i, "max": maxv} for i in indicators],
+                "series": series}
+
+    def _prisma_data(self, candidates: list, summary: dict) -> dict:
+        levels = summary.get("by_level", {})
+        excluded = (Counter(t for c in candidates
+                            for t in c["exclusion"]["matched_exclusion_terms"]
+                            if c["review"]["release_level"] == "rejected"))
+        return {"recalled": len(candidates),
+                "by_level": levels,
+                "top_exclusions": excluded.most_common(8)}
+
     def _timeline_data(self, temporal: dict) -> dict:
         trends = temporal.get("dynasty_trends", {})
         rows = []
@@ -203,104 +291,118 @@ _DASHBOARD_HTML = r"""<!DOCTYPE html>
 <title>__DISEASE__ · TCM-Disease-Hermes 可视化</title>
 <script src="__ECHARTS_URL__"></script>
 <style>
- :root{--bg:#f6f4ee;--fg:#2a2a2a;--card:#fff;--accent:#b4532a;--muted:#777;}
- body.dark{--bg:#16181c;--fg:#e6e6e6;--card:#22252b;--accent:#e0925f;--muted:#9aa;}
+ :root{--bg:#f6f4ee;--fg:#2a2a2a;--card:#fff;--accent:#b4532a;--muted:#777;--bd:#0001;}
+ body.dark{--bg:#16181c;--fg:#e6e6e6;--card:#22252b;--accent:#e0925f;--muted:#9aa;--bd:#fff1;}
  *{box-sizing:border-box} body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg)}
- header{padding:14px 20px;border-bottom:1px solid #0001;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+ header{padding:14px 20px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
  h1{font-size:18px;margin:0} .tag{font-size:12px;color:var(--muted)}
  .tabs{display:flex;gap:6px;padding:10px 20px;flex-wrap:wrap}
- .tab{padding:6px 14px;border-radius:16px;border:1px solid #0002;cursor:pointer;font-size:13px;background:var(--card)}
+ .tab{padding:6px 13px;border-radius:16px;border:1px solid var(--bd);cursor:pointer;font-size:13px;background:var(--card)}
  .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
  .panel{display:none;padding:0 20px 24px} .panel.active{display:block}
- .chart{height:560px;background:var(--card);border-radius:10px;border:1px solid #0001}
- .controls{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:12px 0;font-size:13px}
- .controls label{display:flex;gap:6px;align-items:center}
- .controls input[type=range]{vertical-align:middle}
- select,input[type=number]{padding:3px 6px;border-radius:6px;border:1px solid #0003;background:var(--card);color:var(--fg)}
+ .toolbar{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:10px 0;font-size:13px}
+ .toolbar label{display:flex;gap:6px;align-items:center}
+ .chart{height:600px;background:var(--card);border-radius:10px;border:1px solid var(--bd)}
+ select,input[type=number]{padding:3px 6px;border-radius:6px;border:1px solid var(--bd);background:var(--card);color:var(--fg)}
  .caveat{font-size:12px;color:var(--muted);padding:6px 20px}
- button.toggle{margin-left:auto;padding:5px 10px;border-radius:8px;border:1px solid #0002;background:var(--card);color:var(--fg);cursor:pointer}
+ button{padding:5px 10px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--fg);cursor:pointer;font-size:12px}
+ button:hover{border-color:var(--accent)} .exp{margin-left:auto;display:flex;gap:6px}
 </style></head>
 <body class="__THEME__">
 <header>
  <h1>__DISEASE__ · 古籍知识可视化</h1>
  <span class="tag" id="meta"></span>
- <button class="toggle" onclick="document.body.classList.toggle('dark');render()">明/暗</button>
+ <button onclick="document.body.classList.toggle('dark');render()">明/暗</button>
 </header>
 <div class="tabs" id="tabs"></div>
-<div class="caveat">古今映射为候选/表型对应，非诊断；所有结论可回源至原文。No evidence, no rule.</div>
+<div class="caveat">古今映射为候选/表型对应，非诊断；所有结论可回源至原文。No evidence, no rule. 每张图可导出 PNG / SVG / JSON。</div>
 <div id="panels"></div>
 <script>
 const DATA = __DATA__;
 const P = Object.assign({}, DATA.params);
 const TABS = [
+ {id:"kg",      name:"五层知识图谱"},
  {id:"network", name:"药物共现网络"},
- {id:"sankey",  name:"病机→治法→药物 桑基图"},
- {id:"heatmap", name:"药物共现热力图"},
- {id:"bars",    name:"高频词柱状图"},
+ {id:"sankey",  name:"病机→治法→药物桑基"},
+ {id:"sunburst",name:"病机治法旭日图"},
+ {id:"radar",   name:"分型病机雷达"},
+ {id:"heatmap", name:"药物共现热力"},
+ {id:"bars",    name:"高频词柱状"},
  {id:"timeline",name:"朝代时序演变"},
+ {id:"prisma",  name:"召回→纳入流程"},
 ];
-let active = "network";
+let active = "kg";
+let barCat = null;
 const charts = {};
-
-function el(tag, attrs, html){const e=document.createElement(tag);Object.assign(e,attrs||{});if(html!=null)e.innerHTML=html;return e;}
+function el(t,a,h){const e=document.createElement(t);Object.assign(e,a||{});if(h!=null)e.innerHTML=h;return e;}
 function dark(){return document.body.classList.contains('dark');}
+function ctl(lbl,node){const l=el('label',{},lbl+' ');l.appendChild(node);return l;}
 
 function buildUI(){
- const tabs=document.getElementById('tabs'); const panels=document.getElementById('panels');
- document.getElementById('meta').textContent =
-   `条文 ${DATA.summary.candidates||0}｜分级 `+JSON.stringify(DATA.summary.by_level||{});
+ const tabs=document.getElementById('tabs'),panels=document.getElementById('panels');
+ document.getElementById('meta').textContent=`条文 ${DATA.summary.candidates||0}｜分级 `+JSON.stringify(DATA.summary.by_level||{});
  TABS.forEach(t=>{
-   const b=el('div',{className:'tab'+(t.id===active?' active':''),onclick:()=>{active=t.id;syncTabs();render();}},t.name);
-   tabs.appendChild(b);
+   tabs.appendChild(el('div',{className:'tab'+(t.id===active?' active':''),onclick:()=>{active=t.id;sync();render();}},t.name));
    const p=el('div',{className:'panel'+(t.id===active?' active':''),id:'panel-'+t.id});
-   p.appendChild(controlsFor(t.id));
-   const c=el('div',{className:'chart',id:'chart-'+t.id});
-   p.appendChild(c); panels.appendChild(p);
+   p.appendChild(toolbarFor(t.id));
+   p.appendChild(el('div',{className:'chart',id:'chart-'+t.id}));
+   panels.appendChild(p);
  });
 }
-function syncTabs(){
+function sync(){
  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',TABS[i].id===active));
  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='panel-'+active));
 }
-function ctl(label, node){const l=el('label',{},label+' ');l.appendChild(node);return l;}
-function controlsFor(id){
- const c=el('div',{className:'controls'});
- if(id==='network'){
-   const me=el('input',{type:'range',min:1,max:8,value:P.min_edge_count});
-   me.oninput=e=>{P.min_edge_count=+e.target.value;render();};
-   const sm=el('select'); ['pagerank','degree','betweenness','eigenvector'].forEach(o=>sm.appendChild(el('option',{value:o,selected:o===P.size_metric},o)));
-   sm.onchange=e=>{P.size_metric=e.target.value;render();};
-   const rp=el('input',{type:'range',min:60,max:600,value:P.repulsion});
-   rp.oninput=e=>{P.repulsion=+e.target.value;render();};
-   const tn=el('input',{type:'number',min:5,max:60,value:P.top_n,style:'width:60px'});
-   tn.onchange=e=>{P.top_n=+e.target.value;render();};
-   c.append(ctl('最小共现≥',me),ctl('节点大小=',sm),ctl('斥力',rp),ctl('Top-N',tn));
- } else if(id==='sankey'){
-   const mw=el('input',{type:'range',min:1,max:6,value:P.sankey_min_weight});
-   mw.oninput=e=>{P.sankey_min_weight=+e.target.value;render();};
-   c.append(ctl('最小流量≥',mw));
- } else if(id==='heatmap'||id==='bars'){
-   const tn=el('input',{type:'number',min:5,max:30,value:P.top_n,style:'width:60px'});
-   tn.onchange=e=>{P.top_n=+e.target.value;render();};
-   c.append(ctl('Top-N',tn));
- } else { c.append(el('span',{className:'tag'},'按朝代展示病机/治法相对频率')); }
- return c;
+function num(v,mn,mx,on){const e=el('input',{type:'number',min:mn,max:mx,value:v,style:'width:60px'});e.onchange=ev=>{on(+ev.target.value);render();};return e;}
+function rng(v,mn,mx,on){const e=el('input',{type:'range',min:mn,max:mx,value:v});e.oninput=ev=>{on(+ev.target.value);render();};return e;}
+function sel(opts,cur,on){const s=el('select');opts.forEach(o=>s.appendChild(el('option',{value:o,selected:o===cur},o)));s.onchange=e=>{on(e.target.value);render();};return s;}
+function toolbarFor(id){
+ const c=el('div',{className:'toolbar'});
+ if(id==='kg'){c.append(ctl('每层Top-N',num(P.top_n,4,20,v=>P.top_n=v)),el('span',{className:'tag'},'古病名→症状→病机→治法→药物，可拖拽缩放'));}
+ else if(id==='network'){c.append(ctl('最小共现≥',rng(P.min_edge_count,1,8,v=>P.min_edge_count=v)),ctl('节点大小=',sel(['pagerank','degree','betweenness','eigenvector'],P.size_metric,v=>P.size_metric=v)),ctl('斥力',rng(P.repulsion,60,600,v=>P.repulsion=v)),ctl('Top-N',num(P.top_n,5,60,v=>P.top_n=v)));}
+ else if(id==='sankey'){c.append(ctl('最小流量≥',rng(P.sankey_min_weight,1,6,v=>P.sankey_min_weight=v)));}
+ else if(id==='heatmap'){c.append(ctl('Top-N',num(P.top_n,5,18,v=>P.top_n=v)));}
+ else if(id==='bars'){const cats=Object.keys(DATA.bars);barCat=barCat||cats[0];c.append(ctl('维度',sel(cats,barCat,v=>barCat=v)),ctl('Top-N',num(P.top_n,5,30,v=>P.top_n=v)));}
+ else if(id==='radar'){c.append(el('span',{className:'tag'},'各现代分型的病机谱（计数）'));}
+ else if(id==='sunburst'){c.append(el('span',{className:'tag'},'点击下钻：病机→治法→药物'));}
+ else if(id==='timeline'){c.append(el('span',{className:'tag'},'按朝代展示病机/治法相对频率'));}
+ else {c.append(el('span',{className:'tag'},'高召回→排除→证据回源→共识分级'));}
+ const exp=el('div',{className:'exp'});
+ exp.append(el('button',{onclick:exportPNG},'导出 PNG'),el('button',{onclick:exportSVG},'导出 SVG'),el('button',{onclick:exportJSON},'导出数据'));
+ c.append(exp); return c;
 }
 
-function opt(){return {network:netOpt,sankey:sankeyOpt,heatmap:heatOpt,bars:barOpt,timeline:timeOpt}[active]();}
+function opt(){return {kg:kgOpt,network:netOpt,sankey:sankeyOpt,sunburst:sunOpt,radar:radarOpt,heatmap:heatOpt,bars:barOpt,timeline:timeOpt,prisma:prismaOpt}[active]();}
+
+function kgOpt(){
+ const L=DATA.kg.layers,N=P.top_n,by={};L.forEach(l=>by[l]=[]);
+ DATA.kg.nodes.forEach(n=>by[n.layer].push(n));
+ const keep=new Set();L.forEach(l=>by[l].sort((a,b)=>b.value-a.value).slice(0,N).forEach(n=>keep.add(n.name)));
+ const nodes=DATA.kg.nodes.filter(n=>keep.has(n.name));
+ const cnt={},cw=1000/Math.max(1,L.length-1);
+ const per={};L.forEach(l=>per[l]=nodes.filter(n=>n.layer===l).length);
+ nodes.forEach(n=>{cnt[n.layer]=(cnt[n.layer]||0)+1;n.x=n.category*cw;n.y=620*(cnt[n.layer]/(per[n.layer]+1));});
+ const links=DATA.kg.links.filter(l=>keep.has(l.source)&&keep.has(l.target));
+ return {tooltip:{},legend:[{data:L,top:6}],series:[{type:'graph',layout:'none',roam:true,draggable:true,
+   categories:L.map(l=>({name:l})),label:{show:true,formatter:p=>p.data.label,fontSize:11,color:dark()?'#ddd':'#333'},
+   edgeSymbol:['none','arrow'],edgeSymbolSize:6,
+   data:nodes.map(n=>({name:n.name,label:n.label,category:n.category,x:n.x,y:n.y,fixed:false,
+     symbolSize:12+Math.min(30,n.value*2),value:n.value,
+     tooltip:{formatter:`${n.layer}：${n.label}（${n.value}）`}})),
+   links:links.map(l=>({source:l.source,target:l.target,value:l.value,
+     lineStyle:{width:Math.min(5,l.value),opacity:.35,curveness:.05},
+     tooltip:{formatter:`${l.source} → ${l.target}（${l.value}）`}}))}]};
+}
 function netOpt(){
  const nodes=DATA.network.nodes.slice().sort((a,b)=>b[P.size_metric]-a[P.size_metric]).slice(0,P.top_n);
  const keep=new Set(nodes.map(n=>n.name));
  const links=DATA.network.links.filter(l=>l.count>=P.min_edge_count&&keep.has(l.source)&&keep.has(l.target));
- const maxv=Math.max(1,...nodes.map(n=>n[P.size_metric]));
- return {tooltip:{},legend:[{data:DATA.network.categories,top:8}],series:[{
-   type:'graph',layout:'force',roam:true,draggable:true,
-   categories:DATA.network.categories.map(c=>({name:c})),
-   force:{repulsion:P.repulsion,edgeLength:[40,120],gravity:0.08},
+ const mv=Math.max(1e-9,...nodes.map(n=>n[P.size_metric]));
+ return {tooltip:{},legend:[{data:DATA.network.categories,top:8}],series:[{type:'graph',layout:'force',roam:true,draggable:true,
+   categories:DATA.network.categories.map(c=>({name:c})),force:{repulsion:P.repulsion,edgeLength:[40,120],gravity:.08},
    label:{show:true,fontSize:11},
    data:nodes.map(n=>({name:n.name,category:DATA.network.categories.indexOf(n.category),
-     symbolSize:10+38*(n[P.size_metric]/maxv),
-     value:n[P.size_metric],
+     symbolSize:10+38*(n[P.size_metric]/mv),value:n[P.size_metric],
      tooltip:{formatter:`${n.name}<br>count ${n.count}<br>degree ${n.degree}<br>betweenness ${n.betweenness}<br>eigenvector ${n.eigenvector}<br>pagerank ${n.pagerank}`}})),
    links:links.map(l=>({source:l.source,target:l.target,value:l.count,
      lineStyle:{width:Math.min(6,l.count),opacity:.5,curveness:.1},
@@ -309,52 +411,71 @@ function netOpt(){
 function sankeyOpt(){
  const links=DATA.sankey.links.filter(l=>l.value>=P.sankey_min_weight);
  const used=new Set();links.forEach(l=>{used.add(l.source);used.add(l.target);});
- return {tooltip:{trigger:'item',triggerOn:'mousemove'},series:[{type:'sankey',
-   data:DATA.sankey.nodes.filter(n=>used.has(n.name)),links,
-   emphasis:{focus:'adjacency'},nodeAlign:'left',
-   lineStyle:{color:'gradient',opacity:.45},label:{fontSize:11}}]};
+ if(!links.length)return{title:{text:'暂无足够关系数据',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{trigger:'item',triggerOn:'mousemove'},series:[{type:'sankey',data:DATA.sankey.nodes.filter(n=>used.has(n.name)),links,emphasis:{focus:'adjacency'},nodeAlign:'left',lineStyle:{color:'gradient',opacity:.45},label:{fontSize:11}}]};
+}
+function sunOpt(){
+ if(!DATA.sunburst.roots.length)return{title:{text:'暂无足够病机-治法-药物数据',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{},series:[{type:'sunburst',radius:[0,'92%'],data:DATA.sunburst.roots,label:{minAngle:8,rotate:'radial'},emphasis:{focus:'ancestor'},
+   levels:[{},{r0:'12%',r:'45%',label:{rotate:'tangential'}},{r0:'45%',r:'72%'},{r0:'72%',r:'90%',label:{align:'right'}}]}]};
+}
+function radarOpt(){
+ if(!DATA.radar.indicators.length)return{title:{text:'样本不足',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{},legend:{top:6,type:'scroll'},radar:{indicator:DATA.radar.indicators,radius:'62%'},
+   series:[{type:'radar',areaStyle:{opacity:.12},data:DATA.radar.series.map(s=>({name:s.name,value:s.value}))}]};
 }
 function heatOpt(){
  const herbs=DATA.heatmap.herbs.slice(0,P.top_n);
- const keep=new Set(herbs.map((h,i)=>i));
  const cells=DATA.heatmap.cells.filter(c=>c[0]<herbs.length&&c[1]<herbs.length);
+ if(!cells.length)return{title:{text:'共现数据不足',left:'center',top:'center',textStyle:{color:'#999'}}};
  return {tooltip:{position:'top',formatter:p=>`${herbs[p.value[1]]}–${herbs[p.value[0]]}: ${p.value[2]}`},
    grid:{height:'70%',top:'8%'},xAxis:{type:'category',data:herbs,axisLabel:{rotate:60,fontSize:10}},
    yAxis:{type:'category',data:herbs,axisLabel:{fontSize:10}},
    visualMap:{min:0,max:DATA.heatmap.max,calculable:true,orient:'horizontal',left:'center',bottom:'2%'},
-   series:[{type:'heatmap',data:cells,label:{show:false}}]};
+   series:[{type:'heatmap',data:cells}]};
 }
 function barOpt(){
- const cats=Object.keys(DATA.bars);
- const sel=cats[0];
- const items=(DATA.bars[sel]||[]).slice(0,P.top_n).reverse();
- return {title:{text:'高频'+sel,left:'center',textStyle:{fontSize:13}},tooltip:{},
-   grid:{left:90,right:30},xAxis:{type:'value'},
-   yAxis:{type:'category',data:items.map(i=>i[0]),axisLabel:{fontSize:11}},
-   series:[{type:'bar',data:items.map(i=>i[1]),itemStyle:{color:'#b4532a'},
-     label:{show:true,position:'right'}}],
-   graphic: cats.length>1 ? [] : []};
+ const items=(DATA.bars[barCat]||[]).slice(0,P.top_n).reverse();
+ return {title:{text:'高频'+barCat,left:'center',textStyle:{fontSize:13}},tooltip:{},
+   grid:{left:100,right:40},xAxis:{type:'value'},yAxis:{type:'category',data:items.map(i=>i[0]),axisLabel:{fontSize:11}},
+   series:[{type:'bar',data:items.map(i=>i[1]),itemStyle:{color:'#b4532a'},label:{show:true,position:'right'}}]};
 }
 function timeOpt(){
- const dyn=DATA.timeline.dynasties;
- const terms=[...new Set(DATA.timeline.rows.map(r=>r[1]))];
- const series=terms.map(t=>({name:t,type:'line',smooth:true,
-   data:dyn.map(d=>{const r=DATA.timeline.rows.find(x=>x[0]===d&&x[1]===t);return r?r[2]:0;})}));
- return {tooltip:{trigger:'axis'},legend:{type:'scroll',top:6,textStyle:{fontSize:10}},
-   grid:{top:60},xAxis:{type:'category',data:dyn},yAxis:{type:'value',name:'相对频率'},
-   series};
+ const dyn=DATA.timeline.dynasties,terms=[...new Set(DATA.timeline.rows.map(r=>r[1]))];
+ if(!dyn.length)return{title:{text:'暂无朝代信息',left:'center',top:'center',textStyle:{color:'#999'}}};
+ const series=terms.map(t=>({name:t,type:'line',smooth:true,data:dyn.map(d=>{const r=DATA.timeline.rows.find(x=>x[0]===d&&x[1]===t);return r?r[2]:0;})}));
+ return {tooltip:{trigger:'axis'},legend:{type:'scroll',top:6,textStyle:{fontSize:10}},grid:{top:60},xAxis:{type:'category',data:dyn},yAxis:{type:'value',name:'相对频率'},series};
+}
+function prismaOpt(){
+ const lv=DATA.prisma.by_level||{},inc=(lv.gold||0)+(lv.silver||0)+(lv.bronze||0);
+ const data=[{name:'召回候选 '+DATA.prisma.recalled,value:DATA.prisma.recalled},
+  {name:'非排除',value:DATA.prisma.recalled-(lv.rejected||0)},
+  {name:'纳入(Bronze+) '+inc,value:inc},{name:'Silver+',value:(lv.gold||0)+(lv.silver||0)},{name:'Gold '+(lv.gold||0),value:lv.gold||0}];
+ const ex=(DATA.prisma.top_exclusions||[]).map(e=>e[0]+'('+e[1]+')').join('、');
+ return {title:{text:'高召回 → 排除鉴别 → 证据回源 → 共识分级',left:'center',textStyle:{fontSize:13},
+   subtext:ex?('主要排除：'+ex):'',subtextStyle:{fontSize:11}},tooltip:{trigger:'item'},
+   series:[{type:'funnel',left:'12%',width:'76%',top:70,sort:'descending',gap:2,minSize:'14%',
+     label:{formatter:'{b}: {c}',fontSize:12},data}]};
 }
 
 function render(){
- const id='chart-'+active; const dom=document.getElementById(id);
- if(charts[active]){charts[active].dispose();}
- charts[active]=echarts.init(dom, dark()?'dark':null);
+ const dom=document.getElementById('chart-'+active);
+ if(charts[active])charts[active].dispose();
+ charts[active]=echarts.init(dom,dark()?'dark':null);
  try{charts[active].setOption(opt(),true);}catch(e){dom.innerHTML='<p style="padding:20px">渲染失败：'+e+'</p>';}
 }
+function dl(name,url){const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();}
+function exportPNG(){const c=charts[active];if(!c)return;dl(DATA.disease_id+'_'+active+'.png',c.getDataURL({type:'png',pixelRatio:2,backgroundColor:dark()?'#16181c':'#fff'}));}
+function exportSVG(){const d=el('div',{style:'width:1280px;height:760px;position:absolute;left:-99999px;top:0'});document.body.appendChild(d);
+ const t=echarts.init(d,dark()?'dark':null,{renderer:'svg'});t.setOption(opt(),true);
+ let svg;try{svg=t.renderToSVGString();}catch(e){svg=null;}
+ t.dispose();d.remove();
+ if(svg)dl(DATA.disease_id+'_'+active+'.svg','data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg));}
+function exportJSON(){const key={kg:'kg',network:'network',sankey:'sankey',sunburst:'sunburst',radar:'radar',heatmap:'heatmap',bars:'bars',timeline:'timeline',prisma:'prisma'}[active];
+ dl(DATA.disease_id+'_'+active+'.json','data:application/json;charset=utf-8,'+encodeURIComponent(JSON.stringify(DATA[key],null,2)));}
 window.addEventListener('resize',()=>{if(charts[active])charts[active].resize();});
 buildUI();
-if(typeof echarts==='undefined'){document.getElementById('panels').innerHTML=
- '<p style="padding:20px">ECharts 未能加载（离线？）。数据已内嵌于本文件 viz_data.json，可改用本地 echarts 或 --echarts-url 指向本地副本。</p>';}
+if(typeof echarts==='undefined'){document.getElementById('panels').innerHTML='<p style="padding:20px">ECharts 未能加载（离线？）。数据已内嵌于本文件及 viz_data.json，可用 --echarts-url 指向本地副本，或直接复用 JSON。</p>';}
 else{render();}
 </script></body></html>
 """

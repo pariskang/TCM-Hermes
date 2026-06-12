@@ -1,11 +1,11 @@
 {
   "disease": "骨质疏松",
   "disease_id": "osteoporosis",
-  "generated_at": "2026-06-12T10:36:50Z",
+  "generated_at": "2026-06-12T12:38:57Z",
   "summary": {
     "disease": "osteoporosis",
     "display_name": "骨质疏松",
-    "generated_at": "2026-06-12T10:36:50Z",
+    "generated_at": "2026-06-12T12:38:57Z",
     "candidates": 6,
     "by_level": {
       "silver": 2,
@@ -20,6 +20,247 @@
     "network_edges": 0,
     "core_herbs": [],
     "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+  },
+  "kg": {
+    "nodes": [
+      {
+        "name": "古病名:骨痿",
+        "label": "骨痿",
+        "category": 0,
+        "layer": "古病名",
+        "value": 11
+      },
+      {
+        "name": "古病名:痿",
+        "label": "痿",
+        "category": 0,
+        "layer": "古病名",
+        "value": 11
+      },
+      {
+        "name": "古病名:骨枯",
+        "label": "骨枯",
+        "category": 0,
+        "layer": "古病名",
+        "value": 5
+      },
+      {
+        "name": "古病名:腰痛",
+        "label": "腰痛",
+        "category": 0,
+        "layer": "古病名",
+        "value": 4
+      },
+      {
+        "name": "症状:腰脊不舉",
+        "label": "腰脊不舉",
+        "category": 1,
+        "layer": "症状",
+        "value": 8
+      },
+      {
+        "name": "症状:骨痿",
+        "label": "骨痿",
+        "category": 1,
+        "layer": "症状",
+        "value": 8
+      },
+      {
+        "name": "症状:髓減",
+        "label": "髓減",
+        "category": 1,
+        "layer": "症状",
+        "value": 3
+      },
+      {
+        "name": "症状:骨枯",
+        "label": "骨枯",
+        "category": 1,
+        "layer": "症状",
+        "value": 3
+      },
+      {
+        "name": "症状:腰痛",
+        "label": "腰痛",
+        "category": 1,
+        "layer": "症状",
+        "value": 3
+      },
+      {
+        "name": "病机:腎虛",
+        "label": "腎虛",
+        "category": 2,
+        "layer": "病机",
+        "value": 6
+      },
+      {
+        "name": "病机:髓減",
+        "label": "髓減",
+        "category": 2,
+        "layer": "病机",
+        "value": 3
+      },
+      {
+        "name": "治法:補腎",
+        "label": "補腎",
+        "category": 3,
+        "layer": "治法",
+        "value": 1
+      },
+      {
+        "name": "治法:填精",
+        "label": "填精",
+        "category": 3,
+        "layer": "治法",
+        "value": 1
+      },
+      {
+        "name": "治法:壯骨",
+        "label": "壯骨",
+        "category": 3,
+        "layer": "治法",
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "古病名:骨痿",
+        "target": "症状:腰脊不舉",
+        "value": 3
+      },
+      {
+        "source": "古病名:骨痿",
+        "target": "症状:骨痿",
+        "value": 3
+      },
+      {
+        "source": "古病名:骨痿",
+        "target": "症状:髓減",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨痿",
+        "target": "症状:骨枯",
+        "value": 1
+      },
+      {
+        "source": "病机:髓減",
+        "target": "古病名:骨痿",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨枯",
+        "target": "症状:腰脊不舉",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨枯",
+        "target": "症状:骨痿",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨枯",
+        "target": "症状:髓減",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨枯",
+        "target": "症状:骨枯",
+        "value": 1
+      },
+      {
+        "source": "病机:髓減",
+        "target": "古病名:骨枯",
+        "value": 1
+      },
+      {
+        "source": "古病名:痿",
+        "target": "症状:腰脊不舉",
+        "value": 3
+      },
+      {
+        "source": "古病名:痿",
+        "target": "症状:骨痿",
+        "value": 3
+      },
+      {
+        "source": "古病名:痿",
+        "target": "症状:髓減",
+        "value": 1
+      },
+      {
+        "source": "古病名:痿",
+        "target": "症状:骨枯",
+        "value": 1
+      },
+      {
+        "source": "病机:髓減",
+        "target": "古病名:痿",
+        "value": 1
+      },
+      {
+        "source": "古病名:骨痿",
+        "target": "症状:腰痛",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "古病名:骨痿",
+        "value": 1
+      },
+      {
+        "source": "古病名:腰痛",
+        "target": "症状:腰脊不舉",
+        "value": 1
+      },
+      {
+        "source": "古病名:腰痛",
+        "target": "症状:骨痿",
+        "value": 1
+      },
+      {
+        "source": "古病名:腰痛",
+        "target": "症状:腰痛",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "古病名:腰痛",
+        "value": 1
+      },
+      {
+        "source": "古病名:痿",
+        "target": "症状:腰痛",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "古病名:痿",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "治法:補腎",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "治法:填精",
+        "value": 1
+      },
+      {
+        "source": "病机:腎虛",
+        "target": "治法:壯骨",
+        "value": 1
+      }
+    ],
+    "layers": [
+      "古病名",
+      "症状",
+      "病机",
+      "治法",
+      "药物"
+    ]
   },
   "network": {
     "nodes": [],
@@ -106,12 +347,12 @@
       },
       {
         "source": "病名·骨枯",
-        "target": "症·髓減",
+        "target": "症·骨痿",
         "value": 1
       },
       {
         "source": "病名·骨枯",
-        "target": "症·骨痿",
+        "target": "症·髓減",
         "value": 1
       },
       {
@@ -141,12 +382,12 @@
       },
       {
         "source": "病名·腰痛",
-        "target": "症·腰痛",
+        "target": "症·骨痿",
         "value": 1
       },
       {
         "source": "病名·腰痛",
-        "target": "症·骨痿",
+        "target": "症·腰痛",
         "value": 1
       },
       {
@@ -168,6 +409,51 @@
         "source": "病机·腎虛",
         "target": "治法·壯骨",
         "value": 1
+      }
+    ]
+  },
+  "sunburst": {
+    "roots": [
+      {
+        "name": "腎虛",
+        "children": [
+          {
+            "name": "補腎",
+            "value": 3,
+            "children": null
+          },
+          {
+            "name": "填精",
+            "value": 3,
+            "children": null
+          },
+          {
+            "name": "壯骨",
+            "value": 3,
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  "radar": {
+    "indicators": [
+      {
+        "name": "髓減",
+        "max": 1
+      },
+      {
+        "name": "腎虛",
+        "max": 1
+      }
+    ],
+    "series": [
+      {
+        "name": "bone_loss",
+        "value": [
+          1,
+          1
+        ]
       }
     ]
   },
@@ -263,6 +549,15 @@
         0.333
       ]
     ]
+  },
+  "prisma": {
+    "recalled": 6,
+    "by_level": {
+      "silver": 2,
+      "rejected": 3,
+      "bronze": 1
+    },
+    "top_exclusions": []
   },
   "params": {
     "min_edge_count": 1,

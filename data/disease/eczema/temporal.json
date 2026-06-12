@@ -3,8 +3,12 @@
     "明": {
       "dominant_pathogenesis": [
         {
+          "term": "風熱",
+          "rel_freq": 0.667
+        },
+        {
           "term": "濕熱",
-          "rel_freq": 1.0
+          "rel_freq": 0.333
         }
       ],
       "dominant_treatments": []
@@ -13,33 +17,17 @@
       "dominant_pathogenesis": [
         {
           "term": "濕熱",
-          "rel_freq": 0.5
+          "rel_freq": 0.75
         },
         {
-          "term": "血熱",
-          "rel_freq": 0.167
-        },
-        {
-          "term": "血虛風燥",
-          "rel_freq": 0.167
-        },
-        {
-          "term": "心火脾濕",
-          "rel_freq": 0.167
+          "term": "胎毒",
+          "rel_freq": 0.25
         }
       ],
       "dominant_treatments": [
         {
-          "term": "清熱利濕",
-          "rel_freq": 0.333
-        },
-        {
-          "term": "利濕",
-          "rel_freq": 0.333
-        },
-        {
-          "term": "養血潤燥",
-          "rel_freq": 0.333
+          "term": "涼血",
+          "rel_freq": 1.0
         }
       ]
     }

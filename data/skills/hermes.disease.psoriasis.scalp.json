@@ -1,0 +1,795 @@
+{
+  "skill_id": "hermes.disease.psoriasis.scalp",
+  "kind": "disease",
+  "disease_id": "psoriasis",
+  "subtype": "scalp",
+  "title": "银屑病·头皮型 古籍证候 Skill",
+  "subject": "银屑病·头皮型",
+  "abstracted_claim": "古籍中与银屑病·头皮型表型相似的条文，核心古病名 瘡、疥、癬、牛皮癬；常见症候 頭、眉、黃水、黑、白殼、發熱；病机多属 風濕、濕熱、風毒、風熱；高频药物 苦參、滑石、黃柏、桑白皮、童便、黃連、白朮。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.psoriasis.scalp",
+  "release_level": "bronze",
+  "consensus_score": 0.669,
+  "supporting_initial_rules": [
+    "PSORIASIS_000215",
+    "PSORIASIS_000765",
+    "PSORIASIS_001768",
+    "PSORIASIS_002330",
+    "PSORIASIS_002340",
+    "PSORIASIS_002379",
+    "PSORIASIS_002461",
+    "PSORIASIS_002590",
+    "PSORIASIS_002933",
+    "PSORIASIS_003573",
+    "PSORIASIS_004106"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "PSORIASIS_000215",
+      "PSORIASIS_000765",
+      "PSORIASIS_001768",
+      "PSORIASIS_002330",
+      "PSORIASIS_002340",
+      "PSORIASIS_002379",
+      "PSORIASIS_002461",
+      "PSORIASIS_002590",
+      "PSORIASIS_002933",
+      "PSORIASIS_003573",
+      "PSORIASIS_004106"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "奶癬瘡門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_011703",
+      "entry_id": "PSORIASIS_002461",
+      "evidence_span": "《心法》曰：此證初生頭頂，或生眉端，癢起白屑，形如疥癬，由胎中血熱，落草受風纏綿，此即干　瘡。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "大麻瘋門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010841",
+      "entry_id": "PSORIASIS_002330",
+      "evidence_span": "又曰：風起於八方，應其時則物生，違其時則物殺，凡人中氣不足如持虛受物，乃感受此殺物之氣，鬱而成濕，久而成熱，氣濁血污，歷傳臟腑，生蟲潰肌，流行為害，蟲食心則足底穿，膝腫，食肝則眉落，食肺則鼻崩聲啞，食腎則耳鳴啾啾，耳弦生瘡，或痹或痛，如針刺狀，食身則皮癢如蟲行，自頭而來為順風，自足心起者為逆風，總由濕熱之毒，流結而成也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科啟玄",
+      "chapter_title": "白殼瘡",
+      "dynasty": "明",
+      "source_unit_id": "SU_B1820D32E_000476",
+      "entry_id": "PSORIASIS_000215",
+      "evidence_span": "白殼瘡者即癬也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "忌食毒物",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012384",
+      "entry_id": "PSORIASIS_002590",
+      "evidence_span": "殊不知毒藥損人元氣，元氣既閥，則毒瓦斯愈熾，氣無逐毒之能，血失運毒之力，一任毒藥攻擊，逼出腠理之間，一倍化為數倍，一瘡變作十瘡，不成顆粒，如疥如疹，少頃中氣歸復，氣血不外旺，藥氣如少歇，則酷烈之毒其勢轉烈，反為內攻矣。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "頭部",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_002421",
+      "entry_id": "PSORIASIS_003573",
+      "evidence_span": "治頭　。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "跌打損傷門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_014038",
+      "entry_id": "PSORIASIS_002933",
+      "evidence_span": "凡腦、兩肩及後枕或兩眉有傷可治。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科精義",
+      "chapter_title": "論炮制諸藥及單方主療瘡腫法",
+      "dynasty": "元",
+      "source_unit_id": "SU_B9345D46A_000722",
+      "entry_id": "PSORIASIS_004106",
+      "evidence_span": "雌黃主惡痂疥、頭禿、下部慝瘡。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科正宗",
+      "chapter_title": "雜忌須知第十四",
+      "dynasty": "明",
+      "source_unit_id": "SU_B378970CB_000119",
+      "entry_id": "PSORIASIS_000765",
+      "evidence_span": "一庠生年六十余，患背疽十日，外視其瘡形堅硬，色亦深紫，頭發甚多，含若螺子，豎長尺余，根橫半背，且喜其弓腫光亮，發熱　痛，脈得洪數而有力，此瘡得於膏粱、醇酒濕熱交蒸之故也，雖重不妨。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "發眉疽門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_004084",
+      "entry_id": "PSORIASIS_001768",
+      "evidence_span": "《鬼遺方》云：左右眉棱兩處發，名為發眉，不拘在頭在尾，宜防未穴已前毒瓦斯攻擊，在眉頭即攻入眼損睛，在眉尾即攻入太陽，並宜留意慎重。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "大麻瘋門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010870",
+      "entry_id": "PSORIASIS_002340",
+      "evidence_span": "此緣酒色過度，不避風濕，足三陰經受邪，氣血凝滯，久則化熱成毒，熱盛沖激，泛溢周身，初發於眉棱骨上，或面頰間，結成　，久變為瘡，潰爛臭惡腥穢，膿流黏著之處，即變成瘡，頭足乖張，眼塌鼻倒，指折唇翻，遂成不救而死。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "癬門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_011256",
+      "entry_id": "PSORIASIS_002379",
+      "evidence_span": "王肯堂曰：面上風癬，初起　或漸成細瘡，時作痛癢，發於春月，名曰花癬，女人多生之。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "瘡",
+    "疥",
+    "癬",
+    "牛皮癬"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "頭",
+        "count": 9
+      },
+      {
+        "term": "眉",
+        "count": 6
+      },
+      {
+        "term": "黃水",
+        "count": 2
+      },
+      {
+        "term": "黑",
+        "count": 2
+      },
+      {
+        "term": "白殼",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "頭發",
+        "count": 1
+      },
+      {
+        "term": "嘔逆",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      },
+      {
+        "term": "遍身",
+        "count": 1
+      },
+      {
+        "term": "白皮",
+        "count": 1
+      },
+      {
+        "term": "噴嚏",
+        "count": 1
+      },
+      {
+        "term": "燥",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 2
+      },
+      {
+        "term": "濕熱",
+        "count": 2
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      },
+      {
+        "term": "風熱",
+        "count": 1
+      },
+      {
+        "term": "血熱",
+        "count": 1
+      },
+      {
+        "term": "腠理",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "針刺",
+        "count": 1
+      },
+      {
+        "term": "殺蟲",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "苦參",
+        "count": 1
+      },
+      {
+        "term": "滑石",
+        "count": 1
+      },
+      {
+        "term": "黃柏",
+        "count": 1
+      },
+      {
+        "term": "桑白皮",
+        "count": 1
+      },
+      {
+        "term": "童便",
+        "count": 1
+      },
+      {
+        "term": "黃連",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "瘡",
+        "count": 11
+      },
+      {
+        "term": "疥",
+        "count": 4
+      },
+      {
+        "term": "癬",
+        "count": 3
+      },
+      {
+        "term": "牛皮癬",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "癬",
+      "has_symptom",
+      "白殼"
+    ],
+    [
+      "癬",
+      "maps_to_candidate",
+      "银屑病·头皮型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "白殼"
+    ],
+    [
+      "瘡",
+      "maps_to_candidate",
+      "银屑病·头皮型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "牛皮癬",
+      "has_symptom",
+      "白殼"
+    ],
+    [
+      "牛皮癬",
+      "maps_to_candidate",
+      "银屑病·头皮型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "牛皮癬"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "風濕"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "發熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭發"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "嘔逆"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "黑"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風毒"
+    ],
+    [
+      "濕熱",
+      "treated_by",
+      "針刺"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "針刺"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風濕"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風熱"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "血熱",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "疥",
+      "maps_to_candidate",
+      "银屑病·头皮型"
+    ],
+    [
+      "血熱",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "血熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "滑石",
+      "co_occurs_with",
+      "黃柏"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血熱"
+    ],
+    [
+      "腠理",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "腠理",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "腠理"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "白皮"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "噴嚏"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "桑白皮",
+      "co_occurs_with",
+      "童便"
+    ],
+    [
+      "桑白皮",
+      "co_occurs_with",
+      "黃連"
+    ],
+    [
+      "桑白皮",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "童便",
+      "co_occurs_with",
+      "黃連"
+    ],
+    [
+      "童便",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "黃連",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "瘡"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "頭",
+        "count": 9
+      },
+      {
+        "term": "眉",
+        "count": 6
+      },
+      {
+        "term": "黃水",
+        "count": 2
+      },
+      {
+        "term": "黑",
+        "count": 2
+      },
+      {
+        "term": "白殼",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "頭發",
+        "count": 1
+      },
+      {
+        "term": "嘔逆",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      },
+      {
+        "term": "遍身",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 2
+      },
+      {
+        "term": "濕熱",
+        "count": 2
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      },
+      {
+        "term": "風熱",
+        "count": 1
+      },
+      {
+        "term": "血熱",
+        "count": 1
+      },
+      {
+        "term": "腠理",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "針刺",
+        "count": 1
+      },
+      {
+        "term": "殺蟲",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "苦參",
+        "count": 1
+      },
+      {
+        "term": "滑石",
+        "count": 1
+      },
+      {
+        "term": "黃柏",
+        "count": 1
+      },
+      {
+        "term": "桑白皮",
+        "count": 1
+      },
+      {
+        "term": "童便",
+        "count": 1
+      },
+      {
+        "term": "黃連",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科啟玄",
+      "ancient_names": [
+        "牛皮癬",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000215"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科大成",
+      "ancient_names": [
+        "疥",
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003573"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科正宗",
+      "ancient_names": [
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000765"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科精義",
+      "ancient_names": [
+        "疥",
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_004106"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_001768",
+        "PSORIASIS_002330",
+        "PSORIASIS_002340",
+        "PSORIASIS_002379",
+        "PSORIASIS_002461",
+        "PSORIASIS_002590",
+        "PSORIASIS_002933"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "银屑病",
+    "头皮型",
+    "psoriasis",
+    "瘡",
+    "疥",
+    "癬",
+    "牛皮癬",
+    "頭",
+    "眉",
+    "黃水",
+    "黑",
+    "白殼",
+    "發熱",
+    "苦參",
+    "滑石",
+    "黃柏",
+    "桑白皮",
+    "童便",
+    "黃連",
+    "白朮"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:45Z",
+  "protocol": "hermes-v5"
+}

@@ -5,266 +5,763 @@
   "subtype": "arthropathic",
   "title": "银屑病·关节型 古籍证候 Skill",
   "subject": "银屑病·关节型",
-  "abstracted_claim": "古籍中与银屑病·关节型表型相似的条文，核心古病名 疕、白疕；常见症候 骨節疼痛、屈伸不利、骨節、四肢、筋骨、燥；病机多属 風濕、血燥、風毒。（候选/表型对应，非诊断）",
+  "abstracted_claim": "古籍中与银屑病·关节型表型相似的条文，核心古病名 瘡、癬、疥；常见症候 四肢、頭、筋骨、拘急、脫、骨節；病机多属 風毒、濕熱、風熱、風邪；高频药物 黃連、甘草、童便、厚朴、連翹、黃芩、白朮、水銀。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.psoriasis.arthropathic",
   "release_level": "bronze",
-  "consensus_score": 0.764,
+  "consensus_score": 0.68,
   "supporting_initial_rules": [
-    "PSORIASIS_000010"
+    "PSORIASIS_000937",
+    "PSORIASIS_001114",
+    "PSORIASIS_002324",
+    "PSORIASIS_002353",
+    "PSORIASIS_002753",
+    "PSORIASIS_003021",
+    "PSORIASIS_003641",
+    "PSORIASIS_004830"
   ],
   "supporting_rules_by_release_level": {
     "bronze": [
-      "PSORIASIS_000010"
+      "PSORIASIS_000937",
+      "PSORIASIS_001114",
+      "PSORIASIS_002324",
+      "PSORIASIS_002353",
+      "PSORIASIS_002753",
+      "PSORIASIS_003021",
+      "PSORIASIS_003641",
+      "PSORIASIS_004830"
     ]
   },
   "original_evidence": [
     {
-      "book_title": "醫宗金鑒",
-      "chapter_title": "外科心法要訣·白疕附",
+      "book_title": "瘍醫大全",
+      "chapter_title": "結毒門主論",
       "dynasty": "清",
-      "source_unit_id": "SU_PSORIASIS_SAMPLE_0010",
-      "entry_id": "PSORIASIS_000010",
-      "evidence_span": "白疕日久，風毒入於筋骨，四肢骨節疼痛，屈伸不利者，乃血燥兼風濕入絡所致。",
+      "source_unit_id": "SU_B66C51E14_013406",
+      "entry_id": "PSORIASIS_002753",
+      "evidence_span": "劉惠田曰：但凡曾患楊梅瘡下疳服藥而愈，久後如患後開十數證者，勿作他治，皆結毒證也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "痛風門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010736",
+      "entry_id": "PSORIASIS_002324",
+      "evidence_span": "《統旨》曰：風痹者，游行上下，隨其虛邪與血氣相搏，聚於關節、筋脈，弛縱而不收也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "大麻瘋門主方",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_011086",
+      "entry_id": "PSORIASIS_002353",
+      "evidence_span": "（如身發多瘡，或生濕毒通身，如蛇皮，或破流血水者，是脾經受毒，加白朮十兩。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科正宗",
+      "chapter_title": "楊梅瘡論第三十六",
+      "dynasty": "明",
+      "source_unit_id": "SU_B378970CB_001654",
+      "entry_id": "PSORIASIS_000937",
+      "evidence_span": "加味遺糧湯木瓜　芎歸防苡術銀花癬皮皂子靈仙等　木通甘草共參夸示楊梅瘡初起筋骨疼痛，及已成數月，延綿不已。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "瘡科總論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_000005",
+      "entry_id": "PSORIASIS_003021",
+      "evidence_span": "瘡者，其總名也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "內癰總論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_003334",
+      "entry_id": "PSORIASIS_003641",
+      "evidence_span": "夫梅瘡言形也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科證治全書",
+      "chapter_title": "破傷風治法",
+      "dynasty": "清",
+      "source_unit_id": "SU_B4E954120_000061",
+      "entry_id": "PSORIASIS_001114",
+      "evidence_span": "破傷風者，因跌撲金刃傷破皮肉，及新久諸瘡未合口，失於調護，風邪乘虛襲入經絡，宜亟，皆莫救矣。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科精要",
+      "chapter_title": "馬益卿先生癰疽論第十二",
+      "dynasty": "宋",
+      "source_unit_id": "SU_BCAE191F2_000150",
+      "entry_id": "PSORIASIS_004830",
+      "evidence_span": "論曰：夫人有四肢、五臟，一覺一寐，呼吸吐納、精氣往來、流而為榮衛，暢而為氣色，發而為聲音，陽用其形，陰用其精，此又常數之所同也。",
       "release_level": "bronze"
     }
   ],
   "ancient_disease_names": [
-    "疕",
-    "白疕"
+    "瘡",
+    "癬",
+    "疥"
   ],
   "ontology_summary": {
     "symptoms": [
       {
-        "term": "骨節疼痛",
-        "count": 1
-      },
-      {
-        "term": "屈伸不利",
-        "count": 1
-      },
-      {
-        "term": "骨節",
-        "count": 1
-      },
-      {
         "term": "四肢",
-        "count": 1
+        "count": 5
+      },
+      {
+        "term": "頭",
+        "count": 5
       },
       {
         "term": "筋骨",
+        "count": 4
+      },
+      {
+        "term": "拘急",
+        "count": 2
+      },
+      {
+        "term": "脫",
+        "count": 2
+      },
+      {
+        "term": "骨節",
+        "count": 2
+      },
+      {
+        "term": "遍身",
+        "count": 2
+      },
+      {
+        "term": "背反張",
         "count": 1
       },
       {
-        "term": "燥",
+        "term": "惡風",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "口噤",
+        "count": 1
+      },
+      {
+        "term": "關節",
+        "count": 1
+      },
+      {
+        "term": "神昏",
+        "count": 1
+      },
+      {
+        "term": "頭發",
+        "count": 1
+      },
+      {
+        "term": "厚",
         "count": 1
       }
     ],
     "pathogenesis": [
       {
-        "term": "風濕",
-        "count": 1
-      },
-      {
-        "term": "血燥",
-        "count": 1
-      },
-      {
         "term": "風毒",
+        "count": 3
+      },
+      {
+        "term": "濕熱",
+        "count": 2
+      },
+      {
+        "term": "風熱",
+        "count": 1
+      },
+      {
+        "term": "風邪",
+        "count": 1
+      },
+      {
+        "term": "血氣相搏",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
         "count": 1
       }
     ],
-    "treatment_method": [],
-    "herbs": [],
-    "ancient_disease_name": [
+    "treatment_method": [
       {
-        "term": "疕",
+        "term": "涼血",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "黃連",
+        "count": 2
+      },
+      {
+        "term": "甘草",
         "count": 1
       },
       {
-        "term": "白疕",
+        "term": "童便",
+        "count": 1
+      },
+      {
+        "term": "厚朴",
+        "count": 1
+      },
+      {
+        "term": "連翹",
+        "count": 1
+      },
+      {
+        "term": "黃芩",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      },
+      {
+        "term": "水銀",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "瘡",
+        "count": 8
+      },
+      {
+        "term": "癬",
+        "count": 6
+      },
+      {
+        "term": "疥",
         "count": 1
       }
     ]
   },
   "relation_triples": [
     [
-      "疕",
-      "has_symptom",
-      "骨節疼痛"
-    ],
-    [
-      "疕",
-      "has_symptom",
-      "屈伸不利"
-    ],
-    [
-      "疕",
-      "has_symptom",
-      "骨節"
-    ],
-    [
-      "疕",
-      "has_symptom",
-      "四肢"
-    ],
-    [
-      "疕",
+      "癬",
       "has_symptom",
       "筋骨"
     ],
     [
-      "疕",
-      "has_symptom",
-      "燥"
-    ],
-    [
-      "疕",
+      "癬",
       "maps_to_candidate",
       "银屑病·关节型"
     ],
     [
-      "風濕",
-      "associated_with",
-      "疕"
-    ],
-    [
-      "血燥",
-      "associated_with",
-      "疕"
-    ],
-    [
       "風毒",
       "associated_with",
-      "疕"
+      "癬"
     ],
     [
-      "白疕",
-      "has_symptom",
-      "骨節疼痛"
-    ],
-    [
-      "白疕",
-      "has_symptom",
-      "屈伸不利"
-    ],
-    [
-      "白疕",
-      "has_symptom",
-      "骨節"
-    ],
-    [
-      "白疕",
-      "has_symptom",
-      "四肢"
-    ],
-    [
-      "白疕",
+      "瘡",
       "has_symptom",
       "筋骨"
     ],
     [
-      "白疕",
-      "has_symptom",
-      "燥"
-    ],
-    [
-      "白疕",
+      "瘡",
       "maps_to_candidate",
       "银屑病·关节型"
     ],
     [
-      "風濕",
-      "associated_with",
-      "白疕"
-    ],
-    [
-      "血燥",
-      "associated_with",
-      "白疕"
-    ],
-    [
       "風毒",
       "associated_with",
-      "白疕"
+      "瘡"
     ],
     [
-      "清",
-      "dynasty_pathogenesis",
-      "風濕"
-    ],
-    [
-      "清",
-      "dynasty_pathogenesis",
-      "血燥"
-    ],
-    [
-      "清",
+      "明",
       "dynasty_pathogenesis",
       "風毒"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "背反張"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "惡風"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "拘急"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "發熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "四肢"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "口噤"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "風邪",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風熱"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風邪"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "關節"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭發"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "脫"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "血氣相搏",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "血氣相搏",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "寒濕",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血氣相搏"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "寒濕"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "涼血"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "骨節"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "四肢"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "厚"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "脫"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "骨節"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "遍身"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "厚"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "眉"
+    ],
+    [
+      "厚朴",
+      "co_occurs_with",
+      "黃連"
+    ],
+    [
+      "厚朴",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "厚朴",
+      "co_occurs_with",
+      "黃芩"
+    ],
+    [
+      "厚朴",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "黃連",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "黃連",
+      "co_occurs_with",
+      "黃芩"
+    ],
+    [
+      "黃連",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "黃芩"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "黃芩",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "骨節疼痛"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "目眩"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "腹痛"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "嘔吐"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "心煩"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "拘急"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "口渴"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "耳聾"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "頭痛"
     ]
   ],
   "if_profile": {
     "symptoms": [
       {
-        "term": "骨節疼痛",
-        "count": 1
-      },
-      {
-        "term": "屈伸不利",
-        "count": 1
-      },
-      {
-        "term": "骨節",
-        "count": 1
-      },
-      {
         "term": "四肢",
-        "count": 1
+        "count": 5
+      },
+      {
+        "term": "頭",
+        "count": 5
       },
       {
         "term": "筋骨",
+        "count": 4
+      },
+      {
+        "term": "拘急",
+        "count": 2
+      },
+      {
+        "term": "脫",
+        "count": 2
+      },
+      {
+        "term": "骨節",
+        "count": 2
+      },
+      {
+        "term": "遍身",
+        "count": 2
+      },
+      {
+        "term": "背反張",
         "count": 1
       },
       {
-        "term": "燥",
+        "term": "惡風",
+        "count": 1
+      },
+      {
+        "term": "發熱",
         "count": 1
       }
     ],
     "pathogenesis": [
       {
-        "term": "風濕",
-        "count": 1
-      },
-      {
-        "term": "血燥",
-        "count": 1
-      },
-      {
         "term": "風毒",
+        "count": 3
+      },
+      {
+        "term": "濕熱",
+        "count": 2
+      },
+      {
+        "term": "風熱",
+        "count": 1
+      },
+      {
+        "term": "風邪",
+        "count": 1
+      },
+      {
+        "term": "血氣相搏",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
         "count": 1
       }
     ]
   },
   "then_profile": {
-    "treatment_method": [],
-    "herbs": []
+    "treatment_method": [
+      {
+        "term": "涼血",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "黃連",
+        "count": 2
+      },
+      {
+        "term": "甘草",
+        "count": 1
+      },
+      {
+        "term": "童便",
+        "count": 1
+      },
+      {
+        "term": "厚朴",
+        "count": 1
+      },
+      {
+        "term": "連翹",
+        "count": 1
+      },
+      {
+        "term": "黃芩",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      },
+      {
+        "term": "水銀",
+        "count": 1
+      }
+    ]
   },
-  "variant_set": [],
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科大成",
+      "ancient_names": [
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003641"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科正宗",
+      "ancient_names": [
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000937"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科精要",
+      "ancient_names": [
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_004830"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科證治全書",
+      "ancient_names": [
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_001114"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科集驗方",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003021"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_002324",
+        "PSORIASIS_002353",
+        "PSORIASIS_002753"
+      ]
+    }
+  ],
   "conflict_set": [],
   "keywords": [
     "银屑病",
     "关节型",
     "psoriasis",
-    "疕",
-    "白疕",
-    "骨節疼痛",
-    "屈伸不利",
-    "骨節",
+    "瘡",
+    "癬",
+    "疥",
     "四肢",
+    "頭",
     "筋骨",
-    "燥"
+    "拘急",
+    "脫",
+    "骨節",
+    "黃連",
+    "甘草",
+    "童便",
+    "厚朴",
+    "連翹",
+    "黃芩",
+    "白朮",
+    "水銀"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:36:50Z",
+  "compiled_at": "2026-06-12T12:38:45Z",
   "protocol": "hermes-v5"
 }

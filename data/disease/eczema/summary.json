@@ -1,22 +1,23 @@
 {
   "disease": "eczema",
   "display_name": "湿疹",
-  "generated_at": "2026-06-12T10:36:50Z",
-  "candidates": 8,
+  "generated_at": "2026-06-12T12:38:48Z",
+  "candidates": 346,
   "by_level": {
-    "rejected": 1,
-    "bronze": 5,
-    "silver": 2
+    "rejected": 337,
+    "bronze": 9
   },
   "by_subtype": {
     "site": 2,
-    "infant": 1,
-    "acute": 3,
-    "chronic": 1
+    "acute": 6,
+    "infant": 1
   },
-  "included_for_analytics": 7,
-  "network_nodes": 0,
+  "included_for_analytics": 9,
+  "network_nodes": 2,
   "network_edges": 0,
-  "core_herbs": [],
+  "core_herbs": [
+    "大麥",
+    "黃柏"
+  ],
   "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
 }

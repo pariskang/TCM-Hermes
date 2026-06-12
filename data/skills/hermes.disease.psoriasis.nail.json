@@ -1,0 +1,1158 @@
+{
+  "skill_id": "hermes.disease.psoriasis.nail",
+  "kind": "disease",
+  "disease_id": "psoriasis",
+  "subtype": "nail",
+  "title": "银屑病·甲型 古籍证候 Skill",
+  "subject": "银屑病·甲型",
+  "abstracted_claim": "古籍中与银屑病·甲型表型相似的条文，核心古病名 瘡、疥、癬、頑癬；常见症候 黑、頭、枯、脫、甲、煩躁；病机多属 濕熱、腠理、風毒、風熱；高频药物 蒼朮、當歸、附子、水銀、大黃、白芍、白芷、荊芥。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.psoriasis.nail",
+  "release_level": "bronze",
+  "consensus_score": 0.697,
+  "supporting_initial_rules": [
+    "PSORIASIS_000819",
+    "PSORIASIS_000866",
+    "PSORIASIS_000990",
+    "PSORIASIS_001100",
+    "PSORIASIS_001395",
+    "PSORIASIS_001413",
+    "PSORIASIS_001604",
+    "PSORIASIS_001787",
+    "PSORIASIS_002305",
+    "PSORIASIS_002336",
+    "PSORIASIS_002430",
+    "PSORIASIS_002545",
+    "PSORIASIS_002561",
+    "PSORIASIS_002565",
+    "PSORIASIS_002583",
+    "PSORIASIS_002585",
+    "PSORIASIS_003015",
+    "PSORIASIS_003179",
+    "PSORIASIS_003233",
+    "PSORIASIS_003342",
+    "PSORIASIS_003552",
+    "PSORIASIS_003696",
+    "PSORIASIS_003792",
+    "PSORIASIS_003849",
+    "PSORIASIS_004238",
+    "PSORIASIS_004241",
+    "PSORIASIS_004261",
+    "PSORIASIS_004272",
+    "PSORIASIS_004663",
+    "PSORIASIS_004691"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "PSORIASIS_000819",
+      "PSORIASIS_000866",
+      "PSORIASIS_000990",
+      "PSORIASIS_001100",
+      "PSORIASIS_001395",
+      "PSORIASIS_001413",
+      "PSORIASIS_001604",
+      "PSORIASIS_001787",
+      "PSORIASIS_002336",
+      "PSORIASIS_002430",
+      "PSORIASIS_002545",
+      "PSORIASIS_002561",
+      "PSORIASIS_002565",
+      "PSORIASIS_002583",
+      "PSORIASIS_002585",
+      "PSORIASIS_003015",
+      "PSORIASIS_003179",
+      "PSORIASIS_003233",
+      "PSORIASIS_003342",
+      "PSORIASIS_003552",
+      "PSORIASIS_003696",
+      "PSORIASIS_003792",
+      "PSORIASIS_003849",
+      "PSORIASIS_004238",
+      "PSORIASIS_004241",
+      "PSORIASIS_004261",
+      "PSORIASIS_004272",
+      "PSORIASIS_004663",
+      "PSORIASIS_004691"
+    ],
+    "silver": [
+      "PSORIASIS_002305"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "新增江蘇揚州府江、甘、儀三邑婦女香港腳門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010451",
+      "entry_id": "PSORIASIS_002305",
+      "evidence_span": "再則痛至足指，指甲縫中痛如針刺，日夜喊叫，欲生不可，欲死不能，忽而足痛稍定，則肚口依然脹悶，甚則面色呈青，目睛倒視，胸前非重手按捺，男子腳跟　住，則昏厥不省人事，兩足非婦女替換揉搓，不能少定痛楚，更有四肢搐搦，頭項動搖，昏厥僵仆，有一二時而蘇，或半日而蘇者，無論體之強弱，但能清餓七日，其痛漸定，亦有十四朝，二十一朝，始能漸定者，此又在醫之用藥善與不善，及病家妄與粥湯，吊住邪氣之所致也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "榮衛論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012368",
+      "entry_id": "PSORIASIS_002583",
+      "evidence_span": "夫痘瘡之毒，本於五臟之液，各隨經絡部位，直犯榮衛而出，因即氣血從之，故觀其裡來堅濃，窠囊充長者，氣之足也；",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科正宗",
+      "chapter_title": "疥瘡論第七十三",
+      "dynasty": "明",
+      "source_unit_id": "SU_B378970CB_002110",
+      "entry_id": "PSORIASIS_000990",
+      "evidence_span": "夫疥者，微芒之疾也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "論報痘三朝生死訣",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012289",
+      "entry_id": "PSORIASIS_002561",
+      "evidence_span": "痘色紅紫干枯，或密如蠶種，或一片不分顆粒，身熱大便秘而出不快者，此毒瓦斯鬱滯，血氣不流行也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "無名腫毒",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_003852",
+      "entry_id": "PSORIASIS_003696",
+      "evidence_span": "令桃殼遍黑。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "諸瘡論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_000856",
+      "entry_id": "PSORIASIS_003179",
+      "evidence_span": "夫諸瘡者，謂諸般小瘡也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科正宗",
+      "chapter_title": "腦疽論第十六",
+      "dynasty": "明",
+      "source_unit_id": "SU_B378970CB_000453",
+      "entry_id": "PSORIASIS_000819",
+      "evidence_span": "其患初起有頭，多生正穴，三、四日間，多作　痛，始生寒熱，口和而干，色紅根活，瘡勢漸高，形不散大，時止時痛，易膿易腐，飲食知味，起坐尋常，外勢雖可畏，而內無七惡之症相干，此屬陽症，其由從外來矣，故多不治可愈。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍科心得集",
+      "chapter_title": "瘍科調治心法略義",
+      "dynasty": "清",
+      "source_unit_id": "SU_BB130CD90_000024",
+      "entry_id": "PSORIASIS_004238",
+      "evidence_span": "《內經》曰：諸痛瘡瘍，皆屬於心。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科理例",
+      "chapter_title": "瘡疥一百四十三",
+      "dynasty": "明",
+      "source_unit_id": "SU_BBC51A3C6_001550",
+      "entry_id": "PSORIASIS_004691",
+      "evidence_span": "蟲瘡如癬狀。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "分別大小圓翳內障論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_004295",
+      "entry_id": "PSORIASIS_001787",
+      "evidence_span": "白睛屬肺，黑睛屬肝，瞳人屬腎，上下胞屬脾，兩　屬心而內　又屬膽與三焦，上綱屬太陽膀胱小腸，下綱屬陽明大腸。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "論艾灸法",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_003116",
+      "entry_id": "PSORIASIS_001604",
+      "evidence_span": "若蒜皮枯焦，再易之。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍科心得集",
+      "chapter_title": "辨脫肛痔漏論",
+      "dynasty": "清",
+      "source_unit_id": "SU_BB130CD90_000192",
+      "entry_id": "PSORIASIS_004272",
+      "evidence_span": "痔瘡者，肛門內外四旁忽生紅瘰，先癢後疼，後成為痔。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科證治全書",
+      "chapter_title": "癰疽部位名記",
+      "dynasty": "清",
+      "source_unit_id": "SU_B4E954120_000004",
+      "entry_id": "PSORIASIS_001100",
+      "evidence_span": "於手為手發背、為病蝦，為掌心毒，為　瘡，為鵝掌風，為虎口疽（丫叉毒），為合谷疔，為紅絲疔，為手丫發。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "大麻瘋門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010856",
+      "entry_id": "PSORIASIS_002336",
+      "evidence_span": "如病者因其所患甚微，不以為意而醫者又不明其證之暴烈，　然不覺，妄投補瀉，致風濕之毒遍流身體，遂致眼反唇翻，眉脫發落，手足痿痹，十指墮折，肌肉潰爛，斯時也雖有軒岐再世，盧扁復生，何能施其術哉？",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "論痘不可妄汗、妄下及宜微汗、微下證",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012376",
+      "entry_id": "PSORIASIS_002585",
+      "evidence_span": "如痘證本稀，原無閉塞表熱不快之證，而妄用重藥以發之，則在後必成斑爛音啞，皮薄癢塌，或為虛脫者有矣。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "癬門主方",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_011388",
+      "entry_id": "PSORIASIS_002430",
+      "evidence_span": "頑癬　黑鉛一錢熔化離火，入水銀一錢研為極細末，加真輕粉、潮腦各一錢和勻，再研細，取牛舌草根去土淨，搗自然汁和勻，再用穿山甲將癬刮破敷上，出盡血水為度，癢時則頻頻搓之，搓時微痛勿懼。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科方外奇方",
+      "chapter_title": "升降部",
+      "dynasty": "",
+      "source_unit_id": "SU_B893C860A_000023",
+      "entry_id": "PSORIASIS_003792",
+      "evidence_span": "研摻癬瘡神效。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科理例",
+      "chapter_title": "腎疳一百四十",
+      "dynasty": "明",
+      "source_unit_id": "SU_BBC51A3C6_001494",
+      "entry_id": "PSORIASIS_004663",
+      "evidence_span": "一兒十歲患瘡疥。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科正宗",
+      "chapter_title": "脫疽論第十八",
+      "dynasty": "明",
+      "source_unit_id": "SU_B378970CB_000606",
+      "entry_id": "PSORIASIS_000866",
+      "evidence_span": "夫脫疽者，外腐而內壞也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "奇病門治法",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_015547",
+      "entry_id": "PSORIASIS_003015",
+      "evidence_span": "人有生鳥鵲於頭上、臂上，外有皮一層包之，或如瘤狀，或不如瘤而皮膚高起一塊者，內作鳥鵲之聲，逢天明則啼，逢天雨則叫，逢飢寒則痛疼，百藥不效，此乃不敬神聖而戲弄之報也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "足部",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_002296",
+      "entry_id": "PSORIASIS_003552",
+      "evidence_span": "用頭發十余根。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "治法指南",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_002099",
+      "entry_id": "PSORIASIS_001395",
+      "evidence_span": "既潰而陰血干枯，若非滋陰充暢，何能接續膿漿。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "論報痘三朝生死訣",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012295",
+      "entry_id": "PSORIASIS_002565",
+      "evidence_span": "帶熱敷瘡，陸續出來，尖圓高聳，顏色光潤，雖甚密猶為可救；",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "邵公看痘秘訣",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_012204",
+      "entry_id": "PSORIASIS_002545",
+      "evidence_span": "又訣：六日七朝見痘瘡，滿面稠密地無荒，細看陰陽梁上穴，內中略有水珠藏。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科大成",
+      "chapter_title": "順逆",
+      "dynasty": "清",
+      "source_unit_id": "SU_B78ADD200_000372",
+      "entry_id": "PSORIASIS_003342",
+      "evidence_span": "不脫者自脫。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍科心得集",
+      "chapter_title": "辨發背搭手陰陽虛實異證同治論",
+      "dynasty": "清",
+      "source_unit_id": "SU_BB130CD90_000145",
+      "entry_id": "PSORIASIS_004261",
+      "evidence_span": "初起或一頭，或二頭，數日後，或大如手掌，或大如碗面，　赤腫高，疼痛發熱，煩渴不寧，勢若甚重，其脈洪數有力，能進飲食。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "癰疽論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_002173",
+      "entry_id": "PSORIASIS_001413",
+      "evidence_span": "寒氣化為熱，熱甚則腐肉，腐肉則為膿，膿不泄則爛筋，筋爛則傷骨，骨傷則髓消，不當骨空，不得泄瀉，血枯空虛，則筋骨肌肉不相榮，經脈敗漏，熏於五臟，臟傷故死矣。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "諸瘡論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_001008",
+      "entry_id": "PSORIASIS_003233",
+      "evidence_span": "治男子婦人血風毒，氣攻手足，指生甲疽，瘡久不瘥者，　肉裹指甲，疼痛出血不定，用此縮肉干瘡。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科方外奇方",
+      "chapter_title": "諸瘡部",
+      "dynasty": "",
+      "source_unit_id": "SU_B893C860A_000313",
+      "entry_id": "PSORIASIS_003849",
+      "evidence_span": "二味同研）　蛇床子（四兩）　炙鱉甲（五兩）　地膚子（四兩）　東白薇（四兩）　香白芷（三兩）　大黃（五兩）　白蘚皮（三錢）　百部（三兩）　樟腦（二兩）　研極細末。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍科心得集",
+      "chapter_title": "腦疽後論",
+      "dynasty": "清",
+      "source_unit_id": "SU_BB130CD90_000030",
+      "entry_id": "PSORIASIS_004241",
+      "evidence_span": "太陽膀胱主司寒水，性質多沉，起於巔頂，貫項兩旁，夾脊而下，此處發疽，氣血與瘡毒交會下流，故瘡多平塌，根腳走散，兩肩漫腫，膊項難轉，背如負石，難以成膿，難潰難斂，此不易治之證。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "瘡",
+    "疥",
+    "癬",
+    "頑癬"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "黑",
+        "count": 23
+      },
+      {
+        "term": "頭",
+        "count": 18
+      },
+      {
+        "term": "枯",
+        "count": 16
+      },
+      {
+        "term": "脫",
+        "count": 15
+      },
+      {
+        "term": "甲",
+        "count": 9
+      },
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "燥",
+        "count": 8
+      },
+      {
+        "term": "渴",
+        "count": 7
+      },
+      {
+        "term": "指甲",
+        "count": 5
+      },
+      {
+        "term": "發熱",
+        "count": 5
+      },
+      {
+        "term": "四肢",
+        "count": 4
+      },
+      {
+        "term": "寒熱",
+        "count": 3
+      },
+      {
+        "term": "浸淫",
+        "count": 3
+      },
+      {
+        "term": "爪",
+        "count": 3
+      },
+      {
+        "term": "厥",
+        "count": 3
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "濕熱",
+        "count": 10
+      },
+      {
+        "term": "腠理",
+        "count": 6
+      },
+      {
+        "term": "風毒",
+        "count": 3
+      },
+      {
+        "term": "風熱",
+        "count": 3
+      },
+      {
+        "term": "寒濕",
+        "count": 3
+      },
+      {
+        "term": "風濕",
+        "count": 2
+      },
+      {
+        "term": "風邪",
+        "count": 2
+      },
+      {
+        "term": "血熱",
+        "count": 1
+      },
+      {
+        "term": "血瘀",
+        "count": 1
+      },
+      {
+        "term": "血氣相搏",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "艾灸",
+        "count": 4
+      },
+      {
+        "term": "針刺",
+        "count": 3
+      },
+      {
+        "term": "涼血",
+        "count": 3
+      },
+      {
+        "term": "殺蟲",
+        "count": 2
+      },
+      {
+        "term": "祛風",
+        "count": 1
+      },
+      {
+        "term": "外洗",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "蒼朮",
+        "count": 3
+      },
+      {
+        "term": "當歸",
+        "count": 3
+      },
+      {
+        "term": "附子",
+        "count": 3
+      },
+      {
+        "term": "水銀",
+        "count": 3
+      },
+      {
+        "term": "大黃",
+        "count": 2
+      },
+      {
+        "term": "白芍",
+        "count": 2
+      },
+      {
+        "term": "白芷",
+        "count": 2
+      },
+      {
+        "term": "荊芥",
+        "count": 2
+      },
+      {
+        "term": "甘草",
+        "count": 2
+      },
+      {
+        "term": "人參",
+        "count": 2
+      },
+      {
+        "term": "半夏",
+        "count": 2
+      },
+      {
+        "term": "白朮",
+        "count": 2
+      },
+      {
+        "term": "雄黃",
+        "count": 2
+      },
+      {
+        "term": "連翹",
+        "count": 1
+      },
+      {
+        "term": "厚朴",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "瘡",
+        "count": 28
+      },
+      {
+        "term": "疥",
+        "count": 7
+      },
+      {
+        "term": "癬",
+        "count": 6
+      },
+      {
+        "term": "頑癬",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "瘡",
+      "has_symptom",
+      "口燥"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "煩躁"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "寒熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "枯"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "脫"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "黑"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭"
+    ],
+    [
+      "瘡",
+      "maps_to_candidate",
+      "银屑病·甲型"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "腠理",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "濕熱",
+      "treated_by",
+      "針刺"
+    ],
+    [
+      "腠理",
+      "treated_by",
+      "針刺"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "腠理"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "針刺"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "頭發"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "艾灸"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "枯"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "脫"
+    ],
+    [
+      "癬",
+      "maps_to_candidate",
+      "银屑病·甲型"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "枯"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "脫"
+    ],
+    [
+      "疥",
+      "maps_to_candidate",
+      "银屑病·甲型"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "濕熱",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "濕熱",
+      "treated_by",
+      "殺蟲"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "涼血"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "殺蟲"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "指甲"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "骨節"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "爪"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "甲"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風毒"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "煩躁"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "黑"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "筋骨"
+    ],
+    [
+      "大黃",
+      "co_occurs_with",
+      "蒼朮"
+    ],
+    [
+      "大黃",
+      "co_occurs_with",
+      "當歸"
+    ],
+    [
+      "蒼朮",
+      "co_occurs_with",
+      "當歸"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "皮枯"
+    ],
+    [
+      "濕熱",
+      "treated_by",
+      "艾灸"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "艾灸"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "面赤"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "目黃"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "血熱",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "血瘀",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "風熱",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "血熱",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "血瘀",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "腠理",
+      "treated_by",
+      "涼血"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風熱"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "黑",
+        "count": 23
+      },
+      {
+        "term": "頭",
+        "count": 18
+      },
+      {
+        "term": "枯",
+        "count": 16
+      },
+      {
+        "term": "脫",
+        "count": 15
+      },
+      {
+        "term": "甲",
+        "count": 9
+      },
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "燥",
+        "count": 8
+      },
+      {
+        "term": "渴",
+        "count": 7
+      },
+      {
+        "term": "指甲",
+        "count": 5
+      },
+      {
+        "term": "發熱",
+        "count": 5
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "濕熱",
+        "count": 10
+      },
+      {
+        "term": "腠理",
+        "count": 6
+      },
+      {
+        "term": "風毒",
+        "count": 3
+      },
+      {
+        "term": "風熱",
+        "count": 3
+      },
+      {
+        "term": "寒濕",
+        "count": 3
+      },
+      {
+        "term": "風濕",
+        "count": 2
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "艾灸",
+        "count": 4
+      },
+      {
+        "term": "針刺",
+        "count": 3
+      },
+      {
+        "term": "涼血",
+        "count": 3
+      },
+      {
+        "term": "殺蟲",
+        "count": 2
+      },
+      {
+        "term": "祛風",
+        "count": 1
+      },
+      {
+        "term": "外洗",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "蒼朮",
+        "count": 3
+      },
+      {
+        "term": "當歸",
+        "count": 3
+      },
+      {
+        "term": "附子",
+        "count": 3
+      },
+      {
+        "term": "水銀",
+        "count": 3
+      },
+      {
+        "term": "大黃",
+        "count": 2
+      },
+      {
+        "term": "白芍",
+        "count": 2
+      },
+      {
+        "term": "白芷",
+        "count": 2
+      },
+      {
+        "term": "荊芥",
+        "count": 2
+      },
+      {
+        "term": "甘草",
+        "count": 2
+      },
+      {
+        "term": "人參",
+        "count": 2
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科大成",
+      "ancient_names": [
+        "疥",
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003342",
+        "PSORIASIS_003552",
+        "PSORIASIS_003696"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科方外奇方",
+      "ancient_names": [
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003792",
+        "PSORIASIS_003849"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科正宗",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000819",
+        "PSORIASIS_000866",
+        "PSORIASIS_000990"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科理例",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_004663",
+        "PSORIASIS_004691"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科證治全書",
+      "ancient_names": [
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_001100"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "外科集驗方",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_003179",
+        "PSORIASIS_003233"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍科心得集",
+      "ancient_names": [
+        "瘡"
+      ],
+      "entry_ids": [
+        "PSORIASIS_004238",
+        "PSORIASIS_004241",
+        "PSORIASIS_004261",
+        "PSORIASIS_004272"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "疥",
+        "瘡",
+        "癬",
+        "頑癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_001395",
+        "PSORIASIS_001413",
+        "PSORIASIS_001604",
+        "PSORIASIS_001787",
+        "PSORIASIS_002305",
+        "PSORIASIS_002336",
+        "PSORIASIS_002430",
+        "PSORIASIS_002545"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "differential_ambiguity",
+      "entry_id": "PSORIASIS_003179",
+      "matched_terms": [
+        "禿瘡"
+      ],
+      "message": "提及鉴别病但保留为候选，需进一步区分"
+    }
+  ],
+  "keywords": [
+    "银屑病",
+    "甲型",
+    "psoriasis",
+    "瘡",
+    "疥",
+    "癬",
+    "頑癬",
+    "黑",
+    "頭",
+    "枯",
+    "脫",
+    "甲",
+    "煩躁",
+    "蒼朮",
+    "當歸",
+    "附子",
+    "水銀",
+    "大黃",
+    "白芍",
+    "白芷",
+    "荊芥"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:45Z",
+  "protocol": "hermes-v5"
+}

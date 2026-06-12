@@ -1,428 +1,1410 @@
 {
-  "candidates_analyzed": 1,
-  "n_nodes": 11,
-  "n_edges": 55,
+  "candidates_analyzed": 88,
+  "n_nodes": 47,
+  "n_edges": 299,
   "core_herbs": [
     {
-      "herb": "桔梗",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "herb": "連翹",
+      "count": 36,
+      "degree": 0.717391304347826,
+      "betweenness": 0.1779,
+      "eigenvector": 0.3694,
+      "pagerank": 0.0769
     },
     {
-      "herb": "淡豆豉",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "herb": "石膏",
+      "count": 18,
+      "degree": 0.6739130434782609,
+      "betweenness": 0.1002,
+      "eigenvector": 0.3056,
+      "pagerank": 0.0582
     },
     {
-      "herb": "牛蒡子",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "herb": "知母",
+      "count": 14,
+      "degree": 0.6086956521739131,
+      "betweenness": 0.0851,
+      "eigenvector": 0.2723,
+      "pagerank": 0.0523
+    },
+    {
+      "herb": "黃芩",
+      "count": 15,
+      "degree": 0.6086956521739131,
+      "betweenness": 0.0549,
+      "eigenvector": 0.275,
+      "pagerank": 0.0503
     },
     {
       "herb": "甘草",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "count": 17,
+      "degree": 0.5869565217391305,
+      "betweenness": 0.0457,
+      "eigenvector": 0.2909,
+      "pagerank": 0.0503
+    },
+    {
+      "herb": "杏仁",
+      "count": 18,
+      "degree": 0.6304347826086957,
+      "betweenness": 0.0936,
+      "eigenvector": 0.2427,
+      "pagerank": 0.0499
+    },
+    {
+      "herb": "丹皮",
+      "count": 12,
+      "degree": 0.5434782608695652,
+      "betweenness": 0.0639,
+      "eigenvector": 0.2337,
+      "pagerank": 0.0446
     },
     {
       "herb": "竹葉",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "count": 14,
+      "degree": 0.5217391304347826,
+      "betweenness": 0.0353,
+      "eigenvector": 0.2539,
+      "pagerank": 0.0431
     },
     {
-      "herb": "荊芥",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "herb": "桔梗",
+      "count": 11,
+      "degree": 0.5217391304347826,
+      "betweenness": 0.0302,
+      "eigenvector": 0.2252,
+      "pagerank": 0.0396
+    },
+    {
+      "herb": "黃連",
+      "count": 6,
+      "degree": 0.4782608695652174,
+      "betweenness": 0.0099,
+      "eigenvector": 0.1944,
+      "pagerank": 0.0333
+    },
+    {
+      "herb": "梔子",
+      "count": 6,
+      "degree": 0.4782608695652174,
+      "betweenness": 0.0044,
+      "eigenvector": 0.1926,
+      "pagerank": 0.032
     },
     {
       "herb": "薄荷",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "count": 13,
+      "degree": 0.32608695652173914,
+      "betweenness": 0.0131,
+      "eigenvector": 0.1637,
+      "pagerank": 0.0289
+    },
+    {
+      "herb": "葛根",
+      "count": 16,
+      "degree": 0.30434782608695654,
+      "betweenness": 0.0093,
+      "eigenvector": 0.1537,
+      "pagerank": 0.0268
     },
     {
       "herb": "蘆根",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "count": 6,
+      "degree": 0.43478260869565216,
+      "betweenness": 0.0022,
+      "eigenvector": 0.1407,
+      "pagerank": 0.0244
     },
     {
-      "herb": "豆豉",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
-    },
-    {
-      "herb": "連翹",
-      "count": 1,
-      "degree": 1.0,
-      "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "herb": "玄參",
+      "count": 3,
+      "degree": 0.45652173913043476,
+      "betweenness": 0.0168,
+      "eigenvector": 0.1083,
+      "pagerank": 0.0231
     },
     {
       "herb": "銀花",
-      "count": 1,
-      "degree": 1.0,
+      "count": 6,
+      "degree": 0.43478260869565216,
+      "betweenness": 0.0073,
+      "eigenvector": 0.1206,
+      "pagerank": 0.0231
+    },
+    {
+      "herb": "茯苓",
+      "count": 3,
+      "degree": 0.43478260869565216,
+      "betweenness": 0.0383,
+      "eigenvector": 0.1012,
+      "pagerank": 0.023
+    },
+    {
+      "herb": "柴胡",
+      "count": 9,
+      "degree": 0.2608695652173913,
+      "betweenness": 0.0905,
+      "eigenvector": 0.0771,
+      "pagerank": 0.0226
+    },
+    {
+      "herb": "桑葉",
+      "count": 10,
+      "degree": 0.2391304347826087,
+      "betweenness": 0.0006,
+      "eigenvector": 0.1463,
+      "pagerank": 0.0221
+    },
+    {
+      "herb": "阿膠",
+      "count": 4,
+      "degree": 0.41304347826086957,
+      "betweenness": 0.001,
+      "eigenvector": 0.1203,
+      "pagerank": 0.0218
+    },
+    {
+      "herb": "赤芍",
+      "count": 7,
+      "degree": 0.2826086956521739,
+      "betweenness": 0.0007,
+      "eigenvector": 0.147,
+      "pagerank": 0.0215
+    },
+    {
+      "herb": "大黃",
+      "count": 5,
+      "degree": 0.41304347826086957,
+      "betweenness": 0.0008,
+      "eigenvector": 0.1087,
+      "pagerank": 0.02
+    },
+    {
+      "herb": "滑石",
+      "count": 4,
+      "degree": 0.391304347826087,
       "betweenness": 0.0,
-      "eigenvector": 0.3015,
-      "pagerank": 0.0909
+      "eigenvector": 0.1064,
+      "pagerank": 0.0196
+    },
+    {
+      "herb": "人參",
+      "count": 8,
+      "degree": 0.1956521739130435,
+      "betweenness": 0.096,
+      "eigenvector": 0.0424,
+      "pagerank": 0.0196
+    },
+    {
+      "herb": "橘紅",
+      "count": 2,
+      "degree": 0.391304347826087,
+      "betweenness": 0.0,
+      "eigenvector": 0.0999,
+      "pagerank": 0.0187
     }
   ],
   "edges": [
     {
-      "source": "桔梗",
-      "target": "淡豆豉",
-      "count": 1,
-      "pmi": 0.0
+      "source": "杏仁",
+      "target": "連翹",
+      "count": 13,
+      "pmi": 0.568
     },
     {
-      "source": "桔梗",
-      "target": "牛蒡子",
-      "count": 1,
-      "pmi": 0.0
+      "source": "知母",
+      "target": "石膏",
+      "count": 11,
+      "pmi": 1.346
+    },
+    {
+      "source": "竹葉",
+      "target": "連翹",
+      "count": 10,
+      "pmi": 0.557
+    },
+    {
+      "source": "杏仁",
+      "target": "薄荷",
+      "count": 9,
+      "pmi": 1.219
+    },
+    {
+      "source": "薄荷",
+      "target": "連翹",
+      "count": 9,
+      "pmi": 0.526
     },
     {
       "source": "桔梗",
       "target": "甘草",
-      "count": 1,
-      "pmi": 0.0
+      "count": 8,
+      "pmi": 1.326
     },
     {
-      "source": "桔梗",
+      "source": "甘草",
       "target": "竹葉",
-      "count": 1,
-      "pmi": 0.0
+      "count": 8,
+      "pmi": 1.085
     },
     {
-      "source": "桔梗",
-      "target": "荊芥",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "桔梗",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "桔梗",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "桔梗",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "桔梗",
+      "source": "甘草",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 8,
+      "pmi": 0.14
     },
     {
-      "source": "桔梗",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "source": "石膏",
+      "target": "竹葉",
+      "count": 8,
+      "pmi": 1.027
     },
     {
-      "source": "淡豆豉",
-      "target": "牛蒡子",
-      "count": 1,
-      "pmi": 0.0
+      "source": "石膏",
+      "target": "連翹",
+      "count": 8,
+      "pmi": 0.083
     },
     {
-      "source": "淡豆豉",
+      "source": "連翹",
+      "target": "黃芩",
+      "count": 8,
+      "pmi": 0.265
+    },
+    {
+      "source": "桑葉",
+      "target": "連翹",
+      "count": 8,
+      "pmi": 0.671
+    },
+    {
+      "source": "甘草",
+      "target": "知母",
+      "count": 7,
+      "pmi": 0.951
+    },
+    {
+      "source": "甘草",
+      "target": "石膏",
+      "count": 7,
+      "pmi": 0.7
+    },
+    {
+      "source": "知母",
+      "target": "竹葉",
+      "count": 7,
+      "pmi": 1.145
+    },
+    {
+      "source": "葛根",
+      "target": "連翹",
+      "count": 7,
+      "pmi": 0.067
+    },
+    {
+      "source": "桑葉",
+      "target": "薄荷",
+      "count": 7,
+      "pmi": 1.556
+    },
+    {
+      "source": "杏仁",
+      "target": "桑葉",
+      "count": 7,
+      "pmi": 1.23
+    },
+    {
+      "source": "甘草",
+      "target": "黃芩",
+      "count": 7,
+      "pmi": 0.882
+    },
+    {
+      "source": "赤芍",
+      "target": "連翹",
+      "count": 7,
+      "pmi": 0.894
+    },
+    {
+      "source": "丹皮",
+      "target": "連翹",
+      "count": 7,
+      "pmi": 0.355
+    },
+    {
+      "source": "石膏",
+      "target": "黃芩",
+      "count": 7,
+      "pmi": 0.825
+    },
+    {
+      "source": "知母",
+      "target": "連翹",
+      "count": 6,
+      "pmi": 0.047
+    },
+    {
+      "source": "杏仁",
       "target": "甘草",
-      "count": 1,
-      "pmi": 0.0
+      "count": 6,
+      "pmi": 0.546
     },
     {
-      "source": "淡豆豉",
-      "target": "竹葉",
-      "count": 1,
-      "pmi": 0.0
+      "source": "丹皮",
+      "target": "知母",
+      "count": 6,
+      "pmi": 1.145
     },
     {
-      "source": "淡豆豉",
-      "target": "荊芥",
-      "count": 1,
-      "pmi": 0.0
+      "source": "丹皮",
+      "target": "石膏",
+      "count": 6,
+      "pmi": 0.894
     },
     {
-      "source": "淡豆豉",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
+      "source": "丹皮",
+      "target": "黃芩",
+      "count": 6,
+      "pmi": 1.076
     },
     {
-      "source": "淡豆豉",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
+      "source": "知母",
+      "target": "黃芩",
+      "count": 6,
+      "pmi": 0.922
     },
     {
-      "source": "淡豆豉",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
+      "source": "石膏",
+      "target": "黃連",
+      "count": 6,
+      "pmi": 1.587
     },
     {
-      "source": "淡豆豉",
+      "source": "丹皮",
+      "target": "赤芍",
+      "count": 6,
+      "pmi": 1.838
+    },
+    {
+      "source": "葛根",
+      "target": "黃芩",
+      "count": 5,
+      "pmi": 0.606
+    },
+    {
+      "source": "桔梗",
+      "target": "梔子",
+      "count": 5,
+      "pmi": 1.897
+    },
+    {
+      "source": "知母",
+      "target": "葛根",
+      "count": 5,
+      "pmi": 0.675
+    },
+    {
+      "source": "杏仁",
+      "target": "黃芩",
+      "count": 5,
+      "pmi": 0.488
+    },
+    {
+      "source": "桔梗",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 5,
+      "pmi": 0.105
     },
     {
-      "source": "淡豆豉",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "source": "桔梗",
+      "target": "石膏",
+      "count": 5,
+      "pmi": 0.799
     },
     {
-      "source": "牛蒡子",
+      "source": "桔梗",
+      "target": "黃芩",
+      "count": 5,
+      "pmi": 0.981
+    },
+    {
+      "source": "桔梗",
+      "target": "黃連",
+      "count": 5,
+      "pmi": 1.897
+    },
+    {
+      "source": "梔子",
+      "target": "石膏",
+      "count": 5,
+      "pmi": 1.405
+    },
+    {
+      "source": "梔子",
+      "target": "黃連",
+      "count": 5,
+      "pmi": 2.503
+    },
+    {
+      "source": "丹皮",
+      "target": "葛根",
+      "count": 5,
+      "pmi": 0.829
+    },
+    {
+      "source": "蘆根",
+      "target": "連翹",
+      "count": 4,
+      "pmi": 0.488
+    },
+    {
+      "source": "蘆根",
+      "target": "黃芩",
+      "count": 4,
+      "pmi": 1.364
+    },
+    {
+      "source": "杏仁",
+      "target": "滑石",
+      "count": 4,
+      "pmi": 1.587
+    },
+    {
+      "source": "甘草",
+      "target": "薄荷",
+      "count": 4,
+      "pmi": 0.465
+    },
+    {
+      "source": "柴胡",
+      "target": "葛根",
+      "count": 4,
+      "pmi": 0.894
+    },
+    {
+      "source": "桑葉",
+      "target": "葛根",
+      "count": 4,
+      "pmi": 0.788
+    },
+    {
+      "source": "荊芥",
+      "target": "薄荷",
+      "count": 4,
+      "pmi": 1.689
+    },
+    {
+      "source": "丹皮",
+      "target": "升麻",
+      "count": 4,
+      "pmi": 1.992
+    },
+    {
+      "source": "丹皮",
+      "target": "桔梗",
+      "count": 4,
+      "pmi": 0.981
+    },
+    {
+      "source": "丹皮",
+      "target": "梔子",
+      "count": 4,
+      "pmi": 1.587
+    },
+    {
+      "source": "丹皮",
       "target": "甘草",
-      "count": 1,
-      "pmi": 0.0
+      "count": 4,
+      "pmi": 0.546
     },
     {
-      "source": "牛蒡子",
+      "source": "丹皮",
       "target": "竹葉",
-      "count": 1,
-      "pmi": 0.0
+      "count": 4,
+      "pmi": 0.74
     },
     {
-      "source": "牛蒡子",
-      "target": "荊芥",
-      "count": 1,
-      "pmi": 0.0
+      "source": "丹皮",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 1.587
     },
     {
-      "source": "牛蒡子",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
+      "source": "桔梗",
+      "target": "知母",
+      "count": 4,
+      "pmi": 0.827
     },
     {
-      "source": "牛蒡子",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "牛蒡子",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "牛蒡子",
-      "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "牛蒡子",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
+      "source": "桔梗",
       "target": "竹葉",
-      "count": 1,
-      "pmi": 0.0
+      "count": 4,
+      "pmi": 0.827
+    },
+    {
+      "source": "梔子",
+      "target": "甘草",
+      "count": 4,
+      "pmi": 1.239
+    },
+    {
+      "source": "梔子",
+      "target": "知母",
+      "count": 4,
+      "pmi": 1.433
+    },
+    {
+      "source": "梔子",
+      "target": "竹葉",
+      "count": 4,
+      "pmi": 1.433
+    },
+    {
+      "source": "梔子",
+      "target": "連翹",
+      "count": 4,
+      "pmi": 0.488
+    },
+    {
+      "source": "梔子",
+      "target": "黃芩",
+      "count": 4,
+      "pmi": 1.364
     },
     {
       "source": "甘草",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 1.239
+    },
+    {
+      "source": "知母",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 1.433
+    },
+    {
+      "source": "竹葉",
+      "target": "黃芩",
+      "count": 4,
+      "pmi": 0.517
+    },
+    {
+      "source": "竹葉",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 1.433
+    },
+    {
+      "source": "連翹",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 0.488
+    },
+    {
+      "source": "黃芩",
+      "target": "黃連",
+      "count": 4,
+      "pmi": 1.364
+    },
+    {
+      "source": "石膏",
+      "target": "葛根",
+      "count": 4,
+      "pmi": 0.201
+    },
+    {
+      "source": "知母",
+      "target": "蘆根",
+      "count": 3,
+      "pmi": 1.145
+    },
+    {
+      "source": "知母",
+      "target": "阿膠",
+      "count": 3,
+      "pmi": 1.551
+    },
+    {
+      "source": "石膏",
+      "target": "蘆根",
+      "count": 3,
+      "pmi": 0.894
+    },
+    {
+      "source": "石膏",
+      "target": "阿膠",
+      "count": 3,
+      "pmi": 1.299
+    },
+    {
+      "source": "蘆根",
+      "target": "阿膠",
+      "count": 3,
+      "pmi": 2.398
+    },
+    {
+      "source": "甘草",
+      "target": "蘆根",
+      "count": 3,
+      "pmi": 0.951
+    },
+    {
+      "source": "葛根",
+      "target": "蘆根",
+      "count": 3,
+      "pmi": 1.012
+    },
+    {
+      "source": "杏仁",
+      "target": "枳殼",
+      "count": 3,
+      "pmi": 1.299
+    },
+    {
+      "source": "杏仁",
+      "target": "竹葉",
+      "count": 3,
+      "pmi": 0.047
+    },
+    {
+      "source": "桑葉",
+      "target": "桔梗",
+      "count": 3,
+      "pmi": 0.875
+    },
+    {
+      "source": "桔梗",
+      "target": "薄荷",
+      "count": 3,
+      "pmi": 0.613
+    },
+    {
+      "source": "桑葉",
+      "target": "甘草",
+      "count": 3,
+      "pmi": 0.44
+    },
+    {
+      "source": "桑葉",
+      "target": "黃芩",
+      "count": 3,
+      "pmi": 0.565
+    },
+    {
+      "source": "薄荷",
+      "target": "黃芩",
+      "count": 3,
+      "pmi": 0.303
+    },
+    {
+      "source": "杏仁",
+      "target": "葛根",
+      "count": 3,
+      "pmi": -0.087
+    },
+    {
+      "source": "柴胡",
+      "target": "黃芩",
+      "count": 3,
+      "pmi": 0.671
+    },
+    {
+      "source": "葛根",
+      "target": "薄荷",
+      "count": 3,
+      "pmi": 0.238
+    },
+    {
+      "source": "枳殼",
+      "target": "連翹",
+      "count": 3,
+      "pmi": 0.606
+    },
+    {
+      "source": "杏仁",
+      "target": "桔梗",
+      "count": 3,
+      "pmi": 0.288
+    },
+    {
+      "source": "杏仁",
       "target": "荊芥",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
-      "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "甘草",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "荊芥",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "竹葉",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "荊芥",
-      "target": "薄荷",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "荊芥",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
-    },
-    {
-      "source": "荊芥",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 1.076
     },
     {
       "source": "荊芥",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.383
     },
     {
-      "source": "荊芥",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "source": "丹皮",
+      "target": "柴胡",
+      "count": 3,
+      "pmi": 0.894
     },
     {
-      "source": "薄荷",
-      "target": "蘆根",
-      "count": 1,
-      "pmi": 0.0
+      "source": "桑葉",
+      "target": "石膏",
+      "count": 3,
+      "pmi": 0.383
     },
     {
-      "source": "薄荷",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
+      "source": "連翹",
+      "target": "鬱金",
+      "count": 3,
+      "pmi": 0.606
     },
     {
-      "source": "薄荷",
+      "source": "大黃",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.383
     },
     {
-      "source": "薄荷",
-      "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "source": "升麻",
+      "target": "桔梗",
+      "count": 3,
+      "pmi": 1.792
     },
     {
-      "source": "蘆根",
-      "target": "豆豉",
-      "count": 1,
-      "pmi": 0.0
+      "source": "升麻",
+      "target": "梔子",
+      "count": 3,
+      "pmi": 2.398
     },
     {
-      "source": "蘆根",
+      "source": "升麻",
+      "target": "甘草",
+      "count": 3,
+      "pmi": 1.356
+    },
+    {
+      "source": "升麻",
+      "target": "知母",
+      "count": 3,
+      "pmi": 1.551
+    },
+    {
+      "source": "升麻",
+      "target": "石膏",
+      "count": 3,
+      "pmi": 1.299
+    },
+    {
+      "source": "升麻",
+      "target": "竹葉",
+      "count": 3,
+      "pmi": 1.551
+    },
+    {
+      "source": "升麻",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.606
     },
     {
-      "source": "蘆根",
+      "source": "升麻",
+      "target": "黃芩",
+      "count": 3,
+      "pmi": 1.482
+    },
+    {
+      "source": "升麻",
+      "target": "黃連",
+      "count": 3,
+      "pmi": 2.398
+    },
+    {
+      "source": "半夏",
+      "target": "甘草",
+      "count": 3,
+      "pmi": 0.951
+    },
+    {
+      "source": "半夏",
+      "target": "知母",
+      "count": 3,
+      "pmi": 1.145
+    },
+    {
+      "source": "半夏",
+      "target": "石膏",
+      "count": 3,
+      "pmi": 0.894
+    },
+    {
+      "source": "半夏",
+      "target": "竹葉",
+      "count": 3,
+      "pmi": 1.145
+    },
+    {
+      "source": "杏仁",
+      "target": "石膏",
+      "count": 3,
+      "pmi": -0.205
+    },
+    {
+      "source": "柴胡",
+      "target": "知母",
+      "count": 3,
+      "pmi": 0.74
+    },
+    {
+      "source": "桔梗",
       "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 1.386
     },
     {
-      "source": "豆豉",
+      "source": "玄參",
       "target": "連翹",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.894
     },
     {
-      "source": "豆豉",
+      "source": "石膏",
       "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.894
     },
     {
       "source": "連翹",
       "target": "銀花",
-      "count": 1,
-      "pmi": 0.0
+      "count": 3,
+      "pmi": 0.201
+    },
+    {
+      "source": "連翹",
+      "target": "阿膠",
+      "count": 3,
+      "pmi": 0.606
+    },
+    {
+      "source": "銀花",
+      "target": "阿膠",
+      "count": 3,
+      "pmi": 2.398
+    },
+    {
+      "source": "銀花",
+      "target": "黃連",
+      "count": 3,
+      "pmi": 1.992
+    },
+    {
+      "source": "桔梗",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 1.232
+    },
+    {
+      "source": "梔子",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 1.838
+    },
+    {
+      "source": "甘草",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 0.797
+    },
+    {
+      "source": "知母",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 0.991
+    },
+    {
+      "source": "石膏",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 0.74
+    },
+    {
+      "source": "竹葉",
+      "target": "赤芍",
+      "count": 3,
+      "pmi": 0.991
+    },
+    {
+      "source": "赤芍",
+      "target": "黃芩",
+      "count": 3,
+      "pmi": 0.922
+    },
+    {
+      "source": "赤芍",
+      "target": "黃連",
+      "count": 3,
+      "pmi": 1.838
+    },
+    {
+      "source": "知母",
+      "target": "薄荷",
+      "count": 2,
+      "pmi": -0.034
+    },
+    {
+      "source": "石膏",
+      "target": "薄荷",
+      "count": 2,
+      "pmi": -0.285
+    },
+    {
+      "source": "薄荷",
+      "target": "蘆根",
+      "count": 2,
+      "pmi": 0.814
+    },
+    {
+      "source": "薄荷",
+      "target": "阿膠",
+      "count": 2,
+      "pmi": 1.219
+    },
+    {
+      "source": "甘草",
+      "target": "葛根",
+      "count": 2,
+      "pmi": -0.435
+    },
+    {
+      "source": "枳殼",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 0.951
+    },
+    {
+      "source": "枳殼",
+      "target": "竹葉",
+      "count": 2,
+      "pmi": 1.145
+    },
+    {
+      "source": "半夏",
+      "target": "杏仁",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "厚朴",
+      "target": "連翹",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "半夏",
+      "target": "厚朴",
+      "count": 2,
+      "pmi": 2.28
+    },
+    {
+      "source": "桑葉",
+      "target": "梔子",
+      "count": 2,
+      "pmi": 1.076
+    },
+    {
+      "source": "梔子",
+      "target": "薄荷",
+      "count": 2,
+      "pmi": 0.814
+    },
+    {
+      "source": "旋覆花",
+      "target": "柴胡",
+      "count": 2,
+      "pmi": 2.28
+    },
+    {
+      "source": "知母",
+      "target": "附子",
+      "count": 2,
+      "pmi": 1.433
+    },
+    {
+      "source": "杏仁",
+      "target": "柴胡",
+      "count": 2,
+      "pmi": 0.083
+    },
+    {
+      "source": "柴胡",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 0.14
+    },
+    {
+      "source": "柴胡",
+      "target": "連翹",
+      "count": 2,
+      "pmi": -0.61
+    },
+    {
+      "source": "杏仁",
+      "target": "生薑",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "杏仁",
+      "target": "竹茹",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "枳殼",
+      "target": "竹茹",
+      "count": 2,
+      "pmi": 3.091
+    },
+    {
+      "source": "枳殼",
+      "target": "薄荷",
+      "count": 2,
+      "pmi": 1.219
+    },
+    {
+      "source": "生薑",
+      "target": "連翹",
+      "count": 2,
+      "pmi": 0.894
+    },
+    {
+      "source": "竹茹",
+      "target": "薄荷",
+      "count": 2,
+      "pmi": 1.912
+    },
+    {
+      "source": "竹茹",
+      "target": "連翹",
+      "count": 2,
+      "pmi": 0.894
+    },
+    {
+      "source": "柴胡",
+      "target": "桃仁",
+      "count": 2,
+      "pmi": 2.28
+    },
+    {
+      "source": "竹葉",
+      "target": "鬱金",
+      "count": 2,
+      "pmi": 1.145
+    },
+    {
+      "source": "大黃",
+      "target": "赤芍",
+      "count": 2,
+      "pmi": 1.615
+    },
+    {
+      "source": "丹皮",
+      "target": "大黃",
+      "count": 2,
+      "pmi": 1.076
+    },
+    {
+      "source": "丹皮",
+      "target": "杏仁",
+      "count": 2,
+      "pmi": -0.205
+    },
+    {
+      "source": "丹皮",
+      "target": "橘紅",
+      "count": 2,
+      "pmi": 1.992
+    },
+    {
+      "source": "丹皮",
+      "target": "滑石",
+      "count": 2,
+      "pmi": 1.299
+    },
+    {
+      "source": "丹皮",
+      "target": "玄參",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "丹皮",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "丹皮",
+      "target": "蘆根",
+      "count": 2,
+      "pmi": 0.894
+    },
+    {
+      "source": "丹皮",
+      "target": "銀花",
+      "count": 2,
+      "pmi": 0.894
+    },
+    {
+      "source": "丹皮",
+      "target": "阿膠",
+      "count": 2,
+      "pmi": 1.299
+    },
+    {
+      "source": "人參",
+      "target": "杏仁",
+      "count": 2,
+      "pmi": 0.201
+    },
+    {
+      "source": "人參",
+      "target": "白朮",
+      "count": 2,
+      "pmi": 2.398
+    },
+    {
+      "source": "人參",
+      "target": "白芍",
+      "count": 2,
+      "pmi": 2.398
+    },
+    {
+      "source": "人參",
+      "target": "石膏",
+      "count": 2,
+      "pmi": 0.201
+    },
+    {
+      "source": "人參",
+      "target": "竹葉",
+      "count": 2,
+      "pmi": 0.452
+    },
+    {
+      "source": "人參",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 1.992
+    },
+    {
+      "source": "人參",
+      "target": "連翹",
+      "count": 2,
+      "pmi": -0.492
+    },
+    {
+      "source": "人參",
+      "target": "黃芩",
+      "count": 2,
+      "pmi": 0.383
+    },
+    {
+      "source": "升麻",
+      "target": "柴胡",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "半夏",
+      "target": "澤瀉",
+      "count": 2,
+      "pmi": 2.686
+    },
+    {
+      "source": "半夏",
+      "target": "玄參",
+      "count": 2,
+      "pmi": 2.28
+    },
+    {
+      "source": "半夏",
+      "target": "連翹",
+      "count": 2,
+      "pmi": -0.205
+    },
+    {
+      "source": "大黃",
+      "target": "杏仁",
+      "count": 2,
+      "pmi": 0.671
+    },
+    {
+      "source": "大黃",
+      "target": "桔梗",
+      "count": 2,
+      "pmi": 1.163
+    },
+    {
+      "source": "大黃",
+      "target": "梔子",
+      "count": 2,
+      "pmi": 1.769
+    },
+    {
+      "source": "大黃",
+      "target": "橘紅",
+      "count": 2,
+      "pmi": 2.868
+    },
+    {
+      "source": "大黃",
+      "target": "滑石",
+      "count": 2,
+      "pmi": 2.175
+    },
+    {
+      "source": "大黃",
+      "target": "玄參",
+      "count": 2,
+      "pmi": 2.462
+    },
+    {
+      "source": "大黃",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 0.728
+    },
+    {
+      "source": "大黃",
+      "target": "知母",
+      "count": 2,
+      "pmi": 0.922
+    },
+    {
+      "source": "大黃",
+      "target": "石膏",
+      "count": 2,
+      "pmi": 0.671
+    },
+    {
+      "source": "大黃",
+      "target": "竹葉",
+      "count": 2,
+      "pmi": 0.922
+    },
+    {
+      "source": "大黃",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 2.462
+    },
+    {
+      "source": "大黃",
+      "target": "蘆根",
+      "count": 2,
+      "pmi": 1.769
+    },
+    {
+      "source": "大黃",
+      "target": "銀花",
+      "count": 2,
+      "pmi": 1.769
+    },
+    {
+      "source": "大黃",
+      "target": "阿膠",
+      "count": 2,
+      "pmi": 2.175
+    },
+    {
+      "source": "大黃",
+      "target": "黃芩",
+      "count": 2,
+      "pmi": 0.853
+    },
+    {
+      "source": "大黃",
+      "target": "黃連",
+      "count": 2,
+      "pmi": 1.769
+    },
+    {
+      "source": "杏仁",
+      "target": "梔子",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "杏仁",
+      "target": "橘紅",
+      "count": 2,
+      "pmi": 1.587
+    },
+    {
+      "source": "杏仁",
+      "target": "玄參",
+      "count": 2,
+      "pmi": 1.181
+    },
+    {
+      "source": "杏仁",
+      "target": "知母",
+      "count": 2,
+      "pmi": -0.359
+    },
+    {
+      "source": "杏仁",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 1.181
+    },
+    {
+      "source": "杏仁",
+      "target": "蘆根",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "杏仁",
+      "target": "銀花",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "杏仁",
+      "target": "阿膠",
+      "count": 2,
+      "pmi": 0.894
+    },
+    {
+      "source": "杏仁",
+      "target": "黃連",
+      "count": 2,
+      "pmi": 0.488
+    },
+    {
+      "source": "柴胡",
+      "target": "石膏",
+      "count": 2,
+      "pmi": 0.083
+    },
+    {
+      "source": "柴胡",
+      "target": "豬苓",
+      "count": 2,
+      "pmi": 2.28
+    },
+    {
+      "source": "桔梗",
+      "target": "橘紅",
+      "count": 2,
+      "pmi": 2.079
+    },
+    {
+      "source": "桔梗",
+      "target": "滑石",
+      "count": 2,
+      "pmi": 1.386
     }
   ],
-  "interpretation": "核心药物（按 PageRank/度中心性）：桔梗、淡豆豉、牛蒡子、甘草、竹葉。"
+  "interpretation": "核心药物（按 PageRank/度中心性）：連翹、石膏、知母、黃芩、甘草。"
 }
