@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_3088189c`
 - **Merged rule**: `MHR_FORMULA_FORMULA_3088189C`
 - **Release level**: silver
-- **Consensus score**: 0.917
-- **Supporting initial rules**: 26
+- **Consensus score**: 0.893
+- **Supporting initial rules**: 25
 
 ## 归纳主张
-四逆加人參湯可歸納為亡血、下利、陽明病、傷寒、少陰病、惡寒等方證的核心方（支持條文 26 條，跨 20 部書）。
+四逆加人參湯可歸納為亡血、下利、陽明病、傷寒、少陰病、惡寒等方證的核心方（支持條文 25 條，跨 19 部書）。
 
 ## 原文证据（节选）
 > 惡寒脈微而復利。四逆加人參湯主之。

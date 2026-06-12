@@ -1,0 +1,138 @@
+{
+  "skill_id": "hermes.disease.54383619",
+  "kind": "disease",
+  "title": "瘀血證治合併規則",
+  "subject": "瘀血",
+  "abstracted_claim": "瘀血相關條文 12 條；主要方劑：抵當湯、下瘀血湯、色必黑宜抵當湯、桃花湯、脫去桃核承氣湯。",
+  "merged_rule_id": "MHR_DISEASE_54383619",
+  "release_level": "silver",
+  "consensus_score": 0.893,
+  "supporting_initial_rules": [
+    "IR_B11498305_000221",
+    "IR_B5FF1CA1B_000257",
+    "IR_BBA9FB4A6_000152",
+    "IR_CAOSHI_FAWEI_000720",
+    "IR_JGYL_FANGLUN_000274",
+    "IR_JGYL_TIAOWEN_000274",
+    "IR_JG_FANGGEKUO_000043",
+    "IR_SHL_GUIBEN_001491",
+    "IR_SHL_GUIBEN_001601",
+    "IR_SHL_QJYF_000181",
+    "IR_SHL_QJYF_000182",
+    "IR_SHL_ZHUJIE_000793"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000221",
+      "IR_B5FF1CA1B_000257",
+      "IR_BBA9FB4A6_000152",
+      "IR_CAOSHI_FAWEI_000720",
+      "IR_JGYL_FANGLUN_000274",
+      "IR_JGYL_TIAOWEN_000274",
+      "IR_JG_FANGGEKUO_000043",
+      "IR_SHL_GUIBEN_001491",
+      "IR_SHL_GUIBEN_001601",
+      "IR_SHL_QJYF_000181",
+      "IR_SHL_QJYF_000182",
+      "IR_SHL_ZHUJIE_000793"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001304",
+      "evidence_span": "15.3膈間停留瘀血，若吐血色黑者，桔梗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱方歌括",
+      "chapter_title": "",
+      "source_unit_id": "SU_JG_FANGGEKUO_000934",
+      "evidence_span": "曾經半產。瘀血在少腹不去。何以知之。其證唇口乾燥故知之以此湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_001250",
+      "evidence_span": "若瘀血在裡發黃者，則可下；此以寒濕在裡，故不可下，當從寒濕法治之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000407",
+      "evidence_span": "所以然者。本有久瘀血故令善忘屎雖硬。大便反易。其色必黑宜抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000788",
+      "evidence_span": "使瘀血從大便而出。其病秘愈。然則本文必便血也下。當是脫去桃核承氣湯主之七字。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000932",
+      "evidence_span": "產婦腹痛、法當以枳實芍藥散，假令不愈者，此為腹中有瘀血著臍下，宜下瘀血湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000930",
+      "evidence_span": "產婦腹痛、法當以枳實芍藥散，假令不愈者，此為腹中有瘀血著臍下，宜下瘀血湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000225",
+      "evidence_span": "陽明證，其人喜忘，必有蓄血，所以然者，本有久瘀血，故令喜忘，雖堅，大便必黑，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001384",
+      "evidence_span": "16.17師曰：產後腹痛，法當以枳實芍藥散；假令不愈，必腹中有瘀血著臍下也，下瘀血湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000313",
+      "evidence_span": "陽明病，其人善忘者，必有畜血，所以然者，本有久瘀血，故令善忘，糞雖鞕，大便反易，其色必黑，宜抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000226",
+      "evidence_span": "病者無表裡證，發熱七八日，雖脈浮數，可下之，假令下已，脈數不解，而合熱消穀喜飢，至六七日，不大便者，有瘀血，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000248",
+      "evidence_span": "不愈，用桂枝湯。陽明下血譫語，胸滿如結胸，夜則如見鬼，此為熱入血室，小柴胡湯。下焦蓄血，其人如狂，小腹急結，小便自利，大便黑，與夫下利，無表裡證，脈數不解，消穀易飢，多日不大便，此為瘀血，桃仁承氣湯。少陰病，下利膿血，或腹滿，下如魚腦者，桃花湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "瘀血"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

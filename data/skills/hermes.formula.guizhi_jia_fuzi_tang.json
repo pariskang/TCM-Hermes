@@ -3,35 +3,22 @@
   "kind": "formula",
   "title": "桂枝加附子湯方證合併規則",
   "subject": "桂枝加附子湯",
-  "abstracted_claim": "桂枝加附子湯可歸納為太陽病、亡陽、小便難、惡風、惡寒等方證的核心方（支持條文 27 條，跨 23 部書）。",
+  "abstracted_claim": "桂枝加附子湯可歸納為太陽病、亡陽、惡風、小便難、惡寒等方證的核心方（支持條文 14 條，跨 14 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_JIA_FUZI_TANG",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.903,
   "supporting_initial_rules": [
     "IR_B11498305_000086",
     "IR_B18FAB5FB_000033",
-    "IR_B1CAC3ADF_000109",
-    "IR_B2EB248E3_000002",
-    "IR_B3E16D849_000254",
-    "IR_B3E16D849_000810",
     "IR_B3E520529_000078",
-    "IR_B41512D4B_000085",
     "IR_B5FF1CA1B_000108",
-    "IR_B8E444005_000094",
-    "IR_B8E444005_000167",
-    "IR_BB7301DF2_000051",
     "IR_BB7301DF2_000303",
-    "IR_BBAACE965_000056",
     "IR_BC2BA03C0_000075",
-    "IR_BC91F4420_000032",
-    "IR_BF5CDC206_000010",
-    "IR_CAOSHI_FAWEI_000040",
     "IR_SHL_GUANZHU_000127",
     "IR_SHL_GUIBEN_000372",
     "IR_SHL_LAISU_000079",
     "IR_SHL_LUNZHU_000075",
     "IR_SHL_SONGBEN_000063",
-    "IR_SHL_SUYUAN_000092",
     "IR_SHL_SUYUAN_000095",
     "IR_SHL_TIAOWEN_000017",
     "IR_SHL_ZHUJIE_000149"
@@ -41,28 +28,15 @@
     "silver": [
       "IR_B11498305_000086",
       "IR_B18FAB5FB_000033",
-      "IR_B1CAC3ADF_000109",
-      "IR_B2EB248E3_000002",
-      "IR_B3E16D849_000254",
-      "IR_B3E16D849_000810",
       "IR_B3E520529_000078",
-      "IR_B41512D4B_000085",
       "IR_B5FF1CA1B_000108",
-      "IR_B8E444005_000094",
-      "IR_B8E444005_000167",
-      "IR_BB7301DF2_000051",
       "IR_BB7301DF2_000303",
-      "IR_BBAACE965_000056",
       "IR_BC2BA03C0_000075",
-      "IR_BC91F4420_000032",
-      "IR_BF5CDC206_000010",
-      "IR_CAOSHI_FAWEI_000040",
       "IR_SHL_GUANZHU_000127",
       "IR_SHL_GUIBEN_000372",
       "IR_SHL_LAISU_000079",
       "IR_SHL_LUNZHU_000075",
       "IR_SHL_SONGBEN_000063",
-      "IR_SHL_SUYUAN_000092",
       "IR_SHL_SUYUAN_000095",
       "IR_SHL_TIAOWEN_000017",
       "IR_SHL_ZHUJIE_000149"
@@ -75,97 +49,6 @@
       "chapter_title": "第八十八證‧小便不利歌",
       "source_unit_id": "SU_BB7301DF2_000258",
       "evidence_span": "惡風。小便難。四肢急。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒醫訣串解",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_BF5CDC206_000019",
-      "evidence_span": "小便難。四肢微急。難以屈伸。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "張卿子傷寒論",
-      "chapter_title": "桂枝加厚朴杏子湯方第三",
-      "source_unit_id": "SU_B1CAC3ADF_000805",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "中寒論辯證廣注",
-      "chapter_title": "辯太陽陽明病中寒脈證並治法",
-      "source_unit_id": "SU_B2EB248E3_000013",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "惡風",
-      "source_unit_id": "SU_B3E16D849_000646",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "小便不利小便難",
-      "source_unit_id": "SU_B3E16D849_001666",
-      "evidence_span": "小便難。四肢拘急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "桂枝加葛根湯方",
-      "source_unit_id": "SU_B41512D4B_000436",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "惡風",
-      "source_unit_id": "SU_B8E444005_000206",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "自汗",
-      "source_unit_id": "SU_B8E444005_000267",
-      "evidence_span": "小便難。四支微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒百證歌",
-      "chapter_title": "第二十四證‧中風歌",
-      "source_unit_id": "SU_BB7301DF2_000062",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治上",
-      "source_unit_id": "SU_BBAACE965_000168",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨太陽病脈證並治上編第一",
-      "source_unit_id": "SU_BC91F4420_000121",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000083",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "中風證治第一",
-      "source_unit_id": "SU_SHL_SUYUAN_000234",
-      "evidence_span": "小便難。四肢微急。難以屈伸者。桂枝加附子湯主之。",
       "release_level": "silver"
     },
     {
@@ -280,7 +163,6 @@
         "亡陽"
       ],
       "rule_ids": [
-        "IR_SHL_SUYUAN_000092",
         "IR_SHL_SUYUAN_000095"
       ]
     },
@@ -359,11 +241,11 @@
     ],
     "symptoms": [
       {
-        "term": "小便難",
-        "count": 25
+        "term": "惡風",
+        "count": 12
       },
       {
-        "term": "惡風",
+        "term": "小便難",
         "count": 12
       },
       {
@@ -383,11 +265,11 @@
     "treatment_principle": [
       {
         "term": "調和營衛",
-        "count": 27
+        "count": 14
       },
       {
         "term": "復陽固表",
-        "count": 27
+        "count": 14
       }
     ]
   },
@@ -395,11 +277,11 @@
     "桂枝加附子湯",
     "太陽病",
     "亡陽",
-    "小便難",
     "惡風",
+    "小便難",
     "惡寒"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

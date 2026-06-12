@@ -3,79 +3,43 @@
   "kind": "formula",
   "title": "茯苓甘草湯方證合併規則",
   "subject": "茯苓甘草湯",
-  "abstracted_claim": "茯苓甘草湯可歸納為傷寒、小便不利、渴、汗出、心下悸、口渴等方證的核心方（支持條文 23 條，跨 19 部書）。",
+  "abstracted_claim": "茯苓甘草湯可歸納為傷寒、小便不利、渴、汗出、心下悸、厥等方證的核心方（支持條文 12 條，跨 11 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_031B0AA1",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.889,
   "supporting_initial_rules": [
-    "IR_B0B74DF58_000136",
-    "IR_B0B74DF58_000138",
-    "IR_B0B74DF58_000140",
     "IR_B11498305_000075",
     "IR_B11498305_000077",
     "IR_B18FAB5FB_000126",
-    "IR_B1CAC3ADF_000246",
-    "IR_B3E16D849_000563",
-    "IR_B41512D4B_000237",
-    "IR_B5FF1CA1B_000095",
     "IR_B5FF1CA1B_000097",
-    "IR_BBAACE965_000340",
-    "IR_BC91F4420_000137",
-    "IR_CAOSHI_FAWEI_000194",
     "IR_SHL_GUANZHU_000158",
     "IR_SHL_GUIBEN_000503",
     "IR_SHL_LAISU_000185",
     "IR_SHL_LUNZHU_000184",
     "IR_SHL_QJYF_000269",
     "IR_SHL_SONGBEN_000131",
-    "IR_SHL_SUYUAN_000244",
     "IR_SHL_TIAOWEN_000085",
     "IR_SHL_ZHUJIE_000298"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B0B74DF58_000136",
-      "IR_B0B74DF58_000138",
-      "IR_B0B74DF58_000140",
       "IR_B11498305_000075",
       "IR_B11498305_000077",
       "IR_B18FAB5FB_000126",
-      "IR_B1CAC3ADF_000246",
-      "IR_B3E16D849_000563",
-      "IR_B41512D4B_000237",
-      "IR_B5FF1CA1B_000095",
       "IR_B5FF1CA1B_000097",
-      "IR_BBAACE965_000340",
-      "IR_BC91F4420_000137",
-      "IR_CAOSHI_FAWEI_000194",
       "IR_SHL_GUANZHU_000158",
       "IR_SHL_GUIBEN_000503",
       "IR_SHL_LAISU_000185",
       "IR_SHL_LUNZHU_000184",
       "IR_SHL_QJYF_000269",
       "IR_SHL_SONGBEN_000131",
-      "IR_SHL_SUYUAN_000244",
       "IR_SHL_TIAOWEN_000085",
       "IR_SHL_ZHUJIE_000298"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "渴",
-      "source_unit_id": "SU_B3E16D849_001215",
-      "evidence_span": "渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "張卿子傷寒論",
-      "chapter_title": "五苓散方第三十一",
-      "source_unit_id": "SU_B1CAC3ADF_001069",
-      "evidence_span": "汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒捷訣",
       "chapter_title": "心動悸",
@@ -91,38 +55,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "五苓散方",
-      "source_unit_id": "SU_B41512D4B_000701",
-      "evidence_span": "傷寒汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "太陽中篇",
-      "source_unit_id": "SU_B5FF1CA1B_000144",
-      "evidence_span": "傷寒汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治中",
-      "source_unit_id": "SU_BBAACE965_000804",
-      "evidence_span": "傷寒汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論(宋本)",
       "chapter_title": "辨太陽病脈證並治中第六",
       "source_unit_id": "SU_SHL_SONGBEN_000320",
       "evidence_span": "傷寒汗出而渴者，五苓散主之；不渴者，茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "傷寒證治第二",
-      "source_unit_id": "SU_SHL_SUYUAN_000511",
-      "evidence_span": "傷寒汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
       "release_level": "silver"
     },
     {
@@ -137,20 +73,6 @@
       "chapter_title": "辨太陽病脈證並治法第六",
       "source_unit_id": "SU_SHL_ZHUJIE_000696",
       "evidence_span": "傷寒汗出而渴者，五苓散主之。不渴者，茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000238",
-      "evidence_span": "傷寒。汗出而渴者。五苓散主之。不渴者，茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨太陽病脈證並治中篇第二",
-      "source_unit_id": "SU_BC91F4420_000334",
-      "evidence_span": "（十）傷寒汗出而渴者。五苓散主之。不渴者。茯苓甘草湯主之。",
       "release_level": "silver"
     },
     {
@@ -196,48 +118,14 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒恆論",
-      "chapter_title": "太陽中篇",
-      "source_unit_id": "SU_B0B74DF58_000274",
-      "evidence_span": "**十、傷寒汗出而渴者**(此處之口渴，不是陽明裏證的口渴，是水氣停在下焦，津液不能上布之口渴。)**，五苓散主之；不渴者，茯苓甘草湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒纘論·傷寒緒論",
       "chapter_title": "太陽中篇",
       "source_unit_id": "SU_B11498305_000114",
       "evidence_span": "小便利者，以飲水過多，水與邪爭，必心下悸也，小便少者，必苦裏急，明是邪熱足以消水，故指為裏證已急也，觀上條不渴者，茯苓甘草湯主之，治法具矣。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒恆論",
-      "chapter_title": "太陽中篇",
-      "source_unit_id": "SU_B0B74DF58_000275",
-      "evidence_span": "【鄭論】　按汗出而渴，是太陽寒水從毛竅而出，不能滋潤腸胃，故見口渴，以五苓散主之，乃使太陽寒水之氣，不從外出，而仍從內出，則汗渴便止。然有不渴者，是津液未大傷，胃中尚可支持，雖見汗出，以茯苓甘草湯主之，亦是化氣行水之妙。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒恆論",
-      "chapter_title": "太陽中篇",
-      "source_unit_id": "SU_B0B74DF58_000275",
-      "evidence_span": "【鄭論】　按汗出而渴，是太陽寒水從毛竅而出，不能滋潤腸胃，故見口渴，以五苓散主之，乃使太陽寒水之氣，不從外出，而仍從內出，則汗渴便止。然有不渴者，是津液未大傷，胃中尚可支持，雖見汗出，以茯苓甘草湯主之，亦是化氣行水之妙。此條據余所見，當時汗出而渴，小便不利者，以五苓散主之；汗出不渴，小便不利者，以茯苓甘草湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_B0B74DF58",
-      "book_title": "傷寒恆論",
-      "distinct_conditions": [
-        "口渴"
-      ],
-      "rule_ids": [
-        "IR_B0B74DF58_000136",
-        "IR_B0B74DF58_000138",
-        "IR_B0B74DF58_000140"
-      ]
-    },
     {
       "kind": "condition_variant",
       "book_id": "BOOK_B11498305",
@@ -259,6 +147,17 @@
       ],
       "rule_ids": [
         "IR_SHL_GUANZHU_000158"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "小便不利"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000503"
       ]
     },
     {
@@ -331,29 +230,25 @@
     "disease": [
       {
         "term": "傷寒",
-        "count": 16
+        "count": 9
       },
       {
         "term": "小便不利",
-        "count": 2
+        "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "渴",
-        "count": 21
+        "count": 10
       },
       {
         "term": "汗出",
-        "count": 18
+        "count": 8
       },
       {
         "term": "心下悸",
         "count": 4
-      },
-      {
-        "term": "口渴",
-        "count": 3
       },
       {
         "term": "厥",
@@ -382,11 +277,11 @@
     "渴",
     "汗出",
     "心下悸",
-    "口渴",
     "厥",
+    "小便利",
     "脈浮數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

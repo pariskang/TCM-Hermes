@@ -3,17 +3,16 @@
   "kind": "formula",
   "title": "葛根加半夏湯方證合併規則",
   "subject": "葛根加半夏湯",
-  "abstracted_claim": "葛根加半夏湯可歸納為下利等方證的核心方（支持條文 19 條，跨 19 部書）。",
+  "abstracted_claim": "葛根加半夏湯可歸納為下利等方證的核心方（支持條文 18 條，跨 18 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_1B19A98F",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.9,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000552",
     "IR_B11498305_000535",
     "IR_B1CAC3ADF_000152",
     "IR_B3E16D849_000540",
     "IR_B41512D4B_000122",
-    "IR_B8E444005_000333",
     "IR_B9119D083_000308",
     "IR_BBAACE965_000145",
     "IR_BC91F4420_000096",
@@ -36,7 +35,6 @@
       "IR_B1CAC3ADF_000152",
       "IR_B3E16D849_000540",
       "IR_B41512D4B_000122",
-      "IR_B8E444005_000333",
       "IR_B9119D083_000308",
       "IR_BBAACE965_000145",
       "IR_BC91F4420_000096",
@@ -59,13 +57,6 @@
       "chapter_title": "太陽病用麻黃湯法第二",
       "source_unit_id": "SU_SHL_QJYF_000020",
       "evidence_span": "不下利但嘔，葛根加半夏湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "葛根加半夏湯",
-      "source_unit_id": "SU_B8E444005_000513",
-      "evidence_span": "葛根湯主之。不下利。但嘔者。葛根加半夏湯主之。",
       "release_level": "silver"
     },
     {
@@ -262,7 +253,7 @@
     "disease": [
       {
         "term": "下利",
-        "count": 19
+        "count": 18
       }
     ],
     "symptoms": [],
@@ -277,6 +268,6 @@
     "下利"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,15 +3,14 @@
   "kind": "formula",
   "title": "白虎加人參湯方證合併規則",
   "subject": "白虎加人參湯",
-  "abstracted_claim": "白虎加人參湯可歸納為傷寒、陽明病、腹滿、太陽病、少陰病、亡陽等方證的核心方（支持條文 136 條，跨 32 部書）。",
+  "abstracted_claim": "白虎加人參湯可歸納為傷寒、陽明病、腹滿、太陽病、少陰病、消渴等方證的核心方（支持條文 103 條，跨 30 部書）。",
   "merged_rule_id": "MHR_FORMULA_BAIHU_JIA_RENSHEN_TANG",
   "release_level": "silver",
-  "consensus_score": 0.91,
+  "consensus_score": 0.892,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000331",
     "IR_B0B74DF58_000332",
     "IR_B0B74DF58_000334",
-    "IR_B0B74DF58_000385",
     "IR_B11498305_000575",
     "IR_B11498305_000587",
     "IR_B11498305_000590",
@@ -19,36 +18,19 @@
     "IR_B11498305_000593",
     "IR_B1CAC3ADF_000073",
     "IR_B1CAC3ADF_000128",
-    "IR_B1CAC3ADF_000484",
     "IR_B1CAC3ADF_000487",
-    "IR_B1CAC3ADF_000492",
     "IR_B1CAC3ADF_000612",
-    "IR_B3E16D849_000061",
-    "IR_B3E16D849_000223",
-    "IR_B3E16D849_000839",
-    "IR_B3E16D849_000937",
     "IR_B3E16D849_000938",
-    "IR_B3E16D849_001126",
     "IR_B3E16D849_001136",
-    "IR_B3E16D849_001138",
     "IR_B3E16D849_001139",
-    "IR_B3E16D849_001243",
     "IR_B41512D4B_000097",
     "IR_B41512D4B_000486",
-    "IR_B41512D4B_000489",
     "IR_B41512D4B_000738",
-    "IR_B41512D4B_000741",
     "IR_B41512D4B_000742",
-    "IR_B41512D4B_000746",
-    "IR_B5C5ECAC2_000173",
-    "IR_B5FF1CA1B_000621",
     "IR_B5FF1CA1B_000622",
-    "IR_B5FF1CA1B_000624",
     "IR_B5FF1CA1B_000625",
     "IR_B6C3E769F_000044",
-    "IR_B8E444005_000054",
     "IR_B8E444005_000085",
-    "IR_B8E444005_000096",
     "IR_B8E444005_000119",
     "IR_B8E444005_000166",
     "IR_B9119D083_000258",
@@ -56,24 +38,17 @@
     "IR_B9119D083_000371",
     "IR_B9119D083_000372",
     "IR_B9119D083_000495",
-    "IR_BB711944D_000273",
-    "IR_BBAACE965_000087",
     "IR_BBAACE965_000764",
     "IR_BBAACE965_000769",
-    "IR_BBAACE965_000774",
-    "IR_BBAACE965_000965",
     "IR_BBAACE965_001191",
     "IR_BC91F4420_000277",
     "IR_BC91F4420_000289",
     "IR_BC91F4420_000292",
-    "IR_BC91F4420_000327",
     "IR_BC91F4420_000406",
     "IR_BCCBDEC5F_000215",
     "IR_BCCBDEC5F_000266",
     "IR_BF5CDC206_000012",
-    "IR_BF5CDC206_000014",
     "IR_CAOSHI_FAWEI_000057",
-    "IR_CAOSHI_FAWEI_000438",
     "IR_CAOSHI_FAWEI_000441",
     "IR_CAOSHI_FAWEI_000444",
     "IR_CAOSHI_FAWEI_000575",
@@ -82,7 +57,6 @@
     "IR_JF_SHIYANLU_000053",
     "IR_JGYH_ERZHU_000041",
     "IR_JGYH_ERZHU_000173",
-    "IR_JGYH_ERZHU_000174",
     "IR_JGYL_FANGLUN_000025",
     "IR_JGYL_FANGLUN_000147",
     "IR_JGYL_JIYI_000050",
@@ -106,7 +80,6 @@
     "IR_SHL_GUIBEN_000731",
     "IR_SHL_GUIBEN_000798",
     "IR_SHL_LAISU_000372",
-    "IR_SHL_LAISU_000417",
     "IR_SHL_LAISU_000421",
     "IR_SHL_LAISU_000422",
     "IR_SHL_LAISU_000426",
@@ -117,22 +90,16 @@
     "IR_SHL_LUNZHU_000417",
     "IR_SHL_LUNZHU_000419",
     "IR_SHL_MINGLI_000005",
-    "IR_SHL_MINGLI_000015",
-    "IR_SHL_MINGLI_000070",
     "IR_SHL_MINGLI_000097",
     "IR_SHL_SONGBEN_000071",
     "IR_SHL_SONGBEN_000247",
     "IR_SHL_SONGBEN_000249",
     "IR_SHL_SONGBEN_000252",
     "IR_SHL_SONGBEN_000296",
-    "IR_SHL_SUYUAN_000575",
     "IR_SHL_SUYUAN_000580",
     "IR_SHL_SUYUAN_000585",
-    "IR_SHL_SUYUAN_000588",
-    "IR_SHL_SUYUAN_000590",
     "IR_SHL_SUYUAN_000630",
     "IR_SHL_SUYUAN_000665",
-    "IR_SHL_SUYUAN_000908",
     "IR_SHL_TIAOWEN_000025",
     "IR_SHL_TIAOWEN_000201",
     "IR_SHL_TIAOWEN_000203",
@@ -151,7 +118,6 @@
       "IR_B0B74DF58_000331",
       "IR_B0B74DF58_000332",
       "IR_B0B74DF58_000334",
-      "IR_B0B74DF58_000385",
       "IR_B11498305_000575",
       "IR_B11498305_000587",
       "IR_B11498305_000590",
@@ -159,36 +125,19 @@
       "IR_B11498305_000593",
       "IR_B1CAC3ADF_000073",
       "IR_B1CAC3ADF_000128",
-      "IR_B1CAC3ADF_000484",
       "IR_B1CAC3ADF_000487",
-      "IR_B1CAC3ADF_000492",
       "IR_B1CAC3ADF_000612",
-      "IR_B3E16D849_000061",
-      "IR_B3E16D849_000223",
-      "IR_B3E16D849_000839",
-      "IR_B3E16D849_000937",
       "IR_B3E16D849_000938",
-      "IR_B3E16D849_001126",
       "IR_B3E16D849_001136",
-      "IR_B3E16D849_001138",
       "IR_B3E16D849_001139",
-      "IR_B3E16D849_001243",
       "IR_B41512D4B_000097",
       "IR_B41512D4B_000486",
-      "IR_B41512D4B_000489",
       "IR_B41512D4B_000738",
-      "IR_B41512D4B_000741",
       "IR_B41512D4B_000742",
-      "IR_B41512D4B_000746",
-      "IR_B5C5ECAC2_000173",
-      "IR_B5FF1CA1B_000621",
       "IR_B5FF1CA1B_000622",
-      "IR_B5FF1CA1B_000624",
       "IR_B5FF1CA1B_000625",
       "IR_B6C3E769F_000044",
-      "IR_B8E444005_000054",
       "IR_B8E444005_000085",
-      "IR_B8E444005_000096",
       "IR_B8E444005_000119",
       "IR_B8E444005_000166",
       "IR_B9119D083_000258",
@@ -196,24 +145,17 @@
       "IR_B9119D083_000371",
       "IR_B9119D083_000372",
       "IR_B9119D083_000495",
-      "IR_BB711944D_000273",
-      "IR_BBAACE965_000087",
       "IR_BBAACE965_000764",
       "IR_BBAACE965_000769",
-      "IR_BBAACE965_000774",
-      "IR_BBAACE965_000965",
       "IR_BBAACE965_001191",
       "IR_BC91F4420_000277",
       "IR_BC91F4420_000289",
       "IR_BC91F4420_000292",
-      "IR_BC91F4420_000327",
       "IR_BC91F4420_000406",
       "IR_BCCBDEC5F_000215",
       "IR_BCCBDEC5F_000266",
       "IR_BF5CDC206_000012",
-      "IR_BF5CDC206_000014",
       "IR_CAOSHI_FAWEI_000057",
-      "IR_CAOSHI_FAWEI_000438",
       "IR_CAOSHI_FAWEI_000441",
       "IR_CAOSHI_FAWEI_000444",
       "IR_CAOSHI_FAWEI_000575",
@@ -222,7 +164,6 @@
       "IR_JF_SHIYANLU_000053",
       "IR_JGYH_ERZHU_000041",
       "IR_JGYH_ERZHU_000173",
-      "IR_JGYH_ERZHU_000174",
       "IR_JGYL_FANGLUN_000025",
       "IR_JGYL_FANGLUN_000147",
       "IR_JGYL_JIYI_000050",
@@ -246,7 +187,6 @@
       "IR_SHL_GUIBEN_000731",
       "IR_SHL_GUIBEN_000798",
       "IR_SHL_LAISU_000372",
-      "IR_SHL_LAISU_000417",
       "IR_SHL_LAISU_000421",
       "IR_SHL_LAISU_000422",
       "IR_SHL_LAISU_000426",
@@ -257,22 +197,16 @@
       "IR_SHL_LUNZHU_000417",
       "IR_SHL_LUNZHU_000419",
       "IR_SHL_MINGLI_000005",
-      "IR_SHL_MINGLI_000015",
-      "IR_SHL_MINGLI_000070",
       "IR_SHL_MINGLI_000097",
       "IR_SHL_SONGBEN_000071",
       "IR_SHL_SONGBEN_000247",
       "IR_SHL_SONGBEN_000249",
       "IR_SHL_SONGBEN_000252",
       "IR_SHL_SONGBEN_000296",
-      "IR_SHL_SUYUAN_000575",
       "IR_SHL_SUYUAN_000580",
       "IR_SHL_SUYUAN_000585",
-      "IR_SHL_SUYUAN_000588",
-      "IR_SHL_SUYUAN_000590",
       "IR_SHL_SUYUAN_000630",
       "IR_SHL_SUYUAN_000665",
-      "IR_SHL_SUYUAN_000908",
       "IR_SHL_TIAOWEN_000025",
       "IR_SHL_TIAOWEN_000201",
       "IR_SHL_TIAOWEN_000203",
@@ -288,13 +222,6 @@
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "裡症",
-      "source_unit_id": "SU_B3E16D849_000205",
-      "evidence_span": "渴欲飲水。無表症者。白虎加人參湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "金匱要略心典",
       "chapter_title": "消渴小便不利淋病脈證治第十三",
@@ -356,13 +283,6 @@
       "chapter_title": "陽明經脈",
       "source_unit_id": "SU_B3E16D849_001989",
       "evidence_span": "大煩。渴不解。脈洪大者。白虎加人參湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "渴",
-      "source_unit_id": "SU_B3E16D849_002273",
-      "evidence_span": "若渴欲飲水。口乾舌燥者。白虎加人參湯主之。",
       "release_level": "silver"
     },
     {
@@ -497,39 +417,36 @@
       "source_unit_id": "SU_JGYL_JIYI_000320",
       "evidence_span": "　是也。汗出惡寒。身熱而渴。白虎加人參湯主之。",
       "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痙濕病脈證治第二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000159",
+      "evidence_span": "　是也。汗出惡寒。身熱而渴。白虎加人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨濕脈證第四",
+      "source_unit_id": "SU_B1CAC3ADF_000714",
+      "evidence_span": "汗出惡寒。身熱而渴者。中　也。白虎加人參湯主之。",
+      "release_level": "silver"
     }
   ],
   "variant_set": [
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_B0B74DF58",
-      "book_title": "傷寒恆論",
+      "book_id": "BOOK_B11498305",
+      "book_title": "傷寒纘論·傷寒緒論",
       "distinct_conditions": [
-        "舌上苔"
+        "心中懊憹"
       ],
       "rule_ids": [
-        "IR_B0B74DF58_000331",
-        "IR_B0B74DF58_000332",
-        "IR_B0B74DF58_000334",
-        "IR_B0B74DF58_000385"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_B3E16D849",
-      "book_title": "傷寒論綱目",
-      "distinct_conditions": [
-        "面垢"
-      ],
-      "rule_ids": [
-        "IR_B3E16D849_000061",
-        "IR_B3E16D849_000223",
-        "IR_B3E16D849_000839",
-        "IR_B3E16D849_000937",
-        "IR_B3E16D849_000938",
-        "IR_B3E16D849_001126",
-        "IR_B3E16D849_001136",
-        "IR_B3E16D849_001138"
+        "IR_B11498305_000575",
+        "IR_B11498305_000587",
+        "IR_B11498305_000590",
+        "IR_B11498305_000591",
+        "IR_B11498305_000593"
       ]
     },
     {
@@ -549,22 +466,51 @@
     },
     {
       "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUANZHU",
+      "book_title": "傷寒貫珠集",
+      "distinct_conditions": [
+        "譫語"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000415",
+        "IR_SHL_GUANZHU_000419",
+        "IR_SHL_GUANZHU_000421",
+        "IR_SHL_GUANZHU_000424",
+        "IR_SHL_GUANZHU_000457"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "太陽病"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000200",
+        "IR_SHL_GUIBEN_000390",
+        "IR_SHL_GUIBEN_000724",
+        "IR_SHL_GUIBEN_000728",
+        "IR_SHL_GUIBEN_000731",
+        "IR_SHL_GUIBEN_000798"
+      ]
+    },
+    {
+      "kind": "condition_variant",
       "book_id": "BOOK_SHL_MINGLI",
       "book_title": "傷寒明理論",
       "distinct_conditions": [
-        "不大便",
         "不得臥",
-        "亡陽",
-        "剛痙",
         "厥",
         "厥陰病",
+        "口中和",
         "寒熱",
-        "小便不利"
+        "少陰病",
+        "消渴",
+        "耳聾"
       ],
       "rule_ids": [
         "IR_SHL_MINGLI_000005",
-        "IR_SHL_MINGLI_000015",
-        "IR_SHL_MINGLI_000070",
         "IR_SHL_MINGLI_000097"
       ]
     },
@@ -682,62 +628,6 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_B1CAC3ADF_000492"
-      ],
-      "book_title": "張卿子傷寒論"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B3E16D849_000223"
-      ],
-      "book_title": "傷寒論綱目"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B3E16D849_000937"
-      ],
-      "book_title": "傷寒論綱目"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B41512D4B_000489"
-      ],
-      "book_title": "傷寒論辯證廣注"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B41512D4B_000746"
-      ],
-      "book_title": "傷寒論辯證廣注"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_B5FF1CA1B_000621"
-      ],
-      "book_title": "傷寒纘論"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_BBAACE965_000774"
-      ],
-      "book_title": "傷寒論輯義"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
         "IR_BC91F4420_000289"
       ],
       "book_title": "傷寒論條辨"
@@ -778,25 +668,9 @@
       "kind": "indication_vs_prohibition",
       "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
       "rule_ids": [
-        "IR_SHL_LAISU_000417"
-      ],
-      "book_title": "傷寒來蘇集"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
         "IR_SHL_LUNZHU_000413"
       ],
       "book_title": "傷寒論注"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_MINGLI_000070"
-      ],
-      "book_title": "傷寒明理論"
     },
     {
       "kind": "indication_vs_prohibition",
@@ -813,14 +687,6 @@
         "IR_SHL_SONGBEN_000252"
       ],
       "book_title": "傷寒論(宋本)"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現白虎加人參湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_SUYUAN_000575"
-      ],
-      "book_title": "傷寒溯源集"
     },
     {
       "kind": "indication_vs_prohibition",
@@ -843,11 +709,11 @@
     "disease": [
       {
         "term": "傷寒",
-        "count": 39
+        "count": 36
       },
       {
         "term": "陽明病",
-        "count": 8
+        "count": 6
       },
       {
         "term": "腹滿",
@@ -855,22 +721,10 @@
       },
       {
         "term": "太陽病",
-        "count": 2
+        "count": 1
       },
       {
         "term": "少陰病",
-        "count": 1
-      },
-      {
-        "term": "亡陽",
-        "count": 1
-      },
-      {
-        "term": "剛痙",
-        "count": 1
-      },
-      {
-        "term": "小便不利",
         "count": 1
       },
       {
@@ -880,12 +734,16 @@
       {
         "term": "厥陰病",
         "count": 1
+      },
+      {
+        "term": "中風",
+        "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "渴",
-        "count": 129
+        "count": 99
       },
       {
         "term": "惡寒",
@@ -893,7 +751,7 @@
       },
       {
         "term": "汗出",
-        "count": 33
+        "count": 30
       },
       {
         "term": "心煩",
@@ -905,51 +763,43 @@
       },
       {
         "term": "發熱",
-        "count": 14
+        "count": 12
       },
       {
         "term": "惡風",
-        "count": 13
+        "count": 10
       },
       {
         "term": "無汗",
-        "count": 11
+        "count": 9
       },
       {
-        "term": "心中懊憹",
-        "count": 4
+        "term": "口苦",
+        "count": 2
       },
       {
-        "term": "不得眠",
-        "count": 3
+        "term": "喘",
+        "count": 2
       }
     ],
     "pulse": [
       {
         "term": "脈洪大",
-        "count": 22
+        "count": 19
       },
       {
         "term": "脈浮",
-        "count": 12
+        "count": 10
       },
       {
         "term": "脈沉細",
-        "count": 1
-      },
-      {
-        "term": "脈浮緊",
         "count": 1
       }
     ],
     "pathomechanism": [
       {
         "term": "熱結在裏",
-        "count": 7
-      },
-      {
-        "term": "亡陽",
-        "count": 1
+        "count": 6
       }
     ]
   },
@@ -957,7 +807,7 @@
     "treatment_principle": [
       {
         "term": "清熱益氣生津",
-        "count": 136
+        "count": 103
       }
     ]
   },
@@ -975,10 +825,9 @@
     "口燥",
     "脈洪大",
     "脈浮",
-    "脈沉細",
-    "脈浮緊"
+    "脈沉細"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

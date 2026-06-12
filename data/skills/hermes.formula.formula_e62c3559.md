@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_e62c3559`
 - **Merged rule**: `MHR_FORMULA_FORMULA_E62C3559`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 20
+- **Consensus score**: 0.894
+- **Supporting initial rules**: 19
 
 ## 归纳主张
-歸四逆湯可歸納為下利、少陰病、厥陰病、厥、四逆、手足厥冷等方證的核心方（支持條文 20 條，跨 18 部書）。
+歸四逆湯可歸納為下利、少陰病、厥陰病、厥、手足厥冷、四逆等方證的核心方（支持條文 19 條，跨 18 部書）。
 
 ## 原文证据（节选）
 > 手足厥寒。脈細欲絕者。當歸四逆湯主之。

@@ -3,14 +3,12 @@
   "kind": "formula",
   "title": "理中丸方證合併規則",
   "subject": "理中丸",
-  "abstracted_claim": "理中丸可歸納為霍亂、下利、嘔吐、頭痛、發熱、身疼痛等方證的核心方（支持條文 11 條，跨 11 部書）。",
+  "abstracted_claim": "理中丸可歸納為霍亂、下利、嘔吐、頭痛、發熱、身疼痛等方證的核心方（支持條文 9 條，跨 9 部書）。",
   "merged_rule_id": "MHR_FORMULA_LIZHONG_WAN",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.883,
   "supporting_initial_rules": [
-    "IR_B1CAC3ADF_000904",
     "IR_B54968951_000021",
-    "IR_B5FF1CA1B_000685",
     "IR_BBAACE965_001382",
     "IR_SHL_GUANZHU_000360",
     "IR_SHL_GUIBEN_001233",
@@ -23,9 +21,7 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B1CAC3ADF_000904",
       "IR_B54968951_000021",
-      "IR_B5FF1CA1B_000685",
       "IR_BBAACE965_001382",
       "IR_SHL_GUANZHU_000360",
       "IR_SHL_GUIBEN_001233",
@@ -46,24 +42,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "張卿子傷寒論",
-      "chapter_title": "辨霍亂病脈證並治第十三",
-      "source_unit_id": "SU_B1CAC3ADF_002373",
-      "evidence_span": "身疼痛熱多欲飲水者。五苓散主之。寒多不用水者。理中丸主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "劉河間傷寒醫鑑",
       "chapter_title": "論霍亂",
       "source_unit_id": "SU_B54968951_000024",
       "evidence_span": "《活人書》云：霍亂，嘔吐而利，熱多而不渴，寒多而不飢，理中丸主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "雜篇",
-      "source_unit_id": "SU_B5FF1CA1B_001111",
-      "evidence_span": "霍亂頭痛發熱身疼痛熱多欲飲水者。五苓散主之。寒多不用水者。理中丸主之。",
       "release_level": "silver"
     },
     {
@@ -194,7 +176,7 @@
     "disease": [
       {
         "term": "霍亂",
-        "count": 9
+        "count": 8
       },
       {
         "term": "下利",
@@ -208,15 +190,15 @@
     "symptoms": [
       {
         "term": "頭痛",
-        "count": 8
+        "count": 7
       },
       {
         "term": "發熱",
-        "count": 8
+        "count": 7
       },
       {
         "term": "身疼痛",
-        "count": 7
+        "count": 5
       },
       {
         "term": "惡寒",
@@ -238,11 +220,11 @@
     "treatment_principle": [
       {
         "term": "溫中散寒",
-        "count": 11
+        "count": 9
       },
       {
         "term": "補氣健脾",
-        "count": 11
+        "count": 9
       }
     ]
   },
@@ -258,6 +240,6 @@
     "渴"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "黃連湯方證合併規則",
   "subject": "黃連湯",
-  "abstracted_claim": "黃連湯可歸納為嘔吐、傷寒、腹中痛、欲嘔等方證的核心方（支持條文 24 條，跨 21 部書）。",
+  "abstracted_claim": "黃連湯可歸納為嘔吐、傷寒、欲嘔、腹中痛等方證的核心方（支持條文 24 條，跨 21 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_06A39BE8",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.905,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000316",
     "IR_B11498305_000519",
@@ -235,17 +235,6 @@
   ],
   "variant_set": [
     {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_GUIBEN",
-      "book_title": "傷寒雜病論(桂本)",
-      "distinct_conditions": [
-        "欲嘔"
-      ],
-      "rule_ids": [
-        "IR_SHL_GUIBEN_000739"
-      ]
-    },
-    {
       "kind": "composition_variant",
       "books": [
         "傷寒論條辨",
@@ -328,12 +317,12 @@
     ],
     "symptoms": [
       {
-        "term": "腹中痛",
-        "count": 23
+        "term": "欲嘔",
+        "count": 24
       },
       {
-        "term": "欲嘔",
-        "count": 1
+        "term": "腹中痛",
+        "count": 23
       }
     ],
     "pulse": [],
@@ -346,10 +335,10 @@
     "黃連湯",
     "嘔吐",
     "傷寒",
-    "腹中痛",
-    "欲嘔"
+    "欲嘔",
+    "腹中痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

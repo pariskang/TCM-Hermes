@@ -3,18 +3,15 @@
 - **Skill**: `hermes.formula.formula_1b19a98f`
 - **Merged rule**: `MHR_FORMULA_FORMULA_1B19A98F`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 19
+- **Consensus score**: 0.9
+- **Supporting initial rules**: 18
 
 ## 归纳主张
-葛根加半夏湯可歸納為下利等方證的核心方（支持條文 19 條，跨 19 部書）。
+葛根加半夏湯可歸納為下利等方證的核心方（支持條文 18 條，跨 18 部書）。
 
 ## 原文证据（节选）
 > 不下利但嘔，葛根加半夏湯主之。
 > ——《傷寒論(千金翼方)》·太陽病用麻黃湯法第二（SU_SHL_QJYF_000020，silver）
-
-> 葛根湯主之。不下利。但嘔者。葛根加半夏湯主之。
-> ——《傷寒尋源》·葛根加半夏湯（SU_B8E444005_000513，silver）
 
 > 太陽與陽明合病，不下利但嘔者，葛根加半夏湯主之。
 > ——《傷寒大白》·嘔吐（SU_B9119D083_000750，silver）
@@ -33,6 +30,9 @@
 
 > 太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。
 > ——《傷寒論辯證廣注》·葛根湯方（SU_B41512D4B_000502，silver）
+
+> 太陽與陽明合病。不下利。但嘔者。葛根加半夏湯主之。
+> ——《傷寒論輯義》·辨太陽病脈證並治中（SU_BBAACE965_000391，silver）
 
 ## 版本差异 variant_set
 - {"kind": "composition_variant", "books": ["傷寒論輯義"], "composition": ["半夏", "甘草", "葛根", "麻黃"], "rule_ids": ["IR_BBAACE965_000147"]}

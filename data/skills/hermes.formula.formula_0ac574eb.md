@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_0ac574eb`
 - **Merged rule**: `MHR_FORMULA_FORMULA_0AC574EB`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.901
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-文蛤散可歸納為嘔吐、噦、下利、消渴、渴等方證的核心方（支持條文 8 條，跨 8 部書）。
+文蛤散可歸納為嘔吐、噦、下利、消渴、渴等方證的核心方（支持條文 7 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 渴欲飲水不止者。文蛤散主之。
@@ -27,9 +27,6 @@
 
 > 出嘔吐噦下利篇。又消渴篇。渴欲飲水不止者。文蛤散主之。
 > ——《傷寒論輯義》·辨太陽病脈證並治下（SU_BBAACE965_001539，silver）
-
-> 以致）渴欲飲水不止者。（非味鹹質燥。不能滲散其水氣。以）文蛤散主之。
-> ——《金匱要略淺註》·消渴小便不利淋病脈證治第十三（SU_JGYL_QIANZHU_000768，silver）
 
 > 渴欲飲水不止者，文蛤散主之（文蛤散方，文蛤五兩，上一味杵為散，以沸湯五合，和服方寸匕）
 > ——《曹氏傷寒金匱發微合刊》·消渴小便不利，淋病脈證治第十三（SU_CAOSHI_FAWEI_001645，silver）

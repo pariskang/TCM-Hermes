@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_635745de`
 - **Merged rule**: `MHR_FORMULA_FORMULA_635745DE`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 28
+- **Consensus score**: 0.899
+- **Supporting initial rules**: 27
 
 ## 归纳主张
-茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 28 條，跨 24 部書）。
+茯苓桂枝甘草大棗湯可歸納為奔豚、臍下悸等方證的核心方（支持條文 27 條，跨 23 部書）。
 
 ## 原文证据（节选）
 > 發汗後。臍下悸者。欲作奔豚。茯苓桂枝甘草大棗湯主之。

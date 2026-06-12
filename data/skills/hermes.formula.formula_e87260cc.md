@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_e87260cc`
 - **Merged rule**: `MHR_FORMULA_FORMULA_E87260CC`
 - **Release level**: silver
-- **Consensus score**: 0.916
-- **Supporting initial rules**: 16
+- **Consensus score**: 0.891
+- **Supporting initial rules**: 15
 
 ## 归纳主张
-桂枝附子湯可歸納為傷寒、渴、脈浮虛、脈浮、脈虛等方證的核心方（支持條文 16 條，跨 15 部書）。
+桂枝附子湯可歸納為傷寒、渴、脈浮虛、脈浮、脈虛等方證的核心方（支持條文 15 條，跨 14 部書）。
 
 ## 原文证据（节选）
 > 不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。
@@ -29,10 +29,10 @@
 > ——《傷寒尋源》·桂枝附子湯（SU_B8E444005_000756，silver）
 
 > 不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。
-> ——《傷寒論輯義》·辨太陽病脈證並治下（SU_BBAACE965_001900，silver）
+> ——《曹氏傷寒金匱發微合刊》·痙濕喝脈證第二（SU_CAOSHI_FAWEI_001182，silver）
 
 > 不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。
-> ——《曹氏傷寒金匱發微合刊》·痙濕喝脈證第二（SU_CAOSHI_FAWEI_001182，silver）
+> ——《傷寒溯源集》·濕病證治第九（SU_SHL_SUYUAN_001379，silver）
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_B3E16D849", "book_title": "傷寒論綱目", "distinct_conditions": ["脈浮", "脈虛"], "rule_ids": ["IR_B3E16D849_000160", "IR_B3E16D849_000321"]}

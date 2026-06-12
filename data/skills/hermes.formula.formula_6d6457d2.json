@@ -3,17 +3,16 @@
   "kind": "formula",
   "title": "越婢加朮湯方證合併規則",
   "subject": "越婢加朮湯",
-  "abstracted_claim": "越婢加朮湯可歸納為小便不利、皮水、渴、小便自利、目黃、自利等方證的核心方（支持條文 8 條，跨 7 部書）。",
+  "abstracted_claim": "越婢加朮湯可歸納為小便不利、皮水、渴、小便自利、目黃、自利等方證的核心方（支持條文 7 條，跨 7 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_6D6457D2",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.882,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001205",
     "IR_JGYH_ERZHU_000184",
     "IR_JGYL_FANGLUN_000150",
     "IR_JGYL_JIYI_000257",
     "IR_JGYL_QIANZHU_000173",
-    "IR_JGYL_QIANZHU_000182",
     "IR_JGYL_TIAOWEN_000150",
     "IR_JGYL_XINDIAN_000152"
   ],
@@ -25,7 +24,6 @@
       "IR_JGYL_FANGLUN_000150",
       "IR_JGYL_JIYI_000257",
       "IR_JGYL_QIANZHU_000173",
-      "IR_JGYL_QIANZHU_000182",
       "IR_JGYL_TIAOWEN_000150",
       "IR_JGYL_XINDIAN_000152"
     ],
@@ -51,13 +49,6 @@
       "chapter_title": "論七首、脈證五條、方九首",
       "source_unit_id": "SU_JGYL_JIYI_002118",
       "evidence_span": "假如小便自利。此亡津液。故令渴也。越婢加朮湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "水氣病脈證并治第十四",
-      "source_unit_id": "SU_JGYL_QIANZHU_000860",
-      "evidence_span": "腠實無汗。胃熱內向。欲迅除其熱。）越婢加朮湯主之。",
       "release_level": "silver"
     },
     {
@@ -95,12 +86,10 @@
       "book_id": "BOOK_JGYL_QIANZHU",
       "book_title": "金匱要略淺註",
       "distinct_conditions": [
-        "無汗",
         "自利"
       ],
       "rule_ids": [
-        "IR_JGYL_QIANZHU_000173",
-        "IR_JGYL_QIANZHU_000182"
+        "IR_JGYL_QIANZHU_000173"
       ]
     },
     {
@@ -172,10 +161,6 @@
       {
         "term": "自利",
         "count": 1
-      },
-      {
-        "term": "無汗",
-        "count": 1
       }
     ],
     "pulse": [
@@ -197,10 +182,9 @@
     "小便自利",
     "目黃",
     "自利",
-    "無汗",
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

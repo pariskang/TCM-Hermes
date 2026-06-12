@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.suanzaoren_tang`
 - **Merged rule**: `MHR_FORMULA_SUANZAOREN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.907
 - **Supporting initial rules**: 7
 
 ## 归纳主张

@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "小半夏加茯苓湯方證合併規則",
   "subject": "小半夏加茯苓湯",
-  "abstracted_claim": "小半夏加茯苓湯可歸納為嘔吐、心下痞、痞、渴等方證的核心方（支持條文 9 條，跨 6 部書）。",
+  "abstracted_claim": "小半夏加茯苓湯可歸納為嘔吐、心下痞、痞、渴等方證的核心方（支持條文 7 條，跨 5 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_BB312DE4",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.906,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001162",
     "IR_CAOSHI_FAWEI_001177",
@@ -14,8 +14,6 @@
     "IR_JGYL_QIANZHU_000144",
     "IR_JGYL_QIANZHU_000156",
     "IR_JGYL_TIAOWEN_000126",
-    "IR_JGYL_XINDIAN_000128",
-    "IR_JGYL_XINDIAN_000138",
     "IR_SHL_GUIBEN_001430"
   ],
   "supporting_rules_by_release_level": {
@@ -27,32 +25,16 @@
       "IR_JGYL_QIANZHU_000144",
       "IR_JGYL_QIANZHU_000156",
       "IR_JGYL_TIAOWEN_000126",
-      "IR_JGYL_XINDIAN_000128",
-      "IR_JGYL_XINDIAN_000138",
       "IR_SHL_GUIBEN_001430"
     ],
     "bronze": []
   },
   "original_evidence": [
     {
-      "book_title": "金匱要略心典",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYL_XINDIAN_000869",
-      "evidence_span": "心下痞。膈間有水。眩悸者。小半夏加茯苓湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "痰飲咳嗽病脈證治第十二",
       "source_unit_id": "SU_CAOSHI_FAWEI_001597",
       "evidence_span": "卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略心典",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYL_XINDIAN_000928",
-      "evidence_span": "先渴後嘔。為水停心下。此屬飲家。小半夏加茯苓湯主之。",
       "release_level": "silver"
     },
     {
@@ -148,7 +130,7 @@
       },
       {
         "term": "心下痞",
-        "count": 4
+        "count": 3
       },
       {
         "term": "痞",
@@ -158,7 +140,7 @@
     "symptoms": [
       {
         "term": "渴",
-        "count": 3
+        "count": 2
       }
     ],
     "pulse": [],
@@ -175,6 +157,6 @@
     "渴"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

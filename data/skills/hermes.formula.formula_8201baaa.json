@@ -3,12 +3,11 @@
   "kind": "formula",
   "title": "滑石代赭湯方證合併規則",
   "subject": "滑石代赭湯",
-  "abstracted_claim": "滑石代赭湯可歸納為百合病、百合等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "abstracted_claim": "滑石代赭湯可歸納為百合病等方證的核心方（支持條文 4 條，跨 4 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_8201BAAA",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.902,
   "supporting_initial_rules": [
-    "IR_B3E16D849_001974",
     "IR_JGYH_ERZHU_000044",
     "IR_JGYL_FANGLUN_000028",
     "IR_JGYL_JIYI_000059",
@@ -17,7 +16,6 @@
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_001974",
       "IR_JGYH_ERZHU_000044",
       "IR_JGYL_FANGLUN_000028",
       "IR_JGYL_JIYI_000059",
@@ -53,38 +51,15 @@
       "source_unit_id": "SU_JGYL_JIYI_000360",
       "evidence_span": "百合病。下之後者。滑石代赭湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "百合病",
-      "source_unit_id": "SU_B3E16D849_004126",
-      "evidence_span": "百合知母湯主之。百合病。下之後者。滑石代赭湯主之。",
-      "release_level": "silver"
     }
   ],
-  "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_B3E16D849",
-      "book_title": "傷寒論綱目",
-      "distinct_conditions": [
-        "百合"
-      ],
-      "rule_ids": [
-        "IR_B3E16D849_001974"
-      ]
-    }
-  ],
+  "variant_set": [],
   "conflict_set": [],
   "if_profile": {
     "disease": [
       {
         "term": "百合病",
-        "count": 5
-      },
-      {
-        "term": "百合",
-        "count": 1
+        "count": 4
       }
     ],
     "symptoms": [],
@@ -96,10 +71,9 @@
   },
   "keywords": [
     "滑石代赭湯",
-    "百合病",
-    "百合"
+    "百合病"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

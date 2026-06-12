@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_6d6457d2`
 - **Merged rule**: `MHR_FORMULA_FORMULA_6D6457D2`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.882
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-越婢加朮湯可歸納為小便不利、皮水、渴、小便自利、目黃、自利等方證的核心方（支持條文 8 條，跨 7 部書）。
+越婢加朮湯可歸納為小便不利、皮水、渴、小便自利、目黃、自利等方證的核心方（支持條文 7 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 假令小便自利。此亡津液。故令渴。越婢加朮湯主之。
@@ -18,9 +18,6 @@
 
 > 假如小便自利。此亡津液。故令渴也。越婢加朮湯主之。
 > ——《金匱玉函要略輯義》·論七首、脈證五條、方九首（SU_JGYL_JIYI_002118，silver）
-
-> 腠實無汗。胃熱內向。欲迅除其熱。）越婢加朮湯主之。
-> ——《金匱要略淺註》·水氣病脈證并治第十四（SU_JGYL_QIANZHU_000860，silver）
 
 > 裏水，其脈沉，小便不利，故令病水。假如小便自利，此亡津液，故令渴也。越婢加朮湯主之。
 > ——《金匱要略方論》·水氣病脈證并治第十四（SU_JGYL_FANGLUN_000593，silver）
@@ -35,7 +32,7 @@
 > ——《金匱要略方論》·水氣病脈證并治第十四（SU_JGYL_TIAOWEN_000591，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["無汗", "自利"], "rule_ids": ["IR_JGYL_QIANZHU_000173", "IR_JGYL_QIANZHU_000182"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["自利"], "rule_ids": ["IR_JGYL_QIANZHU_000173"]}
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_TIAOWEN", "book_title": "金匱要略方論", "distinct_conditions": ["皮水"], "rule_ids": ["IR_JGYL_TIAOWEN_000150"]}
 - {"kind": "composition_variant", "books": ["金匱玉函經二註"], "composition": ["白朮四兩"], "rule_ids": ["IR_JGYH_ERZHU_000197"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)"], "composition": ["大棗十五枚", "甘草二兩", "生薑三兩", "白朮四兩", "石膏半斤", "麻黃六兩"], "rule_ids": ["IR_SHL_GUIBEN_001455"]}

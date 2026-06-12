@@ -1,0 +1,103 @@
+{
+  "skill_id": "hermes.disease.34049218",
+  "kind": "disease",
+  "title": "穀疸證治合併規則",
+  "subject": "穀疸",
+  "abstracted_claim": "穀疸相關條文 8 條；主要方劑：茵陳蒿湯。",
+  "merged_rule_id": "MHR_DISEASE_34049218",
+  "release_level": "silver",
+  "consensus_score": 0.91,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000171",
+    "IR_JGYL_TIAOWEN_000171",
+    "IR_BBAACE965_001021",
+    "IR_JGYH_ERZHU_000215",
+    "IR_JGYL_FANGLUN_000170",
+    "IR_JGYL_JIYI_000294",
+    "IR_JGYL_TIAOWEN_000170",
+    "IR_SHL_GUIBEN_000879"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_JGYL_FANGLUN_000171",
+      "IR_JGYL_TIAOWEN_000171"
+    ],
+    "silver": [
+      "IR_BBAACE965_001021",
+      "IR_JGYH_ERZHU_000215",
+      "IR_JGYL_FANGLUN_000170",
+      "IR_JGYL_JIYI_000294",
+      "IR_JGYL_TIAOWEN_000170",
+      "IR_SHL_GUIBEN_000879"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000664",
+      "evidence_span": "穀疸之為病，寒熱不食，食即頭眩，心胸不安，久久發黃為穀疸，茵陳蒿湯主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000662",
+      "evidence_span": "穀疸之為病，寒熱不食，食即頭眩，心胸不安，久久發黃為穀疸，茵陳蒿湯主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002410",
+      "evidence_span": "心胸不安。久久發黃。為穀疸。茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_002396",
+      "evidence_span": "食即頭眩。心胸不安。久久發黃為穀疸。茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001317",
+      "evidence_span": "食即頭眩。心胸不安。久久發黃為穀疸。茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000664",
+      "evidence_span": "穀疸之為病，寒熱不食，食即頭眩，心胸不安，久久發黃為穀疸，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000662",
+      "evidence_span": "穀疸之為病，寒熱不食，食即頭眩，心胸不安，久久發黃為穀疸，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000800",
+      "evidence_span": "9.86陽明病，身熱，不能食，食即頭眩，心胸不安，久久發黃，此名穀疸，茵陳蒿湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "穀疸"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

@@ -3,68 +3,23 @@
   "kind": "formula",
   "title": "去芍藥方中加附子湯方證合併規則",
   "subject": "去芍藥方中加附子湯",
-  "abstracted_claim": "去芍藥方中加附子湯可歸納為太陽病、胸滿、惡寒、脈促等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "abstracted_claim": "去芍藥方中加附子湯可歸納為太陽病、胸滿、惡寒、脈促等方證的核心方（支持條文 2 條，跨 2 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_EB202488",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.887,
   "supporting_initial_rules": [
-    "IR_B3E16D849_000132",
-    "IR_B5FF1CA1B_000119",
-    "IR_B8E444005_000287",
-    "IR_BC91F4420_000058",
     "IR_SHL_LAISU_000101",
-    "IR_SHL_LUNZHU_000094",
-    "IR_SHL_SUYUAN_000144"
+    "IR_SHL_LUNZHU_000094"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B3E16D849_000132",
-      "IR_B5FF1CA1B_000119",
-      "IR_B8E444005_000287",
-      "IR_BC91F4420_000058",
       "IR_SHL_LAISU_000101",
-      "IR_SHL_LUNZHU_000094",
-      "IR_SHL_SUYUAN_000144"
+      "IR_SHL_LUNZHU_000094"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "太陽經脈",
-      "source_unit_id": "SU_B3E16D849_000403",
-      "evidence_span": "胸滿者。桂枝去芍藥湯主之。若微惡寒者。去芍藥方中加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "太陽下編",
-      "source_unit_id": "SU_B5FF1CA1B_000184",
-      "evidence_span": "脈促胸滿者。桂枝去芍藥湯主之。若微惡寒者。去芍藥方中加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "桂枝去芍藥加附子湯",
-      "source_unit_id": "SU_B8E444005_000416",
-      "evidence_span": "脈促胸滿者。桂枝去芍藥湯主之。若微惡寒者。去芍藥方中加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨太陽病脈證並治上編第一",
-      "source_unit_id": "SU_BC91F4420_000181",
-      "evidence_span": "脈促胸滿者。桂枝去芍藥湯主之。若微惡寒者。去芍藥方中加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "中風證治第一",
-      "source_unit_id": "SU_SHL_SUYUAN_000312",
-      "evidence_span": "脈促胸滿者。桂枝去芍藥湯主之。若微惡寒者。去芍藥方中加附子湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒來蘇集",
       "chapter_title": "桂枝湯證下",
@@ -92,17 +47,17 @@
     "symptoms": [
       {
         "term": "胸滿",
-        "count": 7
+        "count": 2
       },
       {
         "term": "惡寒",
-        "count": 7
+        "count": 2
       }
     ],
     "pulse": [
       {
         "term": "脈促",
-        "count": 6
+        "count": 2
       }
     ],
     "pathomechanism": []
@@ -118,6 +73,6 @@
     "脈促"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

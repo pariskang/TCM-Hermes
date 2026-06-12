@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.jiegeng_tang`
 - **Merged rule**: `MHR_FORMULA_JIEGENG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.918
+- **Consensus score**: 0.907
 - **Supporting initial rules**: 10
 
 ## 归纳主张

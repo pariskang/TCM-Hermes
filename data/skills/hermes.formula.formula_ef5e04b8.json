@@ -3,18 +3,16 @@
   "kind": "formula",
   "title": "澤漆湯方證合併規則",
   "subject": "澤漆湯",
-  "abstracted_claim": "澤漆湯可歸納為痰飲、咳、脈沉、脈浮、脈沈等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "abstracted_claim": "澤漆湯可歸納為痰飲、咳、脈沉、脈沈、脈浮等方證的核心方（支持條文 6 條，跨 6 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_EF5E04B8",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.901,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001050",
     "IR_JGYH_ERZHU_000085",
     "IR_JGYL_FANGLUN_000068",
-    "IR_JGYL_JIYI_000110",
     "IR_JGYL_QIANZHU_000080",
     "IR_JGYL_TIAOWEN_000068",
-    "IR_JGYL_XINDIAN_000067",
     "IR_SHL_GUIBEN_001375"
   ],
   "supporting_rules_by_release_level": {
@@ -23,10 +21,8 @@
       "IR_CAOSHI_FAWEI_001050",
       "IR_JGYH_ERZHU_000085",
       "IR_JGYL_FANGLUN_000068",
-      "IR_JGYL_JIYI_000110",
       "IR_JGYL_QIANZHU_000080",
       "IR_JGYL_TIAOWEN_000068",
-      "IR_JGYL_XINDIAN_000067",
       "IR_SHL_GUIBEN_001375"
     ],
     "bronze": []
@@ -61,24 +57,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "金匱玉函要略輯義",
-      "chapter_title": "論三首、脈證四條、方十五首",
-      "source_unit_id": "SU_JGYL_JIYI_001035",
-      "evidence_span": "咳而脈浮者。厚朴麻黃湯主之。脈沉者。澤漆湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "肺痿肺癱咳嗽上氣病脈證治第七",
       "source_unit_id": "SU_CAOSHI_FAWEI_001375",
       "evidence_span": "咳而脈浮者，厚朴麻黃湯主之，咳而脈沉者，澤漆湯主之",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略心典",
-      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
-      "source_unit_id": "SU_JGYL_XINDIAN_000468",
-      "evidence_span": "咳而脈浮者。厚朴麻黃湯主之。咳而脈沉者。澤漆湯主之。",
       "release_level": "silver"
     },
     {
@@ -90,6 +72,17 @@
     }
   ],
   "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "脈浮"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001050"
+      ]
+    },
     {
       "kind": "condition_variant",
       "book_id": "BOOK_JGYL_QIANZHU",
@@ -142,21 +135,21 @@
     "symptoms": [
       {
         "term": "咳",
-        "count": 6
+        "count": 4
       }
     ],
     "pulse": [
       {
         "term": "脈沉",
-        "count": 6
-      },
-      {
-        "term": "脈浮",
-        "count": 3
+        "count": 4
       },
       {
         "term": "脈沈",
         "count": 2
+      },
+      {
+        "term": "脈浮",
+        "count": 1
       }
     ],
     "pathomechanism": []
@@ -169,10 +162,10 @@
     "痰飲",
     "咳",
     "脈沉",
-    "脈浮",
-    "脈沈"
+    "脈沈",
+    "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

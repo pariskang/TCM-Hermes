@@ -3,51 +3,36 @@
   "kind": "formula",
   "title": "通脈四逆湯方證合併規則",
   "subject": "通脈四逆湯",
-  "abstracted_claim": "通脈四逆湯可歸納為下利、少陰病、厥、汗出、咽痛、乾嘔等方證的核心方（支持條文 68 條，跨 34 部書）。",
+  "abstracted_claim": "通脈四逆湯可歸納為下利、少陰病、厥、汗出、乾嘔、咽痛等方證的核心方（支持條文 52 條，跨 31 部書）。",
   "merged_rule_id": "MHR_FORMULA_TONGMAI_SINI_TANG",
   "release_level": "silver",
-  "consensus_score": 0.91,
+  "consensus_score": 0.899,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000639",
     "IR_B0B74DF58_000746",
     "IR_B11498305_000371",
     "IR_B11498305_000416",
     "IR_B1CAC3ADF_000083",
-    "IR_B1CAC3ADF_000795",
     "IR_B1CAC3ADF_000878",
     "IR_B2EB248E3_000168",
-    "IR_B3E16D849_001639",
     "IR_B3E16D849_001641",
-    "IR_B3E16D849_001656",
     "IR_B3E16D849_001657",
-    "IR_B3E16D849_001658",
     "IR_B3E16D849_001659",
     "IR_B3E16D849_001665",
-    "IR_B3E16D849_001676",
-    "IR_B3E16D849_001732",
     "IR_B3E16D849_001733",
-    "IR_B3E16D849_001774",
-    "IR_B3E16D849_001799",
     "IR_B3E16D849_001922",
     "IR_B3E520529_000053",
     "IR_B41512D4B_001071",
-    "IR_B5C5ECAC2_000132",
-    "IR_B5FF1CA1B_000402",
     "IR_B5FF1CA1B_000444",
     "IR_B8E444005_000169",
-    "IR_B8E444005_000171",
     "IR_B9119D083_000196",
     "IR_B9119D083_000533",
     "IR_B9119D083_000534",
     "IR_BB711944D_000039",
-    "IR_BB7301DF2_000123",
-    "IR_BBAACE965_000812",
     "IR_BBAACE965_001351",
     "IR_BC2BA03C0_000307",
     "IR_BC91F4420_000501",
     "IR_BC91F4420_000539",
-    "IR_BCCBDEC5F_000213",
-    "IR_BF5CDC206_000180",
     "IR_BF5CDC206_000231",
     "IR_CAOSHI_FAWEI_000863",
     "IR_CAOSHI_FAWEI_001365",
@@ -69,7 +54,6 @@
     "IR_SHL_QJYF_000281",
     "IR_SHL_SONGBEN_000391",
     "IR_SHL_SONGBEN_000438",
-    "IR_SHL_SUYUAN_001152",
     "IR_SHL_SUYUAN_001279",
     "IR_SHL_SUYUAN_001280",
     "IR_SHL_TIAOWEN_000345",
@@ -85,41 +69,26 @@
       "IR_B11498305_000371",
       "IR_B11498305_000416",
       "IR_B1CAC3ADF_000083",
-      "IR_B1CAC3ADF_000795",
       "IR_B1CAC3ADF_000878",
       "IR_B2EB248E3_000168",
-      "IR_B3E16D849_001639",
       "IR_B3E16D849_001641",
-      "IR_B3E16D849_001656",
       "IR_B3E16D849_001657",
-      "IR_B3E16D849_001658",
       "IR_B3E16D849_001659",
       "IR_B3E16D849_001665",
-      "IR_B3E16D849_001676",
-      "IR_B3E16D849_001732",
       "IR_B3E16D849_001733",
-      "IR_B3E16D849_001774",
-      "IR_B3E16D849_001799",
       "IR_B3E16D849_001922",
       "IR_B3E520529_000053",
       "IR_B41512D4B_001071",
-      "IR_B5C5ECAC2_000132",
-      "IR_B5FF1CA1B_000402",
       "IR_B5FF1CA1B_000444",
       "IR_B8E444005_000169",
-      "IR_B8E444005_000171",
       "IR_B9119D083_000196",
       "IR_B9119D083_000533",
       "IR_B9119D083_000534",
       "IR_BB711944D_000039",
-      "IR_BB7301DF2_000123",
-      "IR_BBAACE965_000812",
       "IR_BBAACE965_001351",
       "IR_BC2BA03C0_000307",
       "IR_BC91F4420_000501",
       "IR_BC91F4420_000539",
-      "IR_BCCBDEC5F_000213",
-      "IR_BF5CDC206_000180",
       "IR_BF5CDC206_000231",
       "IR_CAOSHI_FAWEI_000863",
       "IR_CAOSHI_FAWEI_001365",
@@ -141,7 +110,6 @@
       "IR_SHL_QJYF_000281",
       "IR_SHL_SONGBEN_000391",
       "IR_SHL_SONGBEN_000438",
-      "IR_SHL_SUYUAN_001152",
       "IR_SHL_SUYUAN_001279",
       "IR_SHL_SUYUAN_001280",
       "IR_SHL_TIAOWEN_000345",
@@ -160,66 +128,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "張卿子傷寒論",
-      "chapter_title": "真武湯方第九十七",
-      "source_unit_id": "SU_B1CAC3ADF_002117",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "少陰經脈",
-      "source_unit_id": "SU_B3E16D849_003332",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "面色",
-      "source_unit_id": "SU_B3E16D849_003370",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "咽痛咽乾口燥",
-      "source_unit_id": "SU_B3E16D849_003422",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "手足厥逆",
-      "source_unit_id": "SU_B3E16D849_003567",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "嘔吐下利",
-      "source_unit_id": "SU_B3E16D849_003664",
-      "evidence_span": "或咽痛。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "下利清穀",
-      "source_unit_id": "SU_B3E16D849_003711",
-      "evidence_span": "或乾嘔。或利止。脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒纘論",
       "chapter_title": "厥陰篇",
       "source_unit_id": "SU_B5FF1CA1B_000749",
       "evidence_span": "下利清穀裡寒外熱。汗出而厥者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒百證歌",
-      "chapter_title": "第三十九證‧發熱歌",
-      "source_unit_id": "SU_BB7301DF2_000120",
-      "evidence_span": "下利清穀。裡寒外熱。手足厥逆。通脈四逆湯主之。",
       "release_level": "silver"
     },
     {
@@ -267,13 +179,6 @@
     {
       "book_title": "傷寒論綱目",
       "chapter_title": "表熱裡寒表寒裡熱",
-      "source_unit_id": "SU_B3E16D849_003360",
-      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "表熱裡寒表寒裡熱",
       "source_unit_id": "SU_B3E16D849_003363",
       "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
       "release_level": "silver"
@@ -307,20 +212,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒指掌",
-      "chapter_title": "下利",
-      "source_unit_id": "SU_B5C5ECAC2_000704",
-      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒纘論",
-      "chapter_title": "少陰上編",
-      "source_unit_id": "SU_B5FF1CA1B_000648",
-      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒尋源",
       "chapter_title": "自汗",
       "source_unit_id": "SU_B8E444005_000268",
@@ -343,13 +234,6 @@
     },
     {
       "book_title": "傷寒醫訣串解",
-      "chapter_title": "少陰篇",
-      "source_unit_id": "SU_BF5CDC206_000200",
-      "evidence_span": "或乾嘔。或咽痛。或利止脈不出者。通脈四逆湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒醫訣串解",
       "chapter_title": "厥陰篇",
       "source_unit_id": "SU_BF5CDC206_000254",
       "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
@@ -360,6 +244,90 @@
       "chapter_title": "厥陰篇",
       "source_unit_id": "SU_CAOSHI_FAWEI_000968",
       "evidence_span": "時寒外熱。脈微欲絕。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001615",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000832",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002986",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000830",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "厥陰溫法九條",
+      "source_unit_id": "SU_SHL_GUANZHU_000487",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "四逆湯證上",
+      "source_unit_id": "SU_SHL_LUNZHU_001119",
+      "evidence_span": "下利清穀，裡寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨厥陰病脈證並治第十二",
+      "source_unit_id": "SU_SHL_SONGBEN_000844",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "厥陰證治第二十一",
+      "source_unit_id": "SU_SHL_SUYUAN_003090",
+      "evidence_span": "下利清穀。裡寒外熱。汗出而厥者。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000691",
+      "evidence_span": "下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨厥陰病脈證並治法第十二",
+      "source_unit_id": "SU_SHL_ZHUJIE_001585",
+      "evidence_span": "下利清穀，裡寒外熱，汗出而厥者，通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨太陽病脈證並治法上第五",
+      "source_unit_id": "SU_B1CAC3ADF_000760",
+      "evidence_span": "下利清穀也。所以陰證亦有發熱者。四逆湯。通脈四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "厥陰中篇",
+      "source_unit_id": "SU_B0B74DF58_001544",
+      "evidence_span": "**十一、下利清穀，裏寒外熱，汗出而厥者，通脈四逆湯主之。",
       "release_level": "silver"
     }
   ],
@@ -450,7 +418,7 @@
     "disease": [
       {
         "term": "下利",
-        "count": 49
+        "count": 48
       },
       {
         "term": "少陰病",
@@ -460,19 +428,19 @@
     "symptoms": [
       {
         "term": "厥",
-        "count": 49
+        "count": 47
       },
       {
         "term": "汗出",
-        "count": 34
-      },
-      {
-        "term": "咽痛",
-        "count": 25
+        "count": 33
       },
       {
         "term": "乾嘔",
-        "count": 20
+        "count": 14
+      },
+      {
+        "term": "咽痛",
+        "count": 14
       },
       {
         "term": "腹痛",
@@ -483,12 +451,12 @@
         "count": 12
       },
       {
-        "term": "四逆",
-        "count": 7
-      },
-      {
         "term": "面赤",
         "count": 6
+      },
+      {
+        "term": "四逆",
+        "count": 5
       },
       {
         "term": "面色赤",
@@ -502,7 +470,7 @@
     "pulse": [
       {
         "term": "脈微欲絕",
-        "count": 15
+        "count": 14
       },
       {
         "term": "脈沉",
@@ -515,7 +483,7 @@
     "treatment_principle": [
       {
         "term": "回陽通脈",
-        "count": 68
+        "count": 52
       }
     ]
   },
@@ -525,13 +493,13 @@
     "少陰病",
     "厥",
     "汗出",
-    "咽痛",
     "乾嘔",
+    "咽痛",
     "腹痛",
     "脈微欲絕",
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

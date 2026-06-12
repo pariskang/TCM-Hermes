@@ -3,21 +3,15 @@
 - **Skill**: `hermes.formula.formula_bb312de4`
 - **Merged rule**: `MHR_FORMULA_FORMULA_BB312DE4`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 9
+- **Consensus score**: 0.906
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-小半夏加茯苓湯可歸納為嘔吐、心下痞、痞、渴等方證的核心方（支持條文 9 條，跨 6 部書）。
+小半夏加茯苓湯可歸納為嘔吐、心下痞、痞、渴等方證的核心方（支持條文 7 條，跨 5 部書）。
 
 ## 原文证据（节选）
-> 心下痞。膈間有水。眩悸者。小半夏加茯苓湯主之。
-> ——《金匱要略心典》·痰飲咳嗽病脈證治第十二（SU_JGYL_XINDIAN_000869，silver）
-
 > 卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之
 > ——《曹氏傷寒金匱發微合刊》·痰飲咳嗽病脈證治第十二（SU_CAOSHI_FAWEI_001597，silver）
-
-> 先渴後嘔。為水停心下。此屬飲家。小半夏加茯苓湯主之。
-> ——《金匱要略心典》·痰飲咳嗽病脈證治第十二（SU_JGYL_XINDIAN_000928，silver）
 
 > 卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之。
 > ——《金匱要略方論》·痰飲咳嗽病脈證并治第十二（SU_JGYL_FANGLUN_000523，silver）
@@ -33,6 +27,9 @@
 
 > 此屬飲家。（醫者不管其已過之渴。只據其現下之嘔而治之。以）小半夏加茯苓湯主之。
 > ——《金匱要略淺註》·痰飲咳嗽病脈證治第十二（SU_JGYL_QIANZHU_000754，silver）
+
+> 先渴後嘔為水停心下，此屬飲家，小半夏加茯苓湯主之（見上）心下有水，脾精不得挾胃中殺氣上溉肺藏而潤喉舌，因而渴飲，但胃底含有苦燥之膽汁，胃中熱如熾炭，不能容水，水在胃之上口，胃熱出而相抗，乃病嘔吐，此其所以先渴後嘔也，按此節合上嘔家本渴，即並見下嘔吐噦下利篇，以其治屬飲家，故本條獨出方治也
+> ——《曹氏傷寒金匱發微合刊》·痰飲咳嗽病脈證治第十二（SU_CAOSHI_FAWEI_001635，silver）
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_JGYL_QIANZHU", "book_title": "金匱要略淺註", "distinct_conditions": ["痞"], "rule_ids": ["IR_JGYL_QIANZHU_000144", "IR_JGYL_QIANZHU_000156"]}

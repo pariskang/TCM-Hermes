@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.dahuang_mudan_tang`
 - **Merged rule**: `MHR_FORMULA_DAHUANG_MUDAN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.906
+- **Consensus score**: 0.877
 - **Supporting initial rules**: 5
 
 ## 归纳主张

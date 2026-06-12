@@ -28,6 +28,7 @@ from ..schemas import InitialRule, SourceUnit
 from ..schemas.validation import SchemaValidator
 from ..utils import read_jsonl, write_jsonl
 from .backends import get_backend
+from .binding import check_binding
 from .critic import AdversarialCriticAgent
 from .consensus import ConsensusJudgeAgent
 from .evidence import EvidenceVerifierAgent
@@ -35,6 +36,7 @@ from .extractor import InitialRuleExtractorAgent
 from .release_gate import ReleaseGateAgent
 from .repair import RuleRepairAgent
 from .reviewer import RuleReviewerAgent
+from .reviewer_profiles import ReviewerPanel
 
 
 class AutonomousReviewOrchestrator:
@@ -52,6 +54,12 @@ class AutonomousReviewOrchestrator:
         self.repairer = RuleRepairAgent(self.config, self.backend)
         self.gate = ReleaseGateAgent(self.config)
         self.memory = MemoryCuratorAgent(self.config)
+        self.panel = ReviewerPanel(self.config, self.backend)
+        # panel debate runs under an LLM backend, or whenever explicitly asked;
+        # "auto" keeps the offline heuristic run identical to before
+        mode = getattr(self.config, "consensus_mode", "auto")
+        self.use_panel = mode == "panel" or (
+            mode == "auto" and getattr(self.backend, "kind", "heuristic") != "heuristic")
 
     # ------------------------------------------------------------------
     def review_rule(self, rule: InitialRule, unit: SourceUnit | None) -> InitialRule:
@@ -123,11 +131,26 @@ class AutonomousReviewOrchestrator:
             self.memory.record_repairs(rule, repairs)
             # loop back: every repair is re-reviewed by all layers
 
+        # Problem 2: span↔claim binding (deterministic, always on)
+        binding = check_binding(rule)
+        ar.binding_score = binding.binding_score
+        ar.binding_multi_formula = binding.multi_formula
+        last["binding"] = binding
+
+        # Problem 3: multi-reviewer panel debate (LLM backend or panel mode)
+        panel_res = self.panel.review(rule, unit) if self.use_panel else None
+        if panel_res is not None:
+            last["panel"] = panel_res
+            rule.log(self.panel.name, "panel_debate",
+                     support=panel_res.support, warn=panel_res.warn,
+                     reject=panel_res.reject, agreement=round(panel_res.agreement, 3))
+
         # L5 consensus ----------------------------------------------------
         judgement = self.judge.judge(rule, last["evidence"], last["semantic"],
                                      last["critic"], ar.repair_round,
                                      repaired_overall,
-                                     schema_valid=last["schema"].schema_valid)
+                                     schema_valid=last["schema"].schema_valid,
+                                     binding=binding, panel=panel_res)
         ar.consensus_score = judgement.consensus_score
         ar.review_status = judgement.autonomous_review_status
         ar.reason = judgement.reason
@@ -155,9 +178,12 @@ class AutonomousReviewOrchestrator:
             "evidence": last["evidence"].to_dict(),
             "semantic": last["semantic"].to_dict(),
             "critic": last["critic"].to_dict(),
+            "binding": binding.to_dict(),
             "consensus": judgement.to_dict(),
             "release_gate": decision.to_dict(),
         }
+        if panel_res is not None:
+            rule.review_records["panel"] = panel_res.to_dict()
         self.memory.record_rule_audit(rule)
         self.memory.record_rule_summary(rule)
         return rule

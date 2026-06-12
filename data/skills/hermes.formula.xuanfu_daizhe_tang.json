@@ -3,13 +3,12 @@
   "kind": "formula",
   "title": "旋覆代赭湯方證合併規則",
   "subject": "旋覆代赭湯",
-  "abstracted_claim": "旋覆代赭湯可歸納為心下痞、傷寒、噫氣、心下痞硬等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "abstracted_claim": "旋覆代赭湯可歸納為傷寒、心下痞、噫氣、心下痞硬等方證的核心方（支持條文 5 條，跨 5 部書）。",
   "merged_rule_id": "MHR_FORMULA_XUANFU_DAIZHE_TANG",
   "release_level": "silver",
-  "consensus_score": 0.912,
+  "consensus_score": 0.91,
   "supporting_initial_rules": [
     "IR_B8E444005_000399",
-    "IR_BBAACE965_000725",
     "IR_SHL_GUIBEN_000709",
     "IR_SHL_QJYF_000086",
     "IR_SHL_SONGBEN_000236",
@@ -19,7 +18,6 @@
     "gold": [],
     "silver": [
       "IR_B8E444005_000399",
-      "IR_BBAACE965_000725",
       "IR_SHL_GUIBEN_000709",
       "IR_SHL_QJYF_000086",
       "IR_SHL_SONGBEN_000236",
@@ -28,13 +26,6 @@
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治下",
-      "source_unit_id": "SU_BBAACE965_001767",
-      "evidence_span": "解後。心下痞硬。噫氣不除者。旋覆代赭湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "傷寒論(千金翼方)",
       "chapter_title": "太陽病用陷胸湯法第六",
@@ -72,6 +63,17 @@
     }
   ],
   "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B8E444005",
+      "book_title": "傷寒尋源",
+      "distinct_conditions": [
+        "心下痞硬"
+      ],
+      "rule_ids": [
+        "IR_B8E444005_000399"
+      ]
+    },
     {
       "kind": "composition_variant",
       "books": [
@@ -112,22 +114,22 @@
   "if_profile": {
     "disease": [
       {
-        "term": "心下痞",
-        "count": 6
+        "term": "傷寒",
+        "count": 5
       },
       {
-        "term": "傷寒",
+        "term": "心下痞",
         "count": 5
       }
     ],
     "symptoms": [
       {
         "term": "噫氣",
-        "count": 6
+        "count": 5
       },
       {
         "term": "心下痞硬",
-        "count": 2
+        "count": 1
       }
     ],
     "pulse": [],
@@ -137,22 +139,22 @@
     "treatment_principle": [
       {
         "term": "降逆化痰",
-        "count": 6
+        "count": 5
       },
       {
         "term": "益氣和胃",
-        "count": 6
+        "count": 5
       }
     ]
   },
   "keywords": [
     "旋覆代赭湯",
-    "心下痞",
     "傷寒",
+    "心下痞",
     "噫氣",
     "心下痞硬"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

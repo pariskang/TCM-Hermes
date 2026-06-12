@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.shizao_tang`
 - **Merged rule**: `MHR_FORMULA_SHIZAO_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.916
-- **Supporting initial rules**: 51
+- **Consensus score**: 0.885
+- **Supporting initial rules**: 45
 
 ## 归纳主张
-十棗湯可歸納為太陽中風、心下痞、下利、懸飲、傷寒、腹滿等方證的核心方（支持條文 51 條，跨 29 部書）。
+十棗湯可歸納為太陽中風、下利、心下痞、懸飲、傷寒、結胸等方證的核心方（支持條文 45 條，跨 26 部書）。
 
 ## 原文证据（节选）
 > 病懸飲者，十棗湯主之。
@@ -36,7 +36,7 @@
 
 ## 版本差异 variant_set
 - {"kind": "condition_variant", "book_id": "BOOK_CAOSHI_FAWEI", "book_title": "曹氏傷寒金匱發微合刊", "distinct_conditions": ["脈浮"], "rule_ids": ["IR_CAOSHI_FAWEI_000387", "IR_CAOSHI_FAWEI_001142", "IR_CAOSHI_FAWEI_001165"]}
-- {"kind": "condition_variant", "book_id": "BOOK_SHL_MINGLI", "book_title": "傷寒明理論", "distinct_conditions": ["喘", "小便不利", "惡風", "氣上衝", "潮熱", "腹滿", "趺陽脈微"], "rule_ids": ["IR_SHL_MINGLI_000113"]}
+- {"kind": "condition_variant", "book_id": "BOOK_JF_SHIYANLU", "book_title": "經方實驗錄", "distinct_conditions": ["傷寒"], "rule_ids": ["IR_JF_SHIYANLU_000199", "IR_JF_SHIYANLU_000200"]}
 - {"kind": "condition_variant", "book_id": "BOOK_SHL_SUYUAN", "book_title": "傷寒溯源集", "distinct_conditions": ["痰飲", "結胸"], "rule_ids": ["IR_SHL_SUYUAN_000467", "IR_SHL_SUYUAN_000472"]}
 - {"kind": "composition_variant", "books": ["傷寒論條辨", "傷寒論輯義", "傷寒貫珠集", "傷寒雜病論(桂本)", "註解傷寒論"], "composition": ["大戟", "大棗", "甘遂", "芫花"], "rule_ids": ["IR_BBAACE965_000694", "IR_BC91F4420_000044", "IR_SHL_GUANZHU_000092", "IR_SHL_GUIBEN_000689", "IR_SHL_ZHUJIE_000514"]}
 - {"kind": "composition_variant", "books": ["傷寒雜病論(桂本)", "經方實驗錄"], "composition": ["大棗十枚"], "rule_ids": ["IR_JF_SHIYANLU_000201", "IR_SHL_GUIBEN_001364"]}

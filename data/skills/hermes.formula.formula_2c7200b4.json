@@ -3,13 +3,12 @@
   "kind": "formula",
   "title": "去桂加白朮湯方證合併規則",
   "subject": "去桂加白朮湯",
-  "abstracted_claim": "去桂加白朮湯可歸納為傷寒、小便自利、渴、大便硬、脈浮虛等方證的核心方（支持條文 10 條，跨 10 部書）。",
+  "abstracted_claim": "去桂加白朮湯可歸納為傷寒、小便自利、渴、大便硬、脈浮虛等方證的核心方（支持條文 9 條，跨 9 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_2C7200B4",
   "release_level": "silver",
-  "consensus_score": 0.913,
+  "consensus_score": 0.88,
   "supporting_initial_rules": [
     "IR_B3E16D849_000322",
-    "IR_BBAACE965_000798",
     "IR_JGYH_ERZHU_000035",
     "IR_JGYL_FANGLUN_000023",
     "IR_JGYL_JIYI_000042",
@@ -23,7 +22,6 @@
     "gold": [],
     "silver": [
       "IR_B3E16D849_000322",
-      "IR_BBAACE965_000798",
       "IR_JGYH_ERZHU_000035",
       "IR_JGYL_FANGLUN_000023",
       "IR_JGYL_JIYI_000042",
@@ -55,13 +53,6 @@
       "chapter_title": "論一首、脈證十二條、方十一首",
       "source_unit_id": "SU_JGYL_JIYI_000277",
       "evidence_span": "桂枝附子湯主之。若大便堅。小便自利者。去桂加白朮湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治下",
-      "source_unit_id": "SU_BBAACE965_001900",
-      "evidence_span": "（【原注】一云。臍下心下硬。）小便自利者。去桂加白朮湯主之。",
       "release_level": "silver"
     },
     {
@@ -119,7 +110,7 @@
     "symptoms": [
       {
         "term": "小便自利",
-        "count": 10
+        "count": 9
       },
       {
         "term": "渴",
@@ -150,6 +141,6 @@
     "脈浮虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

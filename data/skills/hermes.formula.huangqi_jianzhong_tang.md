@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.huangqi_jianzhong_tang`
 - **Merged rule**: `MHR_FORMULA_HUANGQI_JIANZHONG_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.91
 - **Supporting initial rules**: 5
 
 ## 归纳主张

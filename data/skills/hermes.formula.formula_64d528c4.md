@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_64d528c4`
 - **Merged rule**: `MHR_FORMULA_FORMULA_64D528C4`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 15
+- **Consensus score**: 0.891
+- **Supporting initial rules**: 14
 
 ## 归纳主张
-通脈四逆加豬膽汁湯可歸納為霍亂、嘔吐、汗出、厥、四逆、渴等方證的核心方（支持條文 15 條，跨 14 部書）。
+通脈四逆加豬膽汁湯可歸納為汗出、厥、四逆、脈微欲絕等方證的核心方（支持條文 14 條，跨 13 部書）。
 
 ## 原文证据（节选）
 > 四肢拘急。不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。
@@ -35,7 +35,7 @@
 > ——《傷寒纘論》·厥陰篇（SU_B5FF1CA1B_000772，silver）
 
 ## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_B54968951", "book_title": "劉河間傷寒醫鑑", "distinct_conditions": ["吐利", "嘔吐", "惡寒", "手足厥冷", "渴", "發熱", "霍亂"], "rule_ids": ["IR_B54968951_000023"]}
+- {"kind": "condition_variant", "book_id": "BOOK_SHL_LEIFANG", "book_title": "傷寒論類方", "distinct_conditions": ["四逆"], "rule_ids": ["IR_SHL_LEIFANG_000059"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

@@ -3,25 +3,16 @@
   "kind": "formula",
   "title": "抵當湯方證合併規則",
   "subject": "抵當湯",
-  "abstracted_claim": "抵當湯可歸納為太陽病、下血、小便不利、結胸、瘀血、蓄血等方證的核心方（支持條文 50 條，跨 22 部書）。",
+  "abstracted_claim": "抵當湯可歸納為太陽病、下血、小便不利、結胸、瘀血、蓄血等方證的核心方（支持條文 32 條，跨 15 部書）。",
   "merged_rule_id": "MHR_FORMULA_DIDANG_TANG",
   "release_level": "silver",
-  "consensus_score": 0.911,
+  "consensus_score": 0.89,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000072",
     "IR_B0B74DF58_000074",
     "IR_B11498305_000080",
     "IR_B11498305_000081",
     "IR_B11498305_000221",
-    "IR_B3E16D849_000163",
-    "IR_B3E16D849_000166",
-    "IR_B3E16D849_000465",
-    "IR_B3E16D849_000470",
-    "IR_B3E16D849_000595",
-    "IR_B3E16D849_000647",
-    "IR_B3E16D849_000648",
-    "IR_B3E16D849_000807",
-    "IR_B41512D4B_000359",
     "IR_B5FF1CA1B_000101",
     "IR_B9119D083_000295",
     "IR_B9119D083_000296",
@@ -29,13 +20,8 @@
     "IR_B9119D083_000398",
     "IR_B9119D083_000399",
     "IR_B9119D083_000400",
-    "IR_BB711944D_000218",
-    "IR_BBAACE965_000557",
-    "IR_BC91F4420_000026",
     "IR_BC91F4420_000028",
-    "IR_CAOSHI_FAWEI_000311",
     "IR_JF_SHIYANLU_000166",
-    "IR_JGYH_ERZHU_000223",
     "IR_JGYH_ERZHU_000381",
     "IR_SHL_GUANZHU_000164",
     "IR_SHL_GUIBEN_000589",
@@ -45,15 +31,11 @@
     "IR_SHL_LAISU_000253",
     "IR_SHL_LUNZHU_000247",
     "IR_SHL_LUNZHU_000252",
-    "IR_SHL_MINGLI_000141",
-    "IR_SHL_MINGLI_000142",
     "IR_SHL_QJYF_000099",
     "IR_SHL_QJYF_000181",
     "IR_SHL_QJYF_000182",
     "IR_SHL_SONGBEN_000183",
     "IR_SHL_SONGBEN_000184",
-    "IR_SHL_SUYUAN_000180",
-    "IR_SHL_SUYUAN_000182",
     "IR_SHL_TIAOWEN_000137",
     "IR_SHL_TIAOWEN_000138",
     "IR_SHL_ZHUJIE_000414",
@@ -67,15 +49,6 @@
       "IR_B11498305_000080",
       "IR_B11498305_000081",
       "IR_B11498305_000221",
-      "IR_B3E16D849_000163",
-      "IR_B3E16D849_000166",
-      "IR_B3E16D849_000465",
-      "IR_B3E16D849_000470",
-      "IR_B3E16D849_000595",
-      "IR_B3E16D849_000647",
-      "IR_B3E16D849_000648",
-      "IR_B3E16D849_000807",
-      "IR_B41512D4B_000359",
       "IR_B5FF1CA1B_000101",
       "IR_B9119D083_000295",
       "IR_B9119D083_000296",
@@ -83,13 +56,8 @@
       "IR_B9119D083_000398",
       "IR_B9119D083_000399",
       "IR_B9119D083_000400",
-      "IR_BB711944D_000218",
-      "IR_BBAACE965_000557",
-      "IR_BC91F4420_000026",
       "IR_BC91F4420_000028",
-      "IR_CAOSHI_FAWEI_000311",
       "IR_JF_SHIYANLU_000166",
-      "IR_JGYH_ERZHU_000223",
       "IR_JGYH_ERZHU_000381",
       "IR_SHL_GUANZHU_000164",
       "IR_SHL_GUIBEN_000589",
@@ -99,15 +67,11 @@
       "IR_SHL_LAISU_000253",
       "IR_SHL_LUNZHU_000247",
       "IR_SHL_LUNZHU_000252",
-      "IR_SHL_MINGLI_000141",
-      "IR_SHL_MINGLI_000142",
       "IR_SHL_QJYF_000099",
       "IR_SHL_QJYF_000181",
       "IR_SHL_QJYF_000182",
       "IR_SHL_SONGBEN_000183",
       "IR_SHL_SONGBEN_000184",
-      "IR_SHL_SUYUAN_000180",
-      "IR_SHL_SUYUAN_000182",
       "IR_SHL_TIAOWEN_000137",
       "IR_SHL_TIAOWEN_000138",
       "IR_SHL_ZHUJIE_000414",
@@ -117,87 +81,10 @@
   },
   "original_evidence": [
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "太陽經脈",
-      "source_unit_id": "SU_B3E16D849_000467",
-      "evidence_span": "小便自利。其人如狂者。血結症也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "少腹硬滿",
-      "source_unit_id": "SU_B3E16D849_001031",
-      "evidence_span": "小便自利。其人如狂者。血結症也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "發黃",
-      "source_unit_id": "SU_B3E16D849_001296",
-      "evidence_span": "小便自利。其人如狂者。血結症也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "蓄血",
-      "source_unit_id": "SU_B3E16D849_001395",
-      "evidence_span": "小便自利。其人如狂者。血結症也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "小便不利小便難",
-      "source_unit_id": "SU_B3E16D849_001658",
-      "evidence_span": "小便自利。其人如狂者。血結症也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "抵當湯方",
-      "source_unit_id": "SU_B41512D4B_000855",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "仲景傷寒補亡論",
-      "chapter_title": "太陽經證治下九十一條",
-      "source_unit_id": "SU_BB711944D_000367",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治中",
-      "source_unit_id": "SU_BBAACE965_001375",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "chapter_title": "太陽篇",
-      "source_unit_id": "SU_CAOSHI_FAWEI_000389",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱玉函經二註",
-      "chapter_title": "黃膽病脈證並治第十五",
-      "source_unit_id": "SU_JGYH_ERZHU_001345",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱玉函經二註",
       "chapter_title": "婦人雜病脈證並治第二十二",
       "source_unit_id": "SU_JGYH_ERZHU_001862",
       "evidence_span": "其人喜忘者。必有蓄血。大便黑色。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "中風證治第一",
-      "source_unit_id": "SU_SHL_SUYUAN_000383",
-      "evidence_span": "小便自利。其人如狂者。血證諦也。抵當湯主之。",
       "release_level": "silver"
     },
     {
@@ -212,41 +99,6 @@
       "chapter_title": "辨太陽病脈證並治上編第一",
       "source_unit_id": "SU_BC91F4420_000106",
       "evidence_span": "為無血也。小便自利其人如狂者。血證諦也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "蓄血",
-      "source_unit_id": "SU_B3E16D849_001395",
-      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "太陽經脈",
-      "source_unit_id": "SU_B3E16D849_000465",
-      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "少腹硬滿",
-      "source_unit_id": "SU_B3E16D849_001020",
-      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨太陽病脈證並治上編第一",
-      "source_unit_id": "SU_BC91F4420_000101",
-      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒溯源集",
-      "chapter_title": "中風證治第一",
-      "source_unit_id": "SU_SHL_SUYUAN_000367",
-      "evidence_span": "下血乃愈。所以然者。以太陽隨經瘀熱在裡故也。抵當湯主之。",
       "release_level": "silver"
     },
     {
@@ -325,6 +177,118 @@
       "source_unit_id": "SU_SHL_LAISU_000183",
       "evidence_span": "太陽病，身黃，脈沉結，少腹硬，小便不利者，為無血也，小便自利，其人如狂者，血結症也，抵當湯主之。",
       "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000424",
+      "evidence_span": "太陽病，身黃，脈沉結，少腹鞕，小便不利者，為無血也。小便自利，其人如狂者，血證諦也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000271",
+      "evidence_span": "太陽病，身黃，脈沉結，少腹鞕，小便不利者，為無血也。小便自利，其人如狂者，血證諦也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "陽明下篇",
+      "source_unit_id": "SU_B11498305_000313",
+      "evidence_span": "陽明病，其人善忘者，必有畜血，所以然者，本有久瘀血，故令善忘，糞雖鞕，大便反易，其色必黑，宜抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000598",
+      "evidence_span": "7.97太陽病，身黃，脈沉結，少腹鞕，小便不利者，為無血也；小便自利，其人如狂者，血證諦也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000226",
+      "evidence_span": "病者無表裡證，發熱七八日，雖脈浮數，可下之，假令下已，脈數不解，而合熱消穀喜飢，至六七日，不大便者，有瘀血，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽上篇",
+      "source_unit_id": "SU_B0B74DF58_000178",
+      "evidence_span": "**四十、太陽病身黃，脈沉結，少腹鞕，小便不利者，為無血也。小便自利，其人如狂者，血證諦**（審也，證據確實的意思。）**也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B11498305_000117",
+      "evidence_span": "太陽病六七日，表證仍在，脈微而況，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈，所以然者，以太陽隨經瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "發狂",
+      "source_unit_id": "SU_B9119D083_000684",
+      "evidence_span": "太陽病，六七日，表症仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，小腹當硬滿。小便自利者，下血乃愈。所以然者，以太陽經淤熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000420",
+      "evidence_span": "太陽病，六七日表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裏故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000267",
+      "evidence_span": "太陽病，六七日表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裏故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000865",
+      "evidence_span": "太陽病六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當硬滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裡故也。抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "太陽傳本證治七條",
+      "source_unit_id": "SU_SHL_GUANZHU_000104",
+      "evidence_span": "太陽病，六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈，所以然者，以太陽隨經，瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "蓄血",
+      "source_unit_id": "SU_B9119D083_001033",
+      "evidence_span": "按蓄血治法，有上中下三條。傷寒失汗，淤其血於上焦，用犀角地黃湯；如狂喜忘，心下滿，淤其血於中焦，桃仁承氣湯；小腹硬痛，小便自利，淤其血於下焦，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000596",
+      "evidence_span": "7.96太陽病六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞕滿，小便自利者，下血乃愈。所以然者，以太陽隨經，瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "抵當湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000451",
+      "evidence_span": "太陽病六七日，表症仍在，而反下之，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當硬滿，小便自利者，下血乃愈。所以然者，以太陽隨經瘀熱在裡故也，抵當湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第七一案　抵當湯證　其三穎師親撰",
+      "source_unit_id": "SU_JF_SHIYANLU_000423",
+      "evidence_span": "本湯條文曰：「太陽病，六七日，表證仍在，脈微而沉，反不結胸，其人發狂者，以熱在下焦，少腹當鞭滿，小便自利，下血乃癒。所以然者，以太陽隨經瘀熱在裏故也，抵當湯主之。",
+      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -346,6 +310,7 @@
       "book_id": "BOOK_B9119D083",
       "book_title": "傷寒大白",
       "distinct_conditions": [
+        "傷寒",
         "心下滿"
       ],
       "rule_ids": [
@@ -372,21 +337,18 @@
     },
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_SHL_MINGLI",
-      "book_title": "傷寒明理論",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
       "distinct_conditions": [
-        "便膿血",
-        "厥",
-        "吐血",
-        "少腹急結",
-        "少腹滿",
-        "渴",
-        "潮熱",
-        "脈浮"
+        "不大便",
+        "發熱",
+        "脈數",
+        "脈浮數"
       ],
       "rule_ids": [
-        "IR_SHL_MINGLI_000141",
-        "IR_SHL_MINGLI_000142"
+        "IR_SHL_QJYF_000099",
+        "IR_SHL_QJYF_000181",
+        "IR_SHL_QJYF_000182"
       ]
     },
     {
@@ -472,109 +434,85 @@
     "disease": [
       {
         "term": "太陽病",
-        "count": 24
+        "count": 22
       },
       {
         "term": "下血",
-        "count": 19
+        "count": 12
       },
       {
         "term": "小便不利",
-        "count": 14
+        "count": 12
       },
       {
         "term": "結胸",
-        "count": 13
+        "count": 11
       },
       {
         "term": "瘀血",
-        "count": 5
+        "count": 3
       },
       {
         "term": "蓄血",
         "count": 3
       },
       {
-        "term": "傷寒",
-        "count": 3
-      },
-      {
-        "term": "腹滿",
-        "count": 2
-      },
-      {
         "term": "陽明病",
+        "count": 1
+      },
+      {
+        "term": "傷寒",
         "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "小便自利",
-        "count": 40
+        "count": 27
       },
       {
         "term": "身黃",
-        "count": 13
+        "count": 11
+      },
+      {
+        "term": "心下滿",
+        "count": 1
+      },
+      {
+        "term": "腹痛",
+        "count": 1
       },
       {
         "term": "發熱",
-        "count": 3
+        "count": 1
       },
       {
         "term": "不大便",
-        "count": 3
-      },
-      {
-        "term": "吐血",
-        "count": 2
-      },
-      {
-        "term": "厥",
-        "count": 2
-      },
-      {
-        "term": "少腹滿",
-        "count": 2
-      },
-      {
-        "term": "少腹急結",
-        "count": 2
-      },
-      {
-        "term": "潮熱",
-        "count": 2
-      },
-      {
-        "term": "渴",
-        "count": 2
+        "count": 1
       }
     ],
     "pulse": [
       {
         "term": "脈微",
-        "count": 13
+        "count": 11
       },
       {
         "term": "脈沉",
-        "count": 13
+        "count": 11
       },
       {
         "term": "脈浮數",
-        "count": 3
+        "count": 1
       },
       {
         "term": "脈數",
-        "count": 3
-      },
-      {
-        "term": "脈浮",
-        "count": 2
+        "count": 1
       }
     ],
     "pathomechanism": [
       {
         "term": "瘀熱在裏",
-        "count": 10
+        "count": 8
       }
     ]
   },
@@ -582,7 +520,7 @@
     "treatment_principle": [
       {
         "term": "破血逐瘀",
-        "count": 50
+        "count": 32
       }
     ]
   },
@@ -595,16 +533,15 @@
     "瘀血",
     "小便自利",
     "身黃",
+    "心下滿",
+    "腹痛",
     "發熱",
-    "不大便",
-    "吐血",
     "脈微",
     "脈沉",
     "脈浮數",
-    "脈數",
-    "脈浮"
+    "脈數"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

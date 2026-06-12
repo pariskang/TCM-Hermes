@@ -3,29 +3,25 @@
   "kind": "formula",
   "title": "十棗湯方證合併規則",
   "subject": "十棗湯",
-  "abstracted_claim": "十棗湯可歸納為太陽中風、心下痞、下利、懸飲、傷寒、腹滿等方證的核心方（支持條文 51 條，跨 29 部書）。",
+  "abstracted_claim": "十棗湯可歸納為太陽中風、下利、心下痞、懸飲、傷寒、結胸等方證的核心方（支持條文 45 條，跨 26 部書）。",
   "merged_rule_id": "MHR_FORMULA_SHIZAO_TANG",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.885,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000087",
     "IR_B11498305_000521",
-    "IR_B18FAB5FB_000094",
     "IR_B1CAC3ADF_000441",
     "IR_B3E16D849_000285",
     "IR_B3E16D849_000341",
     "IR_B3E16D849_000388",
     "IR_B3E16D849_000415",
     "IR_B3E16D849_000542",
-    "IR_B3E16D849_001188",
     "IR_B3E16D849_001240",
-    "IR_B41512D4B_000438",
     "IR_B8E444005_000369",
     "IR_B9119D083_000176",
     "IR_B9119D083_000298",
     "IR_B9119D083_000555",
     "IR_BB7301DF2_000026",
-    "IR_BB7301DF2_000236",
     "IR_BBAACE965_000692",
     "IR_BC91F4420_000043",
     "IR_CAOSHI_FAWEI_000387",
@@ -40,7 +36,6 @@
     "IR_JGYL_JIYI_000199",
     "IR_JGYL_JIYI_000220",
     "IR_JGYL_JIYI_000227",
-    "IR_JGYL_QIANZHU_000133",
     "IR_JGYL_QIANZHU_000147",
     "IR_JGYL_TIAOWEN_000117",
     "IR_JGYL_TIAOWEN_000130",
@@ -52,7 +47,6 @@
     "IR_SHL_GUIBEN_001407",
     "IR_SHL_LAISU_000195",
     "IR_SHL_LUNZHU_000191",
-    "IR_SHL_MINGLI_000113",
     "IR_SHL_QJYF_000077",
     "IR_SHL_SONGBEN_000223",
     "IR_SHL_SUYUAN_000467",
@@ -65,22 +59,18 @@
     "silver": [
       "IR_B0B74DF58_000087",
       "IR_B11498305_000521",
-      "IR_B18FAB5FB_000094",
       "IR_B1CAC3ADF_000441",
       "IR_B3E16D849_000285",
       "IR_B3E16D849_000341",
       "IR_B3E16D849_000388",
       "IR_B3E16D849_000415",
       "IR_B3E16D849_000542",
-      "IR_B3E16D849_001188",
       "IR_B3E16D849_001240",
-      "IR_B41512D4B_000438",
       "IR_B8E444005_000369",
       "IR_B9119D083_000176",
       "IR_B9119D083_000298",
       "IR_B9119D083_000555",
       "IR_BB7301DF2_000026",
-      "IR_BB7301DF2_000236",
       "IR_BBAACE965_000692",
       "IR_BC91F4420_000043",
       "IR_CAOSHI_FAWEI_000387",
@@ -95,7 +85,6 @@
       "IR_JGYL_JIYI_000199",
       "IR_JGYL_JIYI_000220",
       "IR_JGYL_JIYI_000227",
-      "IR_JGYL_QIANZHU_000133",
       "IR_JGYL_QIANZHU_000147",
       "IR_JGYL_TIAOWEN_000117",
       "IR_JGYL_TIAOWEN_000130",
@@ -107,7 +96,6 @@
       "IR_SHL_GUIBEN_001407",
       "IR_SHL_LAISU_000195",
       "IR_SHL_LUNZHU_000191",
-      "IR_SHL_MINGLI_000113",
       "IR_SHL_QJYF_000077",
       "IR_SHL_SONGBEN_000223",
       "IR_SHL_SUYUAN_000467",
@@ -182,13 +170,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "白散方",
-      "source_unit_id": "SU_B41512D4B_000944",
-      "evidence_span": "汗出不惡寒者。此表解。裡未和也。十棗湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒百證歌",
       "chapter_title": "第九證‧表裡水歌",
       "source_unit_id": "SU_BB7301DF2_000025",
@@ -217,13 +198,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "短氣",
-      "source_unit_id": "SU_B3E16D849_002426",
-      "evidence_span": "汗出。不惡寒者。此表解裡故未和也。十棗湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證二十一條、方十九首",
       "source_unit_id": "SU_JGYL_JIYI_001777",
@@ -242,13 +216,6 @@
       "chapter_title": "自汗",
       "source_unit_id": "SU_B3E16D849_002506",
       "evidence_span": "短氣汗出。不惡寒者。此表解裡未和也。十棗湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "source_unit_id": "SU_JGYL_QIANZHU_000653",
-      "evidence_span": "其為）懸飲內痛。（無疑。）病懸飲者。十棗湯主之。",
       "release_level": "silver"
     },
     {
@@ -308,13 +275,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒百證歌",
-      "chapter_title": "第六十八證‧脅痛歌",
-      "source_unit_id": "SU_BB7301DF2_000204",
-      "evidence_span": "心下痞。堅、滿、引脅下痛。表解裡未和者。十棗湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論輯義",
       "chapter_title": "辨太陽病脈證並治下",
       "source_unit_id": "SU_BBAACE965_001656",
@@ -326,6 +286,34 @@
       "chapter_title": "太陽篇",
       "source_unit_id": "SU_CAOSHI_FAWEI_000459",
       "evidence_span": "乾嘔短氣。汗出不惡寒者。此表解裏未和也。十棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "心下痞證治第四",
+      "source_unit_id": "SU_SHL_SUYUAN_000899",
+      "evidence_span": "乾嘔短氣。汗出不惡寒者。此表解裡未和也。十棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001603",
+      "evidence_span": "咳家其脈弦，為有水，十棗湯主之（十棗湯方見傷寒論太陽篇）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第八二案　懸飲　其一穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000541",
+      "evidence_span": "又按《金匱》曰：「脈沉而弦者，懸飲內痛。」又曰：「病懸飲者，十棗湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "心下痞證治第四",
+      "source_unit_id": "SU_SHL_SUYUAN_000902",
+      "evidence_span": "然終不若結胸之有實熱者也。所以當蠲其水濕痰飲之邪。則胃和而氣自流通矣。故以十棗湯主之。",
       "release_level": "silver"
     }
   ],
@@ -345,19 +333,14 @@
     },
     {
       "kind": "condition_variant",
-      "book_id": "BOOK_SHL_MINGLI",
-      "book_title": "傷寒明理論",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
       "distinct_conditions": [
-        "喘",
-        "小便不利",
-        "惡風",
-        "氣上衝",
-        "潮熱",
-        "腹滿",
-        "趺陽脈微"
+        "傷寒"
       ],
       "rule_ids": [
-        "IR_SHL_MINGLI_000113"
+        "IR_JF_SHIYANLU_000199",
+        "IR_JF_SHIYANLU_000200"
       ]
     },
     {
@@ -433,27 +416,19 @@
         "count": 14
       },
       {
-        "term": "心下痞",
-        "count": 14
-      },
-      {
         "term": "下利",
         "count": 13
       },
       {
+        "term": "心下痞",
+        "count": 13
+      },
+      {
         "term": "懸飲",
-        "count": 9
+        "count": 8
       },
       {
         "term": "傷寒",
-        "count": 2
-      },
-      {
-        "term": "腹滿",
-        "count": 1
-      },
-      {
-        "term": "小便不利",
         "count": 1
       },
       {
@@ -468,19 +443,19 @@
     "symptoms": [
       {
         "term": "汗出",
-        "count": 30
+        "count": 27
       },
       {
         "term": "惡寒",
-        "count": 29
-      },
-      {
-        "term": "短氣",
         "count": 26
       },
       {
-        "term": "乾嘔",
+        "term": "短氣",
         "count": 25
+      },
+      {
+        "term": "乾嘔",
+        "count": 23
       },
       {
         "term": "嘔逆",
@@ -497,14 +472,6 @@
       {
         "term": "心下痞硬",
         "count": 4
-      },
-      {
-        "term": "喘",
-        "count": 1
-      },
-      {
-        "term": "氣上衝",
-        "count": 1
       }
     ],
     "pulse": [
@@ -519,10 +486,6 @@
       {
         "term": "脈浮",
         "count": 1
-      },
-      {
-        "term": "趺陽脈微",
-        "count": 1
       }
     ],
     "pathomechanism": []
@@ -531,15 +494,15 @@
     "treatment_principle": [
       {
         "term": "攻逐水飲",
-        "count": 51
+        "count": 45
       }
     ]
   },
   "keywords": [
     "十棗湯",
     "太陽中風",
-    "心下痞",
     "下利",
+    "心下痞",
     "懸飲",
     "傷寒",
     "汗出",
@@ -549,10 +512,9 @@
     "嘔逆",
     "脈弦",
     "脈沉",
-    "脈浮",
-    "趺陽脈微"
+    "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

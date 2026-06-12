@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_f2c55974`
 - **Merged rule**: `MHR_FORMULA_FORMULA_F2C55974`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 8
+- **Consensus score**: 0.908
+- **Supporting initial rules**: 7
 
 ## 归纳主张
-乾薑人參半夏丸可歸納為嘔吐、妊娠等方證的核心方（支持條文 8 條，跨 8 部書）。
+乾薑人參半夏丸可歸納為妊娠、嘔吐等方證的核心方（支持條文 7 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 妊娠嘔吐不止，乾薑人參半夏丸主之
@@ -30,9 +30,6 @@
 
 > 16.6 妊娠，嘔吐不止，乾薑人參半夏丸主之。
 > ——《傷寒雜病論(桂本)》·辨婦人各病脈證並治（SU_SHL_GUIBEN_001364，silver）
-
-> 則嘔吐。）嘔吐不止。（則寒而且虛矣。以）乾薑人參半夏丸主之。
-> ——《金匱要略淺註》·婦人妊娠病脈證治第二十（SU_JGYL_QIANZHU_001278，silver）
 
 ## 版本差异 variant_set
 - {"kind": "composition_variant", "books": ["曹氏傷寒金匱發微合刊"], "composition": ["乾薑", "人參", "半夏"], "rule_ids": ["IR_CAOSHI_FAWEI_001404"]}

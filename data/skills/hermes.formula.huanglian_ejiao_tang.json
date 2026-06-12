@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "黃連阿膠湯方證合併規則",
   "subject": "黃連阿膠湯",
-  "abstracted_claim": "黃連阿膠湯可歸納為少陰病、蓄血、瘀血、下利、傷寒、不得臥等方證的核心方（支持條文 30 條，跨 24 部書）。",
+  "abstracted_claim": "黃連阿膠湯可歸納為少陰病、不得臥、心煩等方證的核心方（支持條文 26 條，跨 22 部書）。",
   "merged_rule_id": "MHR_FORMULA_HUANGLIAN_EJIAO_TANG",
   "release_level": "silver",
-  "consensus_score": 0.913,
+  "consensus_score": 0.899,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000671",
     "IR_B0B74DF58_000672",
@@ -25,13 +25,9 @@
     "IR_BF5CDC206_000133",
     "IR_BF5CDC206_000165",
     "IR_CAOSHI_FAWEI_000732",
-    "IR_JF_SHIYANLU_000235",
     "IR_SHL_GUIBEN_000996",
-    "IR_SHL_LAISU_000265",
     "IR_SHL_LAISU_000680",
-    "IR_SHL_LUNZHU_000259",
     "IR_SHL_LUNZHU_000676",
-    "IR_SHL_MINGLI_000053",
     "IR_SHL_QJYF_000218",
     "IR_SHL_SONGBEN_000376",
     "IR_SHL_SUYUAN_001195",
@@ -59,13 +55,9 @@
       "IR_BF5CDC206_000133",
       "IR_BF5CDC206_000165",
       "IR_CAOSHI_FAWEI_000732",
-      "IR_JF_SHIYANLU_000235",
       "IR_SHL_GUIBEN_000996",
-      "IR_SHL_LAISU_000265",
       "IR_SHL_LAISU_000680",
-      "IR_SHL_LUNZHU_000259",
       "IR_SHL_LUNZHU_000676",
-      "IR_SHL_MINGLI_000053",
       "IR_SHL_QJYF_000218",
       "IR_SHL_SONGBEN_000376",
       "IR_SHL_SUYUAN_001195",
@@ -245,24 +237,10 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論注",
-      "chapter_title": "抵當湯證",
-      "source_unit_id": "SU_SHL_LUNZHU_000471",
-      "evidence_span": "前條據症推原，此條憑脈辨症。表裡熱極，陽盛陰虛，必傷陰絡。故仍不大便者，必有蓄血，熱利不止，必大便膿血矣。宜黃連阿膠湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論(千金翼方)",
       "chapter_title": "少陰病狀第二",
       "source_unit_id": "SU_SHL_QJYF_000279",
       "evidence_span": "上三味，以水七升，先煮麻黃一二沸，去上沫，納諸藥，煮取二升半，去滓，溫服八合少陰病，得之二三日以上，心中煩，不得臥者，黃連阿膠湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "經方實驗錄",
-      "chapter_title": "第九五案　產後陽明病穎師講授　佐景筆記",
-      "source_unit_id": "SU_JF_SHIYANLU_000645",
-      "evidence_span": "」此二條，如狂與發狂異，急結與硬滿異，是其辨也。迨後角弓反張，當為大承氣湯證。仲聖曰：「臥不著席，腳攣急，必齘齒，可與大承氣湯」是也。最後，狂言不寐，亦如仲聖所謂「心中煩，不得臥，黃連阿膠湯主之」之證。",
       "release_level": "silver"
     },
     {
@@ -271,65 +249,9 @@
       "source_unit_id": "SU_B0B74DF58_001351",
       "evidence_span": "【闡釋】　此條鄭氏於《醫理真傳》六經定法已言之，可參閱。按此乃寒邪化熱，血液受傷之候。本證的心煩，與心、腎有密切關係，腎屬水，心屬火，腎水不足，心火有餘，水不升，火不降，心腎不交，故不得臥；又腎水不足，不能制其心火，故心煩，必得滋其腎陰，制其心火，斯為正治，黃連阿膠湯主之是也。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒來蘇集",
-      "chapter_title": "抵當湯證",
-      "source_unit_id": "SU_SHL_LAISU_000189",
-      "evidence_span": "病人無表裏症，發熱七八日，不大便，雖脈浮數者，可下之，假令已下，脈數不解，合熱則消穀善饑，至六七日不大便者，有瘀血也，宜抵當湯，若脈數不解，而下利不止，必協熱而便膿血也。[不頭痛惡寒，為無表症，不煩燥嘔湯，為無裏症，非無熱也，七八日下，當有不大便句，故脈雖浮數，有可下之理，觀下後六七日，猶然不便可知，合熱協熱，內外熱也，前條據症推原，此條憑脈辨症，表裏熱極，陽盛陰虛，必傷陰絡，故仍不大便者，必有蓄血，熱利不止，必大便膿血矣，宜黃連阿膠湯主之，上條大便反易，知瘀血留久，是驗之於已形，此條仍不大便，知瘀血已結，是料之於未形。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒明理論",
-      "chapter_title": "虛煩",
-      "source_unit_id": "SU_SHL_MINGLI_000019",
-      "evidence_span": "傷寒虛煩，何以明之，虛煩者，心中鬱鬱而煩也，有胸中煩，有心中煩，有虛煩，諸如此者，皆熱也，若止云煩者，表熱也，及其邪熱傳裏，故有胸中煩，心中煩，虛煩之別，三者要在觀其熱所從來，審其虛實而治，為不同也，如不經發汗吐下而煩者，則是傳經之熱，不作膈實者，但多和解而已，故經曰，心煩喜嘔，或胸中煩而不嘔者，小柴胡湯主之，少陰病二三日，心中煩，不得臥者，黃連阿膠湯主之，少陰病，胸滿心煩者，豬膚湯主之，是皆和解而徹熱者也，若因吐下發汗後而煩者，則是內陷之煩，但多湧吐而已，發汗吐下後，虛煩不得眠，若劇者必反覆顛倒，心中懊憹者，梔子豉湯主之，若少氣者，梔子甘草豉湯主之，若嘔者，梔子生薑豉湯主之，心煩腹滿，臥起不安者，梔子厚朴湯主之，圓藥大下後，身熱不去，微煩者，梔子乾薑湯主之，是皆取其吐而湧其熱者也，虛煩之狀，心中溫溫然欲吐，憒憒然無奈，欲嘔不嘔，擾擾亂亂，是名煩也，非吐則不能已，經曰，下利後更煩，按之心下濡者，為虛煩也，宜梔子豉湯，脈乍結，心中滿而煩，饑不能食者，病在胸中，瓜蒂散，二者症均是煩也，藥均是吐也，而又輕重之不同，吐下發汗後，邪氣乘虛而入為煩者，則謂之虛煩，與梔子豉湯，則是吐劑之輕者，不因吐下發汗後，邪氣結於胸中，則為膈實，與瓜蒂散，則是吐劑之重者，又陽明病，不吐不下心煩者，則是煩之實者也，與調胃承氣湯下之，傷寒二三日，心中悸而煩者，則是煩之虛者也，與小建中湯補之，煩為熱也，悸而復煩為虛者，以悸為虛，悸甚而煩，故為虛也，少陽之邪入府者，煩而悸，則為熱也，大抵先煩而悸者，是為熱也，先悸而煩者，是為虛也，內經曰，治病必先求其本，誠哉是言也。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_JF_SHIYANLU",
-      "book_title": "經方實驗錄",
-      "distinct_conditions": [
-        "角弓反張"
-      ],
-      "rule_ids": [
-        "IR_JF_SHIYANLU_000235"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_LAISU",
-      "book_title": "傷寒來蘇集",
-      "distinct_conditions": [
-        "下利",
-        "惡寒",
-        "瘀血",
-        "發熱",
-        "脈數",
-        "脈浮數",
-        "頭痛"
-      ],
-      "rule_ids": [
-        "IR_SHL_LAISU_000265",
-        "IR_SHL_LAISU_000680"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_MINGLI",
-      "book_title": "傷寒明理論",
-      "distinct_conditions": [
-        "傷寒",
-        "喜嘔",
-        "虛煩"
-      ],
-      "rule_ids": [
-        "IR_SHL_MINGLI_000053"
-      ]
-    },
     {
       "kind": "composition_variant",
       "books": [
@@ -401,103 +323,37 @@
     "disease": [
       {
         "term": "少陰病",
-        "count": 18
-      },
-      {
-        "term": "蓄血",
-        "count": 2
-      },
-      {
-        "term": "瘀血",
-        "count": 1
-      },
-      {
-        "term": "下利",
-        "count": 1
-      },
-      {
-        "term": "傷寒",
-        "count": 1
+        "count": 17
       }
     ],
     "symptoms": [
       {
         "term": "不得臥",
-        "count": 26
+        "count": 24
       },
       {
         "term": "心煩",
-        "count": 4
-      },
-      {
-        "term": "不大便",
-        "count": 2
-      },
-      {
-        "term": "便膿血",
-        "count": 2
-      },
-      {
-        "term": "角弓反張",
-        "count": 1
-      },
-      {
-        "term": "發熱",
-        "count": 1
-      },
-      {
-        "term": "頭痛",
-        "count": 1
-      },
-      {
-        "term": "惡寒",
-        "count": 1
-      },
-      {
-        "term": "虛煩",
-        "count": 1
-      },
-      {
-        "term": "喜嘔",
-        "count": 1
+        "count": 3
       }
     ],
-    "pulse": [
-      {
-        "term": "脈浮數",
-        "count": 1
-      },
-      {
-        "term": "脈數",
-        "count": 1
-      }
-    ],
+    "pulse": [],
     "pathomechanism": []
   },
   "then_profile": {
     "treatment_principle": [
       {
         "term": "育陰清熱",
-        "count": 30
+        "count": 26
       }
     ]
   },
   "keywords": [
     "黃連阿膠湯",
     "少陰病",
-    "蓄血",
-    "瘀血",
-    "下利",
-    "傷寒",
     "不得臥",
-    "心煩",
-    "不大便",
-    "便膿血",
-    "角弓反張",
-    "脈浮數",
-    "脈數"
+    "心煩"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

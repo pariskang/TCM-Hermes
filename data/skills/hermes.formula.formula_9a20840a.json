@@ -3,14 +3,13 @@
   "kind": "formula",
   "title": "去桂枝加白朮湯方證合併規則",
   "subject": "去桂枝加白朮湯",
-  "abstracted_claim": "去桂枝加白朮湯可歸納為傷寒、小便自利、大便硬、渴、脈浮虛等方證的核心方（支持條文 9 條，跨 8 部書）。",
+  "abstracted_claim": "去桂枝加白朮湯可歸納為傷寒、小便自利、大便硬、渴、脈浮虛等方證的核心方（支持條文 8 條，跨 7 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_9A20840A",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.883,
   "supporting_initial_rules": [
     "IR_B11498305_000160",
     "IR_B1CAC3ADF_000510",
-    "IR_B5FF1CA1B_000189",
     "IR_BC91F4420_000205",
     "IR_CAOSHI_FAWEI_000458",
     "IR_CAOSHI_FAWEI_000968",
@@ -23,7 +22,6 @@
     "silver": [
       "IR_B11498305_000160",
       "IR_B1CAC3ADF_000510",
-      "IR_B5FF1CA1B_000189",
       "IR_BC91F4420_000205",
       "IR_CAOSHI_FAWEI_000458",
       "IR_CAOSHI_FAWEI_000968",
@@ -70,13 +68,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒纘論",
-      "chapter_title": "太陽下編",
-      "source_unit_id": "SU_B5FF1CA1B_000265",
-      "evidence_span": "不嘔不渴脈浮虛而澀者。與桂枝附子湯主之。若其人大便硬小便自利者。去桂枝加白朮湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒貫珠集",
       "chapter_title": "風濕四條",
       "source_unit_id": "SU_SHL_GUANZHU_000207",
@@ -110,21 +101,21 @@
     "symptoms": [
       {
         "term": "小便自利",
-        "count": 9
+        "count": 8
       },
       {
         "term": "大便硬",
-        "count": 4
+        "count": 3
       },
       {
         "term": "渴",
-        "count": 3
+        "count": 2
       }
     ],
     "pulse": [
       {
         "term": "脈浮虛",
-        "count": 3
+        "count": 2
       }
     ],
     "pathomechanism": []
@@ -141,6 +132,6 @@
     "脈浮虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

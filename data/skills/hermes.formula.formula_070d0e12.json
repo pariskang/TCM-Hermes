@@ -6,7 +6,7 @@
   "abstracted_claim": "梔子湯可歸納為陽明病、結胸、下利、汗出、胸中窒、飢不能食等方證的核心方（支持條文 8 條，跨 6 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_070D0E12",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.912,
   "supporting_initial_rules": [
     "IR_B3E520529_000253",
     "IR_BB7301DF2_000267",
@@ -196,6 +196,6 @@
     "虛煩"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

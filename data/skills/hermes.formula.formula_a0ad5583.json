@@ -6,7 +6,7 @@
   "abstracted_claim": "甘草乾薑湯可歸納為咳、厥、喘、耳聾、渴、脈沉等方證的核心方（支持條文 3 條，跨 2 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_A0AD5583",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.912,
   "supporting_initial_rules": [
     "IR_BB7301DF2_000309",
     "IR_SHL_GUIBEN_000346",
@@ -170,6 +170,6 @@
     "脈沉"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_99ead915`
 - **Merged rule**: `MHR_FORMULA_FORMULA_99EAD915`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 25
+- **Consensus score**: 0.884
+- **Supporting initial rules**: 24
 
 ## 归纳主张
-白通加豬膽汁湯可歸納為下利、少陰病、厥、乾嘔、脈微等方證的核心方（支持條文 25 條，跨 21 部書）。
+白通加豬膽汁湯可歸納為少陰病、下利、厥、乾嘔、脈微等方證的核心方（支持條文 24 條，跨 20 部書）。
 
 ## 原文证据（节选）
 > 乾嘔煩者。白通加豬膽汁湯主之。

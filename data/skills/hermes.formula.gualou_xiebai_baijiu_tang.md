@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.gualou_xiebai_baijiu_tang`
 - **Merged rule**: `MHR_FORMULA_GUALOU_XIEBAI_BAIJIU_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.92
+- **Consensus score**: 0.892
 - **Supporting initial rules**: 8
 
 ## 归纳主张

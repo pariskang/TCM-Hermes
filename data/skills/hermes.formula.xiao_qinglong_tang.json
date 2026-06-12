@@ -3,24 +3,21 @@
   "kind": "formula",
   "title": "小青龍湯方證合併規則",
   "subject": "小青龍湯",
-  "abstracted_claim": "小青龍湯可歸納為傷寒、小便不利、腹滿、痞、心下痞、少陰病等方證的核心方（支持條文 77 條，跨 33 部書）。",
+  "abstracted_claim": "小青龍湯可歸納為傷寒、小便不利、腹滿、痞、心下痞、少陰病等方證的核心方（支持條文 66 條，跨 31 部書）。",
   "merged_rule_id": "MHR_FORMULA_XIAO_QINGLONG_TANG",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.896,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000320",
     "IR_B0B74DF58_000323",
     "IR_B0B74DF58_000324",
     "IR_B11498305_000051",
     "IR_B11498305_000053",
-    "IR_B18FAB5FB_000093",
     "IR_B1CAC3ADF_000171",
     "IR_B1CAC3ADF_000175",
-    "IR_B3E16D849_000217",
     "IR_B3E16D849_000469",
     "IR_B3E16D849_000503",
     "IR_B3E16D849_000504",
-    "IR_B3E16D849_000528",
     "IR_B3E16D849_000529",
     "IR_B3E16D849_000541",
     "IR_B3E16D849_000552",
@@ -29,7 +26,6 @@
     "IR_B3E520529_000118",
     "IR_B41512D4B_000158",
     "IR_B41512D4B_000160",
-    "IR_B41512D4B_000161",
     "IR_B5FF1CA1B_000056",
     "IR_B5FF1CA1B_000058",
     "IR_B8E444005_000225",
@@ -37,16 +33,12 @@
     "IR_B9119D083_000107",
     "IR_B9119D083_000634",
     "IR_B9119D083_000635",
-    "IR_B9119D083_000636",
     "IR_BB7301DF2_000221",
     "IR_BB7301DF2_000250",
     "IR_BB7301DF2_000299",
     "IR_BBA9FB4A6_000377",
     "IR_BBAACE965_000187",
-    "IR_BBAACE965_000192",
-    "IR_BBAACE965_000194",
     "IR_BC91F4420_000315",
-    "IR_BC91F4420_000317",
     "IR_CAOSHI_FAWEI_000098",
     "IR_CAOSHI_FAWEI_000099",
     "IR_CAOSHI_FAWEI_001168",
@@ -57,8 +49,6 @@
     "IR_JGYL_FANGLUN_000291",
     "IR_JGYL_JIYI_000230",
     "IR_JGYL_JIYI_000470",
-    "IR_JGYL_QIANZHU_000152",
-    "IR_JGYL_QIANZHU_000337",
     "IR_JGYL_TIAOWEN_000132",
     "IR_JGYL_TIAOWEN_000291",
     "IR_JGYL_XINDIAN_000136",
@@ -80,7 +70,6 @@
     "IR_SHL_SONGBEN_000090",
     "IR_SHL_SONGBEN_000091",
     "IR_SHL_SUYUAN_000541",
-    "IR_SHL_SUYUAN_000546",
     "IR_SHL_TIAOWEN_000044",
     "IR_SHL_TIAOWEN_000045",
     "IR_SHL_ZHUJIE_000217",
@@ -94,14 +83,11 @@
       "IR_B0B74DF58_000324",
       "IR_B11498305_000051",
       "IR_B11498305_000053",
-      "IR_B18FAB5FB_000093",
       "IR_B1CAC3ADF_000171",
       "IR_B1CAC3ADF_000175",
-      "IR_B3E16D849_000217",
       "IR_B3E16D849_000469",
       "IR_B3E16D849_000503",
       "IR_B3E16D849_000504",
-      "IR_B3E16D849_000528",
       "IR_B3E16D849_000529",
       "IR_B3E16D849_000541",
       "IR_B3E16D849_000552",
@@ -110,7 +96,6 @@
       "IR_B3E520529_000118",
       "IR_B41512D4B_000158",
       "IR_B41512D4B_000160",
-      "IR_B41512D4B_000161",
       "IR_B5FF1CA1B_000056",
       "IR_B5FF1CA1B_000058",
       "IR_B8E444005_000225",
@@ -118,16 +103,12 @@
       "IR_B9119D083_000107",
       "IR_B9119D083_000634",
       "IR_B9119D083_000635",
-      "IR_B9119D083_000636",
       "IR_BB7301DF2_000221",
       "IR_BB7301DF2_000250",
       "IR_BB7301DF2_000299",
       "IR_BBA9FB4A6_000377",
       "IR_BBAACE965_000187",
-      "IR_BBAACE965_000192",
-      "IR_BBAACE965_000194",
       "IR_BC91F4420_000315",
-      "IR_BC91F4420_000317",
       "IR_CAOSHI_FAWEI_000098",
       "IR_CAOSHI_FAWEI_000099",
       "IR_CAOSHI_FAWEI_001168",
@@ -138,8 +119,6 @@
       "IR_JGYL_FANGLUN_000291",
       "IR_JGYL_JIYI_000230",
       "IR_JGYL_JIYI_000470",
-      "IR_JGYL_QIANZHU_000152",
-      "IR_JGYL_QIANZHU_000337",
       "IR_JGYL_TIAOWEN_000132",
       "IR_JGYL_TIAOWEN_000291",
       "IR_JGYL_XINDIAN_000136",
@@ -161,7 +140,6 @@
       "IR_SHL_SONGBEN_000090",
       "IR_SHL_SONGBEN_000091",
       "IR_SHL_SUYUAN_000541",
-      "IR_SHL_SUYUAN_000546",
       "IR_SHL_TIAOWEN_000044",
       "IR_SHL_TIAOWEN_000045",
       "IR_SHL_ZHUJIE_000217",
@@ -291,13 +269,6 @@
     },
     {
       "book_title": "傷寒論綱目",
-      "chapter_title": "喘",
-      "source_unit_id": "SU_B3E16D849_001132",
-      "evidence_span": "或噎。或小便不利少腹滿。或喘者。小青龍湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
       "chapter_title": "嘔吐",
       "source_unit_id": "SU_B3E16D849_001162",
       "evidence_span": "或噎。或小便不利少腹滿。或喘者。小青龍湯主之。",
@@ -326,13 +297,6 @@
     },
     {
       "book_title": "傷寒論綱目",
-      "chapter_title": "發熱",
-      "source_unit_id": "SU_B3E16D849_000579",
-      "evidence_span": "發熱不渴。服湯已渴者。此寒去欲解也。小青龍湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論綱目",
       "chapter_title": "咳嗽",
       "source_unit_id": "SU_B3E16D849_001088",
       "evidence_span": "傷寒心下有水氣。咳而微喘。發熱不渴。小青龍湯主之。",
@@ -353,20 +317,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治中",
-      "source_unit_id": "SU_BBAACE965_000536",
-      "evidence_span": "發熱不渴。服湯已渴者。此寒去欲解也。小青龍湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨太陽病脈證並治下編第三",
-      "source_unit_id": "SU_BC91F4420_000701",
-      "evidence_span": "發熱不渴。服湯已渴者。此寒去欲解也。小青龍湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱玉函經二註",
       "chapter_title": "婦人雜病脈證並治第二十二",
       "source_unit_id": "SU_JGYH_ERZHU_001825",
@@ -378,6 +328,34 @@
       "chapter_title": "論一首、脈證合十四條、方十四首",
       "source_unit_id": "SU_JGYL_JIYI_003478",
       "evidence_span": "醫反下之。心下即痞。當先治其吐涎沫。小青龍湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人雜病脈證並治第二十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_001662",
+      "evidence_span": "醫反下之。心下即痞。當先治其吐涎沫。小青龍湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱方歌括",
+      "chapter_title": "小青龍湯",
+      "source_unit_id": "SU_JG_FANGGEKUO_000932",
+      "evidence_span": "醫反下之。心下即痞。當先治其吐涎沫。小青龍湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001207",
+      "evidence_span": "14.20咳逆倚息，不得臥，脈浮弦者，小青龍湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "咳",
+      "source_unit_id": "SU_B8E444005_000321",
+      "evidence_span": "傷寒表不解。心下有水氣。乾嘔發熱而咳者。小青龍湯主之。",
       "release_level": "silver"
     }
   ],
@@ -426,6 +404,7 @@
       "distinct_conditions": [
         "下利",
         "少陰病",
+        "形寒",
         "腹痛"
       ],
       "rule_ids": [
@@ -549,19 +528,19 @@
     "disease": [
       {
         "term": "傷寒",
-        "count": 33
+        "count": 32
       },
       {
         "term": "小便不利",
-        "count": 26
+        "count": 25
       },
       {
         "term": "腹滿",
-        "count": 26
+        "count": 25
       },
       {
         "term": "痞",
-        "count": 7
+        "count": 6
       },
       {
         "term": "心下痞",
@@ -579,27 +558,27 @@
     "symptoms": [
       {
         "term": "喘",
-        "count": 47
+        "count": 45
       },
       {
         "term": "發熱",
-        "count": 42
-      },
-      {
-        "term": "渴",
-        "count": 41
+        "count": 36
       },
       {
         "term": "咳",
-        "count": 35
+        "count": 34
       },
       {
-        "term": "乾嘔",
-        "count": 22
+        "term": "渴",
+        "count": 34
       },
       {
         "term": "少腹滿",
-        "count": 22
+        "count": 21
+      },
+      {
+        "term": "乾嘔",
+        "count": 20
       },
       {
         "term": "不得臥",
@@ -610,11 +589,11 @@
         "count": 2
       },
       {
-        "term": "形寒",
-        "count": 2
+        "term": "小便難",
+        "count": 1
       },
       {
-        "term": "小便難",
+        "term": "形寒",
         "count": 1
       }
     ],
@@ -630,11 +609,11 @@
     "treatment_principle": [
       {
         "term": "解表散寒",
-        "count": 77
+        "count": 66
       },
       {
         "term": "溫肺化飲",
-        "count": 77
+        "count": 66
       }
     ]
   },
@@ -647,12 +626,12 @@
     "心下痞",
     "喘",
     "發熱",
-    "渴",
     "咳",
-    "乾嘔",
+    "渴",
+    "少腹滿",
     "脈浮"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

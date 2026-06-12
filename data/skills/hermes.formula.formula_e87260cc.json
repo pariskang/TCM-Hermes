@@ -3,10 +3,10 @@
   "kind": "formula",
   "title": "桂枝附子湯方證合併規則",
   "subject": "桂枝附子湯",
-  "abstracted_claim": "桂枝附子湯可歸納為傷寒、渴、脈浮虛、脈浮、脈虛等方證的核心方（支持條文 16 條，跨 15 部書）。",
+  "abstracted_claim": "桂枝附子湯可歸納為傷寒、渴、脈浮虛、脈浮、脈虛等方證的核心方（支持條文 15 條，跨 14 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_E87260CC",
   "release_level": "silver",
-  "consensus_score": 0.916,
+  "consensus_score": 0.891,
   "supporting_initial_rules": [
     "IR_B11498305_000159",
     "IR_B1CAC3ADF_000508",
@@ -17,7 +17,6 @@
     "IR_B5C5ECAC2_000459",
     "IR_B8E444005_000404",
     "IR_B9119D083_000151",
-    "IR_BBAACE965_000797",
     "IR_BC91F4420_000203",
     "IR_CAOSHI_FAWEI_000967",
     "IR_SHL_GUANZHU_000345",
@@ -37,7 +36,6 @@
       "IR_B5C5ECAC2_000459",
       "IR_B8E444005_000404",
       "IR_B9119D083_000151",
-      "IR_BBAACE965_000797",
       "IR_BC91F4420_000203",
       "IR_CAOSHI_FAWEI_000967",
       "IR_SHL_GUANZHU_000345",
@@ -87,13 +85,6 @@
       "book_title": "傷寒尋源",
       "chapter_title": "桂枝附子湯",
       "source_unit_id": "SU_B8E444005_000756",
-      "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論輯義",
-      "chapter_title": "辨太陽病脈證並治下",
-      "source_unit_id": "SU_BBAACE965_001900",
       "evidence_span": "不能自轉側。不嘔不渴。脈浮虛而澀者。桂枝附子湯主之。",
       "release_level": "silver"
     },
@@ -242,13 +233,13 @@
     "symptoms": [
       {
         "term": "渴",
-        "count": 16
+        "count": 15
       }
     ],
     "pulse": [
       {
         "term": "脈浮虛",
-        "count": 14
+        "count": 13
       },
       {
         "term": "脈浮",
@@ -273,6 +264,6 @@
     "脈虛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

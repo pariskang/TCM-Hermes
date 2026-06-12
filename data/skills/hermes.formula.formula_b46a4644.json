@@ -6,7 +6,7 @@
   "abstracted_claim": "茵陳湯可歸納為小便不利、陽明病、傷寒、渴、發黃、發熱等方證的核心方（支持條文 7 條，跨 4 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_B46A4644",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.899,
   "supporting_initial_rules": [
     "IR_B1CAC3ADF_000645",
     "IR_B9119D083_000477",
@@ -158,6 +158,6 @@
     "頭汗出"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

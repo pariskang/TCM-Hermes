@@ -3,43 +3,25 @@
   "kind": "formula",
   "title": "桂枝加桂湯方證合併規則",
   "subject": "桂枝加桂湯",
-  "abstracted_claim": "桂枝加桂湯可歸納為奔豚等方證的核心方（支持條文 5 條，跨 5 部書）。",
+  "abstracted_claim": "桂枝加桂湯可歸納為奔豚等方證的核心方（支持條文 3 條，跨 3 部書）。",
   "merged_rule_id": "MHR_FORMULA_GUIZHI_JIA_GUI_TANG",
   "release_level": "silver",
   "consensus_score": 0.92,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001066",
-    "IR_JGYH_ERZHU_000094",
     "IR_JGYL_FANGLUN_000077",
-    "IR_JGYL_JIYI_000129",
     "IR_JGYL_TIAOWEN_000077"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
       "IR_CAOSHI_FAWEI_001066",
-      "IR_JGYH_ERZHU_000094",
       "IR_JGYL_FANGLUN_000077",
-      "IR_JGYL_JIYI_000129",
       "IR_JGYL_TIAOWEN_000077"
     ],
     "bronze": []
   },
   "original_evidence": [
-    {
-      "book_title": "金匱玉函經二註",
-      "chapter_title": "奔豚氣病脈證治第八",
-      "source_unit_id": "SU_JGYH_ERZHU_000651",
-      "evidence_span": "必發奔豚。氣從少腹上至心。灸其核上各一壯。與桂枝加桂湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱玉函要略輯義",
-      "chapter_title": "論二首、方三首",
-      "source_unit_id": "SU_JGYL_JIYI_001205",
-      "evidence_span": "必發奔豚。氣從少腹上至心。灸其核上各一壯。與桂枝加桂湯主之。",
-      "release_level": "silver"
-    },
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "奔豚氣病脈證第八",
@@ -118,7 +100,7 @@
     "disease": [
       {
         "term": "奔豚",
-        "count": 5
+        "count": 3
       }
     ],
     "symptoms": [],
@@ -129,11 +111,11 @@
     "treatment_principle": [
       {
         "term": "溫通心陽",
-        "count": 5
+        "count": 3
       },
       {
         "term": "平衝降逆",
-        "count": 5
+        "count": 3
       }
     ]
   },
@@ -142,6 +124,6 @@
     "奔豚"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

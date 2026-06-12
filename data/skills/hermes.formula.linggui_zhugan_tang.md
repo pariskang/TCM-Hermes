@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.linggui_zhugan_tang`
 - **Merged rule**: `MHR_FORMULA_LINGGUI_ZHUGAN_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.916
-- **Supporting initial rules**: 15
+- **Consensus score**: 0.887
+- **Supporting initial rules**: 14
 
 ## 归纳主张
-苓桂朮甘湯可歸納為痰飲、太陽中風、虛勞、短氣、目眩、寒熱等方證的核心方（支持條文 15 條，跨 10 部書）。
+苓桂朮甘湯可歸納為痰飲、目眩、短氣等方證的核心方（支持條文 14 條，跨 9 部書）。
 
 ## 原文证据（节选）
 > 心下有痰飲。胸脅支滿目眩。苓桂朮甘湯主之。
@@ -33,9 +33,6 @@
 
 > 夫短氣有微飲。當從小便去之。苓桂朮甘湯主之。
 > ——《金匱玉函要略輯義》·論一首、脈證二十一條、方十九首（SU_JGYL_JIYI_001755，silver）
-
-## 版本差异 variant_set
-- {"kind": "condition_variant", "book_id": "BOOK_BEF533107", "book_title": "傷寒兼證析義", "distinct_conditions": ["太陽中風", "寒熱", "虛勞"], "rule_ids": ["IR_BEF533107_000082"]}
 
 ## 安全声明
 本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。

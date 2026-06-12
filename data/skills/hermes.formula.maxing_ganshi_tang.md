@@ -3,7 +3,7 @@
 - **Skill**: `hermes.formula.maxing_ganshi_tang`
 - **Merged rule**: `MHR_FORMULA_MAXING_GANSHI_TANG`
 - **Release level**: silver
-- **Consensus score**: 0.914
+- **Consensus score**: 0.893
 - **Supporting initial rules**: 9
 
 ## 归纳主张

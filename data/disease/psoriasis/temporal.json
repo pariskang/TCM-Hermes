@@ -1,0 +1,25 @@
+{
+  "dynasty_trends": {
+    "隋": {
+      "dominant_pathogenesis": [
+        {
+          "term": "風濕",
+          "rel_freq": 0.25
+        },
+        {
+          "term": "血氣相搏",
+          "rel_freq": 0.25
+        },
+        {
+          "term": "寒濕",
+          "rel_freq": 0.25
+        },
+        {
+          "term": "腠理",
+          "rel_freq": 0.25
+        }
+      ],
+      "dominant_treatments": []
+    }
+  }
+}

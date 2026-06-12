@@ -3,18 +3,15 @@
   "kind": "formula",
   "title": "甘草粉蜜湯方證合併規則",
   "subject": "甘草粉蜜湯",
-  "abstracted_claim": "甘草粉蜜湯可歸納為心痛、蚘蟲、嘔吐、腹痛等方證的核心方（支持條文 9 條，跨 9 部書）。",
+  "abstracted_claim": "甘草粉蜜湯可歸納為心痛、蚘蟲、嘔吐、腹痛等方證的核心方（支持條文 6 條，跨 6 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_03DC020B",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.912,
   "supporting_initial_rules": [
     "IR_CAOSHI_FAWEI_001391",
-    "IR_JGYH_ERZHU_000331",
     "IR_JGYL_FANGLUN_000251",
     "IR_JGYL_JIYI_000420",
-    "IR_JGYL_QIANZHU_000287",
     "IR_JGYL_TIAOWEN_000251",
-    "IR_JGYL_XINDIAN_000283",
     "IR_SHL_GUIBEN_001172",
     "IR_SHL_LAISU_000717"
   ],
@@ -22,12 +19,9 @@
     "gold": [],
     "silver": [
       "IR_CAOSHI_FAWEI_001391",
-      "IR_JGYH_ERZHU_000331",
       "IR_JGYL_FANGLUN_000251",
       "IR_JGYL_JIYI_000420",
-      "IR_JGYL_QIANZHU_000287",
       "IR_JGYL_TIAOWEN_000251",
-      "IR_JGYL_XINDIAN_000283",
       "IR_SHL_GUIBEN_001172",
       "IR_SHL_LAISU_000717"
     ],
@@ -35,31 +29,10 @@
   },
   "original_evidence": [
     {
-      "book_title": "金匱玉函經二註",
-      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蛔蟲病脈證第十九",
-      "source_unit_id": "SU_JGYH_ERZHU_001678",
-      "evidence_span": "心痛。發作有時。毒藥不止。甘草粉蜜湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證一條、方五首",
       "source_unit_id": "SU_JGYL_JIYI_003143",
       "evidence_span": "令人吐涎。心痛發作有時。毒藥不止者。甘草粉蜜湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "跌蹶手指臂腫轉筋狐疝蚘蟲病脈證治第十九",
-      "source_unit_id": "SU_JGYL_QIANZHU_001245",
-      "evidence_span": "令人吐涎心痛。發作有時。毒藥不止者。甘草粉蜜湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略心典",
-      "chapter_title": "趺蹶手指臂腫轉筋狐疝蛔蟲病脈證治第十九",
-      "source_unit_id": "SU_JGYL_XINDIAN_001500",
-      "evidence_span": "令人吐涎心痛。發作有時。毒藥不止者。甘草粉蜜湯主之。",
       "release_level": "silver"
     },
     {
@@ -145,7 +118,7 @@
     "disease": [
       {
         "term": "心痛",
-        "count": 9
+        "count": 6
       },
       {
         "term": "蚘蟲",
@@ -176,6 +149,6 @@
     "腹痛"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

@@ -3,11 +3,11 @@
 - **Skill**: `hermes.formula.formula_d17f4b87`
 - **Merged rule**: `MHR_FORMULA_FORMULA_D17F4B87`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 15
+- **Consensus score**: 0.906
+- **Supporting initial rules**: 14
 
 ## 归纳主张
-歸生薑羊肉湯可歸納為產後、寒疝、腹中痛、脅痛等方證的核心方（支持條文 15 條，跨 8 部書）。
+歸生薑羊肉湯可歸納為寒疝、產後、腹中痛、脅痛等方證的核心方（支持條文 14 條，跨 7 部書）。
 
 ## 原文证据（节选）
 > 產後腹中　痛。當歸生薑羊肉湯主之。

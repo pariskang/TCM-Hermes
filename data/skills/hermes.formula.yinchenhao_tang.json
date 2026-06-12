@@ -3,16 +3,14 @@
   "kind": "formula",
   "title": "茵陳蒿湯方證合併規則",
   "subject": "茵陳蒿湯",
-  "abstracted_claim": "茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 54 條，跨 29 部書）。",
+  "abstracted_claim": "茵陳蒿湯可歸納為小便不利、傷寒、陽明病、穀疸、腹滿、發黃等方證的核心方（支持條文 46 條，跨 27 部書）。",
   "merged_rule_id": "MHR_FORMULA_YINCHENHAO_TANG",
   "release_level": "silver",
-  "consensus_score": 0.91,
+  "consensus_score": 0.888,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000407",
     "IR_B0B74DF58_000408",
     "IR_B11498305_000133",
-    "IR_B18FAB5FB_000040",
-    "IR_B18FAB5FB_000043",
     "IR_B18FAB5FB_000139",
     "IR_B1CAC3ADF_000699",
     "IR_B3E16D849_000600",
@@ -26,9 +24,6 @@
     "IR_B5C5ECAC2_000328",
     "IR_B5FF1CA1B_000159",
     "IR_B8E444005_000426",
-    "IR_B8E444005_000427",
-    "IR_BB7301DF2_000082",
-    "IR_BB7301DF2_000300",
     "IR_BBAACE965_001018",
     "IR_BBAACE965_001021",
     "IR_BBAACE965_001088",
@@ -37,7 +32,6 @@
     "IR_BF5CDC206_000073",
     "IR_CAOSHI_FAWEI_000608",
     "IR_CAOSHI_FAWEI_000661",
-    "IR_CAOSHI_FAWEI_001245",
     "IR_CAOSHI_FAWEI_001251",
     "IR_JGYH_ERZHU_000215",
     "IR_JGYL_FANGLUN_000170",
@@ -46,7 +40,6 @@
     "IR_JGYL_TIAOWEN_000170",
     "IR_JGYL_XINDIAN_000187",
     "IR_SHL_GUANZHU_000499",
-    "IR_SHL_GUANZHU_000504",
     "IR_SHL_GUIBEN_000832",
     "IR_SHL_GUIBEN_000872",
     "IR_SHL_GUIBEN_000879",
@@ -54,7 +47,6 @@
     "IR_SHL_LAISU_000437",
     "IR_SHL_LUNZHU_000427",
     "IR_SHL_LUNZHU_000430",
-    "IR_SHL_MINGLI_000135",
     "IR_SHL_SONGBEN_000313",
     "IR_SHL_SONGBEN_000341",
     "IR_SHL_SUYUAN_000858",
@@ -69,8 +61,6 @@
       "IR_B0B74DF58_000407",
       "IR_B0B74DF58_000408",
       "IR_B11498305_000133",
-      "IR_B18FAB5FB_000040",
-      "IR_B18FAB5FB_000043",
       "IR_B18FAB5FB_000139",
       "IR_B1CAC3ADF_000699",
       "IR_B3E16D849_000600",
@@ -84,9 +74,6 @@
       "IR_B5C5ECAC2_000328",
       "IR_B5FF1CA1B_000159",
       "IR_B8E444005_000426",
-      "IR_B8E444005_000427",
-      "IR_BB7301DF2_000082",
-      "IR_BB7301DF2_000300",
       "IR_BBAACE965_001018",
       "IR_BBAACE965_001021",
       "IR_BBAACE965_001088",
@@ -95,7 +82,6 @@
       "IR_BF5CDC206_000073",
       "IR_CAOSHI_FAWEI_000608",
       "IR_CAOSHI_FAWEI_000661",
-      "IR_CAOSHI_FAWEI_001245",
       "IR_CAOSHI_FAWEI_001251",
       "IR_JGYH_ERZHU_000215",
       "IR_JGYL_FANGLUN_000170",
@@ -104,7 +90,6 @@
       "IR_JGYL_TIAOWEN_000170",
       "IR_JGYL_XINDIAN_000187",
       "IR_SHL_GUANZHU_000499",
-      "IR_SHL_GUANZHU_000504",
       "IR_SHL_GUIBEN_000832",
       "IR_SHL_GUIBEN_000872",
       "IR_SHL_GUIBEN_000879",
@@ -112,7 +97,6 @@
       "IR_SHL_LAISU_000437",
       "IR_SHL_LUNZHU_000427",
       "IR_SHL_LUNZHU_000430",
-      "IR_SHL_MINGLI_000135",
       "IR_SHL_SONGBEN_000313",
       "IR_SHL_SONGBEN_000341",
       "IR_SHL_SUYUAN_000858",
@@ -150,13 +134,6 @@
       "chapter_title": "正陽陽明證治第十二",
       "source_unit_id": "SU_SHL_SUYUAN_001882",
       "evidence_span": "此為瘀熱在裡。身必發黃。茵陳蒿湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒百證歌",
-      "chapter_title": "第八十八證‧小便不利歌",
-      "source_unit_id": "SU_BB7301DF2_000256",
-      "evidence_span": "如橘子色。小便利。腹微滿者。茵陳蒿湯主之。",
       "release_level": "silver"
     },
     {
@@ -258,34 +235,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒捷訣",
-      "chapter_title": "發黃",
-      "source_unit_id": "SU_B18FAB5FB_000071",
-      "evidence_span": "渴飲水漿。此為痰熱在裡。必發黃。宜以茵陳蒿湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒捷訣",
-      "chapter_title": "發黃",
-      "source_unit_id": "SU_B18FAB5FB_000071",
-      "evidence_span": "若身如橘色。小便不利。腹微滿者。亦宜茵陳蒿湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒尋源",
-      "chapter_title": "茵陳蒿湯",
-      "source_unit_id": "SU_B8E444005_000827",
-      "evidence_span": "渴飲水漿者。此為瘀熱在裡。身必發黃。茵陳蒿湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒百證歌",
-      "chapter_title": "第三十二證‧可下不可下歌",
-      "source_unit_id": "SU_BB7301DF2_000097",
-      "evidence_span": "（仲景云。陽明瘀熱在裡。身必發黃。宜茵陳蒿湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒論輯義",
       "chapter_title": "辨陽明病脈證並治",
       "source_unit_id": "SU_BBAACE965_002396",
@@ -333,26 +282,44 @@
       "source_unit_id": "SU_B41512D4B_001606",
       "evidence_span": "（重出例）傷寒七八日身黃如橘子色（云云至）茵陳蒿湯主之。",
       "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "茵陳湯證",
+      "source_unit_id": "SU_SHL_LAISU_000305",
+      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "茵陳湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000750",
+      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨陽明病脈證並治第八",
+      "source_unit_id": "SU_SHL_SONGBEN_000662",
+      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000509",
+      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨陽明病脈證並治法第八",
+      "source_unit_id": "SU_SHL_ZHUJIE_001251",
+      "evidence_span": "傷寒七八日，身黃如橘子色，小便不利，腹微滿者，茵陳蒿湯主之。",
+      "release_level": "silver"
     }
   ],
   "variant_set": [
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_CAOSHI_FAWEI",
-      "book_title": "曹氏傷寒金匱發微合刊",
-      "distinct_conditions": [
-        "口燥",
-        "惡寒",
-        "惡熱",
-        "胸滿"
-      ],
-      "rule_ids": [
-        "IR_CAOSHI_FAWEI_000608",
-        "IR_CAOSHI_FAWEI_000661",
-        "IR_CAOSHI_FAWEI_001245",
-        "IR_CAOSHI_FAWEI_001251"
-      ]
-    },
     {
       "kind": "condition_variant",
       "book_id": "BOOK_SHL_GUIBEN",
@@ -364,19 +331,6 @@
         "IR_SHL_GUIBEN_000832",
         "IR_SHL_GUIBEN_000872",
         "IR_SHL_GUIBEN_000879"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_SHL_MINGLI",
-      "book_title": "傷寒明理論",
-      "distinct_conditions": [
-        "少腹滿",
-        "脈浮緩",
-        "自汗出"
-      ],
-      "rule_ids": [
-        "IR_SHL_MINGLI_000135"
       ]
     },
     {
@@ -437,37 +391,20 @@
       ]
     }
   ],
-  "conflict_set": [
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現茵陳蒿湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_GUANZHU_000504"
-      ],
-      "book_title": "傷寒貫珠集"
-    },
-    {
-      "kind": "indication_vs_prohibition",
-      "message": "證據中同時出現茵陳蒿湯應用與禁忌表述，需按條件區分。",
-      "rule_ids": [
-        "IR_SHL_MINGLI_000135"
-      ],
-      "book_title": "傷寒明理論"
-    }
-  ],
+  "conflict_set": [],
   "if_profile": {
     "disease": [
       {
         "term": "小便不利",
-        "count": 31
+        "count": 27
       },
       {
         "term": "傷寒",
-        "count": 12
+        "count": 9
       },
       {
         "term": "陽明病",
-        "count": 10
+        "count": 8
       },
       {
         "term": "穀疸",
@@ -475,37 +412,37 @@
       },
       {
         "term": "腹滿",
-        "count": 3
+        "count": 2
       }
     ],
     "symptoms": [
       {
         "term": "發黃",
-        "count": 32
+        "count": 26
       },
       {
         "term": "身黃",
-        "count": 20
-      },
-      {
-        "term": "渴",
         "count": 18
       },
       {
+        "term": "渴",
+        "count": 14
+      },
+      {
         "term": "汗出",
-        "count": 10
+        "count": 8
       },
       {
         "term": "頭汗出",
-        "count": 10
+        "count": 8
       },
       {
         "term": "無汗",
-        "count": 10
+        "count": 8
       },
       {
         "term": "發熱",
-        "count": 8
+        "count": 7
       },
       {
         "term": "頭眩",
@@ -516,20 +453,15 @@
         "count": 3
       },
       {
-        "term": "小便利",
-        "count": 2
-      }
-    ],
-    "pulse": [
-      {
-        "term": "脈浮緩",
+        "term": "不能食",
         "count": 1
       }
     ],
+    "pulse": [],
     "pathomechanism": [
       {
         "term": "瘀熱在裏",
-        "count": 9
+        "count": 6
       }
     ]
   },
@@ -537,7 +469,7 @@
     "treatment_principle": [
       {
         "term": "清熱利濕退黃",
-        "count": 54
+        "count": 46
       }
     ]
   },
@@ -552,10 +484,9 @@
     "身黃",
     "渴",
     "汗出",
-    "頭汗出",
-    "脈浮緩"
+    "頭汗出"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

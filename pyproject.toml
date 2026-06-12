@@ -14,7 +14,8 @@ dependencies = []
 
 [project.optional-dependencies]
 download = ["py7zr>=0.20"]
-llm = ["anthropic>=0.40"]
+llm = ["litellm>=1.40"]            # one interface to OpenAI/Anthropic/Gemini/…
+anthropic = ["anthropic>=0.40"]    # direct Anthropic SDK backend
 dev = ["pytest>=7", "py7zr>=0.20"]
 
 [project.scripts]

@@ -1,0 +1,165 @@
+{
+  "skill_id": "hermes.disease.05666868",
+  "kind": "disease",
+  "title": "寒疝證治合併規則",
+  "subject": "寒疝",
+  "abstracted_claim": "寒疝相關條文 15 條；主要方劑：歸生薑羊肉湯、大烏頭煎、抵當烏頭桂枝湯、烏頭桂枝湯。",
+  "merged_rule_id": "MHR_DISEASE_05666868",
+  "release_level": "silver",
+  "consensus_score": 0.907,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001114",
+    "IR_CAOSHI_FAWEI_001115",
+    "IR_CAOSHI_FAWEI_001117",
+    "IR_JGYH_ERZHU_000115",
+    "IR_JGYL_FANGLUN_000099",
+    "IR_JGYL_FANGLUN_000100",
+    "IR_JGYL_FANGLUN_000101",
+    "IR_JGYL_JIYI_000168",
+    "IR_JGYL_TIAOWEN_000099",
+    "IR_JGYL_TIAOWEN_000100",
+    "IR_JGYL_TIAOWEN_000101",
+    "IR_JGYL_XINDIAN_000102",
+    "IR_SHL_GUIBEN_001175",
+    "IR_SHL_GUIBEN_001178",
+    "IR_SHL_GUIBEN_001181"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001114",
+      "IR_CAOSHI_FAWEI_001115",
+      "IR_CAOSHI_FAWEI_001117",
+      "IR_JGYH_ERZHU_000115",
+      "IR_JGYL_FANGLUN_000099",
+      "IR_JGYL_FANGLUN_000100",
+      "IR_JGYL_FANGLUN_000101",
+      "IR_JGYL_JIYI_000168",
+      "IR_JGYL_TIAOWEN_000099",
+      "IR_JGYL_TIAOWEN_000100",
+      "IR_JGYL_TIAOWEN_000101",
+      "IR_JGYL_XINDIAN_000102",
+      "IR_SHL_GUIBEN_001175",
+      "IR_SHL_GUIBEN_001178",
+      "IR_SHL_GUIBEN_001181"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001492",
+      "evidence_span": "寒疝腹中痛及脇，痛裏急者，當歸生薑羊肉湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000406",
+      "evidence_span": "寒疝腹中痛，及脅痛裏急者，當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_001479",
+      "evidence_span": "寒疝腹中痛。及脅痛裡急者。當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000404",
+      "evidence_span": "寒疝腹中痛，及脅痛裏急者，當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_000678",
+      "evidence_span": "寒疝腹中痛。及脅痛裡急者。當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_000794",
+      "evidence_span": "寒疝。腹中痛。及脅痛裡急者。當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001038",
+      "evidence_span": "11.114寒疝，腹中痛，若脇痛裏急者，當歸生薑羊肉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001496",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，炙刺諸藥不能治，抵當烏頭桂枝湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000410",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，灸刺諸藥不能治，抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000408",
+      "evidence_span": "寒疝腹中痛，逆冷，手足不仁，若身疼痛，灸刺諸藥不能治，抵當烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001040",
+      "evidence_span": "11.115寒疝，腹中痛，手足不仁，若逆冷，若身疼痛，灸刺諸藥不能治者，烏頭桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001487",
+      "evidence_span": "腹滿，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪下相搏，即為寒疝，寒疝繞臍痛，若發則白津出，手足厥冷，其脈沉緊者，大烏頭煎主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001036",
+      "evidence_span": "11.113厥陰病，脈弦而緊，弦則衛氣不行，緊則不欲食，邪正相搏，即為寒疝。繞臍而痛，手足厥冷，是其候也。脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000402",
+      "evidence_span": "腹痛，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪正相搏，即為寒疝。寒疝繞臍痛，若發則白汗出，手足厥冷，其脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000400",
+      "evidence_span": "腹痛，脈弦而緊，弦則衛氣不行，即惡寒，緊則不欲食，邪正相搏，即為寒疝。寒疝繞臍痛，若發則白汗出，手足厥冷，其脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "寒疝"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

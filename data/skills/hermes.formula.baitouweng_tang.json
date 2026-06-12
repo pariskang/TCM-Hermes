@@ -3,16 +3,15 @@
   "kind": "formula",
   "title": "白頭翁湯方證合併規則",
   "subject": "白頭翁湯",
-  "abstracted_claim": "白頭翁湯可歸納為下利、厥陰病、傷寒、陽明病、小便不利、少陰病等方證的核心方（支持條文 30 條，跨 24 部書）。",
+  "abstracted_claim": "白頭翁湯可歸納為下利、傷寒、厥陰病、渴、寒熱、口燥等方證的核心方（支持條文 26 條，跨 21 部書）。",
   "merged_rule_id": "MHR_FORMULA_BAITOUWENG_TANG",
   "release_level": "silver",
-  "consensus_score": 0.919,
+  "consensus_score": 0.893,
   "supporting_initial_rules": [
     "IR_B0B74DF58_000764",
     "IR_B11498305_000466",
     "IR_B1CAC3ADF_000884",
     "IR_B294D68B8_000020",
-    "IR_B3E16D849_001889",
     "IR_B41512D4B_001068",
     "IR_B41512D4B_001075",
     "IR_B5C5ECAC2_000148",
@@ -21,10 +20,7 @@
     "IR_B9119D083_000703",
     "IR_BBAACE965_001358",
     "IR_BBAACE965_001359",
-    "IR_BC91F4420_000548",
-    "IR_BD20B1D70_000030",
     "IR_BF5CDC206_000196",
-    "IR_BF5CDC206_000232",
     "IR_BF5CDC206_000235",
     "IR_JF_SHIYANLU_000172",
     "IR_JGYL_JIYI_000459",
@@ -46,7 +42,6 @@
       "IR_B11498305_000466",
       "IR_B1CAC3ADF_000884",
       "IR_B294D68B8_000020",
-      "IR_B3E16D849_001889",
       "IR_B41512D4B_001068",
       "IR_B41512D4B_001075",
       "IR_B5C5ECAC2_000148",
@@ -55,10 +50,7 @@
       "IR_B9119D083_000703",
       "IR_BBAACE965_001358",
       "IR_BBAACE965_001359",
-      "IR_BC91F4420_000548",
-      "IR_BD20B1D70_000030",
       "IR_BF5CDC206_000196",
-      "IR_BF5CDC206_000232",
       "IR_BF5CDC206_000235",
       "IR_JF_SHIYANLU_000172",
       "IR_JGYL_JIYI_000459",
@@ -175,13 +167,6 @@
       "release_level": "silver"
     },
     {
-      "book_title": "傷寒論綱目",
-      "chapter_title": "熱利下重",
-      "source_unit_id": "SU_B3E16D849_003950",
-      "evidence_span": "下利。欲飲水者。以有熱故也。白頭翁湯主之。",
-      "release_level": "silver"
-    },
-    {
       "book_title": "傷寒溯源集",
       "chapter_title": "厥陰證治第二十一",
       "source_unit_id": "SU_SHL_SUYUAN_003056",
@@ -193,13 +178,6 @@
       "chapter_title": "辨厥陰病脈證並治法第十二",
       "source_unit_id": "SU_SHL_ZHUJIE_001594",
       "evidence_span": "下利，欲飲水者，以有熱故也，白頭翁湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒醫訣串解",
-      "chapter_title": "厥陰篇",
-      "source_unit_id": "SU_BF5CDC206_000255",
-      "evidence_span": "厥陰中見得病。則為熱利。下重者。白頭翁湯主之。",
       "release_level": "silver"
     },
     {
@@ -228,13 +206,6 @@
       "chapter_title": "辨厥陰病脈證並治",
       "source_unit_id": "SU_BBAACE965_003237",
       "evidence_span": "以曉之曰。下利渴欲飲水者。以有熱故也。白頭翁湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論條辨",
-      "chapter_title": "辨厥陰病脈證並治第八",
-      "source_unit_id": "SU_BC91F4420_001336",
-      "evidence_span": "（四十七）下利。欲飲水者。以有熱故也。白頭翁湯主之。",
       "release_level": "silver"
     },
     {
@@ -278,16 +249,23 @@
       "source_unit_id": "SU_JF_SHIYANLU_000430",
       "evidence_span": "余尚憶曾治一楊左白頭翁湯證，其脈案曰：「利下，色鮮紅，日二十行，無表證，渴欲飲水，脈洪大。」論曰：熱利下重者，又曰：下利欲飲水者，以有熱故也，白頭翁湯主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論翼",
-      "chapter_title": "溫暑指歸第五",
-      "source_unit_id": "SU_BD20B1D70_000032",
-      "evidence_span": "如陽明病，脈浮發熱，渴欲飲水，小便不利者，豬苓湯主之。瘀熱在裡不得越，身體發黃，渴欲飲水，小便不利者，茵陳湯主之。少陰病，得之二三日，口燥咽乾者，大承氣湯急下之。厥陰病，下利欲飲水者，白頭翁湯主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B294D68B8",
+      "book_title": "傷寒法祖",
+      "distinct_conditions": [
+        "厥",
+        "厥陰病",
+        "口燥",
+        "咽乾"
+      ],
+      "rule_ids": [
+        "IR_B294D68B8_000020"
+      ]
+    },
     {
       "kind": "condition_variant",
       "book_id": "BOOK_B5C5ECAC2",
@@ -298,22 +276,6 @@
       "rule_ids": [
         "IR_B5C5ECAC2_000148",
         "IR_B5C5ECAC2_000310"
-      ]
-    },
-    {
-      "kind": "condition_variant",
-      "book_id": "BOOK_BD20B1D70",
-      "book_title": "傷寒論翼",
-      "distinct_conditions": [
-        "小便不利",
-        "少陰病",
-        "發熱",
-        "發黃",
-        "脈浮",
-        "陽明病"
-      ],
-      "rule_ids": [
-        "IR_BD20B1D70_000030"
       ]
     },
     {
@@ -395,66 +357,42 @@
     "disease": [
       {
         "term": "下利",
-        "count": 25
-      },
-      {
-        "term": "厥陰病",
-        "count": 2
+        "count": 22
       },
       {
         "term": "傷寒",
         "count": 2
       },
       {
-        "term": "陽明病",
-        "count": 1
-      },
-      {
-        "term": "小便不利",
-        "count": 1
-      },
-      {
-        "term": "少陰病",
+        "term": "厥陰病",
         "count": 1
       }
     ],
     "symptoms": [
       {
         "term": "渴",
-        "count": 6
-      },
-      {
-        "term": "厥",
-        "count": 3
-      },
-      {
-        "term": "口燥",
-        "count": 2
-      },
-      {
-        "term": "咽乾",
-        "count": 2
+        "count": 5
       },
       {
         "term": "寒熱",
         "count": 2
       },
       {
-        "term": "發熱",
+        "term": "口燥",
         "count": 1
       },
       {
-        "term": "發黃",
+        "term": "咽乾",
+        "count": 1
+      },
+      {
+        "term": "厥",
         "count": 1
       }
     ],
     "pulse": [
       {
         "term": "脈弦",
-        "count": 1
-      },
-      {
-        "term": "脈浮",
         "count": 1
       },
       {
@@ -468,31 +406,28 @@
     "treatment_principle": [
       {
         "term": "清熱解毒",
-        "count": 30
+        "count": 26
       },
       {
         "term": "涼血止利",
-        "count": 30
+        "count": 26
       }
     ]
   },
   "keywords": [
     "白頭翁湯",
     "下利",
-    "厥陰病",
     "傷寒",
-    "陽明病",
-    "小便不利",
+    "厥陰病",
     "渴",
-    "厥",
+    "寒熱",
     "口燥",
     "咽乾",
-    "寒熱",
+    "厥",
     "脈弦",
-    "脈浮",
     "脈洪大"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

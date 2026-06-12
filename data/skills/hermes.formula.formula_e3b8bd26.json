@@ -3,25 +3,19 @@
   "kind": "formula",
   "title": "加附子湯方證合併規則",
   "subject": "加附子湯",
-  "abstracted_claim": "加附子湯可歸納為太陽病、惡寒、胸滿、脈促等方證的核心方（支持條文 6 條，跨 5 部書）。",
+  "abstracted_claim": "加附子湯可歸納為太陽病、惡寒、胸滿、脈促等方證的核心方（支持條文 3 條，跨 3 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_E3B8BD26",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.888,
   "supporting_initial_rules": [
-    "IR_B2EB248E3_000006",
     "IR_B2EB248E3_000213",
-    "IR_B41512D4B_000088",
-    "IR_B5C5ECAC2_000193",
     "IR_SHL_GUANZHU_000280",
     "IR_SHL_LEIFANG_000008"
   ],
   "supporting_rules_by_release_level": {
     "gold": [],
     "silver": [
-      "IR_B2EB248E3_000006",
       "IR_B2EB248E3_000213",
-      "IR_B41512D4B_000088",
-      "IR_B5C5ECAC2_000193",
       "IR_SHL_GUANZHU_000280",
       "IR_SHL_LEIFANG_000008"
     ],
@@ -33,27 +27,6 @@
       "chapter_title": "王朝奉辯陰陽證",
       "source_unit_id": "SU_B2EB248E3_000523",
       "evidence_span": "若微惡寒者。桂枝去芍藥。加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒指掌",
-      "chapter_title": "誤下例",
-      "source_unit_id": "SU_B5C5ECAC2_000852",
-      "evidence_span": "若微兼惡寒者。陽氣尤虛也。桂枝去芍藥。加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "中寒論辯證廣注",
-      "chapter_title": "桂枝加附子湯方",
-      "source_unit_id": "SU_B2EB248E3_000018",
-      "evidence_span": "桂枝去芍藥湯主之。若微惡寒者。去芍藥方中。加附子湯主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "傷寒論辯證廣注",
-      "chapter_title": "桂枝加葛根湯方",
-      "source_unit_id": "SU_B41512D4B_000438",
-      "evidence_span": "桂枝去芍藥湯主之。若微惡寒者。去芍藥方中。加附子湯主之。",
       "release_level": "silver"
     },
     {
@@ -83,7 +56,7 @@
     "symptoms": [
       {
         "term": "惡寒",
-        "count": 6
+        "count": 3
       },
       {
         "term": "胸滿",
@@ -109,6 +82,6 @@
     "脈促"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

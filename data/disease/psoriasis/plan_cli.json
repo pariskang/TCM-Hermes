@@ -1,0 +1,118 @@
+{
+  "plan": {
+    "target_disease": "psoriasis",
+    "display_name": "银屑病",
+    "modern_subtypes": [
+      "寻常型",
+      "脓疱型",
+      "红皮病型",
+      "关节型",
+      "头皮型",
+      "甲型"
+    ],
+    "phenotype_schema": {
+      "vulgaris": [
+        "白屑",
+        "皮枯",
+        "脫屑",
+        "如錢文",
+        "匡郭",
+        "隐胗",
+        "鱗屑",
+        "燥"
+      ],
+      "pustular": [
+        "黃水",
+        "膿水",
+        "膿皰",
+        "津水",
+        "搔之有汁",
+        "流水",
+        "泡瘡"
+      ],
+      "erythrodermic": [
+        "遍身",
+        "全身",
+        "浸淫",
+        "赤黑",
+        "成片",
+        "痒不可忍"
+      ],
+      "arthropathic": [
+        "關節",
+        "筋骨",
+        "骨節",
+        "拘急",
+        "屈伸不利",
+        "四肢",
+        "頑痹"
+      ],
+      "nail": [
+        "甲",
+        "爪",
+        "指甲",
+        "厚",
+        "脫",
+        "黑",
+        "枯"
+      ],
+      "scalp": [
+        "頭",
+        "頭發",
+        "發际",
+        "白殼",
+        "脫屑",
+        "眉"
+      ]
+    },
+    "special_subtypes": [
+      "arthropathic",
+      "nail",
+      "scalp"
+    ],
+    "differential_diseases": [
+      "圓癬",
+      "金錢癬",
+      "股癬",
+      "手足癬",
+      "禿瘡",
+      "疥瘡",
+      "麻風",
+      "痤瘡",
+      "癩",
+      "丹毒",
+      "皰疹",
+      "水痘",
+      "圓癬"
+    ],
+    "search_strategy": [
+      "T1_core_recall",
+      "T2_phenotype",
+      "T3_special_subtype",
+      "T4_morphology",
+      "T5_exclusion",
+      "T6_consensus",
+      "T7_ontology"
+    ]
+  },
+  "ancient_names": {
+    "core_terms": [
+      "癬",
+      "疕",
+      "疥",
+      "瘡",
+      "白疕",
+      "乾癬",
+      "頑癬",
+      "松皮癬",
+      "蛇蝨",
+      "牛皮癬",
+      "白癬",
+      "頭癬",
+      "膿癬"
+    ],
+    "query": "(癬 OR 疕 OR 疥 OR 瘡 OR 白疕 OR 乾癬 OR 頑癬 OR 松皮癬 OR 蛇蝨 OR 牛皮癬 OR 白癬 OR 頭癬 OR 膿癬)",
+    "search_goal": "high_recall",
+    "note": "广域召回，允许较高噪声；后续层负责精筛与排除。"
+  }
+}

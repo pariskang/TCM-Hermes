@@ -1,0 +1,111 @@
+{
+  "skill_id": "hermes.disease.76207016",
+  "kind": "disease",
+  "title": "黃汗證治合併規則",
+  "subject": "黃汗",
+  "abstracted_claim": "黃汗相關條文 9 條；主要方劑：桂枝加黃耆湯、耆芍桂酒湯、然本條麻黃湯。",
+  "merged_rule_id": "MHR_DISEASE_76207016",
+  "release_level": "silver",
+  "consensus_score": 0.894,
+  "supporting_initial_rules": [
+    "IR_B3E16D849_000621",
+    "IR_CAOSHI_FAWEI_001200",
+    "IR_CAOSHI_FAWEI_001229",
+    "IR_JGYL_FANGLUN_000160",
+    "IR_JGYL_FANGLUN_000162",
+    "IR_JGYL_QIANZHU_000189",
+    "IR_JGYL_TIAOWEN_000160",
+    "IR_JGYL_TIAOWEN_000162",
+    "IR_SHL_GUIBEN_001462"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E16D849_000621",
+      "IR_CAOSHI_FAWEI_001200",
+      "IR_CAOSHI_FAWEI_001229",
+      "IR_JGYL_FANGLUN_000160",
+      "IR_JGYL_FANGLUN_000162",
+      "IR_JGYL_QIANZHU_000189",
+      "IR_JGYL_TIAOWEN_000160",
+      "IR_JGYL_TIAOWEN_000162",
+      "IR_SHL_GUIBEN_001462"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_000882",
+      "evidence_span": "而要皆水氣傷心之所致。可以切指之曰。）此為黃汗。（以）桂枝加黃耆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E16D849_001356",
+      "evidence_span": "此一定之論也。何故復用麻黃汗之。仲景豈有前後相反之理哉。然本條麻黃湯主之五字。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000631",
+      "evidence_span": "問曰：黃汗之為病，身體腫一作重。發熱汗出而渴，狀如風水，汗沾衣，色正黃如柏汁，脈自沉，何從得之？師曰：以汗出入水中浴，水從汗孔入得之，宜耆芍桂酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000629",
+      "evidence_span": "問曰：黃汗之為病，身體腫一作重。發熱汗出而渴，狀如風水，汗沾衣，色正黃如柏汁，脈自沉，何從得之？師曰：以汗出入水中浴，水從汗孔入得之，宜耆芍桂酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000636",
+      "evidence_span": "若身重，汗出已輒輕者，久久必身瞤，瞤即胸中痛，又從腰以上必汗出，下無汗，腰髖弛痛，如有物在皮中狀，劇者不能食，身疼重，煩躁，小便不利，此為黃汗，桂枝加黃耆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000634",
+      "evidence_span": "若身重，汗出已輒輕者，久久必身瞤，瞤即胸中痛，又從腰以上必汗出，下無汗，腰髖弛痛，如有物在皮中狀，劇者不能食，身疼重，煩躁，小便不利，此為黃汗，桂枝加黃耆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001280",
+      "evidence_span": "若汗出已，反發熱者，久久身必甲錯；若發熱不止者，久久必生惡瘡；若身重，汗出已，轍②輕者，久久身必瞤，瞤即胸痛；又從腰以上汗出，以下無汗，腰髖弛痛，如有物在皮中狀，劇則不能食，身疼重，煩躁，小便不利，此為黃汗，桂枝加黃耆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001729",
+      "evidence_span": "黃汗之病，兩脛自冷，假令發熱，此屬歷節，食已汗出，又身常暮盜汗出者，此營氣氣，若汗出已，反發熱者，久久其身必甲錯，發熱不止者，必生惡瘡，若身重汗出已，輒輕者久久必身潤，潤即胸中痛，又從腰以上汗出，下無汗，腰寬弛痛如有物在皮中，狀劇者，不能食疼重煩燥，小便不利，此為黃汗，桂枝加黃耆湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001675",
+      "evidence_span": "太陽病，脈浮而緊，法當骨節疼痛，反不疼，身體反重而竣，其人不渴，肝出即愈，此為風水，惡寒者，此為極虛，發汗得之，渴而不惡寒者，此為皮水，身腫而冷，狀如周痹，胸中窒，不能食，反聚痛，暮躁不得眠，此為黃汗，痛在骨節，咳而喘，不渴者，此為肺脹，其狀如腫，發汗則愈，然諸病此者，渴而下利，小便數者，皆不可發汗。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "黃汗"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T09:33:03Z",
+  "protocol": "hermes-v5"
+}

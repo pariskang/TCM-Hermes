@@ -3,16 +3,13 @@
 - **Skill**: `hermes.formula.formula_311040a7`
 - **Merged rule**: `MHR_FORMULA_FORMULA_311040A7`
 - **Release level**: silver
-- **Consensus score**: 0.92
-- **Supporting initial rules**: 7
+- **Consensus score**: 0.904
+- **Supporting initial rules**: 6
 
 ## 归纳主张
-生薑半夏湯可歸納為噦、喘等方證的核心方（支持條文 7 條，跨 7 部書）。
+生薑半夏湯可歸納為噦、喘等方證的核心方（支持條文 6 條，跨 6 部書）。
 
 ## 原文证据（节选）
-> 似噦不噦。徹心中憒憒然。無奈者。生薑半夏湯主之。
-> ——《金匱玉函要略輯義》·論一首、脈證二十七條、方二十三首（SU_JGYL_JIYI_002832，silver）
-
 > 似嘔不嘔。似噦不噦。徹心中憒憒然無奈者。生薑半夏湯主之。
 > ——《金匱玉函經二註》·嘔吐噦下利病脈證第十七（SU_JGYH_ERZHU_001526，silver）
 

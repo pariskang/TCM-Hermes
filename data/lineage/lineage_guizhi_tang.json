@@ -778,7 +778,7 @@
       "indication_rules": [
         {
           "rule_id": "IR_SHL_GUIBEN_000358",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "太陽中風"
@@ -1422,7 +1422,7 @@
         },
         {
           "rule_id": "IR_BB711944D_000096",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "pulse": [
               "脈浮"
@@ -2385,7 +2385,7 @@
       "indication_rules": [
         {
           "rule_id": "IR_SHL_MINGLI_000019",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "傷寒",
@@ -3466,7 +3466,7 @@
       "indication_rules": [
         {
           "rule_id": "IR_B54968951_000005",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "少陰病"
@@ -3791,7 +3791,7 @@
         },
         {
           "rule_id": "IR_BC91F4420_000020",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "pulse": [
               "脈浮"
@@ -5300,7 +5300,7 @@
         },
         {
           "rule_id": "IR_B8E444005_000187",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "太陽病"
@@ -5812,7 +5812,7 @@
         },
         {
           "rule_id": "IR_B5C5ECAC2_000046",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "惡寒"
@@ -5950,7 +5950,7 @@
         },
         {
           "rule_id": "IR_B18FAB5FB_000092",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "乾嘔"
@@ -6061,7 +6061,7 @@
         },
         {
           "rule_id": "IR_SHL_SUYUAN_000019",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "發熱",
@@ -6100,7 +6100,7 @@
         },
         {
           "rule_id": "IR_SHL_SUYUAN_000120",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "胸滿"
@@ -6113,7 +6113,7 @@
         },
         {
           "rule_id": "IR_SHL_SUYUAN_000122",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "pulse": [
               "脈浮"
@@ -6521,7 +6521,7 @@
         },
         {
           "rule_id": "IR_B5FF1CA1B_000007",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "發熱",
@@ -7144,7 +7144,7 @@
         },
         {
           "rule_id": "IR_B11498305_000912",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "傷寒",
@@ -7441,7 +7441,7 @@
         },
         {
           "rule_id": "IR_SHL_LUNZHU_000032",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "汗出"
@@ -8548,7 +8548,7 @@
         },
         {
           "rule_id": "IR_B41512D4B_000047",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "太陽病"
@@ -8628,7 +8628,7 @@
         },
         {
           "rule_id": "IR_B41512D4B_000070",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "自汗出"
@@ -8790,7 +8790,7 @@
         },
         {
           "rule_id": "IR_B41512D4B_000168",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "pulse": [
               "脈浮"
@@ -9970,7 +9970,7 @@
         },
         {
           "rule_id": "IR_B1CAC3ADF_000183",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "pulse": [
               "脈浮"
@@ -10895,7 +10895,7 @@
         },
         {
           "rule_id": "IR_JF_SHIYANLU_000025",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "傷寒",
@@ -10921,7 +10921,7 @@
         },
         {
           "rule_id": "IR_JF_SHIYANLU_000026",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "傷寒",
@@ -10947,7 +10947,7 @@
         },
         {
           "rule_id": "IR_JF_SHIYANLU_000029",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "太陽病",
@@ -11485,7 +11485,7 @@
       "indication_rules": [
         {
           "rule_id": "IR_B0B74DF58_000002",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "symptoms": [
               "淅淅惡風",
@@ -11883,7 +11883,7 @@
         },
         {
           "rule_id": "IR_BBAACE965_000021",
-          "release_level": "silver",
+          "release_level": "bronze",
           "conditions": {
             "disease": [
               "太陽病"

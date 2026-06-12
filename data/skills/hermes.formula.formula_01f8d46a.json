@@ -3,16 +3,14 @@
   "kind": "formula",
   "title": "硝石礬石散方證合併規則",
   "subject": "硝石礬石散",
-  "abstracted_claim": "硝石礬石散可歸納為腹滿、少腹滿、發熱、惡寒、胸滿等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "abstracted_claim": "硝石礬石散可歸納為腹滿、少腹滿、胸滿等方證的核心方（支持條文 5 條，跨 5 部書）。",
   "merged_rule_id": "MHR_FORMULA_FORMULA_01F8D46A",
   "release_level": "silver",
-  "consensus_score": 0.92,
+  "consensus_score": 0.891,
   "supporting_initial_rules": [
     "IR_JGYH_ERZHU_000218",
-    "IR_JGYL_FANGLUN_000173",
     "IR_JGYL_JIYI_000296",
     "IR_JGYL_QIANZHU_000195",
-    "IR_JGYL_TIAOWEN_000173",
     "IR_JGYL_XINDIAN_000189",
     "IR_SHL_GUIBEN_001359"
   ],
@@ -20,10 +18,8 @@
     "gold": [],
     "silver": [
       "IR_JGYH_ERZHU_000218",
-      "IR_JGYL_FANGLUN_000173",
       "IR_JGYL_JIYI_000296",
       "IR_JGYL_QIANZHU_000195",
-      "IR_JGYL_TIAOWEN_000173",
       "IR_JGYL_XINDIAN_000189",
       "IR_SHL_GUIBEN_001359"
     ],
@@ -64,20 +60,6 @@
       "source_unit_id": "SU_SHL_GUIBEN_001180",
       "evidence_span": "13.33女勞，膀胱急，少腹滿，身盡黃，額上黑，足下熱，其腹脹如水狀，大便溏而黑，胸滿者難治。硝石礬石散主之。",
       "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略方論",
-      "chapter_title": "黃疸病脈證并治第十五",
-      "source_unit_id": "SU_JGYL_FANGLUN_000668",
-      "evidence_span": "黃家日晡所發熱，而反惡寒，此為女勞得之；膀胱急，少腹滿、身盡黃，額上黑，足下熱，因作黑疸，其腹脹如水狀，大便必黑，時溏，此女勞之病，非水也。腹滿者難治。硝石礬石散主之。",
-      "release_level": "silver"
-    },
-    {
-      "book_title": "金匱要略方論",
-      "chapter_title": "黃疸病脈證并治第十五",
-      "source_unit_id": "SU_JGYL_TIAOWEN_000666",
-      "evidence_span": "黃家日晡所發熱，而反惡寒，此為女勞得之；膀胱急，少腹滿、身盡黃，額上黑，足下熱，因作黑疸，其腹脹如水狀，大便必黑，時溏，此女勞之病，非水也。腹滿者難治。硝石礬石散主之。",
-      "release_level": "silver"
     }
   ],
   "variant_set": [
@@ -86,6 +68,7 @@
       "book_id": "BOOK_SHL_GUIBEN",
       "book_title": "傷寒雜病論(桂本)",
       "distinct_conditions": [
+        "少腹滿",
         "胸滿"
       ],
       "rule_ids": [
@@ -98,21 +81,13 @@
     "disease": [
       {
         "term": "腹滿",
-        "count": 7
+        "count": 5
       }
     ],
     "symptoms": [
       {
         "term": "少腹滿",
-        "count": 3
-      },
-      {
-        "term": "發熱",
-        "count": 2
-      },
-      {
-        "term": "惡寒",
-        "count": 2
+        "count": 1
       },
       {
         "term": "胸滿",
@@ -129,11 +104,9 @@
     "硝石礬石散",
     "腹滿",
     "少腹滿",
-    "發熱",
-    "惡寒",
     "胸滿"
   ],
   "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
-  "compiled_at": "2026-06-12T05:05:41Z",
+  "compiled_at": "2026-06-12T09:33:03Z",
   "protocol": "hermes-v5"
 }

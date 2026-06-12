@@ -32,6 +32,8 @@ class AutonomousReview:
     auto_repair_applied: bool = False
     repair_round: int = 0
     consensus_score: float = 0.0
+    binding_score: float = 1.0                   # Problem 2: span↔claim binding (0..1)
+    binding_multi_formula: bool = False          # span asserts several formulas
     release_level: str = "rejected"              # gold | silver | bronze | rejected
     review_status: str = "pending"               # model_accepted | model_repaired_accepted | ...
     unsupported_inference_detected: bool = False
