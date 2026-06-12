@@ -24,7 +24,12 @@ class SkillRAGAgent:
         self.memory = MemoryCuratorAgent(self.config)
 
     def index(self) -> list[dict]:
-        return read_json(self.config.skills_dir / "skill_index.json", []) or []
+        # merge formula/disease-pattern skills (skill_index.json) with the
+        # TCM-Disease-Hermes skills (disease_skill_index.json); re-running the
+        # main pipeline rewrites only the former, never clobbering disease skills
+        main = read_json(self.config.skills_dir / "skill_index.json", []) or []
+        disease = read_json(self.config.skills_dir / "disease_skill_index.json", []) or []
+        return main + disease
 
     def load_skill(self, skill_id: str) -> dict | None:
         return read_json(self.config.skills_dir / f"{skill_id}.json")
@@ -59,6 +64,7 @@ class SkillRAGAgent:
         answer = {
             "query": query,
             "selected_skill": top.get("skill_id"),
+            "skill_kind": top.get("kind"),
             "skill_title": top.get("title"),
             "merged_rule": top.get("merged_rule_id"),
             "release_level": top.get("release_level"),
@@ -71,6 +77,12 @@ class SkillRAGAgent:
             "other_candidate_skills": [c["skill_id"] for c in candidates[1:]],
             "safety_notice": top.get("safety_notice"),
         }
+        if top.get("kind") == "disease":
+            # disease skills carry phenotype-mapping extras
+            answer["disease_id"] = top.get("disease_id")
+            answer["ancient_disease_names"] = top.get("ancient_disease_names", [])
+            answer["ontology_summary"] = top.get("ontology_summary", {})
+            answer["mapping_caveat"] = "古今映射为候选/表型对应，非诊断。"
         self.memory.record_skill(top.get("skill_id", "?"),
                                  {"event": "skill_invoked", "query": query})
         return answer

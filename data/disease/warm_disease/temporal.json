@@ -1,0 +1,97 @@
+{
+  "dynasty_trends": {
+    "明": {
+      "dominant_pathogenesis": [
+        {
+          "term": "濕熱",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "燥熱",
+          "rel_freq": 0.5
+        }
+      ],
+      "dominant_treatments": []
+    },
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "溫邪",
+          "rel_freq": 0.373
+        },
+        {
+          "term": "氣分",
+          "rel_freq": 0.216
+        },
+        {
+          "term": "血分",
+          "rel_freq": 0.157
+        },
+        {
+          "term": "濕熱",
+          "rel_freq": 0.069
+        },
+        {
+          "term": "營分",
+          "rel_freq": 0.049
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "辛涼解表",
+          "rel_freq": 0.571
+        },
+        {
+          "term": "清熱解毒",
+          "rel_freq": 0.214
+        },
+        {
+          "term": "滋陰",
+          "rel_freq": 0.143
+        },
+        {
+          "term": "息風",
+          "rel_freq": 0.071
+        }
+      ]
+    },
+    "未知": {
+      "dominant_pathogenesis": [
+        {
+          "term": "溫邪",
+          "rel_freq": 0.478
+        },
+        {
+          "term": "氣分",
+          "rel_freq": 0.13
+        },
+        {
+          "term": "營分",
+          "rel_freq": 0.13
+        },
+        {
+          "term": "暑熱",
+          "rel_freq": 0.087
+        },
+        {
+          "term": "濕熱",
+          "rel_freq": 0.087
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "辛涼解表",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "清熱解毒",
+          "rel_freq": 0.25
+        },
+        {
+          "term": "息風",
+          "rel_freq": 0.25
+        }
+      ]
+    }
+  }
+}

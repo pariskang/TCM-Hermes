@@ -1,0 +1,70 @@
+{
+  "target_disease": "eczema",
+  "display_name": "湿疹",
+  "modern_subtypes": [
+    "急性",
+    "亚急性",
+    "慢性",
+    "婴儿湿疹",
+    "局限性"
+  ],
+  "phenotype_schema": {
+    "acute": [
+      "黃水",
+      "浸淫",
+      "糜烂",
+      "流水",
+      "津水",
+      "濕烂",
+      "瘙癢"
+    ],
+    "chronic": [
+      "乾燥",
+      "脫屑",
+      "肥厚",
+      "皸裂",
+      "粗糙",
+      "苔蘚"
+    ],
+    "infant": [
+      "奶癬",
+      "胎斂瘡",
+      "頭面",
+      "嬰兒",
+      "白屑"
+    ],
+    "site": [
+      "旋耳",
+      "耳",
+      "四彎",
+      "腿彎",
+      "脚彎",
+      "陰囊",
+      "繡球"
+    ]
+  },
+  "special_subtypes": [
+    "ear",
+    "flexure",
+    "infant"
+  ],
+  "differential_diseases": [
+    "白疕",
+    "牛皮癬",
+    "疥瘡",
+    "圓癬",
+    "金錢癬",
+    "丹毒",
+    "天皰瘡",
+    "麻風"
+  ],
+  "search_strategy": [
+    "T1_core_recall",
+    "T2_phenotype",
+    "T3_special_subtype",
+    "T4_morphology",
+    "T5_exclusion",
+    "T6_consensus",
+    "T7_ontology"
+  ]
+}

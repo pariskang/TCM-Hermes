@@ -1,0 +1,35 @@
+{
+  "dynasty_trends": {
+    "明": {
+      "dominant_pathogenesis": [
+        {
+          "term": "風熱",
+          "rel_freq": 0.667
+        },
+        {
+          "term": "濕熱",
+          "rel_freq": 0.333
+        }
+      ],
+      "dominant_treatments": []
+    },
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "濕熱",
+          "rel_freq": 0.75
+        },
+        {
+          "term": "胎毒",
+          "rel_freq": 0.25
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "涼血",
+          "rel_freq": 1.0
+        }
+      ]
+    }
+  }
+}

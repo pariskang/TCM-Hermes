@@ -1,0 +1,69 @@
+{
+  "target_disease": "rheumatoid_arthritis",
+  "display_name": "类风湿关节炎",
+  "modern_subtypes": [
+    "活动期",
+    "缓解期",
+    "晚期畸形",
+    "尪痹"
+  ],
+  "phenotype_schema": {
+    "joint_pain": [
+      "肢節疼痛",
+      "骨節疼痛",
+      "關節疼痛",
+      "歷節痛",
+      "掣痛",
+      "诸肢節疼痛",
+      "疼痛",
+      "痛"
+    ],
+    "swelling": [
+      "脚腫如脫",
+      "關節腫",
+      "腫大",
+      "腫",
+      "焮腫"
+    ],
+    "deformity": [
+      "不可屈伸",
+      "屈伸不利",
+      "尪羸",
+      "身體尪羸",
+      "变形",
+      "拘攣",
+      "強直",
+      "鶴膝"
+    ],
+    "systemic": [
+      "短氣",
+      "頭眩",
+      "溫溫欲吐",
+      "黃汗",
+      "脚腫"
+    ]
+  },
+  "special_subtypes": [
+    "hand_foot",
+    "knee"
+  ],
+  "differential_diseases": [
+    "痿",
+    "痿證",
+    "脚氣",
+    "丹毒",
+    "流注",
+    "骨痿",
+    "中風偏枯",
+    "痛風石"
+  ],
+  "search_strategy": [
+    "T1_core_recall",
+    "T2_phenotype",
+    "T3_special_subtype",
+    "T4_morphology",
+    "T5_exclusion",
+    "T6_consensus",
+    "T7_ontology"
+  ]
+}

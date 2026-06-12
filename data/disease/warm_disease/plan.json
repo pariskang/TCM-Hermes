@@ -1,0 +1,84 @@
+{
+  "target_disease": "warm_disease",
+  "display_name": "温病",
+  "modern_subtypes": [
+    "卫分",
+    "气分",
+    "营分",
+    "血分",
+    "风温",
+    "湿温",
+    "暑温",
+    "秋燥"
+  ],
+  "phenotype_schema": {
+    "wei": [
+      "發熱",
+      "微惡風寒",
+      "頭痛",
+      "咳",
+      "口微渴",
+      "脈浮數"
+    ],
+    "qi": [
+      "壯熱",
+      "大汗",
+      "口渴",
+      "心煩",
+      "不惡寒",
+      "脈洪大"
+    ],
+    "ying": [
+      "身熱夜甚",
+      "心煩不寐",
+      "斑疹隱隱",
+      "舌絳",
+      "时有譫語"
+    ],
+    "xue": [
+      "斑疹",
+      "吐血",
+      "衄血",
+      "便血",
+      "神昏",
+      "舌深絳"
+    ],
+    "shiwen": [
+      "身熱不揚",
+      "胸悶",
+      "脘痞",
+      "苔膩",
+      "身重"
+    ],
+    "shuwen": [
+      "壯熱",
+      "汗多",
+      "煩渴",
+      "面赤",
+      "脈洪"
+    ]
+  },
+  "special_subtypes": [
+    "xinbao",
+    "dongxue"
+  ],
+  "differential_diseases": [
+    "太陽伤寒",
+    "伤寒表實",
+    "中風",
+    "風寒",
+    "直中",
+    "陰寒",
+    "内伤發熱",
+    "虛劳"
+  ],
+  "search_strategy": [
+    "T1_core_recall",
+    "T2_phenotype",
+    "T3_special_subtype",
+    "T4_morphology",
+    "T5_exclusion",
+    "T6_consensus",
+    "T7_ontology"
+  ]
+}

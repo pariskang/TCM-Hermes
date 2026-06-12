@@ -83,6 +83,8 @@ class SegmenterAgent:
                     text_type=ttype,
                     clause_no=para.get("clause_no"),
                     entities=self.entities.extract(text),
+                    meta={"dynasty": record.get("dynasty", ""),
+                          "author": record.get("author", "")},
                 ))
         return record, units
 

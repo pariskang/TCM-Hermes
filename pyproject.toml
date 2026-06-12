@@ -16,6 +16,7 @@ dependencies = []
 download = ["py7zr>=0.20"]
 llm = ["litellm>=1.40"]            # one interface to OpenAI/Anthropic/Gemini/…
 anthropic = ["anthropic>=0.40"]    # direct Anthropic SDK backend
+mcp = ["mcp>=1.2"]                  # MCP server for Claude Code / Codex / agents
 dev = ["pytest>=7", "py7zr>=0.20"]
 
 [project.scripts]

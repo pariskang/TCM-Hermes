@@ -20,7 +20,8 @@ from typing import Any
 
 from ..config import HermesConfig
 from ..schemas import SourceUnit
-from ..utils import ensure_dir, read_jsonl, utc_now, write_json, write_jsonl
+from ..utils import (ensure_dir, read_json, read_jsonl, utc_now, write_json,
+                     write_jsonl)
 from .analytics import NetworkAnalysisAgent, TemporalEvolutionAgent
 from .ontology import OntologyMappingAgent, RelationExtractionAgent
 from .planner import (AncientDiseaseNameExpansionAgent,
@@ -79,19 +80,24 @@ class DiseaseHermesPipeline:
         self.network = NetworkAnalysisAgent(self.config)
         self.temporal = TemporalEvolutionAgent(self.config)
         self.reporter = ReportWritingAgent(self.config, backend)
+        self._dynasty_map: dict[str, str] | None = None
 
     # ------------------------------------------------------------------
     def workspace(self, disease_id: str) -> Path:
         return ensure_dir(self.config.data_dir / "disease" / disease_id)
 
-    def _load_units(self, use_corpus: bool, use_sample: bool) -> list[SourceUnit]:
+    def _load_units(self, disease_id: str, use_corpus: bool,
+                    use_sample: bool, units_dir=None) -> list[SourceUnit]:
         units: list[SourceUnit] = []
-        if use_corpus:
-            for path in sorted(Path(self.config.source_units_dir).glob("BOOK_*.jsonl")):
+        # an explicit units_dir (e.g. a 外科/溫病 disease corpus) implies use_corpus
+        src = Path(units_dir) if units_dir else (
+            Path(self.config.source_units_dir) if use_corpus else None)
+        if src and src.exists():
+            for path in sorted(src.glob("BOOK_*.jsonl")):
                 units.extend(SourceUnit.from_dict(d) for d in read_jsonl(path))
         if use_sample or not units:
             from .sample_corpus import load_sample_units
-            units.extend(load_sample_units())
+            units.extend(load_sample_units(disease_id))
         return units
 
     # ------------------------------------------------------------------
@@ -105,6 +111,12 @@ class DiseaseHermesPipeline:
             "exclusion": self.exclusion.screen(unit.raw_text, profile),
         }
 
+    def _book_dynasty(self) -> dict[str, str]:
+        if getattr(self, "_dynasty_map", None) is None:
+            books = read_json(self.config.manifests_dir / "book_manifest.json", []) or []
+            self._dynasty_map = {b["book_id"]: b.get("dynasty", "") for b in books}
+        return self._dynasty_map
+
     def build_candidate(self, unit: SourceUnit, profile: DiseaseProfile,
                         core_hits: list[str], idx: int) -> CandidateRecord:
         annot = self.annotate(unit, profile, core_hits)
@@ -117,11 +129,12 @@ class DiseaseHermesPipeline:
         review = self.judge.judge(unit, profile, annot, votes)
 
         meta = unit.meta if isinstance(unit.meta, dict) else {}
+        dynasty = meta.get("dynasty") or self._book_dynasty().get(unit.book_id, "")
         rec = CandidateRecord(
             entry_id=f"{profile.disease_id.upper()}_{idx:06d}",
             source={"database": "hermes_corpus", "book": unit.book_title,
                     "chapter": unit.chapter_title, "book_id": unit.book_id,
-                    "dynasty": meta.get("dynasty", ""),
+                    "dynasty": dynasty,
                     "author": meta.get("author", ""), "year": meta.get("year", ""),
                     "source_unit_id": unit.source_unit_id,
                     "sample": meta.get("sample", False)},
@@ -163,10 +176,28 @@ class DiseaseHermesPipeline:
             layers.append("T5_exclusion")
         return layers
 
+    def _recall(self, units, profile) -> list[dict]:
+        """T1 core-name recall ∪ T2 phenotype recall (≥2 phenotype features or
+        a special-subtype near-hit), so phenotype-rich passages surface even
+        without a named ancient disease term."""
+        recalled = self.core.search(units, profile)
+        seen = {r["unit"].source_unit_id for r in recalled}
+        for u in units:
+            if u.source_unit_id in seen:
+                continue
+            ph = self.phenotype.annotate(u.raw_text, profile)
+            sp = self.special.annotate(u.raw_text, profile)
+            n_ph = sum(len(v["hits"]) for v in ph["phenotype_support"].values())
+            if n_ph >= 2 or sp["special_subtypes"]:
+                recalled.append({"unit": u, "hit_terms": [],
+                                 "retrieval_layer": "T2_phenotype"})
+                seen.add(u.source_unit_id)
+        return recalled
+
     # ------------------------------------------------------------------
     def run(self, disease: str = "psoriasis", use_corpus: bool = False,
             use_sample: bool = True, resume: bool = False,
-            limit: int | None = None) -> dict:
+            limit: int | None = None, units_dir=None) -> dict:
         profile = get_profile(disease)
         ws = self.workspace(profile.disease_id)
         cand_path = ws / "candidates.jsonl"
@@ -179,8 +210,9 @@ class DiseaseHermesPipeline:
                                           CandidateRecord.__dataclass_fields__})
                        for d in read_jsonl(cand_path)]
         else:
-            units = self._load_units(use_corpus, use_sample)
-            recalled = self.core.search(units, profile)
+            units = self._load_units(profile.disease_id, use_corpus, use_sample,
+                                     units_dir=units_dir)
+            recalled = self._recall(units, profile)
             if limit:
                 recalled = recalled[:limit]
             records = []

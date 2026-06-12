@@ -1,0 +1,283 @@
+{
+  "skill_id": "hermes.disease.eczema.infant",
+  "kind": "disease",
+  "disease_id": "eczema",
+  "subtype": "infant",
+  "title": "湿疹·infant 古籍证候 Skill",
+  "subject": "湿疹·infant",
+  "abstracted_claim": "古籍中与湿疹·infant表型相似的条文，核心古病名 奶癬；常见症候 骨節疼痛、嘔吐、黃水、心煩、腹痛、奶癬；病机多属 濕熱、胎毒。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.eczema.infant",
+  "release_level": "bronze",
+  "consensus_score": 0.774,
+  "supporting_initial_rules": [
+    "ECZEMA_000057"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "ECZEMA_000057"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "結毒門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_013406",
+      "entry_id": "ECZEMA_000057",
+      "evidence_span": "一、頭面、胸背並四肢有生硬片，狀如牛皮，初癢及抓則起白屑而麻痛，此輕粉之結毒也，切勿作癬治。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "奶癬"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "黃水",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "腹痛",
+        "count": 1
+      },
+      {
+        "term": "奶癬",
+        "count": 1
+      },
+      {
+        "term": "耳聾",
+        "count": 1
+      },
+      {
+        "term": "目眩",
+        "count": 1
+      },
+      {
+        "term": "嬰兒",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      },
+      {
+        "term": "頭痛",
+        "count": 1
+      },
+      {
+        "term": "頭面",
+        "count": 1
+      },
+      {
+        "term": "口渴",
+        "count": 1
+      },
+      {
+        "term": "耳",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "濕熱",
+        "count": 1
+      },
+      {
+        "term": "胎毒",
+        "count": 1
+      }
+    ],
+    "treatment_method": [],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "奶癬",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "奶癬",
+      "has_symptom",
+      "骨節疼痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "嘔吐"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "心煩"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "腹痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "奶癬"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "耳聾"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "目眩"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "嬰兒"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "頭痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "頭面"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "口渴"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "耳"
+    ],
+    [
+      "奶癬",
+      "maps_to_candidate",
+      "湿疹·infant"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "奶癬"
+    ],
+    [
+      "胎毒",
+      "associated_with",
+      "奶癬"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "胎毒"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "黃水",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "腹痛",
+        "count": 1
+      },
+      {
+        "term": "奶癬",
+        "count": 1
+      },
+      {
+        "term": "耳聾",
+        "count": 1
+      },
+      {
+        "term": "目眩",
+        "count": 1
+      },
+      {
+        "term": "嬰兒",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "濕熱",
+        "count": 1
+      },
+      {
+        "term": "胎毒",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "湿疹",
+    "infant",
+    "eczema",
+    "奶癬",
+    "骨節疼痛",
+    "嘔吐",
+    "黃水",
+    "心煩",
+    "腹痛"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:48Z",
+  "protocol": "hermes-v5"
+}

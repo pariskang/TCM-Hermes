@@ -25,3 +25,10 @@ data/rules/released/bronze/*
 !data/rules/released/silver/BOOK_SHL_SONGBEN.jsonl
 !data/rules/released/silver/BOOK_JGYL_FANGLUN.jsonl
 !data/rules_rejected/BOOK_SHL_SONGBEN.jsonl
+
+# disease corpus (外科/溫病) — rebuild with `hermes disease-corpus`
+data/disease_corpus/
+# rejected-heavy raw candidate dumps — rebuild with `hermes disease run`;
+# the distilled outputs (summary/network/temporal/relations/viz) + compiled
+# Disease-Skills are kept and are what the repo demonstrates
+data/disease/*/candidates.jsonl

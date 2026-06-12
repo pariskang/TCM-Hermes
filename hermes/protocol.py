@@ -185,4 +185,8 @@ JICHENG_CORPUS_URL = "https://jicheng.tw/files/jcw/book-20180111.7z"
 
 
 def category_path(subcategory: str) -> list[str]:
-    return [ROOT_CATEGORY, SUBCATEGORY_MAP.get(subcategory, subcategory)]
+    if subcategory in SUBCATEGORY_MAP:
+        return [ROOT_CATEGORY, SUBCATEGORY_MAP[subcategory]]
+    # non-傷寒金匱 categories (外科/溫病/本草… — used by the disease corpus)
+    # root under a generic 典籍 top so they don't masquerade as 傷寒金匱類
+    return ["典籍", subcategory]

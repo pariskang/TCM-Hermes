@@ -1,0 +1,19 @@
+{
+  "disease": "osteoporosis",
+  "display_name": "骨质疏松",
+  "generated_at": "2026-06-12T12:38:57Z",
+  "candidates": 6,
+  "by_level": {
+    "silver": 2,
+    "rejected": 3,
+    "bronze": 1
+  },
+  "by_subtype": {
+    "bone_loss": 3
+  },
+  "included_for_analytics": 3,
+  "network_nodes": 0,
+  "network_edges": 0,
+  "core_herbs": [],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

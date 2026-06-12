@@ -1,0 +1,31 @@
+{
+  "disease": "rheumatoid_arthritis",
+  "display_name": "类风湿关节炎",
+  "generated_at": "2026-06-12T12:38:57Z",
+  "candidates": 600,
+  "by_level": {
+    "rejected": 509,
+    "silver": 5,
+    "bronze": 86
+  },
+  "by_subtype": {
+    "joint_pain": 87,
+    "swelling": 1,
+    "deformity": 1,
+    "systemic": 2
+  },
+  "included_for_analytics": 91,
+  "network_nodes": 21,
+  "network_edges": 80,
+  "core_herbs": [
+    "桂枝",
+    "甘草",
+    "芍藥",
+    "附子",
+    "麻黃",
+    "白朮",
+    "知母",
+    "生薑"
+  ],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

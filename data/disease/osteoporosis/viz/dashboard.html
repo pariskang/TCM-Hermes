@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>骨质疏松 · TCM-Disease-Hermes 可视化</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+ :root{--bg:#f6f4ee;--fg:#2a2a2a;--card:#fff;--accent:#b4532a;--muted:#777;--bd:#0001;}
+ body.dark{--bg:#16181c;--fg:#e6e6e6;--card:#22252b;--accent:#e0925f;--muted:#9aa;--bd:#fff1;}
+ *{box-sizing:border-box} body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg)}
+ header{padding:14px 20px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+ h1{font-size:18px;margin:0} .tag{font-size:12px;color:var(--muted)}
+ .tabs{display:flex;gap:6px;padding:10px 20px;flex-wrap:wrap}
+ .tab{padding:6px 13px;border-radius:16px;border:1px solid var(--bd);cursor:pointer;font-size:13px;background:var(--card)}
+ .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+ .panel{display:none;padding:0 20px 24px} .panel.active{display:block}
+ .toolbar{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:10px 0;font-size:13px}
+ .toolbar label{display:flex;gap:6px;align-items:center}
+ .chart{height:600px;background:var(--card);border-radius:10px;border:1px solid var(--bd)}
+ select,input[type=number]{padding:3px 6px;border-radius:6px;border:1px solid var(--bd);background:var(--card);color:var(--fg)}
+ .caveat{font-size:12px;color:var(--muted);padding:6px 20px}
+ button{padding:5px 10px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--fg);cursor:pointer;font-size:12px}
+ button:hover{border-color:var(--accent)} .exp{margin-left:auto;display:flex;gap:6px}
+</style></head>
+<body class="light">
+<header>
+ <h1>骨质疏松 · 古籍知识可视化</h1>
+ <span class="tag" id="meta"></span>
+ <button onclick="document.body.classList.toggle('dark');render()">明/暗</button>
+</header>
+<div class="tabs" id="tabs"></div>
+<div class="caveat">古今映射为候选/表型对应，非诊断；所有结论可回源至原文。No evidence, no rule. 每张图可导出 PNG / SVG / JSON。</div>
+<div id="panels"></div>
+<script>
+const DATA = {"disease": "骨质疏松", "disease_id": "osteoporosis", "generated_at": "2026-06-12T12:38:57Z", "summary": {"disease": "osteoporosis", "display_name": "骨质疏松", "generated_at": "2026-06-12T12:38:57Z", "candidates": 6, "by_level": {"silver": 2, "rejected": 3, "bronze": 1}, "by_subtype": {"bone_loss": 3}, "included_for_analytics": 3, "network_nodes": 0, "network_edges": 0, "core_herbs": [], "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"}, "kg": {"nodes": [{"name": "古病名:骨痿", "label": "骨痿", "category": 0, "layer": "古病名", "value": 11}, {"name": "古病名:痿", "label": "痿", "category": 0, "layer": "古病名", "value": 11}, {"name": "古病名:骨枯", "label": "骨枯", "category": 0, "layer": "古病名", "value": 5}, {"name": "古病名:腰痛", "label": "腰痛", "category": 0, "layer": "古病名", "value": 4}, {"name": "症状:腰脊不舉", "label": "腰脊不舉", "category": 1, "layer": "症状", "value": 8}, {"name": "症状:骨痿", "label": "骨痿", "category": 1, "layer": "症状", "value": 8}, {"name": "症状:髓減", "label": "髓減", "category": 1, "layer": "症状", "value": 3}, {"name": "症状:骨枯", "label": "骨枯", "category": 1, "layer": "症状", "value": 3}, {"name": "症状:腰痛", "label": "腰痛", "category": 1, "layer": "症状", "value": 3}, {"name": "病机:腎虛", "label": "腎虛", "category": 2, "layer": "病机", "value": 6}, {"name": "病机:髓減", "label": "髓減", "category": 2, "layer": "病机", "value": 3}, {"name": "治法:補腎", "label": "補腎", "category": 3, "layer": "治法", "value": 1}, {"name": "治法:填精", "label": "填精", "category": 3, "layer": "治法", "value": 1}, {"name": "治法:壯骨", "label": "壯骨", "category": 3, "layer": "治法", "value": 1}], "links": [{"source": "古病名:骨痿", "target": "症状:腰脊不舉", "value": 3}, {"source": "古病名:骨痿", "target": "症状:骨痿", "value": 3}, {"source": "古病名:骨痿", "target": "症状:髓減", "value": 1}, {"source": "古病名:骨痿", "target": "症状:骨枯", "value": 1}, {"source": "病机:髓減", "target": "古病名:骨痿", "value": 1}, {"source": "古病名:骨枯", "target": "症状:腰脊不舉", "value": 1}, {"source": "古病名:骨枯", "target": "症状:骨痿", "value": 1}, {"source": "古病名:骨枯", "target": "症状:髓減", "value": 1}, {"source": "古病名:骨枯", "target": "症状:骨枯", "value": 1}, {"source": "病机:髓減", "target": "古病名:骨枯", "value": 1}, {"source": "古病名:痿", "target": "症状:腰脊不舉", "value": 3}, {"source": "古病名:痿", "target": "症状:骨痿", "value": 3}, {"source": "古病名:痿", "target": "症状:髓減", "value": 1}, {"source": "古病名:痿", "target": "症状:骨枯", "value": 1}, {"source": "病机:髓減", "target": "古病名:痿", "value": 1}, {"source": "古病名:骨痿", "target": "症状:腰痛", "value": 1}, {"source": "病机:腎虛", "target": "古病名:骨痿", "value": 1}, {"source": "古病名:腰痛", "target": "症状:腰脊不舉", "value": 1}, {"source": "古病名:腰痛", "target": "症状:骨痿", "value": 1}, {"source": "古病名:腰痛", "target": "症状:腰痛", "value": 1}, {"source": "病机:腎虛", "target": "古病名:腰痛", "value": 1}, {"source": "古病名:痿", "target": "症状:腰痛", "value": 1}, {"source": "病机:腎虛", "target": "古病名:痿", "value": 1}, {"source": "病机:腎虛", "target": "治法:補腎", "value": 1}, {"source": "病机:腎虛", "target": "治法:填精", "value": 1}, {"source": "病机:腎虛", "target": "治法:壯骨", "value": 1}], "layers": ["古病名", "症状", "病机", "治法", "药物"]}, "network": {"nodes": [], "links": [], "categories": []}, "sankey": {"nodes": [{"name": "治法·填精"}, {"name": "治法·壯骨"}, {"name": "治法·補腎"}, {"name": "病名·痿"}, {"name": "病名·腰痛"}, {"name": "病名·骨枯"}, {"name": "病名·骨痿"}, {"name": "病机·腎虛"}, {"name": "症·腰痛"}, {"name": "症·腰脊不舉"}, {"name": "症·骨枯"}, {"name": "症·骨痿"}, {"name": "症·髓減"}], "links": [{"source": "病名·骨痿", "target": "症·腰脊不舉", "value": 3}, {"source": "病名·骨痿", "target": "症·骨痿", "value": 3}, {"source": "病名·痿", "target": "症·腰脊不舉", "value": 3}, {"source": "病名·痿", "target": "症·骨痿", "value": 3}, {"source": "病名·骨痿", "target": "症·髓減", "value": 1}, {"source": "病名·骨痿", "target": "症·骨枯", "value": 1}, {"source": "病名·骨枯", "target": "症·腰脊不舉", "value": 1}, {"source": "病名·骨枯", "target": "症·骨痿", "value": 1}, {"source": "病名·骨枯", "target": "症·髓減", "value": 1}, {"source": "病名·骨枯", "target": "症·骨枯", "value": 1}, {"source": "病名·痿", "target": "症·髓減", "value": 1}, {"source": "病名·痿", "target": "症·骨枯", "value": 1}, {"source": "病名·骨痿", "target": "症·腰痛", "value": 1}, {"source": "病名·腰痛", "target": "症·腰脊不舉", "value": 1}, {"source": "病名·腰痛", "target": "症·骨痿", "value": 1}, {"source": "病名·腰痛", "target": "症·腰痛", "value": 1}, {"source": "病名·痿", "target": "症·腰痛", "value": 1}, {"source": "病机·腎虛", "target": "治法·補腎", "value": 1}, {"source": "病机·腎虛", "target": "治法·填精", "value": 1}, {"source": "病机·腎虛", "target": "治法·壯骨", "value": 1}]}, "sunburst": {"roots": [{"name": "腎虛", "children": [{"name": "補腎", "value": 3, "children": null}, {"name": "填精", "value": 3, "children": null}, {"name": "壯骨", "value": 3, "children": null}]}]}, "radar": {"indicators": [{"name": "髓減", "max": 1}, {"name": "腎虛", "max": 1}], "series": [{"name": "bone_loss", "value": [1, 1]}]}, "heatmap": {"herbs": [], "cells": [], "max": 1}, "bars": {"症状": [["腰脊不舉", 3], ["骨痿", 3], ["髓減", 1], ["骨枯", 1], ["腰痛", 1]], "病机": [["髓減", 1], ["腎虛", 1]], "治法": [["補腎", 2], ["填精", 1], ["壯骨", 1]], "药物": []}, "timeline": {"dynasties": ["戰國", "元", "明"], "rows": [["戰國", "病机·髓減", 1.0], ["元", "治法·補腎", 1.0], ["明", "病机·腎虛", 1.0], ["明", "治法·補腎", 0.333], ["明", "治法·填精", 0.333], ["明", "治法·壯骨", 0.333]]}, "prisma": {"recalled": 6, "by_level": {"silver": 2, "rejected": 3, "bronze": 1}, "top_exclusions": []}, "params": {"min_edge_count": 1, "top_n": 25, "size_metric": "pagerank", "repulsion": 220, "sankey_min_weight": 1, "theme": "light"}};
+const P = Object.assign({}, DATA.params);
+const TABS = [
+ {id:"kg",      name:"五层知识图谱"},
+ {id:"network", name:"药物共现网络"},
+ {id:"sankey",  name:"病机→治法→药物桑基"},
+ {id:"sunburst",name:"病机治法旭日图"},
+ {id:"radar",   name:"分型病机雷达"},
+ {id:"heatmap", name:"药物共现热力"},
+ {id:"bars",    name:"高频词柱状"},
+ {id:"timeline",name:"朝代时序演变"},
+ {id:"prisma",  name:"召回→纳入流程"},
+];
+let active = "kg";
+let barCat = null;
+const charts = {};
+function el(t,a,h){const e=document.createElement(t);Object.assign(e,a||{});if(h!=null)e.innerHTML=h;return e;}
+function dark(){return document.body.classList.contains('dark');}
+function ctl(lbl,node){const l=el('label',{},lbl+' ');l.appendChild(node);return l;}
+
+function buildUI(){
+ const tabs=document.getElementById('tabs'),panels=document.getElementById('panels');
+ document.getElementById('meta').textContent=`条文 ${DATA.summary.candidates||0}｜分级 `+JSON.stringify(DATA.summary.by_level||{});
+ TABS.forEach(t=>{
+   tabs.appendChild(el('div',{className:'tab'+(t.id===active?' active':''),onclick:()=>{active=t.id;sync();render();}},t.name));
+   const p=el('div',{className:'panel'+(t.id===active?' active':''),id:'panel-'+t.id});
+   p.appendChild(toolbarFor(t.id));
+   p.appendChild(el('div',{className:'chart',id:'chart-'+t.id}));
+   panels.appendChild(p);
+ });
+}
+function sync(){
+ document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',TABS[i].id===active));
+ document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='panel-'+active));
+}
+function num(v,mn,mx,on){const e=el('input',{type:'number',min:mn,max:mx,value:v,style:'width:60px'});e.onchange=ev=>{on(+ev.target.value);render();};return e;}
+function rng(v,mn,mx,on){const e=el('input',{type:'range',min:mn,max:mx,value:v});e.oninput=ev=>{on(+ev.target.value);render();};return e;}
+function sel(opts,cur,on){const s=el('select');opts.forEach(o=>s.appendChild(el('option',{value:o,selected:o===cur},o)));s.onchange=e=>{on(e.target.value);render();};return s;}
+function toolbarFor(id){
+ const c=el('div',{className:'toolbar'});
+ if(id==='kg'){c.append(ctl('每层Top-N',num(P.top_n,4,20,v=>P.top_n=v)),el('span',{className:'tag'},'古病名→症状→病机→治法→药物，可拖拽缩放'));}
+ else if(id==='network'){c.append(ctl('最小共现≥',rng(P.min_edge_count,1,8,v=>P.min_edge_count=v)),ctl('节点大小=',sel(['pagerank','degree','betweenness','eigenvector'],P.size_metric,v=>P.size_metric=v)),ctl('斥力',rng(P.repulsion,60,600,v=>P.repulsion=v)),ctl('Top-N',num(P.top_n,5,60,v=>P.top_n=v)));}
+ else if(id==='sankey'){c.append(ctl('最小流量≥',rng(P.sankey_min_weight,1,6,v=>P.sankey_min_weight=v)));}
+ else if(id==='heatmap'){c.append(ctl('Top-N',num(P.top_n,5,18,v=>P.top_n=v)));}
+ else if(id==='bars'){const cats=Object.keys(DATA.bars);barCat=barCat||cats[0];c.append(ctl('维度',sel(cats,barCat,v=>barCat=v)),ctl('Top-N',num(P.top_n,5,30,v=>P.top_n=v)));}
+ else if(id==='radar'){c.append(el('span',{className:'tag'},'各现代分型的病机谱（计数）'));}
+ else if(id==='sunburst'){c.append(el('span',{className:'tag'},'点击下钻：病机→治法→药物'));}
+ else if(id==='timeline'){c.append(el('span',{className:'tag'},'按朝代展示病机/治法相对频率'));}
+ else {c.append(el('span',{className:'tag'},'高召回→排除→证据回源→共识分级'));}
+ const exp=el('div',{className:'exp'});
+ exp.append(el('button',{onclick:exportPNG},'导出 PNG'),el('button',{onclick:exportSVG},'导出 SVG'),el('button',{onclick:exportJSON},'导出数据'));
+ c.append(exp); return c;
+}
+
+function opt(){return {kg:kgOpt,network:netOpt,sankey:sankeyOpt,sunburst:sunOpt,radar:radarOpt,heatmap:heatOpt,bars:barOpt,timeline:timeOpt,prisma:prismaOpt}[active]();}
+
+function kgOpt(){
+ const L=DATA.kg.layers,N=P.top_n,by={};L.forEach(l=>by[l]=[]);
+ DATA.kg.nodes.forEach(n=>by[n.layer].push(n));
+ const keep=new Set();L.forEach(l=>by[l].sort((a,b)=>b.value-a.value).slice(0,N).forEach(n=>keep.add(n.name)));
+ const nodes=DATA.kg.nodes.filter(n=>keep.has(n.name));
+ const cnt={},cw=1000/Math.max(1,L.length-1);
+ const per={};L.forEach(l=>per[l]=nodes.filter(n=>n.layer===l).length);
+ nodes.forEach(n=>{cnt[n.layer]=(cnt[n.layer]||0)+1;n.x=n.category*cw;n.y=620*(cnt[n.layer]/(per[n.layer]+1));});
+ const links=DATA.kg.links.filter(l=>keep.has(l.source)&&keep.has(l.target));
+ return {tooltip:{},legend:[{data:L,top:6}],series:[{type:'graph',layout:'none',roam:true,draggable:true,
+   categories:L.map(l=>({name:l})),label:{show:true,formatter:p=>p.data.label,fontSize:11,color:dark()?'#ddd':'#333'},
+   edgeSymbol:['none','arrow'],edgeSymbolSize:6,
+   data:nodes.map(n=>({name:n.name,label:n.label,category:n.category,x:n.x,y:n.y,fixed:false,
+     symbolSize:12+Math.min(30,n.value*2),value:n.value,
+     tooltip:{formatter:`${n.layer}：${n.label}（${n.value}）`}})),
+   links:links.map(l=>({source:l.source,target:l.target,value:l.value,
+     lineStyle:{width:Math.min(5,l.value),opacity:.35,curveness:.05},
+     tooltip:{formatter:`${l.source} → ${l.target}（${l.value}）`}}))}]};
+}
+function netOpt(){
+ const nodes=DATA.network.nodes.slice().sort((a,b)=>b[P.size_metric]-a[P.size_metric]).slice(0,P.top_n);
+ const keep=new Set(nodes.map(n=>n.name));
+ const links=DATA.network.links.filter(l=>l.count>=P.min_edge_count&&keep.has(l.source)&&keep.has(l.target));
+ const mv=Math.max(1e-9,...nodes.map(n=>n[P.size_metric]));
+ return {tooltip:{},legend:[{data:DATA.network.categories,top:8}],series:[{type:'graph',layout:'force',roam:true,draggable:true,
+   categories:DATA.network.categories.map(c=>({name:c})),force:{repulsion:P.repulsion,edgeLength:[40,120],gravity:.08},
+   label:{show:true,fontSize:11},
+   data:nodes.map(n=>({name:n.name,category:DATA.network.categories.indexOf(n.category),
+     symbolSize:10+38*(n[P.size_metric]/mv),value:n[P.size_metric],
+     tooltip:{formatter:`${n.name}<br>count ${n.count}<br>degree ${n.degree}<br>betweenness ${n.betweenness}<br>eigenvector ${n.eigenvector}<br>pagerank ${n.pagerank}`}})),
+   links:links.map(l=>({source:l.source,target:l.target,value:l.count,
+     lineStyle:{width:Math.min(6,l.count),opacity:.5,curveness:.1},
+     tooltip:{formatter:`${l.source}–${l.target}<br>共现 ${l.count}<br>PMI ${l.pmi}`}}))}]};
+}
+function sankeyOpt(){
+ const links=DATA.sankey.links.filter(l=>l.value>=P.sankey_min_weight);
+ const used=new Set();links.forEach(l=>{used.add(l.source);used.add(l.target);});
+ if(!links.length)return{title:{text:'暂无足够关系数据',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{trigger:'item',triggerOn:'mousemove'},series:[{type:'sankey',data:DATA.sankey.nodes.filter(n=>used.has(n.name)),links,emphasis:{focus:'adjacency'},nodeAlign:'left',lineStyle:{color:'gradient',opacity:.45},label:{fontSize:11}}]};
+}
+function sunOpt(){
+ if(!DATA.sunburst.roots.length)return{title:{text:'暂无足够病机-治法-药物数据',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{},series:[{type:'sunburst',radius:[0,'92%'],data:DATA.sunburst.roots,label:{minAngle:8,rotate:'radial'},emphasis:{focus:'ancestor'},
+   levels:[{},{r0:'12%',r:'45%',label:{rotate:'tangential'}},{r0:'45%',r:'72%'},{r0:'72%',r:'90%',label:{align:'right'}}]}]};
+}
+function radarOpt(){
+ if(!DATA.radar.indicators.length)return{title:{text:'样本不足',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{},legend:{top:6,type:'scroll'},radar:{indicator:DATA.radar.indicators,radius:'62%'},
+   series:[{type:'radar',areaStyle:{opacity:.12},data:DATA.radar.series.map(s=>({name:s.name,value:s.value}))}]};
+}
+function heatOpt(){
+ const herbs=DATA.heatmap.herbs.slice(0,P.top_n);
+ const cells=DATA.heatmap.cells.filter(c=>c[0]<herbs.length&&c[1]<herbs.length);
+ if(!cells.length)return{title:{text:'共现数据不足',left:'center',top:'center',textStyle:{color:'#999'}}};
+ return {tooltip:{position:'top',formatter:p=>`${herbs[p.value[1]]}–${herbs[p.value[0]]}: ${p.value[2]}`},
+   grid:{height:'70%',top:'8%'},xAxis:{type:'category',data:herbs,axisLabel:{rotate:60,fontSize:10}},
+   yAxis:{type:'category',data:herbs,axisLabel:{fontSize:10}},
+   visualMap:{min:0,max:DATA.heatmap.max,calculable:true,orient:'horizontal',left:'center',bottom:'2%'},
+   series:[{type:'heatmap',data:cells}]};
+}
+function barOpt(){
+ const items=(DATA.bars[barCat]||[]).slice(0,P.top_n).reverse();
+ return {title:{text:'高频'+barCat,left:'center',textStyle:{fontSize:13}},tooltip:{},
+   grid:{left:100,right:40},xAxis:{type:'value'},yAxis:{type:'category',data:items.map(i=>i[0]),axisLabel:{fontSize:11}},
+   series:[{type:'bar',data:items.map(i=>i[1]),itemStyle:{color:'#b4532a'},label:{show:true,position:'right'}}]};
+}
+function timeOpt(){
+ const dyn=DATA.timeline.dynasties,terms=[...new Set(DATA.timeline.rows.map(r=>r[1]))];
+ if(!dyn.length)return{title:{text:'暂无朝代信息',left:'center',top:'center',textStyle:{color:'#999'}}};
+ const series=terms.map(t=>({name:t,type:'line',smooth:true,data:dyn.map(d=>{const r=DATA.timeline.rows.find(x=>x[0]===d&&x[1]===t);return r?r[2]:0;})}));
+ return {tooltip:{trigger:'axis'},legend:{type:'scroll',top:6,textStyle:{fontSize:10}},grid:{top:60},xAxis:{type:'category',data:dyn},yAxis:{type:'value',name:'相对频率'},series};
+}
+function prismaOpt(){
+ const lv=DATA.prisma.by_level||{},inc=(lv.gold||0)+(lv.silver||0)+(lv.bronze||0);
+ const data=[{name:'召回候选 '+DATA.prisma.recalled,value:DATA.prisma.recalled},
+  {name:'非排除',value:DATA.prisma.recalled-(lv.rejected||0)},
+  {name:'纳入(Bronze+) '+inc,value:inc},{name:'Silver+',value:(lv.gold||0)+(lv.silver||0)},{name:'Gold '+(lv.gold||0),value:lv.gold||0}];
+ const ex=(DATA.prisma.top_exclusions||[]).map(e=>e[0]+'('+e[1]+')').join('、');
+ return {title:{text:'高召回 → 排除鉴别 → 证据回源 → 共识分级',left:'center',textStyle:{fontSize:13},
+   subtext:ex?('主要排除：'+ex):'',subtextStyle:{fontSize:11}},tooltip:{trigger:'item'},
+   series:[{type:'funnel',left:'12%',width:'76%',top:70,sort:'descending',gap:2,minSize:'14%',
+     label:{formatter:'{b}: {c}',fontSize:12},data}]};
+}
+
+function render(){
+ const dom=document.getElementById('chart-'+active);
+ if(charts[active])charts[active].dispose();
+ charts[active]=echarts.init(dom,dark()?'dark':null);
+ try{charts[active].setOption(opt(),true);}catch(e){dom.innerHTML='<p style="padding:20px">渲染失败：'+e+'</p>';}
+}
+function dl(name,url){const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();}
+function exportPNG(){const c=charts[active];if(!c)return;dl(DATA.disease_id+'_'+active+'.png',c.getDataURL({type:'png',pixelRatio:2,backgroundColor:dark()?'#16181c':'#fff'}));}
+function exportSVG(){const d=el('div',{style:'width:1280px;height:760px;position:absolute;left:-99999px;top:0'});document.body.appendChild(d);
+ const t=echarts.init(d,dark()?'dark':null,{renderer:'svg'});t.setOption(opt(),true);
+ let svg;try{svg=t.renderToSVGString();}catch(e){svg=null;}
+ t.dispose();d.remove();
+ if(svg)dl(DATA.disease_id+'_'+active+'.svg','data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg));}
+function exportJSON(){const key={kg:'kg',network:'network',sankey:'sankey',sunburst:'sunburst',radar:'radar',heatmap:'heatmap',bars:'bars',timeline:'timeline',prisma:'prisma'}[active];
+ dl(DATA.disease_id+'_'+active+'.json','data:application/json;charset=utf-8,'+encodeURIComponent(JSON.stringify(DATA[key],null,2)));}
+window.addEventListener('resize',()=>{if(charts[active])charts[active].resize();});
+buildUI();
+if(typeof echarts==='undefined'){document.getElementById('panels').innerHTML='<p style="padding:20px">ECharts 未能加载（离线？）。数据已内嵌于本文件及 viz_data.json，可用 --echarts-url 指向本地副本，或直接复用 JSON。</p>';}
+else{render();}
+</script></body></html>

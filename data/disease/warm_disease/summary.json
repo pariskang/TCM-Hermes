@@ -1,0 +1,33 @@
+{
+  "disease": "warm_disease",
+  "display_name": "温病",
+  "generated_at": "2026-06-12T12:38:49Z",
+  "candidates": 2300,
+  "by_level": {
+    "rejected": 2139,
+    "bronze": 145,
+    "silver": 16
+  },
+  "by_subtype": {
+    "wei": 75,
+    "qi": 24,
+    "ying": 7,
+    "xue": 43,
+    "shiwen": 4,
+    "shuwen": 8
+  },
+  "included_for_analytics": 161,
+  "network_nodes": 47,
+  "network_edges": 299,
+  "core_herbs": [
+    "連翹",
+    "石膏",
+    "知母",
+    "黃芩",
+    "甘草",
+    "杏仁",
+    "丹皮",
+    "竹葉"
+  ],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

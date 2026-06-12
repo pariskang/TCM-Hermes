@@ -1,0 +1,960 @@
+{
+  "disease": "湿疹",
+  "disease_id": "eczema",
+  "generated_at": "2026-06-12T12:38:48Z",
+  "summary": {
+    "disease": "eczema",
+    "display_name": "湿疹",
+    "generated_at": "2026-06-12T12:38:48Z",
+    "candidates": 346,
+    "by_level": {
+      "rejected": 337,
+      "bronze": 9
+    },
+    "by_subtype": {
+      "site": 2,
+      "acute": 6,
+      "infant": 1
+    },
+    "included_for_analytics": 9,
+    "network_nodes": 2,
+    "network_edges": 0,
+    "core_herbs": [
+      "大麥",
+      "黃柏"
+    ],
+    "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+  },
+  "kg": {
+    "nodes": [
+      {
+        "name": "古病名:奶癬",
+        "label": "奶癬",
+        "category": 0,
+        "layer": "古病名",
+        "value": 19
+      },
+      {
+        "name": "古病名:黃水瘡",
+        "label": "黃水瘡",
+        "category": 0,
+        "layer": "古病名",
+        "value": 10
+      },
+      {
+        "name": "古病名:浸淫瘡",
+        "label": "浸淫瘡",
+        "category": 0,
+        "layer": "古病名",
+        "value": 10
+      },
+      {
+        "name": "古病名:濕癬",
+        "label": "濕癬",
+        "category": 0,
+        "layer": "古病名",
+        "value": 7
+      },
+      {
+        "name": "古病名:旋耳瘡",
+        "label": "旋耳瘡",
+        "category": 0,
+        "layer": "古病名",
+        "value": 4
+      },
+      {
+        "name": "古病名:四彎風",
+        "label": "四彎風",
+        "category": 0,
+        "layer": "古病名",
+        "value": 3
+      },
+      {
+        "name": "症状:黃水",
+        "label": "黃水",
+        "category": 1,
+        "layer": "症状",
+        "value": 8
+      },
+      {
+        "name": "症状:耳",
+        "label": "耳",
+        "category": 1,
+        "layer": "症状",
+        "value": 6
+      },
+      {
+        "name": "症状:浸淫",
+        "label": "浸淫",
+        "category": 1,
+        "layer": "症状",
+        "value": 4
+      },
+      {
+        "name": "症状:奶癬",
+        "label": "奶癬",
+        "category": 1,
+        "layer": "症状",
+        "value": 3
+      },
+      {
+        "name": "症状:腿彎",
+        "label": "腿彎",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:津水",
+        "label": "津水",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:四彎",
+        "label": "四彎",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:身黃",
+        "label": "身黃",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:白屑",
+        "label": "白屑",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:頭面",
+        "label": "頭面",
+        "category": 1,
+        "layer": "症状",
+        "value": 2
+      },
+      {
+        "name": "症状:旋耳",
+        "label": "旋耳",
+        "category": 1,
+        "layer": "症状",
+        "value": 1
+      },
+      {
+        "name": "症状:骨節疼痛",
+        "label": "骨節疼痛",
+        "category": 1,
+        "layer": "症状",
+        "value": 1
+      },
+      {
+        "name": "病机:濕熱",
+        "label": "濕熱",
+        "category": 2,
+        "layer": "病机",
+        "value": 5
+      },
+      {
+        "name": "病机:風熱",
+        "label": "風熱",
+        "category": 2,
+        "layer": "病机",
+        "value": 2
+      },
+      {
+        "name": "病机:胎毒",
+        "label": "胎毒",
+        "category": 2,
+        "layer": "病机",
+        "value": 1
+      },
+      {
+        "name": "治法:涼血",
+        "label": "涼血",
+        "category": 3,
+        "layer": "治法",
+        "value": 2
+      },
+      {
+        "name": "药物:黃柏",
+        "label": "黃柏",
+        "category": 4,
+        "layer": "药物",
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "古病名:旋耳瘡",
+        "target": "症状:旋耳",
+        "value": 1
+      },
+      {
+        "source": "古病名:旋耳瘡",
+        "target": "症状:黃水",
+        "value": 1
+      },
+      {
+        "source": "古病名:旋耳瘡",
+        "target": "症状:耳",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:旋耳瘡",
+        "value": 1
+      },
+      {
+        "source": "古病名:四彎風",
+        "target": "症状:腿彎",
+        "value": 1
+      },
+      {
+        "source": "古病名:四彎風",
+        "target": "症状:津水",
+        "value": 1
+      },
+      {
+        "source": "古病名:四彎風",
+        "target": "症状:四彎",
+        "value": 1
+      },
+      {
+        "source": "古病名:濕癬",
+        "target": "症状:腿彎",
+        "value": 1
+      },
+      {
+        "source": "古病名:濕癬",
+        "target": "症状:津水",
+        "value": 1
+      },
+      {
+        "source": "古病名:濕癬",
+        "target": "症状:四彎",
+        "value": 1
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:奶癬",
+        "value": 2
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:黃水",
+        "value": 2
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:身黃",
+        "value": 1
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:奶癬",
+        "value": 1
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:黃水",
+        "value": 3
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:身黃",
+        "value": 1
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:骨節疼痛",
+        "value": 1
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:白屑",
+        "value": 1
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:頭面",
+        "value": 1
+      },
+      {
+        "source": "古病名:奶癬",
+        "target": "症状:耳",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:奶癬",
+        "value": 1
+      },
+      {
+        "source": "病机:胎毒",
+        "target": "古病名:奶癬",
+        "value": 1
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:浸淫",
+        "value": 1
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:耳",
+        "value": 2
+      },
+      {
+        "source": "古病名:浸淫瘡",
+        "target": "症状:黃水",
+        "value": 2
+      },
+      {
+        "source": "古病名:浸淫瘡",
+        "target": "症状:浸淫",
+        "value": 2
+      },
+      {
+        "source": "古病名:浸淫瘡",
+        "target": "症状:耳",
+        "value": 2
+      },
+      {
+        "source": "病机:風熱",
+        "target": "古病名:浸淫瘡",
+        "value": 1
+      },
+      {
+        "source": "古病名:濕癬",
+        "target": "症状:白屑",
+        "value": 1
+      },
+      {
+        "source": "古病名:濕癬",
+        "target": "症状:浸淫",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:濕癬",
+        "value": 1
+      },
+      {
+        "source": "病机:風熱",
+        "target": "古病名:濕癬",
+        "value": 1
+      },
+      {
+        "source": "古病名:黃水瘡",
+        "target": "症状:頭面",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:黃水瘡",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "治法:涼血",
+        "value": 1
+      },
+      {
+        "source": "治法:涼血",
+        "target": "药物:黃柏",
+        "value": 1
+      }
+    ],
+    "layers": [
+      "古病名",
+      "症状",
+      "病机",
+      "治法",
+      "药物"
+    ]
+  },
+  "network": {
+    "nodes": [
+      {
+        "name": "大麥",
+        "category": "其他",
+        "count": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "eigenvector": 0.0,
+        "pagerank": 0.075
+      },
+      {
+        "name": "黃柏",
+        "category": "清热",
+        "count": 1,
+        "degree": 0.0,
+        "betweenness": 0.0,
+        "eigenvector": 0.0,
+        "pagerank": 0.075
+      }
+    ],
+    "links": [],
+    "categories": [
+      "其他",
+      "清热"
+    ]
+  },
+  "sankey": {
+    "nodes": [
+      {
+        "name": "治法·涼血"
+      },
+      {
+        "name": "病名·四彎風"
+      },
+      {
+        "name": "病名·奶癬"
+      },
+      {
+        "name": "病名·旋耳瘡"
+      },
+      {
+        "name": "病名·浸淫瘡"
+      },
+      {
+        "name": "病名·濕癬"
+      },
+      {
+        "name": "病名·黃水瘡"
+      },
+      {
+        "name": "病机·濕熱"
+      },
+      {
+        "name": "症·口渴"
+      },
+      {
+        "name": "症·嘔吐"
+      },
+      {
+        "name": "症·四彎"
+      },
+      {
+        "name": "症·奶癬"
+      },
+      {
+        "name": "症·嬰兒"
+      },
+      {
+        "name": "症·心煩"
+      },
+      {
+        "name": "症·掣痛"
+      },
+      {
+        "name": "症·旋耳"
+      },
+      {
+        "name": "症·津水"
+      },
+      {
+        "name": "症·浸淫"
+      },
+      {
+        "name": "症·煩躁"
+      },
+      {
+        "name": "症·白屑"
+      },
+      {
+        "name": "症·皸裂"
+      },
+      {
+        "name": "症·目眩"
+      },
+      {
+        "name": "症·耳"
+      },
+      {
+        "name": "症·耳聾"
+      },
+      {
+        "name": "症·腹痛"
+      },
+      {
+        "name": "症·腿彎"
+      },
+      {
+        "name": "症·身黃"
+      },
+      {
+        "name": "症·頭痛"
+      },
+      {
+        "name": "症·頭面"
+      },
+      {
+        "name": "症·骨節疼痛"
+      },
+      {
+        "name": "症·黃水"
+      },
+      {
+        "name": "药·黃柏"
+      }
+    ],
+    "links": [
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·黃水",
+        "value": 3
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·奶癬",
+        "value": 2
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·黃水",
+        "value": 2
+      },
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·耳",
+        "value": 2
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·黃水",
+        "value": 2
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·浸淫",
+        "value": 2
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·耳",
+        "value": 2
+      },
+      {
+        "source": "病名·旋耳瘡",
+        "target": "症·旋耳",
+        "value": 1
+      },
+      {
+        "source": "病名·旋耳瘡",
+        "target": "症·黃水",
+        "value": 1
+      },
+      {
+        "source": "病名·旋耳瘡",
+        "target": "症·耳",
+        "value": 1
+      },
+      {
+        "source": "病名·四彎風",
+        "target": "症·腿彎",
+        "value": 1
+      },
+      {
+        "source": "病名·四彎風",
+        "target": "症·津水",
+        "value": 1
+      },
+      {
+        "source": "病名·四彎風",
+        "target": "症·四彎",
+        "value": 1
+      },
+      {
+        "source": "病名·濕癬",
+        "target": "症·腿彎",
+        "value": 1
+      },
+      {
+        "source": "病名·濕癬",
+        "target": "症·津水",
+        "value": 1
+      },
+      {
+        "source": "病名·濕癬",
+        "target": "症·四彎",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·身黃",
+        "value": 1
+      },
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·奶癬",
+        "value": 1
+      },
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·身黃",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·骨節疼痛",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·嘔吐",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·心煩",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·耳聾",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·目眩",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·嬰兒",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·白屑",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·頭痛",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·頭面",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·口渴",
+        "value": 1
+      },
+      {
+        "source": "病名·奶癬",
+        "target": "症·耳",
+        "value": 1
+      },
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·浸淫",
+        "value": 1
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·掣痛",
+        "value": 1
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·皸裂",
+        "value": 1
+      },
+      {
+        "source": "病名·浸淫瘡",
+        "target": "症·煩躁",
+        "value": 1
+      },
+      {
+        "source": "病名·濕癬",
+        "target": "症·白屑",
+        "value": 1
+      },
+      {
+        "source": "病名·濕癬",
+        "target": "症·浸淫",
+        "value": 1
+      },
+      {
+        "source": "病名·黃水瘡",
+        "target": "症·頭面",
+        "value": 1
+      },
+      {
+        "source": "病机·濕熱",
+        "target": "治法·涼血",
+        "value": 1
+      },
+      {
+        "source": "治法·涼血",
+        "target": "药·黃柏",
+        "value": 1
+      }
+    ]
+  },
+  "sunburst": {
+    "roots": [
+      {
+        "name": "濕熱",
+        "children": [
+          {
+            "name": "涼血",
+            "value": null,
+            "children": [
+              {
+                "name": "黃柏",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "radar": {
+    "indicators": [
+      {
+        "name": "濕熱",
+        "max": 4
+      },
+      {
+        "name": "風熱",
+        "max": 4
+      },
+      {
+        "name": "胎毒",
+        "max": 4
+      }
+    ],
+    "series": [
+      {
+        "name": "acute",
+        "value": [
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "infant",
+        "value": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "site",
+        "value": [
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "heatmap": {
+    "herbs": [
+      "大麥",
+      "黃柏"
+    ],
+    "cells": [],
+    "max": 1
+  },
+  "bars": {
+    "症状": [
+      [
+        "黃水",
+        7
+      ],
+      [
+        "耳",
+        6
+      ],
+      [
+        "浸淫",
+        4
+      ],
+      [
+        "奶癬",
+        2
+      ],
+      [
+        "白屑",
+        2
+      ],
+      [
+        "頭面",
+        2
+      ],
+      [
+        "旋耳",
+        1
+      ],
+      [
+        "腿彎",
+        1
+      ],
+      [
+        "津水",
+        1
+      ],
+      [
+        "四彎",
+        1
+      ],
+      [
+        "身黃",
+        1
+      ],
+      [
+        "骨節疼痛",
+        1
+      ],
+      [
+        "嘔吐",
+        1
+      ],
+      [
+        "心煩",
+        1
+      ],
+      [
+        "腹痛",
+        1
+      ],
+      [
+        "耳聾",
+        1
+      ],
+      [
+        "目眩",
+        1
+      ],
+      [
+        "嬰兒",
+        1
+      ],
+      [
+        "頭痛",
+        1
+      ],
+      [
+        "口渴",
+        1
+      ]
+    ],
+    "病机": [
+      [
+        "濕熱",
+        4
+      ],
+      [
+        "風熱",
+        2
+      ],
+      [
+        "胎毒",
+        1
+      ]
+    ],
+    "治法": [
+      [
+        "涼血",
+        1
+      ]
+    ],
+    "药物": [
+      [
+        "大麥",
+        1
+      ],
+      [
+        "黃柏",
+        1
+      ]
+    ]
+  },
+  "timeline": {
+    "dynasties": [
+      "明",
+      "清"
+    ],
+    "rows": [
+      [
+        "明",
+        "病机·風熱",
+        0.667
+      ],
+      [
+        "明",
+        "病机·濕熱",
+        0.333
+      ],
+      [
+        "清",
+        "病机·濕熱",
+        0.75
+      ],
+      [
+        "清",
+        "病机·胎毒",
+        0.25
+      ],
+      [
+        "清",
+        "治法·涼血",
+        1.0
+      ]
+    ]
+  },
+  "prisma": {
+    "recalled": 346,
+    "by_level": {
+      "rejected": 337,
+      "bronze": 9
+    },
+    "top_exclusions": [
+      [
+        "疥瘡",
+        6
+      ],
+      [
+        "牛皮癬",
+        5
+      ],
+      [
+        "麻風",
+        5
+      ],
+      [
+        "丹毒",
+        4
+      ]
+    ]
+  },
+  "params": {
+    "min_edge_count": 1,
+    "top_n": 25,
+    "size_metric": "pagerank",
+    "repulsion": 220,
+    "sankey_min_weight": 1,
+    "theme": "light"
+  }
+}

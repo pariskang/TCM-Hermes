@@ -1,0 +1,5493 @@
+{
+  "disease": "类风湿关节炎",
+  "disease_id": "rheumatoid_arthritis",
+  "generated_at": "2026-06-12T12:38:57Z",
+  "summary": {
+    "disease": "rheumatoid_arthritis",
+    "display_name": "类风湿关节炎",
+    "generated_at": "2026-06-12T12:38:57Z",
+    "candidates": 600,
+    "by_level": {
+      "rejected": 509,
+      "silver": 5,
+      "bronze": 86
+    },
+    "by_subtype": {
+      "joint_pain": 87,
+      "swelling": 1,
+      "deformity": 1,
+      "systemic": 2
+    },
+    "included_for_analytics": 91,
+    "network_nodes": 21,
+    "network_edges": 80,
+    "core_herbs": [
+      "桂枝",
+      "甘草",
+      "芍藥",
+      "附子",
+      "麻黃",
+      "白朮",
+      "知母",
+      "生薑"
+    ],
+    "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+  },
+  "kg": {
+    "nodes": [
+      {
+        "name": "古病名:痹",
+        "label": "痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 631
+      },
+      {
+        "name": "古病名:濕痹",
+        "label": "濕痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 256
+      },
+      {
+        "name": "古病名:歷節",
+        "label": "歷節",
+        "category": 0,
+        "layer": "古病名",
+        "value": 191
+      },
+      {
+        "name": "古病名:痛痹",
+        "label": "痛痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 78
+      },
+      {
+        "name": "古病名:周痹",
+        "label": "周痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 74
+      },
+      {
+        "name": "古病名:行痹",
+        "label": "行痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 31
+      },
+      {
+        "name": "古病名:風痹",
+        "label": "風痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 23
+      },
+      {
+        "name": "古病名:歷節風",
+        "label": "歷節風",
+        "category": 0,
+        "layer": "古病名",
+        "value": 21
+      },
+      {
+        "name": "古病名:白虎歷節",
+        "label": "白虎歷節",
+        "category": 0,
+        "layer": "古病名",
+        "value": 16
+      },
+      {
+        "name": "古病名:頑痹",
+        "label": "頑痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 15
+      },
+      {
+        "name": "古病名:寒痹",
+        "label": "寒痹",
+        "category": 0,
+        "layer": "古病名",
+        "value": 14
+      },
+      {
+        "name": "症状:痛",
+        "label": "痛",
+        "category": 1,
+        "layer": "症状",
+        "value": 172
+      },
+      {
+        "name": "症状:疼痛",
+        "label": "疼痛",
+        "category": 1,
+        "layer": "症状",
+        "value": 115
+      },
+      {
+        "name": "症状:汗出",
+        "label": "汗出",
+        "category": 1,
+        "layer": "症状",
+        "value": 50
+      },
+      {
+        "name": "症状:腫",
+        "label": "腫",
+        "category": 1,
+        "layer": "症状",
+        "value": 50
+      },
+      {
+        "name": "症状:小便不利",
+        "label": "小便不利",
+        "category": 1,
+        "layer": "症状",
+        "value": 49
+      },
+      {
+        "name": "症状:惡寒",
+        "label": "惡寒",
+        "category": 1,
+        "layer": "症状",
+        "value": 44
+      },
+      {
+        "name": "症状:關節疼痛",
+        "label": "關節疼痛",
+        "category": 1,
+        "layer": "症状",
+        "value": 42
+      },
+      {
+        "name": "症状:渴",
+        "label": "渴",
+        "category": 1,
+        "layer": "症状",
+        "value": 41
+      },
+      {
+        "name": "症状:發熱",
+        "label": "發熱",
+        "category": 1,
+        "layer": "症状",
+        "value": 37
+      },
+      {
+        "name": "症状:短氣",
+        "label": "短氣",
+        "category": 1,
+        "layer": "症状",
+        "value": 26
+      },
+      {
+        "name": "症状:喘",
+        "label": "喘",
+        "category": 1,
+        "layer": "症状",
+        "value": 24
+      },
+      {
+        "name": "症状:不可屈伸",
+        "label": "不可屈伸",
+        "category": 1,
+        "layer": "症状",
+        "value": 21
+      },
+      {
+        "name": "病机:寒濕",
+        "label": "寒濕",
+        "category": 2,
+        "layer": "病机",
+        "value": 58
+      },
+      {
+        "name": "病机:風寒",
+        "label": "風寒",
+        "category": 2,
+        "layer": "病机",
+        "value": 49
+      },
+      {
+        "name": "病机:風濕",
+        "label": "風濕",
+        "category": 2,
+        "layer": "病机",
+        "value": 39
+      },
+      {
+        "name": "病机:風寒濕",
+        "label": "風寒濕",
+        "category": 2,
+        "layer": "病机",
+        "value": 30
+      },
+      {
+        "name": "病机:濕熱",
+        "label": "濕熱",
+        "category": 2,
+        "layer": "病机",
+        "value": 9
+      },
+      {
+        "name": "病机:瘀血",
+        "label": "瘀血",
+        "category": 2,
+        "layer": "病机",
+        "value": 4
+      },
+      {
+        "name": "病机:風血相搏",
+        "label": "風血相搏",
+        "category": 2,
+        "layer": "病机",
+        "value": 1
+      },
+      {
+        "name": "治法:溫陽",
+        "label": "溫陽",
+        "category": 3,
+        "layer": "治法",
+        "value": 18
+      },
+      {
+        "name": "治法:溫經散寒",
+        "label": "溫經散寒",
+        "category": 3,
+        "layer": "治法",
+        "value": 16
+      },
+      {
+        "name": "治法:養血",
+        "label": "養血",
+        "category": 3,
+        "layer": "治法",
+        "value": 10
+      },
+      {
+        "name": "药物:甘草",
+        "label": "甘草",
+        "category": 4,
+        "layer": "药物",
+        "value": 5
+      },
+      {
+        "name": "药物:桂枝",
+        "label": "桂枝",
+        "category": 4,
+        "layer": "药物",
+        "value": 4
+      },
+      {
+        "name": "药物:細辛",
+        "label": "細辛",
+        "category": 4,
+        "layer": "药物",
+        "value": 4
+      },
+      {
+        "name": "药物:吳茱萸",
+        "label": "吳茱萸",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:芍藥",
+        "label": "芍藥",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:生薑",
+        "label": "生薑",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:當歸",
+        "label": "當歸",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:清酒",
+        "label": "清酒",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:大棗",
+        "label": "大棗",
+        "category": 4,
+        "layer": "药物",
+        "value": 3
+      },
+      {
+        "name": "药物:乾薑",
+        "label": "乾薑",
+        "category": 4,
+        "layer": "药物",
+        "value": 2
+      },
+      {
+        "name": "药物:附子",
+        "label": "附子",
+        "category": 4,
+        "layer": "药物",
+        "value": 1
+      },
+      {
+        "name": "药物:麻黃",
+        "label": "麻黃",
+        "category": 4,
+        "layer": "药物",
+        "value": 1
+      }
+    ],
+    "links": [
+      {
+        "source": "古病名:痹",
+        "target": "症状:關節疼痛",
+        "value": 23
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:小便不利",
+        "value": 26
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:發熱",
+        "value": 21
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:惡寒",
+        "value": 21
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:短氣",
+        "value": 9
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:疼痛",
+        "value": 54
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:汗出",
+        "value": 23
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:喘",
+        "value": 12
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:痛",
+        "value": 74
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:渴",
+        "value": 19
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:腫",
+        "value": 22
+      },
+      {
+        "source": "病机:風濕",
+        "target": "古病名:痹",
+        "value": 17
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:關節疼痛",
+        "value": 19
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:小便不利",
+        "value": 18
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:發熱",
+        "value": 9
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:惡寒",
+        "value": 9
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:短氣",
+        "value": 5
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:疼痛",
+        "value": 31
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:汗出",
+        "value": 8
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:喘",
+        "value": 4
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:痛",
+        "value": 38
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:渴",
+        "value": 7
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:腫",
+        "value": 8
+      },
+      {
+        "source": "病机:風濕",
+        "target": "古病名:濕痹",
+        "value": 8
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:痹",
+        "value": 20
+      },
+      {
+        "source": "古病名:寒痹",
+        "target": "症状:惡寒",
+        "value": 1
+      },
+      {
+        "source": "古病名:寒痹",
+        "target": "症状:發熱",
+        "value": 1
+      },
+      {
+        "source": "古病名:寒痹",
+        "target": "症状:渴",
+        "value": 1
+      },
+      {
+        "source": "古病名:寒痹",
+        "target": "症状:腫",
+        "value": 1
+      },
+      {
+        "source": "古病名:寒痹",
+        "target": "症状:痛",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:寒痹",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:痹",
+        "value": 10
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:痹",
+        "value": 21
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:惡寒",
+        "value": 4
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:疼痛",
+        "value": 3
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:發熱",
+        "value": 3
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:汗出",
+        "value": 3
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:渴",
+        "value": 3
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:腫",
+        "value": 2
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:痛",
+        "value": 7
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:喘",
+        "value": 2
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:乾薑",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:附子",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:桂枝",
+        "value": 2
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:麻黃",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:細辛",
+        "value": 2
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:甘草",
+        "value": 2
+      },
+      {
+        "source": "病机:風濕",
+        "target": "治法:溫經散寒",
+        "value": 1
+      },
+      {
+        "source": "病机:風濕",
+        "target": "治法:溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机:風濕",
+        "target": "治法:養血",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:生薑",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:當歸",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:清酒",
+        "value": 1
+      },
+      {
+        "source": "治法:溫經散寒",
+        "target": "药物:大棗",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:生薑",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:當歸",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:桂枝",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:清酒",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:細辛",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:大棗",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:甘草",
+        "value": 2
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:生薑",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:當歸",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:桂枝",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:清酒",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:細辛",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:大棗",
+        "value": 1
+      },
+      {
+        "source": "治法:養血",
+        "target": "药物:甘草",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:濕痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:濕痹",
+        "value": 6
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:濕痹",
+        "value": 4
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "治法:溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "治法:溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒",
+        "target": "治法:溫陽",
+        "value": 1
+      },
+      {
+        "source": "治法:溫陽",
+        "target": "药物:乾薑",
+        "value": 1
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:痹",
+        "value": 4
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:濕痹",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:汗出",
+        "value": 12
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:痛",
+        "value": 29
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:歷節",
+        "value": 6
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:歷節",
+        "value": 14
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:歷節",
+        "value": 9
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:小便不利",
+        "value": 2
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:惡寒",
+        "value": 1
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:渴",
+        "value": 1
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:痛",
+        "value": 4
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:行痹",
+        "value": 2
+      },
+      {
+        "source": "病机:風濕",
+        "target": "古病名:行痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:行痹",
+        "value": 3
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:行痹",
+        "value": 2
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:小便不利",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:痛痹",
+        "value": 2
+      },
+      {
+        "source": "病机:風濕",
+        "target": "古病名:痛痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:痛痹",
+        "value": 4
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:痛痹",
+        "value": 3
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:短氣",
+        "value": 2
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:疼痛",
+        "value": 1
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:汗出",
+        "value": 1
+      },
+      {
+        "source": "古病名:行痹",
+        "target": "症状:腫",
+        "value": 2
+      },
+      {
+        "source": "古病名:頑痹",
+        "target": "症状:疼痛",
+        "value": 2
+      },
+      {
+        "source": "古病名:頑痹",
+        "target": "症状:腫",
+        "value": 1
+      },
+      {
+        "source": "古病名:頑痹",
+        "target": "症状:痛",
+        "value": 3
+      },
+      {
+        "source": "古病名:風痹",
+        "target": "症状:惡寒",
+        "value": 1
+      },
+      {
+        "source": "古病名:風痹",
+        "target": "症状:疼痛",
+        "value": 3
+      },
+      {
+        "source": "古病名:風痹",
+        "target": "症状:痛",
+        "value": 4
+      },
+      {
+        "source": "古病名:白虎歷節",
+        "target": "症状:痛",
+        "value": 2
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:白虎歷節",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節風",
+        "target": "症状:痛",
+        "value": 4
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:歷節風",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:發熱",
+        "value": 1
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:惡寒",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:喘",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:渴",
+        "value": 4
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:小便不利",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:不可屈伸",
+        "value": 12
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:短氣",
+        "value": 8
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:疼痛",
+        "value": 16
+      },
+      {
+        "source": "古病名:歷節",
+        "target": "症状:腫",
+        "value": 7
+      },
+      {
+        "source": "病机:風濕",
+        "target": "古病名:歷節",
+        "value": 7
+      },
+      {
+        "source": "古病名:痹",
+        "target": "症状:不可屈伸",
+        "value": 5
+      },
+      {
+        "source": "古病名:濕痹",
+        "target": "症状:不可屈伸",
+        "value": 3
+      },
+      {
+        "source": "病机:濕熱",
+        "target": "古病名:歷節",
+        "value": 3
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:惡寒",
+        "value": 4
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:疼痛",
+        "value": 4
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:渴",
+        "value": 5
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:腫",
+        "value": 5
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:痛",
+        "value": 6
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:喘",
+        "value": 4
+      },
+      {
+        "source": "病机:瘀血",
+        "target": "古病名:痹",
+        "value": 2
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:發熱",
+        "value": 1
+      },
+      {
+        "source": "古病名:周痹",
+        "target": "症状:汗出",
+        "value": 3
+      },
+      {
+        "source": "病机:瘀血",
+        "target": "古病名:周痹",
+        "value": 1
+      },
+      {
+        "source": "古病名:歷節風",
+        "target": "症状:惡寒",
+        "value": 1
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:歷節風",
+        "value": 2
+      },
+      {
+        "source": "古病名:風痹",
+        "target": "症状:發熱",
+        "value": 1
+      },
+      {
+        "source": "古病名:風痹",
+        "target": "症状:渴",
+        "value": 1
+      },
+      {
+        "source": "病机:瘀血",
+        "target": "古病名:風痹",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:風痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:風痹",
+        "value": 2
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:風痹",
+        "value": 2
+      },
+      {
+        "source": "古病名:歷節風",
+        "target": "症状:疼痛",
+        "value": 1
+      },
+      {
+        "source": "病机:風血相搏",
+        "target": "古病名:歷節",
+        "value": 1
+      },
+      {
+        "source": "古病名:白虎歷節",
+        "target": "症状:短氣",
+        "value": 1
+      },
+      {
+        "source": "古病名:白虎歷節",
+        "target": "症状:腫",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:白虎歷節",
+        "value": 1
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:白虎歷節",
+        "value": 1
+      },
+      {
+        "source": "古病名:歷節風",
+        "target": "症状:短氣",
+        "value": 1
+      },
+      {
+        "source": "古病名:歷節風",
+        "target": "症状:腫",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:歷節風",
+        "value": 1
+      },
+      {
+        "source": "古病名:痛痹",
+        "target": "症状:不可屈伸",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:頑痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:頑痹",
+        "value": 2
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:頑痹",
+        "value": 2
+      },
+      {
+        "source": "病机:寒濕",
+        "target": "古病名:周痹",
+        "value": 2
+      },
+      {
+        "source": "病机:風寒濕",
+        "target": "古病名:周痹",
+        "value": 1
+      },
+      {
+        "source": "病机:風寒",
+        "target": "古病名:周痹",
+        "value": 1
+      }
+    ],
+    "layers": [
+      "古病名",
+      "症状",
+      "病机",
+      "治法",
+      "药物"
+    ]
+  },
+  "network": {
+    "nodes": [
+      {
+        "name": "桂枝",
+        "category": "解表",
+        "count": 26,
+        "degree": 0.95,
+        "betweenness": 0.296,
+        "eigenvector": 0.4269,
+        "pagerank": 0.1391
+      },
+      {
+        "name": "甘草",
+        "category": "其他",
+        "count": 23,
+        "degree": 0.8,
+        "betweenness": 0.0986,
+        "eigenvector": 0.4255,
+        "pagerank": 0.1253
+      },
+      {
+        "name": "芍藥",
+        "category": "其他",
+        "count": 18,
+        "degree": 0.8,
+        "betweenness": 0.1304,
+        "eigenvector": 0.3721,
+        "pagerank": 0.1125
+      },
+      {
+        "name": "附子",
+        "category": "温阳",
+        "count": 22,
+        "degree": 0.65,
+        "betweenness": 0.0459,
+        "eigenvector": 0.3752,
+        "pagerank": 0.0983
+      },
+      {
+        "name": "麻黃",
+        "category": "解表",
+        "count": 17,
+        "degree": 0.65,
+        "betweenness": 0.035,
+        "eigenvector": 0.3227,
+        "pagerank": 0.0885
+      },
+      {
+        "name": "白朮",
+        "category": "化湿",
+        "count": 14,
+        "degree": 0.4,
+        "betweenness": 0.0,
+        "eigenvector": 0.3078,
+        "pagerank": 0.0706
+      },
+      {
+        "name": "知母",
+        "category": "清热",
+        "count": 8,
+        "degree": 0.55,
+        "betweenness": 0.1067,
+        "eigenvector": 0.2189,
+        "pagerank": 0.0649
+      },
+      {
+        "name": "生薑",
+        "category": "其他",
+        "count": 9,
+        "degree": 0.5,
+        "betweenness": 0.0171,
+        "eigenvector": 0.2169,
+        "pagerank": 0.0587
+      },
+      {
+        "name": "防風",
+        "category": "祛风",
+        "count": 7,
+        "degree": 0.4,
+        "betweenness": 0.0,
+        "eigenvector": 0.1691,
+        "pagerank": 0.043
+      },
+      {
+        "name": "烏頭",
+        "category": "温阳",
+        "count": 10,
+        "degree": 0.35,
+        "betweenness": 0.0009,
+        "eigenvector": 0.1147,
+        "pagerank": 0.0325
+      },
+      {
+        "name": "細辛",
+        "category": "祛风",
+        "count": 4,
+        "degree": 0.3,
+        "betweenness": 0.0011,
+        "eigenvector": 0.0726,
+        "pagerank": 0.0228
+      },
+      {
+        "name": "乾薑",
+        "category": "温阳",
+        "count": 4,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "eigenvector": 0.0596,
+        "pagerank": 0.0199
+      },
+      {
+        "name": "炙甘草",
+        "category": "其他",
+        "count": 2,
+        "degree": 0.3,
+        "betweenness": 0.0,
+        "eigenvector": 0.0495,
+        "pagerank": 0.0189
+      },
+      {
+        "name": "大棗",
+        "category": "其他",
+        "count": 3,
+        "degree": 0.2,
+        "betweenness": 0.0,
+        "eigenvector": 0.057,
+        "pagerank": 0.0186
+      },
+      {
+        "name": "黃耆",
+        "category": "补益",
+        "count": 3,
+        "degree": 0.25,
+        "betweenness": 0.0,
+        "eigenvector": 0.0612,
+        "pagerank": 0.0185
+      },
+      {
+        "name": "當歸",
+        "category": "活血",
+        "count": 2,
+        "degree": 0.2,
+        "betweenness": 0.0,
+        "eigenvector": 0.038,
+        "pagerank": 0.0148
+      },
+      {
+        "name": "茯苓",
+        "category": "化湿",
+        "count": 2,
+        "degree": 0.15,
+        "betweenness": 0.0,
+        "eigenvector": 0.0323,
+        "pagerank": 0.0128
+      },
+      {
+        "name": "柴胡",
+        "category": "其他",
+        "count": 5,
+        "degree": 0.1,
+        "betweenness": 0.0,
+        "eigenvector": 0.021,
+        "pagerank": 0.011
+      },
+      {
+        "name": "白芍",
+        "category": "其他",
+        "count": 2,
+        "degree": 0.1,
+        "betweenness": 0.0,
+        "eigenvector": 0.021,
+        "pagerank": 0.011
+      },
+      {
+        "name": "牡蠣",
+        "category": "其他",
+        "count": 2,
+        "degree": 0.05,
+        "betweenness": 0.0,
+        "eigenvector": 0.0058,
+        "pagerank": 0.0092
+      },
+      {
+        "name": "人參",
+        "category": "补益",
+        "count": 4,
+        "degree": 0.05,
+        "betweenness": 0.0,
+        "eigenvector": 0.0112,
+        "pagerank": 0.0091
+      }
+    ],
+    "links": [
+      {
+        "source": "桂枝",
+        "target": "甘草",
+        "count": 18,
+        "pmi": 0.368
+      },
+      {
+        "source": "桂枝",
+        "target": "附子",
+        "count": 16,
+        "pmi": 0.295
+      },
+      {
+        "source": "桂枝",
+        "target": "芍藥",
+        "count": 16,
+        "pmi": 0.495
+      },
+      {
+        "source": "甘草",
+        "target": "附子",
+        "count": 15,
+        "pmi": 0.353
+      },
+      {
+        "source": "甘草",
+        "target": "芍藥",
+        "count": 15,
+        "pmi": 0.553
+      },
+      {
+        "source": "白朮",
+        "target": "附子",
+        "count": 13,
+        "pmi": 0.706
+      },
+      {
+        "source": "桂枝",
+        "target": "白朮",
+        "count": 12,
+        "pmi": 0.459
+      },
+      {
+        "source": "甘草",
+        "target": "白朮",
+        "count": 12,
+        "pmi": 0.582
+      },
+      {
+        "source": "甘草",
+        "target": "麻黃",
+        "count": 12,
+        "pmi": 0.387
+      },
+      {
+        "source": "桂枝",
+        "target": "麻黃",
+        "count": 11,
+        "pmi": 0.178
+      },
+      {
+        "source": "附子",
+        "target": "麻黃",
+        "count": 11,
+        "pmi": 0.345
+      },
+      {
+        "source": "芍藥",
+        "target": "麻黃",
+        "count": 11,
+        "pmi": 0.546
+      },
+      {
+        "source": "芍藥",
+        "target": "附子",
+        "count": 10,
+        "pmi": 0.192
+      },
+      {
+        "source": "桂枝",
+        "target": "生薑",
+        "count": 8,
+        "pmi": 0.495
+      },
+      {
+        "source": "甘草",
+        "target": "生薑",
+        "count": 8,
+        "pmi": 0.618
+      },
+      {
+        "source": "生薑",
+        "target": "芍藥",
+        "count": 8,
+        "pmi": 0.863
+      },
+      {
+        "source": "白朮",
+        "target": "芍藥",
+        "count": 8,
+        "pmi": 0.421
+      },
+      {
+        "source": "白朮",
+        "target": "麻黃",
+        "count": 7,
+        "pmi": 0.345
+      },
+      {
+        "source": "桂枝",
+        "target": "知母",
+        "count": 7,
+        "pmi": 0.48
+      },
+      {
+        "source": "甘草",
+        "target": "知母",
+        "count": 7,
+        "pmi": 0.602
+      },
+      {
+        "source": "知母",
+        "target": "芍藥",
+        "count": 7,
+        "pmi": 0.847
+      },
+      {
+        "source": "知母",
+        "target": "麻黃",
+        "count": 7,
+        "pmi": 0.904
+      },
+      {
+        "source": "甘草",
+        "target": "防風",
+        "count": 6,
+        "pmi": 0.582
+      },
+      {
+        "source": "知母",
+        "target": "附子",
+        "count": 6,
+        "pmi": 0.492
+      },
+      {
+        "source": "烏頭",
+        "target": "麻黃",
+        "count": 6,
+        "pmi": 0.527
+      },
+      {
+        "source": "生薑",
+        "target": "白朮",
+        "count": 5,
+        "pmi": 0.644
+      },
+      {
+        "source": "生薑",
+        "target": "附子",
+        "count": 5,
+        "pmi": 0.192
+      },
+      {
+        "source": "桂枝",
+        "target": "防風",
+        "count": 5,
+        "pmi": 0.277
+      },
+      {
+        "source": "白朮",
+        "target": "防風",
+        "count": 5,
+        "pmi": 0.896
+      },
+      {
+        "source": "防風",
+        "target": "附子",
+        "count": 5,
+        "pmi": 0.444
+      },
+      {
+        "source": "生薑",
+        "target": "防風",
+        "count": 5,
+        "pmi": 1.338
+      },
+      {
+        "source": "白朮",
+        "target": "知母",
+        "count": 5,
+        "pmi": 0.762
+      },
+      {
+        "source": "烏頭",
+        "target": "甘草",
+        "count": 5,
+        "pmi": 0.043
+      },
+      {
+        "source": "烏頭",
+        "target": "芍藥",
+        "count": 5,
+        "pmi": 0.288
+      },
+      {
+        "source": "乾薑",
+        "target": "甘草",
+        "count": 4,
+        "pmi": 0.736
+      },
+      {
+        "source": "生薑",
+        "target": "知母",
+        "count": 4,
+        "pmi": 0.981
+      },
+      {
+        "source": "生薑",
+        "target": "麻黃",
+        "count": 4,
+        "pmi": 0.227
+      },
+      {
+        "source": "知母",
+        "target": "防風",
+        "count": 4,
+        "pmi": 1.232
+      },
+      {
+        "source": "芍藥",
+        "target": "防風",
+        "count": 4,
+        "pmi": 0.421
+      },
+      {
+        "source": "防風",
+        "target": "麻黃",
+        "count": 4,
+        "pmi": 0.478
+      },
+      {
+        "source": "大棗",
+        "target": "桂枝",
+        "count": 3,
+        "pmi": 0.613
+      },
+      {
+        "source": "大棗",
+        "target": "甘草",
+        "count": 3,
+        "pmi": 0.736
+      },
+      {
+        "source": "大棗",
+        "target": "生薑",
+        "count": 3,
+        "pmi": 1.674
+      },
+      {
+        "source": "大棗",
+        "target": "芍藥",
+        "count": 3,
+        "pmi": 0.981
+      },
+      {
+        "source": "乾薑",
+        "target": "桂枝",
+        "count": 3,
+        "pmi": 0.325
+      },
+      {
+        "source": "桂枝",
+        "target": "細辛",
+        "count": 3,
+        "pmi": 0.325
+      },
+      {
+        "source": "甘草",
+        "target": "細辛",
+        "count": 3,
+        "pmi": 0.448
+      },
+      {
+        "source": "細辛",
+        "target": "附子",
+        "count": 3,
+        "pmi": 0.492
+      },
+      {
+        "source": "細辛",
+        "target": "麻黃",
+        "count": 3,
+        "pmi": 0.75
+      },
+      {
+        "source": "桂枝",
+        "target": "黃耆",
+        "count": 3,
+        "pmi": 0.613
+      },
+      {
+        "source": "芍藥",
+        "target": "黃耆",
+        "count": 3,
+        "pmi": 0.981
+      },
+      {
+        "source": "桂枝",
+        "target": "烏頭",
+        "count": 3,
+        "pmi": -0.591
+      },
+      {
+        "source": "烏頭",
+        "target": "知母",
+        "count": 3,
+        "pmi": 0.588
+      },
+      {
+        "source": "人參",
+        "target": "桂枝",
+        "count": 2,
+        "pmi": -0.08
+      },
+      {
+        "source": "桂枝",
+        "target": "茯苓",
+        "count": 2,
+        "pmi": 0.613
+      },
+      {
+        "source": "甘草",
+        "target": "茯苓",
+        "count": 2,
+        "pmi": 0.736
+      },
+      {
+        "source": "茯苓",
+        "target": "附子",
+        "count": 2,
+        "pmi": 0.78
+      },
+      {
+        "source": "乾薑",
+        "target": "細辛",
+        "count": 2,
+        "pmi": 1.792
+      },
+      {
+        "source": "乾薑",
+        "target": "附子",
+        "count": 2,
+        "pmi": 0.087
+      },
+      {
+        "source": "乾薑",
+        "target": "麻黃",
+        "count": 2,
+        "pmi": 0.345
+      },
+      {
+        "source": "桂枝",
+        "target": "當歸",
+        "count": 2,
+        "pmi": 0.613
+      },
+      {
+        "source": "甘草",
+        "target": "當歸",
+        "count": 2,
+        "pmi": 0.736
+      },
+      {
+        "source": "生薑",
+        "target": "當歸",
+        "count": 2,
+        "pmi": 1.674
+      },
+      {
+        "source": "當歸",
+        "target": "芍藥",
+        "count": 2,
+        "pmi": 0.981
+      },
+      {
+        "source": "細辛",
+        "target": "芍藥",
+        "count": 2,
+        "pmi": 0.288
+      },
+      {
+        "source": "柴胡",
+        "target": "桂枝",
+        "count": 2,
+        "pmi": -0.303
+      },
+      {
+        "source": "柴胡",
+        "target": "芍藥",
+        "count": 2,
+        "pmi": 0.065
+      },
+      {
+        "source": "甘草",
+        "target": "黃耆",
+        "count": 2,
+        "pmi": 0.33
+      },
+      {
+        "source": "附子",
+        "target": "黃耆",
+        "count": 2,
+        "pmi": 0.375
+      },
+      {
+        "source": "麻黃",
+        "target": "黃耆",
+        "count": 2,
+        "pmi": 0.633
+      },
+      {
+        "source": "烏頭",
+        "target": "附子",
+        "count": 2,
+        "pmi": -0.829
+      },
+      {
+        "source": "牡蠣",
+        "target": "知母",
+        "count": 2,
+        "pmi": 1.792
+      },
+      {
+        "source": "桂枝",
+        "target": "炙甘草",
+        "count": 2,
+        "pmi": 0.613
+      },
+      {
+        "source": "炙甘草",
+        "target": "烏頭",
+        "count": 2,
+        "pmi": 1.569
+      },
+      {
+        "source": "炙甘草",
+        "target": "甘草",
+        "count": 2,
+        "pmi": 0.736
+      },
+      {
+        "source": "炙甘草",
+        "target": "知母",
+        "count": 2,
+        "pmi": 1.792
+      },
+      {
+        "source": "炙甘草",
+        "target": "芍藥",
+        "count": 2,
+        "pmi": 0.981
+      },
+      {
+        "source": "炙甘草",
+        "target": "麻黃",
+        "count": 2,
+        "pmi": 1.038
+      },
+      {
+        "source": "桂枝",
+        "target": "白芍",
+        "count": 2,
+        "pmi": 0.613
+      },
+      {
+        "source": "白芍",
+        "target": "芍藥",
+        "count": 2,
+        "pmi": 0.981
+      }
+    ],
+    "categories": [
+      "其他",
+      "化湿",
+      "活血",
+      "清热",
+      "温阳",
+      "祛风",
+      "补益",
+      "解表"
+    ]
+  },
+  "sankey": {
+    "nodes": [
+      {
+        "name": "治法·溫經散寒"
+      },
+      {
+        "name": "治法·溫陽"
+      },
+      {
+        "name": "治法·養血"
+      },
+      {
+        "name": "病名·周痹"
+      },
+      {
+        "name": "病名·寒痹"
+      },
+      {
+        "name": "病名·歷節"
+      },
+      {
+        "name": "病名·歷節風"
+      },
+      {
+        "name": "病名·濕痹"
+      },
+      {
+        "name": "病名·痛痹"
+      },
+      {
+        "name": "病名·痹"
+      },
+      {
+        "name": "病名·白虎歷節"
+      },
+      {
+        "name": "病名·行痹"
+      },
+      {
+        "name": "病名·頑痹"
+      },
+      {
+        "name": "病名·風痹"
+      },
+      {
+        "name": "病机·寒濕"
+      },
+      {
+        "name": "病机·風寒"
+      },
+      {
+        "name": "病机·風寒濕"
+      },
+      {
+        "name": "病机·風濕"
+      },
+      {
+        "name": "症·上氣"
+      },
+      {
+        "name": "症·下利"
+      },
+      {
+        "name": "症·下血"
+      },
+      {
+        "name": "症·不可屈伸"
+      },
+      {
+        "name": "症·不大便"
+      },
+      {
+        "name": "症·不得眠"
+      },
+      {
+        "name": "症·不得臥"
+      },
+      {
+        "name": "症·不能食"
+      },
+      {
+        "name": "症·但欲寐"
+      },
+      {
+        "name": "症·便膿血"
+      },
+      {
+        "name": "症·便血"
+      },
+      {
+        "name": "症·厥"
+      },
+      {
+        "name": "症·厥冷"
+      },
+      {
+        "name": "症·口中和"
+      },
+      {
+        "name": "症·口噤"
+      },
+      {
+        "name": "症·口渴"
+      },
+      {
+        "name": "症·口燥"
+      },
+      {
+        "name": "症·口苦"
+      },
+      {
+        "name": "症·吐利"
+      },
+      {
+        "name": "症·吐血"
+      },
+      {
+        "name": "症·咳"
+      },
+      {
+        "name": "症·咳嗽"
+      },
+      {
+        "name": "症·咽乾"
+      },
+      {
+        "name": "症·咽痛"
+      },
+      {
+        "name": "症·喘"
+      },
+      {
+        "name": "症·嘔吐"
+      },
+      {
+        "name": "症·嘔逆"
+      },
+      {
+        "name": "症·噦"
+      },
+      {
+        "name": "症·四逆"
+      },
+      {
+        "name": "症·多眠睡"
+      },
+      {
+        "name": "症·大便硬"
+      },
+      {
+        "name": "症·大便難"
+      },
+      {
+        "name": "症·寒熱"
+      },
+      {
+        "name": "症·小便不利"
+      },
+      {
+        "name": "症·小便利"
+      },
+      {
+        "name": "症·小便數"
+      },
+      {
+        "name": "症·小便自利"
+      },
+      {
+        "name": "症·形寒"
+      },
+      {
+        "name": "症·往來寒熱"
+      },
+      {
+        "name": "症·心煩"
+      },
+      {
+        "name": "症·惡寒"
+      },
+      {
+        "name": "症·惡寒踡臥"
+      },
+      {
+        "name": "症·惡熱"
+      },
+      {
+        "name": "症·惡風"
+      },
+      {
+        "name": "症·戰慄"
+      },
+      {
+        "name": "症·手足厥冷"
+      },
+      {
+        "name": "症·手足溫"
+      },
+      {
+        "name": "症·手足濈然汗出"
+      },
+      {
+        "name": "症·拘攣"
+      },
+      {
+        "name": "症·掣痛"
+      },
+      {
+        "name": "症·欲嘔"
+      },
+      {
+        "name": "症·歷節痛"
+      },
+      {
+        "name": "症·汗出"
+      },
+      {
+        "name": "症·消渴"
+      },
+      {
+        "name": "症·渴"
+      },
+      {
+        "name": "症·溫溫欲吐"
+      },
+      {
+        "name": "症·潮熱"
+      },
+      {
+        "name": "症·無汗"
+      },
+      {
+        "name": "症·煩躁"
+      },
+      {
+        "name": "症·煩驚"
+      },
+      {
+        "name": "症·燥屎"
+      },
+      {
+        "name": "症·疼痛"
+      },
+      {
+        "name": "症·痛"
+      },
+      {
+        "name": "症·發熱"
+      },
+      {
+        "name": "症·發黃"
+      },
+      {
+        "name": "症·短氣"
+      },
+      {
+        "name": "症·神昏"
+      },
+      {
+        "name": "症·耳聾"
+      },
+      {
+        "name": "症·肢節疼痛"
+      },
+      {
+        "name": "症·背反張"
+      },
+      {
+        "name": "症·胸中窒"
+      },
+      {
+        "name": "症·胸滿"
+      },
+      {
+        "name": "症·胸痛"
+      },
+      {
+        "name": "症·能食"
+      },
+      {
+        "name": "症·腫"
+      },
+      {
+        "name": "症·腫大"
+      },
+      {
+        "name": "症·腰痛"
+      },
+      {
+        "name": "症·腹滿"
+      },
+      {
+        "name": "症·腹痛"
+      },
+      {
+        "name": "症·自利"
+      },
+      {
+        "name": "症·自汗出"
+      },
+      {
+        "name": "症·舌上苔"
+      },
+      {
+        "name": "症·角弓反張"
+      },
+      {
+        "name": "症·身疼痛"
+      },
+      {
+        "name": "症·身重"
+      },
+      {
+        "name": "症·身黃"
+      },
+      {
+        "name": "症·鄭聲"
+      },
+      {
+        "name": "症·關節疼痛"
+      },
+      {
+        "name": "症·面赤"
+      },
+      {
+        "name": "症·項背強"
+      },
+      {
+        "name": "症·頭汗出"
+      },
+      {
+        "name": "症·頭痛"
+      },
+      {
+        "name": "症·頭眩"
+      },
+      {
+        "name": "症·頭項強痛"
+      },
+      {
+        "name": "症·額上汗出"
+      },
+      {
+        "name": "症·骨節疼痛"
+      },
+      {
+        "name": "症·骨節痛"
+      },
+      {
+        "name": "症·體痛"
+      },
+      {
+        "name": "症·黃汗"
+      },
+      {
+        "name": "症·鼻塞"
+      },
+      {
+        "name": "药·乾薑"
+      },
+      {
+        "name": "药·人參"
+      },
+      {
+        "name": "药·半夏"
+      },
+      {
+        "name": "药·吳茱萸"
+      },
+      {
+        "name": "药·大棗"
+      },
+      {
+        "name": "药·桂枝"
+      },
+      {
+        "name": "药·清酒"
+      },
+      {
+        "name": "药·甘草"
+      },
+      {
+        "name": "药·生薑"
+      },
+      {
+        "name": "药·當歸"
+      },
+      {
+        "name": "药·白朮"
+      },
+      {
+        "name": "药·細辛"
+      },
+      {
+        "name": "药·芍藥"
+      },
+      {
+        "name": "药·附子"
+      },
+      {
+        "name": "药·麻黃"
+      }
+    ],
+    "links": [
+      {
+        "source": "病名·痹",
+        "target": "症·痛",
+        "value": 74
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·疼痛",
+        "value": 54
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·痛",
+        "value": 38
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·疼痛",
+        "value": 31
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·痛",
+        "value": 29
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·小便不利",
+        "value": 26
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·關節疼痛",
+        "value": 23
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·汗出",
+        "value": 23
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·腫",
+        "value": 22
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·發熱",
+        "value": 21
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·惡寒",
+        "value": 21
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·渴",
+        "value": 19
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·關節疼痛",
+        "value": 19
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·小便不利",
+        "value": 18
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·疼痛",
+        "value": 16
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·喘",
+        "value": 12
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·汗出",
+        "value": 12
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·不可屈伸",
+        "value": 12
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·頭痛",
+        "value": 10
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·惡風",
+        "value": 10
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·短氣",
+        "value": 9
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·發熱",
+        "value": 9
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·惡寒",
+        "value": 9
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·小便利",
+        "value": 8
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·汗出",
+        "value": 8
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·腫",
+        "value": 8
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·骨節疼痛",
+        "value": 8
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·咳",
+        "value": 8
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·短氣",
+        "value": 8
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·黃汗",
+        "value": 8
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·小便自利",
+        "value": 7
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·身重",
+        "value": 7
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·下利",
+        "value": 7
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·渴",
+        "value": 7
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·痛",
+        "value": 7
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·厥",
+        "value": 7
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·歷節痛",
+        "value": 7
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·腫",
+        "value": 7
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·無汗",
+        "value": 6
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·胸滿",
+        "value": 6
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·痛",
+        "value": 6
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·鼻塞",
+        "value": 5
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·短氣",
+        "value": 5
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·惡風",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·咳嗽",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·腹痛",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·腹滿",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·小便數",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·不能食",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·不可屈伸",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·不得眠",
+        "value": 5
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·黃汗",
+        "value": 5
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·渴",
+        "value": 5
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·腫",
+        "value": 5
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·掣痛",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·發黃",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·小便自利",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·小便利",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·頭痛",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·鼻塞",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·掣痛",
+        "value": 4
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·喘",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·口渴",
+        "value": 4
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·惡寒",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·四逆",
+        "value": 4
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·痛",
+        "value": 4
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·痛",
+        "value": 4
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·痛",
+        "value": 4
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·渴",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·歷節痛",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·胸中窒",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·骨節疼痛",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·小便數",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·不得眠",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·不能食",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·胸中窒",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·惡寒",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·疼痛",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·下利",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·咳",
+        "value": 4
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·喘",
+        "value": 4
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·噦",
+        "value": 3
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·身重",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·身疼痛",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·寒熱",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·拘攣",
+        "value": 3
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·疼痛",
+        "value": 3
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·發熱",
+        "value": 3
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·汗出",
+        "value": 3
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·渴",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·不大便",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·自利",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·吐利",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·惡風",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·身重",
+        "value": 3
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·痛",
+        "value": 3
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·疼痛",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·溫溫欲吐",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·掣痛",
+        "value": 3
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·不可屈伸",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·肢節疼痛",
+        "value": 3
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·頭眩",
+        "value": 3
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·汗出",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·頭眩",
+        "value": 3
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·額上汗出",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·大便硬",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·頭汗出",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·口燥",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·面赤",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·無汗",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·胸滿",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·下利",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·形寒",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·腰痛",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·身重",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·咳嗽",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·腫",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·喘",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·咳",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·往來寒熱",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·能食",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·嘔吐",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·口苦",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·咽痛",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·潮熱",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·身黃",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·肢節疼痛",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·肢節疼痛",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·骨節疼痛",
+        "value": 2
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·小便不利",
+        "value": 2
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·短氣",
+        "value": 2
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·腫",
+        "value": 2
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·疼痛",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·寒熱",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·咳嗽",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·腹痛",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·便血",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·寒熱",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·便血",
+        "value": 2
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·痛",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·惡寒",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·能食",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·喘",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·厥",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·四逆",
+        "value": 2
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·厥",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·小便不利",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·溫溫欲吐",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·骨節痛",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·黃汗",
+        "value": 2
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·黃汗",
+        "value": 2
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·自汗出",
+        "value": 2
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·多眠睡",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·自汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·背反張",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·口噤",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·額上汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·大便硬",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·多眠睡",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·自汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·頭汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·背反張",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·口燥",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·口噤",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·發黃",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·面赤",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·噦",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·角弓反張",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·口中和",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·角弓反張",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·口中和",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·惡寒",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·咳嗽",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·形寒",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·頭痛",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·惡風",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·發熱",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·口渴",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·渴",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·腫",
+        "value": 1
+      },
+      {
+        "source": "病名·寒痹",
+        "target": "症·痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·但欲寐",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·骨節疼痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·但欲寐",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·腰痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·無汗",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·咳",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·胸痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·吐血",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·上氣",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·咳嗽",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·吐血",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·上氣",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·腹滿",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·惡寒踡臥",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·手足溫",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·不得臥",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·便膿血",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·煩躁",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·燥屎",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·戰慄",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·鄭聲",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·神昏",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·消渴",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·咽乾",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·耳聾",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·厥冷",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·項背強",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·煩驚",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·大便難",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·大便難",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·身黃",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·自利",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·厥",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·小便自利",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·小便利",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·大便硬",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·惡寒",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·胸滿",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·渴",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·小便自利",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·小便不利",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·小便利",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·大便硬",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·胸滿",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·骨節疼痛",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·疼痛",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·惡風",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·頭項強痛",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·頭項強痛",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·口渴",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·惡熱",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·嘔逆",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·嘔逆",
+        "value": 1
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·嘔逆",
+        "value": 1
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·腫",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·惡寒",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·胸滿",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·舌上苔",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·欲嘔",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·往來寒熱",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·舌上苔",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·不大便",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·欲嘔",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·便血",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·下血",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·吐利",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·下血",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·下血",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·吐利",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·寒熱",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·咳嗽",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·便血",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·下血",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·吐利",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·寒熱",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·咳嗽",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·便血",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·腹痛",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·下血",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·吐利",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·手足濈然汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·手足厥冷",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·不大便",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·自利",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·頭痛",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·發熱",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·腹滿",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·嘔吐",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·體痛",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·潮熱",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·四逆",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·手足濈然汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·手足厥冷",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·體痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·手足濈然汗出",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·手足厥冷",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·不大便",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·歷節痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·自利",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·頭痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·能食",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·腹滿",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·嘔吐",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·體痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·潮熱",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·小便自利",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·溫溫欲吐",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·骨節痛",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·不得眠",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·咽痛",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·發黃",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·形寒",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節",
+        "target": "症·咳",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·腫大",
+        "value": 1
+      },
+      {
+        "source": "病名·痹",
+        "target": "症·心煩",
+        "value": 1
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·心煩",
+        "value": 1
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·發熱",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·惡寒",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·頭痛",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·發熱",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·吐利",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·頭眩",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·口苦",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·渴",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·頭眩",
+        "value": 1
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·骨節痛",
+        "value": 1
+      },
+      {
+        "source": "病名·風痹",
+        "target": "症·拘攣",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·疼痛",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·溫溫欲吐",
+        "value": 1
+      },
+      {
+        "source": "病名·行痹",
+        "target": "症·頭眩",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·溫溫欲吐",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·短氣",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·頭眩",
+        "value": 1
+      },
+      {
+        "source": "病名·白虎歷節",
+        "target": "症·腫",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·溫溫欲吐",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·短氣",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·頭眩",
+        "value": 1
+      },
+      {
+        "source": "病名·歷節風",
+        "target": "症·腫",
+        "value": 1
+      },
+      {
+        "source": "病名·痛痹",
+        "target": "症·不可屈伸",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·小便數",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·不得眠",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·不能食",
+        "value": 1
+      },
+      {
+        "source": "病名·濕痹",
+        "target": "症·胸中窒",
+        "value": 1
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·歷節痛",
+        "value": 1
+      },
+      {
+        "source": "病名·周痹",
+        "target": "症·厥",
+        "value": 1
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·歷節痛",
+        "value": 1
+      },
+      {
+        "source": "病名·頑痹",
+        "target": "症·厥",
+        "value": 1
+      },
+      {
+        "source": "病机·風濕",
+        "target": "治法·溫經散寒",
+        "value": 1
+      },
+      {
+        "source": "病机·風濕",
+        "target": "治法·溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机·風濕",
+        "target": "治法·養血",
+        "value": 1
+      },
+      {
+        "source": "病机·風寒濕",
+        "target": "治法·溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机·寒濕",
+        "target": "治法·溫陽",
+        "value": 1
+      },
+      {
+        "source": "病机·風寒",
+        "target": "治法·溫陽",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·桂枝",
+        "value": 2
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·細辛",
+        "value": 2
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·甘草",
+        "value": 2
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·甘草",
+        "value": 2
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·乾薑",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·附子",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·麻黃",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·生薑",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·當歸",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·清酒",
+        "value": 1
+      },
+      {
+        "source": "治法·溫經散寒",
+        "target": "药·大棗",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·生薑",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·當歸",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·桂枝",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·清酒",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·細辛",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·大棗",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·吳茱萸",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·芍藥",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·生薑",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·當歸",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·桂枝",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·清酒",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·細辛",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·大棗",
+        "value": 1
+      },
+      {
+        "source": "治法·養血",
+        "target": "药·甘草",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·乾薑",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·半夏",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·白朮",
+        "value": 1
+      },
+      {
+        "source": "治法·溫陽",
+        "target": "药·人參",
+        "value": 1
+      }
+    ]
+  },
+  "sunburst": {
+    "roots": [
+      {
+        "name": "風濕",
+        "children": [
+          {
+            "name": "溫經散寒",
+            "value": null,
+            "children": [
+              {
+                "name": "桂枝",
+                "value": 2
+              },
+              {
+                "name": "細辛",
+                "value": 2
+              },
+              {
+                "name": "甘草",
+                "value": 2
+              },
+              {
+                "name": "乾薑",
+                "value": 1
+              },
+              {
+                "name": "附子",
+                "value": 1
+              },
+              {
+                "name": "麻黃",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "溫陽",
+            "value": null,
+            "children": [
+              {
+                "name": "甘草",
+                "value": 2
+              },
+              {
+                "name": "吳茱萸",
+                "value": 1
+              },
+              {
+                "name": "芍藥",
+                "value": 1
+              },
+              {
+                "name": "生薑",
+                "value": 1
+              },
+              {
+                "name": "當歸",
+                "value": 1
+              },
+              {
+                "name": "桂枝",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "養血",
+            "value": null,
+            "children": [
+              {
+                "name": "吳茱萸",
+                "value": 1
+              },
+              {
+                "name": "芍藥",
+                "value": 1
+              },
+              {
+                "name": "生薑",
+                "value": 1
+              },
+              {
+                "name": "當歸",
+                "value": 1
+              },
+              {
+                "name": "桂枝",
+                "value": 1
+              },
+              {
+                "name": "清酒",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "風寒濕",
+        "children": [
+          {
+            "name": "溫陽",
+            "value": null,
+            "children": [
+              {
+                "name": "甘草",
+                "value": 2
+              },
+              {
+                "name": "吳茱萸",
+                "value": 1
+              },
+              {
+                "name": "芍藥",
+                "value": 1
+              },
+              {
+                "name": "生薑",
+                "value": 1
+              },
+              {
+                "name": "當歸",
+                "value": 1
+              },
+              {
+                "name": "桂枝",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "寒濕",
+        "children": [
+          {
+            "name": "溫陽",
+            "value": null,
+            "children": [
+              {
+                "name": "甘草",
+                "value": 2
+              },
+              {
+                "name": "吳茱萸",
+                "value": 1
+              },
+              {
+                "name": "芍藥",
+                "value": 1
+              },
+              {
+                "name": "生薑",
+                "value": 1
+              },
+              {
+                "name": "當歸",
+                "value": 1
+              },
+              {
+                "name": "桂枝",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "風寒",
+        "children": [
+          {
+            "name": "溫陽",
+            "value": null,
+            "children": [
+              {
+                "name": "甘草",
+                "value": 2
+              },
+              {
+                "name": "吳茱萸",
+                "value": 1
+              },
+              {
+                "name": "芍藥",
+                "value": 1
+              },
+              {
+                "name": "生薑",
+                "value": 1
+              },
+              {
+                "name": "當歸",
+                "value": 1
+              },
+              {
+                "name": "桂枝",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "radar": {
+    "indicators": [
+      {
+        "name": "寒濕",
+        "max": 27
+      },
+      {
+        "name": "風寒",
+        "max": 27
+      },
+      {
+        "name": "風濕",
+        "max": 27
+      },
+      {
+        "name": "風寒濕",
+        "max": 27
+      },
+      {
+        "name": "濕熱",
+        "max": 27
+      },
+      {
+        "name": "瘀血",
+        "max": 27
+      }
+    ],
+    "series": [
+      {
+        "name": "joint_pain",
+        "value": [
+          25,
+          20,
+          19,
+          10,
+          5,
+          2
+        ]
+      },
+      {
+        "name": "swelling",
+        "value": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "systemic",
+        "value": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "heatmap": {
+    "herbs": [
+      "桂枝",
+      "甘草",
+      "芍藥",
+      "附子",
+      "麻黃",
+      "白朮",
+      "知母",
+      "生薑",
+      "防風",
+      "烏頭",
+      "細辛",
+      "乾薑",
+      "炙甘草",
+      "大棗",
+      "黃耆",
+      "當歸",
+      "茯苓",
+      "柴胡"
+    ],
+    "cells": [
+      [
+        1,
+        0,
+        18
+      ],
+      [
+        2,
+        0,
+        16
+      ],
+      [
+        3,
+        0,
+        16
+      ],
+      [
+        4,
+        0,
+        11
+      ],
+      [
+        5,
+        0,
+        12
+      ],
+      [
+        6,
+        0,
+        7
+      ],
+      [
+        7,
+        0,
+        8
+      ],
+      [
+        8,
+        0,
+        5
+      ],
+      [
+        9,
+        0,
+        3
+      ],
+      [
+        10,
+        0,
+        3
+      ],
+      [
+        11,
+        0,
+        3
+      ],
+      [
+        12,
+        0,
+        2
+      ],
+      [
+        13,
+        0,
+        3
+      ],
+      [
+        14,
+        0,
+        3
+      ],
+      [
+        15,
+        0,
+        2
+      ],
+      [
+        16,
+        0,
+        2
+      ],
+      [
+        17,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        18
+      ],
+      [
+        2,
+        1,
+        15
+      ],
+      [
+        3,
+        1,
+        15
+      ],
+      [
+        4,
+        1,
+        12
+      ],
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        6,
+        1,
+        7
+      ],
+      [
+        7,
+        1,
+        8
+      ],
+      [
+        8,
+        1,
+        6
+      ],
+      [
+        9,
+        1,
+        5
+      ],
+      [
+        10,
+        1,
+        3
+      ],
+      [
+        11,
+        1,
+        4
+      ],
+      [
+        12,
+        1,
+        2
+      ],
+      [
+        13,
+        1,
+        3
+      ],
+      [
+        14,
+        1,
+        2
+      ],
+      [
+        15,
+        1,
+        2
+      ],
+      [
+        16,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        16
+      ],
+      [
+        1,
+        2,
+        15
+      ],
+      [
+        3,
+        2,
+        10
+      ],
+      [
+        4,
+        2,
+        11
+      ],
+      [
+        5,
+        2,
+        8
+      ],
+      [
+        6,
+        2,
+        7
+      ],
+      [
+        7,
+        2,
+        8
+      ],
+      [
+        8,
+        2,
+        4
+      ],
+      [
+        9,
+        2,
+        5
+      ],
+      [
+        10,
+        2,
+        2
+      ],
+      [
+        12,
+        2,
+        2
+      ],
+      [
+        13,
+        2,
+        3
+      ],
+      [
+        14,
+        2,
+        3
+      ],
+      [
+        15,
+        2,
+        2
+      ],
+      [
+        17,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        16
+      ],
+      [
+        1,
+        3,
+        15
+      ],
+      [
+        2,
+        3,
+        10
+      ],
+      [
+        4,
+        3,
+        11
+      ],
+      [
+        5,
+        3,
+        13
+      ],
+      [
+        6,
+        3,
+        6
+      ],
+      [
+        7,
+        3,
+        5
+      ],
+      [
+        8,
+        3,
+        5
+      ],
+      [
+        9,
+        3,
+        2
+      ],
+      [
+        10,
+        3,
+        3
+      ],
+      [
+        11,
+        3,
+        2
+      ],
+      [
+        14,
+        3,
+        2
+      ],
+      [
+        16,
+        3,
+        2
+      ],
+      [
+        0,
+        4,
+        11
+      ],
+      [
+        1,
+        4,
+        12
+      ],
+      [
+        2,
+        4,
+        11
+      ],
+      [
+        3,
+        4,
+        11
+      ],
+      [
+        5,
+        4,
+        7
+      ],
+      [
+        6,
+        4,
+        7
+      ],
+      [
+        7,
+        4,
+        4
+      ],
+      [
+        8,
+        4,
+        4
+      ],
+      [
+        9,
+        4,
+        6
+      ],
+      [
+        10,
+        4,
+        3
+      ],
+      [
+        11,
+        4,
+        2
+      ],
+      [
+        12,
+        4,
+        2
+      ],
+      [
+        14,
+        4,
+        2
+      ],
+      [
+        0,
+        5,
+        12
+      ],
+      [
+        1,
+        5,
+        12
+      ],
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        3,
+        5,
+        13
+      ],
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        6,
+        5,
+        5
+      ],
+      [
+        7,
+        5,
+        5
+      ],
+      [
+        8,
+        5,
+        5
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        6,
+        6
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        5,
+        6,
+        5
+      ],
+      [
+        7,
+        6,
+        4
+      ],
+      [
+        8,
+        6,
+        4
+      ],
+      [
+        9,
+        6,
+        3
+      ],
+      [
+        12,
+        6,
+        2
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        1,
+        7,
+        8
+      ],
+      [
+        2,
+        7,
+        8
+      ],
+      [
+        3,
+        7,
+        5
+      ],
+      [
+        4,
+        7,
+        4
+      ],
+      [
+        5,
+        7,
+        5
+      ],
+      [
+        6,
+        7,
+        4
+      ],
+      [
+        8,
+        7,
+        5
+      ],
+      [
+        13,
+        7,
+        3
+      ],
+      [
+        15,
+        7,
+        2
+      ],
+      [
+        0,
+        8,
+        5
+      ],
+      [
+        1,
+        8,
+        6
+      ],
+      [
+        2,
+        8,
+        4
+      ],
+      [
+        3,
+        8,
+        5
+      ],
+      [
+        4,
+        8,
+        4
+      ],
+      [
+        5,
+        8,
+        5
+      ],
+      [
+        6,
+        8,
+        4
+      ],
+      [
+        7,
+        8,
+        5
+      ],
+      [
+        0,
+        9,
+        3
+      ],
+      [
+        1,
+        9,
+        5
+      ],
+      [
+        2,
+        9,
+        5
+      ],
+      [
+        3,
+        9,
+        2
+      ],
+      [
+        4,
+        9,
+        6
+      ],
+      [
+        6,
+        9,
+        3
+      ],
+      [
+        12,
+        9,
+        2
+      ],
+      [
+        0,
+        10,
+        3
+      ],
+      [
+        1,
+        10,
+        3
+      ],
+      [
+        2,
+        10,
+        2
+      ],
+      [
+        3,
+        10,
+        3
+      ],
+      [
+        4,
+        10,
+        3
+      ],
+      [
+        11,
+        10,
+        2
+      ],
+      [
+        0,
+        11,
+        3
+      ],
+      [
+        1,
+        11,
+        4
+      ],
+      [
+        3,
+        11,
+        2
+      ],
+      [
+        4,
+        11,
+        2
+      ],
+      [
+        10,
+        11,
+        2
+      ],
+      [
+        0,
+        12,
+        2
+      ],
+      [
+        1,
+        12,
+        2
+      ],
+      [
+        2,
+        12,
+        2
+      ],
+      [
+        4,
+        12,
+        2
+      ],
+      [
+        6,
+        12,
+        2
+      ],
+      [
+        9,
+        12,
+        2
+      ],
+      [
+        0,
+        13,
+        3
+      ],
+      [
+        1,
+        13,
+        3
+      ],
+      [
+        2,
+        13,
+        3
+      ],
+      [
+        7,
+        13,
+        3
+      ],
+      [
+        0,
+        14,
+        3
+      ],
+      [
+        1,
+        14,
+        2
+      ],
+      [
+        2,
+        14,
+        3
+      ],
+      [
+        3,
+        14,
+        2
+      ],
+      [
+        4,
+        14,
+        2
+      ],
+      [
+        0,
+        15,
+        2
+      ],
+      [
+        1,
+        15,
+        2
+      ],
+      [
+        2,
+        15,
+        2
+      ],
+      [
+        7,
+        15,
+        2
+      ],
+      [
+        0,
+        16,
+        2
+      ],
+      [
+        1,
+        16,
+        2
+      ],
+      [
+        3,
+        16,
+        2
+      ],
+      [
+        0,
+        17,
+        2
+      ],
+      [
+        2,
+        17,
+        2
+      ]
+    ],
+    "max": 18
+  },
+  "bars": {
+    "症状": [
+      [
+        "痛",
+        89
+      ],
+      [
+        "疼痛",
+        63
+      ],
+      [
+        "汗出",
+        28
+      ],
+      [
+        "小便不利",
+        27
+      ],
+      [
+        "腫",
+        25
+      ],
+      [
+        "關節疼痛",
+        23
+      ],
+      [
+        "惡寒",
+        22
+      ],
+      [
+        "發熱",
+        21
+      ],
+      [
+        "渴",
+        20
+      ],
+      [
+        "短氣",
+        14
+      ],
+      [
+        "喘",
+        13
+      ],
+      [
+        "不可屈伸",
+        12
+      ],
+      [
+        "惡風",
+        11
+      ],
+      [
+        "頭痛",
+        10
+      ],
+      [
+        "小便利",
+        8
+      ],
+      [
+        "身重",
+        8
+      ],
+      [
+        "骨節疼痛",
+        8
+      ],
+      [
+        "咳",
+        8
+      ],
+      [
+        "黃汗",
+        8
+      ],
+      [
+        "小便自利",
+        7
+      ]
+    ],
+    "病机": [
+      [
+        "寒濕",
+        27
+      ],
+      [
+        "風寒",
+        21
+      ],
+      [
+        "風濕",
+        20
+      ],
+      [
+        "風寒濕",
+        11
+      ],
+      [
+        "濕熱",
+        6
+      ],
+      [
+        "瘀血",
+        2
+      ],
+      [
+        "風血相搏",
+        1
+      ]
+    ],
+    "治法": [
+      [
+        "溫經散寒",
+        2
+      ],
+      [
+        "溫陽",
+        2
+      ],
+      [
+        "養血",
+        1
+      ]
+    ],
+    "药物": [
+      [
+        "桂枝",
+        26
+      ],
+      [
+        "甘草",
+        23
+      ],
+      [
+        "附子",
+        22
+      ],
+      [
+        "芍藥",
+        18
+      ],
+      [
+        "麻黃",
+        17
+      ],
+      [
+        "白朮",
+        14
+      ],
+      [
+        "烏頭",
+        10
+      ],
+      [
+        "生薑",
+        9
+      ],
+      [
+        "知母",
+        8
+      ],
+      [
+        "防風",
+        7
+      ],
+      [
+        "柴胡",
+        5
+      ],
+      [
+        "人參",
+        4
+      ],
+      [
+        "乾薑",
+        4
+      ],
+      [
+        "細辛",
+        4
+      ],
+      [
+        "大棗",
+        3
+      ],
+      [
+        "黃耆",
+        3
+      ],
+      [
+        "茯苓",
+        2
+      ],
+      [
+        "吳茱萸",
+        2
+      ],
+      [
+        "當歸",
+        2
+      ],
+      [
+        "梔子",
+        2
+      ]
+    ]
+  },
+  "timeline": {
+    "dynasties": [
+      "漢",
+      "宋",
+      "明",
+      "清",
+      "未知"
+    ],
+    "rows": [
+      [
+        "明",
+        "病机·寒濕",
+        1.0
+      ],
+      [
+        "清",
+        "病机·寒濕",
+        0.316
+      ],
+      [
+        "清",
+        "病机·風寒",
+        0.237
+      ],
+      [
+        "清",
+        "病机·風濕",
+        0.211
+      ],
+      [
+        "清",
+        "病机·風寒濕",
+        0.118
+      ],
+      [
+        "清",
+        "病机·濕熱",
+        0.079
+      ],
+      [
+        "未知",
+        "病机·風濕",
+        0.364
+      ],
+      [
+        "未知",
+        "病机·風寒",
+        0.273
+      ],
+      [
+        "未知",
+        "病机·風寒濕",
+        0.182
+      ],
+      [
+        "未知",
+        "病机·寒濕",
+        0.182
+      ],
+      [
+        "未知",
+        "治法·溫經散寒",
+        0.4
+      ],
+      [
+        "未知",
+        "治法·溫陽",
+        0.4
+      ],
+      [
+        "未知",
+        "治法·養血",
+        0.2
+      ]
+    ]
+  },
+  "prisma": {
+    "recalled": 600,
+    "by_level": {
+      "rejected": 509,
+      "silver": 5,
+      "bronze": 86
+    },
+    "top_exclusions": [
+      [
+        "痿",
+        30
+      ],
+      [
+        "流注",
+        1
+      ]
+    ]
+  },
+  "params": {
+    "min_edge_count": 1,
+    "top_n": 25,
+    "size_metric": "pagerank",
+    "repulsion": 220,
+    "sankey_min_weight": 1,
+    "theme": "light"
+  }
+}

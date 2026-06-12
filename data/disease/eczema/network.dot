@@ -1,0 +1,3 @@
+graph herbs {
+  node [shape=ellipse];
+}

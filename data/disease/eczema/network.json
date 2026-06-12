@@ -1,0 +1,25 @@
+{
+  "candidates_analyzed": 2,
+  "n_nodes": 2,
+  "n_edges": 0,
+  "core_herbs": [
+    {
+      "herb": "大麥",
+      "count": 1,
+      "degree": 0.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.075
+    },
+    {
+      "herb": "黃柏",
+      "count": 1,
+      "degree": 0.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.075
+    }
+  ],
+  "edges": [],
+  "interpretation": "核心药物（按 PageRank/度中心性）：大麥、黃柏。"
+}

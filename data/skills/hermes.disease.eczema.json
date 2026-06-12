@@ -1,0 +1,666 @@
+{
+  "skill_id": "hermes.disease.eczema",
+  "kind": "disease",
+  "disease_id": "eczema",
+  "subtype": "overview",
+  "title": "湿疹 古籍证候总览 Skill",
+  "subject": "湿疹",
+  "abstracted_claim": "湿疹古籍证候总览：核心古病名 黃水瘡、濕癬、奶癬、浸淫瘡、旋耳瘡、四彎風；覆盖分型 site、acute、infant；纳入条文 9 条。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.eczema",
+  "release_level": "bronze",
+  "consensus_score": 0.72,
+  "supporting_initial_rules": [
+    "ECZEMA_000028",
+    "ECZEMA_000034",
+    "ECZEMA_000047",
+    "ECZEMA_000057",
+    "ECZEMA_000066",
+    "ECZEMA_000067",
+    "ECZEMA_000068",
+    "ECZEMA_000070",
+    "ECZEMA_000103"
+  ],
+  "supporting_rules_by_release_level": {},
+  "original_evidence": [
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "結毒門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_013406",
+      "entry_id": "ECZEMA_000057",
+      "evidence_span": "一、頭面、胸背並四肢有生硬片，狀如牛皮，初癢及抓則起白屑而麻痛，此輕粉之結毒也，切勿作癬治。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "諸瘡論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_000856",
+      "entry_id": "ECZEMA_000067",
+      "evidence_span": "若或生於手足間，相對如新茱萸，癢痛坼裂，搔破則黃水淋漓，有孔如　，久而生蟲，是為　瘡。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "四彎風門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_010097",
+      "entry_id": "ECZEMA_000034",
+      "evidence_span": "《心法》曰：四彎風，生於兩腿彎及兩腳拗，每月一發，形如風癬，乃風邪襲入腠理而成。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "月蝕疳瘡門主論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_005341",
+      "entry_id": "ECZEMA_000028",
+      "evidence_span": "《心法》曰：月蝕瘡，又名旋耳瘡，生於耳後縫間，延及耳折上下，如刀裂之狀，色紅時流津黃水。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "諸疳瘡論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_000748",
+      "entry_id": "ECZEMA_000066",
+      "evidence_span": "初生如疥癬，破時黃水浸淫成瘡，風濕相搏，毒瓦斯聚攻，漸生遍體。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "諸瘡論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_000878",
+      "entry_id": "ECZEMA_000068",
+      "evidence_span": "治面上耳邊生浸淫瘡，有黃水出，久不愈。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "外科集驗方",
+      "chapter_title": "疥癬論",
+      "dynasty": "明",
+      "source_unit_id": "SU_B6F997274_001050",
+      "entry_id": "ECZEMA_000070",
+      "evidence_span": "久而不愈，延及遍身，浸淫潰爛，或癢或痛，其狀不一，二者皆有細蟲而能傳染人也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍科心得集",
+      "chapter_title": "辨膿窠瘡黃水瘡論",
+      "dynasty": "清",
+      "source_unit_id": "SU_BB130CD90_000249",
+      "entry_id": "ECZEMA_000103",
+      "evidence_span": "黃水瘡者，頭面耳項，忽生黃泡，破流脂水，頃刻沿開，多生痛癢。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "奶癬瘡門主方",
+      "dynasty": "清",
+      "source_unit_id": "SU_B66C51E14_011711",
+      "entry_id": "ECZEMA_000047",
+      "evidence_span": "小兒奶癬及滿頭遍身黃水瘡，白面不拘多少，香油拌勻作HT　，火燒成性為末，再用真香油調搓。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "黃水瘡",
+    "濕癬",
+    "奶癬",
+    "浸淫瘡",
+    "旋耳瘡",
+    "四彎風"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "黃水",
+        "count": 7
+      },
+      {
+        "term": "耳",
+        "count": 6
+      },
+      {
+        "term": "浸淫",
+        "count": 4
+      },
+      {
+        "term": "奶癬",
+        "count": 2
+      },
+      {
+        "term": "白屑",
+        "count": 2
+      },
+      {
+        "term": "頭面",
+        "count": 2
+      },
+      {
+        "term": "旋耳",
+        "count": 1
+      },
+      {
+        "term": "腿彎",
+        "count": 1
+      },
+      {
+        "term": "津水",
+        "count": 1
+      },
+      {
+        "term": "四彎",
+        "count": 1
+      },
+      {
+        "term": "身黃",
+        "count": 1
+      },
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "腹痛",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "濕熱",
+        "count": 4
+      },
+      {
+        "term": "風熱",
+        "count": 2
+      },
+      {
+        "term": "胎毒",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "涼血",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "大麥",
+        "count": 1
+      },
+      {
+        "term": "黃柏",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "黃水瘡",
+        "count": 3
+      },
+      {
+        "term": "濕癬",
+        "count": 2
+      },
+      {
+        "term": "奶癬",
+        "count": 2
+      },
+      {
+        "term": "浸淫瘡",
+        "count": 2
+      },
+      {
+        "term": "旋耳瘡",
+        "count": 1
+      },
+      {
+        "term": "四彎風",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "旋耳瘡",
+      "has_symptom",
+      "旋耳"
+    ],
+    [
+      "旋耳瘡",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "旋耳瘡",
+      "has_symptom",
+      "耳"
+    ],
+    [
+      "旋耳瘡",
+      "maps_to_candidate",
+      "湿疹·ear"
+    ],
+    [
+      "旋耳瘡",
+      "maps_to_candidate",
+      "湿疹·site"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "旋耳瘡"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ],
+    [
+      "四彎風",
+      "has_symptom",
+      "腿彎"
+    ],
+    [
+      "四彎風",
+      "has_symptom",
+      "津水"
+    ],
+    [
+      "四彎風",
+      "has_symptom",
+      "四彎"
+    ],
+    [
+      "四彎風",
+      "maps_to_candidate",
+      "湿疹·flexure"
+    ],
+    [
+      "四彎風",
+      "maps_to_candidate",
+      "湿疹·site"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "腿彎"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "津水"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "四彎"
+    ],
+    [
+      "濕癬",
+      "maps_to_candidate",
+      "湿疹·flexure"
+    ],
+    [
+      "濕癬",
+      "maps_to_candidate",
+      "湿疹·site"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "奶癬"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "身黃"
+    ],
+    [
+      "奶癬",
+      "maps_to_candidate",
+      "湿疹·acute"
+    ],
+    [
+      "黃水瘡",
+      "has_symptom",
+      "奶癬"
+    ],
+    [
+      "黃水瘡",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "黃水瘡",
+      "has_symptom",
+      "身黃"
+    ],
+    [
+      "黃水瘡",
+      "maps_to_candidate",
+      "湿疹·acute"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "骨節疼痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "嘔吐"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "心煩"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "腹痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "耳聾"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "目眩"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "嬰兒"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "頭痛"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "頭面"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "口渴"
+    ],
+    [
+      "奶癬",
+      "has_symptom",
+      "耳"
+    ],
+    [
+      "奶癬",
+      "maps_to_candidate",
+      "湿疹·infant"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "奶癬"
+    ],
+    [
+      "胎毒",
+      "associated_with",
+      "奶癬"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "胎毒"
+    ],
+    [
+      "黃水瘡",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "黃水瘡",
+      "has_symptom",
+      "耳"
+    ],
+    [
+      "黃水瘡",
+      "maps_to_candidate",
+      "湿疹·ear"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "黃水"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "掣痛"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "皸裂"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "煩躁"
+    ],
+    [
+      "浸淫瘡",
+      "has_symptom",
+      "耳"
+    ],
+    [
+      "浸淫瘡",
+      "maps_to_candidate",
+      "湿疹·acute"
+    ],
+    [
+      "浸淫瘡",
+      "maps_to_candidate",
+      "湿疹·ear"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "浸淫瘡"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "風熱"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "濕癬",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "濕癬",
+      "maps_to_candidate",
+      "湿疹·acute"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "濕癬"
+    ],
+    [
+      "風熱",
+      "associated_with",
+      "濕癬"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "濕熱"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "黃水",
+        "count": 7
+      },
+      {
+        "term": "耳",
+        "count": 6
+      },
+      {
+        "term": "浸淫",
+        "count": 4
+      },
+      {
+        "term": "奶癬",
+        "count": 2
+      },
+      {
+        "term": "白屑",
+        "count": 2
+      },
+      {
+        "term": "頭面",
+        "count": 2
+      },
+      {
+        "term": "旋耳",
+        "count": 1
+      },
+      {
+        "term": "腿彎",
+        "count": 1
+      },
+      {
+        "term": "津水",
+        "count": 1
+      },
+      {
+        "term": "四彎",
+        "count": 1
+      },
+      {
+        "term": "身黃",
+        "count": 1
+      },
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "herbs": [
+      {
+        "term": "大麥",
+        "count": 1
+      },
+      {
+        "term": "黃柏",
+        "count": 1
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科集驗方",
+      "ancient_names": [
+        "浸淫瘡",
+        "濕癬",
+        "黃水瘡"
+      ],
+      "entry_ids": [
+        "ECZEMA_000066",
+        "ECZEMA_000067",
+        "ECZEMA_000068",
+        "ECZEMA_000070"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍科心得集",
+      "ancient_names": [
+        "黃水瘡"
+      ],
+      "entry_ids": [
+        "ECZEMA_000103"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "四彎風",
+        "奶癬",
+        "旋耳瘡",
+        "濕癬",
+        "黃水瘡"
+      ],
+      "entry_ids": [
+        "ECZEMA_000028",
+        "ECZEMA_000034",
+        "ECZEMA_000047",
+        "ECZEMA_000057"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "湿疹",
+    "eczema",
+    "黃水瘡",
+    "濕癬",
+    "奶癬",
+    "浸淫瘡",
+    "旋耳瘡",
+    "四彎風",
+    "黃水",
+    "耳",
+    "浸淫",
+    "白屑",
+    "頭面",
+    "旋耳",
+    "腿彎"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:48Z",
+  "protocol": "hermes-v5"
+}

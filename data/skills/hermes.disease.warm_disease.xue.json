@@ -1,0 +1,1173 @@
+{
+  "skill_id": "hermes.disease.warm_disease.xue",
+  "kind": "disease",
+  "disease_id": "warm_disease",
+  "subtype": "xue",
+  "title": "温病·xue 古籍证候 Skill",
+  "subject": "温病·xue",
+  "abstracted_claim": "古籍中与温病·xue表型相似的条文，核心古病名 溫病、溫熱、溫邪、溫毒、冬溫；常见症候 疹、斑、斑疹、神昏、譫語、口渴；病机多属 血分、氣分、溫邪、熱入血分；高频药物 連翹、竹葉、丹皮、石膏、葛根、赤芍、知母、黃芩。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.warm_disease.xue",
+  "release_level": "bronze",
+  "consensus_score": 0.717,
+  "supporting_initial_rules": [
+    "WARM_DISEASE_000186",
+    "WARM_DISEASE_000215",
+    "WARM_DISEASE_000236",
+    "WARM_DISEASE_000363",
+    "WARM_DISEASE_000364",
+    "WARM_DISEASE_000410",
+    "WARM_DISEASE_000437",
+    "WARM_DISEASE_000451",
+    "WARM_DISEASE_000452",
+    "WARM_DISEASE_000454",
+    "WARM_DISEASE_000462",
+    "WARM_DISEASE_000591",
+    "WARM_DISEASE_000785",
+    "WARM_DISEASE_000873",
+    "WARM_DISEASE_000965",
+    "WARM_DISEASE_001049",
+    "WARM_DISEASE_001050",
+    "WARM_DISEASE_001051",
+    "WARM_DISEASE_001052",
+    "WARM_DISEASE_001090",
+    "WARM_DISEASE_001138",
+    "WARM_DISEASE_001153",
+    "WARM_DISEASE_001297",
+    "WARM_DISEASE_001363",
+    "WARM_DISEASE_001401",
+    "WARM_DISEASE_001402",
+    "WARM_DISEASE_001405",
+    "WARM_DISEASE_001496",
+    "WARM_DISEASE_001498",
+    "WARM_DISEASE_001506",
+    "WARM_DISEASE_001704",
+    "WARM_DISEASE_001741",
+    "WARM_DISEASE_001757",
+    "WARM_DISEASE_001758",
+    "WARM_DISEASE_001792",
+    "WARM_DISEASE_001793",
+    "WARM_DISEASE_001818",
+    "WARM_DISEASE_001822",
+    "WARM_DISEASE_001884",
+    "WARM_DISEASE_002158",
+    "WARM_DISEASE_002223",
+    "WARM_DISEASE_002244",
+    "WARM_DISEASE_002299"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "WARM_DISEASE_000186",
+      "WARM_DISEASE_000236",
+      "WARM_DISEASE_000410",
+      "WARM_DISEASE_000451",
+      "WARM_DISEASE_000454",
+      "WARM_DISEASE_000591",
+      "WARM_DISEASE_000785",
+      "WARM_DISEASE_000873",
+      "WARM_DISEASE_000965",
+      "WARM_DISEASE_001051",
+      "WARM_DISEASE_001052",
+      "WARM_DISEASE_001090",
+      "WARM_DISEASE_001138",
+      "WARM_DISEASE_001297",
+      "WARM_DISEASE_001363",
+      "WARM_DISEASE_001401",
+      "WARM_DISEASE_001402",
+      "WARM_DISEASE_001405",
+      "WARM_DISEASE_001496",
+      "WARM_DISEASE_001498",
+      "WARM_DISEASE_001506",
+      "WARM_DISEASE_001704",
+      "WARM_DISEASE_001741",
+      "WARM_DISEASE_001757",
+      "WARM_DISEASE_001758",
+      "WARM_DISEASE_001792",
+      "WARM_DISEASE_001793",
+      "WARM_DISEASE_001818",
+      "WARM_DISEASE_001822",
+      "WARM_DISEASE_001884",
+      "WARM_DISEASE_002158",
+      "WARM_DISEASE_002223",
+      "WARM_DISEASE_002244",
+      "WARM_DISEASE_002299"
+    ],
+    "silver": [
+      "WARM_DISEASE_000215",
+      "WARM_DISEASE_000363",
+      "WARM_DISEASE_000364",
+      "WARM_DISEASE_000437",
+      "WARM_DISEASE_000452",
+      "WARM_DISEASE_000462",
+      "WARM_DISEASE_001049",
+      "WARM_DISEASE_001050",
+      "WARM_DISEASE_001153"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "溫病指南",
+      "chapter_title": "風溫中焦篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_B466CAE95_000241",
+      "entry_id": "WARM_DISEASE_000215",
+      "evidence_span": "陽明溫病。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "風溫、溫熱、溫疫、溫毒、冬溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_BE393921E_000565",
+      "entry_id": "WARM_DISEASE_001153",
+      "evidence_span": "三六、陽明溫病，斑疹溫痘、溫瘡、溫毒，發黃、神昏譫語者，安宮牛黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "風溫、溫熱、溫疫、溫毒、冬溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_BE393921E_000083",
+      "entry_id": "WARM_DISEASE_001050",
+      "evidence_span": "溫病忌汗者，病由口鼻而入，邪不在足太陽之表，故不得傷太陽經也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "春溫條辨第六",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000015",
+      "entry_id": "WARM_DISEASE_000363",
+      "evidence_span": "春溫熱不解，舌赤尖絳，神昏譫妄，口渴脈數，斑疹隱隱，此熱傳心營。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "冬溫條辨第六",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000304",
+      "entry_id": "WARM_DISEASE_000452",
+      "evidence_span": "冬溫熱甚，煩躁口渴，舌繹苔黃，神昏譫語，斑疹隱約，此邪熱傳營。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "春溫條辯第七",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000017",
+      "entry_id": "WARM_DISEASE_000364",
+      "evidence_span": "春溫舌絳或黑，譫妄煩躁，神昏脈促，斑疹紫黑，此熱入血分。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "風溫、溫熱、溫疫、溫毒、冬溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_BE393921E_000082",
+      "entry_id": "WARM_DISEASE_001049",
+      "evidence_span": "十六、太陰溫病，不可發汗，發汗而汗不出者，必發斑疹，汗出過多者，必神昏譫語。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "秋燥條辨第五",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000274",
+      "entry_id": "WARM_DISEASE_000437",
+      "evidence_span": "秋燥經旬不解，舌繹焦黑，神昏譫妄，斑疹累累，此熱入血分。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "溫毒條辨第四",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000321",
+      "entry_id": "WARM_DISEASE_000462",
+      "evidence_span": "溫毒煩躁，神昏舌赤，斑疹紫黑，脈促模糊，便閉或瀉稀水，此邪瘀血分，漫無洩越。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "溫病正宗",
+      "chapter_title": "三、《傷寒論》",
+      "dynasty": "",
+      "source_unit_id": "SU_B6FF8FB50_000208",
+      "entry_id": "WARM_DISEASE_000591",
+      "evidence_span": "王朴莊曰：此溫毒與《金匱》陽毒陰毒同。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病正宗",
+      "chapter_title": "七、燥病",
+      "dynasty": "",
+      "source_unit_id": "SU_B6FF8FB50_000505",
+      "entry_id": "WARM_DISEASE_000785",
+      "evidence_span": "此證古人未有另立明條，而混於傷寒溫熱之類，是以後人往往誤治，今不得不重申其義。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "風溫、溫熱、溫疫、溫毒、冬溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_BE393921E_000092",
+      "entry_id": "WARM_DISEASE_001052",
+      "evidence_span": "再按：時人發溫熱之表，二、三日汗不出者，即云斑疹蔽伏，不惟用升、柴、羌、葛，且重以山川柳發之。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "冬溫條辨第五",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000302",
+      "entry_id": "WARM_DISEASE_000451",
+      "evidence_span": "冬溫煩熱神昏，舌赤苔黃，口渴咳嗽，斑疹脈數，此邪在肺胃。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "增訂葉評傷暑全書",
+      "chapter_title": "升降散",
+      "dynasty": "",
+      "source_unit_id": "SU_BE7000B4E_000537",
+      "entry_id": "WARM_DISEASE_001297",
+      "evidence_span": "蜂蜜甘平無毒，其性大涼，主治丹毒斑疹，腹內留熱，嘔吐便秘，欲清其熱，潤燥而自散瘟毒也，故為導。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "方論",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_001546",
+      "entry_id": "WARM_DISEASE_002299",
+      "evidence_span": "凡一切火熱，表裡俱盛，狂躁、煩心、口乾、咽痛，大熱乾嘔，錯語不眠，吐血衄血，熱甚發斑，不論始終，以此為主方。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "廣瘟疫論",
+      "chapter_title": "齒燥",
+      "dynasty": "明",
+      "source_unit_id": "SU_B55688782_000127",
+      "entry_id": "WARM_DISEASE_001704",
+      "evidence_span": "輕淺者為陽明經熱，前板齒燥，身熱目疼，鼻干不得臥，此將發斑疹及衄血之先兆，葛根為主，黃芩、知母、石膏為輔。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "廣溫疫論",
+      "chapter_title": "齒燥",
+      "dynasty": "清",
+      "source_unit_id": "SU_BA3E5005C_000067",
+      "entry_id": "WARM_DISEASE_001884",
+      "evidence_span": "時疫齒燥有三，輕淺者為陽明經熱，前板齒燥，身熱目疼，鼻乾不得臥，此將發斑疹及衄血之先兆，葛根為主，黃芩，知母，石膏為輔，重者為胃府燥熱，通口皆燥，甚則黑如煤炭，三承氣，三黃石膏選用，重者為陰火煎熬，亡血太甚，腎水涸竭，當峻補其陰，知母，黃柏，生地，元參，天冬，麥冬，丹皮，每味兩許，大作湯液，加童便，金汁，晝夜兼進，若藥輕治緩，則不及矣。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "葉香岩外感溫熱篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000464",
+      "entry_id": "WARM_DISEASE_002223",
+      "evidence_span": "此論實火之斑疹也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "薛生白濕熱病篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000704",
+      "entry_id": "WARM_DISEASE_002244",
+      "evidence_span": "七濕熱證：壯熱煩渴，舌焦紅或縮，斑疹，胸痞自利，神昏痙厥，熱邪充斥表裡三焦。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "葉香岩外感溫熱篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000458",
+      "entry_id": "WARM_DISEASE_001401",
+      "evidence_span": "若舌白如粉而滑，四邊色紫絳者，溫疫病初入膜原，未歸胃腑，急急透解，莫待傳陷而入為險惡之病。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "葉香岩外感溫熱篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000459",
+      "entry_id": "WARM_DISEASE_001402",
+      "evidence_span": "溫疫白苔如積粉之濃，其穢濁重也，舌本紫絳，則邪熱為濁所閉，故當急急透解。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "葉香岩外感溫熱篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000465",
+      "entry_id": "WARM_DISEASE_001405",
+      "evidence_span": "雄按：上第十五章，詳論溫疫中斑疹證治之不同，唐氏移為第十六章，今訂正之。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "薛生白濕熱病篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000896",
+      "entry_id": "WARM_DISEASE_001496",
+      "evidence_span": "審其為疫，必宗其法，又可曾亦論及，近惟王清任知之余謂麻疹亦有因疫癘之氣而發者，故治法亦與溫熱相埒也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫熱經緯",
+      "chapter_title": "論斑疹",
+      "dynasty": "清",
+      "source_unit_id": "SU_BFAA96A43_000908",
+      "entry_id": "WARM_DISEASE_001498",
+      "evidence_span": "傷寒不發斑疹。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病指南",
+      "chapter_title": "風溫上焦篇",
+      "dynasty": "清",
+      "source_unit_id": "SU_B466CAE95_000073",
+      "entry_id": "WARM_DISEASE_000186",
+      "evidence_span": "溫病發斑（如雲片無顆粒為斑）者。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "春溫條辯第七",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000018",
+      "entry_id": "WARM_DISEASE_001741",
+      "evidence_span": "上條神昏舌絳，斑疹脈數，熱在心營。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "傷暑條辨第六",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000093",
+      "entry_id": "WARM_DISEASE_001757",
+      "evidence_span": "傷暑熱甚，口渴，舌黃尖繹，斑疹隱隱，神昏譫語，此氣分不解，而熱漸入營。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "冬溫條辨第六",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000305",
+      "entry_id": "WARM_DISEASE_001793",
+      "evidence_span": "熱不解而煩躁口渴，舌絳苔黃，裡熱已甚;更兼神昏譫妄，斑疹隱約，乃邪已入營，若再不解，必延入血。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "六因條辨",
+      "chapter_title": "斑疹條辨第三",
+      "dynasty": "清",
+      "source_unit_id": "SU_B621466F9_000390",
+      "entry_id": "WARM_DISEASE_001818",
+      "evidence_span": "前條斑疹隱隱，尚宜疏洩，此條斑疹透露，而煩熱口渴，舌黃尖赤，乃邪漸傳裡，熱不肯解，諒非疏洩透表所能臻效。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "增訂葉評傷暑全書",
+      "chapter_title": "清瘟敗毒飲",
+      "dynasty": "",
+      "source_unit_id": "SU_BE7000B4E_000539",
+      "entry_id": "WARM_DISEASE_002158",
+      "evidence_span": "凡一切火熱，表裡俱感，狂躁煩心，口乾咽痛，大熱乾嘔，錯語不眠，吐血衄血，熱甚發斑，不論始終，以此為主方。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "溫病",
+    "溫熱",
+    "溫邪",
+    "溫毒",
+    "冬溫"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "疹",
+        "count": 36
+      },
+      {
+        "term": "斑",
+        "count": 36
+      },
+      {
+        "term": "斑疹",
+        "count": 35
+      },
+      {
+        "term": "神昏",
+        "count": 26
+      },
+      {
+        "term": "譫語",
+        "count": 8
+      },
+      {
+        "term": "口渴",
+        "count": 8
+      },
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "厥",
+        "count": 6
+      },
+      {
+        "term": "衄",
+        "count": 5
+      },
+      {
+        "term": "發黃",
+        "count": 4
+      },
+      {
+        "term": "寒熱",
+        "count": 4
+      },
+      {
+        "term": "吐血",
+        "count": 4
+      },
+      {
+        "term": "咳",
+        "count": 4
+      },
+      {
+        "term": "衄血",
+        "count": 4
+      },
+      {
+        "term": "斑疹隱隱",
+        "count": 3
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "血分",
+        "count": 9
+      },
+      {
+        "term": "氣分",
+        "count": 7
+      },
+      {
+        "term": "溫邪",
+        "count": 6
+      },
+      {
+        "term": "熱入血分",
+        "count": 3
+      },
+      {
+        "term": "燥熱",
+        "count": 2
+      },
+      {
+        "term": "營分",
+        "count": 1
+      },
+      {
+        "term": "暑熱",
+        "count": 1
+      },
+      {
+        "term": "濕熱",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "滋陰",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "連翹",
+        "count": 15
+      },
+      {
+        "term": "竹葉",
+        "count": 7
+      },
+      {
+        "term": "丹皮",
+        "count": 7
+      },
+      {
+        "term": "石膏",
+        "count": 7
+      },
+      {
+        "term": "葛根",
+        "count": 4
+      },
+      {
+        "term": "赤芍",
+        "count": 4
+      },
+      {
+        "term": "知母",
+        "count": 4
+      },
+      {
+        "term": "黃芩",
+        "count": 4
+      },
+      {
+        "term": "鬱金",
+        "count": 3
+      },
+      {
+        "term": "甘草",
+        "count": 3
+      },
+      {
+        "term": "銀花",
+        "count": 3
+      },
+      {
+        "term": "升麻",
+        "count": 3
+      },
+      {
+        "term": "柴胡",
+        "count": 2
+      },
+      {
+        "term": "桑葉",
+        "count": 2
+      },
+      {
+        "term": "大黃",
+        "count": 2
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "溫病",
+        "count": 10
+      },
+      {
+        "term": "溫熱",
+        "count": 8
+      },
+      {
+        "term": "溫邪",
+        "count": 6
+      },
+      {
+        "term": "溫毒",
+        "count": 5
+      },
+      {
+        "term": "冬溫",
+        "count": 3
+      },
+      {
+        "term": "溫疫",
+        "count": 3
+      },
+      {
+        "term": "濕溫",
+        "count": 2
+      },
+      {
+        "term": "春溫",
+        "count": 2
+      },
+      {
+        "term": "秋燥",
+        "count": 2
+      },
+      {
+        "term": "風溫",
+        "count": 2
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "溫病",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "譫語"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "疹"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "斑"
+    ],
+    [
+      "溫病",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "溫病",
+      "maps_to_candidate",
+      "温病·xue"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "斑疹"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "發黃"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "斑疹"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "發黃"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "譫語"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "疹"
+    ],
+    [
+      "溫毒",
+      "has_symptom",
+      "斑"
+    ],
+    [
+      "溫毒",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "溫毒",
+      "maps_to_candidate",
+      "温病·xue"
+    ],
+    [
+      "濕溫",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "濕溫",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "濕溫",
+      "maps_to_candidate",
+      "温病·xue"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "滋陰"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "斑疹隱隱"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "斑疹"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "口渴"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "疹"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "斑"
+    ],
+    [
+      "春溫",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "春溫",
+      "maps_to_candidate",
+      "温病·xue"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "斑疹隱隱"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "斑疹"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "口渴"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "疹"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "斑"
+    ],
+    [
+      "溫熱",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "溫熱",
+      "maps_to_candidate",
+      "温病·xue"
+    ],
+    [
+      "竹葉",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "舌絳"
+    ],
+    [
+      "春溫",
+      "has_symptom",
+      "煩躁"
+    ],
+    [
+      "熱入血分",
+      "associated_with",
+      "春溫"
+    ],
+    [
+      "血分",
+      "associated_with",
+      "春溫"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "熱入血分"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血分"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "小便自利"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "不得臥"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "腹痛"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "寒熱"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "鼻衄"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "吐血"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "便血"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "耳聾"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "咳"
+    ],
+    [
+      "溫病",
+      "has_symptom",
+      "厥"
+    ],
+    [
+      "溫病",
+      "maps_to_candidate",
+      "温病·dongxue"
+    ],
+    [
+      "血分",
+      "associated_with",
+      "溫病"
+    ],
+    [
+      "桃仁",
+      "co_occurs_with",
+      "丹皮"
+    ],
+    [
+      "桃仁",
+      "co_occurs_with",
+      "柴胡"
+    ],
+    [
+      "桃仁",
+      "co_occurs_with",
+      "鬱金"
+    ],
+    [
+      "丹皮",
+      "co_occurs_with",
+      "柴胡"
+    ],
+    [
+      "丹皮",
+      "co_occurs_with",
+      "鬱金"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "疹",
+        "count": 36
+      },
+      {
+        "term": "斑",
+        "count": 36
+      },
+      {
+        "term": "斑疹",
+        "count": 35
+      },
+      {
+        "term": "神昏",
+        "count": 26
+      },
+      {
+        "term": "譫語",
+        "count": 8
+      },
+      {
+        "term": "口渴",
+        "count": 8
+      },
+      {
+        "term": "煩躁",
+        "count": 8
+      },
+      {
+        "term": "厥",
+        "count": 6
+      },
+      {
+        "term": "衄",
+        "count": 5
+      },
+      {
+        "term": "發黃",
+        "count": 4
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "血分",
+        "count": 9
+      },
+      {
+        "term": "氣分",
+        "count": 7
+      },
+      {
+        "term": "溫邪",
+        "count": 6
+      },
+      {
+        "term": "熱入血分",
+        "count": 3
+      },
+      {
+        "term": "燥熱",
+        "count": 2
+      },
+      {
+        "term": "營分",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "滋陰",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "連翹",
+        "count": 15
+      },
+      {
+        "term": "竹葉",
+        "count": 7
+      },
+      {
+        "term": "丹皮",
+        "count": 7
+      },
+      {
+        "term": "石膏",
+        "count": 7
+      },
+      {
+        "term": "葛根",
+        "count": 4
+      },
+      {
+        "term": "赤芍",
+        "count": 4
+      },
+      {
+        "term": "知母",
+        "count": 4
+      },
+      {
+        "term": "黃芩",
+        "count": 4
+      },
+      {
+        "term": "鬱金",
+        "count": 3
+      },
+      {
+        "term": "甘草",
+        "count": 3
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "六因條辨",
+      "ancient_names": [
+        "冬溫",
+        "春溫",
+        "溫毒",
+        "溫熱",
+        "溫病",
+        "秋燥"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_000363",
+        "WARM_DISEASE_000364",
+        "WARM_DISEASE_000410",
+        "WARM_DISEASE_000437",
+        "WARM_DISEASE_000451",
+        "WARM_DISEASE_000452",
+        "WARM_DISEASE_000454",
+        "WARM_DISEASE_000462"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "增訂葉評傷暑全書",
+      "ancient_names": [
+        "溫病"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_001297",
+        "WARM_DISEASE_002158"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "廣溫疫論",
+      "ancient_names": [],
+      "entry_ids": [
+        "WARM_DISEASE_001884"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "廣瘟疫論",
+      "ancient_names": [],
+      "entry_ids": [
+        "WARM_DISEASE_001704"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫熱經緯",
+      "ancient_names": [
+        "溫熱",
+        "溫疫",
+        "溫邪",
+        "風溫"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_001363",
+        "WARM_DISEASE_001401",
+        "WARM_DISEASE_001402",
+        "WARM_DISEASE_001405",
+        "WARM_DISEASE_001496",
+        "WARM_DISEASE_001498",
+        "WARM_DISEASE_001506",
+        "WARM_DISEASE_002223"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫熱逢源",
+      "ancient_names": [
+        "溫邪",
+        "風溫"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_000873",
+        "WARM_DISEASE_000965"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫病指南",
+      "ancient_names": [
+        "溫毒",
+        "溫病",
+        "濕溫"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_000186",
+        "WARM_DISEASE_000215",
+        "WARM_DISEASE_000236"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫病條辨",
+      "ancient_names": [
+        "溫毒",
+        "溫熱",
+        "溫病",
+        "溫邪",
+        "濕溫"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_001049",
+        "WARM_DISEASE_001050",
+        "WARM_DISEASE_001051",
+        "WARM_DISEASE_001052",
+        "WARM_DISEASE_001090",
+        "WARM_DISEASE_001138",
+        "WARM_DISEASE_001153"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫病正宗",
+      "ancient_names": [
+        "溫毒",
+        "溫熱",
+        "秋燥"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_000591",
+        "WARM_DISEASE_000785"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "温病",
+    "xue",
+    "warm_disease",
+    "溫病",
+    "溫熱",
+    "溫邪",
+    "溫毒",
+    "冬溫",
+    "疹",
+    "斑",
+    "斑疹",
+    "神昏",
+    "譫語",
+    "口渴",
+    "連翹",
+    "竹葉",
+    "丹皮",
+    "石膏",
+    "葛根",
+    "赤芍",
+    "知母",
+    "黃芩"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T12:38:49Z",
+  "protocol": "hermes-v5"
+}
