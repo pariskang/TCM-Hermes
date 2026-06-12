@@ -1,0 +1,663 @@
+{
+  "skill_id": "hermes.disease.psoriasis.vulgaris",
+  "kind": "disease",
+  "disease_id": "psoriasis",
+  "subtype": "vulgaris",
+  "title": "银屑病·寻常型 古籍证候 Skill",
+  "subject": "银屑病·寻常型",
+  "abstracted_claim": "古籍中与银屑病·寻常型表型相似的条文，核心古病名 癬、疕、疥、白疕、乾癬；常见症候 燥、匡郭、皮枯索、皮枯、白屑、枯；病机多属 風濕、血氣相搏、寒濕、腠理。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.psoriasis.vulgaris",
+  "release_level": "bronze",
+  "consensus_score": 0.756,
+  "supporting_initial_rules": [
+    "PSORIASIS_000001",
+    "PSORIASIS_000002",
+    "PSORIASIS_000004",
+    "PSORIASIS_000006",
+    "PSORIASIS_000007"
+  ],
+  "supporting_rules_by_release_level": {
+    "silver": [
+      "PSORIASIS_000001"
+    ],
+    "bronze": [
+      "PSORIASIS_000002",
+      "PSORIASIS_000004",
+      "PSORIASIS_000006",
+      "PSORIASIS_000007"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "諸病源候論",
+      "chapter_title": "瘡病諸候·乾癬候",
+      "dynasty": "隋",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0001",
+      "entry_id": "PSORIASIS_000001",
+      "evidence_span": "乾癬，但有匡郭，皮枯索，痒，搔之白屑出是也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "外科證治全書",
+      "chapter_title": "白疕",
+      "dynasty": "清",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0006",
+      "entry_id": "PSORIASIS_000006",
+      "evidence_span": "白疕，皮膚燥癢，起如疹疥而色白，搔之屑起，漸至成片，由血虛風燥所致，治宜養血潤燥祛風。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "諸病源候論",
+      "chapter_title": "瘡病諸候·濕癬候",
+      "dynasty": "隋",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0002",
+      "entry_id": "PSORIASIS_000002",
+      "evidence_span": "濕癬者，亦有匡郭，如蟲行，浸淫，赤濕，痒，搔之多汁成瘡，是其風毒氣淺，濕氣多故也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "醫宗金鑒",
+      "chapter_title": "外科心法要訣·白疕",
+      "dynasty": "清",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0004",
+      "entry_id": "PSORIASIS_000004",
+      "evidence_span": "白疕，俗名蛇虱，生於皮膚，形如疹疥，色白而癢，搔起白皮。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "瘍醫大全",
+      "chapter_title": "牛皮癬門",
+      "dynasty": "清",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0007",
+      "entry_id": "PSORIASIS_000007",
+      "evidence_span": "牛皮癬，狀如牛項之皮，厚而且堅，頑癬之類也，搔之不知痛癢，宜外用殺蟲潤燥之藥。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "癬",
+    "疕",
+    "疥",
+    "白疕",
+    "乾癬"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "燥",
+        "count": 3
+      },
+      {
+        "term": "匡郭",
+        "count": 2
+      },
+      {
+        "term": "皮枯索",
+        "count": 1
+      },
+      {
+        "term": "皮枯",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      },
+      {
+        "term": "枯",
+        "count": 1
+      },
+      {
+        "term": "浸淫",
+        "count": 1
+      },
+      {
+        "term": "白皮",
+        "count": 1
+      },
+      {
+        "term": "成片",
+        "count": 1
+      },
+      {
+        "term": "厚",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "血氣相搏",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
+        "count": 1
+      },
+      {
+        "term": "腠理",
+        "count": 1
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      },
+      {
+        "term": "血燥",
+        "count": 1
+      },
+      {
+        "term": "風邪",
+        "count": 1
+      },
+      {
+        "term": "風燥",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "祛風",
+        "count": 1
+      },
+      {
+        "term": "殺蟲",
+        "count": 1
+      }
+    ],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "癬",
+        "count": 3
+      },
+      {
+        "term": "疕",
+        "count": 2
+      },
+      {
+        "term": "疥",
+        "count": 2
+      },
+      {
+        "term": "白疕",
+        "count": 2
+      },
+      {
+        "term": "乾癬",
+        "count": 1
+      },
+      {
+        "term": "瘡",
+        "count": 1
+      },
+      {
+        "term": "頑癬",
+        "count": 1
+      },
+      {
+        "term": "牛皮癬",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "癬",
+      "has_symptom",
+      "皮枯索"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "皮枯"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "匡郭"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "枯"
+    ],
+    [
+      "癬",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "血氣相搏",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "腠理",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "乾癬",
+      "has_symptom",
+      "皮枯索"
+    ],
+    [
+      "乾癬",
+      "has_symptom",
+      "皮枯"
+    ],
+    [
+      "乾癬",
+      "has_symptom",
+      "匡郭"
+    ],
+    [
+      "乾癬",
+      "has_symptom",
+      "白屑"
+    ],
+    [
+      "乾癬",
+      "has_symptom",
+      "枯"
+    ],
+    [
+      "乾癬",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "乾癬"
+    ],
+    [
+      "血氣相搏",
+      "associated_with",
+      "乾癬"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "乾癬"
+    ],
+    [
+      "腠理",
+      "associated_with",
+      "乾癬"
+    ],
+    [
+      "隋",
+      "dynasty_pathogenesis",
+      "風濕"
+    ],
+    [
+      "隋",
+      "dynasty_pathogenesis",
+      "血氣相搏"
+    ],
+    [
+      "隋",
+      "dynasty_pathogenesis",
+      "寒濕"
+    ],
+    [
+      "隋",
+      "dynasty_pathogenesis",
+      "腠理"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "癬"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "浸淫"
+    ],
+    [
+      "瘡",
+      "has_symptom",
+      "匡郭"
+    ],
+    [
+      "瘡",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "瘡"
+    ],
+    [
+      "隋",
+      "dynasty_pathogenesis",
+      "風毒"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "白皮"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "疕",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "血燥",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "風邪",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "白皮"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "疥",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "血燥",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "風邪",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "白皮"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "白疕",
+      "maps_to_candidate",
+      "银屑病·寻常型"
+    ],
+    [
+      "血燥",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "風邪",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血燥"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風邪"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "成片"
+    ],
+    [
+      "風燥",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "疥",
+      "has_symptom",
+      "成片"
+    ],
+    [
+      "風燥",
+      "associated_with",
+      "疥"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "成片"
+    ],
+    [
+      "風燥",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "風燥",
+      "treated_by",
+      "祛風"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風燥"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "祛風"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "癬",
+      "has_symptom",
+      "厚"
+    ],
+    [
+      "頑癬",
+      "has_symptom",
+      "燥"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "燥",
+        "count": 3
+      },
+      {
+        "term": "匡郭",
+        "count": 2
+      },
+      {
+        "term": "皮枯索",
+        "count": 1
+      },
+      {
+        "term": "皮枯",
+        "count": 1
+      },
+      {
+        "term": "白屑",
+        "count": 1
+      },
+      {
+        "term": "枯",
+        "count": 1
+      },
+      {
+        "term": "浸淫",
+        "count": 1
+      },
+      {
+        "term": "白皮",
+        "count": 1
+      },
+      {
+        "term": "成片",
+        "count": 1
+      },
+      {
+        "term": "厚",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "血氣相搏",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
+        "count": 1
+      },
+      {
+        "term": "腠理",
+        "count": 1
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      },
+      {
+        "term": "血燥",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "祛風",
+        "count": 1
+      },
+      {
+        "term": "殺蟲",
+        "count": 1
+      }
+    ],
+    "herbs": []
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "外科證治全書",
+      "ancient_names": [
+        "疕",
+        "疥",
+        "白疕"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000006"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "瘍醫大全",
+      "ancient_names": [
+        "牛皮癬",
+        "癬",
+        "頑癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000007"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "諸病源候論",
+      "ancient_names": [
+        "乾癬",
+        "瘡",
+        "癬"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000001",
+        "PSORIASIS_000002"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "醫宗金鑒",
+      "ancient_names": [
+        "疕",
+        "疥",
+        "白疕"
+      ],
+      "entry_ids": [
+        "PSORIASIS_000004"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "银屑病",
+    "寻常型",
+    "psoriasis",
+    "癬",
+    "疕",
+    "疥",
+    "白疕",
+    "乾癬",
+    "燥",
+    "匡郭",
+    "皮枯索",
+    "皮枯",
+    "白屑",
+    "枯"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:09:28Z",
+  "protocol": "hermes-v5"
+}

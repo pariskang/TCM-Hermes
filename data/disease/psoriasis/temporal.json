@@ -4,22 +4,60 @@
       "dominant_pathogenesis": [
         {
           "term": "風濕",
-          "rel_freq": 0.25
+          "rel_freq": 0.2
         },
         {
           "term": "血氣相搏",
-          "rel_freq": 0.25
+          "rel_freq": 0.2
         },
         {
           "term": "寒濕",
-          "rel_freq": 0.25
+          "rel_freq": 0.2
         },
         {
           "term": "腠理",
-          "rel_freq": 0.25
+          "rel_freq": 0.2
+        },
+        {
+          "term": "風毒",
+          "rel_freq": 0.2
         }
       ],
       "dominant_treatments": []
+    },
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "血燥",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "風邪",
+          "rel_freq": 0.167
+        },
+        {
+          "term": "風燥",
+          "rel_freq": 0.167
+        },
+        {
+          "term": "風濕",
+          "rel_freq": 0.167
+        },
+        {
+          "term": "風毒",
+          "rel_freq": 0.167
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "祛風",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "殺蟲",
+          "rel_freq": 0.5
+        }
+      ]
     }
   }
 }

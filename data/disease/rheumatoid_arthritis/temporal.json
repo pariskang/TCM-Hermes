@@ -1,0 +1,38 @@
+{
+  "dynasty_trends": {
+    "未知": {
+      "dominant_pathogenesis": [
+        {
+          "term": "寒濕",
+          "rel_freq": 0.305
+        },
+        {
+          "term": "風寒",
+          "rel_freq": 0.229
+        },
+        {
+          "term": "風濕",
+          "rel_freq": 0.219
+        },
+        {
+          "term": "風寒濕",
+          "rel_freq": 0.105
+        },
+        {
+          "term": "濕熱",
+          "rel_freq": 0.086
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "溫經散寒",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "溫陽",
+          "rel_freq": 0.5
+        }
+      ]
+    }
+  }
+}

@@ -84,14 +84,15 @@ class DiseaseHermesPipeline:
     def workspace(self, disease_id: str) -> Path:
         return ensure_dir(self.config.data_dir / "disease" / disease_id)
 
-    def _load_units(self, use_corpus: bool, use_sample: bool) -> list[SourceUnit]:
+    def _load_units(self, disease_id: str, use_corpus: bool,
+                    use_sample: bool) -> list[SourceUnit]:
         units: list[SourceUnit] = []
         if use_corpus:
             for path in sorted(Path(self.config.source_units_dir).glob("BOOK_*.jsonl")):
                 units.extend(SourceUnit.from_dict(d) for d in read_jsonl(path))
         if use_sample or not units:
             from .sample_corpus import load_sample_units
-            units.extend(load_sample_units())
+            units.extend(load_sample_units(disease_id))
         return units
 
     # ------------------------------------------------------------------
@@ -163,6 +164,24 @@ class DiseaseHermesPipeline:
             layers.append("T5_exclusion")
         return layers
 
+    def _recall(self, units, profile) -> list[dict]:
+        """T1 core-name recall ∪ T2 phenotype recall (≥2 phenotype features or
+        a special-subtype near-hit), so phenotype-rich passages surface even
+        without a named ancient disease term."""
+        recalled = self.core.search(units, profile)
+        seen = {r["unit"].source_unit_id for r in recalled}
+        for u in units:
+            if u.source_unit_id in seen:
+                continue
+            ph = self.phenotype.annotate(u.raw_text, profile)
+            sp = self.special.annotate(u.raw_text, profile)
+            n_ph = sum(len(v["hits"]) for v in ph["phenotype_support"].values())
+            if n_ph >= 2 or sp["special_subtypes"]:
+                recalled.append({"unit": u, "hit_terms": [],
+                                 "retrieval_layer": "T2_phenotype"})
+                seen.add(u.source_unit_id)
+        return recalled
+
     # ------------------------------------------------------------------
     def run(self, disease: str = "psoriasis", use_corpus: bool = False,
             use_sample: bool = True, resume: bool = False,
@@ -179,8 +198,8 @@ class DiseaseHermesPipeline:
                                           CandidateRecord.__dataclass_fields__})
                        for d in read_jsonl(cand_path)]
         else:
-            units = self._load_units(use_corpus, use_sample)
-            recalled = self.core.search(units, profile)
+            units = self._load_units(profile.disease_id, use_corpus, use_sample)
+            recalled = self._recall(units, profile)
             if limit:
                 recalled = recalled[:limit]
             records = []

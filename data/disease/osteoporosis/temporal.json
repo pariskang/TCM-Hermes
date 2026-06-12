@@ -1,0 +1,40 @@
+{
+  "dynasty_trends": {
+    "元": {
+      "dominant_pathogenesis": [],
+      "dominant_treatments": [
+        {
+          "term": "補腎",
+          "rel_freq": 1.0
+        }
+      ]
+    },
+    "明": {
+      "dominant_pathogenesis": [
+        {
+          "term": "腎虛",
+          "rel_freq": 1.0
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "補腎",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "填精",
+          "rel_freq": 0.5
+        }
+      ]
+    },
+    "戰國": {
+      "dominant_pathogenesis": [
+        {
+          "term": "髓減",
+          "rel_freq": 1.0
+        }
+      ],
+      "dominant_treatments": []
+    }
+  }
+}

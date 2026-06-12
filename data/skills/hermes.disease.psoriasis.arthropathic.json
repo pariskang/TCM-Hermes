@@ -1,0 +1,270 @@
+{
+  "skill_id": "hermes.disease.psoriasis.arthropathic",
+  "kind": "disease",
+  "disease_id": "psoriasis",
+  "subtype": "arthropathic",
+  "title": "银屑病·关节型 古籍证候 Skill",
+  "subject": "银屑病·关节型",
+  "abstracted_claim": "古籍中与银屑病·关节型表型相似的条文，核心古病名 疕、白疕；常见症候 骨節疼痛、屈伸不利、四肢、骨節、筋骨、燥；病机多属 風濕、血燥、風毒。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.psoriasis.arthropathic",
+  "release_level": "bronze",
+  "consensus_score": 0.764,
+  "supporting_initial_rules": [
+    "PSORIASIS_000010"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "PSORIASIS_000010"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "醫宗金鑒",
+      "chapter_title": "外科心法要訣·白疕附",
+      "dynasty": "清",
+      "source_unit_id": "SU_PSORIASIS_SAMPLE_0010",
+      "entry_id": "PSORIASIS_000010",
+      "evidence_span": "白疕日久，風毒入於筋骨，四肢骨節疼痛，屈伸不利者，乃血燥兼風濕入絡所致。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "疕",
+    "白疕"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "屈伸不利",
+        "count": 1
+      },
+      {
+        "term": "四肢",
+        "count": 1
+      },
+      {
+        "term": "骨節",
+        "count": 1
+      },
+      {
+        "term": "筋骨",
+        "count": 1
+      },
+      {
+        "term": "燥",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "血燥",
+        "count": 1
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      }
+    ],
+    "treatment_method": [],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "疕",
+        "count": 1
+      },
+      {
+        "term": "白疕",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "疕",
+      "has_symptom",
+      "骨節疼痛"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "屈伸不利"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "四肢"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "骨節"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "筋骨"
+    ],
+    [
+      "疕",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "疕",
+      "maps_to_candidate",
+      "银屑病·关节型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "血燥",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "疕"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "骨節疼痛"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "屈伸不利"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "四肢"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "骨節"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "筋骨"
+    ],
+    [
+      "白疕",
+      "has_symptom",
+      "燥"
+    ],
+    [
+      "白疕",
+      "maps_to_candidate",
+      "银屑病·关节型"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "血燥",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "風毒",
+      "associated_with",
+      "白疕"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風濕"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血燥"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "風毒"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "屈伸不利",
+        "count": 1
+      },
+      {
+        "term": "四肢",
+        "count": 1
+      },
+      {
+        "term": "骨節",
+        "count": 1
+      },
+      {
+        "term": "筋骨",
+        "count": 1
+      },
+      {
+        "term": "燥",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "血燥",
+        "count": 1
+      },
+      {
+        "term": "風毒",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "银屑病",
+    "关节型",
+    "psoriasis",
+    "疕",
+    "白疕",
+    "骨節疼痛",
+    "屈伸不利",
+    "四肢",
+    "骨節",
+    "筋骨",
+    "燥"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:09:28Z",
+  "protocol": "hermes-v5"
+}

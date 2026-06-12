@@ -1,0 +1,582 @@
+{
+  "skill_id": "hermes.disease.rheumatoid_arthritis.systemic",
+  "kind": "disease",
+  "disease_id": "rheumatoid_arthritis",
+  "subtype": "systemic",
+  "title": "类风湿关节炎·全身症候 古籍证候 Skill",
+  "subject": "类风湿关节炎·全身症候",
+  "abstracted_claim": "古籍中与类风湿关节炎·全身症候表型相似的条文，核心古病名 歷節、痹、行痹、白虎歷節、歷節風；常见症候 溫溫欲吐、短氣、頭眩、痛、掣痛、腫；病机多属 風濕、濕熱、風寒濕、寒濕；高频药物 甘草、防風、生薑、桂枝、知母、白朮、麻黃、附子。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.rheumatoid_arthritis.systemic",
+  "release_level": "bronze",
+  "consensus_score": 0.737,
+  "supporting_initial_rules": [
+    "RHEUMATOID_ARTHRITIS_000507",
+    "RHEUMATOID_ARTHRITIS_000509"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "RHEUMATOID_ARTHRITIS_000507",
+      "RHEUMATOID_ARTHRITIS_000509"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證三條、方十二首",
+      "dynasty": "",
+      "source_unit_id": "SU_JGYL_JIYI_000638",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000509",
+      "evidence_span": "稱白虎歷節風是也。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證三條、方十二首",
+      "dynasty": "",
+      "source_unit_id": "SU_JGYL_JIYI_000636",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000507",
+      "evidence_span": "而歷節成矣。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "歷節",
+    "痹",
+    "行痹",
+    "白虎歷節",
+    "歷節風"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "溫溫欲吐",
+        "count": 2
+      },
+      {
+        "term": "短氣",
+        "count": 2
+      },
+      {
+        "term": "頭眩",
+        "count": 2
+      },
+      {
+        "term": "痛",
+        "count": 2
+      },
+      {
+        "term": "掣痛",
+        "count": 1
+      },
+      {
+        "term": "腫",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "濕熱",
+        "count": 1
+      },
+      {
+        "term": "風寒濕",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
+        "count": 1
+      },
+      {
+        "term": "風寒",
+        "count": 1
+      }
+    ],
+    "treatment_method": [],
+    "herbs": [
+      {
+        "term": "甘草",
+        "count": 2
+      },
+      {
+        "term": "防風",
+        "count": 2
+      },
+      {
+        "term": "生薑",
+        "count": 2
+      },
+      {
+        "term": "桂枝",
+        "count": 1
+      },
+      {
+        "term": "知母",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      },
+      {
+        "term": "麻黃",
+        "count": 1
+      },
+      {
+        "term": "附子",
+        "count": 1
+      },
+      {
+        "term": "芍藥",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "歷節",
+        "count": 2
+      },
+      {
+        "term": "痹",
+        "count": 1
+      },
+      {
+        "term": "行痹",
+        "count": 1
+      },
+      {
+        "term": "白虎歷節",
+        "count": 1
+      },
+      {
+        "term": "歷節風",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "歷節",
+      "has_symptom",
+      "溫溫欲吐"
+    ],
+    [
+      "歷節",
+      "has_symptom",
+      "掣痛"
+    ],
+    [
+      "歷節",
+      "has_symptom",
+      "短氣"
+    ],
+    [
+      "歷節",
+      "has_symptom",
+      "頭眩"
+    ],
+    [
+      "歷節",
+      "has_symptom",
+      "痛"
+    ],
+    [
+      "歷節",
+      "maps_to_candidate",
+      "类风湿关节炎·systemic"
+    ],
+    [
+      "風濕",
+      "associated_with",
+      "歷節"
+    ],
+    [
+      "濕熱",
+      "associated_with",
+      "歷節"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "知母"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "桂枝",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "防風"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "知母"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "知母"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "防風",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "白朮"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "知母",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "白朮",
+      "co_occurs_with",
+      "麻黃"
+    ],
+    [
+      "白朮",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "白朮",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "白朮",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "附子"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "麻黃",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "附子",
+      "co_occurs_with",
+      "芍藥"
+    ],
+    [
+      "附子",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "芍藥",
+      "co_occurs_with",
+      "生薑"
+    ],
+    [
+      "歷節",
+      "has_symptom",
+      "腫"
+    ],
+    [
+      "風寒濕",
+      "associated_with",
+      "歷節"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "歷節"
+    ],
+    [
+      "風寒",
+      "associated_with",
+      "歷節"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "溫溫欲吐"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "短氣"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "頭眩"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "痛"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "腫"
+    ],
+    [
+      "痹",
+      "maps_to_candidate",
+      "类风湿关节炎·systemic"
+    ],
+    [
+      "風寒濕",
+      "associated_with",
+      "痹"
+    ],
+    [
+      "寒濕",
+      "associated_with",
+      "痹"
+    ],
+    [
+      "風寒",
+      "associated_with",
+      "痹"
+    ],
+    [
+      "行痹",
+      "has_symptom",
+      "溫溫欲吐"
+    ],
+    [
+      "行痹",
+      "has_symptom",
+      "短氣"
+    ],
+    [
+      "行痹",
+      "has_symptom",
+      "頭眩"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "溫溫欲吐",
+        "count": 2
+      },
+      {
+        "term": "短氣",
+        "count": 2
+      },
+      {
+        "term": "頭眩",
+        "count": 2
+      },
+      {
+        "term": "痛",
+        "count": 2
+      },
+      {
+        "term": "掣痛",
+        "count": 1
+      },
+      {
+        "term": "腫",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "風濕",
+        "count": 1
+      },
+      {
+        "term": "濕熱",
+        "count": 1
+      },
+      {
+        "term": "風寒濕",
+        "count": 1
+      },
+      {
+        "term": "寒濕",
+        "count": 1
+      },
+      {
+        "term": "風寒",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": [
+      {
+        "term": "甘草",
+        "count": 2
+      },
+      {
+        "term": "防風",
+        "count": 2
+      },
+      {
+        "term": "生薑",
+        "count": 2
+      },
+      {
+        "term": "桂枝",
+        "count": 1
+      },
+      {
+        "term": "知母",
+        "count": 1
+      },
+      {
+        "term": "白朮",
+        "count": 1
+      },
+      {
+        "term": "麻黃",
+        "count": 1
+      },
+      {
+        "term": "附子",
+        "count": 1
+      },
+      {
+        "term": "芍藥",
+        "count": 1
+      }
+    ]
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "类风湿关节炎",
+    "全身症候",
+    "rheumatoid_arthritis",
+    "歷節",
+    "痹",
+    "行痹",
+    "白虎歷節",
+    "歷節風",
+    "溫溫欲吐",
+    "短氣",
+    "頭眩",
+    "痛",
+    "掣痛",
+    "腫",
+    "甘草",
+    "防風",
+    "生薑",
+    "桂枝",
+    "知母",
+    "白朮",
+    "麻黃",
+    "附子"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:09:31Z",
+  "protocol": "hermes-v5"
+}

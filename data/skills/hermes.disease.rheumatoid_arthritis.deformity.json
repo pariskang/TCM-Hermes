@@ -1,0 +1,104 @@
+{
+  "skill_id": "hermes.disease.rheumatoid_arthritis.deformity",
+  "kind": "disease",
+  "disease_id": "rheumatoid_arthritis",
+  "subtype": "deformity",
+  "title": "类风湿关节炎·畸形/屈伸不利 古籍证候 Skill",
+  "subject": "类风湿关节炎·畸形/屈伸不利",
+  "abstracted_claim": "古籍中与类风湿关节炎·畸形/屈伸不利表型相似的条文，核心古病名 痹、風痹；常见症候 拘攣；病机多属 —。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.rheumatoid_arthritis.deformity",
+  "release_level": "bronze",
+  "consensus_score": 0.67,
+  "supporting_initial_rules": [
+    "RHEUMATOID_ARTHRITIS_000475"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "RHEUMATOID_ARTHRITIS_000475"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論十三首、脈證三條",
+      "dynasty": "",
+      "source_unit_id": "SU_JGYL_JIYI_000014",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000475",
+      "evidence_span": "即拘攣癱瘓風痹之類。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "痹",
+    "風痹"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "拘攣",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [],
+    "treatment_method": [],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "痹",
+        "count": 1
+      },
+      {
+        "term": "風痹",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "痹",
+      "has_symptom",
+      "拘攣"
+    ],
+    [
+      "痹",
+      "maps_to_candidate",
+      "类风湿关节炎·deformity"
+    ],
+    [
+      "風痹",
+      "has_symptom",
+      "拘攣"
+    ],
+    [
+      "風痹",
+      "maps_to_candidate",
+      "类风湿关节炎·deformity"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "拘攣",
+        "count": 1
+      }
+    ],
+    "pathogenesis": []
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "类风湿关节炎",
+    "畸形/屈伸不利",
+    "rheumatoid_arthritis",
+    "痹",
+    "風痹",
+    "拘攣"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:09:31Z",
+  "protocol": "hermes-v5"
+}

@@ -89,8 +89,12 @@ class RelevanceReviewPanel:
         treat = [t for t in profile.treatment_terms if t in text]
 
         # 1) classical reviewer — ancient name source + classical context
-        c_score = clamp(min(1.0, len(core_hits) / 2) * 0.6
-                        + (0.25 if patho else 0) + (0.15 if treat else 0))
+        # a single strong core term (歷節 / 白疕 / 骨痿) already counts; a second
+        # corroborating term saturates it
+        ancient = min(1.0, 0.6 + 0.4 * (len(core_hits) - 1)) if core_hits else 0.0
+        therapeutic = bool(treat) or any(m in text for m in ("主之", "主治", "主方"))
+        c_score = clamp(ancient * 0.7 + (0.2 if patho else 0)
+                        + (0.1 if therapeutic else 0))
         classical = ReviewerVote(
             "TCMClassicalReviewer", _label(c_score), c_score,
             f"核心古病名 {core_hits}；病机 {patho[:3]}；治法 {treat[:3]}",
@@ -172,9 +176,16 @@ class ConsensusRelevanceJudgeAgent:
         treat = [t for t in profile.treatment_terms if t in text]
 
         # component relevance score (user's formula)
-        ancient = min(1.0, len(core_hits) / 2)
-        context = 1.0 if (patho and treat) else 0.6 if (patho or treat) else 0.2
-        credibility = 1.0 if unit.text_type == "original" else 0.6
+        ancient = min(1.0, 0.6 + 0.4 * (len(core_hits) - 1)) if core_hits else 0.0
+        therapeutic = bool(treat) or any(m in text for m in ("主之", "主治", "主方"))
+        if patho and therapeutic:
+            context = 1.0
+        elif patho or therapeutic:
+            context = 0.6
+        else:
+            context = 0.2
+        credibility = {"original": 1.0, "formula": 1.0, "case": 0.8,
+                       "commentary": 0.7, "variant": 0.6}.get(unit.text_type, 0.7)
         insufficient = (pheno == 0 and morph == 0)
         final = (0.20 * ancient + 0.25 * pheno + 0.20 * morph
                  + 0.15 * context + 0.10 * credibility + 0.10)

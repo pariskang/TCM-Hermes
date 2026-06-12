@@ -1,0 +1,430 @@
+{
+  "skill_id": "hermes.disease.osteoporosis.bone_loss",
+  "kind": "disease",
+  "disease_id": "osteoporosis",
+  "subtype": "bone_loss",
+  "title": "骨质疏松·骨量减少(骨痿) 古籍证候 Skill",
+  "subject": "骨质疏松·骨量减少(骨痿)",
+  "abstracted_claim": "古籍中与骨质疏松·骨量减少(骨痿)表型相似的条文，核心古病名 骨痿、痿、骨枯、腰痛；常见症候 腰脊不舉、骨痿、骨枯、髓減、腰痛；病机多属 髓減、腎虛。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.osteoporosis.bone_loss",
+  "release_level": "silver",
+  "consensus_score": 0.84,
+  "supporting_initial_rules": [
+    "OSTEOPOROSIS_000001",
+    "OSTEOPOROSIS_000004",
+    "OSTEOPOROSIS_000006"
+  ],
+  "supporting_rules_by_release_level": {
+    "silver": [
+      "OSTEOPOROSIS_000001",
+      "OSTEOPOROSIS_000004"
+    ],
+    "bronze": [
+      "OSTEOPOROSIS_000006"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "黃帝內經素問",
+      "chapter_title": "痿論",
+      "dynasty": "戰國",
+      "source_unit_id": "SU_OSTEOPOROSIS_SAMPLE_0001",
+      "entry_id": "OSTEOPOROSIS_000001",
+      "evidence_span": "腎氣熱，則腰脊不舉，骨枯而髓減，發為骨痿。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "景岳全書",
+      "chapter_title": "非風·論治",
+      "dynasty": "明",
+      "source_unit_id": "SU_OSTEOPOROSIS_SAMPLE_0006",
+      "entry_id": "OSTEOPOROSIS_000004",
+      "evidence_span": "腰痛之虛者，十居八九，蓋腰為腎之府，腎虛則精髓不足，骨痿而腰脊不舉，治宜補腎填精壯骨，左歸右歸之屬。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "丹溪心法",
+      "chapter_title": "痿",
+      "dynasty": "元",
+      "source_unit_id": "SU_OSTEOPOROSIS_SAMPLE_0008",
+      "entry_id": "OSTEOPOROSIS_000006",
+      "evidence_span": "骨痿者，腎水不能勝心火，足不任身，腰脊不舉，宜補腎益陰，虎潛丸主之。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "骨痿",
+    "痿",
+    "骨枯",
+    "腰痛"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "腰脊不舉",
+        "count": 3
+      },
+      {
+        "term": "骨痿",
+        "count": 3
+      },
+      {
+        "term": "骨枯",
+        "count": 1
+      },
+      {
+        "term": "髓減",
+        "count": 1
+      },
+      {
+        "term": "腰痛",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "髓減",
+        "count": 1
+      },
+      {
+        "term": "腎虛",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "補腎",
+        "count": 2
+      },
+      {
+        "term": "填精",
+        "count": 1
+      }
+    ],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "骨痿",
+        "count": 3
+      },
+      {
+        "term": "痿",
+        "count": 3
+      },
+      {
+        "term": "骨枯",
+        "count": 1
+      },
+      {
+        "term": "腰痛",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "骨痿",
+      "has_symptom",
+      "腰脊不舉"
+    ],
+    [
+      "骨痿",
+      "has_symptom",
+      "骨枯"
+    ],
+    [
+      "骨痿",
+      "has_symptom",
+      "骨痿"
+    ],
+    [
+      "骨痿",
+      "has_symptom",
+      "髓減"
+    ],
+    [
+      "骨痿",
+      "maps_to_candidate",
+      "骨质疏松·bone_loss"
+    ],
+    [
+      "骨痿",
+      "maps_to_candidate",
+      "骨质疏松·spine"
+    ],
+    [
+      "髓減",
+      "associated_with",
+      "骨痿"
+    ],
+    [
+      "骨枯",
+      "has_symptom",
+      "腰脊不舉"
+    ],
+    [
+      "骨枯",
+      "has_symptom",
+      "骨枯"
+    ],
+    [
+      "骨枯",
+      "has_symptom",
+      "骨痿"
+    ],
+    [
+      "骨枯",
+      "has_symptom",
+      "髓減"
+    ],
+    [
+      "骨枯",
+      "maps_to_candidate",
+      "骨质疏松·bone_loss"
+    ],
+    [
+      "骨枯",
+      "maps_to_candidate",
+      "骨质疏松·spine"
+    ],
+    [
+      "髓減",
+      "associated_with",
+      "骨枯"
+    ],
+    [
+      "痿",
+      "has_symptom",
+      "腰脊不舉"
+    ],
+    [
+      "痿",
+      "has_symptom",
+      "骨枯"
+    ],
+    [
+      "痿",
+      "has_symptom",
+      "骨痿"
+    ],
+    [
+      "痿",
+      "has_symptom",
+      "髓減"
+    ],
+    [
+      "痿",
+      "maps_to_candidate",
+      "骨质疏松·bone_loss"
+    ],
+    [
+      "痿",
+      "maps_to_candidate",
+      "骨质疏松·spine"
+    ],
+    [
+      "髓減",
+      "associated_with",
+      "痿"
+    ],
+    [
+      "戰國",
+      "dynasty_pathogenesis",
+      "髓減"
+    ],
+    [
+      "骨痿",
+      "has_symptom",
+      "腰痛"
+    ],
+    [
+      "骨痿",
+      "maps_to_candidate",
+      "骨质疏松·limb"
+    ],
+    [
+      "腎虛",
+      "associated_with",
+      "骨痿"
+    ],
+    [
+      "腰痛",
+      "has_symptom",
+      "腰脊不舉"
+    ],
+    [
+      "腰痛",
+      "has_symptom",
+      "腰痛"
+    ],
+    [
+      "腰痛",
+      "has_symptom",
+      "骨痿"
+    ],
+    [
+      "腰痛",
+      "maps_to_candidate",
+      "骨质疏松·bone_loss"
+    ],
+    [
+      "腰痛",
+      "maps_to_candidate",
+      "骨质疏松·limb"
+    ],
+    [
+      "腰痛",
+      "maps_to_candidate",
+      "骨质疏松·spine"
+    ],
+    [
+      "腎虛",
+      "associated_with",
+      "腰痛"
+    ],
+    [
+      "痿",
+      "has_symptom",
+      "腰痛"
+    ],
+    [
+      "痿",
+      "maps_to_candidate",
+      "骨质疏松·limb"
+    ],
+    [
+      "腎虛",
+      "associated_with",
+      "痿"
+    ],
+    [
+      "腎虛",
+      "treated_by",
+      "補腎"
+    ],
+    [
+      "腎虛",
+      "treated_by",
+      "填精"
+    ],
+    [
+      "明",
+      "dynasty_pathogenesis",
+      "腎虛"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "補腎"
+    ],
+    [
+      "明",
+      "dynasty_treatment",
+      "填精"
+    ],
+    [
+      "元",
+      "dynasty_treatment",
+      "補腎"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "腰脊不舉",
+        "count": 3
+      },
+      {
+        "term": "骨痿",
+        "count": 3
+      },
+      {
+        "term": "骨枯",
+        "count": 1
+      },
+      {
+        "term": "髓減",
+        "count": 1
+      },
+      {
+        "term": "腰痛",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "髓減",
+        "count": 1
+      },
+      {
+        "term": "腎虛",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "補腎",
+        "count": 2
+      },
+      {
+        "term": "填精",
+        "count": 1
+      }
+    ],
+    "herbs": []
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "丹溪心法",
+      "ancient_names": [
+        "痿",
+        "骨痿"
+      ],
+      "entry_ids": [
+        "OSTEOPOROSIS_000006"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "景岳全書",
+      "ancient_names": [
+        "痿",
+        "腰痛",
+        "骨痿"
+      ],
+      "entry_ids": [
+        "OSTEOPOROSIS_000004"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "黃帝內經素問",
+      "ancient_names": [
+        "痿",
+        "骨枯",
+        "骨痿"
+      ],
+      "entry_ids": [
+        "OSTEOPOROSIS_000001"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "骨质疏松",
+    "骨量减少(骨痿)",
+    "osteoporosis",
+    "骨痿",
+    "痿",
+    "骨枯",
+    "腰痛",
+    "腰脊不舉",
+    "髓減"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:09:28Z",
+  "protocol": "hermes-v5"
+}

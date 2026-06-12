@@ -1,0 +1,798 @@
+{
+  "candidates_analyzed": 57,
+  "n_nodes": 26,
+  "n_edges": 98,
+  "core_herbs": [
+    {
+      "herb": "桂枝",
+      "count": 28,
+      "degree": 0.84,
+      "betweenness": 0.2656,
+      "eigenvector": 0.4139,
+      "pagerank": 0.1245
+    },
+    {
+      "herb": "甘草",
+      "count": 27,
+      "degree": 0.72,
+      "betweenness": 0.1101,
+      "eigenvector": 0.4292,
+      "pagerank": 0.12
+    },
+    {
+      "herb": "芍藥",
+      "count": 21,
+      "degree": 0.68,
+      "betweenness": 0.1091,
+      "eigenvector": 0.3724,
+      "pagerank": 0.1046
+    },
+    {
+      "herb": "附子",
+      "count": 26,
+      "degree": 0.64,
+      "betweenness": 0.0932,
+      "eigenvector": 0.3839,
+      "pagerank": 0.0983
+    },
+    {
+      "herb": "麻黃",
+      "count": 21,
+      "degree": 0.68,
+      "betweenness": 0.1098,
+      "eigenvector": 0.3441,
+      "pagerank": 0.0961
+    },
+    {
+      "herb": "白朮",
+      "count": 15,
+      "degree": 0.36,
+      "betweenness": 0.005,
+      "eigenvector": 0.2962,
+      "pagerank": 0.0642
+    },
+    {
+      "herb": "知母",
+      "count": 9,
+      "degree": 0.48,
+      "betweenness": 0.0893,
+      "eigenvector": 0.2118,
+      "pagerank": 0.0578
+    },
+    {
+      "herb": "生薑",
+      "count": 9,
+      "degree": 0.4,
+      "betweenness": 0.0125,
+      "eigenvector": 0.1974,
+      "pagerank": 0.049
+    },
+    {
+      "herb": "防風",
+      "count": 7,
+      "degree": 0.32,
+      "betweenness": 0.0,
+      "eigenvector": 0.1539,
+      "pagerank": 0.0359
+    },
+    {
+      "herb": "烏頭",
+      "count": 14,
+      "degree": 0.36,
+      "betweenness": 0.0048,
+      "eigenvector": 0.1258,
+      "pagerank": 0.0358
+    },
+    {
+      "herb": "蜜",
+      "count": 5,
+      "degree": 0.32,
+      "betweenness": 0.08,
+      "eigenvector": 0.0777,
+      "pagerank": 0.0309
+    },
+    {
+      "herb": "黃耆",
+      "count": 4,
+      "degree": 0.24,
+      "betweenness": 0.0,
+      "eigenvector": 0.0733,
+      "pagerank": 0.0194
+    },
+    {
+      "herb": "細辛",
+      "count": 4,
+      "degree": 0.24,
+      "betweenness": 0.0007,
+      "eigenvector": 0.0673,
+      "pagerank": 0.019
+    },
+    {
+      "herb": "炙甘草",
+      "count": 2,
+      "degree": 0.28,
+      "betweenness": 0.0,
+      "eigenvector": 0.0477,
+      "pagerank": 0.0178
+    },
+    {
+      "herb": "乾薑",
+      "count": 4,
+      "degree": 0.2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0549,
+      "pagerank": 0.0165
+    },
+    {
+      "herb": "大棗",
+      "count": 3,
+      "degree": 0.16,
+      "betweenness": 0.0,
+      "eigenvector": 0.0512,
+      "pagerank": 0.0153
+    },
+    {
+      "herb": "當歸",
+      "count": 2,
+      "degree": 0.16,
+      "betweenness": 0.0,
+      "eigenvector": 0.0341,
+      "pagerank": 0.0121
+    },
+    {
+      "herb": "杏仁",
+      "count": 2,
+      "degree": 0.16,
+      "betweenness": 0.0,
+      "eigenvector": 0.0347,
+      "pagerank": 0.0121
+    },
+    {
+      "herb": "茯苓",
+      "count": 2,
+      "degree": 0.12,
+      "betweenness": 0.0,
+      "eigenvector": 0.0296,
+      "pagerank": 0.0105
+    },
+    {
+      "herb": "赤小豆",
+      "count": 2,
+      "degree": 0.12,
+      "betweenness": 0.0,
+      "eigenvector": 0.028,
+      "pagerank": 0.0105
+    },
+    {
+      "herb": "柴胡",
+      "count": 5,
+      "degree": 0.08,
+      "betweenness": 0.0,
+      "eigenvector": 0.019,
+      "pagerank": 0.009
+    },
+    {
+      "herb": "白芍",
+      "count": 2,
+      "degree": 0.08,
+      "betweenness": 0.0,
+      "eigenvector": 0.019,
+      "pagerank": 0.009
+    },
+    {
+      "herb": "黃連",
+      "count": 2,
+      "degree": 0.08,
+      "betweenness": 0.0,
+      "eigenvector": 0.0176,
+      "pagerank": 0.0089
+    },
+    {
+      "herb": "粉",
+      "count": 2,
+      "degree": 0.04,
+      "betweenness": 0.0,
+      "eigenvector": 0.0019,
+      "pagerank": 0.008
+    },
+    {
+      "herb": "牡蠣",
+      "count": 2,
+      "degree": 0.04,
+      "betweenness": 0.0,
+      "eigenvector": 0.0051,
+      "pagerank": 0.0075
+    }
+  ],
+  "edges": [
+    {
+      "source": "桂枝",
+      "target": "甘草",
+      "count": 18,
+      "pmi": 0.305
+    },
+    {
+      "source": "甘草",
+      "target": "附子",
+      "count": 18,
+      "pmi": 0.379
+    },
+    {
+      "source": "桂枝",
+      "target": "附子",
+      "count": 17,
+      "pmi": 0.286
+    },
+    {
+      "source": "桂枝",
+      "target": "芍藥",
+      "count": 17,
+      "pmi": 0.5
+    },
+    {
+      "source": "甘草",
+      "target": "芍藥",
+      "count": 17,
+      "pmi": 0.536
+    },
+    {
+      "source": "甘草",
+      "target": "麻黃",
+      "count": 15,
+      "pmi": 0.411
+    },
+    {
+      "source": "白朮",
+      "target": "附子",
+      "count": 14,
+      "pmi": 0.716
+    },
+    {
+      "source": "附子",
+      "target": "麻黃",
+      "count": 14,
+      "pmi": 0.379
+    },
+    {
+      "source": "桂枝",
+      "target": "白朮",
+      "count": 13,
+      "pmi": 0.568
+    },
+    {
+      "source": "甘草",
+      "target": "白朮",
+      "count": 12,
+      "pmi": 0.524
+    },
+    {
+      "source": "桂枝",
+      "target": "麻黃",
+      "count": 12,
+      "pmi": 0.151
+    },
+    {
+      "source": "芍藥",
+      "target": "麻黃",
+      "count": 12,
+      "pmi": 0.439
+    },
+    {
+      "source": "芍藥",
+      "target": "附子",
+      "count": 11,
+      "pmi": 0.138
+    },
+    {
+      "source": "桂枝",
+      "target": "生薑",
+      "count": 8,
+      "pmi": 0.593
+    },
+    {
+      "source": "甘草",
+      "target": "生薑",
+      "count": 8,
+      "pmi": 0.629
+    },
+    {
+      "source": "生薑",
+      "target": "芍藥",
+      "count": 8,
+      "pmi": 0.881
+    },
+    {
+      "source": "白朮",
+      "target": "芍藥",
+      "count": 8,
+      "pmi": 0.37
+    },
+    {
+      "source": "白朮",
+      "target": "麻黃",
+      "count": 8,
+      "pmi": 0.37
+    },
+    {
+      "source": "桂枝",
+      "target": "知母",
+      "count": 8,
+      "pmi": 0.593
+    },
+    {
+      "source": "知母",
+      "target": "芍藥",
+      "count": 8,
+      "pmi": 0.881
+    },
+    {
+      "source": "甘草",
+      "target": "知母",
+      "count": 7,
+      "pmi": 0.496
+    },
+    {
+      "source": "知母",
+      "target": "麻黃",
+      "count": 7,
+      "pmi": 0.747
+    },
+    {
+      "source": "烏頭",
+      "target": "麻黃",
+      "count": 7,
+      "pmi": 0.305
+    },
+    {
+      "source": "甘草",
+      "target": "防風",
+      "count": 6,
+      "pmi": 0.593
+    },
+    {
+      "source": "知母",
+      "target": "附子",
+      "count": 6,
+      "pmi": 0.379
+    },
+    {
+      "source": "烏頭",
+      "target": "甘草",
+      "count": 6,
+      "pmi": -0.1
+    },
+    {
+      "source": "烏頭",
+      "target": "芍藥",
+      "count": 6,
+      "pmi": 0.151
+    },
+    {
+      "source": "生薑",
+      "target": "白朮",
+      "count": 5,
+      "pmi": 0.747
+    },
+    {
+      "source": "生薑",
+      "target": "附子",
+      "count": 5,
+      "pmi": 0.197
+    },
+    {
+      "source": "桂枝",
+      "target": "防風",
+      "count": 5,
+      "pmi": 0.374
+    },
+    {
+      "source": "白朮",
+      "target": "防風",
+      "count": 5,
+      "pmi": 0.999
+    },
+    {
+      "source": "防風",
+      "target": "附子",
+      "count": 5,
+      "pmi": 0.448
+    },
+    {
+      "source": "生薑",
+      "target": "防風",
+      "count": 5,
+      "pmi": 1.509
+    },
+    {
+      "source": "白朮",
+      "target": "知母",
+      "count": 5,
+      "pmi": 0.747
+    },
+    {
+      "source": "乾薑",
+      "target": "甘草",
+      "count": 4,
+      "pmi": 0.747
+    },
+    {
+      "source": "芍藥",
+      "target": "黃耆",
+      "count": 4,
+      "pmi": 0.999
+    },
+    {
+      "source": "生薑",
+      "target": "知母",
+      "count": 4,
+      "pmi": 1.035
+    },
+    {
+      "source": "生薑",
+      "target": "麻黃",
+      "count": 4,
+      "pmi": 0.188
+    },
+    {
+      "source": "知母",
+      "target": "防風",
+      "count": 4,
+      "pmi": 1.286
+    },
+    {
+      "source": "芍藥",
+      "target": "防風",
+      "count": 4,
+      "pmi": 0.439
+    },
+    {
+      "source": "防風",
+      "target": "麻黃",
+      "count": 4,
+      "pmi": 0.439
+    },
+    {
+      "source": "烏頭",
+      "target": "蜜",
+      "count": 4,
+      "pmi": 1.181
+    },
+    {
+      "source": "甘草",
+      "target": "蜜",
+      "count": 4,
+      "pmi": 0.524
+    },
+    {
+      "source": "芍藥",
+      "target": "蜜",
+      "count": 4,
+      "pmi": 0.775
+    },
+    {
+      "source": "蜜",
+      "target": "麻黃",
+      "count": 4,
+      "pmi": 0.775
+    },
+    {
+      "source": "大棗",
+      "target": "桂枝",
+      "count": 3,
+      "pmi": 0.711
+    },
+    {
+      "source": "大棗",
+      "target": "甘草",
+      "count": 3,
+      "pmi": 0.747
+    },
+    {
+      "source": "大棗",
+      "target": "生薑",
+      "count": 3,
+      "pmi": 1.846
+    },
+    {
+      "source": "大棗",
+      "target": "芍藥",
+      "count": 3,
+      "pmi": 0.999
+    },
+    {
+      "source": "乾薑",
+      "target": "桂枝",
+      "count": 3,
+      "pmi": 0.423
+    },
+    {
+      "source": "桂枝",
+      "target": "細辛",
+      "count": 3,
+      "pmi": 0.423
+    },
+    {
+      "source": "甘草",
+      "target": "細辛",
+      "count": 3,
+      "pmi": 0.46
+    },
+    {
+      "source": "細辛",
+      "target": "附子",
+      "count": 3,
+      "pmi": 0.497
+    },
+    {
+      "source": "細辛",
+      "target": "麻黃",
+      "count": 3,
+      "pmi": 0.711
+    },
+    {
+      "source": "桂枝",
+      "target": "黃耆",
+      "count": 3,
+      "pmi": 0.423
+    },
+    {
+      "source": "甘草",
+      "target": "黃耆",
+      "count": 3,
+      "pmi": 0.46
+    },
+    {
+      "source": "麻黃",
+      "target": "黃耆",
+      "count": 3,
+      "pmi": 0.711
+    },
+    {
+      "source": "桂枝",
+      "target": "烏頭",
+      "count": 3,
+      "pmi": -0.83
+    },
+    {
+      "source": "烏頭",
+      "target": "知母",
+      "count": 3,
+      "pmi": 0.305
+    },
+    {
+      "source": "人參",
+      "target": "桂枝",
+      "count": 2,
+      "pmi": 0.018
+    },
+    {
+      "source": "桂枝",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "甘草",
+      "target": "茯苓",
+      "count": 2,
+      "pmi": 0.747
+    },
+    {
+      "source": "茯苓",
+      "target": "附子",
+      "count": 2,
+      "pmi": 0.785
+    },
+    {
+      "source": "乾薑",
+      "target": "細辛",
+      "count": 2,
+      "pmi": 1.964
+    },
+    {
+      "source": "乾薑",
+      "target": "附子",
+      "count": 2,
+      "pmi": 0.092
+    },
+    {
+      "source": "乾薑",
+      "target": "麻黃",
+      "count": 2,
+      "pmi": 0.305
+    },
+    {
+      "source": "桂枝",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "甘草",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 0.747
+    },
+    {
+      "source": "生薑",
+      "target": "當歸",
+      "count": 2,
+      "pmi": 1.846
+    },
+    {
+      "source": "當歸",
+      "target": "芍藥",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "細辛",
+      "target": "芍藥",
+      "count": 2,
+      "pmi": 0.305
+    },
+    {
+      "source": "柴胡",
+      "target": "桂枝",
+      "count": 2,
+      "pmi": -0.205
+    },
+    {
+      "source": "柴胡",
+      "target": "芍藥",
+      "count": 2,
+      "pmi": 0.082
+    },
+    {
+      "source": "附子",
+      "target": "黃連",
+      "count": 2,
+      "pmi": 0.785
+    },
+    {
+      "source": "麻黃",
+      "target": "黃連",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "杏仁",
+      "target": "桂枝",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "杏仁",
+      "target": "白朮",
+      "count": 2,
+      "pmi": 1.335
+    },
+    {
+      "source": "杏仁",
+      "target": "附子",
+      "count": 2,
+      "pmi": 0.785
+    },
+    {
+      "source": "杏仁",
+      "target": "麻黃",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "甘草",
+      "target": "赤小豆",
+      "count": 2,
+      "pmi": 0.747
+    },
+    {
+      "source": "赤小豆",
+      "target": "附子",
+      "count": 2,
+      "pmi": 0.785
+    },
+    {
+      "source": "赤小豆",
+      "target": "麻黃",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "附子",
+      "target": "黃耆",
+      "count": 2,
+      "pmi": 0.092
+    },
+    {
+      "source": "烏頭",
+      "target": "附子",
+      "count": 2,
+      "pmi": -1.161
+    },
+    {
+      "source": "牡蠣",
+      "target": "知母",
+      "count": 2,
+      "pmi": 1.846
+    },
+    {
+      "source": "桂枝",
+      "target": "炙甘草",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "桂枝",
+      "target": "蜜",
+      "count": 2,
+      "pmi": -0.205
+    },
+    {
+      "source": "炙甘草",
+      "target": "烏頭",
+      "count": 2,
+      "pmi": 1.404
+    },
+    {
+      "source": "炙甘草",
+      "target": "甘草",
+      "count": 2,
+      "pmi": 0.747
+    },
+    {
+      "source": "炙甘草",
+      "target": "知母",
+      "count": 2,
+      "pmi": 1.846
+    },
+    {
+      "source": "炙甘草",
+      "target": "芍藥",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "炙甘草",
+      "target": "蜜",
+      "count": 2,
+      "pmi": 2.434
+    },
+    {
+      "source": "炙甘草",
+      "target": "麻黃",
+      "count": 2,
+      "pmi": 0.999
+    },
+    {
+      "source": "烏頭",
+      "target": "黃耆",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "知母",
+      "target": "蜜",
+      "count": 2,
+      "pmi": 0.93
+    },
+    {
+      "source": "粉",
+      "target": "蜜",
+      "count": 2,
+      "pmi": 2.434
+    },
+    {
+      "source": "桂枝",
+      "target": "白芍",
+      "count": 2,
+      "pmi": 0.711
+    },
+    {
+      "source": "白芍",
+      "target": "芍藥",
+      "count": 2,
+      "pmi": 0.999
+    }
+  ],
+  "interpretation": "核心药物（按 PageRank/度中心性）：桂枝、甘草、芍藥、附子、麻黃。"
+}

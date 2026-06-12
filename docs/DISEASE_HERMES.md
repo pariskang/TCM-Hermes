@@ -108,6 +108,44 @@ final = 0.20·古病名命中 + 0.25·表型支持 + 0.20·形态学支持
 | Bronze | 0.65–0.79 | 候选线索，不进入主结论 |
 | Rejected | <0.65 或命中强排除 / 对抗判排除 | 排除（留档） |
 
+## 内置疾病 Profile（开箱即用）
+
+| 疾病 | 古病名映射 | 数据来源 |
+| --- | --- | --- |
+| 银屑病 `psoriasis` | 白疕 / 干癣 / 松皮癣 / 牛皮癣 / 蛇虱 | 示例外科语料（伤寒金匮无） |
+| 骨质疏松 `osteoporosis` / 骨痿 | 骨痿 / 骨枯 / 骨极 / 虚劳腰痛 | 示例（内经/本草色彩浓）+ 金匮「八味肾气丸」 |
+| 类风湿 `rheumatoid_arthritis` / 历节 | 历节 / 痹证 / 尪痹 / 鹤膝风 / 白虎历节 | **直接命中金匮「中风历节病」**，`--use-corpus` 即得真实条文与方药网络 |
+
+```bash
+python3 -m hermes disease run --disease 骨质疏松
+python3 -m hermes disease run --disease 类风湿 --use-corpus --no-sample --skills
+```
+
+类风湿在真实金匮语料上能召回桂枝芍药知母汤、乌头汤等条文，药物共现网络核心为
+桂枝/甘草/附子/麻黄/知母/芍药/白朮——与原方完全吻合，是"框架在真实语料上跑通"的
+最佳示例。骨质疏松/银屑病的外科·骨伤内容在伤寒金匮中稀少，故以示例语料演示，
+正式研究需导入对应语料。
+
+> **能否"完美迁移到所有疾病"？** 框架（17 个 agent）零代码迁移——只需一个
+> `DiseaseProfile`；但**覆盖度取决于语料**：底座是伤寒/金匮时，痹证/历节类疾病
+> 有真实数据，外科/骨伤/温病类需导入相应语料。这是数据问题，不是框架问题。
+
+## Disease-Skill：编译为 Skill 并接入 Skill RAG
+
+候选条文（默认 silver/gold，可含 bronze）按现代分型编译为 Hermes Skill，
+命名 `hermes.disease.<disease>.<subtype>`，写入独立的 `disease_skill_index.json`，
+被 `SkillRAGAgent` 与方剂 Skill **统一检索**（重跑主管线不会覆盖疾病 Skill）。
+
+```bash
+python3 -m hermes disease run --disease 银屑病 --skills           # 跑流程并编译 Skill
+python3 -m hermes disease-skills --disease 类风湿 --include-bronze # 单独编译
+python3 -m hermes ask "白疕 鳞屑 血燥"                             # 经 Skill RAG 命中疾病 Skill
+```
+
+疾病 Skill 答复保留统一契约（发布级别 / 一致性分 / 支持候选 / 原文证据 / variant /
+conflict / 安全声明），并附疾病专属字段：`ancient_disease_names`、`ontology_summary`、
+`mapping_caveat`（古今映射为候选/表型对应，非诊断）。
+
 ## 迁移到其他疾病
 
 只需新增一个 `DiseaseProfile` 并在 `DISEASE_PROFILES` 注册——agent 代码零改动：

@@ -208,8 +208,22 @@ def cmd_disease(cfg: HermesConfig, args) -> None:
     summary = pipe.run(args.disease, use_corpus=args.use_corpus,
                        use_sample=not args.no_sample, resume=args.resume,
                        limit=args.limit)
+    if getattr(args, "skills", False):
+        from .disease.skills import DiseaseSkillBuilder
+        summary["disease_skills"] = DiseaseSkillBuilder(
+            cfg, include_bronze=args.include_bronze).run(args.disease)
     _print(summary)
     print(f"workspace → {summary.get('workspace')}")
+
+
+def cmd_disease_skills(cfg: HermesConfig, args) -> None:
+    from .disease.skills import DiseaseSkillBuilder
+    _print(DiseaseSkillBuilder(cfg, include_bronze=args.include_bronze).run(args.disease))
+
+
+def cmd_mcp(cfg: HermesConfig, args) -> None:
+    from .integrations.mcp_server import run_server
+    run_server(cfg)
 
 
 def cmd_status(cfg: HermesConfig, args) -> None:
@@ -344,11 +358,22 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--no-sample", action="store_true",
                     help="do not include the bundled illustrative sample corpus")
     sp.add_argument("--include-bronze", action="store_true",
-                    help="include bronze candidates in analytics")
+                    help="include bronze candidates in analytics / skills")
     sp.add_argument("--resume", action="store_true",
                     help="reuse existing candidates.jsonl, recompute analytics")
+    sp.add_argument("--skills", action="store_true",
+                    help="also compile Disease-Skills (into the Skill RAG index)")
     sp.add_argument("--limit", type=int, default=None)
     sp.set_defaults(func=cmd_disease)
+
+    sp = sub.add_parser("disease-skills", help="compile disease candidates → Skills")
+    sp.add_argument("--disease", default="psoriasis")
+    sp.add_argument("--include-bronze", action="store_true")
+    sp.set_defaults(func=cmd_disease_skills)
+
+    sp = sub.add_parser("mcp", help="run the Hermes MCP server (stdio) for "
+                                    "Claude Code / Codex / MCP-capable agents")
+    sp.set_defaults(func=cmd_mcp)
 
     sp = sub.add_parser("status", help="system status")
     sp.set_defaults(func=cmd_status)
