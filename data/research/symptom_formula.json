@@ -1,0 +1,2004 @@
+{
+  "edges": [
+    {
+      "symptom": "渴",
+      "formula": "五苓散",
+      "weight": 154
+    },
+    {
+      "symptom": "渴",
+      "formula": "白虎加人參湯",
+      "weight": 141
+    },
+    {
+      "symptom": "下利",
+      "formula": "四逆湯",
+      "weight": 126
+    },
+    {
+      "symptom": "汗出",
+      "formula": "桂枝湯",
+      "weight": 121
+    },
+    {
+      "symptom": "結胸",
+      "formula": "大陷胸湯",
+      "weight": 116
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "桂枝湯",
+      "weight": 102
+    },
+    {
+      "symptom": "喘",
+      "formula": "麻黃湯",
+      "weight": 102
+    },
+    {
+      "symptom": "無汗",
+      "formula": "麻黃湯",
+      "weight": 101
+    },
+    {
+      "symptom": "發熱",
+      "formula": "桂枝湯",
+      "weight": 91
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "小柴胡湯",
+      "weight": 89
+    },
+    {
+      "symptom": "渴",
+      "formula": "豬苓湯",
+      "weight": 87
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "白虎湯",
+      "weight": 82
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "五苓散",
+      "weight": 81
+    },
+    {
+      "symptom": "厥",
+      "formula": "四逆湯",
+      "weight": 78
+    },
+    {
+      "symptom": "發熱",
+      "formula": "大承氣湯",
+      "weight": 76
+    },
+    {
+      "symptom": "譫語",
+      "formula": "小承氣湯",
+      "weight": 73
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "桂枝湯",
+      "weight": 67
+    },
+    {
+      "symptom": "衄",
+      "formula": "麻黃湯",
+      "weight": 66
+    },
+    {
+      "symptom": "發熱",
+      "formula": "小柴胡湯",
+      "weight": 66
+    },
+    {
+      "symptom": "譫語",
+      "formula": "大承氣湯",
+      "weight": 65
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "桂枝湯",
+      "weight": 62
+    },
+    {
+      "symptom": "便膿血",
+      "formula": "桃花湯",
+      "weight": 59
+    },
+    {
+      "symptom": "宿食",
+      "formula": "大承氣湯",
+      "weight": 59
+    },
+    {
+      "symptom": "汗出",
+      "formula": "大承氣湯",
+      "weight": 58
+    },
+    {
+      "symptom": "渴",
+      "formula": "小柴胡湯",
+      "weight": 57
+    },
+    {
+      "symptom": "燥屎",
+      "formula": "大承氣湯",
+      "weight": 57
+    },
+    {
+      "symptom": "下利",
+      "formula": "桃花湯",
+      "weight": 56
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "麻黃湯",
+      "weight": 55
+    },
+    {
+      "symptom": "發熱",
+      "formula": "麻黃湯",
+      "weight": 54
+    },
+    {
+      "symptom": "往來寒熱",
+      "formula": "小柴胡湯",
+      "weight": 54
+    },
+    {
+      "symptom": "汗出",
+      "formula": "大陷胸湯",
+      "weight": 53
+    },
+    {
+      "symptom": "下利",
+      "formula": "通脈四逆湯",
+      "weight": 53
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "桂枝湯",
+      "weight": 53
+    },
+    {
+      "symptom": "惡風",
+      "formula": "桂枝湯",
+      "weight": 52
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "麻黃湯",
+      "weight": 52
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "小建中湯",
+      "weight": 52
+    },
+    {
+      "symptom": "喘",
+      "formula": "小青龍湯",
+      "weight": 52
+    },
+    {
+      "symptom": "中風",
+      "formula": "小柴胡湯",
+      "weight": 52
+    },
+    {
+      "symptom": "厥",
+      "formula": "通脈四逆湯",
+      "weight": 52
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "四逆湯",
+      "weight": 51
+    },
+    {
+      "symptom": "潮熱",
+      "formula": "大承氣湯",
+      "weight": 51
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "大承氣湯",
+      "weight": 51
+    },
+    {
+      "symptom": "下利",
+      "formula": "白通湯",
+      "weight": 51
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "大柴胡湯",
+      "weight": 50
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "小承氣湯",
+      "weight": 50
+    },
+    {
+      "symptom": "下利",
+      "formula": "大承氣湯",
+      "weight": 50
+    },
+    {
+      "symptom": "小便自利",
+      "formula": "抵當湯",
+      "weight": 48
+    },
+    {
+      "symptom": "惡風",
+      "formula": "麻黃湯",
+      "weight": 48
+    },
+    {
+      "symptom": "潮熱",
+      "formula": "小承氣湯",
+      "weight": 48
+    },
+    {
+      "symptom": "無汗",
+      "formula": "葛根湯",
+      "weight": 48
+    },
+    {
+      "symptom": "發熱",
+      "formula": "五苓散",
+      "weight": 47
+    },
+    {
+      "symptom": "發熱",
+      "formula": "小青龍湯",
+      "weight": 47
+    },
+    {
+      "symptom": "不大便",
+      "formula": "大承氣湯",
+      "weight": 46
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "白通湯",
+      "weight": 46
+    },
+    {
+      "symptom": "胸滿",
+      "formula": "麻黃湯",
+      "weight": 46
+    },
+    {
+      "symptom": "渴",
+      "formula": "小青龍湯",
+      "weight": 45
+    },
+    {
+      "symptom": "潮熱",
+      "formula": "承氣湯",
+      "weight": 45
+    },
+    {
+      "symptom": "汗出",
+      "formula": "大青龍湯",
+      "weight": 44
+    },
+    {
+      "symptom": "發熱",
+      "formula": "承氣湯",
+      "weight": 44
+    },
+    {
+      "symptom": "汗出",
+      "formula": "五苓散",
+      "weight": 43
+    },
+    {
+      "symptom": "發熱",
+      "formula": "大陷胸湯",
+      "weight": 43
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "豬苓湯",
+      "weight": 43
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "葛根湯",
+      "weight": 43
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "大青龍湯",
+      "weight": 42
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "大承氣湯",
+      "weight": 42
+    },
+    {
+      "symptom": "潮熱",
+      "formula": "小柴胡湯",
+      "weight": 42
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "承氣湯",
+      "weight": 42
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "大陷胸湯",
+      "weight": 41
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "大青龍湯",
+      "weight": 41
+    },
+    {
+      "symptom": "喘",
+      "formula": "大承氣湯",
+      "weight": 41
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "白虎加人參湯",
+      "weight": 40
+    },
+    {
+      "symptom": "發熱",
+      "formula": "白虎湯",
+      "weight": 40
+    },
+    {
+      "symptom": "發熱",
+      "formula": "大青龍湯",
+      "weight": 39
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "小青龍湯",
+      "weight": 39
+    },
+    {
+      "symptom": "不得眠",
+      "formula": "豬苓湯",
+      "weight": 39
+    },
+    {
+      "symptom": "發熱",
+      "formula": "豬苓湯",
+      "weight": 39
+    },
+    {
+      "symptom": "項背強",
+      "formula": "葛根湯",
+      "weight": 39
+    },
+    {
+      "symptom": "骨節疼痛",
+      "formula": "麻黃湯",
+      "weight": 38
+    },
+    {
+      "symptom": "咳",
+      "formula": "小青龍湯",
+      "weight": 38
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "白虎加人參湯",
+      "weight": 38
+    },
+    {
+      "symptom": "譫語",
+      "formula": "調胃承氣湯",
+      "weight": 38
+    },
+    {
+      "symptom": "燥屎",
+      "formula": "小承氣湯",
+      "weight": 38
+    },
+    {
+      "symptom": "汗出",
+      "formula": "通脈四逆湯",
+      "weight": 37
+    },
+    {
+      "symptom": "瘀血",
+      "formula": "抵當湯",
+      "weight": 37
+    },
+    {
+      "symptom": "嗜臥",
+      "formula": "小柴胡湯",
+      "weight": 37
+    },
+    {
+      "symptom": "虛煩",
+      "formula": "梔子豉湯",
+      "weight": 36
+    },
+    {
+      "symptom": "身疼痛",
+      "formula": "大青龍湯",
+      "weight": 36
+    },
+    {
+      "symptom": "發黃",
+      "formula": "茵陳蒿湯",
+      "weight": 36
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "調胃承氣湯",
+      "weight": 36
+    },
+    {
+      "symptom": "惡風",
+      "formula": "葛根湯",
+      "weight": 36
+    },
+    {
+      "symptom": "自汗出",
+      "formula": "桂枝湯",
+      "weight": 36
+    },
+    {
+      "symptom": "汗出",
+      "formula": "白虎加人參湯",
+      "weight": 36
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "茵陳蒿湯",
+      "weight": 35
+    },
+    {
+      "symptom": "厥",
+      "formula": "烏梅丸",
+      "weight": 35
+    },
+    {
+      "symptom": "汗出",
+      "formula": "四逆湯",
+      "weight": 35
+    },
+    {
+      "symptom": "發熱",
+      "formula": "四逆湯",
+      "weight": 35
+    },
+    {
+      "symptom": "痞",
+      "formula": "半夏瀉心湯",
+      "weight": 35
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "瀉心湯",
+      "weight": 35
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "四逆湯",
+      "weight": 35
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "桂枝湯",
+      "weight": 34
+    },
+    {
+      "symptom": "消渴",
+      "formula": "五苓散",
+      "weight": 34
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "大承氣湯",
+      "weight": 34
+    },
+    {
+      "symptom": "心煩",
+      "formula": "豬苓湯",
+      "weight": 34
+    },
+    {
+      "symptom": "下利",
+      "formula": "黃芩湯",
+      "weight": 34
+    },
+    {
+      "symptom": "汗出",
+      "formula": "十棗湯",
+      "weight": 33
+    },
+    {
+      "symptom": "心下滿",
+      "formula": "大陷胸湯",
+      "weight": 33
+    },
+    {
+      "symptom": "汗出",
+      "formula": "大柴胡湯",
+      "weight": 33
+    },
+    {
+      "symptom": "下利",
+      "formula": "大柴胡湯",
+      "weight": 33
+    },
+    {
+      "symptom": "惡風",
+      "formula": "甘草附子湯",
+      "weight": 33
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "桃花湯",
+      "weight": 33
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "四逆散",
+      "weight": 33
+    },
+    {
+      "symptom": "厥",
+      "formula": "白虎湯",
+      "weight": 33
+    },
+    {
+      "symptom": "頭汗出",
+      "formula": "小柴胡湯",
+      "weight": 33
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "小柴胡湯",
+      "weight": 33
+    },
+    {
+      "symptom": "四逆",
+      "formula": "桂枝湯",
+      "weight": 33
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "十棗湯",
+      "weight": 32
+    },
+    {
+      "symptom": "腰痛",
+      "formula": "麻黃湯",
+      "weight": 32
+    },
+    {
+      "symptom": "嘔吐",
+      "formula": "大柴胡湯",
+      "weight": 32
+    },
+    {
+      "symptom": "腹中痛",
+      "formula": "四逆散",
+      "weight": 32
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "吳茱萸湯",
+      "weight": 32
+    },
+    {
+      "symptom": "渴",
+      "formula": "桂枝附子湯",
+      "weight": 32
+    },
+    {
+      "symptom": "無汗",
+      "formula": "白虎湯",
+      "weight": 32
+    },
+    {
+      "symptom": "汗出",
+      "formula": "承氣湯",
+      "weight": 32
+    },
+    {
+      "symptom": "鼻鳴",
+      "formula": "桂枝湯",
+      "weight": 31
+    },
+    {
+      "symptom": "頭眩",
+      "formula": "真武湯",
+      "weight": 31
+    },
+    {
+      "symptom": "振振欲擗地",
+      "formula": "真武湯",
+      "weight": 31
+    },
+    {
+      "symptom": "胸滿",
+      "formula": "桂枝去芍藥湯",
+      "weight": 31
+    },
+    {
+      "symptom": "短氣",
+      "formula": "十棗湯",
+      "weight": 31
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "梔子厚朴湯",
+      "weight": 31
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "調胃承氣湯",
+      "weight": 31
+    },
+    {
+      "symptom": "譫語",
+      "formula": "承氣湯",
+      "weight": 31
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "承氣湯",
+      "weight": 31
+    },
+    {
+      "symptom": "太陰病",
+      "formula": "桂枝湯",
+      "weight": 31
+    },
+    {
+      "symptom": "痞",
+      "formula": "五苓散",
+      "weight": 30
+    },
+    {
+      "symptom": "手足溫",
+      "formula": "小柴胡湯",
+      "weight": 30
+    },
+    {
+      "symptom": "心煩",
+      "formula": "豬膚湯",
+      "weight": 30
+    },
+    {
+      "symptom": "不得眠",
+      "formula": "梔子豉湯",
+      "weight": 29
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "十棗湯",
+      "weight": 29
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "大陷胸湯",
+      "weight": 29
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "五苓散",
+      "weight": 29
+    },
+    {
+      "symptom": "奔豚",
+      "formula": "茯苓桂枝甘草大棗湯",
+      "weight": 29
+    },
+    {
+      "symptom": "口燥",
+      "formula": "五苓散",
+      "weight": 29
+    },
+    {
+      "symptom": "不得臥",
+      "formula": "黃連阿膠湯",
+      "weight": 29
+    },
+    {
+      "symptom": "不大便",
+      "formula": "抵當湯",
+      "weight": 29
+    },
+    {
+      "symptom": "不大便",
+      "formula": "承氣湯",
+      "weight": 29
+    },
+    {
+      "symptom": "翕翕發熱",
+      "formula": "桂枝湯",
+      "weight": 28
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "抵當湯",
+      "weight": 28
+    },
+    {
+      "symptom": "臍下悸",
+      "formula": "茯苓桂枝甘草大棗湯",
+      "weight": 28
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "大黃黃連瀉心湯",
+      "weight": 28
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "梔子厚朴湯",
+      "weight": 28
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "小青龍湯",
+      "weight": 28
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "小青龍湯",
+      "weight": 28
+    },
+    {
+      "symptom": "吐利",
+      "formula": "吳茱萸湯",
+      "weight": 28
+    },
+    {
+      "symptom": "胸滿",
+      "formula": "豬膚湯",
+      "weight": 28
+    },
+    {
+      "symptom": "下利",
+      "formula": "白頭翁湯",
+      "weight": 28
+    },
+    {
+      "symptom": "厥",
+      "formula": "調胃承氣湯",
+      "weight": 28
+    },
+    {
+      "symptom": "心煩",
+      "formula": "梔子厚朴湯",
+      "weight": 27
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "甘草附子湯",
+      "weight": 27
+    },
+    {
+      "symptom": "心煩",
+      "formula": "白虎加人參湯",
+      "weight": 27
+    },
+    {
+      "symptom": "胸滿",
+      "formula": "小柴胡湯",
+      "weight": 27
+    },
+    {
+      "symptom": "項背強",
+      "formula": "桂枝加葛根湯",
+      "weight": 27
+    },
+    {
+      "symptom": "惡風",
+      "formula": "桂枝加葛根湯",
+      "weight": 27
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "桂枝加芍藥湯",
+      "weight": 27
+    },
+    {
+      "symptom": "厥",
+      "formula": "白通加豬膽汁湯",
+      "weight": 27
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "白通加豬膽汁湯",
+      "weight": 27
+    },
+    {
+      "symptom": "下利",
+      "formula": "真武湯",
+      "weight": 27
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "芍藥甘草附子湯",
+      "weight": 27
+    },
+    {
+      "symptom": "下利",
+      "formula": "小承氣湯",
+      "weight": 27
+    },
+    {
+      "symptom": "不能食",
+      "formula": "小柴胡湯",
+      "weight": 27
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "調胃承氣湯",
+      "weight": 27
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "桂枝人參湯",
+      "weight": 26
+    },
+    {
+      "symptom": "潮熱",
+      "formula": "大陷胸湯",
+      "weight": 26
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "麻黃湯",
+      "weight": 26
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "附子瀉心湯",
+      "weight": 26
+    },
+    {
+      "symptom": "欲嘔",
+      "formula": "黃連湯",
+      "weight": 26
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "大承氣湯",
+      "weight": 26
+    },
+    {
+      "symptom": "汗出",
+      "formula": "桂枝加葛根湯",
+      "weight": 26
+    },
+    {
+      "symptom": "咽痛",
+      "formula": "豬膚湯",
+      "weight": 26
+    },
+    {
+      "symptom": "厥冷",
+      "formula": "四逆湯",
+      "weight": 26
+    },
+    {
+      "symptom": "小便難",
+      "formula": "桂枝加附子湯",
+      "weight": 26
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "吳茱萸湯",
+      "weight": 26
+    },
+    {
+      "symptom": "發熱",
+      "formula": "小承氣湯",
+      "weight": 26
+    },
+    {
+      "symptom": "中風",
+      "formula": "桂枝湯",
+      "weight": 26
+    },
+    {
+      "symptom": "下利",
+      "formula": "桂枝湯",
+      "weight": 26
+    },
+    {
+      "symptom": "胸中窒",
+      "formula": "梔子豉湯",
+      "weight": 25
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "桂枝去芍藥湯",
+      "weight": 25
+    },
+    {
+      "symptom": "汗出",
+      "formula": "附子瀉心湯",
+      "weight": 25
+    },
+    {
+      "symptom": "發熱",
+      "formula": "大柴胡湯",
+      "weight": 25
+    },
+    {
+      "symptom": "身黃",
+      "formula": "梔子柏皮湯",
+      "weight": 25
+    },
+    {
+      "symptom": "發熱",
+      "formula": "梔子柏皮湯",
+      "weight": 25
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "梔子柏皮湯",
+      "weight": 25
+    },
+    {
+      "symptom": "嘔吐",
+      "formula": "黃連湯",
+      "weight": 25
+    },
+    {
+      "symptom": "口燥",
+      "formula": "白虎加人參湯",
+      "weight": 25
+    },
+    {
+      "symptom": "咳",
+      "formula": "小柴胡湯",
+      "weight": 25
+    },
+    {
+      "symptom": "脅下滿",
+      "formula": "小柴胡湯",
+      "weight": 25
+    },
+    {
+      "symptom": "寒熱",
+      "formula": "小柴胡湯",
+      "weight": 25
+    },
+    {
+      "symptom": "熱入血室",
+      "formula": "小柴胡湯",
+      "weight": 25
+    },
+    {
+      "symptom": "下利",
+      "formula": "葛根湯",
+      "weight": 25
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "附子湯",
+      "weight": 25
+    },
+    {
+      "symptom": "骨節痛",
+      "formula": "附子湯",
+      "weight": 25
+    },
+    {
+      "symptom": "咽痛",
+      "formula": "通脈四逆湯",
+      "weight": 25
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "桃花湯",
+      "weight": 25
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "豬膚湯",
+      "weight": 25
+    },
+    {
+      "symptom": "下利",
+      "formula": "豬膚湯",
+      "weight": 25
+    },
+    {
+      "symptom": "喘",
+      "formula": "麻黃杏仁甘草石膏湯",
+      "weight": 25
+    },
+    {
+      "symptom": "欲嘔",
+      "formula": "吳茱萸湯",
+      "weight": 25
+    },
+    {
+      "symptom": "下利",
+      "formula": "生薑瀉心湯",
+      "weight": 25
+    },
+    {
+      "symptom": "霍亂",
+      "formula": "五苓散",
+      "weight": 25
+    },
+    {
+      "symptom": "能食",
+      "formula": "大承氣湯",
+      "weight": 25
+    },
+    {
+      "symptom": "渴",
+      "formula": "大陷胸湯",
+      "weight": 24
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "附子瀉心湯",
+      "weight": 24
+    },
+    {
+      "symptom": "腹中痛",
+      "formula": "黃連湯",
+      "weight": 24
+    },
+    {
+      "symptom": "少腹滿",
+      "formula": "小青龍湯",
+      "weight": 24
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "桂枝加葛根湯",
+      "weight": 24
+    },
+    {
+      "symptom": "下利",
+      "formula": "豬苓湯",
+      "weight": 24
+    },
+    {
+      "symptom": "汗出",
+      "formula": "麻黃杏仁甘草石膏湯",
+      "weight": 24
+    },
+    {
+      "symptom": "亡血",
+      "formula": "四逆加人參湯",
+      "weight": 24
+    },
+    {
+      "symptom": "往來寒熱",
+      "formula": "柴胡桂枝乾薑湯",
+      "weight": 24
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "小柴胡湯",
+      "weight": 24
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "五苓散",
+      "weight": 24
+    },
+    {
+      "symptom": "往來寒熱",
+      "formula": "大柴胡湯",
+      "weight": 24
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "小承氣湯",
+      "weight": 24
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "承氣湯",
+      "weight": 24
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "柴胡湯",
+      "weight": 24
+    },
+    {
+      "symptom": "頭汗出",
+      "formula": "梔子豉湯",
+      "weight": 23
+    },
+    {
+      "symptom": "心動悸",
+      "formula": "炙甘草湯",
+      "weight": 23
+    },
+    {
+      "symptom": "太陽中風",
+      "formula": "大青龍湯",
+      "weight": 23
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "小青龍湯",
+      "weight": 23
+    },
+    {
+      "symptom": "下利",
+      "formula": "葛根加半夏湯",
+      "weight": 23
+    },
+    {
+      "symptom": "發熱",
+      "formula": "麻黃附子細辛湯",
+      "weight": 23
+    },
+    {
+      "symptom": "身黃",
+      "formula": "茵陳蒿湯",
+      "weight": 23
+    },
+    {
+      "symptom": "手足厥冷",
+      "formula": "四逆湯",
+      "weight": 23
+    },
+    {
+      "symptom": "厥",
+      "formula": "歸四逆湯",
+      "weight": 23
+    },
+    {
+      "symptom": "自汗出",
+      "formula": "白虎湯",
+      "weight": 23
+    },
+    {
+      "symptom": "汗出",
+      "formula": "桂枝麻黃各半湯",
+      "weight": 23
+    },
+    {
+      "symptom": "淅淅惡風",
+      "formula": "桂枝湯",
+      "weight": 22
+    },
+    {
+      "symptom": "渴",
+      "formula": "茯苓甘草湯",
+      "weight": 22
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "炙甘草湯",
+      "weight": 22
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "梔子豉湯",
+      "weight": 22
+    },
+    {
+      "symptom": "蒸蒸發熱",
+      "formula": "調胃承氣湯",
+      "weight": 22
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "小柴胡湯",
+      "weight": 22
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "半夏散及湯",
+      "weight": 22
+    },
+    {
+      "symptom": "無汗",
+      "formula": "桂枝湯",
+      "weight": 22
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "小承氣湯",
+      "weight": 22
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "承氣湯",
+      "weight": 22
+    },
+    {
+      "symptom": "心下悸",
+      "formula": "真武湯",
+      "weight": 21
+    },
+    {
+      "symptom": "心中懊憹",
+      "formula": "梔子豉湯",
+      "weight": 21
+    },
+    {
+      "symptom": "舌上苔",
+      "formula": "梔子豉湯",
+      "weight": 21
+    },
+    {
+      "symptom": "口中和",
+      "formula": "附子湯",
+      "weight": 21
+    },
+    {
+      "symptom": "小便利",
+      "formula": "真武湯",
+      "weight": 21
+    },
+    {
+      "symptom": "汗出",
+      "formula": "調胃承氣湯",
+      "weight": 21
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "茯苓四逆湯",
+      "weight": 21
+    },
+    {
+      "symptom": "汗出",
+      "formula": "小柴胡湯",
+      "weight": 21
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "四逆湯",
+      "weight": 21
+    },
+    {
+      "symptom": "心煩",
+      "formula": "調胃承氣湯",
+      "weight": 21
+    },
+    {
+      "symptom": "不大便",
+      "formula": "小柴胡湯",
+      "weight": 21
+    },
+    {
+      "symptom": "脅痛",
+      "formula": "小柴胡湯",
+      "weight": 21
+    },
+    {
+      "symptom": "下血",
+      "formula": "抵當湯",
+      "weight": 20
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "五苓散",
+      "weight": 20
+    },
+    {
+      "symptom": "譫語",
+      "formula": "柴胡加龍骨牡蠣湯",
+      "weight": 20
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "梔子乾薑湯",
+      "weight": 20
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "小柴胡湯",
+      "weight": 20
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "通脈四逆湯",
+      "weight": 20
+    },
+    {
+      "symptom": "咳",
+      "formula": "豬苓湯",
+      "weight": 20
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "竹葉石膏湯",
+      "weight": 20
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "桂枝甘草龍骨牡蠣湯",
+      "weight": 20
+    },
+    {
+      "symptom": "頭汗出",
+      "formula": "柴胡桂枝乾薑湯",
+      "weight": 20
+    },
+    {
+      "symptom": "心煩",
+      "formula": "柴胡桂枝乾薑湯",
+      "weight": 20
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "大柴胡湯",
+      "weight": 20
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "小柴胡湯",
+      "weight": 20
+    },
+    {
+      "symptom": "不大便",
+      "formula": "小承氣湯",
+      "weight": 20
+    },
+    {
+      "symptom": "飢不能食",
+      "formula": "瓜蒂散",
+      "weight": 20
+    },
+    {
+      "symptom": "嗜臥",
+      "formula": "麻黃湯",
+      "weight": 20
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "大承氣湯",
+      "weight": 20
+    },
+    {
+      "symptom": "汗出",
+      "formula": "茯苓甘草湯",
+      "weight": 19
+    },
+    {
+      "symptom": "痞",
+      "formula": "大黃黃連瀉心湯",
+      "weight": 19
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "柴胡桂枝湯",
+      "weight": 19
+    },
+    {
+      "symptom": "身疼痛",
+      "formula": "麻黃湯",
+      "weight": 19
+    },
+    {
+      "symptom": "渴",
+      "formula": "茵陳蒿湯",
+      "weight": 19
+    },
+    {
+      "symptom": "身重",
+      "formula": "白虎湯",
+      "weight": 19
+    },
+    {
+      "symptom": "手足逆冷",
+      "formula": "白虎湯",
+      "weight": 19
+    },
+    {
+      "symptom": "背惡寒",
+      "formula": "附子湯",
+      "weight": 19
+    },
+    {
+      "symptom": "乾嘔",
+      "formula": "吳茱萸湯",
+      "weight": 19
+    },
+    {
+      "symptom": "心下悸",
+      "formula": "桂枝甘草湯",
+      "weight": 19
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "四逆加人參湯",
+      "weight": 19
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "豬苓湯",
+      "weight": 19
+    },
+    {
+      "symptom": "中風",
+      "formula": "麻黃湯",
+      "weight": 19
+    },
+    {
+      "symptom": "脅下硬滿",
+      "formula": "小柴胡湯",
+      "weight": 19
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "承氣湯",
+      "weight": 19
+    },
+    {
+      "symptom": "發熱",
+      "formula": "真武湯",
+      "weight": 18
+    },
+    {
+      "symptom": "嘔逆",
+      "formula": "十棗湯",
+      "weight": 18
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "茯苓甘草湯",
+      "weight": 18
+    },
+    {
+      "symptom": "汗出",
+      "formula": "甘草附子湯",
+      "weight": 18
+    },
+    {
+      "symptom": "目瞑",
+      "formula": "麻黃湯",
+      "weight": 18
+    },
+    {
+      "symptom": "心煩",
+      "formula": "小柴胡湯",
+      "weight": 18
+    },
+    {
+      "symptom": "喜嘔",
+      "formula": "小柴胡湯",
+      "weight": 18
+    },
+    {
+      "symptom": "心下悸",
+      "formula": "小柴胡湯",
+      "weight": 18
+    },
+    {
+      "symptom": "下利",
+      "formula": "黃芩加半夏生薑湯",
+      "weight": 18
+    },
+    {
+      "symptom": "譫語",
+      "formula": "白虎湯",
+      "weight": 18
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "白虎湯",
+      "weight": 18
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "黃連阿膠湯",
+      "weight": 18
+    },
+    {
+      "symptom": "四逆",
+      "formula": "四逆散",
+      "weight": 18
+    },
+    {
+      "symptom": "太陽中風",
+      "formula": "桂枝湯",
+      "weight": 18
+    },
+    {
+      "symptom": "手足厥冷",
+      "formula": "吳茱萸湯",
+      "weight": 18
+    },
+    {
+      "symptom": "氣上衝胸",
+      "formula": "葛根湯",
+      "weight": 18
+    },
+    {
+      "symptom": "口噤",
+      "formula": "葛根湯",
+      "weight": 18
+    },
+    {
+      "symptom": "身疼痛",
+      "formula": "五苓散",
+      "weight": 18
+    },
+    {
+      "symptom": "渴",
+      "formula": "白虎湯",
+      "weight": 18
+    },
+    {
+      "symptom": "心下痞硬",
+      "formula": "大柴胡湯",
+      "weight": 18
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "麻黃湯",
+      "weight": 18
+    },
+    {
+      "symptom": "汗出",
+      "formula": "小承氣湯",
+      "weight": 18
+    },
+    {
+      "symptom": "小便難",
+      "formula": "小柴胡湯",
+      "weight": 18
+    },
+    {
+      "symptom": "痞",
+      "formula": "瀉心湯",
+      "weight": 18
+    },
+    {
+      "symptom": "發熱",
+      "formula": "抵當湯",
+      "weight": 18
+    },
+    {
+      "symptom": "汗出",
+      "formula": "桂枝二麻黃一湯",
+      "weight": 18
+    },
+    {
+      "symptom": "中風",
+      "formula": "五苓散",
+      "weight": 17
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "抵當湯",
+      "weight": 17
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "十棗湯",
+      "weight": 17
+    },
+    {
+      "symptom": "太陽中風",
+      "formula": "十棗湯",
+      "weight": 17
+    },
+    {
+      "symptom": "下利",
+      "formula": "十棗湯",
+      "weight": 17
+    },
+    {
+      "symptom": "心下痞",
+      "formula": "十棗湯",
+      "weight": 17
+    },
+    {
+      "symptom": "不大便",
+      "formula": "大陷胸湯",
+      "weight": 17
+    },
+    {
+      "symptom": "小結胸",
+      "formula": "小陷胸湯",
+      "weight": 17
+    },
+    {
+      "symptom": "發熱",
+      "formula": "柴胡桂枝湯",
+      "weight": 17
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "柴胡桂枝湯",
+      "weight": 17
+    },
+    {
+      "symptom": "短氣",
+      "formula": "甘草附子湯",
+      "weight": 17
+    },
+    {
+      "symptom": "遺尿",
+      "formula": "白虎湯",
+      "weight": 17
+    },
+    {
+      "symptom": "腹痛",
+      "formula": "桃花湯",
+      "weight": 17
+    },
+    {
+      "symptom": "下利",
+      "formula": "調胃承氣湯",
+      "weight": 17
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "五苓散",
+      "weight": 17
+    },
+    {
+      "symptom": "吐利",
+      "formula": "四逆湯",
+      "weight": 17
+    },
+    {
+      "symptom": "大便難",
+      "formula": "大承氣湯",
+      "weight": 17
+    },
+    {
+      "symptom": "燥屎",
+      "formula": "承氣湯",
+      "weight": 17
+    },
+    {
+      "symptom": "噦",
+      "formula": "小柴胡湯",
+      "weight": 17
+    },
+    {
+      "symptom": "渴",
+      "formula": "桂枝湯",
+      "weight": 17
+    },
+    {
+      "symptom": "喘",
+      "formula": "承氣湯",
+      "weight": 17
+    },
+    {
+      "symptom": "口燥",
+      "formula": "大承氣湯",
+      "weight": 17
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "桂枝麻黃各半湯",
+      "weight": 17
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "桂枝湯",
+      "weight": 17
+    },
+    {
+      "symptom": "結胸",
+      "formula": "抵當湯",
+      "weight": 16
+    },
+    {
+      "symptom": "身黃",
+      "formula": "抵當湯",
+      "weight": 16
+    },
+    {
+      "symptom": "短氣",
+      "formula": "大陷胸湯",
+      "weight": 16
+    },
+    {
+      "symptom": "舌上燥",
+      "formula": "大陷胸湯",
+      "weight": 16
+    },
+    {
+      "symptom": "痞",
+      "formula": "小柴胡湯",
+      "weight": 16
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "吳茱萸湯",
+      "weight": 16
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "豬苓湯",
+      "weight": 16
+    },
+    {
+      "symptom": "蛔厥",
+      "formula": "烏梅丸",
+      "weight": 16
+    },
+    {
+      "symptom": "嘔吐",
+      "formula": "吳茱萸湯",
+      "weight": 16
+    },
+    {
+      "symptom": "汗出",
+      "formula": "豬苓湯",
+      "weight": 16
+    },
+    {
+      "symptom": "剛痙",
+      "formula": "葛根湯",
+      "weight": 16
+    },
+    {
+      "symptom": "心下痞硬",
+      "formula": "桂枝人參湯",
+      "weight": 16
+    },
+    {
+      "symptom": "不能食",
+      "formula": "大承氣湯",
+      "weight": 16
+    },
+    {
+      "symptom": "舌上白苔",
+      "formula": "小柴胡湯",
+      "weight": 16
+    },
+    {
+      "symptom": "頭痛",
+      "formula": "小柴胡湯",
+      "weight": 16
+    },
+    {
+      "symptom": "奔豚",
+      "formula": "桂枝加桂湯",
+      "weight": 16
+    },
+    {
+      "symptom": "短氣",
+      "formula": "承氣湯",
+      "weight": 16
+    },
+    {
+      "symptom": "氣上衝",
+      "formula": "桂枝湯",
+      "weight": 16
+    },
+    {
+      "symptom": "發熱",
+      "formula": "桂枝麻黃各半湯",
+      "weight": 16
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "桂枝二越婢一湯",
+      "weight": 16
+    },
+    {
+      "symptom": "飢不能食",
+      "formula": "梔子豉湯",
+      "weight": 15
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "甘草瀉心湯",
+      "weight": 15
+    },
+    {
+      "symptom": "噫氣",
+      "formula": "旋覆代赭石湯",
+      "weight": 15
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "黃連湯",
+      "weight": 15
+    },
+    {
+      "symptom": "惡風",
+      "formula": "小柴胡湯",
+      "weight": 15
+    },
+    {
+      "symptom": "面垢",
+      "formula": "白虎湯",
+      "weight": 15
+    },
+    {
+      "symptom": "勞復",
+      "formula": "枳實梔子豉湯",
+      "weight": 15
+    },
+    {
+      "symptom": "嗇嗇惡寒",
+      "formula": "桂枝湯",
+      "weight": 15
+    },
+    {
+      "symptom": "汗出",
+      "formula": "通脈四逆加豬膽汁湯",
+      "weight": 15
+    },
+    {
+      "symptom": "厥",
+      "formula": "通脈四逆加豬膽汁湯",
+      "weight": 15
+    },
+    {
+      "symptom": "惡寒",
+      "formula": "大陷胸湯",
+      "weight": 15
+    },
+    {
+      "symptom": "喘",
+      "formula": "葶藶大棗瀉肺湯",
+      "weight": 15
+    },
+    {
+      "symptom": "喘",
+      "formula": "小承氣湯",
+      "weight": 15
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "大承氣湯",
+      "weight": 15
+    },
+    {
+      "symptom": "腹中痛",
+      "formula": "小建中湯",
+      "weight": 15
+    },
+    {
+      "symptom": "咳",
+      "formula": "十棗湯",
+      "weight": 15
+    },
+    {
+      "symptom": "四逆",
+      "formula": "四逆湯",
+      "weight": 15
+    },
+    {
+      "symptom": "衄",
+      "formula": "桂枝湯",
+      "weight": 15
+    },
+    {
+      "symptom": "心煩",
+      "formula": "桂枝湯",
+      "weight": 15
+    },
+    {
+      "symptom": "小便數",
+      "formula": "小承氣湯",
+      "weight": 15
+    },
+    {
+      "symptom": "陽明病",
+      "formula": "麻黃湯",
+      "weight": 15
+    },
+    {
+      "symptom": "心痛",
+      "formula": "小柴胡湯",
+      "weight": 15
+    },
+    {
+      "symptom": "發熱",
+      "formula": "柴胡湯",
+      "weight": 15
+    },
+    {
+      "symptom": "結胸",
+      "formula": "半夏瀉心湯",
+      "weight": 15
+    },
+    {
+      "symptom": "發熱",
+      "formula": "桂枝二越婢一湯",
+      "weight": 15
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "桂枝二越婢一湯",
+      "weight": 15
+    },
+    {
+      "symptom": "汗出",
+      "formula": "梔子豉湯",
+      "weight": 14
+    },
+    {
+      "symptom": "煩躁",
+      "formula": "梔子豉湯",
+      "weight": 14
+    },
+    {
+      "symptom": "腹滿",
+      "formula": "梔子豉湯",
+      "weight": 14
+    },
+    {
+      "symptom": "傷寒",
+      "formula": "梔子豉湯",
+      "weight": 14
+    },
+    {
+      "symptom": "汗出",
+      "formula": "真武湯",
+      "weight": 14
+    },
+    {
+      "symptom": "痞",
+      "formula": "大柴胡湯",
+      "weight": 14
+    },
+    {
+      "symptom": "小便不利",
+      "formula": "柴胡加龍骨牡蠣湯",
+      "weight": 14
+    },
+    {
+      "symptom": "渴",
+      "formula": "乾薑附子湯",
+      "weight": 14
+    },
+    {
+      "symptom": "發熱",
+      "formula": "白虎加人參湯",
+      "weight": 14
+    },
+    {
+      "symptom": "腹中痛",
+      "formula": "小柴胡湯",
+      "weight": 14
+    },
+    {
+      "symptom": "口不仁",
+      "formula": "白虎湯",
+      "weight": 14
+    },
+    {
+      "symptom": "太陽病",
+      "formula": "桂枝加芍藥湯",
+      "weight": 14
+    },
+    {
+      "symptom": "腹痛",
+      "formula": "真武湯",
+      "weight": 14
+    },
+    {
+      "symptom": "腹痛",
+      "formula": "通脈四逆湯",
+      "weight": 14
+    },
+    {
+      "symptom": "少陰病",
+      "formula": "四逆散",
+      "weight": 14
+    }
+  ]
+}

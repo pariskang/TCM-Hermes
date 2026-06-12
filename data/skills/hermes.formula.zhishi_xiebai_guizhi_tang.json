@@ -1,0 +1,117 @@
+{
+  "skill_id": "hermes.formula.zhishi_xiebai_guizhi_tang",
+  "kind": "formula",
+  "title": "枳實薤白桂枝湯方證合併規則",
+  "subject": "枳實薤白桂枝湯",
+  "abstracted_claim": "枳實薤白桂枝湯可歸納為胸痹、痞、胸滿等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_ZHISHI_XIEBAI_GUIZHI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001076",
+    "IR_JGYH_ERZHU_000098",
+    "IR_JGYL_FANGLUN_000081",
+    "IR_JGYL_JIYI_000138",
+    "IR_JGYL_TIAOWEN_000081",
+    "IR_JGYL_XINDIAN_000085"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001076",
+      "IR_JGYH_ERZHU_000098",
+      "IR_JGYL_FANGLUN_000081",
+      "IR_JGYL_JIYI_000138",
+      "IR_JGYL_TIAOWEN_000081",
+      "IR_JGYL_XINDIAN_000085"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000679",
+      "evidence_span": "氣結在胸。胸滿。脅下逆搶心。枳實薤白桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_XINDIAN_000571",
+      "evidence_span": "氣結在胸。胸滿。脅下逆搶心。枳實薤白桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證一首、方十首",
+      "source_unit_id": "SU_JGYL_JIYI_001273",
+      "evidence_span": "胸痹心中痞氣。氣結在胸。胸滿脅下逆搶心。枳實薤白桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000334",
+      "evidence_span": "胸痹心中痞，留氣結在胸，胸滿，脅下逆搶心，枳實薤白桂枝湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001423",
+      "evidence_span": "胸痹，心中痞氣，氣結在胸，胸滿胃下逆搶心，枳實薤白桂枝湯主之，人參湯亦主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000332",
+      "evidence_span": "胸痹心中痞，留氣結在胸((王雪華：宜作〝胸痹心中痞氣，氣結在胸〞))，胸滿，脅下逆搶心，枳實薤白桂枝湯主之；",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "胸痹",
+        "count": 4
+      },
+      {
+        "term": "痞",
+        "count": 4
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "胸滿",
+        "count": 6
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "通陽散結",
+        "count": 6
+      },
+      {
+        "term": "祛痰下氣",
+        "count": 6
+      }
+    ]
+  },
+  "keywords": [
+    "枳實薤白桂枝湯",
+    "胸痹",
+    "痞",
+    "胸滿"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

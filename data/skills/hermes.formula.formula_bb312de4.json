@@ -1,0 +1,180 @@
+{
+  "skill_id": "hermes.formula.formula_bb312de4",
+  "kind": "formula",
+  "title": "小半夏加茯苓湯方證合併規則",
+  "subject": "小半夏加茯苓湯",
+  "abstracted_claim": "小半夏加茯苓湯可歸納為嘔吐、心下痞、痞、渴等方證的核心方（支持條文 9 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_BB312DE4",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001163",
+    "IR_CAOSHI_FAWEI_001178",
+    "IR_JGYL_FANGLUN_000128",
+    "IR_JGYL_QIANZHU_000146",
+    "IR_JGYL_QIANZHU_000158",
+    "IR_JGYL_TIAOWEN_000128",
+    "IR_JGYL_XINDIAN_000128",
+    "IR_JGYL_XINDIAN_000138",
+    "IR_SHL_GUIBEN_001430"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001163",
+      "IR_CAOSHI_FAWEI_001178",
+      "IR_JGYL_FANGLUN_000128",
+      "IR_JGYL_QIANZHU_000146",
+      "IR_JGYL_QIANZHU_000158",
+      "IR_JGYL_TIAOWEN_000128",
+      "IR_JGYL_XINDIAN_000128",
+      "IR_JGYL_XINDIAN_000138",
+      "IR_SHL_GUIBEN_001430"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000869",
+      "evidence_span": "心下痞。膈間有水。眩悸者。小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001597",
+      "evidence_span": "卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000928",
+      "evidence_span": "先渴後嘔。為水停心下。此屬飲家。小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000523",
+      "evidence_span": "卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000521",
+      "evidence_span": "卒嘔吐，心下痞，膈間有水，眩悸者，小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001246",
+      "evidence_span": "14.42膈間有水氣，嘔吐眩悸者，小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_000697",
+      "evidence_span": "則）悸者。（宜辛溫以開上焦之痞。淡滲以通決瀆之壅。以）小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_000754",
+      "evidence_span": "此屬飲家。（醫者不管其已過之渴。只據其現下之嘔而治之。以）小半夏加茯苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001635",
+      "evidence_span": "先渴後嘔為水停心下，此屬飲家，小半夏加茯苓湯主之（見上）心下有水，脾精不得挾胃中殺氣上溉肺藏而潤喉舌，因而渴飲，但胃底含有苦燥之膽汁，胃中熱如熾炭，不能容水，水在胃之上口，胃熱出而相抗，乃病嘔吐，此其所以先渴後嘔也，按此節合上嘔家本渴，即並見下嘔吐噦下利篇，以其治屬飲家，故本條獨出方治也",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "痞"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000146",
+        "IR_JGYL_QIANZHU_000158"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001164"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏一升",
+        "生薑半斤",
+        "茯苓四兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001431"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "嘔吐",
+        "count": 4
+      },
+      {
+        "term": "心下痞",
+        "count": 4
+      },
+      {
+        "term": "痞",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 3
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "小半夏加茯苓湯",
+    "嘔吐",
+    "心下痞",
+    "痞",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

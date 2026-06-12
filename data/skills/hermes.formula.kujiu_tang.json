@@ -1,0 +1,173 @@
+{
+  "skill_id": "hermes.formula.kujiu_tang",
+  "kind": "formula",
+  "title": "苦酒湯方證合併規則",
+  "subject": "苦酒湯",
+  "abstracted_claim": "苦酒湯可歸納為少陰病等方證的核心方（支持條文 9 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_KUJIU_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B41512D4B_000988",
+    "IR_B5FF1CA1B_000434",
+    "IR_B8E444005_000241",
+    "IR_SHL_GUIBEN_001022",
+    "IR_SHL_LUNZHU_000690",
+    "IR_SHL_QJYF_000229",
+    "IR_SHL_SONGBEN_000385",
+    "IR_SHL_TIAOWEN_000339",
+    "IR_SHL_ZHUJIE_000890"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B41512D4B_000988",
+      "IR_B5FF1CA1B_000434",
+      "IR_B8E444005_000241",
+      "IR_SHL_GUIBEN_001022",
+      "IR_SHL_LUNZHU_000690",
+      "IR_SHL_QJYF_000229",
+      "IR_SHL_SONGBEN_000385",
+      "IR_SHL_TIAOWEN_000339",
+      "IR_SHL_ZHUJIE_000890"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桔梗湯方",
+      "source_unit_id": "SU_B41512D4B_002022",
+      "evidence_span": "少陰病。咽中傷生瘡不能語言。聲不出者。苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰下編",
+      "source_unit_id": "SU_B5FF1CA1B_000719",
+      "evidence_span": "少陰病。咽中傷生瘡不能言語。聲不出者。苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000294",
+      "evidence_span": "少陰病，咽中傷，生瘡，不能語言，聲不出，苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001392",
+      "evidence_span": "少陰病，咽中傷生瘡，不能語言，聲不出者，苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "附咽痛諸方",
+      "source_unit_id": "SU_SHL_LUNZHU_001217",
+      "evidence_span": "少陰病，嘔而咽中傷，生瘡不能語，聲不出者，苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000750",
+      "evidence_span": "少陰病，咽中傷，生瘡，不能語言，聲不出者，苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000597",
+      "evidence_span": "少陰病，咽中傷，生瘡，不能語言，聲不出者，苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "咽痛",
+      "source_unit_id": "SU_B8E444005_000338",
+      "evidence_span": "半夏散及湯主之。又云少陰病咽中傷。生瘡不能語言聲不出者。苦酒湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000917",
+      "evidence_span": "11.33少陰病，咽中傷，生瘡，痛引喉旁，不能語言，聲不出者，苦酒湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "半夏",
+        "苦酒"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001226",
+        "IR_BC91F4420_000493",
+        "IR_SHL_ZHUJIE_000892"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集",
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏十四枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000584",
+        "IR_SHL_GUIBEN_001023"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "苦酒"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000750"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 9
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "利咽消腫",
+        "count": 9
+      }
+    ]
+  },
+  "keywords": [
+    "苦酒湯",
+    "少陰病"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

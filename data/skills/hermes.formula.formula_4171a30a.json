@@ -1,0 +1,277 @@
+{
+  "skill_id": "hermes.formula.formula_4171a30a",
+  "kind": "formula",
+  "title": "梔子厚朴湯方證合併規則",
+  "subject": "梔子厚朴湯",
+  "abstracted_claim": "梔子厚朴湯可歸納為傷寒、腹滿、心煩等方證的核心方（支持條文 20 條，跨 18 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_4171A30A",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000248",
+    "IR_B11498305_000126",
+    "IR_B1CAC3ADF_000263",
+    "IR_B3E16D849_001175",
+    "IR_B3E16D849_001184",
+    "IR_B3E16D849_001200",
+    "IR_B3E520529_000250",
+    "IR_B5FF1CA1B_000152",
+    "IR_B9119D083_000251",
+    "IR_BBAACE965_000366",
+    "IR_BC91F4420_000178",
+    "IR_CAOSHI_FAWEI_000210",
+    "IR_SHL_GUANZHU_000255",
+    "IR_SHL_LEIFANG_000042",
+    "IR_SHL_LUNZHU_000386",
+    "IR_SHL_QJYF_000339",
+    "IR_SHL_SONGBEN_000139",
+    "IR_SHL_SUYUAN_000301",
+    "IR_SHL_TIAOWEN_000093",
+    "IR_SHL_ZHUJIE_000316"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000248",
+      "IR_B11498305_000126",
+      "IR_B1CAC3ADF_000263",
+      "IR_B3E16D849_001175",
+      "IR_B3E16D849_001184",
+      "IR_B3E16D849_001200",
+      "IR_B3E520529_000250",
+      "IR_B5FF1CA1B_000152",
+      "IR_B9119D083_000251",
+      "IR_BBAACE965_000366",
+      "IR_BC91F4420_000178",
+      "IR_CAOSHI_FAWEI_000210",
+      "IR_SHL_GUANZHU_000255",
+      "IR_SHL_LEIFANG_000042",
+      "IR_SHL_LUNZHU_000386",
+      "IR_SHL_QJYF_000339",
+      "IR_SHL_SONGBEN_000139",
+      "IR_SHL_SUYUAN_000301",
+      "IR_SHL_TIAOWEN_000093",
+      "IR_SHL_ZHUJIE_000316"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "發汗吐下後病狀第五",
+      "source_unit_id": "SU_SHL_QJYF_000526",
+      "evidence_span": "傷寒下後，煩而腹滿，臥起不安，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000168",
+      "evidence_span": "傷寒下後，心煩腹滿，臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B3E16D849_002393",
+      "evidence_span": "傷寒下後。心煩腹滿。起臥不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_B3E16D849_002411",
+      "evidence_span": "傷寒下後。心煩腹滿。起臥不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "不得臥",
+      "source_unit_id": "SU_B3E16D849_002435",
+      "evidence_span": "傷寒下後。心煩腹滿。起臥不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000216",
+      "evidence_span": "傷寒下後。心煩腹滿。臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000890",
+      "evidence_span": "傷寒下後。心煩腹滿。臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000265",
+      "evidence_span": "傷寒下後。心煩腹滿。臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "懊憹煩滿證治六條",
+      "source_unit_id": "SU_SHL_GUANZHU_000145",
+      "evidence_span": "傷寒下後，心煩腹滿，臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "梔子豉湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000688",
+      "evidence_span": "傷寒下後，心煩腹滿，起臥不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000338",
+      "evidence_span": "傷寒下後，心煩腹滿，臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000604",
+      "evidence_span": "傷寒下後。心煩腹滿。臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000185",
+      "evidence_span": "傷寒下後，心煩腹滿，臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "梔子生薑豉湯方第三十五",
+      "source_unit_id": "SU_B1CAC3ADF_001101",
+      "evidence_span": "傷寒下後。心煩、腹滿。臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000721",
+      "evidence_span": "傷寒下後，心煩、腹滿、臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000419",
+      "evidence_span": "（二十七）傷寒下後。心煩腹滿臥起不安者。梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000473",
+      "evidence_span": "**四十五、傷寒下後，心煩腹滿，**（起臥）〔臥起〕**不安者，梔子厚朴湯主之，**原文79",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B9119D083_000586",
+      "evidence_span": "發汗後，只解得半日許，又復煩，脈又浮數，不可更行麻黃，用桂枝湯解肌發汗。傷寒下後，心煩腹滿，臥起不安者，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "梔子厚朴枳實湯（五）",
+      "source_unit_id": "SU_SHL_LEIFANG_000042",
+      "evidence_span": "梔子（十四枚）、厚朴（四兩姜炙）、枳實（四枚水浸去穰炒），煮服法同前。傷寒下後心煩，即微煩，腹滿，臥起不安者，煩而加之腹滿，刖臥起俱不甯矣，厚朴枳實，以治腹滿也，梔子厚朴湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "發汗吐下後雜病證",
+      "source_unit_id": "SU_B3E520529_000129",
+      "evidence_span": "梔子甘草湯，前湯內加甘草壹兩，同梔子煮，後下豉如前法，加水半升。傷寒五六日，大下之後，身熱不去，心中結痛者，欲解也，屬梔子香豉湯主之。用前方下後腹煩滿，起臥不安者，梔子厚朴湯主之，梔子〔八個大者〕、厚朴〔貳兩〕、枳實〔二枚〕，㕮咀，水二升煮一升，去滓，溫飲一盞。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "厚朴",
+        "枳實",
+        "梔子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000367",
+        "IR_BC91F4420_000179",
+        "IR_SHL_GUANZHU_000256",
+        "IR_SHL_ZHUJIE_000318"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "厚朴",
+        "梔子"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000211"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現梔子厚朴湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B9119D083_000251"
+      ],
+      "book_title": "傷寒大白"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 20
+      },
+      {
+        "term": "腹滿",
+        "count": 19
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心煩",
+        "count": 18
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "梔子厚朴湯",
+    "傷寒",
+    "腹滿",
+    "心煩"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,103 @@
+{
+  "skill_id": "hermes.formula.formula_ba92a994",
+  "kind": "formula",
+  "title": "栝蔞瞿麥丸方證合併規則",
+  "subject": "栝蔞瞿麥丸",
+  "abstracted_claim": "栝蔞瞿麥丸可歸納為小便不利、渴等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_BA92A994",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001189",
+    "IR_JGYH_ERZHU_000171",
+    "IR_JGYL_FANGLUN_000144",
+    "IR_JGYL_JIYI_000248",
+    "IR_JGYL_TIAOWEN_000144",
+    "IR_JGYL_XINDIAN_000145"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001189",
+      "IR_JGYH_ERZHU_000171",
+      "IR_JGYL_FANGLUN_000144",
+      "IR_JGYL_JIYI_000248",
+      "IR_JGYL_TIAOWEN_000144",
+      "IR_JGYL_XINDIAN_000145"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "消渴小便不利，淋病脈證治第十三",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001653",
+      "evidence_span": "小便不利者，有水氣，其人若渴，栝蔞瞿麥丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "消渴小便不利淋病脈證治第十三",
+      "source_unit_id": "SU_JGYH_ERZHU_001111",
+      "evidence_span": "小便不利者。有水氣。其人苦渴。栝蔞瞿麥丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "消渴小便利淋病脈證并治第十三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000571",
+      "evidence_span": "小便不利者，有水氣，其人若渴，栝蔞瞿麥丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "脈證九條、方六首",
+      "source_unit_id": "SU_JGYL_JIYI_002047",
+      "evidence_span": "小便不利者。有水氣。其人苦渴。栝蔞瞿麥丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "消渴小便不利淋病脈證治第十三",
+      "source_unit_id": "SU_JGYL_XINDIAN_000961",
+      "evidence_span": "小便不利者。有水氣。其人若渴。栝蔞瞿麥丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "消渴小便利淋病脈證并治第十三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000569",
+      "evidence_span": "小便不利者，有水氣，其人若渴((王雪華：宜作〝苦渴〞))，栝蔞瞿麥丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 6
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 6
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "栝蔞瞿麥丸",
+    "小便不利",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,135 @@
+{
+  "skill_id": "hermes.formula.formula_dd4781f8",
+  "kind": "formula",
+  "title": "麻黃連翹赤小豆湯方證合併規則",
+  "subject": "麻黃連翹赤小豆湯",
+  "abstracted_claim": "麻黃連翹赤小豆湯可歸納為傷寒、小便不利、發黃、無汗等方證的核心方（支持條文 7 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_DD4781F8",
+  "release_level": "silver",
+  "consensus_score": 0.917,
+  "supporting_initial_rules": [
+    "IR_B1CAC3ADF_000704",
+    "IR_B3E16D849_000227",
+    "IR_B3E16D849_000594",
+    "IR_B5C5ECAC2_000328",
+    "IR_BF5CDC206_000075",
+    "IR_SHL_LUNZHU_000150",
+    "IR_SHL_QJYF_000189"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B1CAC3ADF_000704",
+      "IR_B3E16D849_000227",
+      "IR_B3E16D849_000594",
+      "IR_B5C5ECAC2_000328",
+      "IR_BF5CDC206_000075",
+      "IR_SHL_LUNZHU_000150",
+      "IR_SHL_QJYF_000189"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "梔子柏皮湯方第八十一",
+      "source_unit_id": "SU_B1CAC3ADF_001886",
+      "evidence_span": "傷寒瘀熱在裡。身必發黃。麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "麻黃湯變症汗後虛症",
+      "source_unit_id": "SU_SHL_LUNZHU_000288",
+      "evidence_span": "傷寒瘀熱在裡，身必發黃，麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000234",
+      "evidence_span": "傷寒瘀熱在裡，身體必黃，麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "發黃（述古）",
+      "source_unit_id": "SU_B5C5ECAC2_001278",
+      "evidence_span": "表實無汗。小便不利。身體發黃者。麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發黃",
+      "source_unit_id": "SU_B3E16D849_001291",
+      "evidence_span": "身必發黃也。傷寒瘀熱在裡。身必發黃。麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "陽明篇",
+      "source_unit_id": "SU_BF5CDC206_000089",
+      "evidence_span": "七十九節云。傷寒瘀熱在裡。身必發黃。麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B3E16D849_000595",
+      "evidence_span": "【綱】仲景曰。傷寒瘀熱在裡。身必發黃。麻黃連翹赤小豆湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B5C5ECAC2",
+      "book_title": "傷寒指掌",
+      "distinct_conditions": [
+        "小便不利",
+        "無汗"
+      ],
+      "rule_ids": [
+        "IR_B5C5ECAC2_000328"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 6
+      },
+      {
+        "term": "小便不利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發黃",
+        "count": 6
+      },
+      {
+        "term": "無汗",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "麻黃連翹赤小豆湯",
+    "傷寒",
+    "小便不利",
+    "發黃",
+    "無汗"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

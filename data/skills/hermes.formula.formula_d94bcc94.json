@@ -1,0 +1,302 @@
+{
+  "skill_id": "hermes.formula.formula_d94bcc94",
+  "kind": "formula",
+  "title": "甘草附子湯方證合併規則",
+  "subject": "甘草附子湯",
+  "abstracted_claim": "甘草附子湯可歸納為小便不利、惡風、汗出、短氣、掣痛、小便自利等方證的核心方（支持條文 18 條，跨 15 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_D94BCC94",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000272",
+    "IR_B0B74DF58_000275",
+    "IR_B11498305_000161",
+    "IR_B3E16D849_000255",
+    "IR_B3E16D849_000894",
+    "IR_B3E16D849_001187",
+    "IR_B3E520529_000236",
+    "IR_B8E444005_000097",
+    "IR_BB711944D_000282",
+    "IR_JGYL_FANGLUN_000024",
+    "IR_JGYL_TIAOWEN_000024",
+    "IR_SHL_GUANZHU_000349",
+    "IR_SHL_GUIBEN_000281",
+    "IR_SHL_LUNZHU_000282",
+    "IR_SHL_QJYF_000123",
+    "IR_SHL_SONGBEN_000259",
+    "IR_SHL_TIAOWEN_000213",
+    "IR_SHL_ZHUJIE_000589"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000272",
+      "IR_B0B74DF58_000275",
+      "IR_B11498305_000161",
+      "IR_B3E16D849_000255",
+      "IR_B3E16D849_000894",
+      "IR_B3E16D849_001187",
+      "IR_B3E520529_000236",
+      "IR_B8E444005_000097",
+      "IR_BB711944D_000282",
+      "IR_JGYL_FANGLUN_000024",
+      "IR_JGYL_TIAOWEN_000024",
+      "IR_SHL_GUANZHU_000349",
+      "IR_SHL_GUIBEN_000281",
+      "IR_SHL_LUNZHU_000282",
+      "IR_SHL_QJYF_000123",
+      "IR_SHL_SONGBEN_000259",
+      "IR_SHL_TIAOWEN_000213",
+      "IR_SHL_ZHUJIE_000589"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "短氣",
+      "source_unit_id": "SU_B3E16D849_002422",
+      "evidence_span": "小便不利。惡風。不欲去衣。甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "惡風",
+      "source_unit_id": "SU_B3E16D849_000652",
+      "evidence_span": "惡風。不欲去衣。或身微腫者。甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "風濕",
+      "source_unit_id": "SU_B3E16D849_001895",
+      "evidence_span": "惡風。不欲去衣。或身微腫者。甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "惡風",
+      "source_unit_id": "SU_B8E444005_000207",
+      "evidence_span": "小便不利。惡風不欲去衣。或身微腫者。甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "太陽經證治下九十一條",
+      "source_unit_id": "SU_BB711944D_000434",
+      "evidence_span": "小便不利。惡風不欲去衣。或身微腫者。甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000211",
+      "evidence_span": "風濕相搏，骨節煩疼，製痛不得屈伸，近之則痛劇，汗出短氣，小便不利惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "濕證",
+      "source_unit_id": "SU_B3E520529_000119",
+      "evidence_span": "風濕相搏，骨節疼煩，掣痛不得屈伸，近之則極，汗出短氣，小便不利，惡風不欲去被，或有微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病雜療法第七",
+      "source_unit_id": "SU_SHL_QJYF_000148",
+      "evidence_span": "風濕相搏，骨節疼煩，掣痛不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痙濕暍病脈證並治第二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000070",
+      "evidence_span": "風濕相搏，骨節疼煩掣痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痙濕暍病脈證並治第二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000068",
+      "evidence_span": "風濕相搏，骨節疼煩掣痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "風濕四條",
+      "source_unit_id": "SU_SHL_GUANZHU_000209",
+      "evidence_span": "風濕相搏，骨節煩疼掣痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000544",
+      "evidence_span": "風濕相搏，骨節疼煩，掣痛不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000391",
+      "evidence_span": "風濕相搏，骨節疼煩，掣痛不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "痙濕暑證",
+      "source_unit_id": "SU_SHL_LUNZHU_000523",
+      "evidence_span": "風濕相搏，骨節煩疼，掣痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "濕病脈證並治第九",
+      "source_unit_id": "SU_SHL_GUIBEN_000373",
+      "evidence_span": "5.33風濕相搏，骨節疼煩，掣痛，不得屈伸，近之則痛劇，汗出，短氣，小便不利，惡風，不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001034",
+      "evidence_span": "風濕相搏，骨節煩疼，（趙本作「疼煩」）掣痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000545",
+      "evidence_span": "**五十四、風濕相**（持）〔搏〕**，骨節疼**（痛）〔煩〕**掣痛**(痛有牽引的感覺。)（而）**不得屈伸，近之則痛劇，汗出**〔短〕**氣，小便不利，惡風不欲去衣，或身微腫者，甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000547",
+      "evidence_span": "【闡釋】　本條是風濕留注關節的證狀與治法。其證狀比上條更重篤，上條疼痛僅不能轉側，這條更不得屈伸，近之則劇痛；上條小便自利，這條小便不利」上條不嘔不渴，這條汗出短氣。短氣、身微腫、小便不利、惡風不欲去衣，都是心陽衰弱的徵象，亦即真陽之氣化不行，則當以甘草附子湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "小便自利",
+        "渴"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000272",
+        "IR_B0B74DF58_000275"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論辯證廣注",
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "甘草",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_B41512D4B_000501",
+        "IR_CAOSHI_FAWEI_000465"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "甘草",
+        "白朮",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000808",
+        "IR_BC91F4420_000036",
+        "IR_SHL_GUANZHU_000350",
+        "IR_SHL_LAISU_000297",
+        "IR_SHL_ZHUJIE_000591"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "桂枝四兩",
+        "甘草二兩",
+        "白朮二兩",
+        "附子二枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000282"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 16
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "惡風",
+        "count": 18
+      },
+      {
+        "term": "汗出",
+        "count": 13
+      },
+      {
+        "term": "短氣",
+        "count": 12
+      },
+      {
+        "term": "掣痛",
+        "count": 11
+      },
+      {
+        "term": "小便自利",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "甘草附子湯",
+    "小便不利",
+    "惡風",
+    "汗出",
+    "短氣",
+    "掣痛",
+    "小便自利"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

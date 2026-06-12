@@ -1,0 +1,106 @@
+{
+  "skill_id": "hermes.formula.formula_a4c498c8",
+  "kind": "formula",
+  "title": "加白朮湯方證合併規則",
+  "subject": "加白朮湯",
+  "abstracted_claim": "加白朮湯可歸納為傷寒、小便自利、大便硬、渴、脈浮虛等方證的核心方（支持條文 3 條，跨 3 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_A4C498C8",
+  "release_level": "silver",
+  "consensus_score": 0.913,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000271",
+    "IR_B41512D4B_000498",
+    "IR_SHL_ZHUJIE_000587"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000271",
+      "IR_B41512D4B_000498",
+      "IR_SHL_ZHUJIE_000587"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "黃連湯方",
+      "source_unit_id": "SU_B41512D4B_001063",
+      "evidence_span": "若其人大便硬。小便自利者。去桂枝。加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001028",
+      "evidence_span": "若其人大便硬，（趙本注：「一云：臍下心下硬」）小便自利者，去桂枝（趙本無「枝」字）加白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000534",
+      "evidence_span": "**五十三、傷寒八九日，風濕相**（持）〔搏〕(猶言風濕並至，風濕交作的意思。）**，身體煩疼，不能自轉側，不嘔不渴，脈浮虛而澀者，桂枝附子湯主之。若其人大**〔便〕**鞕，小便自利者，去桂**（枝）**加白朮湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "傷寒",
+        "渴",
+        "脈浮虛"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000271"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "小便自利",
+        "count": 3
+      },
+      {
+        "term": "大便硬",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮虛",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "加白朮湯",
+    "傷寒",
+    "小便自利",
+    "大便硬",
+    "渴",
+    "脈浮虛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

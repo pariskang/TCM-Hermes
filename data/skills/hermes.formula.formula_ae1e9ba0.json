@@ -1,0 +1,112 @@
+{
+  "skill_id": "hermes.formula.formula_ae1e9ba0",
+  "kind": "formula",
+  "title": "桂枝加厚朴杏仁湯方證合併規則",
+  "subject": "桂枝加厚朴杏仁湯",
+  "abstracted_claim": "桂枝加厚朴杏仁湯可歸納為太陽病、喘等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_AE1E9BA0",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000100",
+    "IR_B1CAC3ADF_000178",
+    "IR_B3E16D849_000519",
+    "IR_B5FF1CA1B_000122",
+    "IR_BC91F4420_000062",
+    "IR_SHL_LUNZHU_000095",
+    "IR_SHL_SUYUAN_000139"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000100",
+      "IR_B1CAC3ADF_000178",
+      "IR_B3E16D849_000519",
+      "IR_B5FF1CA1B_000122",
+      "IR_BC91F4420_000062",
+      "IR_SHL_LUNZHU_000095",
+      "IR_SHL_SUYUAN_000139"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "喘",
+      "source_unit_id": "SU_B3E16D849_001110",
+      "evidence_span": "下之。微喘者。表未解故也。桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000188",
+      "evidence_span": "太陽病下之微喘者。表未解故也。桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "小青龍湯方第二十二",
+      "source_unit_id": "SU_B1CAC3ADF_000938",
+      "evidence_span": "太陽病。下之微喘者。表未解故也。桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000304",
+      "evidence_span": "太陽病。下之微喘者。表未解故也。桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000158",
+      "evidence_span": "太陽病，下之，微喘者，表未解故也，桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000187",
+      "evidence_span": "（四十）太陽病。下之微喘者。表未解故也。桂枝加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000148",
+      "evidence_span": "太陽病，下之微喘者，表未解故也，桂枝加厚朴杏仁湯主之，喘家作桂枝湯，加厚朴杏子仁。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 6
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 7
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝加厚朴杏仁湯",
+    "太陽病",
+    "喘"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

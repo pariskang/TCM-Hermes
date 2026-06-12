@@ -1,0 +1,334 @@
+{
+  "skill_id": "hermes.formula.formula_46d6355e",
+  "kind": "formula",
+  "title": "芍藥甘草附子湯方證合併規則",
+  "subject": "芍藥甘草附子湯",
+  "abstracted_claim": "芍藥甘草附子湯可歸納為太陽病、風水、痰飲、惡寒、骨節疼痛、渴等方證的核心方（支持條文 18 條，跨 17 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_46D6355E",
+  "release_level": "silver",
+  "consensus_score": 0.919,
+  "supporting_initial_rules": [
+    "IR_B11498305_000137",
+    "IR_B1CAC3ADF_000233",
+    "IR_B3E16D849_000235",
+    "IR_B5FF1CA1B_000164",
+    "IR_B8E444005_000168",
+    "IR_B9119D083_000057",
+    "IR_BBAACE965_000317",
+    "IR_BC91F4420_000141",
+    "IR_CAOSHI_FAWEI_000178",
+    "IR_CAOSHI_FAWEI_001202",
+    "IR_JF_SHIYANLU_000221",
+    "IR_SHL_GUIBEN_000490",
+    "IR_SHL_LUNZHU_000080",
+    "IR_SHL_QJYF_000324",
+    "IR_SHL_SONGBEN_000123",
+    "IR_SHL_SUYUAN_000270",
+    "IR_SHL_TIAOWEN_000077",
+    "IR_SHL_ZHUJIE_000281"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000137",
+      "IR_B1CAC3ADF_000233",
+      "IR_B3E16D849_000235",
+      "IR_B5FF1CA1B_000164",
+      "IR_B8E444005_000168",
+      "IR_B9119D083_000057",
+      "IR_BBAACE965_000317",
+      "IR_BC91F4420_000141",
+      "IR_CAOSHI_FAWEI_000178",
+      "IR_CAOSHI_FAWEI_001202",
+      "IR_JF_SHIYANLU_000221",
+      "IR_SHL_GUIBEN_000490",
+      "IR_SHL_LUNZHU_000080",
+      "IR_SHL_QJYF_000324",
+      "IR_SHL_SONGBEN_000123",
+      "IR_SHL_SUYUAN_000270",
+      "IR_SHL_TIAOWEN_000077",
+      "IR_SHL_ZHUJIE_000281"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "茯苓桂枝白朮甘草湯方第二十八",
+      "source_unit_id": "SU_B1CAC3ADF_001042",
+      "evidence_span": "病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "惡寒",
+      "source_unit_id": "SU_B3E16D849_000614",
+      "evidence_span": "病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "惡寒",
+      "source_unit_id": "SU_B9119D083_000051",
+      "evidence_span": "發汗病不解，反惡寒者，虛也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000188",
+      "evidence_span": "發汗病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000236",
+      "evidence_span": "發汗病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B8E444005_000267",
+      "evidence_span": "發汗病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000745",
+      "evidence_span": "發汗病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000220",
+      "evidence_span": "發汗病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000557",
+      "evidence_span": "發汗病不解。反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000139",
+      "evidence_span": "發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "發汗吐下後病狀第五",
+      "source_unit_id": "SU_SHL_QJYF_000510",
+      "evidence_span": "發其汗不解，而反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000306",
+      "evidence_span": "發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000153",
+      "evidence_span": "發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000676",
+      "evidence_span": "發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000346",
+      "evidence_span": "（十二）發汗病不解反惡寒者。虛故也。芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000518",
+      "evidence_span": "7.39發汗病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第八九案　汗後致虛穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000612",
+      "evidence_span": "「發汗過多，其人叉手自冒心，心下悸，欲得按者，桂枝甘草場主之。」此蓋為無痰飲者言之耳，又曰：「太陽病，發汗，汗出不解，其人仍發熱，心下悸，頭眩，身瞤動，振振欲擗地者，真武湯主之。」此蓋為有痰飲者言之。又曰：「發汗，病不解，反惡寒者，虛故也，芍藥甘草附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "水氣病脈證並治第十四",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001676",
+      "evidence_span": "此一節舉相類之下，出陰虛不可發汗之例，欲處方者，知所擇也，風寒為病，起於太陽，故其脈當浮，但緩則為氣，緊則為寒，為水，由風濕寢成，風水外證，當見骨節疼痛，今不疼而反見體腫而竣者，盡濕將成水，則痛，濕已成水，即重而竣，此濕流關節，水傷肌肉之辨也，水氣尚在肌肉，不在心下，不能阻隔中脘陽氣，故不渴，此風水之宜於發汗者也，又有本太陽病，因發汗而惡寒者，此為表陽虛，太陽篇所謂發汗病不解反惡寒者，芍藥甘草附子湯主之，即此證也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "渴",
+        "風水",
+        "骨節疼痛"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000178",
+        "IR_CAOSHI_FAWEI_001202"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
+      "distinct_conditions": [
+        "心下悸",
+        "振振欲擗地",
+        "汗出",
+        "痰飲",
+        "發熱",
+        "身瞤動",
+        "頭眩"
+      ],
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000221"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集",
+        "曹氏傷寒金匱發微合刊",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "甘草",
+        "芍藥",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000319",
+        "IR_BC91F4420_000142",
+        "IR_CAOSHI_FAWEI_000179",
+        "IR_SHL_GUANZHU_000139",
+        "IR_SHL_ZHUJIE_000283"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "甘草三兩",
+        "芍藥三兩",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000491"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現芍藥甘草附子湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001202"
+      ],
+      "book_title": "曹氏傷寒金匱發微合刊"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 2
+      },
+      {
+        "term": "風水",
+        "count": 1
+      },
+      {
+        "term": "痰飲",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "惡寒",
+        "count": 18
+      },
+      {
+        "term": "骨節疼痛",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "心下悸",
+        "count": 1
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "頭眩",
+        "count": 1
+      },
+      {
+        "term": "身瞤動",
+        "count": 1
+      },
+      {
+        "term": "振振欲擗地",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "芍藥甘草附子湯",
+    "太陽病",
+    "風水",
+    "痰飲",
+    "惡寒",
+    "骨節疼痛",
+    "渴",
+    "心下悸",
+    "汗出"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

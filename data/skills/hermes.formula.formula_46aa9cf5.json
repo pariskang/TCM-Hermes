@@ -1,0 +1,211 @@
+{
+  "skill_id": "hermes.formula.formula_46aa9cf5",
+  "kind": "formula",
+  "title": "旋覆代赭石湯方證合併規則",
+  "subject": "旋覆代赭石湯",
+  "abstracted_claim": "旋覆代赭石湯可歸納為心下痞、傷寒、噫氣、心下痞硬等方證的核心方（支持條文 9 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_46AA9CF5",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000218",
+    "IR_B5FF1CA1B_000552",
+    "IR_B9119D083_000629",
+    "IR_BBAACE965_000731",
+    "IR_CAOSHI_FAWEI_000416",
+    "IR_SHL_GUANZHU_000147",
+    "IR_SHL_LAISU_000244",
+    "IR_SHL_LUNZHU_000244",
+    "IR_SHL_SUYUAN_000453"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000218",
+      "IR_B5FF1CA1B_000552",
+      "IR_B9119D083_000629",
+      "IR_BBAACE965_000731",
+      "IR_CAOSHI_FAWEI_000416",
+      "IR_SHL_GUANZHU_000147",
+      "IR_SHL_LAISU_000244",
+      "IR_SHL_LUNZHU_000244",
+      "IR_SHL_SUYUAN_000453"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001779",
+      "evidence_span": "一劑而安。金匱有云。噫氣不除者。旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000490",
+      "evidence_span": "若吐下解後。心下痞鞭。噫氣不除者。旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "心下痞證治第四",
+      "source_unit_id": "SU_SHL_SUYUAN_000863",
+      "evidence_span": "若吐若下解後。心下痞硬。噫氣不除者。旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "臟結結胸痞痛",
+      "source_unit_id": "SU_B5FF1CA1B_000901",
+      "evidence_span": "傷寒發汗若吐若下解後。心下痞硬噫氣不除者。旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "痞滿",
+      "source_unit_id": "SU_B9119D083_001617",
+      "evidence_span": "傷寒發汗，若吐若下，解後，心下痞硬，噫氣不除者，旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "發汗吐下解後病脈證治三條",
+      "source_unit_id": "SU_SHL_GUANZHU_000096",
+      "evidence_span": "傷寒發汗，若吐若下，解後，心下痞鞕，噫氣不除者，旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "瀉心湯證",
+      "source_unit_id": "SU_SHL_LAISU_000180",
+      "evidence_span": "傷寒發汗，若吐若下，解後，心下痞硬，噫氣不除者，旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "瀉心湯症",
+      "source_unit_id": "SU_SHL_LUNZHU_000446",
+      "evidence_span": "傷寒發汗，若吐若下，解後，心下痞硬、噫氣不除者，旋覆代赭石湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000412",
+      "evidence_span": "**三十五、傷寒發汗，若吐若下，解後**　(謂大邪已散去。)**，心下痞**〔鞭〕**，噫氣**（即飽食息也。俗曰打飽呃。）**不除者，旋覆代赭石湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨"
+      ],
+      "composition": [
+        "人參",
+        "代赭石",
+        "半夏",
+        "旋覆花",
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000172"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "代赭石"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000417"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "人參",
+        "代赭石",
+        "半夏",
+        "大棗",
+        "旋覆花",
+        "桂枝",
+        "炙甘草",
+        "甘草",
+        "生薑",
+        "白朮",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000149"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "代赭",
+        "代赭石",
+        "半夏",
+        "大棗",
+        "旋覆花",
+        "甘草",
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000246"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "心下痞",
+        "count": 8
+      },
+      {
+        "term": "傷寒",
+        "count": 6
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "噫氣",
+        "count": 9
+      },
+      {
+        "term": "心下痞硬",
+        "count": 5
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "旋覆代赭石湯",
+    "心下痞",
+    "傷寒",
+    "噫氣",
+    "心下痞硬"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

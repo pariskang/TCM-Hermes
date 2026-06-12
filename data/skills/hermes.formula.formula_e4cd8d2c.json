@@ -1,0 +1,163 @@
+{
+  "skill_id": "hermes.formula.formula_e4cd8d2c",
+  "kind": "formula",
+  "title": "麻子仁丸方證合併規則",
+  "subject": "麻子仁丸",
+  "abstracted_claim": "麻子仁丸可歸納為小便數、汗出、趺陽脈浮、脈浮等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E4CD8D2C",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000500",
+    "IR_JGYL_FANGLUN_000111",
+    "IR_JGYL_TIAOWEN_000111",
+    "IR_SHL_GUIBEN_000855",
+    "IR_SHL_QJYF_000187",
+    "IR_SHL_SONGBEN_000325",
+    "IR_SHL_TIAOWEN_000279"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000500",
+      "IR_JGYL_FANGLUN_000111",
+      "IR_JGYL_TIAOWEN_000111",
+      "IR_SHL_GUIBEN_000855",
+      "IR_SHL_QJYF_000187",
+      "IR_SHL_SONGBEN_000325",
+      "IR_SHL_TIAOWEN_000279"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "五臟風寒積聚病脈證并治第十一",
+      "source_unit_id": "SU_JGYL_FANGLUN_000450",
+      "evidence_span": "趺陽脈浮而澀，浮則胃氣強，澀則小便數，浮澀相搏，大便則堅，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "五臟風寒積聚病脈證并治第十一",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000448",
+      "evidence_span": "趺陽脈浮而澀，浮則胃氣強，澀則小便數，浮澀相搏，大便則堅，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨陽明病脈證並治第八",
+      "source_unit_id": "SU_SHL_SONGBEN_000646",
+      "evidence_span": "趺陽脈浮而濇，浮則胃氣強，濇則小便數，浮濇相搏，大便則鞕，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000493",
+      "evidence_span": "趺陽脈浮而濇，浮則胃氣強，濇則小便數，浮濇相搏，大便則鞕，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000782",
+      "evidence_span": "9.71趺陽脈浮而濇，浮則胃氣強，濇則小便數。浮數相搏，大便則鞕，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "陽明中篇",
+      "source_unit_id": "SU_B0B74DF58_000967",
+      "evidence_span": "**三十一、趺陽**（即衝陽穴，在足背第二第三蹠（zhí）骨間，屬足陽明胃經，古人常用跌陽脈診察脾胃疾病。）**脈浮而澀，浮則胃氣強，澀則小便數，浮澀相搏，大便則鞕，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000230",
+      "evidence_span": "脈陽微而汗出少者，為自如：汗出多者，為太過。太過者陽絕於內，亡津液，大便因堅脈浮而芤，浮為陽，芤為陰，浮芤相搏，胃氣則生熱，其陽則絕。趺陽脈浮而澀，浮則胃氣強，澀則小便數，浮澀相搏，大便即堅，其脾為約，麻子仁丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "汗出"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000187"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "大黃",
+        "枳實",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001060"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大黃一斤",
+        "杏仁一升",
+        "枳實半斤",
+        "芍藥半斤"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000856"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "小便數",
+        "count": 7
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "趺陽脈浮",
+        "count": 6
+      },
+      {
+        "term": "脈浮",
+        "count": 2
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "麻子仁丸",
+    "小便數",
+    "汗出",
+    "趺陽脈浮",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

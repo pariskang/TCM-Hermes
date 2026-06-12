@@ -1,0 +1,166 @@
+{
+  "skill_id": "hermes.formula.formula_1ef8854b",
+  "kind": "formula",
+  "title": "枳實梔子豉湯方證合併規則",
+  "subject": "枳實梔子豉湯",
+  "abstracted_claim": "枳實梔子豉湯可歸納為勞復、宿食、發熱等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_1EF8854B",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000780",
+    "IR_B11498305_000654",
+    "IR_CAOSHI_FAWEI_000888",
+    "IR_SHL_GUANZHU_000727",
+    "IR_SHL_SONGBEN_000458",
+    "IR_SHL_TIAOWEN_000412"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000780",
+      "IR_B11498305_000654",
+      "IR_CAOSHI_FAWEI_000888",
+      "IR_SHL_GUANZHU_000727",
+      "IR_SHL_SONGBEN_000458",
+      "IR_SHL_TIAOWEN_000412"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001022",
+      "evidence_span": "太病差後。勞復者。枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨陰陽易差後勞復病脈證並治第十四",
+      "source_unit_id": "SU_SHL_SONGBEN_000882",
+      "evidence_span": "大病差後，勞復者，枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨陰陽易差後勞復病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000729",
+      "evidence_span": "大病差後，勞復者，枳實梔子豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "雜篇",
+      "source_unit_id": "SU_B11498305_000878",
+      "evidence_span": "大病差後勞復者，枳實梔子豉湯主之，若有宿食者，加大黃如博碁子大五六枚。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "差後勞復",
+      "source_unit_id": "SU_B0B74DF58_001626",
+      "evidence_span": "**一、大病差後，勞復者，枳實梔子豉湯主之（若有宿食者，加大黃，如博棋子大五六枚）。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "簡誤九條",
+      "source_unit_id": "SU_SHL_GUANZHU_000504",
+      "evidence_span": "大病差後勞復者，枳實梔子豉湯主之，若有宿食者，加大黃如博碁子大五六枚，大病新差，血氣未復，餘熱未盡，而強力作勞，因復發熱者，名曰勞復，為其餘熱之氣，因勞而外浮也，枳實梔子，所以下熱，豆豉所以散熱，蓋亦表裏之劑，而氣味輕薄，適宜於病後復發之體耳，若有宿食者，名曰食復，內經所謂食肉則復多食則遺也，故於枳實梔子豉湯中，少加大黃，以逐其宿食。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUANZHU",
+      "book_title": "傷寒貫珠集",
+      "distinct_conditions": [
+        "宿食",
+        "發熱"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000727"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "曹氏傷寒金匱發微合刊",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "枳實",
+        "梔子"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000592",
+        "IR_CAOSHI_FAWEI_000889",
+        "IR_SHL_ZHUJIE_001050"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "枳實",
+        "梔子",
+        "香豉"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000728"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "枳實三枚",
+        "梔子十四枚",
+        "香豉一升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001271"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "勞復",
+        "count": 6
+      },
+      {
+        "term": "宿食",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "枳實梔子豉湯",
+    "勞復",
+    "宿食",
+    "發熱"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

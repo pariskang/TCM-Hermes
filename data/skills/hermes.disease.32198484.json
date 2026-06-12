@@ -1,0 +1,320 @@
+{
+  "skill_id": "hermes.disease.32198484",
+  "kind": "disease",
+  "title": "妊娠證治合併規則",
+  "subject": "妊娠",
+  "abstracted_claim": "妊娠相關條文 40 條；主要方劑：歸貝母苦參丸、白朮散、乾薑人參半夏丸、桂枝茯苓丸、葵子茯苓散。",
+  "merged_rule_id": "MHR_DISEASE_32198484",
+  "release_level": "silver",
+  "consensus_score": 0.916,
+  "supporting_initial_rules": [
+    "IR_B11498305_000912",
+    "IR_CAOSHI_FAWEI_001398",
+    "IR_CAOSHI_FAWEI_001404",
+    "IR_CAOSHI_FAWEI_001406",
+    "IR_CAOSHI_FAWEI_001408",
+    "IR_CAOSHI_FAWEI_001411",
+    "IR_CAOSHI_FAWEI_001456",
+    "IR_JF_SHIYANLU_000012",
+    "IR_JGYH_ERZHU_000338",
+    "IR_JGYH_ERZHU_000339",
+    "IR_JGYH_ERZHU_000342",
+    "IR_JGYL_FANGLUN_000257",
+    "IR_JGYL_FANGLUN_000262",
+    "IR_JGYL_FANGLUN_000264",
+    "IR_JGYL_FANGLUN_000266",
+    "IR_JGYL_FANGLUN_000268",
+    "IR_JGYL_FANGLUN_000270",
+    "IR_JGYL_JIYI_000430",
+    "IR_JGYL_JIYI_000434",
+    "IR_JGYL_JIYI_000435",
+    "IR_JGYL_JIYI_000437",
+    "IR_JGYL_JIYI_000439",
+    "IR_JGYL_QIANZHU_000301",
+    "IR_JGYL_QIANZHU_000307",
+    "IR_JGYL_TIAOWEN_000257",
+    "IR_JGYL_TIAOWEN_000262",
+    "IR_JGYL_TIAOWEN_000264",
+    "IR_JGYL_TIAOWEN_000266",
+    "IR_JGYL_TIAOWEN_000268",
+    "IR_JGYL_TIAOWEN_000270",
+    "IR_JGYL_XINDIAN_000291",
+    "IR_JGYL_XINDIAN_000292",
+    "IR_JGYL_XINDIAN_000294",
+    "IR_SHL_GUIBEN_001560",
+    "IR_SHL_GUIBEN_001563",
+    "IR_SHL_GUIBEN_001568",
+    "IR_SHL_GUIBEN_001574",
+    "IR_SHL_GUIBEN_001577",
+    "IR_SHL_GUIBEN_001580",
+    "IR_SHL_GUIBEN_001586"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000912",
+      "IR_CAOSHI_FAWEI_001398",
+      "IR_CAOSHI_FAWEI_001404",
+      "IR_CAOSHI_FAWEI_001406",
+      "IR_CAOSHI_FAWEI_001408",
+      "IR_CAOSHI_FAWEI_001411",
+      "IR_CAOSHI_FAWEI_001456",
+      "IR_JF_SHIYANLU_000012",
+      "IR_JGYH_ERZHU_000338",
+      "IR_JGYH_ERZHU_000339",
+      "IR_JGYH_ERZHU_000342",
+      "IR_JGYL_FANGLUN_000257",
+      "IR_JGYL_FANGLUN_000262",
+      "IR_JGYL_FANGLUN_000264",
+      "IR_JGYL_FANGLUN_000266",
+      "IR_JGYL_FANGLUN_000268",
+      "IR_JGYL_FANGLUN_000270",
+      "IR_JGYL_JIYI_000430",
+      "IR_JGYL_JIYI_000434",
+      "IR_JGYL_JIYI_000435",
+      "IR_JGYL_JIYI_000437",
+      "IR_JGYL_JIYI_000439",
+      "IR_JGYL_QIANZHU_000301",
+      "IR_JGYL_QIANZHU_000307",
+      "IR_JGYL_TIAOWEN_000257",
+      "IR_JGYL_TIAOWEN_000262",
+      "IR_JGYL_TIAOWEN_000264",
+      "IR_JGYL_TIAOWEN_000266",
+      "IR_JGYL_TIAOWEN_000268",
+      "IR_JGYL_TIAOWEN_000270",
+      "IR_JGYL_XINDIAN_000291",
+      "IR_JGYL_XINDIAN_000292",
+      "IR_JGYL_XINDIAN_000294",
+      "IR_SHL_GUIBEN_001560",
+      "IR_SHL_GUIBEN_001563",
+      "IR_SHL_GUIBEN_001568",
+      "IR_SHL_GUIBEN_001574",
+      "IR_SHL_GUIBEN_001577",
+      "IR_SHL_GUIBEN_001580",
+      "IR_SHL_GUIBEN_001586"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002067",
+      "evidence_span": "妊娠養胎，白朮散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001741",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000918",
+      "evidence_span": "妊娠養胎，白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003287",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000916",
+      "evidence_span": "妊娠養胎，白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001560",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000914",
+      "evidence_span": "婦人妊娠，宜常服當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003275",
+      "evidence_span": "婦人妊娠。宜常服當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000912",
+      "evidence_span": "婦人妊娠，宜常服當歸散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002052",
+      "evidence_span": "妊娠小便難，當歸貝母苦參丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002047",
+      "evidence_span": "妊娠嘔吐不止，乾薑人參半夏丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001718",
+      "evidence_span": "妊娠嘔吐不止。乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000902",
+      "evidence_span": "妊娠嘔吐不止，乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000900",
+      "evidence_span": "妊娠嘔吐不止，乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001540",
+      "evidence_span": "妊娠嘔吐不止。乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003235",
+      "evidence_span": "妊娠。嘔吐不止。乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001723",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003248",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001545",
+      "evidence_span": "妊娠小便難。飲食如故。當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000906",
+      "evidence_span": "妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001298",
+      "evidence_span": "妊娠（肥白有寒。當以溫藥）養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000904",
+      "evidence_span": "妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001364",
+      "evidence_span": "16.6 妊娠，嘔吐不止，乾薑人參半夏丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001283",
+      "evidence_span": "妊娠小便難。飲食如故。（以）當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_003194",
+      "evidence_span": "有妊娠下血者。假令妊娠腹中痛。為胞阻。膠艾湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001366",
+      "evidence_span": "16.7妊娠，小便難，飲食如故，當歸貝母苦參丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002057",
+      "evidence_span": "妊娠有水氣，身重，小便不利，灑淅惡寒，起即頭眩，葵子茯苓散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000910",
+      "evidence_span": "妊娠有水氣，身重，小便不利，洒淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000908",
+      "evidence_span": "妊娠有水氣，身重，小便不利，洒淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001368",
+      "evidence_span": "16.8妊娠，有水氣，小便不利，灑淅惡寒，起即頭眩，葵子茯苓散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "妊娠"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:15Z",
+  "protocol": "hermes-v5"
+}

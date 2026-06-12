@@ -1,0 +1,128 @@
+{
+  "skill_id": "hermes.formula.formula_519c2bf5",
+  "kind": "formula",
+  "title": "故用豬苓湯方證合併規則",
+  "subject": "故用豬苓湯",
+  "abstracted_claim": "故用豬苓湯可歸納為下利、少陰病、渴、心煩、不得眠、但欲寐等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_519C2BF5",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_SHL_LAISU_000685",
+    "IR_SHL_LUNZHU_000679"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_SHL_LAISU_000685",
+      "IR_SHL_LUNZHU_000679"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "豬苓湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001195",
+      "evidence_span": "且下利而熱渴，是下焦虛，不能制水之故，非芩、連、芍藥所宜。咳嘔煩渴者，是腎水不升；下利不眠者，是心火不降耳。凡利水之劑，必先上升而後下降，故用豬苓湯主之，以滋陰利水而升津液。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "豬苓湯證",
+      "source_unit_id": "SU_SHL_LAISU_000476",
+      "evidence_span": "少陰病，下利六七日，欬而嘔渴，心煩不得眠者，豬苓湯主之。[少陰病，但欲寐，心煩而反不得臥，是黃連阿膠證也，然二三日心煩是實熱，六七日心煩是虛煩矣，且下利而熱渴，是下焦虛，不能制水之故，非芩連芍藥所宜，欬嘔煩渴者，是腎水不升，下利不眠者，是心火不降耳，凡利水之劑，必先上升而後下降，故用豬苓湯主之，以滋陰利水，而升津液，斯上焦如霧，而欬渴除，中焦如漚，而煩嘔靜，下焦如瀆，而利自止矣。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LAISU",
+      "book_title": "傷寒來蘇集",
+      "distinct_conditions": [
+        "不得眠",
+        "不得臥",
+        "但欲寐",
+        "少陰病",
+        "心煩",
+        "虛煩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000685"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LUNZHU",
+      "book_title": "傷寒論注",
+      "distinct_conditions": [
+        "咳"
+      ],
+      "rule_ids": [
+        "IR_SHL_LUNZHU_000679"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 2
+      },
+      {
+        "term": "少陰病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "不得眠",
+        "count": 1
+      },
+      {
+        "term": "但欲寐",
+        "count": 1
+      },
+      {
+        "term": "不得臥",
+        "count": 1
+      },
+      {
+        "term": "虛煩",
+        "count": 1
+      },
+      {
+        "term": "咳",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "故用豬苓湯",
+    "下利",
+    "少陰病",
+    "渴",
+    "心煩",
+    "不得眠",
+    "但欲寐",
+    "不得臥"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

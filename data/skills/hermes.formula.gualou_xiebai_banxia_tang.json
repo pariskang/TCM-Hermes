@@ -1,0 +1,185 @@
+{
+  "skill_id": "hermes.formula.gualou_xiebai_banxia_tang",
+  "kind": "formula",
+  "title": "栝蔞薤白半夏湯方證合併規則",
+  "subject": "栝蔞薤白半夏湯",
+  "abstracted_claim": "栝蔞薤白半夏湯可歸納為胸痹、心痛、支飲、不得臥、心痛徹背等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_GUALOU_XIEBAI_BANXIA_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.914,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001074",
+    "IR_JGYH_ERZHU_000097",
+    "IR_JGYL_FANGLUN_000080",
+    "IR_JGYL_JIYI_000137",
+    "IR_JGYL_QIANZHU_000092",
+    "IR_JGYL_TIAOWEN_000080",
+    "IR_JGYL_XINDIAN_000084",
+    "IR_SHL_GUIBEN_001529"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001074",
+      "IR_JGYH_ERZHU_000097",
+      "IR_JGYL_FANGLUN_000080",
+      "IR_JGYL_JIYI_000137",
+      "IR_JGYL_QIANZHU_000092",
+      "IR_JGYL_TIAOWEN_000080",
+      "IR_JGYL_XINDIAN_000084",
+      "IR_SHL_GUIBEN_001529"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001419",
+      "evidence_span": "胸痹不得臥，心痛澈背，栝蔞薤白半夏湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000673",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000330",
+      "evidence_span": "胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證一首、方十首",
+      "source_unit_id": "SU_JGYL_JIYI_001263",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000328",
+      "evidence_span": "胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_XINDIAN_000566",
+      "evidence_span": "胸痹不得臥。心痛徹背者。栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001334",
+      "evidence_span": "15.21胸痹不得臥，心痛徹背者，栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "胸痹心痛短氣病脈證并治第九",
+      "source_unit_id": "SU_JGYL_QIANZHU_000441",
+      "evidence_span": "此證與支飲證相類。而唯）心痛徹背者。（為胸痹證所獨。以）栝蔞薤白半夏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "支飲"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000092"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏",
+        "薤白"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001075"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏半升",
+        "栝蔞實一枚",
+        "白酒一斗",
+        "薤白三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001530"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "胸痹",
+        "count": 8
+      },
+      {
+        "term": "心痛",
+        "count": 8
+      },
+      {
+        "term": "支飲",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "不得臥",
+        "count": 7
+      },
+      {
+        "term": "心痛徹背",
+        "count": 7
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "通陽散結",
+        "count": 8
+      },
+      {
+        "term": "祛痰寬胸",
+        "count": 8
+      }
+    ]
+  },
+  "keywords": [
+    "栝蔞薤白半夏湯",
+    "胸痹",
+    "心痛",
+    "支飲",
+    "不得臥",
+    "心痛徹背"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

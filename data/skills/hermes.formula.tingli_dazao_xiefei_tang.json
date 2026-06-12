@@ -1,0 +1,395 @@
+{
+  "skill_id": "hermes.formula.tingli_dazao_xiefei_tang",
+  "kind": "formula",
+  "title": "葶藶大棗瀉肺湯方證合併規則",
+  "subject": "葶藶大棗瀉肺湯",
+  "abstracted_claim": "葶藶大棗瀉肺湯可歸納為肺癰、支飲、傷寒、肺脹、喘、不得臥等方證的核心方（支持條文 23 條，跨 10 部書）。",
+  "merged_rule_id": "MHR_FORMULA_TINGLI_DAZAO_XIEFEI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.915,
+  "supporting_initial_rules": [
+    "IR_B11498305_000891",
+    "IR_CAOSHI_FAWEI_001057",
+    "IR_CAOSHI_FAWEI_001155",
+    "IR_JF_SHIYANLU_000196",
+    "IR_JF_SHIYANLU_000197",
+    "IR_JGYH_ERZHU_000087",
+    "IR_JGYH_ERZHU_000091",
+    "IR_JGYH_ERZHU_000143",
+    "IR_JGYL_FANGLUN_000070",
+    "IR_JGYL_FANGLUN_000075",
+    "IR_JGYL_FANGLUN_000124",
+    "IR_JGYL_JIYI_000117",
+    "IR_JGYL_JIYI_000124",
+    "IR_JGYL_JIYI_000211",
+    "IR_JGYL_QIANZHU_000085",
+    "IR_JGYL_QIANZHU_000141",
+    "IR_JGYL_TIAOWEN_000070",
+    "IR_JGYL_TIAOWEN_000075",
+    "IR_JGYL_TIAOWEN_000124",
+    "IR_JGYL_XINDIAN_000072",
+    "IR_JGYL_XINDIAN_000123",
+    "IR_SHL_GUIBEN_001391",
+    "IR_SHL_GUIBEN_001423"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000891",
+      "IR_CAOSHI_FAWEI_001057",
+      "IR_CAOSHI_FAWEI_001155",
+      "IR_JF_SHIYANLU_000196",
+      "IR_JF_SHIYANLU_000197",
+      "IR_JGYH_ERZHU_000087",
+      "IR_JGYH_ERZHU_000091",
+      "IR_JGYH_ERZHU_000143",
+      "IR_JGYL_FANGLUN_000070",
+      "IR_JGYL_FANGLUN_000075",
+      "IR_JGYL_FANGLUN_000124",
+      "IR_JGYL_JIYI_000117",
+      "IR_JGYL_JIYI_000124",
+      "IR_JGYL_JIYI_000211",
+      "IR_JGYL_QIANZHU_000085",
+      "IR_JGYL_QIANZHU_000141",
+      "IR_JGYL_TIAOWEN_000070",
+      "IR_JGYL_TIAOWEN_000075",
+      "IR_JGYL_TIAOWEN_000124",
+      "IR_JGYL_XINDIAN_000072",
+      "IR_JGYL_XINDIAN_000123",
+      "IR_SHL_GUIBEN_001391",
+      "IR_SHL_GUIBEN_001423"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYH_ERZHU_001005",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000514",
+      "evidence_span": "支飲不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001852",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000512",
+      "evidence_span": "支飲不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000854",
+      "evidence_span": "支飲不得息。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "肺痿肺癱咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001386",
+      "evidence_span": "肺壅，喘不得臥，葶藶大棗瀉肺湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYH_ERZHU_000610",
+      "evidence_span": "肺癰喘不得臥。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_XINDIAN_000482",
+      "evidence_span": "肺癰喘不得臥。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000279",
+      "evidence_span": "肺癰，喘不得臥，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論三首、脈證四條、方十五首",
+      "source_unit_id": "SU_JGYL_JIYI_001075",
+      "evidence_span": "肺癰。喘不得臥。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000277",
+      "evidence_span": "肺癰，喘不得臥，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001241",
+      "evidence_span": "14.39支飲，不得息，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYH_ERZHU_000636",
+      "evidence_span": "酸辛。咳逆上氣。喘鳴迫塞。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論三首、脈證四條、方十五首",
+      "source_unit_id": "SU_JGYL_JIYI_001167",
+      "evidence_span": "不聞香臭酸辛。咳逆上氣。喘鳴迫塞。葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_000684",
+      "evidence_span": "支飲不得息。（肺滿而氣閉也。閉者宜開。以）葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_QIANZHU_000371",
+      "evidence_span": "（在將成未成之初。邪氣盡壅於肺。）喘不得臥。（以）葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "〔附方〕",
+      "source_unit_id": "SU_JGYL_FANGLUN_000310",
+      "evidence_span": "肺癰胸滿脹，一身面目浮腫，鼻塞清涕出，不聞香臭酸辛，咳逆上氣，喘鳴迫塞，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "〔附方〕",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000308",
+      "evidence_span": "肺癰胸滿脹，一身面目浮腫，鼻塞清涕出，不聞香臭酸辛，咳逆上氣，喘鳴迫塞，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001215",
+      "evidence_span": "14.23咳而氣逆，喘鳴迫塞，胸滿而脹，一身面目浮腫，鼻出清涕，不聞香臭，此為肺脹，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第八○案　肺癰　其一穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000513",
+      "evidence_span": "膿血者，津盡甚至肺體腐化也。又曰：「咳而胸滿，振寒，脈數，咽乾，不渴，時出濁唾腥臭，久久吐膿如米粥者，為肺癰，桔梗湯主之。」由此可知桔梗湯之所主者，為肺癰之初成，時出濁唾腥臭，必久而久之，方吐膿如米粥，非初時吐膿如米粥也。又曰：「肺癰，喘不得臥，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001587",
+      "evidence_span": "此承上加茯苓芒硝而別出其方治也，水在心下，靜則為心悸，動則為冒弦，欲遏水邪之上泛為木防已湯加茯苓所不能治。澤瀉湯，所以抉氾濫之水而厚其堤防也，胃中燥熱，逼水上逆，則病胸滿，木防已湯加芒硝所不能治，仲師因別出厚朴大黃湯方，所以破中脘之阻隔，開水飲下行之路也，支飲不得息，葶藶大棗瀉肺湯主之（葶藶大棗瀉肺湯方見肺壅）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第八○案　肺癰　其一穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000513",
+      "evidence_span": "又曰：「咳而胸滿，振寒，脈數，咽乾，不渴，時出濁唾腥臭，久久吐膿如米粥者，為肺癰，桔梗湯主之。」由此可知桔梗湯之所主者，為肺癰之初成，時出濁唾腥臭，必久而久之，方吐膿如米粥，非初時吐膿如米粥也。又曰：「肺癰，喘不得臥，葶藶大棗瀉肺湯主之。」又曰：「肺癰，胸滿脹，一身面目浮腫，鼻塞，清涕出，不聞香臭酸辛，咳逆上氣，喘鳴迫塞者，葶藶大棗瀉肺湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "總論",
+      "source_unit_id": "SU_B11498305_001454",
+      "evidence_span": "傷寒邪熱不散，遊溢經絡，出入藏府熱氣所過，則為癰膿，又厥逆脈數，其熱不罷者，此為熱氣有餘，必發癰膿，若邪熱遊於經絡，則發外毒，出入藏府，則為內癰急當消為主，稍遲則膿成難愈矣，經曰：火尅西方金，法當癰膿，其證欬而喘滿，咽燥不渴，多唾濁沫，時時振寒，熱之所過，血為凝滯，畜結癰膿，吐如米粥，始萌可救，膿成則死又欬逆上氣，時時唾濁坐不得眠，皂莢丸主之，欬而胸滿，振寒脈數，咽不渴時時濁唾腥臭，久久吐膿如米粥者桔梗湯主之，肺癰不得臥，葶藶大棗瀉肺湯主之，又肺癰胸滿脹，一身面目浮腫，鼻塞清涕出，不聞香臭酸辛欬逆遺尿，喘鳴迫塞，先服，小青龍湯一劑，乃進葶藶大棗瀉肺湯，三日一服，可服至三四劑，大抵初起，慎不可用保肺藥，得補則助邪成膿也，所以宋人十六味桔梗湯，葶藶薏苡瀉肺湯，皆為合劑，潰後膿盡，方可用異功生脈加歸耆斂之，排膿用金鯉湯，妊婦尤宜，以活鯉魚一尾，重四五兩者，去腸入貝母末一錢在腹，白色童便一盌，隔水頓熟，去鱗骨，作二三次，井汁食之，七日當効又肺癰初起，陳芥虀汁吐之屢效，其脈初起不宜大數，潰後最忌短濇，脈來緩滑面白者生，急疾面赤者死，又脈忽大忽小者死，痿軟如平人者死，忽然屈伸者死，真氣敗也，面白或黑或赤者死，聲啞啞者死，性急躁求速愈者不治。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B11498305",
+      "book_title": "傷寒纘論·傷寒緒論",
+      "distinct_conditions": [
+        "不得眠",
+        "傷寒",
+        "厥",
+        "遺尿"
+      ],
+      "rule_ids": [
+        "IR_B11498305_000891"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
+      "distinct_conditions": [
+        "咽乾"
+      ],
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000196",
+        "IR_JF_SHIYANLU_000197"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "肺脹"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001391",
+        "IR_SHL_GUIBEN_001423"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "大棗",
+        "葶藶"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001058"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001392"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現葶藶大棗瀉肺湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000891"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "肺癰",
+        "count": 10
+      },
+      {
+        "term": "支飲",
+        "count": 8
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "肺脹",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 15
+      },
+      {
+        "term": "不得臥",
+        "count": 10
+      },
+      {
+        "term": "胸滿",
+        "count": 7
+      },
+      {
+        "term": "咳",
+        "count": 7
+      },
+      {
+        "term": "上氣",
+        "count": 6
+      },
+      {
+        "term": "鼻塞",
+        "count": 4
+      },
+      {
+        "term": "渴",
+        "count": 3
+      },
+      {
+        "term": "咽乾",
+        "count": 2
+      },
+      {
+        "term": "厥",
+        "count": 1
+      },
+      {
+        "term": "不得眠",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈數",
+        "count": 3
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "瀉肺逐飲",
+        "count": 23
+      }
+    ]
+  },
+  "keywords": [
+    "葶藶大棗瀉肺湯",
+    "肺癰",
+    "支飲",
+    "傷寒",
+    "肺脹",
+    "喘",
+    "不得臥",
+    "胸滿",
+    "咳",
+    "上氣",
+    "脈數"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

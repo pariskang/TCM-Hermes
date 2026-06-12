@@ -1,0 +1,66 @@
+{
+  "skill_id": "hermes.formula.formula_d400bf62",
+  "kind": "formula",
+  "title": "而益之曰旋覆花湯方證合併規則",
+  "subject": "而益之曰旋覆花湯",
+  "abstracted_claim": "而益之曰旋覆花湯可歸納為虛勞、亡血等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_D400BF62",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_JIYI_000478",
+    "IR_JGYL_XINDIAN_000326"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_JIYI_000478",
+      "IR_JGYL_XINDIAN_000326"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人雜病脈證並治第二十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_001692",
+      "evidence_span": "本文已見虛勞篇中。此去男子亡血失精句。而益之曰旋覆花湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證合十四條、方十四首",
+      "source_unit_id": "SU_JGYL_JIYI_003518",
+      "evidence_span": "〔尤〕本文已見虛勞篇中。此去男子亡血失精句。而益之曰旋覆花湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "虛勞",
+        "count": 2
+      },
+      {
+        "term": "亡血",
+        "count": 2
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "而益之曰旋覆花湯",
+    "虛勞",
+    "亡血"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

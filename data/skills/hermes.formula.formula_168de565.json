@@ -1,0 +1,77 @@
+{
+  "skill_id": "hermes.formula.formula_168de565",
+  "kind": "formula",
+  "title": "茵陳篙湯方證合併規則",
+  "subject": "茵陳篙湯",
+  "abstracted_claim": "茵陳篙湯可歸納為小便不利、傷寒、身黃、發黃等方證的核心方（支持條文 2 條，跨 1 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_168DE565",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000278",
+    "IR_B0B74DF58_000281"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000278",
+      "IR_B0B74DF58_000281"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000564",
+      "evidence_span": "**五十七、傷寒七八日，身黃如**（紫）〔橘子〕**色，小便不利，腹微滿者，茵陳篙湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000566",
+      "evidence_span": "【闡釋】　本條是濕熱發黃，當以清熱利濕為治療準則。由於濕熱鬱蒸在裏，不得外達，又小便不利，濕熱不下行，故發黃，以茵陳篙湯主之，甚為恰切。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 2
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "身黃",
+        "count": 1
+      },
+      {
+        "term": "發黃",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "茵陳篙湯",
+    "小便不利",
+    "傷寒",
+    "身黃",
+    "發黃"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

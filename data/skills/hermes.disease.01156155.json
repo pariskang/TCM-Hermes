@@ -1,0 +1,335 @@
+{
+  "skill_id": "hermes.disease.01156155",
+  "kind": "disease",
+  "title": "噦證治合併規則",
+  "subject": "噦",
+  "abstracted_claim": "噦相關條文 47 條；主要方劑：橘皮竹茹湯、橘皮湯、生薑半夏湯、小半夏湯、噦者小半夏湯。",
+  "merged_rule_id": "MHR_DISEASE_01156155",
+  "release_level": "silver",
+  "consensus_score": 0.913,
+  "supporting_initial_rules": [
+    "IR_B3E520529_000288",
+    "IR_B07FA055B_000029",
+    "IR_B11498305_000720",
+    "IR_B18FAB5FB_000144",
+    "IR_BB7301DF2_000133",
+    "IR_BBA9FB4A6_000379",
+    "IR_BBA9FB4A6_000383",
+    "IR_BBAACE965_000642",
+    "IR_CAOSHI_FAWEI_000536",
+    "IR_CAOSHI_FAWEI_001159",
+    "IR_CAOSHI_FAWEI_001160",
+    "IR_CAOSHI_FAWEI_001266",
+    "IR_CAOSHI_FAWEI_001322",
+    "IR_CAOSHI_FAWEI_001325",
+    "IR_CAOSHI_FAWEI_001328",
+    "IR_JGYH_ERZHU_000227",
+    "IR_JGYH_ERZHU_000282",
+    "IR_JGYH_ERZHU_000284",
+    "IR_JGYH_ERZHU_000285",
+    "IR_JGYL_FANGLUN_000183",
+    "IR_JGYL_FANGLUN_000218",
+    "IR_JGYL_FANGLUN_000219",
+    "IR_JGYL_FANGLUN_000220",
+    "IR_JGYL_JIYI_000304",
+    "IR_JGYL_JIYI_000366",
+    "IR_JGYL_JIYI_000368",
+    "IR_JGYL_JIYI_000369",
+    "IR_JGYL_QIANZHU_000251",
+    "IR_JGYL_TIAOWEN_000183",
+    "IR_JGYL_TIAOWEN_000218",
+    "IR_JGYL_TIAOWEN_000219",
+    "IR_JGYL_TIAOWEN_000220",
+    "IR_JGYL_XINDIAN_000194",
+    "IR_JGYL_XINDIAN_000242",
+    "IR_JGYL_XINDIAN_000243",
+    "IR_JGYL_XINDIAN_000244",
+    "IR_JG_FANGGEKUO_000023",
+    "IR_SHL_GUANZHU_000491",
+    "IR_SHL_GUANZHU_000717",
+    "IR_SHL_GUIBEN_000572",
+    "IR_SHL_GUIBEN_000892",
+    "IR_SHL_GUIBEN_001156",
+    "IR_SHL_GUIBEN_001159",
+    "IR_SHL_GUIBEN_001162",
+    "IR_SHL_LAISU_000358",
+    "IR_SHL_LAISU_000673",
+    "IR_SHL_ZHUJIE_000654"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_B3E520529_000288"
+    ],
+    "silver": [
+      "IR_B07FA055B_000029",
+      "IR_B11498305_000720",
+      "IR_B18FAB5FB_000144",
+      "IR_BB7301DF2_000133",
+      "IR_BBA9FB4A6_000379",
+      "IR_BBA9FB4A6_000383",
+      "IR_BBAACE965_000642",
+      "IR_CAOSHI_FAWEI_000536",
+      "IR_CAOSHI_FAWEI_001159",
+      "IR_CAOSHI_FAWEI_001160",
+      "IR_CAOSHI_FAWEI_001266",
+      "IR_CAOSHI_FAWEI_001322",
+      "IR_CAOSHI_FAWEI_001325",
+      "IR_CAOSHI_FAWEI_001328",
+      "IR_JGYH_ERZHU_000227",
+      "IR_JGYH_ERZHU_000282",
+      "IR_JGYH_ERZHU_000284",
+      "IR_JGYH_ERZHU_000285",
+      "IR_JGYL_FANGLUN_000183",
+      "IR_JGYL_FANGLUN_000218",
+      "IR_JGYL_FANGLUN_000219",
+      "IR_JGYL_FANGLUN_000220",
+      "IR_JGYL_JIYI_000304",
+      "IR_JGYL_JIYI_000366",
+      "IR_JGYL_JIYI_000368",
+      "IR_JGYL_JIYI_000369",
+      "IR_JGYL_QIANZHU_000251",
+      "IR_JGYL_TIAOWEN_000183",
+      "IR_JGYL_TIAOWEN_000218",
+      "IR_JGYL_TIAOWEN_000219",
+      "IR_JGYL_TIAOWEN_000220",
+      "IR_JGYL_XINDIAN_000194",
+      "IR_JGYL_XINDIAN_000242",
+      "IR_JGYL_XINDIAN_000243",
+      "IR_JGYL_XINDIAN_000244",
+      "IR_JG_FANGGEKUO_000023",
+      "IR_SHL_GUANZHU_000491",
+      "IR_SHL_GUANZHU_000717",
+      "IR_SHL_GUIBEN_000572",
+      "IR_SHL_GUIBEN_000892",
+      "IR_SHL_GUIBEN_001156",
+      "IR_SHL_GUIBEN_001159",
+      "IR_SHL_GUIBEN_001162",
+      "IR_SHL_LAISU_000358",
+      "IR_SHL_LAISU_000673",
+      "IR_SHL_ZHUJIE_000654"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E520529_000249",
+      "evidence_span": "風溫之為病，脈陰陽俱浮，汗出體重，其息必喘，嘿嘿但欲眠，下之則小便難，發汗則讝語，加溫針則耳聾難言，但吐下之則遺尿，宜萎蕤湯，方在溫病噦方論中，因發汗後，身體不惡寒，而反惡熱，無下證者，名曰風溫，知母石膏湯。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001911",
+      "evidence_span": "噦逆者，橘皮竹茹湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001536",
+      "evidence_span": "噦逆者。橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000791",
+      "evidence_span": "噦逆者，橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002865",
+      "evidence_span": "噦逆者。橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000789",
+      "evidence_span": "噦逆者，橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001363",
+      "evidence_span": "噦逆者。橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001906",
+      "evidence_span": "乾嘔噦若手足厥者，橘皮湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002524",
+      "evidence_span": "熱除必噦。噦者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001532",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002851",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001358",
+      "evidence_span": "乾嘔噦。若手足厥者。橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000787",
+      "evidence_span": "乾嘔、噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000785",
+      "evidence_span": "乾嘔、噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000892",
+      "evidence_span": "《金匱要略》曰：噦逆者，橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001359",
+      "evidence_span": "不可除熱。熱除必噦。噦者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "",
+      "source_unit_id": "SU_BB7301DF2_000122",
+      "evidence_span": "小便難。有潮熱。時時噦。宜與小柴胡湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000610",
+      "evidence_span": "飲水則噦。即此證也。得此證者。吳茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱方歌括",
+      "chapter_title": "",
+      "source_unit_id": "SU_JG_FANGGEKUO_000649",
+      "evidence_span": "腹滿而喘。不可除熱。熱除必噦。噦者此湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001026",
+      "evidence_span": "11.108乾嘔噦，若手足厥者，橘皮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001028",
+      "evidence_span": "11.109噦逆，其人虛者，橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_JIYI_002832",
+      "evidence_span": "似噦不噦。徹心中憒憒然。無奈者。生薑半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001182",
+      "evidence_span": "腹滿而喘。不可除熱。熱除必噦。噦者小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "",
+      "source_unit_id": "SU_B18FAB5FB_000186",
+      "evidence_span": "復與水發汗。因而得噦者。此胃中虛也。宜桂枝人參湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBAACE965_001539",
+      "evidence_span": "出嘔吐噦下利篇。又消渴篇。渴欲飲水不止者。文蛤散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYH_ERZHU_001526",
+      "evidence_span": "似嘔不嘔。似噦不噦。徹心中憒憒然無奈者。生薑半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_QIANZHU_001116",
+      "evidence_span": "（更有胃虛而熱乘之。而作）噦逆者。（以）橘皮竹茹湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_XINDIAN_001352",
+      "evidence_span": "似嘔不嘔。似噦不噦。徹心中憒憒然無奈者。生薑半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_001077",
+      "evidence_span": "若飲而腹滿，小便不利，若喘若噦，不可與之，忽然大汗出，是為自愈也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000883",
+      "evidence_span": "大抵KT　近於噦。KT　者，但胸間氣塞不得下通，噦則惡濁之聲達於外矣。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "噦"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:15Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,274 @@
+{
+  "skill_id": "hermes.formula.formula_d7059b18",
+  "kind": "formula",
+  "title": "桂枝加芍藥湯方證合併規則",
+  "subject": "桂枝加芍藥湯",
+  "abstracted_claim": "桂枝加芍藥湯可歸納為腹滿、太陽病等方證的核心方（支持條文 20 條，跨 20 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_D7059B18",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000604",
+    "IR_B11498305_000345",
+    "IR_B1CAC3ADF_000730",
+    "IR_B3E16D849_000422",
+    "IR_B41512D4B_000941",
+    "IR_B5C5ECAC2_000200",
+    "IR_B5FF1CA1B_000385",
+    "IR_B8E444005_000296",
+    "IR_BB711944D_000845",
+    "IR_BB7301DF2_000016",
+    "IR_BBAACE965_001128",
+    "IR_CAOSHI_FAWEI_000696",
+    "IR_SHL_GUIBEN_000939",
+    "IR_SHL_LAISU_000103",
+    "IR_SHL_LUNZHU_000096",
+    "IR_SHL_QJYF_000197",
+    "IR_SHL_SONGBEN_000354",
+    "IR_SHL_SUYUAN_001072",
+    "IR_SHL_TIAOWEN_000308",
+    "IR_SHL_ZHUJIE_000821"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000604",
+      "IR_B11498305_000345",
+      "IR_B1CAC3ADF_000730",
+      "IR_B3E16D849_000422",
+      "IR_B41512D4B_000941",
+      "IR_B5C5ECAC2_000200",
+      "IR_B5FF1CA1B_000385",
+      "IR_B8E444005_000296",
+      "IR_BB711944D_000845",
+      "IR_BB7301DF2_000016",
+      "IR_BBAACE965_001128",
+      "IR_CAOSHI_FAWEI_000696",
+      "IR_SHL_GUIBEN_000939",
+      "IR_SHL_LAISU_000103",
+      "IR_SHL_LUNZHU_000096",
+      "IR_SHL_QJYF_000197",
+      "IR_SHL_SONGBEN_000354",
+      "IR_SHL_SUYUAN_001072",
+      "IR_SHL_TIAOWEN_000308",
+      "IR_SHL_ZHUJIE_000821"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第四證‧裡證歌",
+      "source_unit_id": "SU_BB7301DF2_000018",
+      "evidence_span": "因腹滿時痛屬太陰。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "發汗吐下後七十三條",
+      "source_unit_id": "SU_BB711944D_001082",
+      "evidence_span": "反下之。因腹滿痛。轉屬太陰者。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨太陰病脈證並治第十",
+      "source_unit_id": "SU_B1CAC3ADF_001943",
+      "evidence_span": "醫反下之。因而腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "胸脅腹脹滿痛",
+      "source_unit_id": "SU_B3E16D849_000981",
+      "evidence_span": "醫反下之。因而腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "辯太陰病脈證並治法",
+      "source_unit_id": "SU_B41512D4B_001914",
+      "evidence_span": "醫反下之。因爾腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002616",
+      "evidence_span": "醫反下之。因爾腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000758",
+      "evidence_span": "醫反下之。因爾腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陰證治第十七",
+      "source_unit_id": "SU_SHL_SUYUAN_002433",
+      "evidence_span": "醫反下之。因而腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "誤下例",
+      "source_unit_id": "SU_B5C5ECAC2_000859",
+      "evidence_span": "醫反下之。因而腹滿時痛。此引邪入太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陰篇",
+      "source_unit_id": "SU_B5FF1CA1B_000595",
+      "evidence_span": "本太陽病醫反下之因爾腹滿時痛者。屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陰病狀第一",
+      "source_unit_id": "SU_SHL_QJYF_000252",
+      "evidence_span": "本太陽病，醫反下之，因腹滿時痛，為屬太陰，桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝加芍藥湯",
+      "source_unit_id": "SU_B8E444005_000421",
+      "evidence_span": "本太陽病。醫反下之。因爾腹滿時痛者屬太陰也。桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陰篇",
+      "source_unit_id": "SU_B11498305_000451",
+      "evidence_span": "本太陽病，醫反下之，因爾腹滿時痛者，屬太陰也，桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000160",
+      "evidence_span": "本太陽病，醫反下之，因而腹滿時痛者，屬太陰也，桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陰病脈證並治第十",
+      "source_unit_id": "SU_SHL_SONGBEN_000687",
+      "evidence_span": "本太陽病，醫反下之，因爾腹滿時痛者，屬太陰也，桂枝加芍藥湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000534",
+      "evidence_span": "本太陽病，醫反下之，因爾腹滿時痛者，屬太陰也，桂枝加芍藥湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000853",
+      "evidence_span": "10.17本太陽病，醫反下之，因而腹滿時痛者，屬太陰也，桂枝加芍藥湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陰病脈證並治法第十",
+      "source_unit_id": "SU_SHL_ZHUJIE_001295",
+      "evidence_span": "本太陽病，醫反下之，因而（趙本作「爾」）腹滿時痛者，屬太陰也，桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陰〔全〕篇",
+      "source_unit_id": "SU_B0B74DF58_001184",
+      "evidence_span": "**六、本太陽病，醫反下之，因**（而）〔爾〕**腹滿時痛者，屬太陰也，桂枝加芍藥湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000072",
+      "evidence_span": "本太陽病，醫反下之，因而腹滿時痛者，屬太陰也，桂枝加芍藥湯主之，大實痛者，桂枝加大黃湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義",
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "桂枝",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001137",
+        "IR_CAOSHI_FAWEI_000698"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "芍藥三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000557",
+        "IR_SHL_ZHUJIE_001160"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩",
+        "芍藥六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000942"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "腹滿",
+        "count": 20
+      },
+      {
+        "term": "太陽病",
+        "count": 11
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝加芍藥湯",
+    "腹滿",
+    "太陽病"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

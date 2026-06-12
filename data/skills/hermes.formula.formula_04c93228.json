@@ -1,0 +1,431 @@
+{
+  "skill_id": "hermes.formula.formula_04c93228",
+  "kind": "formula",
+  "title": "附子湯方證合併規則",
+  "subject": "附子湯",
+  "abstracted_claim": "附子湯可歸納為少陰病、骨節痛、口中和、背惡寒、體痛、渴等方證的核心方（支持條文 39 條，跨 21 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_04C93228",
+  "release_level": "silver",
+  "consensus_score": 0.919,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000616",
+    "IR_B0B74DF58_000632",
+    "IR_B11498305_000361",
+    "IR_B11498305_000363",
+    "IR_B1CAC3ADF_000765",
+    "IR_B1CAC3ADF_000768",
+    "IR_B2EB248E3_000099",
+    "IR_B2EB248E3_000102",
+    "IR_B3E16D849_001634",
+    "IR_B3E16D849_001710",
+    "IR_B41512D4B_000978",
+    "IR_B8E444005_000084",
+    "IR_B8E444005_000208",
+    "IR_BB7301DF2_000148",
+    "IR_BBAACE965_000772",
+    "IR_BBAACE965_001192",
+    "IR_BBAACE965_001198",
+    "IR_BC91F4420_000459",
+    "IR_BC91F4420_000478",
+    "IR_BF5CDC206_000166",
+    "IR_BF5CDC206_000167",
+    "IR_CAOSHI_FAWEI_000737",
+    "IR_SHL_GUANZHU_000600",
+    "IR_SHL_GUIBEN_000999",
+    "IR_SHL_GUIBEN_001002",
+    "IR_SHL_LAISU_000616",
+    "IR_SHL_LAISU_000617",
+    "IR_SHL_LUNZHU_000625",
+    "IR_SHL_LUNZHU_000626",
+    "IR_SHL_QJYF_000219",
+    "IR_SHL_QJYF_000220",
+    "IR_SHL_SONGBEN_000377",
+    "IR_SHL_SONGBEN_000378",
+    "IR_SHL_SUYUAN_001122",
+    "IR_SHL_SUYUAN_001126",
+    "IR_SHL_TIAOWEN_000331",
+    "IR_SHL_TIAOWEN_000332",
+    "IR_SHL_ZHUJIE_000870",
+    "IR_SHL_ZHUJIE_000873"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000616",
+      "IR_B0B74DF58_000632",
+      "IR_B11498305_000361",
+      "IR_B11498305_000363",
+      "IR_B1CAC3ADF_000765",
+      "IR_B1CAC3ADF_000768",
+      "IR_B2EB248E3_000099",
+      "IR_B2EB248E3_000102",
+      "IR_B3E16D849_001634",
+      "IR_B3E16D849_001710",
+      "IR_B41512D4B_000978",
+      "IR_B8E444005_000084",
+      "IR_B8E444005_000208",
+      "IR_BB7301DF2_000148",
+      "IR_BBAACE965_000772",
+      "IR_BBAACE965_001192",
+      "IR_BBAACE965_001198",
+      "IR_BC91F4420_000459",
+      "IR_BC91F4420_000478",
+      "IR_BF5CDC206_000166",
+      "IR_BF5CDC206_000167",
+      "IR_CAOSHI_FAWEI_000737",
+      "IR_SHL_GUANZHU_000600",
+      "IR_SHL_GUIBEN_000999",
+      "IR_SHL_GUIBEN_001002",
+      "IR_SHL_LAISU_000616",
+      "IR_SHL_LAISU_000617",
+      "IR_SHL_LUNZHU_000625",
+      "IR_SHL_LUNZHU_000626",
+      "IR_SHL_QJYF_000219",
+      "IR_SHL_QJYF_000220",
+      "IR_SHL_SONGBEN_000377",
+      "IR_SHL_SONGBEN_000378",
+      "IR_SHL_SUYUAN_001122",
+      "IR_SHL_SUYUAN_001126",
+      "IR_SHL_TIAOWEN_000331",
+      "IR_SHL_TIAOWEN_000332",
+      "IR_SHL_ZHUJIE_000870",
+      "IR_SHL_ZHUJIE_000873"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "附子湯方第八十八",
+      "source_unit_id": "SU_B1CAC3ADF_002039",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "附子湯方",
+      "source_unit_id": "SU_B2EB248E3_000200",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003324",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "身痛",
+      "source_unit_id": "SU_B3E16D849_003507",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "身痛",
+      "source_unit_id": "SU_B8E444005_000304",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002770",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001104",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000194",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000817",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002578",
+      "evidence_span": "手足寒。骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "黃連阿膠湯方第八十七",
+      "source_unit_id": "SU_B1CAC3ADF_002030",
+      "evidence_span": "口中和。其背惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "麻黃附子甘草湯方",
+      "source_unit_id": "SU_B2EB248E3_000184",
+      "evidence_span": "口中和。其背惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第四十五證‧背惡寒歌",
+      "source_unit_id": "SU_BB7301DF2_000137",
+      "evidence_span": "口中和。背惡寒者。當以灸。以附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001856",
+      "evidence_span": "不煩不渴。口中和。背惡寒。附子湯主之者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002758",
+      "evidence_span": "口中和。其背惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001043",
+      "evidence_span": "口中和。其背惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰前篇證治第十九",
+      "source_unit_id": "SU_SHL_SUYUAN_002567",
+      "evidence_span": "口中和。其背惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000194",
+      "evidence_span": "口中和。其人皆惡寒者。當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "黃連阿膠湯方",
+      "source_unit_id": "SU_B41512D4B_002001",
+      "evidence_span": "少陰病身體痛。手足寒骨節痛。脈沉者。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰上篇",
+      "source_unit_id": "SU_B11498305_000479",
+      "evidence_span": "少陰病，身體痛手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "附子湯證",
+      "source_unit_id": "SU_SHL_LAISU_000424",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "附子湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001061",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000282",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000731",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000578",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001366",
+      "evidence_span": "少陰病，身體痛，手足寒，骨節痛，脈沉者，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "惡寒",
+      "source_unit_id": "SU_B8E444005_000200",
+      "evidence_span": "經云。少陰病一二日口中和。其背惡寒者當灸之。附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰上篇",
+      "source_unit_id": "SU_B11498305_000477",
+      "evidence_span": "少陰病，得之一二日，口中和，其背惡寒者，當炙之，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "少陰溫法十五條",
+      "source_unit_id": "SU_SHL_GUANZHU_000406",
+      "evidence_span": "少陰病，得之一二日，口中和，其背惡寒者，當灸之，附子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "附子湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001062",
+      "evidence_span": "少陰病，得之一二日，口中和，其背惡寒者，當灸之，附子湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "人參",
+        "白朮",
+        "芍藥",
+        "茯苓",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001196",
+        "IR_BC91F4420_000460",
+        "IR_SHL_GUANZHU_000602"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參二兩",
+        "白朮四兩",
+        "芍藥三兩",
+        "茯苓三兩",
+        "附子二枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001000",
+        "IR_SHL_GUIBEN_001566"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "人參",
+        "茯苓",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000872"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000736"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 21
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "骨節痛",
+        "count": 21
+      },
+      {
+        "term": "口中和",
+        "count": 19
+      },
+      {
+        "term": "背惡寒",
+        "count": 17
+      },
+      {
+        "term": "體痛",
+        "count": 11
+      },
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "惡寒",
+        "count": 2
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈沉",
+        "count": 21
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "附子湯",
+    "少陰病",
+    "骨節痛",
+    "口中和",
+    "背惡寒",
+    "體痛",
+    "渴",
+    "脈沉"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

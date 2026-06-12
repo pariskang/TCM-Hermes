@@ -1,0 +1,587 @@
+{
+  "skill_id": "hermes.formula.xiao_jianzhong_tang",
+  "kind": "formula",
+  "title": "小建中湯方證合併規則",
+  "subject": "小建中湯",
+  "abstracted_claim": "小建中湯可歸納為傷寒、虛勞、腹中痛、手足煩熱、咽乾、口燥等方證的核心方（支持條文 42 條，跨 29 部書）。",
+  "merged_rule_id": "MHR_FORMULA_XIAO_JIANZHONG_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.914,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000124",
+    "IR_B11498305_000039",
+    "IR_B18FAB5FB_000131",
+    "IR_B1CAC3ADF_000309",
+    "IR_B3E16D849_000578",
+    "IR_B41512D4B_000317",
+    "IR_B5FF1CA1B_000042",
+    "IR_B8E444005_000133",
+    "IR_B9119D083_000300",
+    "IR_BBAACE965_000457",
+    "IR_BC91F4420_000200",
+    "IR_CAOSHI_FAWEI_000265",
+    "IR_CAOSHI_FAWEI_001030",
+    "IR_CAOSHI_FAWEI_001471",
+    "IR_CAOSHI_FAWEI_001472",
+    "IR_JF_SHIYANLU_000124",
+    "IR_JF_SHIYANLU_000125",
+    "IR_JF_SHIYANLU_000126",
+    "IR_JGYH_ERZHU_000071",
+    "IR_JGYH_ERZHU_000386",
+    "IR_JGYL_FANGLUN_000052",
+    "IR_JGYL_FANGLUN_000307",
+    "IR_JGYL_JIYI_000093",
+    "IR_JGYL_JIYI_000487",
+    "IR_JGYL_QIANZHU_000354",
+    "IR_JGYL_QIANZHU_000355",
+    "IR_JGYL_TIAOWEN_000052",
+    "IR_JGYL_TIAOWEN_000307",
+    "IR_JGYL_XINDIAN_000057",
+    "IR_JGYL_XINDIAN_000332",
+    "IR_SHL_GUANZHU_000105",
+    "IR_SHL_GUIBEN_000554",
+    "IR_SHL_GUIBEN_000896",
+    "IR_SHL_GUIBEN_001344",
+    "IR_SHL_LAISU_000560",
+    "IR_SHL_LUNZHU_000555",
+    "IR_SHL_MINGLI_000093",
+    "IR_SHL_QJYF_000094",
+    "IR_SHL_SONGBEN_000163",
+    "IR_SHL_SUYUAN_000534",
+    "IR_SHL_TIAOWEN_000117",
+    "IR_SHL_ZHUJIE_000364"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000124",
+      "IR_B11498305_000039",
+      "IR_B18FAB5FB_000131",
+      "IR_B1CAC3ADF_000309",
+      "IR_B3E16D849_000578",
+      "IR_B41512D4B_000317",
+      "IR_B5FF1CA1B_000042",
+      "IR_B8E444005_000133",
+      "IR_B9119D083_000300",
+      "IR_BBAACE965_000457",
+      "IR_BC91F4420_000200",
+      "IR_CAOSHI_FAWEI_000265",
+      "IR_CAOSHI_FAWEI_001030",
+      "IR_CAOSHI_FAWEI_001471",
+      "IR_CAOSHI_FAWEI_001472",
+      "IR_JF_SHIYANLU_000124",
+      "IR_JF_SHIYANLU_000125",
+      "IR_JF_SHIYANLU_000126",
+      "IR_JGYH_ERZHU_000071",
+      "IR_JGYH_ERZHU_000386",
+      "IR_JGYL_FANGLUN_000052",
+      "IR_JGYL_FANGLUN_000307",
+      "IR_JGYL_JIYI_000093",
+      "IR_JGYL_JIYI_000487",
+      "IR_JGYL_QIANZHU_000354",
+      "IR_JGYL_QIANZHU_000355",
+      "IR_JGYL_TIAOWEN_000052",
+      "IR_JGYL_TIAOWEN_000307",
+      "IR_JGYL_XINDIAN_000057",
+      "IR_JGYL_XINDIAN_000332",
+      "IR_SHL_GUANZHU_000105",
+      "IR_SHL_GUIBEN_000554",
+      "IR_SHL_GUIBEN_000896",
+      "IR_SHL_GUIBEN_001344",
+      "IR_SHL_LAISU_000560",
+      "IR_SHL_LUNZHU_000555",
+      "IR_SHL_MINGLI_000093",
+      "IR_SHL_QJYF_000094",
+      "IR_SHL_SONGBEN_000163",
+      "IR_SHL_SUYUAN_000534",
+      "IR_SHL_TIAOWEN_000117",
+      "IR_SHL_ZHUJIE_000364"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "婦人雜病脈證治第二十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002165",
+      "evidence_span": "婦人腹中痛，小建中湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "婦人雜病脈證並治第二十二",
+      "source_unit_id": "SU_JGYH_ERZHU_001877",
+      "evidence_span": "婦人腹中痛。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人雜病脈證并治第二十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_001000",
+      "evidence_span": "婦人腹中痛，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證合十四條、方十四首",
+      "source_unit_id": "SU_JGYL_JIYI_003584",
+      "evidence_span": "婦人腹中痛。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "婦人雜病脈證并治第二十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_001427",
+      "evidence_span": "婦人腹中痛。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人雜病脈證并治第二十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000998",
+      "evidence_span": "婦人腹中痛，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人雜病脈證並治第二十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_001722",
+      "evidence_span": "婦人腹中痛。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "小建中湯方第三十九",
+      "source_unit_id": "SU_B1CAC3ADF_001217",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "梔子乾薑湯方",
+      "source_unit_id": "SU_B41512D4B_000797",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽上編",
+      "source_unit_id": "SU_B5FF1CA1B_000071",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B9119D083_000734",
+      "evidence_span": "傷寒二三日，心下悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_001127",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000324",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "傷寒裏虛法先補裏二條",
+      "source_unit_id": "SU_SHL_GUANZHU_000067",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "建中湯證",
+      "source_unit_id": "SU_SHL_LAISU_000378",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "建中湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000938",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病雜療法第七",
+      "source_unit_id": "SU_SHL_QJYF_000113",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000377",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "風寒兩傷營衛證治第六",
+      "source_unit_id": "SU_SHL_SUYUAN_001069",
+      "evidence_span": "傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000224",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000799",
+      "evidence_span": "傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "血痹虛勞病脈證治第六",
+      "source_unit_id": "SU_JGYH_ERZHU_000501",
+      "evidence_span": "四肢　疼。手足煩熱。咽乾口燥。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證九條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_000802",
+      "evidence_span": "四肢　疼。手足煩熱。咽乾口燥。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "婦人雜病脈證并治第二十二",
+      "source_unit_id": "SU_JGYL_QIANZHU_001428",
+      "evidence_span": "陽脈澀。陰脈弦。法當腹中急痛。宜小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_JGYL_XINDIAN_000396",
+      "evidence_span": "四肢酸疼。手足煩熱。咽乾、口燥。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000566",
+      "evidence_span": "7.74傷寒二三日，心中悸而煩者，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000463",
+      "evidence_span": "（三十八）傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000812",
+      "evidence_span": "9.93諸黃，小便自利者，當以虛勞法，小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "悸",
+      "source_unit_id": "SU_B3E16D849_001235",
+      "evidence_span": "【綱】仲景曰。傷寒二三日。心下悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_B8E444005_000235",
+      "evidence_span": "又有悸而煩者。如經云傷寒二三日。心中悸而煩者。小建中湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "脈急"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000265",
+        "IR_CAOSHI_FAWEI_001030",
+        "IR_CAOSHI_FAWEI_001471",
+        "IR_CAOSHI_FAWEI_001472"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
+      "distinct_conditions": [
+        "惡寒",
+        "脈虛",
+        "腹痛"
+      ],
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000124",
+        "IR_JF_SHIYANLU_000125",
+        "IR_JF_SHIYANLU_000126"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_QIANZHU",
+      "book_title": "金匱要略淺註",
+      "distinct_conditions": [
+        "脈澀"
+      ],
+      "rule_ids": [
+        "IR_JGYL_QIANZHU_000354",
+        "IR_JGYL_QIANZHU_000355"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "小便自利"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000554",
+        "IR_SHL_GUIBEN_000896",
+        "IR_SHL_GUIBEN_001344"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000449"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "膠飴",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000201",
+        "IR_SHL_ZHUJIE_000360"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "人參",
+        "大棗",
+        "桂枝",
+        "炙甘草",
+        "生薑",
+        "膠飴",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000107"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩",
+        "膠飴一升",
+        "芍藥六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000550"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草三兩",
+        "生薑三兩",
+        "芍藥六兩",
+        "飴糖一升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000897",
+        "IR_SHL_GUIBEN_001345",
+        "IR_SHL_GUIBEN_001655"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小建中湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B0B74DF58_000124"
+      ],
+      "book_title": "傷寒恆論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小建中湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000039"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小建中湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000093"
+      ],
+      "book_title": "傷寒明理論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 25
+      },
+      {
+        "term": "虛勞",
+        "count": 6
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "腹中痛",
+        "count": 12
+      },
+      {
+        "term": "手足煩熱",
+        "count": 8
+      },
+      {
+        "term": "咽乾",
+        "count": 8
+      },
+      {
+        "term": "口燥",
+        "count": 8
+      },
+      {
+        "term": "衄",
+        "count": 5
+      },
+      {
+        "term": "心下悸",
+        "count": 2
+      },
+      {
+        "term": "腹痛",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "小便自利",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈弦",
+        "count": 3
+      },
+      {
+        "term": "脈急",
+        "count": 1
+      },
+      {
+        "term": "脈虛",
+        "count": 1
+      },
+      {
+        "term": "脈澀",
+        "count": 1
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "肝乘脾",
+        "count": 2
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "溫中補虛",
+        "count": 42
+      },
+      {
+        "term": "和裏緩急",
+        "count": 42
+      }
+    ]
+  },
+  "keywords": [
+    "小建中湯",
+    "傷寒",
+    "虛勞",
+    "腹中痛",
+    "手足煩熱",
+    "咽乾",
+    "口燥",
+    "衄",
+    "脈弦",
+    "脈急",
+    "脈虛",
+    "脈澀"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

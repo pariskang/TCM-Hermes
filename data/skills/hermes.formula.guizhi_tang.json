@@ -1,0 +1,994 @@
+{
+  "skill_id": "hermes.formula.guizhi_tang",
+  "kind": "formula",
+  "title": "桂枝湯方證合併規則",
+  "subject": "桂枝湯",
+  "abstracted_claim": "桂枝湯可歸納為太陽病、太陽中風、傷寒、中風、妊娠、溫病等方證的核心方（支持條文 105 條，跨 31 部書）。",
+  "merged_rule_id": "MHR_FORMULA_GUIZHI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.913,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000002",
+    "IR_B0B74DF58_000007",
+    "IR_B11498305_000003",
+    "IR_B11498305_000008",
+    "IR_B11498305_000012",
+    "IR_B11498305_000015",
+    "IR_B11498305_000028",
+    "IR_B11498305_000912",
+    "IR_B18FAB5FB_000092",
+    "IR_B1CAC3ADF_000084",
+    "IR_B1CAC3ADF_000088",
+    "IR_B1CAC3ADF_000183",
+    "IR_B1CAC3ADF_000214",
+    "IR_B3E16D849_000045",
+    "IR_B3E16D849_000188",
+    "IR_B3E16D849_000251",
+    "IR_B3E16D849_000252",
+    "IR_B3E16D849_000276",
+    "IR_B3E16D849_000689",
+    "IR_B3E16D849_000690",
+    "IR_B3E16D849_000692",
+    "IR_B3E16D849_000701",
+    "IR_B3E520529_000075",
+    "IR_B41512D4B_000037",
+    "IR_B41512D4B_000043",
+    "IR_B41512D4B_000047",
+    "IR_B41512D4B_000071",
+    "IR_B41512D4B_000080",
+    "IR_B41512D4B_000169",
+    "IR_B41512D4B_000193",
+    "IR_B54968951_000005",
+    "IR_B5C5ECAC2_000046",
+    "IR_B5FF1CA1B_000002",
+    "IR_B5FF1CA1B_000004",
+    "IR_B5FF1CA1B_000007",
+    "IR_B5FF1CA1B_000029",
+    "IR_B8E444005_000003",
+    "IR_B8E444005_000086",
+    "IR_B8E444005_000187",
+    "IR_B8E444005_000251",
+    "IR_B9119D083_000050",
+    "IR_B9119D083_000081",
+    "IR_B9119D083_000083",
+    "IR_B9119D083_000085",
+    "IR_B9119D083_000147",
+    "IR_B9119D083_000170",
+    "IR_B9119D083_000436",
+    "IR_B9119D083_000437",
+    "IR_B9119D083_000439",
+    "IR_B9FC1D1C8_000023",
+    "IR_BB711944D_000040",
+    "IR_BB711944D_000096",
+    "IR_BBAACE965_000021",
+    "IR_BC3C734B7_000048",
+    "IR_BC91F4420_000011",
+    "IR_BC91F4420_000013",
+    "IR_BC91F4420_000020",
+    "IR_BC91F4420_000133",
+    "IR_BD20B1D70_000015",
+    "IR_CAOSHI_FAWEI_000015",
+    "IR_JF_SHIYANLU_000001",
+    "IR_JF_SHIYANLU_000003",
+    "IR_JF_SHIYANLU_000012",
+    "IR_JF_SHIYANLU_000025",
+    "IR_JF_SHIYANLU_000026",
+    "IR_JF_SHIYANLU_000029",
+    "IR_JGYH_ERZHU_000353",
+    "IR_SHL_GUANZHU_000007",
+    "IR_SHL_GUANZHU_000010",
+    "IR_SHL_GUANZHU_000013",
+    "IR_SHL_GUANZHU_000018",
+    "IR_SHL_GUANZHU_000300",
+    "IR_SHL_GUIBEN_000358",
+    "IR_SHL_GUIBEN_000361",
+    "IR_SHL_GUIBEN_001560",
+    "IR_SHL_LAISU_000023",
+    "IR_SHL_LAISU_000025",
+    "IR_SHL_LAISU_000027",
+    "IR_SHL_LAISU_000030",
+    "IR_SHL_LAISU_000031",
+    "IR_SHL_LUNZHU_000024",
+    "IR_SHL_LUNZHU_000026",
+    "IR_SHL_LUNZHU_000029",
+    "IR_SHL_LUNZHU_000032",
+    "IR_SHL_LUNZHU_000033",
+    "IR_SHL_LUNZHU_000163",
+    "IR_SHL_MINGLI_000019",
+    "IR_SHL_QJYF_000292",
+    "IR_SHL_SONGBEN_000053",
+    "IR_SHL_SONGBEN_000054",
+    "IR_SHL_SUYUAN_000011",
+    "IR_SHL_SUYUAN_000014",
+    "IR_SHL_SUYUAN_000016",
+    "IR_SHL_SUYUAN_000019",
+    "IR_SHL_SUYUAN_000120",
+    "IR_SHL_SUYUAN_000122",
+    "IR_SHL_TIAOWEN_000007",
+    "IR_SHL_TIAOWEN_000008",
+    "IR_SHL_ZHUJIE_000127",
+    "IR_SHL_ZHUJIE_000130",
+    "IR_SHL_ZHUJIE_000227",
+    "IR_SHL_ZHUJIE_000229",
+    "IR_SHL_ZHUJIE_000250",
+    "IR_SHL_ZHUJIE_000257",
+    "IR_SHL_ZHUJIE_000488"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000002",
+      "IR_B0B74DF58_000007",
+      "IR_B11498305_000003",
+      "IR_B11498305_000008",
+      "IR_B11498305_000012",
+      "IR_B11498305_000015",
+      "IR_B11498305_000028",
+      "IR_B11498305_000912",
+      "IR_B18FAB5FB_000092",
+      "IR_B1CAC3ADF_000084",
+      "IR_B1CAC3ADF_000088",
+      "IR_B1CAC3ADF_000183",
+      "IR_B1CAC3ADF_000214",
+      "IR_B3E16D849_000045",
+      "IR_B3E16D849_000188",
+      "IR_B3E16D849_000251",
+      "IR_B3E16D849_000252",
+      "IR_B3E16D849_000276",
+      "IR_B3E16D849_000689",
+      "IR_B3E16D849_000690",
+      "IR_B3E16D849_000692",
+      "IR_B3E16D849_000701",
+      "IR_B3E520529_000075",
+      "IR_B41512D4B_000037",
+      "IR_B41512D4B_000043",
+      "IR_B41512D4B_000047",
+      "IR_B41512D4B_000071",
+      "IR_B41512D4B_000080",
+      "IR_B41512D4B_000169",
+      "IR_B41512D4B_000193",
+      "IR_B54968951_000005",
+      "IR_B5C5ECAC2_000046",
+      "IR_B5FF1CA1B_000002",
+      "IR_B5FF1CA1B_000004",
+      "IR_B5FF1CA1B_000007",
+      "IR_B5FF1CA1B_000029",
+      "IR_B8E444005_000003",
+      "IR_B8E444005_000086",
+      "IR_B8E444005_000187",
+      "IR_B8E444005_000251",
+      "IR_B9119D083_000050",
+      "IR_B9119D083_000081",
+      "IR_B9119D083_000083",
+      "IR_B9119D083_000085",
+      "IR_B9119D083_000147",
+      "IR_B9119D083_000170",
+      "IR_B9119D083_000436",
+      "IR_B9119D083_000437",
+      "IR_B9119D083_000439",
+      "IR_B9FC1D1C8_000023",
+      "IR_BB711944D_000040",
+      "IR_BB711944D_000096",
+      "IR_BBAACE965_000021",
+      "IR_BC3C734B7_000048",
+      "IR_BC91F4420_000011",
+      "IR_BC91F4420_000013",
+      "IR_BC91F4420_000020",
+      "IR_BC91F4420_000133",
+      "IR_BD20B1D70_000015",
+      "IR_CAOSHI_FAWEI_000015",
+      "IR_JF_SHIYANLU_000001",
+      "IR_JF_SHIYANLU_000003",
+      "IR_JF_SHIYANLU_000012",
+      "IR_JF_SHIYANLU_000025",
+      "IR_JF_SHIYANLU_000026",
+      "IR_JF_SHIYANLU_000029",
+      "IR_JGYH_ERZHU_000353",
+      "IR_SHL_GUANZHU_000007",
+      "IR_SHL_GUANZHU_000010",
+      "IR_SHL_GUANZHU_000013",
+      "IR_SHL_GUANZHU_000018",
+      "IR_SHL_GUANZHU_000300",
+      "IR_SHL_GUIBEN_000358",
+      "IR_SHL_GUIBEN_000361",
+      "IR_SHL_GUIBEN_001560",
+      "IR_SHL_LAISU_000023",
+      "IR_SHL_LAISU_000025",
+      "IR_SHL_LAISU_000027",
+      "IR_SHL_LAISU_000030",
+      "IR_SHL_LAISU_000031",
+      "IR_SHL_LUNZHU_000024",
+      "IR_SHL_LUNZHU_000026",
+      "IR_SHL_LUNZHU_000029",
+      "IR_SHL_LUNZHU_000032",
+      "IR_SHL_LUNZHU_000033",
+      "IR_SHL_LUNZHU_000163",
+      "IR_SHL_MINGLI_000019",
+      "IR_SHL_QJYF_000292",
+      "IR_SHL_SONGBEN_000053",
+      "IR_SHL_SONGBEN_000054",
+      "IR_SHL_SUYUAN_000011",
+      "IR_SHL_SUYUAN_000014",
+      "IR_SHL_SUYUAN_000016",
+      "IR_SHL_SUYUAN_000019",
+      "IR_SHL_SUYUAN_000120",
+      "IR_SHL_SUYUAN_000122",
+      "IR_SHL_TIAOWEN_000007",
+      "IR_SHL_TIAOWEN_000008",
+      "IR_SHL_ZHUJIE_000127",
+      "IR_SHL_ZHUJIE_000130",
+      "IR_SHL_ZHUJIE_000227",
+      "IR_SHL_ZHUJIE_000229",
+      "IR_SHL_ZHUJIE_000250",
+      "IR_SHL_ZHUJIE_000257",
+      "IR_SHL_ZHUJIE_000488"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒直格",
+      "chapter_title": "諸可下證",
+      "source_unit_id": "SU_BC3C734B7_000312",
+      "evidence_span": "脈浮虛者，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治上編第一",
+      "source_unit_id": "SU_BC91F4420_000067",
+      "evidence_span": "發熱。汗出。惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨太陽病脈證並治法上第五",
+      "source_unit_id": "SU_B1CAC3ADF_000762",
+      "evidence_span": "翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B3E16D849_001481",
+      "evidence_span": "翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桂枝湯方",
+      "source_unit_id": "SU_B41512D4B_000403",
+      "evidence_span": "太陽病頭痛發熱汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_BBAACE965_000112",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000328",
+      "evidence_span": "復煩。脈浮數者。可更發汗。宜桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "桂枝湯方第一",
+      "source_unit_id": "SU_B1CAC3ADF_000779",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "表症",
+      "source_unit_id": "SU_B3E16D849_000161",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "發熱",
+      "source_unit_id": "SU_B3E16D849_000529",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "惡風",
+      "source_unit_id": "SU_B3E16D849_000639",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "頭痛項強",
+      "source_unit_id": "SU_B3E16D849_000701",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B3E16D849_001477",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽上編",
+      "source_unit_id": "SU_B5FF1CA1B_000013",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "惡寒",
+      "source_unit_id": "SU_B9119D083_000043",
+      "evidence_span": "太陽病，頭痛發熱，汗出惡風者，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "頭痛",
+      "source_unit_id": "SU_B9119D083_000326",
+      "evidence_span": "太陽病，頭痛發熱，汗出惡風者，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "自汗",
+      "source_unit_id": "SU_B9119D083_001160",
+      "evidence_span": "太陽病，頭痛發熱，汗出惡風者，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_JGYH_ERZHU_001778",
+      "evidence_span": "太陽證。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "桂枝湯證上",
+      "source_unit_id": "SU_SHL_LAISU_000028",
+      "evidence_span": "太陽病，頭痛發熱，汗出惡風者，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000064",
+      "evidence_span": "太陽病。頭痛發熱。汗出惡風者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "惡風",
+      "source_unit_id": "SU_B3E16D849_000639",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽上編",
+      "source_unit_id": "SU_B5FF1CA1B_000009",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "辨中風一",
+      "source_unit_id": "SU_B8E444005_000062",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "惡風",
+      "source_unit_id": "SU_B8E444005_000204",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "桂枝湯",
+      "source_unit_id": "SU_B8E444005_000351",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "太陽經證治上九十五條",
+      "source_unit_id": "SU_BB711944D_000227",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000064",
+      "evidence_span": "浙淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治上第五",
+      "source_unit_id": "SU_SHL_SONGBEN_000169",
+      "evidence_span": "太陽病，頭痛，發熱，汗出，惡風，桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "中風證治第一",
+      "source_unit_id": "SU_SHL_SUYUAN_000041",
+      "evidence_span": "淅淅惡風。翕翕發熱。鼻鳴乾嘔者。桂枝湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_SHL_TIAOWEN_000016",
+      "evidence_span": "太陽病，頭痛，發熱，汗出，惡風，桂枝湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B11498305",
+      "book_title": "傷寒纘論·傷寒緒論",
+      "distinct_conditions": [
+        "亡血",
+        "熱入血室",
+        "脈弦",
+        "虛勞"
+      ],
+      "rule_ids": [
+        "IR_B11498305_000003",
+        "IR_B11498305_000008",
+        "IR_B11498305_000012",
+        "IR_B11498305_000015",
+        "IR_B11498305_000028",
+        "IR_B11498305_000912"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B54968951",
+      "book_title": "劉河間傷寒醫鑑",
+      "distinct_conditions": [
+        "口中和",
+        "四逆",
+        "少陰病",
+        "背惡寒",
+        "脈沉"
+      ],
+      "rule_ids": [
+        "IR_B54968951_000005"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BC3C734B7",
+      "book_title": "傷寒直格",
+      "distinct_conditions": [
+        "脈浮虛"
+      ],
+      "rule_ids": [
+        "IR_BC3C734B7_000048"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JF_SHIYANLU",
+      "book_title": "經方實驗錄",
+      "distinct_conditions": [
+        "渴",
+        "溫病",
+        "項背強",
+        "鼻塞"
+      ],
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000001",
+        "IR_JF_SHIYANLU_000003",
+        "IR_JF_SHIYANLU_000012",
+        "IR_JF_SHIYANLU_000025",
+        "IR_JF_SHIYANLU_000026",
+        "IR_JF_SHIYANLU_000029"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LUNZHU",
+      "book_title": "傷寒論注",
+      "distinct_conditions": [
+        "脈浮大",
+        "脈浮緊"
+      ],
+      "rule_ids": [
+        "IR_SHL_LUNZHU_000024",
+        "IR_SHL_LUNZHU_000026",
+        "IR_SHL_LUNZHU_000029",
+        "IR_SHL_LUNZHU_000032",
+        "IR_SHL_LUNZHU_000033",
+        "IR_SHL_LUNZHU_000163"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "不大便",
+        "厥"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000019"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_SUYUAN",
+      "book_title": "傷寒溯源集",
+      "distinct_conditions": [
+        "胸滿",
+        "脈促"
+      ],
+      "rule_ids": [
+        "IR_SHL_SUYUAN_000011",
+        "IR_SHL_SUYUAN_000014",
+        "IR_SHL_SUYUAN_000016",
+        "IR_SHL_SUYUAN_000019",
+        "IR_SHL_SUYUAN_000120",
+        "IR_SHL_SUYUAN_000122"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒尋源",
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "桂枝"
+      ],
+      "rule_ids": [
+        "IR_B8E444005_000268",
+        "IR_CAOSHI_FAWEI_000016"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000016",
+        "IR_BC91F4420_000002",
+        "IR_SHL_GUANZHU_000008"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨"
+      ],
+      "composition": [
+        "大黃",
+        "桂枝"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000056"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "人參",
+        "桂枝",
+        "甘草",
+        "知母",
+        "石膏",
+        "粳米"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000117"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草二兩",
+        "生薑三兩",
+        "芍藥三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000240",
+        "IR_SHL_GUIBEN_000359",
+        "IR_SHL_GUIBEN_000829",
+        "IR_SHL_GUIBEN_000937",
+        "IR_SHL_GUIBEN_001131"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "桂枝",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000001"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "桂枝",
+        "芍藥"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000005",
+        "IR_SHL_LEIFANG_000021"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "厚朴",
+        "杏仁",
+        "桂枝"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000009"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "柴胡",
+        "桂枝",
+        "梔子",
+        "膠飴"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000011"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "人參三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000013"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "大棗十五枚",
+        "甘草二兩",
+        "麻黃六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000015"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "桂枝",
+        "牡蠣",
+        "芍藥",
+        "蜀漆",
+        "龍骨"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000017"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "升麻一分",
+        "大黃一兩",
+        "知母半兩",
+        "黃芩一分"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000023"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "葛根四兩",
+        "麻黃三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000029"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論類方"
+      ],
+      "composition": [
+        "人參",
+        "半夏",
+        "大棗",
+        "柴胡",
+        "桂枝",
+        "甘草",
+        "芍藥",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_SHL_LEIFANG_000033"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000012"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000912"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000013"
+      ],
+      "book_title": "傷寒貫珠集"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_MINGLI_000019"
+      ],
+      "book_title": "傷寒明理論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000227"
+      ],
+      "book_title": "註解傷寒論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 38
+      },
+      {
+        "term": "太陽中風",
+        "count": 15
+      },
+      {
+        "term": "傷寒",
+        "count": 12
+      },
+      {
+        "term": "中風",
+        "count": 9
+      },
+      {
+        "term": "妊娠",
+        "count": 3
+      },
+      {
+        "term": "溫病",
+        "count": 2
+      },
+      {
+        "term": "熱入血室",
+        "count": 1
+      },
+      {
+        "term": "亡血",
+        "count": 1
+      },
+      {
+        "term": "虛勞",
+        "count": 1
+      },
+      {
+        "term": "少陰病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "發熱",
+        "count": 46
+      },
+      {
+        "term": "汗出",
+        "count": 37
+      },
+      {
+        "term": "惡風",
+        "count": 34
+      },
+      {
+        "term": "乾嘔",
+        "count": 29
+      },
+      {
+        "term": "鼻鳴",
+        "count": 28
+      },
+      {
+        "term": "翕翕發熱",
+        "count": 27
+      },
+      {
+        "term": "頭痛",
+        "count": 27
+      },
+      {
+        "term": "淅淅惡風",
+        "count": 21
+      },
+      {
+        "term": "嗇嗇惡寒",
+        "count": 14
+      },
+      {
+        "term": "自汗出",
+        "count": 11
+      }
+    ],
+    "pulse": [
+      {
+        "term": "陽浮",
+        "count": 14
+      },
+      {
+        "term": "陰弱",
+        "count": 14
+      },
+      {
+        "term": "脈浮",
+        "count": 9
+      },
+      {
+        "term": "脈浮數",
+        "count": 6
+      },
+      {
+        "term": "脈緩",
+        "count": 3
+      },
+      {
+        "term": "脈緊",
+        "count": 2
+      },
+      {
+        "term": "脈浮緩",
+        "count": 2
+      },
+      {
+        "term": "脈弦",
+        "count": 1
+      },
+      {
+        "term": "脈沉",
+        "count": 1
+      },
+      {
+        "term": "脈浮虛",
+        "count": 1
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "營弱衛強",
+        "count": 6
+      },
+      {
+        "term": "熱入血室",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "解肌發表",
+        "count": 105
+      },
+      {
+        "term": "調和營衛",
+        "count": 105
+      }
+    ]
+  },
+  "keywords": [
+    "桂枝湯",
+    "太陽病",
+    "太陽中風",
+    "傷寒",
+    "中風",
+    "妊娠",
+    "發熱",
+    "汗出",
+    "惡風",
+    "乾嘔",
+    "鼻鳴",
+    "陽浮",
+    "陰弱",
+    "脈浮",
+    "脈浮數",
+    "脈緩"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

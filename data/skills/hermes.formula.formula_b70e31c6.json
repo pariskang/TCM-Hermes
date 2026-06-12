@@ -1,0 +1,92 @@
+{
+  "skill_id": "hermes.formula.formula_b70e31c6",
+  "kind": "formula",
+  "title": "梔子豆豉湯方證合併規則",
+  "subject": "梔子豆豉湯",
+  "abstracted_claim": "梔子豆豉湯可歸納為陽明病、結胸、手足溫、飢不能食、頭汗出、虛煩等方證的核心方（支持條文 2 條，跨 1 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_B70E31C6",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B9119D083_000497",
+    "IR_B9119D083_000507"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B9119D083_000497",
+      "IR_B9119D083_000507"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "不得臥",
+      "source_unit_id": "SU_B9119D083_001332",
+      "evidence_span": "發汗吐下後，虛煩不得眠，若劇者，必反復顛倒，心中懊　，梔子豆豉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "懊",
+      "source_unit_id": "SU_B9119D083_001310",
+      "evidence_span": "陽明病下之，其外有熱，手足溫者，不結胸，心中懊　，飢不能食，但頭汗出者，梔子豆豉湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "陽明病",
+        "count": 1
+      },
+      {
+        "term": "結胸",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "手足溫",
+        "count": 1
+      },
+      {
+        "term": "飢不能食",
+        "count": 1
+      },
+      {
+        "term": "頭汗出",
+        "count": 1
+      },
+      {
+        "term": "虛煩",
+        "count": 1
+      },
+      {
+        "term": "不得眠",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "梔子豆豉湯",
+    "陽明病",
+    "結胸",
+    "手足溫",
+    "飢不能食",
+    "頭汗出",
+    "虛煩",
+    "不得眠"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,201 @@
+{
+  "skill_id": "hermes.formula.formula_070d0e12",
+  "kind": "formula",
+  "title": "梔子湯方證合併規則",
+  "subject": "梔子湯",
+  "abstracted_claim": "梔子湯可歸納為陽明病、結胸、下利、汗出、胸中窒、飢不能食等方證的核心方（支持條文 8 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_070D0E12",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E520529_000253",
+    "IR_BB7301DF2_000268",
+    "IR_BB7301DF2_000273",
+    "IR_BC2BA03C0_000250",
+    "IR_BC3C734B7_000074",
+    "IR_BEF4B02F4_000076",
+    "IR_SHL_QJYF_000164",
+    "IR_SHL_QJYF_000287"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E520529_000253",
+      "IR_BB7301DF2_000268",
+      "IR_BB7301DF2_000273",
+      "IR_BC2BA03C0_000250",
+      "IR_BC3C734B7_000074",
+      "IR_BEF4B02F4_000076",
+      "IR_SHL_QJYF_000164",
+      "IR_SHL_QJYF_000287"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第七十八證‧舌上苔歌",
+      "source_unit_id": "SU_BB7301DF2_000232",
+      "evidence_span": "仲景云。陽明。心中懊　舌上苔者。梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒直格",
+      "chapter_title": "懊",
+      "source_unit_id": "SU_BC3C734B7_000363",
+      "evidence_span": "或胸滿結滯，或頭微汗出，劇煩者，梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "發汗吐下後雜病證",
+      "source_unit_id": "SU_BC2BA03C0_000628",
+      "evidence_span": "發汗，若下之，而煩熱，胸中窒塞者，梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "厥陰病狀第三",
+      "source_unit_id": "SU_SHL_QJYF_000373",
+      "evidence_span": "下利後更煩，按其心下濡者，為虛煩也，梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第七十六證‧頭汗歌",
+      "source_unit_id": "SU_BB7301DF2_000227",
+      "evidence_span": "心中懊　。若飢不能食。但頭有汗出者。宜用梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "陽明病狀第八",
+      "source_unit_id": "SU_SHL_QJYF_000203",
+      "evidence_span": "陽明病，下之，其外有熱，手足溫，不結胸，心中懊　，若飢不能食，但頭汗出，梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "發汗吐下後雜病證",
+      "source_unit_id": "SU_B3E520529_000131",
+      "evidence_span": "凡用梔子湯得效，即止後服，病人舊有微溏，不可與之。發汗若下之而煩熱，胸中窒塞者，梔子湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒直格",
+      "chapter_title": "（第十四節）懊憹",
+      "source_unit_id": "SU_BEF4B02F4_000325",
+      "evidence_span": "或胸滿結滯，或頭微汗出虛煩者，梔子湯主之，或少氣者加甘草一錢，或加嘔者及初誤以圓藥下之者加生薑半兩，凡懊憹虛煩者，皆用涼膈散甚佳，及宜湯濯手足，使心胸結熱宣散而已。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BB7301DF2",
+      "book_title": "傷寒百證歌",
+      "distinct_conditions": [
+        "舌上苔"
+      ],
+      "rule_ids": [
+        "IR_BB7301DF2_000268",
+        "IR_BB7301DF2_000273"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_QJYF",
+      "book_title": "傷寒論(千金翼方)",
+      "distinct_conditions": [
+        "下利",
+        "手足溫",
+        "結胸",
+        "陽明病",
+        "頭汗出"
+      ],
+      "rule_ids": [
+        "IR_SHL_QJYF_000164",
+        "IR_SHL_QJYF_000287"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現梔子湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B3E520529_000253"
+      ],
+      "book_title": "傷寒總病論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "陽明病",
+        "count": 1
+      },
+      {
+        "term": "結胸",
+        "count": 1
+      },
+      {
+        "term": "下利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "汗出",
+        "count": 3
+      },
+      {
+        "term": "胸中窒",
+        "count": 2
+      },
+      {
+        "term": "飢不能食",
+        "count": 2
+      },
+      {
+        "term": "胸滿",
+        "count": 2
+      },
+      {
+        "term": "虛煩",
+        "count": 2
+      },
+      {
+        "term": "舌上苔",
+        "count": 1
+      },
+      {
+        "term": "手足溫",
+        "count": 1
+      },
+      {
+        "term": "頭汗出",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "梔子湯",
+    "陽明病",
+    "結胸",
+    "下利",
+    "汗出",
+    "胸中窒",
+    "飢不能食",
+    "胸滿",
+    "虛煩"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

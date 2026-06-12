@@ -1,0 +1,357 @@
+{
+  "skill_id": "hermes.formula.formula_d8cb277a",
+  "kind": "formula",
+  "title": "小半夏湯方證合併規則",
+  "subject": "小半夏湯",
+  "abstracted_claim": "小半夏湯可歸納為支飲、嘔吐、噦、腹滿、黃疸、下利等方證的核心方（支持條文 19 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_D8CB277A",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001157",
+    "IR_CAOSHI_FAWEI_001159",
+    "IR_CAOSHI_FAWEI_001299",
+    "IR_JGYH_ERZHU_000145",
+    "IR_JGYH_ERZHU_000227",
+    "IR_JGYH_ERZHU_000268",
+    "IR_JGYL_FANGLUN_000125",
+    "IR_JGYL_FANGLUN_000183",
+    "IR_JGYL_FANGLUN_000205",
+    "IR_JGYL_JIYI_000304",
+    "IR_JGYL_JIYI_000346",
+    "IR_JGYL_TIAOWEN_000125",
+    "IR_JGYL_TIAOWEN_000183",
+    "IR_JGYL_TIAOWEN_000205",
+    "IR_JGYL_XINDIAN_000125",
+    "IR_JGYL_XINDIAN_000226",
+    "IR_SHL_GUIBEN_000845",
+    "IR_SHL_GUIBEN_000892",
+    "IR_SHL_GUIBEN_001424"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001157",
+      "IR_CAOSHI_FAWEI_001159",
+      "IR_CAOSHI_FAWEI_001299",
+      "IR_JGYH_ERZHU_000145",
+      "IR_JGYH_ERZHU_000227",
+      "IR_JGYH_ERZHU_000268",
+      "IR_JGYL_FANGLUN_000125",
+      "IR_JGYL_FANGLUN_000183",
+      "IR_JGYL_FANGLUN_000205",
+      "IR_JGYL_JIYI_000304",
+      "IR_JGYL_JIYI_000346",
+      "IR_JGYL_TIAOWEN_000125",
+      "IR_JGYL_TIAOWEN_000183",
+      "IR_JGYL_TIAOWEN_000205",
+      "IR_JGYL_XINDIAN_000125",
+      "IR_JGYL_XINDIAN_000226",
+      "IR_SHL_GUIBEN_000845",
+      "IR_SHL_GUIBEN_000892",
+      "IR_SHL_GUIBEN_001424"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論二首、脈證十四條、方七首",
+      "source_unit_id": "SU_JGYL_JIYI_002524",
+      "evidence_span": "熱除必噦。噦者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001481",
+      "evidence_span": "諸嘔吐。穀不得下者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000750",
+      "evidence_span": "諸嘔吐，穀不得下者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002752",
+      "evidence_span": "諸嘔吐。穀不得下者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000748",
+      "evidence_span": "諸嘔吐，穀不得下者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_XINDIAN_001301",
+      "evidence_span": "諸嘔吐。穀不得下者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "黃膽病脈證並治第十五",
+      "source_unit_id": "SU_JGYH_ERZHU_001359",
+      "evidence_span": "不可除熱。熱除必噦。噦者。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000858",
+      "evidence_span": "渴者為欲解。今反不渴。心下有支飲故也。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001242",
+      "evidence_span": "14.40支飲，口不渴，作嘔者，或吐水者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYH_ERZHU_001007",
+      "evidence_span": "嘔家本渴。渴者為欲解。今反不渴心下有支飲故也。小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001589",
+      "evidence_span": "嘔家本渴者，為欲解，今反不渴，心下有支飲，故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000515",
+      "evidence_span": "嘔家本渴，渴者為欲解，今反不渴，心下有支飲故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000513",
+      "evidence_span": "嘔家本渴，渴者為欲解，今反不渴，心下有支飲故也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "黃疸病脈證并治第十五",
+      "source_unit_id": "SU_JGYL_FANGLUN_000689",
+      "evidence_span": "黃疸病，小便色不變，欲自利，腹滿而喘，不可除熱，熱除必噦。噦者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "黃疸病脈證并治第十五",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000687",
+      "evidence_span": "黃疸病，小便色不變，欲自利，腹滿而喘，不可除熱，熱除必噦。噦者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000775",
+      "evidence_span": "9.67食穀欲嘔者，屬陽明也，吳茱萸湯主之。得湯反劇者，屬上焦也，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000809",
+      "evidence_span": "9.91黃病，小便色不變，自利，腹滿而喘者，不可除熱，除熱必噦。噦者，小半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001592",
+      "evidence_span": "本書之例，嘔而不吐者為乾嘔，凡言嘔皆兼吐言之，故吐水及痰涎，皆謂之嘔，胃底膽汁不能容水，膽汁苦燥，與膈上水氣相拒，則為嘔吐，少陽所以善嘔也，但既嘔之後，胃中轉燥，因而病渴，渴則水邪已去，故為欲解，今反不渴，則以心下支飲方盛，胃底膽火不煬，故以生半夏以去水，生薑以散寒，而心下之支飲當去，此證水停心下，阻其胃之上口，勢必不能納殺，嘔吐噦下利篇云，諸嘔吐，殺不得下者，小半夏湯主之，即此證也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "嘔吐噦下利，病脈證治第十七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001868",
+      "evidence_span": "嘔吐而不能食，為胃中虛寒，是宜吳茱萸湯者也，仲師乃曰諸嘔吐穀不得下者，小半夏湯主之，然予當如法用之，往往失效，豈仲師之誤耶，是不然，古人用半夏多生者，但洗去泥耳，近來藥肆所用，先以水浸七日，去膏液而留渣滓，去水之本性全失，再用生薑汁拌炒半熟欲其立止嘔吐，豈可得哉，按嘔吐一證，心下水氣不甚，胃中虛寒者，則宜吳茱萸湯，水氣太甚，時時氾濫而嘔吐清水者，則宜生半夏生薑湯，仲師所謂納半夏以去其水也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "下利",
+        "不能食",
+        "乾嘔"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001157",
+        "IR_CAOSHI_FAWEI_001159",
+        "IR_CAOSHI_FAWEI_001299"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "欲嘔"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000845",
+        "IR_SHL_GUIBEN_000892",
+        "IR_SHL_GUIBEN_001424"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏一升",
+        "生薑半斤"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000848",
+        "IR_SHL_GUIBEN_001167",
+        "IR_SHL_GUIBEN_001425"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001158"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYH_ERZHU_000227"
+      ],
+      "book_title": "金匱玉函經二註"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_FANGLUN_000183"
+      ],
+      "book_title": "金匱要略方論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_TIAOWEN_000183"
+      ],
+      "book_title": "金匱要略方論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現小半夏湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000892"
+      ],
+      "book_title": "傷寒雜病論(桂本)"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "支飲",
+        "count": 7
+      },
+      {
+        "term": "嘔吐",
+        "count": 7
+      },
+      {
+        "term": "噦",
+        "count": 6
+      },
+      {
+        "term": "腹滿",
+        "count": 3
+      },
+      {
+        "term": "黃疸",
+        "count": 2
+      },
+      {
+        "term": "下利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 7
+      },
+      {
+        "term": "自利",
+        "count": 3
+      },
+      {
+        "term": "喘",
+        "count": 3
+      },
+      {
+        "term": "乾嘔",
+        "count": 1
+      },
+      {
+        "term": "不能食",
+        "count": 1
+      },
+      {
+        "term": "欲嘔",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "小半夏湯",
+    "支飲",
+    "嘔吐",
+    "噦",
+    "腹滿",
+    "黃疸",
+    "渴",
+    "自利",
+    "喘",
+    "乾嘔",
+    "不能食"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

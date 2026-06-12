@@ -1,0 +1,102 @@
+{
+  "skill_id": "hermes.formula.formula_58744bb6",
+  "kind": "formula",
+  "title": "五苓湯方證合併規則",
+  "subject": "五苓湯",
+  "abstracted_claim": "五苓湯可歸納為小便不利、渴、煩躁、脈浮數等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_58744BB6",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B5FF1CA1B_000088",
+    "IR_BB7301DF2_000164"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B5FF1CA1B_000088",
+      "IR_BB7301DF2_000164"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B5FF1CA1B_000135",
+      "evidence_span": "發汗已脈浮數煩渴者。五苓湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第四十八證‧痞歌",
+      "source_unit_id": "SU_BB7301DF2_000150",
+      "evidence_span": "與瀉心湯。其人渴而口煩躁。小便不利者。用五苓湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B5FF1CA1B",
+      "book_title": "傷寒纘論",
+      "distinct_conditions": [
+        "脈浮數"
+      ],
+      "rule_ids": [
+        "IR_B5FF1CA1B_000088"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BB7301DF2",
+      "book_title": "傷寒百證歌",
+      "distinct_conditions": [
+        "小便不利",
+        "煩躁"
+      ],
+      "rule_ids": [
+        "IR_BB7301DF2_000164"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "煩躁",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮數",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "五苓湯",
+    "小便不利",
+    "渴",
+    "煩躁",
+    "脈浮數"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

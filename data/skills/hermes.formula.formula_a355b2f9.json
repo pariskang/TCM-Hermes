@@ -1,0 +1,172 @@
+{
+  "skill_id": "hermes.formula.formula_a355b2f9",
+  "kind": "formula",
+  "title": "白朮散方證合併規則",
+  "subject": "白朮散",
+  "abstracted_claim": "白朮散可歸納為妊娠、心痛、腹痛、心煩等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_A355B2F9",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001411",
+    "IR_JGYH_ERZHU_000342",
+    "IR_JGYL_FANGLUN_000270",
+    "IR_JGYL_JIYI_000439",
+    "IR_JGYL_QIANZHU_000307",
+    "IR_JGYL_TIAOWEN_000270",
+    "IR_JGYL_XINDIAN_000294",
+    "IR_SHL_GUIBEN_001586"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001411",
+      "IR_JGYH_ERZHU_000342",
+      "IR_JGYL_FANGLUN_000270",
+      "IR_JGYL_JIYI_000439",
+      "IR_JGYL_QIANZHU_000307",
+      "IR_JGYL_TIAOWEN_000270",
+      "IR_JGYL_XINDIAN_000294",
+      "IR_SHL_GUIBEN_001586"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002067",
+      "evidence_span": "妊娠養胎，白朮散主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYH_ERZHU_001741",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_FANGLUN_000918",
+      "evidence_span": "妊娠養胎，白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "證三條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_003287",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人妊娠病脈證并治第二十",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000916",
+      "evidence_span": "妊娠養胎，白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_XINDIAN_001560",
+      "evidence_span": "妊娠養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "婦人妊娠病脈證治第二十",
+      "source_unit_id": "SU_JGYL_QIANZHU_001298",
+      "evidence_span": "妊娠（肥白有寒。當以溫藥）養胎。白朮散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001372",
+      "evidence_span": "16.10妊娠，身有寒濕，或腹痛，或心煩心痛，不能飲食，其胎躍躍動者，宜養之，白朮散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "心煩",
+        "心痛",
+        "腹痛"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001586"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "牡蠣",
+        "白朮",
+        "芎藭",
+        "蜀椒"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001587"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "白朮"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001412"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "妊娠",
+        "count": 8
+      },
+      {
+        "term": "心痛",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "腹痛",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "白朮散",
+    "妊娠",
+    "心痛",
+    "腹痛",
+    "心煩"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,77 @@
+{
+  "skill_id": "hermes.formula.formula_f113b11e",
+  "kind": "formula",
+  "title": "渴不解脈洪大者白虎加人參湯方證合併規則",
+  "subject": "渴不解脈洪大者白虎加人參湯",
+  "abstracted_claim": "渴不解脈洪大者白虎加人參湯可歸納為傷寒、中風、汗出、渴等方證的核心方（支持條文 2 條，跨 1 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_F113B11E",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_BCA15D57E_000102",
+    "IR_BCA15D57E_000154"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BCA15D57E_000102",
+      "IR_BCA15D57E_000154"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "人參白虎證六（太陽六十一）",
+      "source_unit_id": "SU_BCA15D57E_000215",
+      "evidence_span": "服桂枝湯大汗出後大煩渴不解脈洪大者白虎加人參湯主之（方在太陽三十九）",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒懸解",
+      "chapter_title": "太陽傷寒白虎證四章",
+      "source_unit_id": "SU_BCA15D57E_000164",
+      "evidence_span": "陽盛之人表寒裡熱則用大青龍表寒解而裡熱盛於是有白虎清金之法肺金清而胃熱消可無異日陽明之證矣至於汗後陽虛之渴則於白虎而加人參涼金益氣生津化水清滌煩渴之妙超人巧而絕天工制方立法神化難追然白虎湯證雖皆傷寒之條其實來自中風者多如服桂枝湯大汗出後大煩渴不解脈洪大者白虎加人參湯主之其為風證甚明以中風多傳陽明白虎湯證乃承氣證之初氣也",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "中風",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "汗出",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "渴不解脈洪大者白虎加人參湯",
+    "傷寒",
+    "中風",
+    "汗出",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

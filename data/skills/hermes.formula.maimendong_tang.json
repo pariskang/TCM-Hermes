@@ -1,0 +1,205 @@
+{
+  "skill_id": "hermes.formula.maimendong_tang",
+  "kind": "formula",
+  "title": "麥門冬湯方證合併規則",
+  "subject": "麥門冬湯",
+  "abstracted_claim": "麥門冬湯可歸納為勞復、傷寒、上氣、發熱、咳、脈數等方證的核心方（支持條文 8 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_MAIMENDONG_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_BBAACE965_001414",
+    "IR_CAOSHI_FAWEI_001054",
+    "IR_JGYH_ERZHU_000086",
+    "IR_JGYL_JIYI_000115",
+    "IR_JGYL_JIYI_000116",
+    "IR_JGYL_TIAOWEN_000069",
+    "IR_JGYL_XINDIAN_000070",
+    "IR_SHL_GUIBEN_001378"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_BBAACE965_001414",
+      "IR_CAOSHI_FAWEI_001054",
+      "IR_JGYH_ERZHU_000086",
+      "IR_JGYL_JIYI_000115",
+      "IR_JGYL_JIYI_000116",
+      "IR_JGYL_TIAOWEN_000069",
+      "IR_JGYL_XINDIAN_000070",
+      "IR_SHL_GUIBEN_001378"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陰陽易瘥後勞復病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003464",
+      "evidence_span": "玉函經。病後勞復。發熱者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "肺痿肺癱咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001382",
+      "evidence_span": "火逆上氣，咽喉不利，上逆下氣，麥門冬湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_XINDIAN_000476",
+      "evidence_span": "火逆上氣。咽喉不利。止逆下氣。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYH_ERZHU_000605",
+      "evidence_span": "火逆上氣。咽喉不利。止逆下氣者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論三首、脈證四條、方十五首",
+      "source_unit_id": "SU_JGYL_JIYI_001056",
+      "evidence_span": "大逆上氣。咽喉不利。止逆下氣者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001205",
+      "evidence_span": "14.19咳而上氣，咽喉不利，脈數者，麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論三首、脈證四條、方十五首",
+      "source_unit_id": "SU_JGYL_JIYI_001065",
+      "evidence_span": "玉函經。傷寒瘥後病篇云。病後勞復發熱者。麥門冬湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "肺痿肺癰咳嗽上氣病脈證治第七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000273",
+      "evidence_span": "大逆((王雪華：宜作〝火逆〞))上氣，咽喉不利，止逆下氣者((王雪華：當無〝者〞字))，麥門冬湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "傷寒"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000115",
+        "IR_JGYL_JIYI_000116"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "咳",
+        "脈數"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001378"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參二兩",
+        "半夏一升",
+        "大棗十二枚",
+        "甘草二兩",
+        "粳米三合",
+        "麥門冬七升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001379"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "麥門冬"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001055"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "勞復",
+        "count": 2
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "上氣",
+        "count": 6
+      },
+      {
+        "term": "發熱",
+        "count": 2
+      },
+      {
+        "term": "咳",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈數",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "滋養肺胃",
+        "count": 8
+      },
+      {
+        "term": "降逆下氣",
+        "count": 8
+      }
+    ]
+  },
+  "keywords": [
+    "麥門冬湯",
+    "勞復",
+    "傷寒",
+    "上氣",
+    "發熱",
+    "咳",
+    "脈數"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

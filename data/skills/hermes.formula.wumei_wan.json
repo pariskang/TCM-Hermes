@@ -1,0 +1,546 @@
+{
+  "skill_id": "hermes.formula.wumei_wan",
+  "kind": "formula",
+  "title": "烏梅丸方證合併規則",
+  "subject": "烏梅丸",
+  "abstracted_claim": "烏梅丸可歸納為蛔厥、傷寒、消渴、厥陰病、嘔吐、腹滿等方證的核心方（支持條文 31 條，跨 28 部書）。",
+  "merged_rule_id": "MHR_FORMULA_WUMEI_WAN",
+  "release_level": "silver",
+  "consensus_score": 0.916,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000711",
+    "IR_B11498305_000414",
+    "IR_B1CAC3ADF_000833",
+    "IR_B33E29808_000022",
+    "IR_B3E16D849_001877",
+    "IR_B3E520529_000059",
+    "IR_B8E444005_000135",
+    "IR_BA504DABF_000009",
+    "IR_BBAACE965_001299",
+    "IR_BC2BA03C0_000057",
+    "IR_BC91F4420_000521",
+    "IR_BF5CDC206_000208",
+    "IR_CAOSHI_FAWEI_000818",
+    "IR_CAOSHI_FAWEI_001396",
+    "IR_JGYH_ERZHU_000332",
+    "IR_JGYL_FANGLUN_000255",
+    "IR_JGYL_JIYI_000421",
+    "IR_JGYL_QIANZHU_000291",
+    "IR_JGYL_TIAOWEN_000255",
+    "IR_JGYL_XINDIAN_000284",
+    "IR_SHL_GUANZHU_000688",
+    "IR_SHL_GUIBEN_001069",
+    "IR_SHL_LAISU_000708",
+    "IR_SHL_LAISU_000714",
+    "IR_SHL_LUNZHU_000694",
+    "IR_SHL_QJYF_000255",
+    "IR_SHL_SONGBEN_000412",
+    "IR_SHL_SUYUAN_001233",
+    "IR_SHL_SUYUAN_001234",
+    "IR_SHL_TIAOWEN_000366",
+    "IR_SHL_ZHUJIE_000952"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000711",
+      "IR_B11498305_000414",
+      "IR_B1CAC3ADF_000833",
+      "IR_B33E29808_000022",
+      "IR_B3E16D849_001877",
+      "IR_B3E520529_000059",
+      "IR_B8E444005_000135",
+      "IR_BA504DABF_000009",
+      "IR_BBAACE965_001299",
+      "IR_BC2BA03C0_000057",
+      "IR_BC91F4420_000521",
+      "IR_BF5CDC206_000208",
+      "IR_CAOSHI_FAWEI_000818",
+      "IR_CAOSHI_FAWEI_001396",
+      "IR_JGYH_ERZHU_000332",
+      "IR_JGYL_FANGLUN_000255",
+      "IR_JGYL_JIYI_000421",
+      "IR_JGYL_QIANZHU_000291",
+      "IR_JGYL_TIAOWEN_000255",
+      "IR_JGYL_XINDIAN_000284",
+      "IR_SHL_GUANZHU_000688",
+      "IR_SHL_GUIBEN_001069",
+      "IR_SHL_LAISU_000708",
+      "IR_SHL_LAISU_000714",
+      "IR_SHL_LUNZHU_000694",
+      "IR_SHL_QJYF_000255",
+      "IR_SHL_SONGBEN_000412",
+      "IR_SHL_SUYUAN_001233",
+      "IR_SHL_SUYUAN_001234",
+      "IR_SHL_TIAOWEN_000366",
+      "IR_SHL_ZHUJIE_000952"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003054",
+      "evidence_span": "蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蛔蟲病脈證第十九",
+      "source_unit_id": "SU_JGYH_ERZHU_001685",
+      "evidence_span": "蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蚘蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000887",
+      "evidence_span": "蚘厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證一條、方五首",
+      "source_unit_id": "SU_JGYL_JIYI_003155",
+      "evidence_span": "蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "趺蹶手指臂腫轉筋陰狐疝蚘蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000885",
+      "evidence_span": "蚘厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "跌蹶手指臂腫轉筋狐疝蚘蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_QIANZHU_001252",
+      "evidence_span": "蚘厥者。（以）烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "厥陰證治第二十一",
+      "source_unit_id": "SU_SHL_SUYUAN_002930",
+      "evidence_span": "其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000898",
+      "evidence_span": "尤聞食臭出。其人自吐尤。尤厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨厥陰病脈證並治第十二",
+      "source_unit_id": "SU_B1CAC3ADF_002217",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003914",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_B8E444005_000237",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨厥陰病脈證並治第八",
+      "source_unit_id": "SU_BC91F4420_001237",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_BF5CDC206_000238",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "趺蹶手指臂腫轉筋狐疝蛔蟲病脈證治第十九",
+      "source_unit_id": "SU_JGYL_XINDIAN_001506",
+      "evidence_span": "蛔聞食臭出。其人當自吐蛔。蛔厥者。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "厥陰證治第二十一",
+      "source_unit_id": "SU_SHL_SUYUAN_002933",
+      "evidence_span": "蛔聞食之臭味而上攻。所以其人當自吐蛔也。蛔厥者。當以烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒舌鑑",
+      "chapter_title": "灰色舌總論",
+      "source_unit_id": "SU_B33E29808_000144",
+      "evidence_span": "灰色現於中央。而消渴、氣上衝心、飢不欲食、食即吐蛔者。此熱傳厥陰之候。烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "厥陰證",
+      "source_unit_id": "SU_BC2BA03C0_000138",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中痛熱，飢而不欲食，食則吐蛔，下之利不止，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000953",
+      "evidence_span": "蚘厥者，其人當吐蚘。今病者靜，而復時煩，此為臟寒，蚘上入其膈，故煩。須臾復止，得食而嘔又煩者，蚘聞食臭出，其人當自吐蚘。蚘厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒辨要箋記",
+      "chapter_title": "辨厥陰病：",
+      "source_unit_id": "SU_BA504DABF_000041",
+      "evidence_span": "又按：厥陰消渴，氣上撞心一條，直寬士粟以為上熱下寒，極合。正珍謂叔和所撰者非也。烏梅丸主之，厥陰正經也，煩躁有時，得食嘔吐，吐蛔而厥之蛔厥，亦厥陰正證，烏梅丸所言同也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "厥陰脈證",
+      "source_unit_id": "SU_SHL_LUNZHU_001227",
+      "evidence_span": "肝脈挾胃，肝氣旺，故胃口閉塞而不欲食也。蟲為風化，厥陰病則生蛔，蛔聞食臭，則上入於膈而從口出也。病發於陰而反下之，則氣無止息而利不止矣。烏梅丸主之，可以除蛔，亦可以止利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "厥陰病狀第三",
+      "source_unit_id": "SU_SHL_QJYF_000330",
+      "evidence_span": "傷寒脈微而厥，至七八日，膚冷，其人躁無安時，此為臟寒，蛔上入其膈，蛔厥者，其人當吐蛔。令病者靜，而復時煩，此為臟寒。蛔上入其膈，故煩，須臾復止，得食而嘔又煩者，蛔聞食臭必出，其人常自吐蛔，蛔厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B11498305_000562",
+      "evidence_span": "傷寒脈微而厥，至七八日膚冷，其人躁，無暫安時者，此為藏厥，非蚘厥也蚘厥者，其人當吐蚘，今病者靜而復時煩，此為胃寒，蚘上入膈，故煩須臾復止，得食而嘔又煩者，蚘聞食臭出，其人當自吐蚘，蚘厥者，烏梅丸主之，又主久利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "烏梅丸證",
+      "source_unit_id": "SU_SHL_LAISU_000496",
+      "evidence_span": "傷寒脈微而厥，至七八日膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也，蚘厥者，其人當吐蚘，今病者靜而復時煩，此非藏寒，蚘上入膈故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人故吐蚘，吐蚘者，烏梅丸主之，又主久利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨厥陰病脈證並治第十二",
+      "source_unit_id": "SU_SHL_SONGBEN_000797",
+      "evidence_span": "傷寒，脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也。蚘厥者，其人當吐蚘，令病者靜而復時煩者，此為藏寒。蚘上入其膈故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人常自吐蚘。蚘厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000644",
+      "evidence_span": "傷寒，脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也。蚘厥者，其人當吐蚘，令病者靜而復時煩者，此為藏寒。蚘上入其膈故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人常自吐蚘。蚘厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨厥陰病脈證並治法第十二",
+      "source_unit_id": "SU_SHL_ZHUJIE_001499",
+      "evidence_span": "蛔厥者，其人當吐蛔。令（《玉函經》作今）病者靜，而復時煩，（趙本有「者」字）此為臟寒。蛔上入（趙本有「其」字）膈，故煩，須臾復止，得食而嘔，又煩者，蛔聞食臭出，其人當（趙本作「常」）自吐蛔。蛔厥者，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "厥陰溫法九條",
+      "source_unit_id": "SU_SHL_GUANZHU_000478",
+      "evidence_span": "傷寒脈微而厥，至七八日，膚冷，其人躁無暫安時者，此為藏厥，非蚘厥也，蚘厥者，其人當吐蚘，今病者靜而復時煩，此為藏寒，蚘上入膈，故煩，須臾復止，得食而嘔，又煩者，蚘聞食臭出，其人當自吐蚘，蚘厥者，烏梅丸主之，又主久痢。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "厥陰證",
+      "source_unit_id": "SU_B3E520529_000072",
+      "evidence_span": "尺寸俱微者，厥陰受病他，六七日發，以其脈循陰而絡於肝，故煩滿而囊縮。微緩者囊必不縮，若外證發熱惡寒，似瘧為欲愈候，宜桂枝麻黃各半湯也，若尺寸俱沉短者，囊必縮，宜承氣湯下之，方在可下證中。厥陰之為病，消渴，氣上衝心，中痛熱，飢而不欲食，食則吐蚘，下之利不止，烏梅丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "厥陰上篇",
+      "source_unit_id": "SU_B0B74DF58_001455",
+      "evidence_span": "**十一、傷寒脈微而厥，至七八日**（胃）〔膚〕**冷，其人煩**（燥）〔躁〕**無暫安時者，此為藏厥，非蛔厥也。蛔厥者，其人當吐蛔，**（今）〔令〕**病者靜，而復時煩**〔者〕**，此為藏寒，蛔上入**〔其〕**膈，故煩，須臾復止，得食而嘔，又煩者**（蟲）〔蛔〕**聞食臭**（而）**出，其人當自吐蛔，蛔厥者，烏梅丸主之，又主久痢。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "趺蹶手指臂腫轉筋狐疝疣蟲病脈證第十九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_002027",
+      "evidence_span": "疣厥者其人當吐疣，今病者，靜而復時煩，此為藏寒，疣上入膈，故煩，須臾復止，得食而嘔又煩者，疣聞食臭出，其人當自吐疣，疣厥者，烏梅丸主之（烏梅丸方，烏梅三百個，細辛六兩，乾薑十兩，黃連一斤，當歸，川椒各四兩，附子，桂枝，人參，黃柏各六兩，上十味，異搗節，合治之，以苦酒漬烏梅，一宿去核，蒸之五升米上飯熟搗成泥，和藥令相得，內白中，與蜜杵二千下，丸如梧子大，先食飲服十丸，日三服，稍增至二十丸，禁生冷滑臭等食）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E520529",
+      "book_title": "傷寒總病論",
+      "distinct_conditions": [
+        "惡寒",
+        "發熱"
+      ],
+      "rule_ids": [
+        "IR_B3E520529_000059"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BA504DABF",
+      "book_title": "傷寒辨要箋記",
+      "distinct_conditions": [
+        "上熱下寒",
+        "嘔吐",
+        "煩躁"
+      ],
+      "rule_ids": [
+        "IR_BA504DABF_000009"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LAISU",
+      "book_title": "傷寒來蘇集",
+      "distinct_conditions": [
+        "不能食",
+        "太陰病",
+        "腹滿",
+        "自利"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000708",
+        "IR_SHL_LAISU_000714"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "乾薑",
+        "烏梅",
+        "當歸",
+        "細辛",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001302"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨"
+      ],
+      "composition": [
+        "乾薑",
+        "烏梅",
+        "當歸",
+        "細辛",
+        "附子",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000522"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "桂枝",
+        "烏梅",
+        "當歸",
+        "細辛",
+        "苦酒",
+        "蜀椒",
+        "蜜",
+        "附子",
+        "黃柏",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000689",
+        "IR_SHL_LAISU_000716"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑十兩",
+        "人參六兩",
+        "桂枝六兩",
+        "烏梅三百枚",
+        "當歸四兩",
+        "細辛六兩",
+        "蜀椒四兩",
+        "附子六兩",
+        "黃柏六兩",
+        "黃連十六兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000074",
+        "IR_SHL_GUIBEN_001070"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "烏梅",
+        "細辛",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000954"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現烏梅丸應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001396"
+      ],
+      "book_title": "曹氏傷寒金匱發微合刊"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "蛔厥",
+        "count": 15
+      },
+      {
+        "term": "傷寒",
+        "count": 7
+      },
+      {
+        "term": "消渴",
+        "count": 5
+      },
+      {
+        "term": "厥陰病",
+        "count": 2
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      },
+      {
+        "term": "腹滿",
+        "count": 1
+      },
+      {
+        "term": "太陰病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "厥",
+        "count": 31
+      },
+      {
+        "term": "吐蚘",
+        "count": 8
+      },
+      {
+        "term": "氣上衝",
+        "count": 3
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "煩躁",
+        "count": 1
+      },
+      {
+        "term": "不能食",
+        "count": 1
+      },
+      {
+        "term": "自利",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微",
+        "count": 7
+      }
+    ],
+    "pathomechanism": [
+      {
+        "term": "上熱下寒",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "安蛔止痛",
+        "count": 31
+      },
+      {
+        "term": "寒熱並調",
+        "count": 31
+      }
+    ]
+  },
+  "keywords": [
+    "烏梅丸",
+    "蛔厥",
+    "傷寒",
+    "消渴",
+    "厥陰病",
+    "嘔吐",
+    "厥",
+    "吐蚘",
+    "氣上衝",
+    "發熱",
+    "惡寒",
+    "脈微"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

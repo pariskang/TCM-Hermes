@@ -1,0 +1,245 @@
+{
+  "skill_id": "hermes.formula.formula_00b80624",
+  "kind": "formula",
+  "title": "桂枝甘草龍骨牡蠣湯方證合併規則",
+  "subject": "桂枝甘草龍骨牡蠣湯",
+  "abstracted_claim": "桂枝甘草龍骨牡蠣湯可歸納為煩躁等方證的核心方（支持條文 16 條，跨 14 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_00B80624",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000178",
+    "IR_B1CAC3ADF_000352",
+    "IR_B3E16D849_000497",
+    "IR_B41512D4B_000344",
+    "IR_B41512D4B_001151",
+    "IR_B5FF1CA1B_000211",
+    "IR_BBAACE965_000526",
+    "IR_BC91F4420_000294",
+    "IR_SHL_LAISU_000275",
+    "IR_SHL_LUNZHU_000108",
+    "IR_SHL_LUNZHU_000270",
+    "IR_SHL_QJYF_000098",
+    "IR_SHL_SONGBEN_000179",
+    "IR_SHL_SUYUAN_000538",
+    "IR_SHL_TIAOWEN_000133",
+    "IR_SHL_ZHUJIE_000404"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000178",
+      "IR_B1CAC3ADF_000352",
+      "IR_B3E16D849_000497",
+      "IR_B41512D4B_000344",
+      "IR_B41512D4B_001151",
+      "IR_B5FF1CA1B_000211",
+      "IR_BBAACE965_000526",
+      "IR_BC91F4420_000294",
+      "IR_SHL_LAISU_000275",
+      "IR_SHL_LUNZHU_000108",
+      "IR_SHL_LUNZHU_000270",
+      "IR_SHL_QJYF_000098",
+      "IR_SHL_SONGBEN_000179",
+      "IR_SHL_SUYUAN_000538",
+      "IR_SHL_TIAOWEN_000133",
+      "IR_SHL_ZHUJIE_000404"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "桂枝加桂湯方第四十五",
+      "source_unit_id": "SU_B1CAC3ADF_001306",
+      "evidence_span": "火逆下之因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B3E16D849_001075",
+      "evidence_span": "下之。因燒針。煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000234",
+      "evidence_span": "火逆下之，因燒鍼煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桂枝湯",
+      "source_unit_id": "SU_B41512D4B_002461",
+      "evidence_span": "火逆下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000311",
+      "evidence_span": "火逆下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_001318",
+      "evidence_span": "火逆下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "火逆諸證",
+      "source_unit_id": "SU_SHL_LAISU_000196",
+      "evidence_span": "火逆下之，因燒鍼煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "火逆諸證",
+      "source_unit_id": "SU_SHL_LUNZHU_000488",
+      "evidence_span": "火逆下之，因燒針煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病雜療法第七",
+      "source_unit_id": "SU_SHL_QJYF_000120",
+      "evidence_span": "火逆下之，因燒針煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000411",
+      "evidence_span": "火逆下之，因燒針煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "風寒兩傷營衛證治第六",
+      "source_unit_id": "SU_SHL_SUYUAN_001098",
+      "evidence_span": "火逆下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000258",
+      "evidence_span": "火逆下之，因燒針煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000849",
+      "evidence_span": "火逆，下之，因燒針煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000169",
+      "evidence_span": "火逆，下之，因燒針，煩躁者，桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治下編第三",
+      "source_unit_id": "SU_BC91F4420_000635",
+      "evidence_span": "（十七）火逆下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "桃核承氣湯方",
+      "source_unit_id": "SU_B41512D4B_000832",
+      "evidence_span": "更加桂二兩火逆。下之。因燒針煩躁者。桂枝甘草龍骨牡蠣湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒論辯證廣注",
+        "曹氏傷寒金匱發微合刊",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "牡蠣",
+        "甘草",
+        "龍骨"
+      ],
+      "rule_ids": [
+        "IR_B41512D4B_000345",
+        "IR_BBAACE965_000528",
+        "IR_BC91F4420_000295",
+        "IR_CAOSHI_FAWEI_000300",
+        "IR_SHL_ZHUJIE_000406"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "桂枝",
+        "炙甘草",
+        "牡蠣",
+        "甘草",
+        "芍藥",
+        "蜀漆",
+        "龍骨"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000327"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參三兩",
+        "桂枝一兩",
+        "牡蠣二兩",
+        "甘草二兩",
+        "龍骨二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000584"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "煩躁",
+        "count": 16
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝甘草龍骨牡蠣湯",
+    "煩躁"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

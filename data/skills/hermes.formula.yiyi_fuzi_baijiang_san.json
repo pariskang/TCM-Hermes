@@ -1,0 +1,155 @@
+{
+  "skill_id": "hermes.formula.yiyi_fuzi_baijiang_san",
+  "kind": "formula",
+  "title": "薏苡附子敗醬散方證合併規則",
+  "subject": "薏苡附子敗醬散",
+  "abstracted_claim": "薏苡附子敗醬散可歸納為腸癰、痞、脈數等方證的核心方（支持條文 6 條，跨 6 部書）。",
+  "merged_rule_id": "MHR_FORMULA_YIYI_FUZI_BAIJIANG_SAN",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001376",
+    "IR_JGYH_ERZHU_000320",
+    "IR_JGYL_FANGLUN_000242",
+    "IR_JGYL_JIYI_000406",
+    "IR_JGYL_TIAOWEN_000242",
+    "IR_SHL_GUIBEN_001519"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001376",
+      "IR_JGYH_ERZHU_000320",
+      "IR_JGYL_FANGLUN_000242",
+      "IR_JGYL_JIYI_000406",
+      "IR_JGYL_TIAOWEN_000242",
+      "IR_SHL_GUIBEN_001519"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "瘡癰腸癰浸淫病脈證並治第十八",
+      "source_unit_id": "SU_JGYH_ERZHU_001637",
+      "evidence_span": "身無熱。脈數。此為腸內有癰膿。薏苡附子敗醬散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證三條方、六首",
+      "source_unit_id": "SU_JGYL_JIYI_003032",
+      "evidence_span": "腹無積聚。身無熱脈數。此為腸內有癰膿。薏苡附子敗醬散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "瘡癰腸癰浸淫病脈證并治第十八",
+      "source_unit_id": "SU_JGYL_FANGLUN_000850",
+      "evidence_span": "腸癰之為病，其身甲錯，腹皮急，按之濡，如腫狀，腹無積聚，身無熱，脈數，此為腸內有癰膿，薏苡附子敗醬散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "瘡癰腸癰浸淫病脈證并治第十八",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000848",
+      "evidence_span": "腸癰之為病，其身甲錯，腹皮急，按之濡，如腫狀，腹無積聚，身無熱，脈數，此為腸內有癰膿，薏苡附子敗醬散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001326",
+      "evidence_span": "15.16腸癰之為病，其身甲錯，腹皮急，按之濡，如腫狀，腹無積聚，身無熱，脈數，此為腸內有癰也，薏苡附子敗醬散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "瘡癰，腸癰，浸淫病脈證治第十八",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001986",
+      "evidence_span": "腫癰者少腹腫痞，按之即痛，如淋小便自調，腹無積聚身無熱，脈數，此為內有癰膿（內字上有腸字誤）薏苡附子敗醬散主之（腹無積聚下，一舊訛在上節，今校正）",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "痞"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001376"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "敗醬",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001378"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "敗醬五分",
+        "附子二分"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001521"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "腸癰",
+        "count": 3
+      },
+      {
+        "term": "痞",
+        "count": 1
+      }
+    ],
+    "symptoms": [],
+    "pulse": [
+      {
+        "term": "脈數",
+        "count": 6
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "排膿消腫",
+        "count": 6
+      },
+      {
+        "term": "振奮陽氣",
+        "count": 6
+      }
+    ]
+  },
+  "keywords": [
+    "薏苡附子敗醬散",
+    "腸癰",
+    "痞",
+    "脈數"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

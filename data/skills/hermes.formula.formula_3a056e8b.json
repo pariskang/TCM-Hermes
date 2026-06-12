@@ -1,0 +1,146 @@
+{
+  "skill_id": "hermes.formula.formula_3a056e8b",
+  "kind": "formula",
+  "title": "升麻鱉甲湯方證合併規則",
+  "subject": "升麻鱉甲湯",
+  "abstracted_claim": "升麻鱉甲湯可歸納為唾膿血、面赤等方證的核心方（支持條文 4 條，跨 4 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_3A056E8B",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000035",
+    "IR_JGYL_JIYI_000072",
+    "IR_JGYL_TIAOWEN_000035",
+    "IR_SHL_GUIBEN_001315"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000035",
+      "IR_JGYL_JIYI_000072",
+      "IR_JGYL_TIAOWEN_000035",
+      "IR_SHL_GUIBEN_001315"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證三條、方十二首",
+      "source_unit_id": "SU_JGYL_JIYI_000448",
+      "evidence_span": "唾膿血。五日可治。七日不可治。升麻鱉甲湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_FANGLUN_000129",
+      "evidence_span": "陽毒之為病，面赤斑斑如錦紋，咽喉痛，唾膿血，五日可治，七日不可治，升麻鱉甲湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "百合病狐惑陰陽毒病脈證並治第三",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000127",
+      "evidence_span": "陽毒之為病，面赤斑斑如錦紋，咽喉痛，唾膿血，五日可治，七日不可治，升麻鱉甲湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨百合狐惑陰陽毒病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001143",
+      "evidence_span": "13.11陽毒之為病，面赤斑斑如錦紋，咽喉痛，唾膿血。五日可治，七日不可治，升麻鱉甲湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "升麻"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000996"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "升麻二兩",
+        "甘草二兩",
+        "當歸一兩",
+        "蜀椒一兩",
+        "雄黃五錢"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001316"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現升麻鱉甲湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_FANGLUN_000035"
+      ],
+      "book_title": "金匱要略方論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現升麻鱉甲湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_JIYI_000072"
+      ],
+      "book_title": "金匱玉函要略輯義"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現升麻鱉甲湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JGYL_TIAOWEN_000035"
+      ],
+      "book_title": "金匱要略方論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現升麻鱉甲湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001315"
+      ],
+      "book_title": "傷寒雜病論(桂本)"
+    }
+  ],
+  "if_profile": {
+    "disease": [],
+    "symptoms": [
+      {
+        "term": "唾膿血",
+        "count": 4
+      },
+      {
+        "term": "面赤",
+        "count": 3
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "升麻鱉甲湯",
+    "唾膿血",
+    "面赤"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

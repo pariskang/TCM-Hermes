@@ -1,0 +1,245 @@
+{
+  "skill_id": "hermes.formula.formula_64d528c4",
+  "kind": "formula",
+  "title": "通脈四逆加豬膽汁湯方證合併規則",
+  "subject": "通脈四逆加豬膽汁湯",
+  "abstracted_claim": "通脈四逆加豬膽汁湯可歸納為霍亂、嘔吐、汗出、厥、四逆、渴等方證的核心方（支持條文 15 條，跨 14 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_64D528C4",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000427",
+    "IR_B1CAC3ADF_000914",
+    "IR_B3E16D849_001644",
+    "IR_B3E16D849_001736",
+    "IR_B54968951_000023",
+    "IR_B5FF1CA1B_000457",
+    "IR_B8E444005_000413",
+    "IR_BC91F4420_000588",
+    "IR_CAOSHI_FAWEI_000886",
+    "IR_SHL_GUIBEN_001246",
+    "IR_SHL_LEIFANG_000059",
+    "IR_SHL_LUNZHU_000655",
+    "IR_SHL_SONGBEN_000455",
+    "IR_SHL_SUYUAN_001104",
+    "IR_SHL_TIAOWEN_000409"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000427",
+      "IR_B1CAC3ADF_000914",
+      "IR_B3E16D849_001644",
+      "IR_B3E16D849_001736",
+      "IR_B54968951_000023",
+      "IR_B5FF1CA1B_000457",
+      "IR_B8E444005_000413",
+      "IR_BC91F4420_000588",
+      "IR_CAOSHI_FAWEI_000886",
+      "IR_SHL_GUIBEN_001246",
+      "IR_SHL_LEIFANG_000059",
+      "IR_SHL_LUNZHU_000655",
+      "IR_SHL_SONGBEN_000455",
+      "IR_SHL_SUYUAN_001104",
+      "IR_SHL_TIAOWEN_000409"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "少陰經脈",
+      "source_unit_id": "SU_B3E16D849_003341",
+      "evidence_span": "四肢拘急。不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "手足厥逆",
+      "source_unit_id": "SU_B3E16D849_003567",
+      "evidence_span": "四肢拘急。不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "理中丸方第一百零六",
+      "source_unit_id": "SU_B1CAC3ADF_002402",
+      "evidence_span": "汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "通脈四逆加豬膽汁湯",
+      "source_unit_id": "SU_B8E444005_000784",
+      "evidence_span": "汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨霍亂病脈證並治第十",
+      "source_unit_id": "SU_BC91F4420_001454",
+      "evidence_span": "汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001013",
+      "evidence_span": "汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "霍亂證治第十八",
+      "source_unit_id": "SU_SHL_SUYUAN_002525",
+      "evidence_span": "汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B5FF1CA1B_000772",
+      "evidence_span": "可已下斷汗出而厥。四肢拘急不解。脈微欲絕者。通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_B11498305_000592",
+      "evidence_span": "吐已下斷，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "四逆湯證上",
+      "source_unit_id": "SU_SHL_LUNZHU_001121",
+      "evidence_span": "吐已下斷，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨霍亂病脈證並治第十三",
+      "source_unit_id": "SU_SHL_SONGBEN_000873",
+      "evidence_span": "吐已下斷，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000720",
+      "evidence_span": "吐已下斷，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨霍亂吐利病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001090",
+      "evidence_span": "12.22吐已下斷，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "通脈四逆加豬膽汁湯（四）",
+      "source_unit_id": "SU_SHL_LEIFANG_000080",
+      "evidence_span": "通脈四逆原方，加豬膽汁半合，煎如前法，煎成內豬膽汁，溫服，其脈即出。豬膽汁苦滑之極，引藥直達下焦。吐已下斷，利止也，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "劉河間傷寒醫鑑",
+      "chapter_title": "論霍亂",
+      "source_unit_id": "SU_B54968951_000024",
+      "evidence_span": "《活人書》云：霍亂，嘔吐而利，熱多而不渴，寒多而不飢，理中丸主之。吐利汗出，發熱惡寒，四肢拘急，手足厥冷，四逆湯主之。吐利已，汗出而厥，四肢拘急不解，脈微欲絕者，通脈四逆加豬膽汁湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B54968951",
+      "book_title": "劉河間傷寒醫鑑",
+      "distinct_conditions": [
+        "吐利",
+        "嘔吐",
+        "惡寒",
+        "手足厥冷",
+        "渴",
+        "發熱",
+        "霍亂"
+      ],
+      "rule_ids": [
+        "IR_B54968951_000023"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "霍亂",
+        "count": 1
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "汗出",
+        "count": 13
+      },
+      {
+        "term": "厥",
+        "count": 13
+      },
+      {
+        "term": "四逆",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "吐利",
+        "count": 1
+      },
+      {
+        "term": "發熱",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "手足厥冷",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈微欲絕",
+        "count": 15
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "通脈四逆加豬膽汁湯",
+    "霍亂",
+    "嘔吐",
+    "汗出",
+    "厥",
+    "四逆",
+    "渴",
+    "吐利",
+    "脈微欲絕"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

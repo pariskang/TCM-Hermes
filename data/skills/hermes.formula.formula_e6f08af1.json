@@ -1,0 +1,169 @@
+{
+  "skill_id": "hermes.formula.formula_e6f08af1",
+  "kind": "formula",
+  "title": "半夏麻黃丸方證合併規則",
+  "subject": "半夏麻黃丸",
+  "abstracted_claim": "半夏麻黃丸可歸納為胸痹、心下悸等方證的核心方（支持條文 9 條，跨 9 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E6F08AF1",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001280",
+    "IR_JGYH_ERZHU_000243",
+    "IR_JGYL_FANGLUN_000190",
+    "IR_JGYL_JIYI_000317",
+    "IR_JGYL_QIANZHU_000212",
+    "IR_JGYL_SHUYI_000062",
+    "IR_JGYL_TIAOWEN_000190",
+    "IR_JGYL_XINDIAN_000203",
+    "IR_SHL_GUIBEN_001554"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001280",
+      "IR_JGYH_ERZHU_000243",
+      "IR_JGYL_FANGLUN_000190",
+      "IR_JGYL_JIYI_000317",
+      "IR_JGYL_QIANZHU_000212",
+      "IR_JGYL_SHUYI_000062",
+      "IR_JGYL_TIAOWEN_000190",
+      "IR_JGYL_XINDIAN_000203",
+      "IR_SHL_GUIBEN_001554"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "黃疸病脈證並治第十五",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001826",
+      "evidence_span": "心下悸者，半夏麻黃丸主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血第十六",
+      "source_unit_id": "SU_JGYH_ERZHU_001412",
+      "evidence_span": "心下悸者。半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證治第十六",
+      "source_unit_id": "SU_JGYL_FANGLUN_000711",
+      "evidence_span": "心下悸者，半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "脈證十二條、方五首",
+      "source_unit_id": "SU_JGYL_JIYI_002607",
+      "evidence_span": "心下悸者。半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略述義",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證治第十六",
+      "source_unit_id": "SU_JGYL_SHUYI_000994",
+      "evidence_span": "心下悸者。半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證治第十六",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000709",
+      "evidence_span": "心下悸者，半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證治第十六",
+      "source_unit_id": "SU_JGYL_XINDIAN_001238",
+      "evidence_span": "心下悸者。半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "驚悸吐衄下血胸滿瘀血病脈證第十六",
+      "source_unit_id": "SU_JGYL_QIANZHU_001005",
+      "evidence_span": "（為悸者出其方。）心下悸者。半夏麻黃丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001350",
+      "evidence_span": "15.28 胸痹，心下悸者，責其有痰也，半夏麻黃丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "胸痹"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001554"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001281"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏",
+        "蜜",
+        "麻黃"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001555"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "胸痹",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心下悸",
+        "count": 9
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "半夏麻黃丸",
+    "胸痹",
+    "心下悸"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

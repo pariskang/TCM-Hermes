@@ -1,0 +1,111 @@
+{
+  "skill_id": "hermes.disease.82409553",
+  "kind": "disease",
+  "title": "濕家病證治合併規則",
+  "subject": "濕家病",
+  "abstracted_claim": "濕家病相關條文 9 條；以證候/禁忌條文為主。",
+  "merged_rule_id": "MHR_DISEASE_82409553",
+  "release_level": "gold",
+  "consensus_score": 0.94,
+  "supporting_initial_rules": [
+    "IR_B11498305_000607",
+    "IR_BBA9FB4A6_000425",
+    "IR_BC2BA03C0_000236",
+    "IR_SHL_GUANZHU_000339",
+    "IR_SHL_GUIBEN_000260",
+    "IR_SHL_LAISU_000299",
+    "IR_SHL_LUNZHU_000284",
+    "IR_SHL_SONGBEN_000041",
+    "IR_SHL_ZHUJIE_000103"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_B11498305_000607",
+      "IR_BBA9FB4A6_000425",
+      "IR_BC2BA03C0_000236",
+      "IR_SHL_GUANZHU_000339",
+      "IR_SHL_GUIBEN_000260",
+      "IR_SHL_LAISU_000299",
+      "IR_SHL_LUNZHU_000284",
+      "IR_SHL_SONGBEN_000041",
+      "IR_SHL_ZHUJIE_000103"
+    ],
+    "silver": [],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000810",
+      "evidence_span": "濕家之為病，一身盡疼發熱，身色如以熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000201",
+      "evidence_span": "濕家之為病，一身盡疼，發熱，身色如熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000213",
+      "evidence_span": "濕家之為病，一身盡疼，發熱，身色如熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_000529",
+      "evidence_span": "濕家之為病，一身盡疼，發熱，身色如熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000145",
+      "evidence_span": "濕家之為病，一身盡疼，發熱，身色如似熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_000447",
+      "evidence_span": "濕家之為病，一身盡疼，發熱，身色如似熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000358",
+      "evidence_span": "5.24濕家之為病，一身盡疼，發熱，身色如熏黃。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒六書",
+      "chapter_title": "",
+      "source_unit_id": "SU_BBA9FB4A6_000999",
+      "evidence_span": "濕家之為病，一分盡痛，發熱，身雖如似熏黃，小便不利，五苓散；",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC2BA03C0_000558",
+      "evidence_span": "濕家之為病，一身疼，發熱，身如熏黃，仍治風濕，脈浮身重，汗出惡風，宜",
+      "release_level": "gold"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "濕家病"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:15Z",
+  "protocol": "hermes-v5"
+}

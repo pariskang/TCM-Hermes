@@ -1,0 +1,371 @@
+{
+  "skill_id": "hermes.formula.fuling_sini_tang",
+  "kind": "formula",
+  "title": "茯苓四逆湯方證合併規則",
+  "subject": "茯苓四逆湯",
+  "abstracted_claim": "茯苓四逆湯可歸納為傷寒、太陽中風、太陽病、煩躁、渴、虛煩等方證的核心方（支持條文 20 條，跨 18 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FULING_SINI_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.907,
+  "supporting_initial_rules": [
+    "IR_B11498305_000152",
+    "IR_B1CAC3ADF_000236",
+    "IR_B2EB248E3_000034",
+    "IR_B3E16D849_001695",
+    "IR_B41512D4B_000216",
+    "IR_B434348CD_000105",
+    "IR_B5FF1CA1B_000182",
+    "IR_B8E444005_000143",
+    "IR_B8E444005_000419",
+    "IR_BBAACE965_000323",
+    "IR_BBAACE965_000527",
+    "IR_SHL_GUIBEN_000493",
+    "IR_SHL_LAISU_000659",
+    "IR_SHL_LUNZHU_000663",
+    "IR_SHL_MINGLI_000066",
+    "IR_SHL_QJYF_000333",
+    "IR_SHL_SONGBEN_000124",
+    "IR_SHL_SUYUAN_000279",
+    "IR_SHL_TIAOWEN_000078",
+    "IR_SHL_ZHUJIE_000284"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000152",
+      "IR_B1CAC3ADF_000236",
+      "IR_B2EB248E3_000034",
+      "IR_B3E16D849_001695",
+      "IR_B41512D4B_000216",
+      "IR_B434348CD_000105",
+      "IR_B5FF1CA1B_000182",
+      "IR_B8E444005_000143",
+      "IR_B8E444005_000419",
+      "IR_BBAACE965_000323",
+      "IR_BBAACE965_000527",
+      "IR_SHL_GUIBEN_000493",
+      "IR_SHL_LAISU_000659",
+      "IR_SHL_LUNZHU_000663",
+      "IR_SHL_MINGLI_000066",
+      "IR_SHL_QJYF_000333",
+      "IR_SHL_SONGBEN_000124",
+      "IR_SHL_SUYUAN_000279",
+      "IR_SHL_TIAOWEN_000078",
+      "IR_SHL_ZHUJIE_000284"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B3E16D849_003466",
+      "evidence_span": "病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "發汗吐下後病狀第五",
+      "source_unit_id": "SU_SHL_QJYF_000521",
+      "evidence_span": "發汗吐下以後不解，煩躁，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "中寒論辯證廣注",
+      "chapter_title": "芍藥甘草附子湯方",
+      "source_unit_id": "SU_B2EB248E3_000064",
+      "evidence_span": "若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_000757",
+      "evidence_span": "發汗若下之。病仍不解煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000569",
+      "evidence_span": "發汗若下之。病仍不解煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000203",
+      "evidence_span": "發汗若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "芍藥甘草附子湯方",
+      "source_unit_id": "SU_B41512D4B_000673",
+      "evidence_span": "發汗若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "太陽下編",
+      "source_unit_id": "SU_B5FF1CA1B_000256",
+      "evidence_span": "發汗若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_B8E444005_000246",
+      "evidence_span": "發汗若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "茯苓四逆湯",
+      "source_unit_id": "SU_B8E444005_000798",
+      "evidence_span": "發汗若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第六",
+      "source_unit_id": "SU_SHL_ZHUJIE_000681",
+      "evidence_span": "發汗若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "芍藥甘草附子湯方第二十九",
+      "source_unit_id": "SU_B1CAC3ADF_001047",
+      "evidence_span": "發汗、若下之。病仍不解。煩躁者。茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "四逆湯證下",
+      "source_unit_id": "SU_SHL_LAISU_000459",
+      "evidence_span": "發汗，若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "四逆湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_001156",
+      "evidence_span": "發汗，若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治中第六",
+      "source_unit_id": "SU_SHL_SONGBEN_000310",
+      "evidence_span": "發汗，若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_TIAOWEN_000157",
+      "evidence_span": "發汗，若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_SHL_GUIBEN_000520",
+      "evidence_span": "7.40發汗，若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒附翼",
+      "chapter_title": "少陰方總論",
+      "source_unit_id": "SU_B434348CD_000228",
+      "evidence_span": "前方去人參　甘草　茯苓發汗若下之，病仍不解，煩躁者，茯苓四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治中",
+      "source_unit_id": "SU_BBAACE965_001321",
+      "evidence_span": "而散表寒也。〔錢〕因發汗而又下之。病仍不解而煩躁。以茯苓四逆湯主之者。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒明理論",
+      "chapter_title": "煩躁",
+      "source_unit_id": "SU_SHL_MINGLI_000020",
+      "evidence_span": "傷寒煩躁，何以明之，煩為擾擾而煩，躁為憤躁之躁，合而言之，煩躁為熱也，析而分之，煩也躁也，有陰陽之別焉，煩、陽也，躁、陰也，煩為熱之輕者，躁為熱之甚者，經有煩疼、煩滿、煩渴、虛煩，皆以煩為熱也，有不煩而燥者，為怫怫然便作躁悶，此為陰盛隔陽也，雖大躁欲於泥水中臥，但飲水不得入口者是矣，所謂煩躁者，謂先煩漸至躁也，所謂躁煩者，謂先發躁而迤邐復煩者也，煩躁之由，又為不同，有邪氣在表而煩躁者，有邪氣在裏而煩躁者，有因火劫而煩躁者，有陽虛而煩躁者，有陰盛而煩躁者，皆不同也，經曰，當汗不汗，其人煩躁，太陽中風，脈浮而緊，不汗出而煩躁，大青龍湯主之者，是邪氣在表而煩躁者也，病人不大便五六日，繞臍痛，煩躁，發作有時，此有燥屎也，是邪氣在裏而煩躁者也，太陽病，以火熏之不得汗，其人必躁，太陽病二日反躁，火熨其背，令人大汗出，大熱入胃，躁煩者，火劫令煩躁者也，陽微發汗，躁不得眠，與之下後復發汗，晝日煩躁不得眠，夜而安靜，不嘔不渴，無表證，脈沉微，身無大熱者，乾薑附子湯主之者，及發汗若下之，病仍不去，煩躁者，茯苓四逆湯主之者，陽虛煩躁者也，少陰病，吐利手足冷，煩躁欲死者，吳茱萸湯主之者，陰盛而煩躁者也，諸如此者，症之常也，非逆也，設或結胸症悉具，煩躁者死，發熱下利，厥逆，躁不得臥者死，少陰病，吐利煩躁四逆者死，少陰病，四逆惡寒，而身踡，脈不至，不煩而躁者死，少陰病五六日自利，復煩躁不得臥寐者死，是數者，又皆為不治之症，嗚呼，煩躁為常有之疾，復有諸不治之症，臨病者之側，又當熟審焉。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "不大便",
+        "不得眠",
+        "傷寒",
+        "太陽中風",
+        "太陽病",
+        "汗出",
+        "渴",
+        "燥屎"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000066"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "人參",
+        "甘草",
+        "茯苓",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000325"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集",
+        "傷寒論條辨",
+        "傷寒貫珠集",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "甘草",
+        "茯苓",
+        "附子"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000323",
+        "IR_SHL_GUANZHU_000309",
+        "IR_SHL_LAISU_000661",
+        "IR_SHL_ZHUJIE_000288"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000183"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑一兩",
+        "人參二兩",
+        "甘草二兩",
+        "茯苓四兩",
+        "附子一枚"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000495"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 1
+      },
+      {
+        "term": "太陽中風",
+        "count": 1
+      },
+      {
+        "term": "太陽病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "煩躁",
+        "count": 20
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "虛煩",
+        "count": 1
+      },
+      {
+        "term": "躁煩",
+        "count": 1
+      },
+      {
+        "term": "汗出",
+        "count": 1
+      },
+      {
+        "term": "不大便",
+        "count": 1
+      },
+      {
+        "term": "燥屎",
+        "count": 1
+      },
+      {
+        "term": "不得眠",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈浮",
+        "count": 1
+      },
+      {
+        "term": "脈沉微",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "回陽益陰",
+        "count": 20
+      }
+    ]
+  },
+  "keywords": [
+    "茯苓四逆湯",
+    "傷寒",
+    "太陽中風",
+    "太陽病",
+    "煩躁",
+    "渴",
+    "虛煩",
+    "躁煩",
+    "汗出",
+    "脈浮",
+    "脈沉微"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

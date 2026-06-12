@@ -1,0 +1,67 @@
+{
+  "skill_id": "hermes.formula.formula_286c4db3",
+  "kind": "formula",
+  "title": "桂枝東加厚朴杏仁湯方證合併規則",
+  "subject": "桂枝東加厚朴杏仁湯",
+  "abstracted_claim": "桂枝東加厚朴杏仁湯可歸納為太陽病、喘等方證的核心方（支持條文 2 條，跨 1 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_286C4DB3",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B9119D083_000323",
+    "IR_B9119D083_000324"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B9119D083_000323",
+      "IR_B9119D083_000324"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "喘逆",
+      "source_unit_id": "SU_B9119D083_000796",
+      "evidence_span": "喘家有汗，桂枝東加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "喘逆",
+      "source_unit_id": "SU_B9119D083_000798",
+      "evidence_span": "太陽病，下之微喘者，表未解故也，桂枝東加厚朴杏仁湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "太陽病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "喘",
+        "count": 2
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝東加厚朴杏仁湯",
+    "太陽病",
+    "喘"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

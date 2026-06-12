@@ -1,0 +1,151 @@
+{
+  "skill_id": "hermes.formula.formula_d4b01d0e",
+  "kind": "formula",
+  "title": "桂枝生薑枳實湯方證合併規則",
+  "subject": "桂枝生薑枳實湯",
+  "abstracted_claim": "桂枝生薑枳實湯可歸納為痞、胸痹等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_D4B01D0E",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001084",
+    "IR_JGYH_ERZHU_000101",
+    "IR_JGYL_FANGLUN_000085",
+    "IR_JGYL_JIYI_000141",
+    "IR_JGYL_TIAOWEN_000085",
+    "IR_JGYL_XINDIAN_000088",
+    "IR_SHL_GUIBEN_001545"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001084",
+      "IR_JGYH_ERZHU_000101",
+      "IR_JGYL_FANGLUN_000085",
+      "IR_JGYL_JIYI_000141",
+      "IR_JGYL_TIAOWEN_000085",
+      "IR_JGYL_XINDIAN_000088",
+      "IR_SHL_GUIBEN_001545"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001440",
+      "evidence_span": "心中痞諸逆，心絞痛，桂枝生薑枳實湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000700",
+      "evidence_span": "心中痞。諸逆心懸痛。桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證一首、方十首",
+      "source_unit_id": "SU_JGYL_JIYI_001313",
+      "evidence_span": "心中痞。諸逆心懸痛。桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000352",
+      "evidence_span": "心中痞，諸逆，心懸痛，桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000350",
+      "evidence_span": "心中痞，諸逆，心懸痛，桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_XINDIAN_000592",
+      "evidence_span": "心中痞。諸逆。心懸痛。桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001344",
+      "evidence_span": "15.25胸痹，心中懸痛者，桂枝生薑枳實湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "胸痹"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001545"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "枳實",
+        "桂枝",
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001085"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "枳實五枚",
+        "桂枝三兩",
+        "生薑三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001546"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "痞",
+        "count": 6
+      },
+      {
+        "term": "胸痹",
+        "count": 1
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝生薑枳實湯",
+    "痞",
+    "胸痹"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

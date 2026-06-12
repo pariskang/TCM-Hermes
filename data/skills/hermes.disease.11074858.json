@@ -1,0 +1,57 @@
+{
+  "skill_id": "hermes.disease.11074858",
+  "kind": "disease",
+  "title": "寒陰陽易證治合併規則",
+  "subject": "寒陰陽易",
+  "abstracted_claim": "寒陰陽易相關條文 3 條；以證候/禁忌條文為主。",
+  "merged_rule_id": "MHR_DISEASE_11074858",
+  "release_level": "gold",
+  "consensus_score": 0.94,
+  "supporting_initial_rules": [
+    "IR_B07FA055B_000162",
+    "IR_SHL_LAISU_000747",
+    "IR_SHL_LUNZHU_000726"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_B07FA055B_000162",
+      "IR_SHL_LAISU_000747",
+      "IR_SHL_LUNZHU_000726"
+    ],
+    "silver": [],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000223",
+      "evidence_span": "枳實　梔子　香豉傷寒陰陽易之為病其人身體重少氣少腹裡急或引陰中筋攣熱上衝胸頭重不欲舉眼中生花膝脛拘急者燒　散主之（陰陽易）",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000528",
+      "evidence_span": "傷寒陰陽易之為病，其人身體重，少氣，少腹裏急，小便不利，陰中拘攀，熱上衝胸，頭重不欲舉，眼中生花，膝脛拘急者，燒褌散主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_001310",
+      "evidence_span": "傷寒陰陽易之為病，其人身體重，少氣，少腹裡急，小便不利，陰中拘攣，熱上衝胸，頭重不欲舉，眼中生花，膝脛拘急者，燒　散主之。",
+      "release_level": "gold"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "寒陰陽易"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:15Z",
+  "protocol": "hermes-v5"
+}

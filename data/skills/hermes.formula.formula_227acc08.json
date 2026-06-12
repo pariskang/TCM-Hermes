@@ -1,0 +1,61 @@
+{
+  "skill_id": "hermes.formula.formula_227acc08",
+  "kind": "formula",
+  "title": "猪苓散方證合併規則",
+  "subject": "猪苓散",
+  "abstracted_claim": "猪苓散可歸納為嘔吐等方證的核心方（支持條文 2 條，跨 2 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_227ACC08",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000207",
+    "IR_JGYL_TIAOWEN_000207"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000207",
+      "IR_JGYL_TIAOWEN_000207"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000751",
+      "evidence_span": "嘔吐而病在膈上，後思水者，解，急與之。思水者，猪苓散主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000749",
+      "evidence_span": "嘔吐而病在膈上，後思水者，解，急與之。思水者，猪苓散主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "嘔吐",
+        "count": 2
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "猪苓散",
+    "嘔吐"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

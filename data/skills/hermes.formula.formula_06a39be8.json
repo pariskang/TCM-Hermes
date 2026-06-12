@@ -1,0 +1,344 @@
+{
+  "skill_id": "hermes.formula.formula_06a39be8",
+  "kind": "formula",
+  "title": "黃連湯方證合併規則",
+  "subject": "黃連湯",
+  "abstracted_claim": "黃連湯可歸納為嘔吐、傷寒、欲嘔、腹中痛等方證的核心方（支持條文 24 條，跨 21 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_06A39BE8",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000317",
+    "IR_B11498305_000519",
+    "IR_B1CAC3ADF_000506",
+    "IR_B3E16D849_001500",
+    "IR_B3E16D849_001529",
+    "IR_B41512D4B_000496",
+    "IR_B5C5ECAC2_000078",
+    "IR_B5FF1CA1B_000549",
+    "IR_B8E444005_000392",
+    "IR_B9119D083_000302",
+    "IR_B9119D083_000656",
+    "IR_BB7301DF2_000221",
+    "IR_BB7301DF2_000249",
+    "IR_BBAACE965_000795",
+    "IR_BC91F4420_000329",
+    "IR_SHL_GUANZHU_000311",
+    "IR_SHL_GUIBEN_000739",
+    "IR_SHL_LAISU_000565",
+    "IR_SHL_LUNZHU_000560",
+    "IR_SHL_QJYF_000119",
+    "IR_SHL_SONGBEN_000256",
+    "IR_SHL_SUYUAN_001050",
+    "IR_SHL_TIAOWEN_000210",
+    "IR_SHL_ZHUJIE_000581"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000317",
+      "IR_B11498305_000519",
+      "IR_B1CAC3ADF_000506",
+      "IR_B3E16D849_001500",
+      "IR_B3E16D849_001529",
+      "IR_B41512D4B_000496",
+      "IR_B5C5ECAC2_000078",
+      "IR_B5FF1CA1B_000549",
+      "IR_B8E444005_000392",
+      "IR_B9119D083_000302",
+      "IR_B9119D083_000656",
+      "IR_BB7301DF2_000221",
+      "IR_BB7301DF2_000249",
+      "IR_BBAACE965_000795",
+      "IR_BC91F4420_000329",
+      "IR_SHL_GUANZHU_000311",
+      "IR_SHL_GUIBEN_000739",
+      "IR_SHL_LAISU_000565",
+      "IR_SHL_LUNZHU_000560",
+      "IR_SHL_QJYF_000119",
+      "IR_SHL_SONGBEN_000256",
+      "IR_SHL_SUYUAN_001050",
+      "IR_SHL_TIAOWEN_000210",
+      "IR_SHL_ZHUJIE_000581"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第六十九證‧腹痛歌",
+      "source_unit_id": "SU_BB7301DF2_000209",
+      "evidence_span": "欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "黃芩加半夏生薑湯方第六十七",
+      "source_unit_id": "SU_B1CAC3ADF_001564",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "脅滿腹痛",
+      "source_unit_id": "SU_B3E16D849_003022",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔",
+      "source_unit_id": "SU_B3E16D849_003069",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "瓜蒂散方",
+      "source_unit_id": "SU_B41512D4B_001053",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "少陽本病述古",
+      "source_unit_id": "SU_B5C5ECAC2_000488",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "黃連湯",
+      "source_unit_id": "SU_B8E444005_000728",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "太陰證治第十七",
+      "source_unit_id": "SU_SHL_SUYUAN_002394",
+      "evidence_span": "胃中有邪氣。腹中痛。欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "臟結結胸痞痛",
+      "source_unit_id": "SU_B5FF1CA1B_000894",
+      "evidence_span": "傷寒胸中有熱胃中有邪氣腹中痛欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第六十四證‧乾嘔歌",
+      "source_unit_id": "SU_BB7301DF2_000191",
+      "evidence_span": "胸中有熱。胃中有邪氣。腹中痛欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "藏結結胸痞篇",
+      "source_unit_id": "SU_B11498305_000704",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001886",
+      "evidence_span": "傷寒胸中有熱。胃中有邪氣。腹中痛欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "嘔吐",
+      "source_unit_id": "SU_B9119D083_000740",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "腹痛",
+      "source_unit_id": "SU_B9119D083_001706",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "誤汗下及吐後諸變脈證十三條",
+      "source_unit_id": "SU_SHL_GUANZHU_000174",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "黃連湯證",
+      "source_unit_id": "SU_SHL_LAISU_000382",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "黃連湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000949",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病雜療法第七",
+      "source_unit_id": "SU_SHL_QJYF_000144",
+      "evidence_span": "傷寒，胸中有熱，胃中有邪氣，腹中痛，欲嘔吐，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000533",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000380",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001020",
+      "evidence_span": "傷寒胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治下編第三",
+      "source_unit_id": "SU_BC91F4420_000722",
+      "evidence_span": "（三十五）傷寒胸中有熱。胃中有邪氣。腹中痛欲嘔吐者。黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000686",
+      "evidence_span": "8.51傷寒，胸中有熱，胃中有邪氣，腹中痛，欲嘔者，黃連湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B0B74DF58_000672",
+      "evidence_span": "**十五、傷寒，胸中有熱，胃中有邪氣，腹中痛，欲嘔吐者，黃連湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "半夏",
+        "大棗",
+        "桂枝",
+        "甘草",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000797",
+        "IR_BC91F4420_000330",
+        "IR_SHL_GUANZHU_000312"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參二兩",
+        "半夏半升",
+        "大棗十二枚",
+        "桂枝三兩",
+        "甘草三兩",
+        "黃連三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000740"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "桂枝",
+        "甘草",
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000583"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "黃連"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000457"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "嘔吐",
+        "count": 23
+      },
+      {
+        "term": "傷寒",
+        "count": 15
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "欲嘔",
+        "count": 24
+      },
+      {
+        "term": "腹中痛",
+        "count": 23
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "黃連湯",
+    "嘔吐",
+    "傷寒",
+    "欲嘔",
+    "腹中痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

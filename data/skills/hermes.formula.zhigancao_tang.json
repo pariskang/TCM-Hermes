@@ -1,0 +1,600 @@
+{
+  "skill_id": "hermes.formula.zhigancao_tang",
+  "kind": "formula",
+  "title": "炙甘草湯方證合併規則",
+  "subject": "炙甘草湯",
+  "abstracted_claim": "炙甘草湯可歸納為傷寒、溫病、肺痿、心動悸、口噤、心下悸等方證的核心方（支持條文 29 條，跨 23 部書）。",
+  "merged_rule_id": "MHR_FORMULA_ZHIGANCAO_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.911,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000242",
+    "IR_B11498305_000129",
+    "IR_B11498305_001013",
+    "IR_B18FAB5FB_000132",
+    "IR_B1CAC3ADF_000515",
+    "IR_B3E16D849_001834",
+    "IR_B41512D4B_000503",
+    "IR_B5C5ECAC2_000378",
+    "IR_B8E444005_000424",
+    "IR_B9FC1D1C8_000018",
+    "IR_BB7301DF2_000217",
+    "IR_BBAACE965_000824",
+    "IR_BBAACE965_000826",
+    "IR_BC91F4420_000202",
+    "IR_BF5CDC206_000193",
+    "IR_CAOSHI_FAWEI_000674",
+    "IR_JF_SHIYANLU_000121",
+    "IR_JF_SHIYANLU_000122",
+    "IR_SHL_GUIBEN_000745",
+    "IR_SHL_GUIBEN_001397",
+    "IR_SHL_LAISU_000283",
+    "IR_SHL_LAISU_000739",
+    "IR_SHL_LUNZHU_000275",
+    "IR_SHL_LUNZHU_000721",
+    "IR_SHL_QJYF_000124",
+    "IR_SHL_SONGBEN_000261",
+    "IR_SHL_SUYUAN_000202",
+    "IR_SHL_TIAOWEN_000215",
+    "IR_SHL_ZHUJIE_000595"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000242",
+      "IR_B11498305_000129",
+      "IR_B11498305_001013",
+      "IR_B18FAB5FB_000132",
+      "IR_B1CAC3ADF_000515",
+      "IR_B3E16D849_001834",
+      "IR_B41512D4B_000503",
+      "IR_B5C5ECAC2_000378",
+      "IR_B8E444005_000424",
+      "IR_B9FC1D1C8_000018",
+      "IR_BB7301DF2_000217",
+      "IR_BBAACE965_000824",
+      "IR_BBAACE965_000826",
+      "IR_BC91F4420_000202",
+      "IR_BF5CDC206_000193",
+      "IR_CAOSHI_FAWEI_000674",
+      "IR_JF_SHIYANLU_000121",
+      "IR_JF_SHIYANLU_000122",
+      "IR_SHL_GUIBEN_000745",
+      "IR_SHL_GUIBEN_001397",
+      "IR_SHL_LAISU_000283",
+      "IR_SHL_LAISU_000739",
+      "IR_SHL_LUNZHU_000275",
+      "IR_SHL_LUNZHU_000721",
+      "IR_SHL_QJYF_000124",
+      "IR_SHL_SONGBEN_000261",
+      "IR_SHL_SUYUAN_000202",
+      "IR_SHL_TIAOWEN_000215",
+      "IR_SHL_ZHUJIE_000595"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000174",
+      "evidence_span": "傷寒脈結代心動悸者，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "白虎湯方第七十一",
+      "source_unit_id": "SU_B1CAC3ADF_001598",
+      "evidence_span": "傷寒脈結代。心動悸。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "黃連湯方",
+      "source_unit_id": "SU_B41512D4B_001070",
+      "evidence_span": "傷寒脈結代。心動悸。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001961",
+      "evidence_span": "傷寒脈結代。心動悸。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "太陽病雜療法第七",
+      "source_unit_id": "SU_SHL_QJYF_000150",
+      "evidence_span": "傷寒脈結代，心動悸，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001045",
+      "evidence_span": "傷寒脈結代，心動悸，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "炙甘草湯",
+      "source_unit_id": "SU_B8E444005_000813",
+      "evidence_span": "傷寒脈結代。心動悸者。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒百證歌",
+      "chapter_title": "第六十二證‧心悸歌",
+      "source_unit_id": "SU_BB7301DF2_000185",
+      "evidence_span": "傷寒。脈結代。心動悸。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "復脈湯證",
+      "source_unit_id": "SU_SHL_LAISU_000520",
+      "evidence_span": "傷寒脈結代，心動悸者，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "復脈湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001292",
+      "evidence_span": "傷寒脈結代，心動悸者，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000552",
+      "evidence_span": "傷寒，脈結代，心動悸，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "傷寒證治第二",
+      "source_unit_id": "SU_SHL_SUYUAN_000441",
+      "evidence_span": "傷寒脈結代。心動悸者。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000399",
+      "evidence_span": "傷寒，脈結代，心動悸，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒指掌",
+      "chapter_title": "心下悸（述古）",
+      "source_unit_id": "SU_B5C5ECAC2_001459",
+      "evidence_span": "脈結代。心動悸者。陰液涸也。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000467",
+      "evidence_span": "（三十九）傷寒脈結代。心動悸。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "厥陰篇",
+      "source_unit_id": "SU_BF5CDC206_000213",
+      "evidence_span": "而他臟代之。心動悸。心氣不寧。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000690",
+      "evidence_span": "8.53傷寒，脈結促，心動悸者，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒發微論",
+      "chapter_title": "論傷寒七十二證候",
+      "source_unit_id": "SU_B9FC1D1C8_000063",
+      "evidence_span": "心下悸動（傷寒脈結代。心下悸動者。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "厥陰經脈",
+      "source_unit_id": "SU_B3E16D849_003782",
+      "evidence_span": "【綱】仲景曰。傷寒脈結代。心動悸者。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000731",
+      "evidence_span": "心營耗損。煩熱而動悸。此證脈結代。則炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001985",
+      "evidence_span": "為陰盛之脈。故謂之代陰也。上文雖云脈結代者。皆以炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒捷訣",
+      "chapter_title": "心動悸",
+      "source_unit_id": "SU_B18FAB5FB_000165",
+      "evidence_span": "此陽氣虛也。宜小建中湯主之。有因傷寒脈結代而心動悸者。宜炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001219",
+      "evidence_span": "14.25咳而唾涎沫不止，咽燥，口渴，其脈浮細而數者，此為肺痿，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第五六案　炙甘草湯證　其二穎師醫案",
+      "source_unit_id": "SU_JF_SHIYANLU_000327",
+      "evidence_span": "唐左，初診，十月二十日，脈結代，心動悸，炙甘草湯主之，此仲景先師之法，不可更變者也。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
+      "source_unit_id": "SU_B0B74DF58_000456",
+      "evidence_span": "**四十三、傷寒脈結代**(是結脈和代脈的並稱。景岳說：「脈來忽止，止而復起，總謂之結。」代者更代之意，於平脈中忽見軟弱，或乍疏乍數，或斷而復起，均名為代)**，心動悸**（者）**，炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "經方實驗錄",
+      "chapter_title": "第五五案　炙甘草湯證　其一穎師講授　佐景筆記",
+      "source_unit_id": "SU_JF_SHIYANLU_000323",
+      "evidence_span": "**師曰：**律師姚建，現住小西門外大興街，嘗來請診，眠食無恙，按其脈結代，約十餘至一停，或二三十至一停不等，又以事繁，心常跳躍不寧，此仲師所謂心動悸，脈結代，炙甘草湯主之之證是也，因書經方與之，服十餘劑而瘥。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "痙濕暑證",
+      "source_unit_id": "SU_SHL_LUNZHU_000504",
+      "evidence_span": "獨有頭面動搖，卒然口噤，背反如張弓者，與傷寒不相似，故名之曰痙耳。此汗多亡液，不轉屬陽明而成痙者。以發汗太驟，形身之津液暴脫，而胃家津液未干，故變見者仍是太陽表症，而治法當滋陰以急和其裡，勿得以沉細為可溫也。炙甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "痙溼暑證",
+      "source_unit_id": "SU_SHL_LAISU_000202",
+      "evidence_span": "痙為病，胸滿口噤，臥不著席，腳攣急，必吤齒，可與大承氣湯。[太陽脈本浮，今反沉者，營氣微也，細者，陽氣少也，身熱而足寒者，下焦虛也，頭痛雖止，而頸項強急惡寒之症未罷，更時見面赤目赤，是將轉屬於陽明，然諸症皆與傷寒相似而非，痙獨有頭面動搖，卒然口噤，背反如張弓者，與傷寒不相似，故名之曰痙耳，此汗多亡液，不轉屬陽明而成痙者，以發汗太驟，形身之津液暴脫，而胃家津液未乾，故變見者，仍是太陽表症，而治法當滋陰以急相其裏，勿得以沉細為可溫也，炙甘草湯主之，金匱用桂枝湯君栝蔞根，恐不勝其任。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "辨舌",
+      "source_unit_id": "SU_B11498305_001489",
+      "evidence_span": "灰黑舌者，足三陰互痛如以青和入黑中則為灰色也，然有傳經直中之殊，蓋傳經熱邪始自白胎而黃，黃而灰黑或生芒刺，黑點紋裂乾燥，不拘在根在尖，俱宜攻下泄熱有淡灰色中起深黑重暈者乃溫病，熱毒急用涼膈雙解治之，熱毒內傳一次，見暈一重傳二三次，見二三重也，若見三重者不治，若直中三陰始病無躁熱便見灰色舌潤無胎，更不變別色者，此必內夾寒食及冷痰水飲或畜水如狂等證，當隨證治之，又有感冒夾食屢汗下，消導二便已通，而古上灰黑未退，或濕潤或雖不濕亦不乾燥者，不可因其濕而誤認寒妄投薑附亦不可，因其不潤而誤與硝黃，此因汗下過傷津液，虛火上炎所致，其脈必虛微少力治宜救陰為急雖無心悸脈代，當用炙甘草湯主之，有生地阿膠麻仁麥冬之甘潤，可以滋陰潤燥，蓋陽邪亢盛，則用硝黃以救陰，陰血枯涸，則宜生地以滋陰，可不辦乎。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B0B74DF58",
+      "book_title": "傷寒恆論",
+      "distinct_conditions": [
+        "脈和"
+      ],
+      "rule_ids": [
+        "IR_B0B74DF58_000242"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B11498305",
+      "book_title": "傷寒纘論·傷寒緒論",
+      "distinct_conditions": [
+        "溫病",
+        "脈代"
+      ],
+      "rule_ids": [
+        "IR_B11498305_000129",
+        "IR_B11498305_001013"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9FC1D1C8",
+      "book_title": "傷寒發微論",
+      "distinct_conditions": [
+        "心下悸"
+      ],
+      "rule_ids": [
+        "IR_B9FC1D1C8_000018"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "口渴",
+        "咳",
+        "肺痿",
+        "脈浮",
+        "脈結"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000745",
+        "IR_SHL_GUIBEN_001397"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_LAISU",
+      "book_title": "傷寒來蘇集",
+      "distinct_conditions": [
+        "惡寒",
+        "目赤",
+        "胸滿",
+        "面赤",
+        "頭痛"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000283",
+        "IR_SHL_LAISU_000739"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "人參",
+        "桂枝",
+        "炙甘草",
+        "甘草",
+        "生地黃",
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000825"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "清酒七升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000109"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參二兩",
+        "大棗十二枚",
+        "桂枝三兩",
+        "清酒七升",
+        "甘草四兩",
+        "生薑三兩",
+        "阿膠二兩",
+        "麥門冬半升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000746"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "人參二兩",
+        "大棗三十枚",
+        "桂枝三兩",
+        "甘草四兩",
+        "生薑三兩",
+        "阿膠二兩",
+        "麥門冬半升"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001399"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒來蘇集"
+      ],
+      "composition": [
+        "人參",
+        "大棗",
+        "桂枝",
+        "清酒",
+        "炙甘草",
+        "甘草",
+        "生地黃",
+        "生薑",
+        "酸棗仁",
+        "阿膠",
+        "麥門冬"
+      ],
+      "rule_ids": [
+        "IR_SHL_LAISU_000740"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "人參",
+        "桂枝",
+        "炙甘草",
+        "甘草",
+        "生薑"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_000597"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_001013"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_JF_SHIYANLU_000122"
+      ],
+      "book_title": "經方實驗錄"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_LAISU_000283"
+      ],
+      "book_title": "傷寒來蘇集"
+    },
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現炙甘草湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_SHL_LUNZHU_000275"
+      ],
+      "book_title": "傷寒論注"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "傷寒",
+        "count": 21
+      },
+      {
+        "term": "溫病",
+        "count": 1
+      },
+      {
+        "term": "肺痿",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心動悸",
+        "count": 22
+      },
+      {
+        "term": "口噤",
+        "count": 2
+      },
+      {
+        "term": "心下悸",
+        "count": 1
+      },
+      {
+        "term": "咳",
+        "count": 1
+      },
+      {
+        "term": "口渴",
+        "count": 1
+      },
+      {
+        "term": "胸滿",
+        "count": 1
+      },
+      {
+        "term": "頭痛",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "面赤",
+        "count": 1
+      },
+      {
+        "term": "目赤",
+        "count": 1
+      }
+    ],
+    "pulse": [
+      {
+        "term": "脈結代",
+        "count": 23
+      },
+      {
+        "term": "脈和",
+        "count": 1
+      },
+      {
+        "term": "脈代",
+        "count": 1
+      },
+      {
+        "term": "脈結",
+        "count": 1
+      },
+      {
+        "term": "脈浮",
+        "count": 1
+      }
+    ],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "益氣滋陰",
+        "count": 29
+      },
+      {
+        "term": "通陽復脈",
+        "count": 29
+      }
+    ]
+  },
+  "keywords": [
+    "炙甘草湯",
+    "傷寒",
+    "溫病",
+    "肺痿",
+    "心動悸",
+    "口噤",
+    "心下悸",
+    "咳",
+    "口渴",
+    "脈結代",
+    "脈和",
+    "脈代",
+    "脈結",
+    "脈浮"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

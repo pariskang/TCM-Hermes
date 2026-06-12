@@ -1,0 +1,263 @@
+{
+  "skill_id": "hermes.formula.formula_e2bb8597",
+  "kind": "formula",
+  "title": "半夏散及湯方證合併規則",
+  "subject": "半夏散及湯",
+  "abstracted_claim": "半夏散及湯可歸納為少陰病等方證的核心方（支持條文 21 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E2BB8597",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000679",
+    "IR_B11498305_000404",
+    "IR_B1CAC3ADF_000784",
+    "IR_B41512D4B_000989",
+    "IR_B5FF1CA1B_000433",
+    "IR_B8E444005_000240",
+    "IR_B8E444005_000432",
+    "IR_B9119D083_000201",
+    "IR_BBAACE965_001228",
+    "IR_BC91F4420_000490",
+    "IR_BF5CDC206_000131",
+    "IR_BF5CDC206_000176",
+    "IR_CAOSHI_FAWEI_000751",
+    "IR_SHL_GUIBEN_001025",
+    "IR_SHL_LAISU_000701",
+    "IR_SHL_LUNZHU_000689",
+    "IR_SHL_QJYF_000230",
+    "IR_SHL_SONGBEN_000386",
+    "IR_SHL_SUYUAN_001189",
+    "IR_SHL_TIAOWEN_000340",
+    "IR_SHL_ZHUJIE_000893"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000679",
+      "IR_B11498305_000404",
+      "IR_B1CAC3ADF_000784",
+      "IR_B41512D4B_000989",
+      "IR_B5FF1CA1B_000433",
+      "IR_B8E444005_000240",
+      "IR_B8E444005_000432",
+      "IR_B9119D083_000201",
+      "IR_BBAACE965_001228",
+      "IR_BC91F4420_000490",
+      "IR_BF5CDC206_000131",
+      "IR_BF5CDC206_000176",
+      "IR_CAOSHI_FAWEI_000751",
+      "IR_SHL_GUIBEN_001025",
+      "IR_SHL_LAISU_000701",
+      "IR_SHL_LUNZHU_000689",
+      "IR_SHL_QJYF_000230",
+      "IR_SHL_SONGBEN_000386",
+      "IR_SHL_SUYUAN_001189",
+      "IR_SHL_TIAOWEN_000340",
+      "IR_SHL_ZHUJIE_000893"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "苦酒湯方",
+      "source_unit_id": "SU_B41512D4B_002028",
+      "evidence_span": "少陰病咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "少陰下編",
+      "source_unit_id": "SU_B5FF1CA1B_000718",
+      "evidence_span": "少陰病咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "咽痛",
+      "source_unit_id": "SU_B9119D083_000460",
+      "evidence_span": "少陰病咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001397",
+      "evidence_span": "少陰病咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "少陰下篇",
+      "source_unit_id": "SU_B11498305_000546",
+      "evidence_span": "少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "苦酒湯方第九十三",
+      "source_unit_id": "SU_B1CAC3ADF_002076",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "半夏散（並湯）",
+      "source_unit_id": "SU_B8E444005_000848",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002873",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000163",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000841",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "附咽痛諸方",
+      "source_unit_id": "SU_SHL_LUNZHU_001214",
+      "evidence_span": "少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000296",
+      "evidence_span": "少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000754",
+      "evidence_span": "少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰後篇證治第二十",
+      "source_unit_id": "SU_SHL_SUYUAN_002760",
+      "evidence_span": "少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000601",
+      "evidence_span": "少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "少陰〔後〕篇",
+      "source_unit_id": "SU_B0B74DF58_001389",
+      "evidence_span": "**十二、少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001130",
+      "evidence_span": "（三十二）少陰病。咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "咽痛",
+      "source_unit_id": "SU_B8E444005_000338",
+      "evidence_span": "不瘥者與桔梗湯。又云。少陰病咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000919",
+      "evidence_span": "11.34少陰病，咽中痛，脈反浮者，半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000198",
+      "evidence_span": "甚則兼及於肺而宜斂也。第三十三節云。少陰病咽中痛。半夏散及湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "豬膚湯證",
+      "source_unit_id": "SU_SHL_LAISU_000484",
+      "evidence_span": "桔梗湯，甘草、桔梗〔各二兩〕，餘同前法。少陰病，咽中痛，半夏散及湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "傷寒論輯義",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "半夏",
+        "桂枝",
+        "甘草"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001229",
+        "IR_BC91F4420_000491",
+        "IR_SHL_ZHUJIE_000894"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000752"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 21
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "半夏散及湯",
+    "少陰病"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,132 @@
+{
+  "skill_id": "hermes.formula.formula_e5bd4419",
+  "kind": "formula",
+  "title": "澤瀉湯方證合併規則",
+  "subject": "澤瀉湯",
+  "abstracted_claim": "澤瀉湯可歸納為支飲等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E5BD4419",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001151",
+    "IR_JGYH_ERZHU_000140",
+    "IR_JGYL_FANGLUN_000122",
+    "IR_JGYL_JIYI_000208",
+    "IR_JGYL_TIAOWEN_000122",
+    "IR_JGYL_XINDIAN_000121",
+    "IR_SHL_GUIBEN_001417"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001151",
+      "IR_JGYH_ERZHU_000140",
+      "IR_JGYL_FANGLUN_000122",
+      "IR_JGYL_JIYI_000208",
+      "IR_JGYL_TIAOWEN_000122",
+      "IR_JGYL_XINDIAN_000121",
+      "IR_SHL_GUIBEN_001417"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001579",
+      "evidence_span": "心上有支飲，其人苦冒眩，澤瀉湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYH_ERZHU_000991",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_FANGLUN_000506",
+      "evidence_span": "心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十一條、方十九首",
+      "source_unit_id": "SU_JGYL_JIYI_001830",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "痰飲咳嗽病脈證并治第十二",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000504",
+      "evidence_span": "心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "痰飲咳嗽病脈證治第十二",
+      "source_unit_id": "SU_JGYL_XINDIAN_000843",
+      "evidence_span": "心下有支飲。其人苦冒眩。澤瀉湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨咳嗽水飲黃汗歷節病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001237",
+      "evidence_span": "14.37心下有支飲，其人苦冒眩，澤瀉湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "澤瀉五兩",
+        "白朮二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001418"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "澤瀉"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001152"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "支飲",
+        "count": 7
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "澤瀉湯",
+    "支飲"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

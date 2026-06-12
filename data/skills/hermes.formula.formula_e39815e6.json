@@ -1,0 +1,201 @@
+{
+  "skill_id": "hermes.formula.formula_e39815e6",
+  "kind": "formula",
+  "title": "茱萸湯方證合併規則",
+  "subject": "茱萸湯",
+  "abstracted_claim": "茱萸湯可歸納為少陰病、嘔吐、胸滿、頭痛、吐利、煩躁等方證的核心方（支持條文 11 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_E39815E6",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B3E520529_000051",
+    "IR_BBAACE965_001049",
+    "IR_BBAACE965_001377",
+    "IR_JGYH_ERZHU_000260",
+    "IR_JGYL_FANGLUN_000201",
+    "IR_JGYL_FANGLUN_000202",
+    "IR_JGYL_JIYI_000341",
+    "IR_JGYL_JIYI_000342",
+    "IR_JGYL_TIAOWEN_000201",
+    "IR_JGYL_TIAOWEN_000202",
+    "IR_SHL_QJYF_000224"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B3E520529_000051",
+      "IR_BBAACE965_001049",
+      "IR_BBAACE965_001377",
+      "IR_JGYH_ERZHU_000260",
+      "IR_JGYL_FANGLUN_000201",
+      "IR_JGYL_FANGLUN_000202",
+      "IR_JGYL_JIYI_000341",
+      "IR_JGYL_JIYI_000342",
+      "IR_JGYL_TIAOWEN_000201",
+      "IR_JGYL_TIAOWEN_000202",
+      "IR_SHL_QJYF_000224"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001458",
+      "evidence_span": "嘔而胸滿者。茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000737",
+      "evidence_span": "嘔而胸滿者，茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002726",
+      "evidence_span": "嘔而胸滿者。茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000735",
+      "evidence_span": "嘔而胸滿者，茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002733",
+      "evidence_span": "乾嘔吐涎沫。頭痛者。茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨陽明病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002442",
+      "evidence_span": "金匱要略。嘔而胸滿者。茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨厥陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003257",
+      "evidence_span": "金匱要略。嘔而胸滿者。茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000741",
+      "evidence_span": "乾嘔，吐涎沫，頭痛者，茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000739",
+      "evidence_span": "乾嘔，吐涎沫，頭痛者，茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "少陰證",
+      "source_unit_id": "SU_B3E520529_000064",
+      "evidence_span": "少陰病吐利，手足厥冷，煩躁欲死者，茱萸湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000288",
+      "evidence_span": "少陰病，吐利，手足逆，煩躁欲死者，茱萸湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B3E520529",
+      "book_title": "傷寒總病論",
+      "distinct_conditions": [
+        "手足厥冷"
+      ],
+      "rule_ids": [
+        "IR_B3E520529_000051"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_JGYL_JIYI",
+      "book_title": "金匱玉函要略輯義",
+      "distinct_conditions": [
+        "嘔吐"
+      ],
+      "rule_ids": [
+        "IR_JGYL_JIYI_000341",
+        "IR_JGYL_JIYI_000342"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 2
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "胸滿",
+        "count": 6
+      },
+      {
+        "term": "頭痛",
+        "count": 3
+      },
+      {
+        "term": "吐利",
+        "count": 2
+      },
+      {
+        "term": "煩躁",
+        "count": 2
+      },
+      {
+        "term": "乾嘔",
+        "count": 2
+      },
+      {
+        "term": "手足厥冷",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "茱萸湯",
+    "少陰病",
+    "嘔吐",
+    "胸滿",
+    "頭痛",
+    "吐利",
+    "煩躁",
+    "乾嘔"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

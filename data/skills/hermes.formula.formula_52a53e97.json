@@ -1,0 +1,216 @@
+{
+  "skill_id": "hermes.formula.formula_52a53e97",
+  "kind": "formula",
+  "title": "桂枝去桂加茯苓白朮湯方證合併規則",
+  "subject": "桂枝去桂加茯苓白朮湯",
+  "abstracted_claim": "桂枝去桂加茯苓白朮湯可歸納為小便不利、太陽病、無汗、心下滿、頭項強痛、翕翕發熱等方證的核心方（支持條文 8 條，跨 8 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_52A53E97",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B11498305_000151",
+    "IR_B8E444005_000197",
+    "IR_BBAACE965_000103",
+    "IR_CAOSHI_FAWEI_000065",
+    "IR_SHL_GUIBEN_000396",
+    "IR_SHL_LUNZHU_000084",
+    "IR_SHL_SONGBEN_000074",
+    "IR_SHL_TIAOWEN_000028"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B11498305_000151",
+      "IR_B8E444005_000197",
+      "IR_BBAACE965_000103",
+      "IR_CAOSHI_FAWEI_000065",
+      "IR_SHL_GUIBEN_000396",
+      "IR_SHL_LUNZHU_000084",
+      "IR_SHL_SONGBEN_000074",
+      "IR_SHL_TIAOWEN_000028"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "太陽篇",
+      "source_unit_id": "SU_CAOSHI_FAWEI_000107",
+      "evidence_span": "心下懣。微痛。小便不利。桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_BBAACE965_000277",
+      "evidence_span": "無汗。心下滿微痛。小便不利者。桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "頭痛",
+      "source_unit_id": "SU_B8E444005_000300",
+      "evidence_span": "服桂枝湯。或下之。仍頭項強痛翕翕發熱無汗心下滿微痛小便不利者。桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "桂枝湯證下",
+      "source_unit_id": "SU_SHL_LUNZHU_000146",
+      "evidence_span": "服桂枝湯，或下之，仍頭項強痛，翕翕發熱，無汗，心下滿微痛，小便不利者，桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治上第五",
+      "source_unit_id": "SU_SHL_SONGBEN_000208",
+      "evidence_span": "服桂枝湯，或下之，仍頭項強痛，翕翕發熱，無汗，心下滿微痛，小便不利者，桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_SHL_TIAOWEN_000055",
+      "evidence_span": "服桂枝湯，或下之，仍頭項強痛，翕翕發熱，無汗，心下滿微痛，小便不利者，桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治上",
+      "source_unit_id": "SU_SHL_GUIBEN_000454",
+      "evidence_span": "6.29太陽病，服桂枝湯，或下之，仍頭項強痛，翕翕發熱，無汗，心下滿，微痛，小便不利者，桂枝去桂加茯苓白朮湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "太陽下篇",
+      "source_unit_id": "SU_B11498305_000202",
+      "evidence_span": "服桂枝湯或下之，仍頭項強痛，翕翕發熱，無汗，心下滿微痛，小便不利者，桂枝去桂加茯苓白朮湯主之，治風而遺其寒，所以不解而證變，則在表之風寒未除，而在裏之水飲上逆，故變五苓而用白朮茯苓為主治，去桂枝者，已誤不可復用也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "太陽病"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000396"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "大棗",
+        "桂枝",
+        "甘草",
+        "生薑",
+        "白朮",
+        "芍藥",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000106"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "曹氏傷寒金匱發微合刊",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "桂枝",
+        "白朮",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000279",
+        "IR_CAOSHI_FAWEI_000066",
+        "IR_SHL_ZHUJIE_001148"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "大棗十二枚",
+        "甘草二兩",
+        "生薑三兩",
+        "白朮三兩",
+        "芍藥三兩",
+        "茯苓三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000311",
+        "IR_SHL_GUIBEN_000397"
+      ]
+    }
+  ],
+  "conflict_set": [
+    {
+      "kind": "indication_vs_prohibition",
+      "message": "證據中同時出現桂枝去桂加茯苓白朮湯應用與禁忌表述，需按條件區分。",
+      "rule_ids": [
+        "IR_B11498305_000151"
+      ],
+      "book_title": "傷寒纘論·傷寒緒論"
+    }
+  ],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "小便不利",
+        "count": 8
+      },
+      {
+        "term": "太陽病",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "無汗",
+        "count": 7
+      },
+      {
+        "term": "心下滿",
+        "count": 7
+      },
+      {
+        "term": "頭項強痛",
+        "count": 6
+      },
+      {
+        "term": "翕翕發熱",
+        "count": 6
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "桂枝去桂加茯苓白朮湯",
+    "小便不利",
+    "太陽病",
+    "無汗",
+    "心下滿",
+    "頭項強痛",
+    "翕翕發熱"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

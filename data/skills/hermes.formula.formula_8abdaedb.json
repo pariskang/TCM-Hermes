@@ -1,0 +1,141 @@
+{
+  "skill_id": "hermes.formula.formula_8abdaedb",
+  "kind": "formula",
+  "title": "茯苓杏仁甘草湯方證合併規則",
+  "subject": "茯苓杏仁甘草湯",
+  "abstracted_claim": "茯苓杏仁甘草湯可歸納為胸痹、短氣等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_8ABDAEDB",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001079",
+    "IR_JGYH_ERZHU_000099",
+    "IR_JGYL_FANGLUN_000082",
+    "IR_JGYL_JIYI_000139",
+    "IR_JGYL_TIAOWEN_000082",
+    "IR_JGYL_XINDIAN_000086",
+    "IR_SHL_GUIBEN_001537"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001079",
+      "IR_JGYH_ERZHU_000099",
+      "IR_JGYL_FANGLUN_000082",
+      "IR_JGYL_JIYI_000139",
+      "IR_JGYL_TIAOWEN_000082",
+      "IR_JGYL_XINDIAN_000086",
+      "IR_SHL_GUIBEN_001537"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYH_ERZHU_000688",
+      "evidence_span": "胸痹。胸中氣塞短氣。茯苓杏仁甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_FANGLUN_000341",
+      "evidence_span": "胸痹，胸中氣塞，短氣，茯苓杏仁甘草湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、證一首、方十首",
+      "source_unit_id": "SU_JGYL_JIYI_001285",
+      "evidence_span": "胸痹。胸中氣塞。短氣。茯苓杏仁甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000339",
+      "evidence_span": "胸痹，胸中氣塞，短氣，茯苓杏仁甘草湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_JGYL_XINDIAN_000579",
+      "evidence_span": "胸痹。胸中氣塞。短氣。茯苓杏仁甘草湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "胸痹心痛短氣病脈證治第九",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001429",
+      "evidence_span": "胸痹、胸中氣寒，短氣，茯苓杏仁甘草湯主之，橘枳生薑湯亦主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨瘀血吐衄下血瘡癰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001339",
+      "evidence_span": "15.23胸痹，胸中氣塞或短氣者，此胸中有水氣也，茯苓杏仁甘草湯主之；",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "杏仁",
+        "甘草",
+        "茯苓"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001080"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "杏仁五十個",
+        "甘草一兩",
+        "茯苓二兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001538"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "胸痹",
+        "count": 7
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "短氣",
+        "count": 7
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "茯苓杏仁甘草湯",
+    "胸痹",
+    "短氣"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

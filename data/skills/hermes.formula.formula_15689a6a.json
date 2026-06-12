@@ -1,0 +1,79 @@
+{
+  "skill_id": "hermes.formula.formula_15689a6a",
+  "kind": "formula",
+  "title": "大半夏湯方證合併規則",
+  "subject": "大半夏湯",
+  "abstracted_claim": "大半夏湯可歸納為嘔吐等方證的核心方（支持條文 4 條，跨 4 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_15689A6A",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001309",
+    "IR_JGYH_ERZHU_000275",
+    "IR_JGYL_QIANZHU_000242",
+    "IR_JGYL_XINDIAN_000234"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001309",
+      "IR_JGYH_ERZHU_000275",
+      "IR_JGYL_QIANZHU_000242",
+      "IR_JGYL_XINDIAN_000234"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "嘔吐噦下利，病脈證治第十七",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001877",
+      "evidence_span": "胃反嘔吐者，大半夏湯主之",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001498",
+      "evidence_span": "胃反嘔吐者。大半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_XINDIAN_001324",
+      "evidence_span": "胃反。嘔吐者。大半夏湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_QIANZHU_001078",
+      "evidence_span": "今反挾衝脈之氣而上逆。名曰胃反。）胃反嘔吐者。（以）大半夏湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "嘔吐",
+        "count": 4
+      }
+    ],
+    "symptoms": [],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "大半夏湯",
+    "嘔吐"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,93 @@
+{
+  "skill_id": "hermes.formula.formula_c28f477b",
+  "kind": "formula",
+  "title": "下瘀血湯方證合併規則",
+  "subject": "下瘀血湯",
+  "abstracted_claim": "下瘀血湯可歸納為瘀血、產後、腹痛等方證的核心方（支持條文 3 條，跨 3 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_C28F477B",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_JGYL_FANGLUN_000277",
+    "IR_JGYL_TIAOWEN_000277",
+    "IR_SHL_GUIBEN_001602"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_JGYL_FANGLUN_000277",
+      "IR_JGYL_TIAOWEN_000277",
+      "IR_SHL_GUIBEN_001602"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_JGYL_FANGLUN_000932",
+      "evidence_span": "產婦腹痛、法當以枳實芍藥散，假令不愈者，此為腹中有瘀血著臍下，宜下瘀血湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "婦人產後病脈證治第二十一",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000930",
+      "evidence_span": "產婦腹痛、法當以枳實芍藥散，假令不愈者，此為腹中有瘀血著臍下，宜下瘀血湯主之；",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨婦人各病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001384",
+      "evidence_span": "16.17師曰：產後腹痛，法當以枳實芍藥散；假令不愈，必腹中有瘀血著臍下也，下瘀血湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_GUIBEN",
+      "book_title": "傷寒雜病論(桂本)",
+      "distinct_conditions": [
+        "產後"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001602"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "瘀血",
+        "count": 3
+      },
+      {
+        "term": "產後",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "腹痛",
+        "count": 3
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "下瘀血湯",
+    "瘀血",
+    "產後",
+    "腹痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

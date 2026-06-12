@@ -1,0 +1,130 @@
+{
+  "skill_id": "hermes.formula.formula_10ddccda",
+  "kind": "formula",
+  "title": "薯蕷丸方證合併規則",
+  "subject": "薯蕷丸",
+  "abstracted_claim": "薯蕷丸可歸納為虛勞、小便不利、腰痛等方證的核心方（支持條文 7 條，跨 7 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_10DDCCDA",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_CAOSHI_FAWEI_001034",
+    "IR_JGYH_ERZHU_000076",
+    "IR_JGYL_FANGLUN_000056",
+    "IR_JGYL_JIYI_000099",
+    "IR_JGYL_QIANZHU_000071",
+    "IR_JGYL_TIAOWEN_000056",
+    "IR_JGYL_XINDIAN_000060"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_CAOSHI_FAWEI_001034",
+      "IR_JGYH_ERZHU_000076",
+      "IR_JGYL_FANGLUN_000056",
+      "IR_JGYL_JIYI_000099",
+      "IR_JGYL_QIANZHU_000071",
+      "IR_JGYL_TIAOWEN_000056",
+      "IR_JGYL_XINDIAN_000060"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "血痹虛勞病脈證治第六",
+      "source_unit_id": "SU_JGYH_ERZHU_000522",
+      "evidence_span": "虛勞諸不足。風氣百疾。薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_FANGLUN_000233",
+      "evidence_span": "虛勞諸不足，風氣百疾，薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證九條、方九首",
+      "source_unit_id": "SU_JGYL_JIYI_000905",
+      "evidence_span": "虛勞諸不足。風氣百疾。薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略淺註",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_QIANZHU_000312",
+      "evidence_span": "虛勞諸不足。風氣百疾。薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "血痹虛勞病脈證并治第六",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000231",
+      "evidence_span": "虛勞諸不足，風氣百疾，薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_JGYL_XINDIAN_000411",
+      "evidence_span": "虛勞諸不足。風氣百疾。薯蕷丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "血痹虛勞病脈證並治第六",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001343",
+      "evidence_span": "虛勞腰痛，少腹拘急，小便不利，此腎陽不充之證也，腎藏虛寒，則水濕不能化氣，膨急於上則腰痛，膨急於下則少腹拘急，此證仲師主以崔氏八味丸，然予曾用之，絕然不應乃知陳修園易以天雄散為不刊之論也。原腎藏所以虛寒者，則以腎陽不藏之故，腎陽不藏，則三焦水道得溫而氣反升，水欲下泄，虛陽吸之，此水道所以不通也，方用龍骨天雄以收散亡之陽，白朮補中以制逆行之水，桂枝通陽以破陰鬻之寒，於是天晴云散，水歸其壑矣，虛勞諸不足，風氣百疾，薯蕷丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_CAOSHI_FAWEI",
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "distinct_conditions": [
+        "小便不利",
+        "腰痛"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_001034"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "虛勞",
+        "count": 7
+      },
+      {
+        "term": "小便不利",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "腰痛",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "薯蕷丸",
+    "虛勞",
+    "小便不利",
+    "腰痛"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

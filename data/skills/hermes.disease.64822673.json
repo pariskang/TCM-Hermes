@@ -1,0 +1,265 @@
+{
+  "skill_id": "hermes.disease.64822673",
+  "kind": "disease",
+  "title": "厥陰病證治合併規則",
+  "subject": "厥陰病",
+  "abstracted_claim": "厥陰病相關條文 26 條；主要方劑：白頭翁湯、烏梅丸、歸四逆湯、大烏頭煎、白虎加人參湯。",
+  "merged_rule_id": "MHR_DISEASE_64822673",
+  "release_level": "gold",
+  "consensus_score": 0.93,
+  "supporting_initial_rules": [
+    "IR_B07FA055B_000123",
+    "IR_B0B74DF58_000688",
+    "IR_B11498305_000412",
+    "IR_B3E520529_000060",
+    "IR_B5FF1CA1B_000440",
+    "IR_B5FF1CA1B_000441",
+    "IR_BC2BA03C0_000058",
+    "IR_CAOSHI_FAWEI_001179",
+    "IR_JGYL_FANGLUN_000137",
+    "IR_JGYL_TIAOWEN_000137",
+    "IR_SHL_GUANZHU_000649",
+    "IR_SHL_GUIBEN_001058",
+    "IR_SHL_LAISU_000707",
+    "IR_SHL_LEIFANG_000074",
+    "IR_SHL_LUNZHU_000692",
+    "IR_SHL_QJYF_000245",
+    "IR_SHL_SONGBEN_000401",
+    "IR_SHL_TIAOWEN_000355",
+    "IR_SHL_ZHUJIE_000931",
+    "IR_B294D68B8_000020",
+    "IR_B9119D083_000025",
+    "IR_BD20B1D70_000030",
+    "IR_SHL_GUIBEN_001175",
+    "IR_SHL_LAISU_000708",
+    "IR_SHL_LUNZHU_000694",
+    "IR_SHL_MINGLI_000097"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [
+      "IR_B07FA055B_000123",
+      "IR_B0B74DF58_000688",
+      "IR_B11498305_000412",
+      "IR_B3E520529_000060",
+      "IR_B5FF1CA1B_000440",
+      "IR_B5FF1CA1B_000441",
+      "IR_BC2BA03C0_000058",
+      "IR_CAOSHI_FAWEI_001179",
+      "IR_JGYL_FANGLUN_000137",
+      "IR_JGYL_TIAOWEN_000137",
+      "IR_SHL_GUANZHU_000649",
+      "IR_SHL_GUIBEN_001058",
+      "IR_SHL_LAISU_000707",
+      "IR_SHL_LEIFANG_000074",
+      "IR_SHL_LUNZHU_000692",
+      "IR_SHL_QJYF_000245",
+      "IR_SHL_SONGBEN_000401",
+      "IR_SHL_TIAOWEN_000355",
+      "IR_SHL_ZHUJIE_000931"
+    ],
+    "silver": [
+      "IR_B294D68B8_000020",
+      "IR_B9119D083_000025",
+      "IR_BD20B1D70_000030",
+      "IR_SHL_GUIBEN_001175",
+      "IR_SHL_LAISU_000708",
+      "IR_SHL_LUNZHU_000694",
+      "IR_SHL_MINGLI_000097"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000736",
+      "evidence_span": "厥陰之為病消渴氣上撞心。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B0B74DF58_001425",
+      "evidence_span": "**一、厥陰之為病，消渴**（指飲水多而渴仍不解。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_SONGBEN_000785",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_TIAOWEN_000632",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B5FF1CA1B_000732",
+      "evidence_span": "厥陰之為病消渴氣之血為少陰之熱所逼其趨必出二陰之竅以陰主降故也。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001636",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飲而不欲食，食則吐下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B11498305_000560",
+      "evidence_span": "厥陰之為病，消渴氣上撞心，心中疼熱，饑而不欲食，食則吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_FANGLUN_000559",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食即吐，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000557",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食即吐，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論類方",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LEIFANG_000121",
+      "evidence_span": "厥陰之為病消渴，氣上撞心，心中疼熱，饑而不欲食，食則吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUANZHU_000444",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中疼熱，飢而不欲食，食則吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000489",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，饑而不欲食，食即吐蚘，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_001226",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食即吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_ZHUJIE_001472",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蛔，下之利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_QJYF_000318",
+      "evidence_span": "厥陰之為病，消渴，氣上撞，心中疼熱，飢而不欲食，甚者則欲吐蛔，下之不肯止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_B3E520529_000072",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，中痛熱，飢而不欲食，食則吐蚘，下之利不止，烏梅丸主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "",
+      "source_unit_id": "SU_BC2BA03C0_000138",
+      "evidence_span": "厥陰之為病，消渴，氣上衝心，心中痛熱，飢而不欲食，食則吐蛔，下之利不止，烏梅丸主之。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_000941",
+      "evidence_span": "11.47厥陰之為病，消渴，氣上撞心，心中疼熱，飢而不欲食，食則吐蚘，下之，利不止。",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒審證表",
+      "chapter_title": "",
+      "source_unit_id": "SU_B07FA055B_000190",
+      "evidence_span": "臟病　厥陰之為病消渴氣上衝心心中熱疼飢而不欲食食則吐蛔下之利不止　傷寒脈微而厥至七八日膚冷其人躁無暫安時此為臟厥非蛔厥也蛔厥者當吐蛔令病者靜而復時煩此為臟寒蛔上入膈故煩須臾復止得食而嘔又煩者蛔聞食臭出其人當自吐蛔蛔厥者烏梅丸主之（烏梅丸症）陰陽不相順接便為厥厥者手足逆冷也諸四逆厥者不可下虛家亦然（手足厥逆症）",
+      "release_level": "gold"
+    },
+    {
+      "book_title": "傷寒法祖",
+      "chapter_title": "",
+      "source_unit_id": "SU_B294D68B8_000062",
+      "evidence_span": "口燥咽乾者。大承氣湯急下之。厥陰病下利欲飲水者。白頭翁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_GUIBEN_001036",
+      "evidence_span": "11.113厥陰病，脈弦而緊，弦則衛氣不行，緊則不欲食，邪正相搏，即為寒疝。繞臍而痛，手足厥冷，是其候也。脈沉緊者，大烏頭煎主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LUNZHU_001227",
+      "evidence_span": "肝脈挾胃，肝氣旺，故胃口閉塞而不欲食也。蟲為風化，厥陰病則生蛔，蛔聞食臭，則上入於膈而從口出也。病發於陰而反下之，則氣無止息而利不止矣。烏梅丸主之，可以除蛔，亦可以止利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "",
+      "source_unit_id": "SU_B9119D083_000025",
+      "evidence_span": "少陰病脈沉者，急溫之，宜四逆湯。少陰病飲食入口即吐，若膈上有寒，飲乾嘔者，不可吐，急溫之。少陰病下利脈微澀，嘔而汗出，必數更衣，反少者，當溫之。厥陰病手足厥寒，脈細欲絕者，當歸四逆湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論翼",
+      "chapter_title": "",
+      "source_unit_id": "SU_BD20B1D70_000032",
+      "evidence_span": "如陽明病，脈浮發熱，渴欲飲水，小便不利者，豬苓湯主之。瘀熱在裡不得越，身體發黃，渴欲飲水，小便不利者，茵陳湯主之。少陰病，得之二三日，口燥咽乾者，大承氣湯急下之。厥陰病，下利欲飲水者，白頭翁湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_LAISU_000489",
+      "evidence_span": "厥陰之為病，消渴，氣上撞心，心中疼熱，饑而不欲食，食即吐蚘，下之利不止。[太陰厥陰，皆以裏證為提綱，太陰主寒，厥陰主熱，太陰為陰中之至陰，厥陰為陰中之陽也，太陰腹滿而吐食不下，厥陰饑不欲食，食即吐蚘，同是不能食，而太陰則滿，厥陰則饑，同是一吐，而太陰吐，食厥陰吐蚘，此又主脾主肝之別也，太陰病，則氣下陷，故腹時痛而自利，厥陰病則氣上逆，故心疼熱而消渴，此溼土風木之殊也，太陰主開，本自利而下之，則開折，胸下結鞕者，開折及闔也，厥陰主闔，氣上逆而下之，則闔折，利不止者，闔折反開也，按兩陰交盡，名曰厥陰，陰盡而陽生，故又名陰之絕陽，則厥陰為病，宜無熱病矣，以厥陰脈絡於少陽，厥陰熱症，皆相火化令耳，厥陰經脈，上膈貫肝，氣旺故上撞心，氣有餘即是火，故消渴而心中疼熱，火能消物故饑，肝脈挾胃，肝氣旺，故胃口閉塞而不欲食也，蟲為風化，厥陰病則生蚘，蚘聞食臭，則上入於膈而從口出也，病發於陰而反下之，則氣無止息而利不上矣，烏梅丸主之，可以除蚘，亦可以止利。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒明理論",
+      "chapter_title": "",
+      "source_unit_id": "SU_SHL_MINGLI_000029",
+      "evidence_span": "傷寒湯者，何以明之，渴者裏有熱也，傷寒之邪，自表傳至裏，則必有名證，隨其邪淺深而見焉，雖曰一日在皮，二日在膚，三日在肌，四日在胸，五日在腹，六日入胃，其傳經者，又有證形焉，太陽主氣，而先受邪，當一二日發，頭項痛而腰脊強者是矣，太陽傳陽明，則二三日發，身熱目疼，鼻乾不得臥也，陽明傳少陽，則三四日發，胸脅痛而耳聾，此三陽皆受病，為邪在表，而猶未作熱，故不言渴，至四五日，少陽傳太陰經，邪氣漸入裏，寒邪漸成熱，當是時也，津液耗少，故腹滿而嗌乾，至五六日，太陰傳少陰，是裏熱又漸深也，當此之時，則津液為熱所搏，漸耗而乾，故口燥舌乾而渴，及至六七日，則少陰之邪，傳於厥陰，厥陰之為病，消渴，為裏熱已極矣，所謂消渴者，飲水多而小便少者是矣，謂其熱能消水也，所以傷寒病至六七日，而渴欲飲水，為欲愈之候，以其傳經盡故也，是以厥陰病云，渴欲飲水，少少與之，愈者是也，邪氣初傳入裏，熱氣散漫，未收歛成熱，熏蒸焦膈，搏耗津液，遂成渴也，病人雖渴，欲得飲水，又不可多與之，若飲水過多，熱少不能消，故復為停飲諸疾，經曰，凡得時氣病至五六日，而渴欲飲水，飲不能多，勿多與也，何者，以腹中熱尚少，不能消之，使更與人作病也，若大渴欲飲水，猶當依證與之，與之常令不足，勿極意也，言能飲一斗與于升，又曰渴欲飲水，少少與之，但以法救之，渴者五苓散，至於大渴欲飲水數升者，白虎加人參湯主之，皆欲潤其燥而生津液也，凡得病反能飲水，此為欲愈之病，其不曉病者，但聞病飲水自差，小渴者乃強與飲之，因成大禍，不可復救，然則悸、動也，支、結也，喘欬噎噦，乾嘔腫滿，下利小便不利，數者皆是飲水過傷，而診病之工，當須識此，勿令誤也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [],
+  "conflict_set": [],
+  "if_profile": {},
+  "then_profile": {},
+  "keywords": [
+    "厥陰病"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:15Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,263 @@
+{
+  "skill_id": "hermes.formula.lizhong_wan",
+  "kind": "formula",
+  "title": "理中丸方證合併規則",
+  "subject": "理中丸",
+  "abstracted_claim": "理中丸可歸納為霍亂、下利、嘔吐、頭痛、發熱、身疼痛等方證的核心方（支持條文 11 條，跨 11 部書）。",
+  "merged_rule_id": "MHR_FORMULA_LIZHONG_WAN",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B1CAC3ADF_000904",
+    "IR_B54968951_000021",
+    "IR_B5FF1CA1B_000686",
+    "IR_BBAACE965_001387",
+    "IR_SHL_GUANZHU_000360",
+    "IR_SHL_GUIBEN_001233",
+    "IR_SHL_LAISU_000622",
+    "IR_SHL_LUNZHU_000631",
+    "IR_SHL_SONGBEN_000450",
+    "IR_SHL_TIAOWEN_000404",
+    "IR_SHL_ZHUJIE_001036"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B1CAC3ADF_000904",
+      "IR_B54968951_000021",
+      "IR_B5FF1CA1B_000686",
+      "IR_BBAACE965_001387",
+      "IR_SHL_GUANZHU_000360",
+      "IR_SHL_GUIBEN_001233",
+      "IR_SHL_LAISU_000622",
+      "IR_SHL_LUNZHU_000631",
+      "IR_SHL_SONGBEN_000450",
+      "IR_SHL_TIAOWEN_000404",
+      "IR_SHL_ZHUJIE_001036"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_BBAACE965_003308",
+      "evidence_span": "多虛寒者。吐利行。必不用水。理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "辨霍亂病脈證並治第十三",
+      "source_unit_id": "SU_B1CAC3ADF_002373",
+      "evidence_span": "身疼痛熱多欲飲水者。五苓散主之。寒多不用水者。理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "劉河間傷寒醫鑑",
+      "chapter_title": "論霍亂",
+      "source_unit_id": "SU_B54968951_000024",
+      "evidence_span": "《活人書》云：霍亂，嘔吐而利，熱多而不渴，寒多而不飢，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "雜篇",
+      "source_unit_id": "SU_B5FF1CA1B_001111",
+      "evidence_span": "霍亂頭痛發熱身疼痛熱多欲飲水者。五苓散主之。寒多不用水者。理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "霍亂十一條",
+      "source_unit_id": "SU_SHL_GUANZHU_000219",
+      "evidence_span": "霍亂，頭痛發熱，身疼痛，熱多欲飲水者，五苓散主之，寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨霍亂病脈證並治第十三",
+      "source_unit_id": "SU_SHL_SONGBEN_000866",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨霍亂病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000713",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之。寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨霍亂病脈證並治法第十三",
+      "source_unit_id": "SU_SHL_ZHUJIE_001624",
+      "evidence_span": "霍亂，頭痛，發熱，身疼痛，熱多欲飲水者，五苓散主之；寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨霍亂吐利病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_001079",
+      "evidence_span": "12.15霍亂已，頭痛，發熱，身疼痛，熱多，欲飲水者，五苓散主之；寒多，不飲水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "真武湯證",
+      "source_unit_id": "SU_SHL_LAISU_000429",
+      "evidence_span": "病發熱頭痛，身疼惡寒，上吐下利者，名曰霍亂，多欲飲水者，五苓散主之，寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "理中丸",
+      "source_unit_id": "SU_SHL_LUNZHU_001078",
+      "evidence_span": "病發熱頭痛，身疼惡寒，上吐下利者，名曰霍亂。熱多欲飲水者，五苓散主之：寒多不用水者，理中丸主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B54968951",
+      "book_title": "劉河間傷寒醫鑑",
+      "distinct_conditions": [
+        "嘔吐",
+        "渴"
+      ],
+      "rule_ids": [
+        "IR_B54968951_000021"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_BBAACE965",
+      "book_title": "傷寒論輯義",
+      "distinct_conditions": [
+        "吐利"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_001387"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論條辨",
+        "註解傷寒論"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "甘草",
+        "白朮"
+      ],
+      "rule_ids": [
+        "IR_BC91F4420_000584",
+        "IR_SHL_ZHUJIE_001039"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "乾薑",
+        "人參",
+        "甘草",
+        "白朮",
+        "蜜"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000361"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "乾薑三兩",
+        "人參三兩",
+        "甘草三兩",
+        "白朮三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_001236"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "霍亂",
+        "count": 9
+      },
+      {
+        "term": "下利",
+        "count": 2
+      },
+      {
+        "term": "嘔吐",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "頭痛",
+        "count": 8
+      },
+      {
+        "term": "發熱",
+        "count": 8
+      },
+      {
+        "term": "身疼痛",
+        "count": 7
+      },
+      {
+        "term": "惡寒",
+        "count": 2
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "吐利",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "溫中散寒",
+        "count": 11
+      },
+      {
+        "term": "補氣健脾",
+        "count": 11
+      }
+    ]
+  },
+  "keywords": [
+    "理中丸",
+    "霍亂",
+    "下利",
+    "嘔吐",
+    "頭痛",
+    "發熱",
+    "身疼痛",
+    "惡寒",
+    "渴"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

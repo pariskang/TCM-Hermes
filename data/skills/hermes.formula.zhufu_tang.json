@@ -1,0 +1,381 @@
+{
+  "skill_id": "hermes.formula.zhufu_tang",
+  "kind": "formula",
+  "title": "豬膚湯方證合併規則",
+  "subject": "豬膚湯",
+  "abstracted_claim": "豬膚湯可歸納為少陰病、下利、傷寒、心煩、胸滿、咽痛等方證的核心方（支持條文 28 條，跨 22 部書）。",
+  "merged_rule_id": "MHR_FORMULA_ZHUFU_TANG",
+  "release_level": "silver",
+  "consensus_score": 0.912,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000677",
+    "IR_B11498305_000596",
+    "IR_B1CAC3ADF_000777",
+    "IR_B3E16D849_001680",
+    "IR_B3E16D849_001790",
+    "IR_B3E520529_000055",
+    "IR_B41512D4B_000983",
+    "IR_B5FF1CA1B_000629",
+    "IR_B8E444005_000131",
+    "IR_B8E444005_000243",
+    "IR_B8E444005_000433",
+    "IR_B9119D083_000197",
+    "IR_B9119D083_000510",
+    "IR_B9119D083_000547",
+    "IR_BBAACE965_001215",
+    "IR_BC91F4420_000485",
+    "IR_BF5CDC206_000132",
+    "IR_BF5CDC206_000172",
+    "IR_SHL_GUANZHU_000581",
+    "IR_SHL_GUIBEN_001013",
+    "IR_SHL_LAISU_000694",
+    "IR_SHL_LUNZHU_000686",
+    "IR_SHL_MINGLI_000054",
+    "IR_SHL_QJYF_000225",
+    "IR_SHL_SONGBEN_000382",
+    "IR_SHL_SUYUAN_001191",
+    "IR_SHL_TIAOWEN_000336",
+    "IR_SHL_ZHUJIE_000883"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000677",
+      "IR_B11498305_000596",
+      "IR_B1CAC3ADF_000777",
+      "IR_B3E16D849_001680",
+      "IR_B3E16D849_001790",
+      "IR_B3E520529_000055",
+      "IR_B41512D4B_000983",
+      "IR_B5FF1CA1B_000629",
+      "IR_B8E444005_000131",
+      "IR_B8E444005_000243",
+      "IR_B8E444005_000433",
+      "IR_B9119D083_000197",
+      "IR_B9119D083_000510",
+      "IR_B9119D083_000547",
+      "IR_BBAACE965_001215",
+      "IR_BC91F4420_000485",
+      "IR_BF5CDC206_000132",
+      "IR_BF5CDC206_000172",
+      "IR_SHL_GUANZHU_000581",
+      "IR_SHL_GUIBEN_001013",
+      "IR_SHL_LAISU_000694",
+      "IR_SHL_LUNZHU_000686",
+      "IR_SHL_MINGLI_000054",
+      "IR_SHL_QJYF_000225",
+      "IR_SHL_SONGBEN_000382",
+      "IR_SHL_SUYUAN_001191",
+      "IR_SHL_TIAOWEN_000336",
+      "IR_SHL_ZHUJIE_000883"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔吐下利",
+      "source_unit_id": "SU_B3E16D849_003697",
+      "evidence_span": "咽痛。胸滿。心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "桃花湯方第八十九",
+      "source_unit_id": "SU_B1CAC3ADF_002056",
+      "evidence_span": "下利。咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨少陰病脈證並治第七",
+      "source_unit_id": "SU_BC91F4420_001118",
+      "evidence_span": "下利咽痛。胸滿。心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒總病論",
+      "chapter_title": "少陰證",
+      "source_unit_id": "SU_B3E520529_000070",
+      "evidence_span": "少陰病下利，咽痛胸滿心煩，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "黃連阿膠湯方",
+      "source_unit_id": "SU_B41512D4B_002009",
+      "evidence_span": "少陰病下利。咽痛胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "溫熱病篇",
+      "source_unit_id": "SU_B5FF1CA1B_001007",
+      "evidence_span": "少陰病下利咽痛胸。滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "咽痛",
+      "source_unit_id": "SU_B9119D083_000456",
+      "evidence_span": "少陰病下利咽痛，胸滿心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_BBAACE965_002807",
+      "evidence_span": "少陰病。下利咽痛。胸滿心煩。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "溫熱",
+      "source_unit_id": "SU_B11498305_000788",
+      "evidence_span": "少陰病，下利咽痛，胸滿心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "咽痛咽乾口燥",
+      "source_unit_id": "SU_B3E16D849_003428",
+      "evidence_span": "少陰病。下利咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "豬膚湯",
+      "source_unit_id": "SU_B8E444005_000851",
+      "evidence_span": "少陰病。下利咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "胸滿",
+      "source_unit_id": "SU_B9119D083_001476",
+      "evidence_span": "少陰病，下利咽痛，胸滿心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000164",
+      "evidence_span": "少陰病。下利咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒貫珠集",
+      "chapter_title": "少陰清法七條",
+      "source_unit_id": "SU_SHL_GUANZHU_000394",
+      "evidence_span": "少陰病，下利咽痛，胸滿心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "豬膚湯證",
+      "source_unit_id": "SU_SHL_LAISU_000480",
+      "evidence_span": "少陰病，下利咽痛，胸滿心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒溯源集",
+      "chapter_title": "少陰後篇證治第二十",
+      "source_unit_id": "SU_SHL_SUYUAN_002781",
+      "evidence_span": "少陰病。下利咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(千金翼方)",
+      "chapter_title": "少陰病狀第二",
+      "source_unit_id": "SU_SHL_QJYF_000289",
+      "evidence_span": "少陰病，下利，咽痛，胸滿，心煩，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨少陰病脈證並治第十一",
+      "source_unit_id": "SU_SHL_SONGBEN_000739",
+      "evidence_span": "少陰病，下利，咽痛，胸滿，心煩，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_TIAOWEN_000586",
+      "evidence_span": "少陰病，下利，咽痛，胸滿，心煩，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "豬膚湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_001204",
+      "evidence_span": "少陰病，下利，咽痛、胸滿、心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "咽痛",
+      "source_unit_id": "SU_B8E444005_000339",
+      "evidence_span": "故仲景又曰。少陰病下利咽痛。胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒大白",
+      "chapter_title": "不得臥",
+      "source_unit_id": "SU_B9119D083_001338",
+      "evidence_span": "少陰病，下利六七日，咳而嘔渴，心煩不得眠者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨少陰病脈證並治",
+      "source_unit_id": "SU_SHL_GUIBEN_000912",
+      "evidence_span": "11.31少陰病，下利，咽痛，胸滿，心煩者，豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒尋源",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_B8E444005_000234",
+      "evidence_span": "心中煩不得臥者。黃連阿膠湯主之。少陰病胸滿心煩者。豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "少陰〔後〕篇",
+      "source_unit_id": "SU_B0B74DF58_001368",
+      "evidence_span": "**十、少陰病，下利、咽痛，胸滿、心煩**（者）**豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒醫訣串解",
+      "chapter_title": "少陰篇",
+      "source_unit_id": "SU_BF5CDC206_000196",
+      "evidence_span": "（水不上交而上熱。）胸滿心煩者。（上下神機內鬱而樞轉不出為煩滿）豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨少陰病脈證並治法第十一",
+      "source_unit_id": "SU_SHL_ZHUJIE_001379",
+      "evidence_span": "少陰病，下痢，（趙本醫統本並作「利」）咽痛，胸滿心煩者，（趙本無「者」字）豬膚湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒明理論",
+      "chapter_title": "虛煩",
+      "source_unit_id": "SU_SHL_MINGLI_000019",
+      "evidence_span": "傷寒虛煩，何以明之，虛煩者，心中鬱鬱而煩也，有胸中煩，有心中煩，有虛煩，諸如此者，皆熱也，若止云煩者，表熱也，及其邪熱傳裏，故有胸中煩，心中煩，虛煩之別，三者要在觀其熱所從來，審其虛實而治，為不同也，如不經發汗吐下而煩者，則是傳經之熱，不作膈實者，但多和解而已，故經曰，心煩喜嘔，或胸中煩而不嘔者，小柴胡湯主之，少陰病二三日，心中煩，不得臥者，黃連阿膠湯主之，少陰病，胸滿心煩者，豬膚湯主之，是皆和解而徹熱者也，若因吐下發汗後而煩者，則是內陷之煩，但多湧吐而已，發汗吐下後，虛煩不得眠，若劇者必反覆顛倒，心中懊憹者，梔子豉湯主之，若少氣者，梔子甘草豉湯主之，若嘔者，梔子生薑豉湯主之，心煩腹滿，臥起不安者，梔子厚朴湯主之，圓藥大下後，身熱不去，微煩者，梔子乾薑湯主之，是皆取其吐而湧其熱者也，虛煩之狀，心中溫溫然欲吐，憒憒然無奈，欲嘔不嘔，擾擾亂亂，是名煩也，非吐則不能已，經曰，下利後更煩，按之心下濡者，為虛煩也，宜梔子豉湯，脈乍結，心中滿而煩，饑不能食者，病在胸中，瓜蒂散，二者症均是煩也，藥均是吐也，而又輕重之不同，吐下發汗後，邪氣乘虛而入為煩者，則謂之虛煩，與梔子豉湯，則是吐劑之輕者，不因吐下發汗後，邪氣結於胸中，則為膈實，與瓜蒂散，則是吐劑之重者，又陽明病，不吐不下心煩者，則是煩之實者也，與調胃承氣湯下之，傷寒二三日，心中悸而煩者，則是煩之虛者也，與小建中湯補之，煩為熱也，悸而復煩為虛者，以悸為虛，悸甚而煩，故為虛也，少陽之邪入府者，煩而悸，則為熱也，大抵先煩而悸者，是為熱也，先悸而煩者，是為虛也，內經曰，治病必先求其本，誠哉是言也。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_B9119D083",
+      "book_title": "傷寒大白",
+      "distinct_conditions": [
+        "不得眠",
+        "咳",
+        "渴"
+      ],
+      "rule_ids": [
+        "IR_B9119D083_000197",
+        "IR_B9119D083_000510",
+        "IR_B9119D083_000547"
+      ]
+    },
+    {
+      "kind": "condition_variant",
+      "book_id": "BOOK_SHL_MINGLI",
+      "book_title": "傷寒明理論",
+      "distinct_conditions": [
+        "傷寒",
+        "喜嘔",
+        "虛煩"
+      ],
+      "rule_ids": [
+        "IR_SHL_MINGLI_000054"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "少陰病",
+        "count": 24
+      },
+      {
+        "term": "下利",
+        "count": 23
+      },
+      {
+        "term": "傷寒",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "心煩",
+        "count": 28
+      },
+      {
+        "term": "胸滿",
+        "count": 26
+      },
+      {
+        "term": "咽痛",
+        "count": 24
+      },
+      {
+        "term": "不得臥",
+        "count": 2
+      },
+      {
+        "term": "咳",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      },
+      {
+        "term": "不得眠",
+        "count": 1
+      },
+      {
+        "term": "虛煩",
+        "count": 1
+      },
+      {
+        "term": "喜嘔",
+        "count": 1
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": [
+      {
+        "term": "滋腎潤肺利咽",
+        "count": 28
+      }
+    ]
+  },
+  "keywords": [
+    "豬膚湯",
+    "少陰病",
+    "下利",
+    "傷寒",
+    "心煩",
+    "胸滿",
+    "咽痛",
+    "不得臥",
+    "咳"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

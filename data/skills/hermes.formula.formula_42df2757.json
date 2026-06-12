@@ -1,0 +1,324 @@
+{
+  "skill_id": "hermes.formula.formula_42df2757",
+  "kind": "formula",
+  "title": "黃芩加半夏生薑湯方證合併規則",
+  "subject": "黃芩加半夏生薑湯",
+  "abstracted_claim": "黃芩加半夏生薑湯可歸納為下利、乾嘔等方證的核心方（支持條文 22 條，跨 19 部書）。",
+  "merged_rule_id": "MHR_FORMULA_FORMULA_42DF2757",
+  "release_level": "silver",
+  "consensus_score": 0.92,
+  "supporting_initial_rules": [
+    "IR_B0B74DF58_000558",
+    "IR_B11498305_000570",
+    "IR_B1CAC3ADF_000501",
+    "IR_B3E16D849_000762",
+    "IR_B3E16D849_000837",
+    "IR_B3E16D849_001531",
+    "IR_B41512D4B_000494",
+    "IR_B41512D4B_000917",
+    "IR_B5FF1CA1B_000601",
+    "IR_BBAACE965_000785",
+    "IR_BC91F4420_000222",
+    "IR_JGYH_ERZHU_000263",
+    "IR_JGYL_FANGLUN_000204",
+    "IR_JGYL_JIYI_000344",
+    "IR_JGYL_TIAOWEN_000204",
+    "IR_JGYL_XINDIAN_000224",
+    "IR_SHL_GUIBEN_000734",
+    "IR_SHL_LAISU_000567",
+    "IR_SHL_LUNZHU_000563",
+    "IR_SHL_SONGBEN_000255",
+    "IR_SHL_TIAOWEN_000209",
+    "IR_SHL_ZHUJIE_000576"
+  ],
+  "supporting_rules_by_release_level": {
+    "gold": [],
+    "silver": [
+      "IR_B0B74DF58_000558",
+      "IR_B11498305_000570",
+      "IR_B1CAC3ADF_000501",
+      "IR_B3E16D849_000762",
+      "IR_B3E16D849_000837",
+      "IR_B3E16D849_001531",
+      "IR_B41512D4B_000494",
+      "IR_B41512D4B_000917",
+      "IR_B5FF1CA1B_000601",
+      "IR_BBAACE965_000785",
+      "IR_BC91F4420_000222",
+      "IR_JGYH_ERZHU_000263",
+      "IR_JGYL_FANGLUN_000204",
+      "IR_JGYL_JIYI_000344",
+      "IR_JGYL_TIAOWEN_000204",
+      "IR_JGYL_XINDIAN_000224",
+      "IR_SHL_GUIBEN_000734",
+      "IR_SHL_LAISU_000567",
+      "IR_SHL_LUNZHU_000563",
+      "IR_SHL_SONGBEN_000255",
+      "IR_SHL_TIAOWEN_000209",
+      "IR_SHL_ZHUJIE_000576"
+    ],
+    "bronze": []
+  },
+  "original_evidence": [
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "嘔吐噦下利病脈證第十七",
+      "source_unit_id": "SU_JGYH_ERZHU_001473",
+      "evidence_span": "乾嘔而利者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_FANGLUN_000746",
+      "evidence_span": "乾嘔而利者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱玉函要略輯義",
+      "chapter_title": "論一首、脈證二十七條、方二十三首",
+      "source_unit_id": "SU_JGYL_JIYI_002744",
+      "evidence_span": "乾嘔而利者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略方論",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_TIAOWEN_000744",
+      "evidence_span": "乾嘔而利者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "金匱要略心典",
+      "chapter_title": "嘔吐噦下利病脈證治第十七",
+      "source_unit_id": "SU_JGYL_XINDIAN_001296",
+      "evidence_span": "乾嘔而利者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "張卿子傷寒論",
+      "chapter_title": "瓜蒂散方第六十五",
+      "source_unit_id": "SU_B1CAC3ADF_001558",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "自利",
+      "source_unit_id": "SU_B3E16D849_001577",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "合病",
+      "source_unit_id": "SU_B3E16D849_001702",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論綱目",
+      "chapter_title": "嘔",
+      "source_unit_id": "SU_B3E16D849_003072",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "瓜蒂散方",
+      "source_unit_id": "SU_B41512D4B_001050",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論辯證廣注",
+      "chapter_title": "半夏瀉心湯方",
+      "source_unit_id": "SU_B41512D4B_001830",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論",
+      "chapter_title": "溫熱病篇",
+      "source_unit_id": "SU_B5FF1CA1B_000968",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論輯義",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_BBAACE965_001869",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論條辨",
+      "chapter_title": "辨太陽病脈證並治中篇第二",
+      "source_unit_id": "SU_BC91F4420_000517",
+      "evidence_span": "自下利者。與黃芩湯。若嘔者。黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒纘論·傷寒緒論",
+      "chapter_title": "溫熱",
+      "source_unit_id": "SU_B11498305_000761",
+      "evidence_span": "太陽與少陽合病，自下利者與黃芩湯，若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒來蘇集",
+      "chapter_title": "黃芩湯證",
+      "source_unit_id": "SU_SHL_LAISU_000384",
+      "evidence_span": "太陽與少陽合病，自下利者，與黃芩湯，若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論注",
+      "chapter_title": "黃芩湯證",
+      "source_unit_id": "SU_SHL_LUNZHU_000956",
+      "evidence_span": "太陽與少陽合病，自下利者，與黃芩湯；若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論(宋本)",
+      "chapter_title": "辨太陽病脈證並治下第七",
+      "source_unit_id": "SU_SHL_SONGBEN_000526",
+      "evidence_span": "太陽與少陽合病，自下利者，與黃芩湯；若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒論",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_TIAOWEN_000373",
+      "evidence_span": "太陽與少陽合病，自下利者，與黃芩湯；若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "註解傷寒論",
+      "chapter_title": "辨太陽病脈證並治法第七",
+      "source_unit_id": "SU_SHL_ZHUJIE_001015",
+      "evidence_span": "太陽與少陽合病，自下利者，與黃芩湯；若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "傷寒合病",
+      "source_unit_id": "SU_B0B74DF58_001114",
+      "evidence_span": "**六、太陽與少陽合病，自下利者，與黃芩湯，若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    },
+    {
+      "book_title": "傷寒雜病論(桂本)",
+      "chapter_title": "辨太陽病脈證並治下",
+      "source_unit_id": "SU_SHL_GUIBEN_000683",
+      "evidence_span": "8.50太陽與少陽合病，自下利者，與黃芩湯；若嘔者，黃芩加半夏生薑湯主之。",
+      "release_level": "silver"
+    }
+  ],
+  "variant_set": [
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論輯義"
+      ],
+      "composition": [
+        "半夏",
+        "大棗",
+        "甘草",
+        "生薑",
+        "芍藥",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_BBAACE965_000793"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒論(千金翼方)",
+        "曹氏傷寒金匱發微合刊"
+      ],
+      "composition": [
+        "半夏",
+        "生薑",
+        "黃芩"
+      ],
+      "rule_ids": [
+        "IR_CAOSHI_FAWEI_000455",
+        "IR_SHL_QJYF_000118"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒貫珠集"
+      ],
+      "composition": [
+        "半夏半升",
+        "生薑三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUANZHU_000043"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "傷寒雜病論(桂本)"
+      ],
+      "composition": [
+        "半夏半升",
+        "大棗十二枚",
+        "甘草二兩",
+        "生薑一兩",
+        "芍藥二兩",
+        "黃芩三兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_GUIBEN_000737"
+      ]
+    },
+    {
+      "kind": "composition_variant",
+      "books": [
+        "註解傷寒論"
+      ],
+      "composition": [
+        "半夏半升",
+        "生薑一兩"
+      ],
+      "rule_ids": [
+        "IR_SHL_ZHUJIE_001158"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "if_profile": {
+    "disease": [
+      {
+        "term": "下利",
+        "count": 17
+      }
+    ],
+    "symptoms": [
+      {
+        "term": "乾嘔",
+        "count": 5
+      }
+    ],
+    "pulse": [],
+    "pathomechanism": []
+  },
+  "then_profile": {
+    "treatment_principle": []
+  },
+  "keywords": [
+    "黃芩加半夏生薑湯",
+    "下利",
+    "乾嘔"
+  ],
+  "safety_notice": "本 Skill 输出为古籍知识整理，供学习与研究参考；不构成诊断或处方建议，临床使用须由执业中医师结合患者具体情况判断。",
+  "compiled_at": "2026-06-12T04:59:14Z",
+  "protocol": "hermes-v5"
+}

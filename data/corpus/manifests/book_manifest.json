@@ -1,0 +1,1322 @@
+[
+  {
+    "book_id": "BOOK_B2EB248E3",
+    "book_short": "B2EB248E3",
+    "book_title": "中寒論辯證廣注",
+    "dir_name": "中寒論辯證廣注",
+    "author": "丹波元胤",
+    "dynasty": "",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/中寒論辯證廣注"
+  },
+  {
+    "book_id": "BOOK_BB711944D",
+    "book_short": "BB711944D",
+    "book_title": "仲景傷寒補亡論",
+    "dir_name": "仲景傷寒補亡論",
+    "author": "郭雍",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 27,
+    "path": "data/corpus/raw/傷寒/書籍/仲景傷寒補亡論"
+  },
+  {
+    "book_id": "BOOK_B9DD8A693",
+    "book_short": "B9DD8A693",
+    "book_title": "傷寒九十論",
+    "dir_name": "傷寒九十論",
+    "author": "許叔微",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "case_collection",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒九十論"
+  },
+  {
+    "book_id": "BOOK_SHL_LAISU",
+    "book_short": "SHL_LAISU",
+    "book_title": "傷寒來蘇集",
+    "dir_name": "傷寒來蘇集",
+    "author": "柯琴",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 6,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒來蘇集"
+  },
+  {
+    "book_id": "BOOK_BBA9FB4A6",
+    "book_short": "BBA9FB4A6",
+    "book_title": "傷寒六書",
+    "dir_name": "傷寒六書",
+    "author": "陶華",
+    "dynasty": "明",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "compilation",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 11,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒六書"
+  },
+  {
+    "book_id": "BOOK_B9119D083",
+    "book_short": "B9119D083",
+    "book_title": "傷寒大白",
+    "dir_name": "傷寒大白",
+    "author": "高世栻",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 8,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒大白"
+  },
+  {
+    "book_id": "BOOK_B07FA055B",
+    "book_short": "B07FA055B",
+    "book_title": "傷寒審證表",
+    "dir_name": "傷寒審證表",
+    "author": "",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒審證表"
+  },
+  {
+    "book_id": "BOOK_B8E444005",
+    "book_short": "B8E444005",
+    "book_title": "傷寒尋源",
+    "dir_name": "傷寒尋源",
+    "author": "呂震名",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒尋源"
+  },
+  {
+    "book_id": "BOOK_BFC8774D3",
+    "book_short": "BFC8774D3",
+    "book_title": "傷寒心要",
+    "dir_name": "傷寒心要_1",
+    "author": "劉完素",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒心要_1"
+  },
+  {
+    "book_id": "BOOK_B30C12DB4",
+    "book_short": "B30C12DB4",
+    "book_title": "傷寒心鏡別集",
+    "dir_name": "傷寒心鏡別集",
+    "author": "張從正",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒心鏡別集"
+  },
+  {
+    "book_id": "BOOK_B0B74DF58",
+    "book_short": "B0B74DF58",
+    "book_title": "傷寒恆論",
+    "dir_name": "傷寒恆論",
+    "author": "",
+    "dynasty": "",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 21,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒恆論"
+  },
+  {
+    "book_id": "BOOK_BCA15D57E",
+    "book_short": "BCA15D57E",
+    "book_title": "傷寒懸解",
+    "dir_name": "傷寒懸解",
+    "author": "黃元御",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒懸解"
+  },
+  {
+    "book_id": "BOOK_BCCBDEC5F",
+    "book_short": "BCCBDEC5F",
+    "book_title": "傷寒括要",
+    "dir_name": "傷寒括要",
+    "author": "李中梓",
+    "dynasty": "明",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒括要"
+  },
+  {
+    "book_id": "BOOK_B5C5ECAC2",
+    "book_short": "B5C5ECAC2",
+    "book_title": "傷寒指掌",
+    "dir_name": "傷寒指掌",
+    "author": "吳坤安",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 8,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒指掌"
+  },
+  {
+    "book_id": "BOOK_B18FAB5FB",
+    "book_short": "B18FAB5FB",
+    "book_title": "傷寒捷訣",
+    "dir_name": "傷寒捷訣",
+    "author": "嚴則庵 裘慶元",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒捷訣"
+  },
+  {
+    "book_id": "BOOK_SHL_MINGLI",
+    "book_short": "SHL_MINGLI",
+    "book_title": "傷寒明理論",
+    "dir_name": "傷寒明理論",
+    "author": "成無己",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒明理論"
+  },
+  {
+    "book_id": "BOOK_SHL_MINGLI",
+    "book_short": "SHL_MINGLI",
+    "book_title": "傷寒明理論",
+    "dir_name": "傷寒明理論_1",
+    "author": "成無己",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒明理論_1"
+  },
+  {
+    "book_id": "BOOK_B816B1DAA",
+    "book_short": "B816B1DAA",
+    "book_title": "傷寒標本心法類萃",
+    "dir_name": "傷寒標本心法類萃",
+    "author": "劉完素",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒標本心法類萃"
+  },
+  {
+    "book_id": "BOOK_B68E6DB3E",
+    "book_short": "B68E6DB3E",
+    "book_title": "傷寒標本心法類萃",
+    "dir_name": "傷寒標本心法類萃_1",
+    "author": "劉完素",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒標本心法類萃_1"
+  },
+  {
+    "book_id": "BOOK_B294D68B8",
+    "book_short": "B294D68B8",
+    "book_title": "傷寒法祖",
+    "dir_name": "傷寒法祖",
+    "author": "任越庵",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒法祖"
+  },
+  {
+    "book_id": "BOOK_SHL_SUYUAN",
+    "book_short": "SHL_SUYUAN",
+    "book_title": "傷寒溯源集",
+    "dir_name": "傷寒溯源集",
+    "author": "錢潢",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 16,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒溯源集"
+  },
+  {
+    "book_id": "BOOK_B9FC1D1C8",
+    "book_short": "B9FC1D1C8",
+    "book_title": "傷寒發微論",
+    "dir_name": "傷寒發微論",
+    "author": "許叔微",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒發微論"
+  },
+  {
+    "book_id": "BOOK_BB7301DF2",
+    "book_short": "BB7301DF2",
+    "book_title": "傷寒百證歌",
+    "dir_name": "傷寒百證歌",
+    "author": "許叔微",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒百證歌"
+  },
+  {
+    "book_id": "BOOK_BC3C734B7",
+    "book_short": "BC3C734B7",
+    "book_title": "傷寒直格",
+    "dir_name": "傷寒直格",
+    "author": "",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒直格"
+  },
+  {
+    "book_id": "BOOK_BEF4B02F4",
+    "book_short": "BEF4B02F4",
+    "book_title": "傷寒直格",
+    "dir_name": "傷寒直格_1",
+    "author": "劉完素",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒直格_1"
+  },
+  {
+    "book_id": "BOOK_BC2BA03C0",
+    "book_short": "BC2BA03C0",
+    "book_title": "傷寒總病論",
+    "dir_name": "傷寒總病論",
+    "author": "龐安石",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒總病論"
+  },
+  {
+    "book_id": "BOOK_B3E520529",
+    "book_short": "B3E520529",
+    "book_title": "傷寒總病論",
+    "dir_name": "傷寒總病論_1",
+    "author": "龐安石",
+    "dynasty": "宋",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒總病論_1"
+  },
+  {
+    "book_id": "BOOK_B5FF1CA1B",
+    "book_short": "B5FF1CA1B",
+    "book_title": "傷寒纘論",
+    "dir_name": "傷寒纘論",
+    "author": "張璐",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 6,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒纘論"
+  },
+  {
+    "book_id": "BOOK_B11498305",
+    "book_short": "B11498305",
+    "book_title": "傷寒纘論·傷寒緒論",
+    "dir_name": "傷寒纘論_傷寒緒論",
+    "author": "張璐",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 11,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒纘論_傷寒緒論"
+  },
+  {
+    "book_id": "BOOK_B33E29808",
+    "book_short": "B33E29808",
+    "book_title": "傷寒舌鑑",
+    "dir_name": "傷寒舌鑑",
+    "author": "張登",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒舌鑑"
+  },
+  {
+    "book_id": "BOOK_B1C314366",
+    "book_short": "B1C314366",
+    "book_title": "傷寒補例",
+    "dir_name": "傷寒補例",
+    "author": "周學海",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒補例"
+  },
+  {
+    "book_id": "BOOK_SHL_QJYF",
+    "book_short": "SHL_QJYF",
+    "book_title": "傷寒論(千金翼方)",
+    "dir_name": "傷寒論_千金翼方版",
+    "author": "張仲景",
+    "dynasty": "東漢",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論_千金翼方版"
+  },
+  {
+    "book_id": "BOOK_SHL_SONGBEN",
+    "book_short": "SHL_SONGBEN",
+    "book_title": "傷寒論(宋本)",
+    "dir_name": "傷寒論_宋本",
+    "author": "張仲景",
+    "dynasty": "東漢",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "90%",
+    "edition": "晉·王叔和編次，宋·林億校正，明·趙開美校刻，沈琳同校",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論_宋本"
+  },
+  {
+    "book_id": "BOOK_SHL_TIAOWEN",
+    "book_short": "SHL_TIAOWEN",
+    "book_title": "傷寒論",
+    "dir_name": "傷寒論_條文版",
+    "author": "張仲景",
+    "dynasty": "東漢",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "95%",
+    "edition": "晉·王叔和編次，宋·林億校正，明·趙開美校刻，沈琳同校",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論_條文版"
+  },
+  {
+    "book_id": "BOOK_BC91F4420",
+    "book_short": "BC91F4420",
+    "book_title": "傷寒論條辨",
+    "dir_name": "傷寒論條辨",
+    "author": "方有執",
+    "dynasty": "明",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 24,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論條辨"
+  },
+  {
+    "book_id": "BOOK_B1ECDAFD4",
+    "book_short": "B1ECDAFD4",
+    "book_title": "傷寒論條辨",
+    "dir_name": "傷寒論條辨_1",
+    "author": "方有執",
+    "dynasty": "明",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 10,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論條辨_1"
+  },
+  {
+    "book_id": "BOOK_SHL_LUNZHU",
+    "book_short": "SHL_LUNZHU",
+    "book_title": "傷寒論注",
+    "dir_name": "傷寒論注",
+    "author": "柯琴",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 8,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論注"
+  },
+  {
+    "book_id": "BOOK_B3E16D849",
+    "book_short": "B3E16D849",
+    "book_title": "傷寒論綱目",
+    "dir_name": "傷寒論綱目",
+    "author": "沈金鰲",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 21,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論綱目"
+  },
+  {
+    "book_id": "BOOK_BD20B1D70",
+    "book_short": "BD20B1D70",
+    "book_title": "傷寒論翼",
+    "dir_name": "傷寒論翼",
+    "author": "柯琴",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論翼"
+  },
+  {
+    "book_id": "BOOK_BBAACE965",
+    "book_short": "BBAACE965",
+    "book_title": "傷寒論輯義",
+    "dir_name": "傷寒論輯義",
+    "author": "丹波元珍",
+    "dynasty": "",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 12,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論輯義"
+  },
+  {
+    "book_id": "BOOK_B41512D4B",
+    "book_short": "B41512D4B",
+    "book_title": "傷寒論辯證廣注",
+    "dir_name": "傷寒論辯證廣注",
+    "author": "汪琥",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 18,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論辯證廣注"
+  },
+  {
+    "book_id": "BOOK_SHL_LEIFANG",
+    "book_short": "SHL_LEIFANG",
+    "book_title": "傷寒論類方",
+    "dir_name": "傷寒論類方",
+    "author": "徐靈胎",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論類方"
+  },
+  {
+    "book_id": "BOOK_SHL_LEIFANG",
+    "book_short": "SHL_LEIFANG",
+    "book_title": "傷寒論類方",
+    "dir_name": "傷寒論類方_1",
+    "author": "徐大椿",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒論類方_1"
+  },
+  {
+    "book_id": "BOOK_SHL_GUANZHU",
+    "book_short": "SHL_GUANZHU",
+    "book_title": "傷寒貫珠集",
+    "dir_name": "傷寒貫珠集",
+    "author": "尤怡",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒貫珠集"
+  },
+  {
+    "book_id": "BOOK_SHL_GUANZHU",
+    "book_short": "SHL_GUANZHU",
+    "book_title": "傷寒貫珠集",
+    "dir_name": "傷寒貫珠集_1",
+    "author": "尤怡",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒貫珠集_1"
+  },
+  {
+    "book_id": "BOOK_BA504DABF",
+    "book_short": "BA504DABF",
+    "book_title": "傷寒辨要箋記",
+    "dir_name": "傷寒辨要箋記",
+    "author": "程門雪",
+    "dynasty": "",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒辨要箋記"
+  },
+  {
+    "book_id": "BOOK_BF5CDC206",
+    "book_short": "BF5CDC206",
+    "book_title": "傷寒醫訣串解",
+    "dir_name": "傷寒醫訣串解",
+    "author": "陳念祖",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒醫訣串解"
+  },
+  {
+    "book_id": "BOOK_B434348CD",
+    "book_short": "B434348CD",
+    "book_title": "傷寒附翼",
+    "dir_name": "傷寒附翼",
+    "author": "柯琴",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒附翼"
+  },
+  {
+    "book_id": "BOOK_SHL_GUIBEN",
+    "book_short": "SHL_GUIBEN",
+    "book_title": "傷寒雜病論(桂本)",
+    "dir_name": "傷寒雜病論_桂本",
+    "author": "張仲景",
+    "dynasty": "東漢",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "晉·王叔和編次，桂林羅哲初手抄，民間中醫經典古籍電子叢書志願編撰組恭校",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/傷寒雜病論_桂本"
+  },
+  {
+    "book_id": "BOOK_B54968951",
+    "book_short": "B54968951",
+    "book_title": "劉河間傷寒醫鑑",
+    "dir_name": "劉河間傷寒醫鑑",
+    "author": "馬宗素",
+    "dynasty": "元",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/劉河間傷寒醫鑑"
+  },
+  {
+    "book_id": "BOOK_B1CAC3ADF",
+    "book_short": "B1CAC3ADF",
+    "book_title": "張卿子傷寒論",
+    "dir_name": "張卿子傷寒論",
+    "author": "張卿子",
+    "dynasty": "清",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "",
+    "edition": "",
+    "file_count": 14,
+    "path": "data/corpus/raw/傷寒/書籍/張卿子傷寒論"
+  },
+  {
+    "book_id": "BOOK_B6C3E769F",
+    "book_short": "B6C3E769F",
+    "book_title": "敖氏傷寒金鏡錄",
+    "dir_name": "敖氏傷寒金鏡錄",
+    "author": "杜本",
+    "dynasty": "元",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/敖氏傷寒金鏡錄"
+  },
+  {
+    "book_id": "BOOK_B67467EFF",
+    "book_short": "B67467EFF",
+    "book_title": "河間傷寒心要",
+    "dir_name": "河間傷寒心要",
+    "author": "鎦洪",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "original",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/傷寒/書籍/河間傷寒心要"
+  },
+  {
+    "book_id": "BOOK_SHL_ZHUJIE",
+    "book_short": "SHL_ZHUJIE",
+    "book_title": "註解傷寒論",
+    "dir_name": "註解傷寒論",
+    "author": "成無己",
+    "dynasty": "金",
+    "raw_category": "傷寒",
+    "meta_category": "傷寒",
+    "subcategory": "傷寒",
+    "category_path": [
+      "傷寒金匱類",
+      "傷寒"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 14,
+    "path": "data/corpus/raw/傷寒/書籍/註解傷寒論"
+  },
+  {
+    "book_id": "BOOK_CAOSHI_FAWEI",
+    "book_short": "CAOSHI_FAWEI",
+    "book_title": "曹氏傷寒金匱發微合刊",
+    "dir_name": "曹氏傷寒金匱發微合刊",
+    "author": "曹穎甫",
+    "dynasty": "清",
+    "raw_category": "傷寒 金匱",
+    "meta_category": "傷寒 金匱",
+    "subcategory": "綜合",
+    "category_path": [
+      "傷寒金匱類",
+      "綜合"
+    ],
+    "book_type": "compilation",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 48,
+    "path": "data/corpus/raw/傷寒 金匱/書籍/曹氏傷寒金匱發微合刊"
+  },
+  {
+    "book_id": "BOOK_JF_SHIYANLU",
+    "book_short": "JF_SHIYANLU",
+    "book_title": "經方實驗錄",
+    "dir_name": "經方實驗錄",
+    "author": "曹穎甫",
+    "dynasty": "清",
+    "raw_category": "醫案 傷寒 金匱",
+    "meta_category": "醫案 傷寒 金匱",
+    "subcategory": "醫案",
+    "category_path": [
+      "傷寒金匱類",
+      "醫案"
+    ],
+    "book_type": "case_collection",
+    "quality": "68%",
+    "edition": "",
+    "file_count": 104,
+    "path": "data/corpus/raw/醫案 傷寒 金匱/書籍/經方實驗錄"
+  },
+  {
+    "book_id": "BOOK_BEF533107",
+    "book_short": "BEF533107",
+    "book_title": "傷寒兼證析義",
+    "dir_name": "傷寒兼證析義",
+    "author": "張倬",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/傷寒兼證析義"
+  },
+  {
+    "book_id": "BOOK_JG_FANGGEKUO",
+    "book_short": "JG_FANGGEKUO",
+    "book_title": "金匱方歌括",
+    "dir_name": "金匱方歌括",
+    "author": "陳念祖",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "方書",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/金匱方歌括"
+  },
+  {
+    "book_id": "BOOK_JGYH_ERZHU",
+    "book_short": "JGYH_ERZHU",
+    "book_title": "金匱玉函經二註",
+    "dir_name": "金匱玉函經二注",
+    "author": "周揚俊",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 28,
+    "path": "data/corpus/raw/金匱/書籍/金匱玉函經二注"
+  },
+  {
+    "book_id": "BOOK_JGYL_JIYI",
+    "book_short": "JGYL_JIYI",
+    "book_title": "金匱玉函要略輯義",
+    "dir_name": "金匱玉函要略輯義",
+    "author": "丹波元簡",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 11,
+    "path": "data/corpus/raw/金匱/書籍/金匱玉函要略輯義"
+  },
+  {
+    "book_id": "BOOK_JGYL_SHUYI",
+    "book_short": "JGYL_SHUYI",
+    "book_title": "金匱玉函要略述義",
+    "dir_name": "金匱玉函要略述義",
+    "author": "",
+    "dynasty": "",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/金匱玉函要略述義"
+  },
+  {
+    "book_id": "BOOK_JGYL_TIAOWEN",
+    "book_short": "JGYL_TIAOWEN",
+    "book_title": "金匱要略方論",
+    "dir_name": "金匱要略_條文版",
+    "author": "張仲景",
+    "dynasty": "漢",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "original",
+    "quality": "95%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/金匱要略_條文版"
+  },
+  {
+    "book_id": "BOOK_JGYL_XINDIAN",
+    "book_short": "JGYL_XINDIAN",
+    "book_title": "金匱要略心典",
+    "dir_name": "金匱要略心典",
+    "author": "尤怡",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/金匱要略心典"
+  },
+  {
+    "book_id": "BOOK_JGYL_FANGLUN",
+    "book_short": "JGYL_FANGLUN",
+    "book_title": "金匱要略方論",
+    "dir_name": "金匱要略方論",
+    "author": "張仲景",
+    "dynasty": "漢",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "original",
+    "quality": "90%",
+    "edition": "",
+    "file_count": 1,
+    "path": "data/corpus/raw/金匱/書籍/金匱要略方論"
+  },
+  {
+    "book_id": "BOOK_JGYL_QIANZHU",
+    "book_short": "JGYL_QIANZHU",
+    "book_title": "金匱要略淺註",
+    "dir_name": "金匱要略淺註",
+    "author": "陳修園",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "70%",
+    "edition": "",
+    "file_count": 13,
+    "path": "data/corpus/raw/金匱/書籍/金匱要略淺註"
+  },
+  {
+    "book_id": "BOOK_JGYL_GAOZHU",
+    "book_short": "JGYL_GAOZHU",
+    "book_title": "高注金匱要略",
+    "dir_name": "高注金匱要略",
+    "author": "高學山",
+    "dynasty": "清",
+    "raw_category": "金匱",
+    "meta_category": "金匱",
+    "subcategory": "金匱",
+    "category_path": [
+      "傷寒金匱類",
+      "金匱"
+    ],
+    "book_type": "commentary",
+    "quality": "0%",
+    "edition": "",
+    "file_count": 23,
+    "path": "data/corpus/raw/金匱/書籍/高注金匱要略"
+  }
+]
