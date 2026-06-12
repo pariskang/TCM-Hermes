@@ -113,6 +113,16 @@ def disease_candidates(disease: str, level: str | None = None, limit: int = 20,
             "caveat": "古今映射为候选/表型对应，非诊断。"}
 
 
+def disease_viz(disease: str, min_edge_count: int = 1, top_n: int = 25,
+                size_metric: str = "pagerank", theme: str = "light",
+                config: HermesConfig | None = None) -> dict:
+    """Export an interactive ECharts HTML dashboard for a disease workspace."""
+    from ..viz import VisualizationExporter, VizParams
+    params = VizParams(min_edge_count=min_edge_count, top_n=top_n,
+                       size_metric=size_metric, theme=theme)
+    return VisualizationExporter(_cfg(config)).export(disease, params)
+
+
 def list_diseases(config: HermesConfig | None = None) -> dict:
     """List available disease profiles."""
     from ..disease.profiles import DISEASE_PROFILES
@@ -180,6 +190,18 @@ HERMES_TOOLS: list[dict] = [
          "level": {"type": "string",
                    "enum": ["gold", "silver", "bronze", "rejected"]},
          "limit": {"type": "integer"}}, "required": ["disease"]}},
+    {"name": "hermes_disease_viz",
+     "handler": disease_viz,
+     "description": "导出疾病知识的交互式 ECharts HTML 仪表盘（网络/桑基/热力/柱状/"
+                    "时序，含 DIY 参数面板）。",
+     "schema": {"type": "object", "properties": {
+         "disease": {"type": "string"},
+         "min_edge_count": {"type": "integer"},
+         "top_n": {"type": "integer"},
+         "size_metric": {"type": "string",
+                         "enum": ["pagerank", "degree", "betweenness", "eigenvector"]},
+         "theme": {"type": "string", "enum": ["light", "dark"]}},
+         "required": ["disease"]}},
 ]
 
 _HANDLERS: dict[str, Callable] = {t["name"]: t["handler"] for t in HERMES_TOOLS}

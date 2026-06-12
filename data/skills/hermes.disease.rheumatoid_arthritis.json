@@ -5,10 +5,10 @@
   "subtype": "overview",
   "title": "类风湿关节炎 古籍证候总览 Skill",
   "subject": "类风湿关节炎",
-  "abstracted_claim": "类风湿关节炎古籍证候总览：核心古病名 痹、濕痹、歷節、周痹、痛痹、風痹、行痹、歷節風；覆盖分型 关节疼痛、关节肿胀、畸形/屈伸不利、全身症候；纳入条文 124 条。（候选/表型对应，非诊断）",
+  "abstracted_claim": "类风湿关节炎古籍证候总览：核心古病名 痹、濕痹、歷節、痛痹、周痹、風痹、行痹、歷節風；覆盖分型 关节疼痛、关节肿胀、畸形/屈伸不利、全身症候；纳入条文 91 条。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.rheumatoid_arthritis",
   "release_level": "bronze",
-  "consensus_score": 0.701,
+  "consensus_score": 0.702,
   "supporting_initial_rules": [
     "RHEUMATOID_ARTHRITIS_000003",
     "RHEUMATOID_ARTHRITIS_000005",
@@ -100,47 +100,14 @@
     "RHEUMATOID_ARTHRITIS_000530",
     "RHEUMATOID_ARTHRITIS_000570",
     "RHEUMATOID_ARTHRITIS_000579",
-    "RHEUMATOID_ARTHRITIS_000580",
-    "RHEUMATOID_ARTHRITIS_000604",
-    "RHEUMATOID_ARTHRITIS_000617",
-    "RHEUMATOID_ARTHRITIS_000618",
-    "RHEUMATOID_ARTHRITIS_000622",
-    "RHEUMATOID_ARTHRITIS_000653",
-    "RHEUMATOID_ARTHRITIS_000662",
-    "RHEUMATOID_ARTHRITIS_000663",
-    "RHEUMATOID_ARTHRITIS_000674",
-    "RHEUMATOID_ARTHRITIS_000680",
-    "RHEUMATOID_ARTHRITIS_000709",
-    "RHEUMATOID_ARTHRITIS_000716",
-    "RHEUMATOID_ARTHRITIS_000720",
-    "RHEUMATOID_ARTHRITIS_000722",
-    "RHEUMATOID_ARTHRITIS_000737",
-    "RHEUMATOID_ARTHRITIS_000742",
-    "RHEUMATOID_ARTHRITIS_000743",
-    "RHEUMATOID_ARTHRITIS_000757",
-    "RHEUMATOID_ARTHRITIS_000758",
-    "RHEUMATOID_ARTHRITIS_000761",
-    "RHEUMATOID_ARTHRITIS_000791",
-    "RHEUMATOID_ARTHRITIS_000792",
-    "RHEUMATOID_ARTHRITIS_000799",
-    "RHEUMATOID_ARTHRITIS_000837",
-    "RHEUMATOID_ARTHRITIS_000848",
-    "RHEUMATOID_ARTHRITIS_000853",
-    "RHEUMATOID_ARTHRITIS_000868",
-    "RHEUMATOID_ARTHRITIS_000873",
-    "RHEUMATOID_ARTHRITIS_000876",
-    "RHEUMATOID_ARTHRITIS_000885",
-    "RHEUMATOID_ARTHRITIS_000893",
-    "RHEUMATOID_ARTHRITIS_000894",
-    "RHEUMATOID_ARTHRITIS_000895",
-    "RHEUMATOID_ARTHRITIS_000914"
+    "RHEUMATOID_ARTHRITIS_000580"
   ],
   "supporting_rules_by_release_level": {},
   "original_evidence": [
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "太陽篇",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_000541",
       "entry_id": "RHEUMATOID_ARTHRITIS_000289",
       "evidence_span": "則久成歷節。",
@@ -149,7 +116,7 @@
     {
       "book_title": "傷寒審證表",
       "chapter_title": "傷寒類證",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_B07FA055B_000205",
       "entry_id": "RHEUMATOID_ARTHRITIS_000003",
       "evidence_span": "溫病　太陽病發熱而渴不惡寒者為溫病若發汗已身灼熱者名曰風溫風溫為病脈陰陽俱浮自汗出身重多眠睡鼻息必語言難出若被下者小便不利直視失溲若被火者微發黃色劇則如驚癇時螈　若火熏之一逆尚引日再逆促命期痙病　太陽病發熱汗出不惡寒者名曰柔痙　太陽病發熱無汗反惡寒者名曰剛痙　太陽病發汗太多因致痙　病身熱足寒頸項強急惡寒時頭熱面赤目脈赤獨頭搖卒口噤背反張者痙病也太陽病發熱脈沉而細者名曰痙濕病並方藥　太陽病關節疼痛而煩脈沉而細者此名濕痹濕痹之候其人小便不利大便反快但當利其小便　濕家之為病一身盡疼發熱身色如熏黃　濕家其人但頭汗出背強欲得被覆向火若下之早則噦胸滿小便不利舌上如脂者以丹田有熱胸中有寒渴欲得水而不能飲則口燥煩也濕家下之額上汗出微喘小便利者死若下利不止者亦死　濕家病身上疼痛發熱面黃而喘頭痛鼻塞而煩其脈大自能飲食腹中和無病病在頭中寒實故鼻塞納藥鼻中則愈　風濕相搏一身盡疼痛法當汗出而解值天陰雨不止汗之病不愈者何也曰發其汗汗大出者但風氣去濕氣在故不愈也若治風濕者發其汗但微微似欲汗出者風濕俱去也病者一身盡疼發熱日晡時劇者此曰風濕此病傷於汗出當風或久傷取冷所致也　傷寒八九日風濕相搏身體煩痛不能自轉側不嘔不渴脈浮虛而澀者桂枝附子湯主之若大便硬小便自利者去桂枝加白朮湯主之　風濕相搏骨節煩疼掣痛不得屈伸近之則痛劇汗出短氣小便不利惡風不欲去衣或身微腫者甘草附子湯主之",
@@ -158,7 +125,7 @@
     {
       "book_title": "傷寒尋源",
       "chapter_title": "發熱",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_B8E444005_000172",
       "entry_id": "RHEUMATOID_ARTHRITIS_000147",
       "evidence_span": "關節疼痛而煩。",
@@ -167,7 +134,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "中風歷節病脈並治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001289",
       "entry_id": "RHEUMATOID_ARTHRITIS_000318",
       "evidence_span": "此節前半節以跌陽寸口之脈求出歷節根原，寸口即手太陰動脈，陳修園本作少陰者誤也，跌陽脈在小兒緊鞋帶處，為胃脈之根，跌陽脈浮而滑，浮為陽氣外出，滑則為殺氣，實浮則汗自出，按宿食篇所說：脈數而滑者實也，也有宿食下之愈，外汗出而內有宿食，有似陽明府病，未可定為歷節，所以此證當並取決於手太陰動脈。",
@@ -176,7 +143,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "中風歷節病脈並治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001302",
       "entry_id": "RHEUMATOID_ARTHRITIS_000324",
       "evidence_span": "歷節一證，大約寒濕痹於關節，陽氣痹於肌表，陰痹而陽欲外泄，則熱發而黃汗，陽痹而寒濕陰於筋脈，則疼痛不可屈伸，此為陰寒重證，非桂枝芍藥知母湯所能通治，故不得已而用烏頭湯，亦猶蛄劂重證，烏梅丸所不能治，不得已用甘草粉蜜湯也，按烏頭為附子之母，若芋婆然，其顆甚小，一枚約有今權三錢，五枚則一兩半矣，然則麻黃、芍藥、黃耆、炙甘草之各三兩，不當如日知綠折成七成八分也，盡以兩計可折，以枚計則無可折，豈古今藥劑權量，初無沿革耶，此方重用烏頭，以歷節足腫脛冷，確定為少陽寒濕而用之，與寒痛用大烏頭煎，同徐忠可乃謂膝脛不冷，似可加黃柏、知母，夫使膝脛不冷，豈可用烏頭五枚矣，足見張仲景既歿，醫家更無通才也。",
@@ -194,7 +161,7 @@
     {
       "book_title": "金匱玉函經二註",
       "chapter_title": "中風歷節病脈證治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYH_ERZHU_000420",
       "entry_id": "RHEUMATOID_ARTHRITIS_000399",
       "evidence_span": "〔衍義〕此湯概治歷節不可屈伸疼痛。",
@@ -203,7 +170,7 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證三條、方十二首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000658",
       "entry_id": "RHEUMATOID_ARTHRITIS_000516",
       "evidence_span": "〔沈〕此寒濕歷節之方也。",
@@ -212,7 +179,7 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論七首、脈證五條、方九首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_002115",
       "entry_id": "RHEUMATOID_ARTHRITIS_000580",
       "evidence_span": "靈周痹篇云。",
@@ -221,27 +188,9 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "厥陰篇",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001051",
       "entry_id": "RHEUMATOID_ARTHRITIS_000297",
-      "evidence_span": "關節疼痛而煩。",
-      "release_level": "bronze"
-    },
-    {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "痙濕暍病脈證第二",
-      "dynasty": "",
-      "source_unit_id": "SU_JGYL_QIANZHU_000068",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000604",
-      "evidence_span": "故）關節疼痛而煩。",
-      "release_level": "bronze"
-    },
-    {
-      "book_title": "金匱要略心典",
-      "chapter_title": "痙濕病脈證治第二",
-      "dynasty": "",
-      "source_unit_id": "SU_JGYL_XINDIAN_000109",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000742",
       "evidence_span": "關節疼痛而煩。",
       "release_level": "bronze"
     },
@@ -257,7 +206,7 @@
     {
       "book_title": "傷寒纘論·傷寒緒論",
       "chapter_title": "察色",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_B11498305_001482",
       "entry_id": "RHEUMATOID_ARTHRITIS_000043",
       "evidence_span": "凡察病者身，以輕易轉側而熱者為陽，若肢體骨節疼痛為表證，以沉重難移動而寒者為陰，若腹痛自利厥逆，宜溫經，然中濕亦主身重痛，濕痹則身痛關節不利風濕，則身痛而腫骨節煩疼掣痛不得屈伸，汗出惡風而不欲去衣，若少腹鞭痛小便不利為溺濇，小便利者為畜血腹痛，自下衝上者火也，從上轉下趨少腹者寒也，氣從少腹上衝者，陰火也，從左脇上衝者肝火也，大抵足寒厥者，陽虛也厥而發熱者熱厥也，臂多青脈者脫血也，背熱手背熱者，外感也腹熱手心熱者內傷也，背微惡寒者，陽微不能勝陰也，渾身惡寒傷寒也自汗身重，鼻鼾多睡，風溫也，內潤筋惕，汗下虛也，手足瘈瘲虛而有風也，額上及手足冷汗，陰毒也，身目俱癉病也身如蟲行，表虛也若頭傾視深，循衣撮空冷汗黃形體不仁，乍靜乍亂，皆不治也。",
@@ -266,7 +215,7 @@
     {
       "book_title": "傷寒附翼",
       "chapter_title": "太陽方總論",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_B434348CD_000086",
       "entry_id": "RHEUMATOID_ARTHRITIS_000108",
       "evidence_span": "甘草　附子　白朮　桂枝治風濕相搏，骨節疼痛，不得屈伸，近之則痛劇，汗出短氣，小便不利，惡風不欲去衣，或身微腫者。",
@@ -275,7 +224,7 @@
     {
       "book_title": "金匱玉函經二註",
       "chapter_title": "中風歷節病脈證治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYH_ERZHU_000408",
       "entry_id": "RHEUMATOID_ARTHRITIS_000395",
       "evidence_span": "〔衍義〕此風寒濕痹其榮衛。",
@@ -284,25 +233,16 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證三條、方十二首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000638",
       "entry_id": "RHEUMATOID_ARTHRITIS_000509",
       "evidence_span": "稱白虎歷節風是也。",
       "release_level": "bronze"
     },
     {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "水氣病脈證并治第十四",
-      "dynasty": "",
-      "source_unit_id": "SU_JGYL_QIANZHU_000811",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000653",
-      "evidence_span": "法當骨節疼痛。",
-      "release_level": "bronze"
-    },
-    {
       "book_title": "傷寒兼證析義",
       "chapter_title": "師傳（三十二則）",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_BEF533107_000189",
       "entry_id": "RHEUMATOID_ARTHRITIS_000273",
       "evidence_span": "沈脈者，輕取不應，重按乃得，舉指減小，更按益力，縱之不即應指，不似實脈之舉指逼逼，伏脈之匿於筋下也，沈為藏府筋骨之應，蓋緣陽氣式微，不能統運營氣于表，脈顯陰象而沈者，則按久愈微，若陽氣鬱伏，不能浮應衛氣于外，脈反伏匿而沈者，則按久不衰，陰陽寒熱之機，在乎纖微之辨，傷寒以尺寸俱沈為少陰受病，故于沈脈之中，辨別陰陽，為第一關捩，若始病不發熱，無頭痛，而手足厥冷脈沈者，此直中陰經之寒症也，若先曾發熱頭痛，心緒不寧，至五七日後，而變手足厥冷，躁不得寐而脈沈者此厥深熱深，陽邪陷陰之熱症也，亦有始本陽邪，因汗下太過，而脈變沈遲，此熱去寒起之虛症也，有太陽症下早，胸膈痞鞭而關上小細沈緊者，此表邪內陷，陽分之結胸也，若能食自利，乃陽邪下陷，陰分之藏結矣，有少陰病自利清水，口乾腹脹不大便而脈沈者，此熱邪陷于少陰也，有少陰病，始得之，反發熱脈沈者，麻黃附子細辛湯溫之，是少陰而兼太陽，即所謂之兩感也，此與病發熱頭痛，脈反沈，身體痛，當溫之宜四逆湯之法，似是而是寔不同也，有寸關俱浮，而尺中沈遲者，此陽症夾陰之脈也，若沈而實大數盛，動滑有力，皆為陽邪內伏沈而遲細微弱，弦濇少力皆屬陰寒無疑，有冬時伏邪，發于春夏，煩熱躁渴，而反脈沈足冷，此少陰無氣，毒邪不能發出陽分，下虛死症也，凡傷寒溫熱時疫感冒得汗後脈沈，皆為愈証非陽病陰脈之比，有內外有熱，而脈沈伏，不數不洪，指下濇小急疾無論傷寒雜病，發於何時皆為伏熱，不可以其脈之沈伏，而誤認陰寒也，至如腸澼自利而脈沈，寒疝積瘕而脈沈歷節痛痹而脈沈，伏痰留飲而脈沈，胸腹結痛而脈沈，霍亂嘔吐而脈沈，鬱結氣滯而脈沈咸為應病之脈，若反浮大虛濇，或雖沈而弦細堅疾，為胃氣告匱，未可輕許以治也，遲脈者，呼吸定息，不及四至而舉按皆遲，不似濇脈之參伍不調，緩脈之去來徐緩也，遲為陽氣不顯，營氣自和之象，故昔人皆以隸之虛寒，而人迎主寒濕外襲，氣口主積冷內滯，又以浮遲為表寒，沈遲為裏寒，遲濇為血病，遲滑為氣病，此論固是，然多有熱邪內結，寒氣外鬱，而見氣口遲滑作脹者，詎可以脈遲概為之寒，而不究其滑濇之象，虛實之異哉，詳仲景有陽明病脈遲，微惡寒而汗出多者，為表未解，脈遲頭弦腹滿者不可下，有陽明病脈遲有力，汗出不惡寒，身重喘滿，潮熱便鞭，手足濈然汗出者，為外欲解，可攻其裏，又太陽病脈浮，因誤下而變遲，膈內拒痛者為結胸，若此皆熱邪內結之明驗也，當知遲脈雖現表證，亦屬藏氣不充，不能統攝百骸，所以邪氣留連不解，即有腹滿而頭弦脈遲，陽分之患未除，禁不可下，直待裏證悉具，然後下之，聖法昭然，豈不詳審慎重乎，遲為陽氣失職，胸中大氣不能敷布之候，詳遲為在藏一語，可不顧慮藏氣之病乎。",
@@ -311,7 +251,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "陽明篇",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_000574",
       "entry_id": "RHEUMATOID_ARTHRITIS_000290",
       "evidence_span": "其人骨節反痛。",
@@ -320,7 +260,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "中風歷節病脈並治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001285",
       "entry_id": "RHEUMATOID_ARTHRITIS_000316",
       "evidence_span": "（此磨本不缺，另有太陰脈浮而弱一條，恐入待言，因不明為手太陰動脈，故略言之）大凡歷節之成要，外乎水寒血敗，血痹於下，則營氣不能上承，故手太陰之脈必弱，水氣勝則陽氣不升，故脈沉。",
@@ -329,7 +269,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "痰飲咳嗽病脈證治第十二",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001554",
       "entry_id": "RHEUMATOID_ARTHRITIS_000351",
       "evidence_span": "夫心下有留飲，其人背寒，冷如掌大，留飲者，脇下痛引缺盆，咳嗽則輒已，胸中留飲，其人短氣而渴，四肢歷節痛，脈沉者有留飲。",
@@ -338,7 +278,7 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證九條、方九首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000717",
       "entry_id": "RHEUMATOID_ARTHRITIS_000520",
       "evidence_span": "〔鑒〕歷節。",
@@ -347,7 +287,7 @@
     {
       "book_title": "曹氏傷寒金匱發微合刊",
       "chapter_title": "中風歷節病脈並治第五",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_CAOSHI_FAWEI_001295",
       "entry_id": "RHEUMATOID_ARTHRITIS_000320",
       "evidence_span": "桂枝芍藥知母湯方，只有知母一味主治欲吐，余則桂芍甘草生薑以通陽而解肌，麻黃、附子、白朮以開表而祛濕，防風以祛風，方治之妙不可言喻，予當治一戴姓婦人親驗之，但病因與張仲景所舉在有不同，乃知肢節疼痛，張仲景特下一諸字，正以其所包者廣也，蓄此妊娠八月為其夫病求醫，抱而乘車，病人身重，將腹中小兒壓斃，夫病癒而妻病腹痛，乃求醫，醫藥而墮之腐也，妊婦本屬血虛，死胎既下，因貧不能善後，濕毒留頓腹中，久乃旁溢肢節，死血與寒濕並居，因病歷節手足拘掣，入夜手足節骱劇痛，旦日較緩，其為陰寒，無疑近兩年矣，予因用原方每兩折為二錢，用熟附塊四錢，二劑不應，二診改用生附子，汗乃大出，兩劑，肢節便可屈伸，足腫亦小，獨手發出大泡，有膿有水，將成潰爛，予用丁甘仁法，用大小薊各五錢、丹皮一兩、地骨皮四錢以清血熱，二劑而痂脫，遂與未病時無異，以為可無患矣，忽然陰癢難忍，蓄濕毒未盡而下注也。",
@@ -356,34 +296,16 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證三條、方十二首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000636",
       "entry_id": "RHEUMATOID_ARTHRITIS_000507",
       "evidence_span": "而歷節成矣。",
       "release_level": "bronze"
     },
     {
-      "book_title": "金匱要略淺註",
-      "chapter_title": "中風歷節病脈證并治第五",
-      "dynasty": "",
-      "source_unit_id": "SU_JGYL_QIANZHU_000237",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000618",
-      "evidence_span": "而成歷節也。",
-      "release_level": "bronze"
-    },
-    {
-      "book_title": "金匱玉函要略述義",
-      "chapter_title": "中風歷節病脈證並治第五",
-      "dynasty": "",
-      "source_unit_id": "SU_JGYL_SHUYI_000279",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000674",
-      "evidence_span": "又按肢節疼痛身體魁瘰。",
-      "release_level": "bronze"
-    },
-    {
       "book_title": "金匱玉函經二註",
       "chapter_title": "血痹虛勞病脈證治第六",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYH_ERZHU_000463",
       "entry_id": "RHEUMATOID_ARTHRITIS_000408",
       "evidence_span": "而或為疼痛。",
@@ -392,19 +314,64 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論一首、脈證九條、方九首",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000728",
       "entry_id": "RHEUMATOID_ARTHRITIS_000530",
       "evidence_span": "謂不應用則　痹矣。",
       "release_level": "bronze"
     },
     {
-      "book_title": "金匱玉函要略述義",
-      "chapter_title": "血痹虛勞病脈證並治第六",
+      "book_title": "傷寒恆論",
+      "chapter_title": "太陽中篇",
       "dynasty": "",
-      "source_unit_id": "SU_JGYL_SHUYI_000309",
-      "entry_id": "RHEUMATOID_ARTHRITIS_000680",
-      "evidence_span": "按歷節血痹。",
+      "source_unit_id": "SU_B0B74DF58_000544",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000012",
+      "evidence_span": "附子小量，則溫經回陽，大量則力能鎮痛。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "傷寒恆論",
+      "chapter_title": "差後勞復",
+      "dynasty": "",
+      "source_unit_id": "SU_B0B74DF58_001652",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000020",
+      "evidence_span": "白朮甘溫，燥濕而健脾，主治風寒濕痹。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "傷寒附翼",
+      "chapter_title": "太陽方總論",
+      "dynasty": "清",
+      "source_unit_id": "SU_B434348CD_000083",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000106",
+      "evidence_span": "風寒濕三氣合至，合而成痹，故身體煩疼而不能轉側，病只在表而不在內。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "金匱玉函經二註",
+      "chapter_title": "百合狐惑陰陽毒病證治第三",
+      "dynasty": "清",
+      "source_unit_id": "SU_JGYH_ERZHU_000250",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000380",
+      "evidence_span": "頭眩重虛。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "仲景傷寒補亡論",
+      "chapter_title": "濕病十八條",
+      "dynasty": "宋",
+      "source_unit_id": "SU_BB711944D_001706",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000178",
+      "evidence_span": "濕痹緩風。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "曹氏傷寒金匱發微合刊",
+      "chapter_title": "中風歷節病脈並治第五",
+      "dynasty": "清",
+      "source_unit_id": "SU_CAOSHI_FAWEI_001298",
+      "entry_id": "RHEUMATOID_ARTHRITIS_000323",
+      "evidence_span": "病歷節不可屈伸疼痛，烏頭湯主之",
       "release_level": "bronze"
     }
   ],
@@ -412,8 +379,8 @@
     "痹",
     "濕痹",
     "歷節",
-    "周痹",
     "痛痹",
+    "周痹",
     "風痹",
     "行痹",
     "歷節風"
@@ -422,77 +389,77 @@
     "symptoms": [
       {
         "term": "痛",
-        "count": 122
+        "count": 89
       },
       {
         "term": "疼痛",
-        "count": 92
-      },
-      {
-        "term": "小便不利",
-        "count": 37
+        "count": 63
       },
       {
         "term": "汗出",
-        "count": 36
+        "count": 28
       },
       {
-        "term": "腫",
-        "count": 34
-      },
-      {
-        "term": "關節疼痛",
-        "count": 33
-      },
-      {
-        "term": "惡寒",
+        "term": "小便不利",
         "count": 27
       },
       {
-        "term": "渴",
+        "term": "腫",
         "count": 25
       },
       {
-        "term": "發熱",
+        "term": "關節疼痛",
         "count": 23
       },
       {
-        "term": "短氣",
+        "term": "惡寒",
+        "count": 22
+      },
+      {
+        "term": "發熱",
+        "count": 21
+      },
+      {
+        "term": "渴",
         "count": 20
       },
       {
-        "term": "不可屈伸",
-        "count": 19
-      },
-      {
-        "term": "喘",
-        "count": 18
-      },
-      {
-        "term": "骨節疼痛",
+        "term": "短氣",
         "count": 14
       },
       {
-        "term": "咳",
+        "term": "喘",
         "count": 13
       },
       {
-        "term": "黃汗",
-        "count": 13
+        "term": "不可屈伸",
+        "count": 12
+      },
+      {
+        "term": "惡風",
+        "count": 11
+      },
+      {
+        "term": "頭痛",
+        "count": 10
+      },
+      {
+        "term": "小便利",
+        "count": 8
       }
     ],
     "pathogenesis": [
       {
         "term": "寒濕",
-        "count": 32
+        "count": 27
       },
       {
         "term": "風寒",
-        "count": 24
+        "count": 21
       },
       {
         "term": "風濕",
-        "count": 23
+        "count": 20
       },
       {
         "term": "風寒濕",
@@ -500,15 +467,15 @@
       },
       {
         "term": "濕熱",
-        "count": 9
-      },
-      {
-        "term": "風血相搏",
-        "count": 4
+        "count": 6
       },
       {
         "term": "瘀血",
         "count": 2
+      },
+      {
+        "term": "風血相搏",
+        "count": 1
       }
     ],
     "treatment_method": [
@@ -519,36 +486,40 @@
       {
         "term": "溫陽",
         "count": 2
+      },
+      {
+        "term": "養血",
+        "count": 1
       }
     ],
     "herbs": [
       {
         "term": "桂枝",
-        "count": 28
-      },
-      {
-        "term": "甘草",
-        "count": 27
-      },
-      {
-        "term": "附子",
         "count": 26
       },
       {
+        "term": "甘草",
+        "count": 23
+      },
+      {
+        "term": "附子",
+        "count": 22
+      },
+      {
         "term": "芍藥",
-        "count": 21
+        "count": 18
       },
       {
         "term": "麻黃",
-        "count": 21
+        "count": 17
       },
       {
         "term": "白朮",
-        "count": 15
+        "count": 14
       },
       {
         "term": "烏頭",
-        "count": 14
+        "count": 10
       },
       {
         "term": "生薑",
@@ -556,7 +527,7 @@
       },
       {
         "term": "知母",
-        "count": 9
+        "count": 8
       },
       {
         "term": "防風",
@@ -586,27 +557,27 @@
     "ancient_disease_name": [
       {
         "term": "痹",
-        "count": 99
+        "count": 76
       },
       {
         "term": "濕痹",
-        "count": 54
+        "count": 38
       },
       {
         "term": "歷節",
-        "count": 39
-      },
-      {
-        "term": "周痹",
-        "count": 11
+        "count": 29
       },
       {
         "term": "痛痹",
         "count": 7
       },
       {
+        "term": "周痹",
+        "count": 6
+      },
+      {
         "term": "風痹",
-        "count": 7
+        "count": 5
       },
       {
         "term": "行痹",
@@ -626,10 +597,6 @@
       },
       {
         "term": "寒痹",
-        "count": 1
-      },
-      {
-        "term": "鶴膝風",
         "count": 1
       }
     ]
@@ -658,17 +625,12 @@
     [
       "痹",
       "has_symptom",
-      "背反張"
-    ],
-    [
-      "痹",
-      "has_symptom",
       "多眠睡"
     ],
     [
       "痹",
       "has_symptom",
-      "頭汗出"
+      "背反張"
     ],
     [
       "痹",
@@ -678,7 +640,7 @@
     [
       "痹",
       "has_symptom",
-      "大便硬"
+      "頭汗出"
     ],
     [
       "痹",
@@ -688,12 +650,7 @@
     [
       "痹",
       "has_symptom",
-      "面赤"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "胸滿"
+      "大便硬"
     ],
     [
       "痹",
@@ -703,17 +660,12 @@
     [
       "痹",
       "has_symptom",
-      "口燥"
+      "胸滿"
     ],
     [
       "痹",
       "has_symptom",
-      "身重"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "發熱"
+      "面赤"
     ],
     [
       "痹",
@@ -723,32 +675,7 @@
     [
       "痹",
       "has_symptom",
-      "惡寒"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "短氣"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "惡風"
-    ],
-    [
-      "痹",
-      "has_symptom",
       "下利"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "汗出"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "頭痛"
     ],
     [
       "痹",
@@ -763,7 +690,12 @@
     [
       "痹",
       "has_symptom",
-      "口噤"
+      "頭痛"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "身重"
     ],
     [
       "痹",
@@ -773,17 +705,42 @@
     [
       "痹",
       "has_symptom",
-      "噦"
+      "汗出"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "口噤"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "短氣"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "口燥"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "發熱"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "惡風"
     ],
     [
       "痹",
       "has_symptom",
       "腫"
-    ],
-    [
-      "痹",
-      "has_symptom",
-      "喘"
     ],
     [
       "痹",
@@ -794,6 +751,16 @@
       "痹",
       "has_symptom",
       "渴"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "噦"
+    ],
+    [
+      "痹",
+      "has_symptom",
+      "喘"
     ],
     [
       "痹",
@@ -828,17 +795,12 @@
     [
       "濕痹",
       "has_symptom",
-      "背反張"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
       "多眠睡"
     ],
     [
       "濕痹",
       "has_symptom",
-      "頭汗出"
+      "背反張"
     ],
     [
       "濕痹",
@@ -848,7 +810,7 @@
     [
       "濕痹",
       "has_symptom",
-      "大便硬"
+      "頭汗出"
     ],
     [
       "濕痹",
@@ -858,12 +820,7 @@
     [
       "濕痹",
       "has_symptom",
-      "面赤"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "胸滿"
+      "大便硬"
     ],
     [
       "濕痹",
@@ -873,17 +830,12 @@
     [
       "濕痹",
       "has_symptom",
-      "口燥"
+      "胸滿"
     ],
     [
       "濕痹",
       "has_symptom",
-      "身重"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "發熱"
+      "面赤"
     ],
     [
       "濕痹",
@@ -893,32 +845,7 @@
     [
       "濕痹",
       "has_symptom",
-      "惡寒"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "短氣"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "惡風"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
       "下利"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "汗出"
-    ],
-    [
-      "濕痹",
-      "has_symptom",
-      "頭痛"
     ],
     [
       "濕痹",
@@ -933,58 +860,98 @@
     [
       "濕痹",
       "has_symptom",
+      "頭痛"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "身重"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "無汗"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "汗出"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
       "口噤"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "短氣"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "口燥"
+    ],
+    [
+      "濕痹",
+      "has_symptom",
+      "發熱"
     ]
   ],
   "if_profile": {
     "symptoms": [
       {
         "term": "痛",
-        "count": 122
+        "count": 89
       },
       {
         "term": "疼痛",
-        "count": 92
-      },
-      {
-        "term": "小便不利",
-        "count": 37
+        "count": 63
       },
       {
         "term": "汗出",
-        "count": 36
+        "count": 28
       },
       {
-        "term": "腫",
-        "count": 34
-      },
-      {
-        "term": "關節疼痛",
-        "count": 33
-      },
-      {
-        "term": "惡寒",
+        "term": "小便不利",
         "count": 27
       },
       {
-        "term": "渴",
+        "term": "腫",
         "count": 25
       },
       {
-        "term": "發熱",
+        "term": "關節疼痛",
         "count": 23
       },
       {
-        "term": "短氣",
+        "term": "惡寒",
+        "count": 22
+      },
+      {
+        "term": "發熱",
+        "count": 21
+      },
+      {
+        "term": "渴",
         "count": 20
       },
       {
-        "term": "不可屈伸",
-        "count": 19
+        "term": "短氣",
+        "count": 14
       },
       {
         "term": "喘",
-        "count": 18
+        "count": 13
+      },
+      {
+        "term": "不可屈伸",
+        "count": 12
       }
     ]
   },
@@ -992,31 +959,31 @@
     "herbs": [
       {
         "term": "桂枝",
-        "count": 28
-      },
-      {
-        "term": "甘草",
-        "count": 27
-      },
-      {
-        "term": "附子",
         "count": 26
       },
       {
+        "term": "甘草",
+        "count": 23
+      },
+      {
+        "term": "附子",
+        "count": 22
+      },
+      {
         "term": "芍藥",
-        "count": 21
+        "count": 18
       },
       {
         "term": "麻黃",
-        "count": 21
+        "count": 17
       },
       {
         "term": "白朮",
-        "count": 15
+        "count": 14
       },
       {
         "term": "烏頭",
-        "count": 14
+        "count": 10
       },
       {
         "term": "生薑",
@@ -1024,7 +991,7 @@
       },
       {
         "term": "知母",
-        "count": 9
+        "count": 8
       },
       {
         "term": "防風",
@@ -1139,19 +1106,6 @@
     },
     {
       "kind": "book_variant",
-      "book_title": "傷寒溯源集",
-      "ancient_names": [
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000893",
-        "RHEUMATOID_ARTHRITIS_000894",
-        "RHEUMATOID_ARTHRITIS_000895"
-      ]
-    },
-    {
-      "kind": "book_variant",
       "book_title": "傷寒百證歌",
       "ancient_names": [
         "濕痹",
@@ -1202,17 +1156,6 @@
     },
     {
       "kind": "book_variant",
-      "book_title": "傷寒論(宋本)",
-      "ancient_names": [
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000885"
-      ]
-    },
-    {
-      "kind": "book_variant",
       "book_title": "傷寒論條辨",
       "ancient_names": [
         "濕痹",
@@ -1221,19 +1164,6 @@
       "entry_ids": [
         "RHEUMATOID_ARTHRITIS_000240",
         "RHEUMATOID_ARTHRITIS_000241"
-      ]
-    },
-    {
-      "kind": "book_variant",
-      "book_title": "傷寒論注",
-      "ancient_names": [
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000868",
-        "RHEUMATOID_ARTHRITIS_000873",
-        "RHEUMATOID_ARTHRITIS_000876"
       ]
     },
     {
@@ -1281,21 +1211,6 @@
     },
     {
       "kind": "book_variant",
-      "book_title": "傷寒雜病論(桂本)",
-      "ancient_names": [
-        "周痹",
-        "歷節",
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000837",
-        "RHEUMATOID_ARTHRITIS_000848",
-        "RHEUMATOID_ARTHRITIS_000853"
-      ]
-    },
-    {
-      "kind": "book_variant",
       "book_title": "張卿子傷寒論",
       "ancient_names": [
         "濕痹",
@@ -1336,17 +1251,6 @@
       ],
       "entry_ids": [
         "RHEUMATOID_ARTHRITIS_000374"
-      ]
-    },
-    {
-      "kind": "book_variant",
-      "book_title": "註解傷寒論",
-      "ancient_names": [
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000914"
       ]
     },
     {
@@ -1398,45 +1302,6 @@
     },
     {
       "kind": "book_variant",
-      "book_title": "金匱玉函要略述義",
-      "ancient_names": [
-        "歷節",
-        "濕痹",
-        "痹",
-        "風痹",
-        "鶴膝風"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000662",
-        "RHEUMATOID_ARTHRITIS_000663",
-        "RHEUMATOID_ARTHRITIS_000674",
-        "RHEUMATOID_ARTHRITIS_000680",
-        "RHEUMATOID_ARTHRITIS_000709"
-      ]
-    },
-    {
-      "kind": "book_variant",
-      "book_title": "金匱要略心典",
-      "ancient_names": [
-        "周痹",
-        "歷節",
-        "濕痹",
-        "痹",
-        "風痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000742",
-        "RHEUMATOID_ARTHRITIS_000743",
-        "RHEUMATOID_ARTHRITIS_000757",
-        "RHEUMATOID_ARTHRITIS_000758",
-        "RHEUMATOID_ARTHRITIS_000761",
-        "RHEUMATOID_ARTHRITIS_000791",
-        "RHEUMATOID_ARTHRITIS_000792",
-        "RHEUMATOID_ARTHRITIS_000799"
-      ]
-    },
-    {
-      "kind": "book_variant",
       "book_title": "金匱要略方論",
       "ancient_names": [
         "周痹",
@@ -1448,28 +1313,7 @@
         "RHEUMATOID_ARTHRITIS_000449",
         "RHEUMATOID_ARTHRITIS_000453",
         "RHEUMATOID_ARTHRITIS_000455",
-        "RHEUMATOID_ARTHRITIS_000470",
-        "RHEUMATOID_ARTHRITIS_000716",
-        "RHEUMATOID_ARTHRITIS_000720",
-        "RHEUMATOID_ARTHRITIS_000722",
-        "RHEUMATOID_ARTHRITIS_000737"
-      ]
-    },
-    {
-      "kind": "book_variant",
-      "book_title": "金匱要略淺註",
-      "ancient_names": [
-        "周痹",
-        "歷節",
-        "濕痹",
-        "痹"
-      ],
-      "entry_ids": [
-        "RHEUMATOID_ARTHRITIS_000604",
-        "RHEUMATOID_ARTHRITIS_000617",
-        "RHEUMATOID_ARTHRITIS_000618",
-        "RHEUMATOID_ARTHRITIS_000622",
-        "RHEUMATOID_ARTHRITIS_000653"
+        "RHEUMATOID_ARTHRITIS_000470"
       ]
     }
   ],
@@ -1497,21 +1341,21 @@
     "痹",
     "濕痹",
     "歷節",
-    "周痹",
     "痛痹",
+    "周痹",
     "風痹",
     "行痹",
     "歷節風",
     "痛",
     "疼痛",
-    "小便不利",
     "汗出",
+    "小便不利",
     "腫",
     "關節疼痛",
     "惡寒",
-    "渴"
+    "發熱"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:09:31Z",
+  "compiled_at": "2026-06-12T10:36:53Z",
   "protocol": "hermes-v5"
 }

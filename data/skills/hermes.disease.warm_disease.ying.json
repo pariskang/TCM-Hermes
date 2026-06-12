@@ -1,0 +1,307 @@
+{
+  "skill_id": "hermes.disease.warm_disease.ying",
+  "kind": "disease",
+  "disease_id": "warm_disease",
+  "subtype": "ying",
+  "title": "温病·ying 古籍证候 Skill",
+  "subject": "温病·ying",
+  "abstracted_claim": "古籍中与温病·ying表型相似的条文，核心古病名 （未明确命名）；常见症候 斑疹隱隱、心煩不寐、身熱夜甚、舌深絳、斑疹、便血；病机多属 熱入血分、血分。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.warm_disease.ying",
+  "release_level": "bronze",
+  "consensus_score": 0.767,
+  "supporting_initial_rules": [
+    "WARM_DISEASE_000008"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "WARM_DISEASE_000008"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "溫熱論",
+      "chapter_title": "入營入血",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0008",
+      "entry_id": "WARM_DISEASE_000008",
+      "evidence_span": "其熱傳營，舌色必絳，身熱夜甚，心煩不寐，斑疹隱隱，宜清營透熱；",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "斑疹隱隱",
+        "count": 1
+      },
+      {
+        "term": "心煩不寐",
+        "count": 1
+      },
+      {
+        "term": "身熱夜甚",
+        "count": 1
+      },
+      {
+        "term": "舌深絳",
+        "count": 1
+      },
+      {
+        "term": "斑疹",
+        "count": 1
+      },
+      {
+        "term": "便血",
+        "count": 1
+      },
+      {
+        "term": "神昏",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "斑",
+        "count": 1
+      },
+      {
+        "term": "衄",
+        "count": 1
+      },
+      {
+        "term": "疹",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "熱入血分",
+        "count": 1
+      },
+      {
+        "term": "血分",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "清營透熱",
+        "count": 1
+      },
+      {
+        "term": "涼血散血",
+        "count": 1
+      }
+    ],
+    "herbs": [],
+    "ancient_disease_name": []
+  },
+  "relation_triples": [
+    [
+      "(unnamed)",
+      "has_symptom",
+      "斑疹隱隱"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "心煩不寐"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "身熱夜甚"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "舌深絳"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "斑疹"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "便血"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "神昏"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "心煩"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "斑"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "衄"
+    ],
+    [
+      "(unnamed)",
+      "has_symptom",
+      "疹"
+    ],
+    [
+      "(unnamed)",
+      "maps_to_candidate",
+      "温病·dongxue"
+    ],
+    [
+      "(unnamed)",
+      "maps_to_candidate",
+      "温病·xinbao"
+    ],
+    [
+      "(unnamed)",
+      "maps_to_candidate",
+      "温病·ying"
+    ],
+    [
+      "熱入血分",
+      "associated_with",
+      "(unnamed)"
+    ],
+    [
+      "血分",
+      "associated_with",
+      "(unnamed)"
+    ],
+    [
+      "熱入血分",
+      "treated_by",
+      "清營透熱"
+    ],
+    [
+      "熱入血分",
+      "treated_by",
+      "涼血散血"
+    ],
+    [
+      "血分",
+      "treated_by",
+      "清營透熱"
+    ],
+    [
+      "血分",
+      "treated_by",
+      "涼血散血"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "熱入血分"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "血分"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "清營透熱"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "涼血散血"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "斑疹隱隱",
+        "count": 1
+      },
+      {
+        "term": "心煩不寐",
+        "count": 1
+      },
+      {
+        "term": "身熱夜甚",
+        "count": 1
+      },
+      {
+        "term": "舌深絳",
+        "count": 1
+      },
+      {
+        "term": "斑疹",
+        "count": 1
+      },
+      {
+        "term": "便血",
+        "count": 1
+      },
+      {
+        "term": "神昏",
+        "count": 1
+      },
+      {
+        "term": "心煩",
+        "count": 1
+      },
+      {
+        "term": "斑",
+        "count": 1
+      },
+      {
+        "term": "衄",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "熱入血分",
+        "count": 1
+      },
+      {
+        "term": "血分",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "清營透熱",
+        "count": 1
+      },
+      {
+        "term": "涼血散血",
+        "count": 1
+      }
+    ],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "温病",
+    "ying",
+    "warm_disease",
+    "斑疹隱隱",
+    "心煩不寐",
+    "身熱夜甚",
+    "舌深絳",
+    "斑疹",
+    "便血"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:36:50Z",
+  "protocol": "hermes-v5"
+}

@@ -5,7 +5,7 @@
   "subtype": "vulgaris",
   "title": "银屑病·寻常型 古籍证候 Skill",
   "subject": "银屑病·寻常型",
-  "abstracted_claim": "古籍中与银屑病·寻常型表型相似的条文，核心古病名 癬、疕、疥、白疕、乾癬；常见症候 燥、匡郭、皮枯索、皮枯、白屑、枯；病机多属 風濕、血氣相搏、寒濕、腠理。（候选/表型对应，非诊断）",
+  "abstracted_claim": "古籍中与银屑病·寻常型表型相似的条文，核心古病名 癬、疕、疥、白疕、乾癬；常见症候 燥、匡郭、皮枯索、白屑、皮枯、枯；病机多属 風濕、血氣相搏、寒濕、腠理。（候选/表型对应，非诊断）",
   "merged_rule_id": "hermes.disease.psoriasis.vulgaris",
   "release_level": "bronze",
   "consensus_score": 0.756,
@@ -96,11 +96,11 @@
         "count": 1
       },
       {
-        "term": "皮枯",
+        "term": "白屑",
         "count": 1
       },
       {
-        "term": "白屑",
+        "term": "皮枯",
         "count": 1
       },
       {
@@ -160,6 +160,10 @@
     ],
     "treatment_method": [
       {
+        "term": "養血潤燥",
+        "count": 1
+      },
+      {
         "term": "祛風",
         "count": 1
       },
@@ -213,7 +217,7 @@
     [
       "癬",
       "has_symptom",
-      "皮枯"
+      "白屑"
     ],
     [
       "癬",
@@ -223,7 +227,7 @@
     [
       "癬",
       "has_symptom",
-      "白屑"
+      "皮枯"
     ],
     [
       "癬",
@@ -263,7 +267,7 @@
     [
       "乾癬",
       "has_symptom",
-      "皮枯"
+      "白屑"
     ],
     [
       "乾癬",
@@ -273,7 +277,7 @@
     [
       "乾癬",
       "has_symptom",
-      "白屑"
+      "皮枯"
     ],
     [
       "乾癬",
@@ -338,12 +342,12 @@
     [
       "瘡",
       "has_symptom",
-      "浸淫"
+      "匡郭"
     ],
     [
       "瘡",
       "has_symptom",
-      "匡郭"
+      "浸淫"
     ],
     [
       "瘡",
@@ -478,6 +482,11 @@
     [
       "風燥",
       "treated_by",
+      "養血潤燥"
+    ],
+    [
+      "風燥",
+      "treated_by",
       "祛風"
     ],
     [
@@ -488,22 +497,17 @@
     [
       "清",
       "dynasty_treatment",
+      "養血潤燥"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
       "祛風"
     ],
     [
       "癬",
       "has_symptom",
-      "燥"
-    ],
-    [
-      "癬",
-      "has_symptom",
       "厚"
-    ],
-    [
-      "頑癬",
-      "has_symptom",
-      "燥"
     ]
   ],
   "if_profile": {
@@ -521,11 +525,11 @@
         "count": 1
       },
       {
-        "term": "皮枯",
+        "term": "白屑",
         "count": 1
       },
       {
-        "term": "白屑",
+        "term": "皮枯",
         "count": 1
       },
       {
@@ -578,6 +582,10 @@
   },
   "then_profile": {
     "treatment_method": [
+      {
+        "term": "養血潤燥",
+        "count": 1
+      },
       {
         "term": "祛風",
         "count": 1
@@ -653,11 +661,11 @@
     "燥",
     "匡郭",
     "皮枯索",
-    "皮枯",
     "白屑",
+    "皮枯",
     "枯"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:09:28Z",
+  "compiled_at": "2026-06-12T10:36:50Z",
   "protocol": "hermes-v5"
 }

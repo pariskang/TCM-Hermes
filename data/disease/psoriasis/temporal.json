@@ -50,12 +50,16 @@
       ],
       "dominant_treatments": [
         {
+          "term": "養血潤燥",
+          "rel_freq": 0.333
+        },
+        {
           "term": "祛風",
-          "rel_freq": 0.5
+          "rel_freq": 0.333
         },
         {
           "term": "殺蟲",
-          "rel_freq": 0.5
+          "rel_freq": 0.333
         }
       ]
     }

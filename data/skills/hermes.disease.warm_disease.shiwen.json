@@ -1,0 +1,159 @@
+{
+  "skill_id": "hermes.disease.warm_disease.shiwen",
+  "kind": "disease",
+  "disease_id": "warm_disease",
+  "subtype": "shiwen",
+  "title": "温病·shiwen 古籍证候 Skill",
+  "subject": "温病·shiwen",
+  "abstracted_claim": "古籍中与温病·shiwen表型相似的条文，核心古病名 濕溫；常见症候 身熱不揚、身重、脘痞、胸悶、苔膩；病机多属 —。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.warm_disease.shiwen",
+  "release_level": "bronze",
+  "consensus_score": 0.665,
+  "supporting_initial_rules": [
+    "WARM_DISEASE_000006"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "WARM_DISEASE_000006"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "上焦篇·濕溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0007",
+      "entry_id": "WARM_DISEASE_000006",
+      "evidence_span": "濕溫，身熱不揚，胸悶脘痞，苔膩身重，午後熱甚，宜芳香化濁、清熱利濕。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "濕溫"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "身熱不揚",
+        "count": 1
+      },
+      {
+        "term": "身重",
+        "count": 1
+      },
+      {
+        "term": "脘痞",
+        "count": 1
+      },
+      {
+        "term": "胸悶",
+        "count": 1
+      },
+      {
+        "term": "苔膩",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [],
+    "treatment_method": [
+      {
+        "term": "芳香化濁",
+        "count": 1
+      }
+    ],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "濕溫",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "濕溫",
+      "has_symptom",
+      "身熱不揚"
+    ],
+    [
+      "濕溫",
+      "has_symptom",
+      "身重"
+    ],
+    [
+      "濕溫",
+      "has_symptom",
+      "脘痞"
+    ],
+    [
+      "濕溫",
+      "has_symptom",
+      "胸悶"
+    ],
+    [
+      "濕溫",
+      "has_symptom",
+      "苔膩"
+    ],
+    [
+      "濕溫",
+      "maps_to_candidate",
+      "温病·shiwen"
+    ],
+    [
+      "清",
+      "dynasty_treatment",
+      "芳香化濁"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "身熱不揚",
+        "count": 1
+      },
+      {
+        "term": "身重",
+        "count": 1
+      },
+      {
+        "term": "脘痞",
+        "count": 1
+      },
+      {
+        "term": "胸悶",
+        "count": 1
+      },
+      {
+        "term": "苔膩",
+        "count": 1
+      }
+    ],
+    "pathogenesis": []
+  },
+  "then_profile": {
+    "treatment_method": [
+      {
+        "term": "芳香化濁",
+        "count": 1
+      }
+    ],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "温病",
+    "shiwen",
+    "warm_disease",
+    "濕溫",
+    "身熱不揚",
+    "身重",
+    "脘痞",
+    "胸悶",
+    "苔膩"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:36:50Z",
+  "protocol": "hermes-v5"
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>骨质疏松 · TCM-Disease-Hermes 可视化</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+ :root{--bg:#f6f4ee;--fg:#2a2a2a;--card:#fff;--accent:#b4532a;--muted:#777;}
+ body.dark{--bg:#16181c;--fg:#e6e6e6;--card:#22252b;--accent:#e0925f;--muted:#9aa;}
+ *{box-sizing:border-box} body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg)}
+ header{padding:14px 20px;border-bottom:1px solid #0001;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+ h1{font-size:18px;margin:0} .tag{font-size:12px;color:var(--muted)}
+ .tabs{display:flex;gap:6px;padding:10px 20px;flex-wrap:wrap}
+ .tab{padding:6px 14px;border-radius:16px;border:1px solid #0002;cursor:pointer;font-size:13px;background:var(--card)}
+ .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+ .panel{display:none;padding:0 20px 24px} .panel.active{display:block}
+ .chart{height:560px;background:var(--card);border-radius:10px;border:1px solid #0001}
+ .controls{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:12px 0;font-size:13px}
+ .controls label{display:flex;gap:6px;align-items:center}
+ .controls input[type=range]{vertical-align:middle}
+ select,input[type=number]{padding:3px 6px;border-radius:6px;border:1px solid #0003;background:var(--card);color:var(--fg)}
+ .caveat{font-size:12px;color:var(--muted);padding:6px 20px}
+ button.toggle{margin-left:auto;padding:5px 10px;border-radius:8px;border:1px solid #0002;background:var(--card);color:var(--fg);cursor:pointer}
+</style></head>
+<body class="light">
+<header>
+ <h1>骨质疏松 · 古籍知识可视化</h1>
+ <span class="tag" id="meta"></span>
+ <button class="toggle" onclick="document.body.classList.toggle('dark');render()">明/暗</button>
+</header>
+<div class="tabs" id="tabs"></div>
+<div class="caveat">古今映射为候选/表型对应，非诊断；所有结论可回源至原文。No evidence, no rule.</div>
+<div id="panels"></div>
+<script>
+const DATA = {"disease": "骨质疏松", "disease_id": "osteoporosis", "generated_at": "2026-06-12T10:36:50Z", "summary": {"disease": "osteoporosis", "display_name": "骨质疏松", "generated_at": "2026-06-12T10:36:50Z", "candidates": 6, "by_level": {"silver": 2, "rejected": 3, "bronze": 1}, "by_subtype": {"bone_loss": 3}, "included_for_analytics": 3, "network_nodes": 0, "network_edges": 0, "core_herbs": [], "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"}, "network": {"nodes": [], "links": [], "categories": []}, "sankey": {"nodes": [{"name": "治法·填精"}, {"name": "治法·壯骨"}, {"name": "治法·補腎"}, {"name": "病名·痿"}, {"name": "病名·腰痛"}, {"name": "病名·骨枯"}, {"name": "病名·骨痿"}, {"name": "病机·腎虛"}, {"name": "症·腰痛"}, {"name": "症·腰脊不舉"}, {"name": "症·骨枯"}, {"name": "症·骨痿"}, {"name": "症·髓減"}], "links": [{"source": "病名·骨痿", "target": "症·腰脊不舉", "value": 3}, {"source": "病名·骨痿", "target": "症·骨痿", "value": 3}, {"source": "病名·痿", "target": "症·腰脊不舉", "value": 3}, {"source": "病名·痿", "target": "症·骨痿", "value": 3}, {"source": "病名·骨痿", "target": "症·髓減", "value": 1}, {"source": "病名·骨痿", "target": "症·骨枯", "value": 1}, {"source": "病名·骨枯", "target": "症·腰脊不舉", "value": 1}, {"source": "病名·骨枯", "target": "症·髓減", "value": 1}, {"source": "病名·骨枯", "target": "症·骨痿", "value": 1}, {"source": "病名·骨枯", "target": "症·骨枯", "value": 1}, {"source": "病名·痿", "target": "症·髓減", "value": 1}, {"source": "病名·痿", "target": "症·骨枯", "value": 1}, {"source": "病名·骨痿", "target": "症·腰痛", "value": 1}, {"source": "病名·腰痛", "target": "症·腰脊不舉", "value": 1}, {"source": "病名·腰痛", "target": "症·腰痛", "value": 1}, {"source": "病名·腰痛", "target": "症·骨痿", "value": 1}, {"source": "病名·痿", "target": "症·腰痛", "value": 1}, {"source": "病机·腎虛", "target": "治法·補腎", "value": 1}, {"source": "病机·腎虛", "target": "治法·填精", "value": 1}, {"source": "病机·腎虛", "target": "治法·壯骨", "value": 1}]}, "heatmap": {"herbs": [], "cells": [], "max": 1}, "bars": {"症状": [["腰脊不舉", 3], ["骨痿", 3], ["髓減", 1], ["骨枯", 1], ["腰痛", 1]], "病机": [["髓減", 1], ["腎虛", 1]], "治法": [["補腎", 2], ["填精", 1], ["壯骨", 1]], "药物": []}, "timeline": {"dynasties": ["戰國", "元", "明"], "rows": [["戰國", "病机·髓減", 1.0], ["元", "治法·補腎", 1.0], ["明", "病机·腎虛", 1.0], ["明", "治法·補腎", 0.333], ["明", "治法·填精", 0.333], ["明", "治法·壯骨", 0.333]]}, "params": {"min_edge_count": 1, "top_n": 25, "size_metric": "pagerank", "repulsion": 220, "sankey_min_weight": 1, "theme": "light"}};
+const P = Object.assign({}, DATA.params);
+const TABS = [
+ {id:"network", name:"药物共现网络"},
+ {id:"sankey",  name:"病机→治法→药物 桑基图"},
+ {id:"heatmap", name:"药物共现热力图"},
+ {id:"bars",    name:"高频词柱状图"},
+ {id:"timeline",name:"朝代时序演变"},
+];
+let active = "network";
+const charts = {};
+
+function el(tag, attrs, html){const e=document.createElement(tag);Object.assign(e,attrs||{});if(html!=null)e.innerHTML=html;return e;}
+function dark(){return document.body.classList.contains('dark');}
+
+function buildUI(){
+ const tabs=document.getElementById('tabs'); const panels=document.getElementById('panels');
+ document.getElementById('meta').textContent =
+   `条文 ${DATA.summary.candidates||0}｜分级 `+JSON.stringify(DATA.summary.by_level||{});
+ TABS.forEach(t=>{
+   const b=el('div',{className:'tab'+(t.id===active?' active':''),onclick:()=>{active=t.id;syncTabs();render();}},t.name);
+   tabs.appendChild(b);
+   const p=el('div',{className:'panel'+(t.id===active?' active':''),id:'panel-'+t.id});
+   p.appendChild(controlsFor(t.id));
+   const c=el('div',{className:'chart',id:'chart-'+t.id});
+   p.appendChild(c); panels.appendChild(p);
+ });
+}
+function syncTabs(){
+ document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',TABS[i].id===active));
+ document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='panel-'+active));
+}
+function ctl(label, node){const l=el('label',{},label+' ');l.appendChild(node);return l;}
+function controlsFor(id){
+ const c=el('div',{className:'controls'});
+ if(id==='network'){
+   const me=el('input',{type:'range',min:1,max:8,value:P.min_edge_count});
+   me.oninput=e=>{P.min_edge_count=+e.target.value;render();};
+   const sm=el('select'); ['pagerank','degree','betweenness','eigenvector'].forEach(o=>sm.appendChild(el('option',{value:o,selected:o===P.size_metric},o)));
+   sm.onchange=e=>{P.size_metric=e.target.value;render();};
+   const rp=el('input',{type:'range',min:60,max:600,value:P.repulsion});
+   rp.oninput=e=>{P.repulsion=+e.target.value;render();};
+   const tn=el('input',{type:'number',min:5,max:60,value:P.top_n,style:'width:60px'});
+   tn.onchange=e=>{P.top_n=+e.target.value;render();};
+   c.append(ctl('最小共现≥',me),ctl('节点大小=',sm),ctl('斥力',rp),ctl('Top-N',tn));
+ } else if(id==='sankey'){
+   const mw=el('input',{type:'range',min:1,max:6,value:P.sankey_min_weight});
+   mw.oninput=e=>{P.sankey_min_weight=+e.target.value;render();};
+   c.append(ctl('最小流量≥',mw));
+ } else if(id==='heatmap'||id==='bars'){
+   const tn=el('input',{type:'number',min:5,max:30,value:P.top_n,style:'width:60px'});
+   tn.onchange=e=>{P.top_n=+e.target.value;render();};
+   c.append(ctl('Top-N',tn));
+ } else { c.append(el('span',{className:'tag'},'按朝代展示病机/治法相对频率')); }
+ return c;
+}
+
+function opt(){return {network:netOpt,sankey:sankeyOpt,heatmap:heatOpt,bars:barOpt,timeline:timeOpt}[active]();}
+function netOpt(){
+ const nodes=DATA.network.nodes.slice().sort((a,b)=>b[P.size_metric]-a[P.size_metric]).slice(0,P.top_n);
+ const keep=new Set(nodes.map(n=>n.name));
+ const links=DATA.network.links.filter(l=>l.count>=P.min_edge_count&&keep.has(l.source)&&keep.has(l.target));
+ const maxv=Math.max(1,...nodes.map(n=>n[P.size_metric]));
+ return {tooltip:{},legend:[{data:DATA.network.categories,top:8}],series:[{
+   type:'graph',layout:'force',roam:true,draggable:true,
+   categories:DATA.network.categories.map(c=>({name:c})),
+   force:{repulsion:P.repulsion,edgeLength:[40,120],gravity:0.08},
+   label:{show:true,fontSize:11},
+   data:nodes.map(n=>({name:n.name,category:DATA.network.categories.indexOf(n.category),
+     symbolSize:10+38*(n[P.size_metric]/maxv),
+     value:n[P.size_metric],
+     tooltip:{formatter:`${n.name}<br>count ${n.count}<br>degree ${n.degree}<br>betweenness ${n.betweenness}<br>eigenvector ${n.eigenvector}<br>pagerank ${n.pagerank}`}})),
+   links:links.map(l=>({source:l.source,target:l.target,value:l.count,
+     lineStyle:{width:Math.min(6,l.count),opacity:.5,curveness:.1},
+     tooltip:{formatter:`${l.source}–${l.target}<br>共现 ${l.count}<br>PMI ${l.pmi}`}}))}]};
+}
+function sankeyOpt(){
+ const links=DATA.sankey.links.filter(l=>l.value>=P.sankey_min_weight);
+ const used=new Set();links.forEach(l=>{used.add(l.source);used.add(l.target);});
+ return {tooltip:{trigger:'item',triggerOn:'mousemove'},series:[{type:'sankey',
+   data:DATA.sankey.nodes.filter(n=>used.has(n.name)),links,
+   emphasis:{focus:'adjacency'},nodeAlign:'left',
+   lineStyle:{color:'gradient',opacity:.45},label:{fontSize:11}}]};
+}
+function heatOpt(){
+ const herbs=DATA.heatmap.herbs.slice(0,P.top_n);
+ const keep=new Set(herbs.map((h,i)=>i));
+ const cells=DATA.heatmap.cells.filter(c=>c[0]<herbs.length&&c[1]<herbs.length);
+ return {tooltip:{position:'top',formatter:p=>`${herbs[p.value[1]]}–${herbs[p.value[0]]}: ${p.value[2]}`},
+   grid:{height:'70%',top:'8%'},xAxis:{type:'category',data:herbs,axisLabel:{rotate:60,fontSize:10}},
+   yAxis:{type:'category',data:herbs,axisLabel:{fontSize:10}},
+   visualMap:{min:0,max:DATA.heatmap.max,calculable:true,orient:'horizontal',left:'center',bottom:'2%'},
+   series:[{type:'heatmap',data:cells,label:{show:false}}]};
+}
+function barOpt(){
+ const cats=Object.keys(DATA.bars);
+ const sel=cats[0];
+ const items=(DATA.bars[sel]||[]).slice(0,P.top_n).reverse();
+ return {title:{text:'高频'+sel,left:'center',textStyle:{fontSize:13}},tooltip:{},
+   grid:{left:90,right:30},xAxis:{type:'value'},
+   yAxis:{type:'category',data:items.map(i=>i[0]),axisLabel:{fontSize:11}},
+   series:[{type:'bar',data:items.map(i=>i[1]),itemStyle:{color:'#b4532a'},
+     label:{show:true,position:'right'}}],
+   graphic: cats.length>1 ? [] : []};
+}
+function timeOpt(){
+ const dyn=DATA.timeline.dynasties;
+ const terms=[...new Set(DATA.timeline.rows.map(r=>r[1]))];
+ const series=terms.map(t=>({name:t,type:'line',smooth:true,
+   data:dyn.map(d=>{const r=DATA.timeline.rows.find(x=>x[0]===d&&x[1]===t);return r?r[2]:0;})}));
+ return {tooltip:{trigger:'axis'},legend:{type:'scroll',top:6,textStyle:{fontSize:10}},
+   grid:{top:60},xAxis:{type:'category',data:dyn},yAxis:{type:'value',name:'相对频率'},
+   series};
+}
+
+function render(){
+ const id='chart-'+active; const dom=document.getElementById(id);
+ if(charts[active]){charts[active].dispose();}
+ charts[active]=echarts.init(dom, dark()?'dark':null);
+ try{charts[active].setOption(opt(),true);}catch(e){dom.innerHTML='<p style="padding:20px">渲染失败：'+e+'</p>';}
+}
+window.addEventListener('resize',()=>{if(charts[active])charts[active].resize();});
+buildUI();
+if(typeof echarts==='undefined'){document.getElementById('panels').innerHTML=
+ '<p style="padding:20px">ECharts 未能加载（离线？）。数据已内嵌于本文件 viz_data.json，可改用本地 echarts 或 --echarts-url 指向本地副本。</p>';}
+else{render();}
+</script></body></html>

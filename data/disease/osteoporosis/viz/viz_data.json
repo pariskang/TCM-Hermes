@@ -1,0 +1,275 @@
+{
+  "disease": "骨质疏松",
+  "disease_id": "osteoporosis",
+  "generated_at": "2026-06-12T10:36:50Z",
+  "summary": {
+    "disease": "osteoporosis",
+    "display_name": "骨质疏松",
+    "generated_at": "2026-06-12T10:36:50Z",
+    "candidates": 6,
+    "by_level": {
+      "silver": 2,
+      "rejected": 3,
+      "bronze": 1
+    },
+    "by_subtype": {
+      "bone_loss": 3
+    },
+    "included_for_analytics": 3,
+    "network_nodes": 0,
+    "network_edges": 0,
+    "core_herbs": [],
+    "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+  },
+  "network": {
+    "nodes": [],
+    "links": [],
+    "categories": []
+  },
+  "sankey": {
+    "nodes": [
+      {
+        "name": "治法·填精"
+      },
+      {
+        "name": "治法·壯骨"
+      },
+      {
+        "name": "治法·補腎"
+      },
+      {
+        "name": "病名·痿"
+      },
+      {
+        "name": "病名·腰痛"
+      },
+      {
+        "name": "病名·骨枯"
+      },
+      {
+        "name": "病名·骨痿"
+      },
+      {
+        "name": "病机·腎虛"
+      },
+      {
+        "name": "症·腰痛"
+      },
+      {
+        "name": "症·腰脊不舉"
+      },
+      {
+        "name": "症·骨枯"
+      },
+      {
+        "name": "症·骨痿"
+      },
+      {
+        "name": "症·髓減"
+      }
+    ],
+    "links": [
+      {
+        "source": "病名·骨痿",
+        "target": "症·腰脊不舉",
+        "value": 3
+      },
+      {
+        "source": "病名·骨痿",
+        "target": "症·骨痿",
+        "value": 3
+      },
+      {
+        "source": "病名·痿",
+        "target": "症·腰脊不舉",
+        "value": 3
+      },
+      {
+        "source": "病名·痿",
+        "target": "症·骨痿",
+        "value": 3
+      },
+      {
+        "source": "病名·骨痿",
+        "target": "症·髓減",
+        "value": 1
+      },
+      {
+        "source": "病名·骨痿",
+        "target": "症·骨枯",
+        "value": 1
+      },
+      {
+        "source": "病名·骨枯",
+        "target": "症·腰脊不舉",
+        "value": 1
+      },
+      {
+        "source": "病名·骨枯",
+        "target": "症·髓減",
+        "value": 1
+      },
+      {
+        "source": "病名·骨枯",
+        "target": "症·骨痿",
+        "value": 1
+      },
+      {
+        "source": "病名·骨枯",
+        "target": "症·骨枯",
+        "value": 1
+      },
+      {
+        "source": "病名·痿",
+        "target": "症·髓減",
+        "value": 1
+      },
+      {
+        "source": "病名·痿",
+        "target": "症·骨枯",
+        "value": 1
+      },
+      {
+        "source": "病名·骨痿",
+        "target": "症·腰痛",
+        "value": 1
+      },
+      {
+        "source": "病名·腰痛",
+        "target": "症·腰脊不舉",
+        "value": 1
+      },
+      {
+        "source": "病名·腰痛",
+        "target": "症·腰痛",
+        "value": 1
+      },
+      {
+        "source": "病名·腰痛",
+        "target": "症·骨痿",
+        "value": 1
+      },
+      {
+        "source": "病名·痿",
+        "target": "症·腰痛",
+        "value": 1
+      },
+      {
+        "source": "病机·腎虛",
+        "target": "治法·補腎",
+        "value": 1
+      },
+      {
+        "source": "病机·腎虛",
+        "target": "治法·填精",
+        "value": 1
+      },
+      {
+        "source": "病机·腎虛",
+        "target": "治法·壯骨",
+        "value": 1
+      }
+    ]
+  },
+  "heatmap": {
+    "herbs": [],
+    "cells": [],
+    "max": 1
+  },
+  "bars": {
+    "症状": [
+      [
+        "腰脊不舉",
+        3
+      ],
+      [
+        "骨痿",
+        3
+      ],
+      [
+        "髓減",
+        1
+      ],
+      [
+        "骨枯",
+        1
+      ],
+      [
+        "腰痛",
+        1
+      ]
+    ],
+    "病机": [
+      [
+        "髓減",
+        1
+      ],
+      [
+        "腎虛",
+        1
+      ]
+    ],
+    "治法": [
+      [
+        "補腎",
+        2
+      ],
+      [
+        "填精",
+        1
+      ],
+      [
+        "壯骨",
+        1
+      ]
+    ],
+    "药物": []
+  },
+  "timeline": {
+    "dynasties": [
+      "戰國",
+      "元",
+      "明"
+    ],
+    "rows": [
+      [
+        "戰國",
+        "病机·髓減",
+        1.0
+      ],
+      [
+        "元",
+        "治法·補腎",
+        1.0
+      ],
+      [
+        "明",
+        "病机·腎虛",
+        1.0
+      ],
+      [
+        "明",
+        "治法·補腎",
+        0.333
+      ],
+      [
+        "明",
+        "治法·填精",
+        0.333
+      ],
+      [
+        "明",
+        "治法·壯骨",
+        0.333
+      ]
+    ]
+  },
+  "params": {
+    "min_edge_count": 1,
+    "top_n": 25,
+    "size_metric": "pagerank",
+    "repulsion": 220,
+    "sankey_min_weight": 1,
+    "theme": "light"
+  }
+}

@@ -1,22 +1,22 @@
 {
   "disease": "rheumatoid_arthritis",
   "display_name": "类风湿关节炎",
-  "generated_at": "2026-06-12T10:09:31Z",
-  "candidates": 3722,
+  "generated_at": "2026-06-12T10:36:53Z",
+  "candidates": 600,
   "by_level": {
-    "rejected": 3598,
+    "rejected": 509,
     "silver": 5,
-    "bronze": 119
+    "bronze": 86
   },
   "by_subtype": {
-    "joint_pain": 120,
+    "joint_pain": 87,
     "swelling": 1,
     "deformity": 1,
     "systemic": 2
   },
-  "included_for_analytics": 124,
-  "network_nodes": 26,
-  "network_edges": 98,
+  "included_for_analytics": 91,
+  "network_nodes": 23,
+  "network_edges": 88,
   "core_herbs": [
     "桂枝",
     "甘草",

@@ -1,0 +1,191 @@
+{
+  "skill_id": "hermes.disease.warm_disease.shuwen",
+  "kind": "disease",
+  "disease_id": "warm_disease",
+  "subtype": "shuwen",
+  "title": "温病·shuwen 古籍证候 Skill",
+  "subject": "温病·shuwen",
+  "abstracted_claim": "古籍中与温病·shuwen表型相似的条文，核心古病名 暑溫；常见症候 脈洪大、面赤、汗多、脈洪、壯熱、煩渴；病机多属 氣分。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.warm_disease.shuwen",
+  "release_level": "bronze",
+  "consensus_score": 0.728,
+  "supporting_initial_rules": [
+    "WARM_DISEASE_000005"
+  ],
+  "supporting_rules_by_release_level": {
+    "bronze": [
+      "WARM_DISEASE_000005"
+    ]
+  },
+  "original_evidence": [
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "中焦篇·暑溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0006",
+      "entry_id": "WARM_DISEASE_000005",
+      "evidence_span": "暑溫，壯熱，汗多，煩渴，面赤，脈洪大者，氣分熱盛也，白虎湯主之。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "暑溫"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "脈洪大",
+        "count": 1
+      },
+      {
+        "term": "面赤",
+        "count": 1
+      },
+      {
+        "term": "汗多",
+        "count": 1
+      },
+      {
+        "term": "脈洪",
+        "count": 1
+      },
+      {
+        "term": "壯熱",
+        "count": 1
+      },
+      {
+        "term": "煩渴",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "氣分",
+        "count": 1
+      }
+    ],
+    "treatment_method": [],
+    "herbs": [],
+    "ancient_disease_name": [
+      {
+        "term": "暑溫",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "暑溫",
+      "has_symptom",
+      "脈洪大"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "面赤"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "汗多"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "脈洪"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "壯熱"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "煩渴"
+    ],
+    [
+      "暑溫",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "暑溫",
+      "maps_to_candidate",
+      "温病·shuwen"
+    ],
+    [
+      "氣分",
+      "associated_with",
+      "暑溫"
+    ],
+    [
+      "清",
+      "dynasty_pathogenesis",
+      "氣分"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "脈洪大",
+        "count": 1
+      },
+      {
+        "term": "面赤",
+        "count": 1
+      },
+      {
+        "term": "汗多",
+        "count": 1
+      },
+      {
+        "term": "脈洪",
+        "count": 1
+      },
+      {
+        "term": "壯熱",
+        "count": 1
+      },
+      {
+        "term": "煩渴",
+        "count": 1
+      },
+      {
+        "term": "渴",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "氣分",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "treatment_method": [],
+    "herbs": []
+  },
+  "variant_set": [],
+  "conflict_set": [],
+  "keywords": [
+    "温病",
+    "shuwen",
+    "warm_disease",
+    "暑溫",
+    "脈洪大",
+    "面赤",
+    "汗多",
+    "脈洪",
+    "壯熱",
+    "煩渴"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:36:50Z",
+  "protocol": "hermes-v5"
+}

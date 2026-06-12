@@ -108,13 +108,15 @@ final = 0.20·古病名命中 + 0.25·表型支持 + 0.20·形态学支持
 | Bronze | 0.65–0.79 | 候选线索，不进入主结论 |
 | Rejected | <0.65 或命中强排除 / 对抗判排除 | 排除（留档） |
 
-## 内置疾病 Profile（开箱即用）
+## 内置疾病 Profile（开箱即用，5 个）
 
 | 疾病 | 古病名映射 | 数据来源 |
 | --- | --- | --- |
 | 银屑病 `psoriasis` | 白疕 / 干癣 / 松皮癣 / 牛皮癣 / 蛇虱 | 示例外科语料（伤寒金匮无） |
 | 骨质疏松 `osteoporosis` / 骨痿 | 骨痿 / 骨枯 / 骨极 / 虚劳腰痛 | 示例（内经/本草色彩浓）+ 金匮「八味肾气丸」 |
 | 类风湿 `rheumatoid_arthritis` / 历节 | 历节 / 痹证 / 尪痹 / 鹤膝风 / 白虎历节 | **直接命中金匮「中风历节病」**，`--use-corpus` 即得真实条文与方药网络 |
+| 温病 `warm_disease` / 温病 | 温病 / 风温 / 春温 / 暑温 / 湿温 / 卫气营血 | 示例（叶天士《温热论》、吴鞠通《温病条辨》银翘散/桑菊饮） |
+| 湿疹 `eczema` / 湿疮 | 浸淫疮 / 旋耳疮 / 四弯风 / 奶癣 / 血风疮 | 示例外科语料（诸病源候论/医宗金鉴外科） |
 
 ```bash
 python3 -m hermes disease run --disease 骨质疏松
@@ -145,6 +147,25 @@ python3 -m hermes ask "白疕 鳞屑 血燥"                             # 经 S
 疾病 Skill 答复保留统一契约（发布级别 / 一致性分 / 支持候选 / 原文证据 / variant /
 conflict / 安全声明），并附疾病专属字段：`ancient_disease_names`、`ontology_summary`、
 `mapping_caveat`（古今映射为候选/表型对应，非诊断）。
+
+## 可视化导出（交互式 ECharts HTML，含 DIY 参数）
+
+把疾病知识导出为自包含的 HTML 仪表盘（数据内嵌，ECharts 走 CDN），五种图表：
+药物共现**网络**、病机→治法→药物**桑基图**、共现**热力图**、高频词**柱状图**、
+朝代**时序**。dashboard 顶部标签切换，每图都带**实时 DIY 控件**（最小共现阈值、
+节点大小指标 degree/betweenness/eigenvector/pagerank、力导向斥力、Top-N、明暗主题），
+浏览器内即时重绘。
+
+```bash
+python3 -m hermes disease run --disease 类风湿 --use-corpus --no-sample --viz   # 跑流程并出图
+python3 -m hermes disease-viz --disease 类风湿 --size-metric pagerank --min-edge 2 --theme dark
+```
+
+产物在 `data/disease/<病>/viz/`：`dashboard.html`（打开即用）+ `viz_data.json`
+（数据，供外部工具复用）。类风湿在真实金匮语料上的 dashboard 含 23 节点/88 边药物
+网络、漢/宋/明/清多朝代时序、373 条桑基流，核心药物为桂枝/甘草/附子/芍药/麻黄/白朮/
+乌头/知母/防风（= 桂枝芍药知母汤+乌头汤）。离线无网时 ECharts 加载失败会提示改用
+`--echarts-url` 指向本地副本，数据仍在 `viz_data.json` 中可用。
 
 ## 迁移到其他疾病
 

@@ -15,8 +15,8 @@
       "白疕",
       "骨節疼痛",
       "屈伸不利",
-      "四肢",
       "骨節",
+      "四肢",
       "筋骨",
       "燥"
     ]
@@ -41,8 +41,8 @@
       "燥",
       "匡郭",
       "皮枯索",
-      "皮枯",
       "白屑",
+      "皮枯",
       "枯"
     ]
   },
@@ -68,8 +68,8 @@
       "燥",
       "匡郭",
       "皮枯索",
-      "皮枯",
       "白屑",
+      "皮枯",
       "枯",
       "浸淫",
       "白皮"
@@ -96,6 +96,230 @@
     ]
   },
   {
+    "skill_id": "hermes.disease.warm_disease.qi",
+    "title": "温病·qi 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "温病·qi",
+    "disease_id": "warm_disease",
+    "release_level": "bronze",
+    "consensus_score": 0.656,
+    "keywords": [
+      "温病",
+      "qi",
+      "warm_disease",
+      "風溫",
+      "冬溫",
+      "溫熱",
+      "溫疫",
+      "不惡寒",
+      "惡寒",
+      "渴",
+      "淡豆豉",
+      "牛蒡子",
+      "甘草",
+      "蘆根",
+      "連翹",
+      "銀花",
+      "荊芥",
+      "桔梗"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.warm_disease.shiwen",
+    "title": "温病·shiwen 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "温病·shiwen",
+    "disease_id": "warm_disease",
+    "release_level": "bronze",
+    "consensus_score": 0.665,
+    "keywords": [
+      "温病",
+      "shiwen",
+      "warm_disease",
+      "濕溫",
+      "身熱不揚",
+      "身重",
+      "脘痞",
+      "胸悶",
+      "苔膩"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.warm_disease.shuwen",
+    "title": "温病·shuwen 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "温病·shuwen",
+    "disease_id": "warm_disease",
+    "release_level": "bronze",
+    "consensus_score": 0.728,
+    "keywords": [
+      "温病",
+      "shuwen",
+      "warm_disease",
+      "暑溫",
+      "脈洪大",
+      "面赤",
+      "汗多",
+      "脈洪",
+      "壯熱",
+      "煩渴"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.warm_disease.ying",
+    "title": "温病·ying 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "温病·ying",
+    "disease_id": "warm_disease",
+    "release_level": "bronze",
+    "consensus_score": 0.767,
+    "keywords": [
+      "温病",
+      "ying",
+      "warm_disease",
+      "斑疹隱隱",
+      "心煩不寐",
+      "身熱夜甚",
+      "舌深絳",
+      "斑疹",
+      "便血"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.warm_disease",
+    "title": "温病 古籍证候总览 Skill",
+    "kind": "disease",
+    "subject": "温病",
+    "disease_id": "warm_disease",
+    "release_level": "bronze",
+    "consensus_score": 0.704,
+    "keywords": [
+      "温病",
+      "warm_disease",
+      "風溫",
+      "冬溫",
+      "溫熱",
+      "溫疫",
+      "暑溫",
+      "濕溫",
+      "渴",
+      "不惡寒",
+      "惡寒",
+      "脈洪大",
+      "面赤",
+      "汗多",
+      "脈洪",
+      "壯熱"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.eczema.acute",
+    "title": "湿疹·acute 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "湿疹·acute",
+    "disease_id": "eczema",
+    "release_level": "bronze",
+    "consensus_score": 0.759,
+    "keywords": [
+      "湿疹",
+      "acute",
+      "eczema",
+      "黃水瘡",
+      "濕瘡",
+      "浸淫",
+      "浸淫成片",
+      "黃水",
+      "頭面",
+      "耳",
+      "流水"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.eczema.chronic",
+    "title": "湿疹·chronic 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "湿疹·chronic",
+    "disease_id": "eczema",
+    "release_level": "bronze",
+    "consensus_score": 0.704,
+    "keywords": [
+      "湿疹",
+      "chronic",
+      "eczema",
+      "血風瘡",
+      "瘙癢",
+      "乾燥",
+      "脫屑"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.eczema.infant",
+    "title": "湿疹·infant 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "湿疹·infant",
+    "disease_id": "eczema",
+    "release_level": "silver",
+    "consensus_score": 0.827,
+    "keywords": [
+      "湿疹",
+      "infant",
+      "eczema",
+      "奶癬",
+      "胎斂瘡",
+      "白屑",
+      "嬰兒"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.eczema.site",
+    "title": "湿疹·site 古籍证候 Skill",
+    "kind": "disease",
+    "subject": "湿疹·site",
+    "disease_id": "eczema",
+    "release_level": "bronze",
+    "consensus_score": 0.655,
+    "keywords": [
+      "湿疹",
+      "site",
+      "eczema",
+      "旋耳瘡",
+      "四彎風",
+      "旋耳",
+      "耳",
+      "腿彎",
+      "四彎",
+      "津水"
+    ]
+  },
+  {
+    "skill_id": "hermes.disease.eczema",
+    "title": "湿疹 古籍证候总览 Skill",
+    "kind": "disease",
+    "subject": "湿疹",
+    "disease_id": "eczema",
+    "release_level": "bronze",
+    "consensus_score": 0.731,
+    "keywords": [
+      "湿疹",
+      "eczema",
+      "旋耳瘡",
+      "四彎風",
+      "奶癬",
+      "胎斂瘡",
+      "黃水瘡",
+      "濕瘡",
+      "血風瘡",
+      "浸淫",
+      "耳",
+      "浸淫成片",
+      "黃水",
+      "旋耳",
+      "腿彎",
+      "四彎",
+      "津水"
+    ]
+  },
+  {
     "skill_id": "hermes.disease.rheumatoid_arthritis.deformity",
     "title": "类风湿关节炎·畸形/屈伸不利 古籍证候 Skill",
     "kind": "disease",
@@ -119,7 +343,7 @@
     "subject": "类风湿关节炎·关节疼痛",
     "disease_id": "rheumatoid_arthritis",
     "release_level": "bronze",
-    "consensus_score": 0.701,
+    "consensus_score": 0.702,
     "keywords": [
       "类风湿关节炎",
       "关节疼痛",
@@ -127,12 +351,12 @@
       "痹",
       "濕痹",
       "歷節",
-      "周痹",
       "痛痹",
+      "周痹",
       "痛",
       "疼痛",
-      "小便不利",
       "汗出",
+      "小便不利",
       "關節疼痛",
       "腫",
       "桂枝",
@@ -142,7 +366,7 @@
       "麻黃",
       "白朮",
       "烏頭",
-      "知母"
+      "生薑"
     ]
   },
   {
@@ -159,12 +383,12 @@
       "rheumatoid_arthritis",
       "痹",
       "腫大",
-      "咳",
       "厥",
+      "咳",
       "腫",
-      "桂枝",
+      "甘草",
       "乾薑",
-      "甘草"
+      "桂枝"
     ]
   },
   {
@@ -190,14 +414,14 @@
       "痛",
       "掣痛",
       "腫",
-      "甘草",
       "防風",
       "生薑",
-      "桂枝",
+      "甘草",
       "知母",
-      "白朮",
       "麻黃",
-      "附子"
+      "芍藥",
+      "白朮",
+      "桂枝"
     ]
   },
   {
@@ -207,26 +431,26 @@
     "subject": "类风湿关节炎",
     "disease_id": "rheumatoid_arthritis",
     "release_level": "bronze",
-    "consensus_score": 0.701,
+    "consensus_score": 0.702,
     "keywords": [
       "类风湿关节炎",
       "rheumatoid_arthritis",
       "痹",
       "濕痹",
       "歷節",
-      "周痹",
       "痛痹",
+      "周痹",
       "風痹",
       "行痹",
       "歷節風",
       "痛",
       "疼痛",
-      "小便不利",
       "汗出",
+      "小便不利",
       "腫",
       "關節疼痛",
       "惡寒",
-      "渴"
+      "發熱"
     ]
   }
 ]

@@ -20,7 +20,8 @@ from typing import Any
 
 from ..config import HermesConfig
 from ..schemas import SourceUnit
-from ..utils import ensure_dir, read_jsonl, utc_now, write_json, write_jsonl
+from ..utils import (ensure_dir, read_json, read_jsonl, utc_now, write_json,
+                     write_jsonl)
 from .analytics import NetworkAnalysisAgent, TemporalEvolutionAgent
 from .ontology import OntologyMappingAgent, RelationExtractionAgent
 from .planner import (AncientDiseaseNameExpansionAgent,
@@ -79,6 +80,7 @@ class DiseaseHermesPipeline:
         self.network = NetworkAnalysisAgent(self.config)
         self.temporal = TemporalEvolutionAgent(self.config)
         self.reporter = ReportWritingAgent(self.config, backend)
+        self._dynasty_map: dict[str, str] | None = None
 
     # ------------------------------------------------------------------
     def workspace(self, disease_id: str) -> Path:
@@ -106,6 +108,12 @@ class DiseaseHermesPipeline:
             "exclusion": self.exclusion.screen(unit.raw_text, profile),
         }
 
+    def _book_dynasty(self) -> dict[str, str]:
+        if getattr(self, "_dynasty_map", None) is None:
+            books = read_json(self.config.manifests_dir / "book_manifest.json", []) or []
+            self._dynasty_map = {b["book_id"]: b.get("dynasty", "") for b in books}
+        return self._dynasty_map
+
     def build_candidate(self, unit: SourceUnit, profile: DiseaseProfile,
                         core_hits: list[str], idx: int) -> CandidateRecord:
         annot = self.annotate(unit, profile, core_hits)
@@ -118,11 +126,12 @@ class DiseaseHermesPipeline:
         review = self.judge.judge(unit, profile, annot, votes)
 
         meta = unit.meta if isinstance(unit.meta, dict) else {}
+        dynasty = meta.get("dynasty") or self._book_dynasty().get(unit.book_id, "")
         rec = CandidateRecord(
             entry_id=f"{profile.disease_id.upper()}_{idx:06d}",
             source={"database": "hermes_corpus", "book": unit.book_title,
                     "chapter": unit.chapter_title, "book_id": unit.book_id,
-                    "dynasty": meta.get("dynasty", ""),
+                    "dynasty": dynasty,
                     "author": meta.get("author", ""), "year": meta.get("year", ""),
                     "source_unit_id": unit.source_unit_id,
                     "sample": meta.get("sample", False)},

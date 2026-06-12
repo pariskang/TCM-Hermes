@@ -1,0 +1,428 @@
+{
+  "candidates_analyzed": 1,
+  "n_nodes": 11,
+  "n_edges": 55,
+  "core_herbs": [
+    {
+      "herb": "桔梗",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "淡豆豉",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "牛蒡子",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "甘草",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "竹葉",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "荊芥",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "薄荷",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "蘆根",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "豆豉",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "連翹",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    },
+    {
+      "herb": "銀花",
+      "count": 1,
+      "degree": 1.0,
+      "betweenness": 0.0,
+      "eigenvector": 0.3015,
+      "pagerank": 0.0909
+    }
+  ],
+  "edges": [
+    {
+      "source": "桔梗",
+      "target": "淡豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "牛蒡子",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "甘草",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "竹葉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "荊芥",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "桔梗",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "牛蒡子",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "甘草",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "竹葉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "荊芥",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "淡豆豉",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "甘草",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "竹葉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "荊芥",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "牛蒡子",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "竹葉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "荊芥",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "甘草",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "荊芥",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "竹葉",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "荊芥",
+      "target": "薄荷",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "荊芥",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "荊芥",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "荊芥",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "荊芥",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "薄荷",
+      "target": "蘆根",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "薄荷",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "薄荷",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "薄荷",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "蘆根",
+      "target": "豆豉",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "蘆根",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "蘆根",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "豆豉",
+      "target": "連翹",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "豆豉",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    },
+    {
+      "source": "連翹",
+      "target": "銀花",
+      "count": 1,
+      "pmi": 0.0
+    }
+  ],
+  "interpretation": "核心药物（按 PageRank/度中心性）：桔梗、淡豆豉、牛蒡子、甘草、竹葉。"
+}

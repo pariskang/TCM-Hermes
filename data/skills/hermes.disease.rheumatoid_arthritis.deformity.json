@@ -21,7 +21,7 @@
     {
       "book_title": "金匱玉函要略輯義",
       "chapter_title": "論十三首、脈證三條",
-      "dynasty": "",
+      "dynasty": "清",
       "source_unit_id": "SU_JGYL_JIYI_000014",
       "entry_id": "RHEUMATOID_ARTHRITIS_000475",
       "evidence_span": "即拘攣癱瘓風痹之類。",
@@ -99,6 +99,6 @@
     "拘攣"
   ],
   "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
-  "compiled_at": "2026-06-12T10:09:31Z",
+  "compiled_at": "2026-06-12T10:36:53Z",
   "protocol": "hermes-v5"
 }

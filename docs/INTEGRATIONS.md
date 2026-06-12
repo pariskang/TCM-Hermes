@@ -20,18 +20,35 @@ Hermes 提供两条通用接入通道,覆盖几乎所有 AI 编程/Agent 工具:
 | `hermes_ask_skill` | Skill RAG 问答(方剂 + 疾病 Skill),含级别/一致性分/原文/安全声明 |
 | `hermes_formula_lineage` | 方药溯源(最早出处/历代时间线/加减方) |
 | `hermes_match_prescription` | 处方→经典方匹配 |
-| `hermes_list_diseases` | 列出疾病 Profile(银屑病/骨质疏松/类风湿…) |
+| `hermes_list_diseases` | 列出疾病 Profile(银屑病/骨质疏松/类风湿/温病/湿疹) |
 | `hermes_disease_run` | 运行疾病多智能体流程,可选编译 Disease-Skill |
 | `hermes_disease_candidates` | 读取某疾病候选条文(按级别过滤) |
+| `hermes_disease_viz` | 导出交互式 ECharts HTML 仪表盘(网络/桑基/热力/柱状/时序) |
 
-工具定义集中在 `hermes/integrations/tools.py`(纯函数,JSON 入/出),MCP 服务器
-`hermes/integrations/mcp_server.py` 仅做协议封装。
+工具定义集中在 `hermes/integrations/tools.py`(纯函数,JSON 入/出)。
+
+## 两种 MCP 服务器实现
+
+- **内置 stdio 服务器(默认,零依赖)**:`hermes/integrations/mcp_stdio.py` 用标准库
+  直接实现 MCP 的 JSON-RPC/stdio 协议,**无需安装任何包**即可 `python3 -m hermes mcp`,
+  与真实 MCP 客户端(Claude Code/Codex)协议兼容。
+- **FastMCP SDK 服务器**:`python3 -m hermes mcp --fastmcp`,需 `pip install "mcp"`,
+  适合想用官方 SDK 的场景。
+
+端到端联调可直接跑随附的真实 MCP 客户端(纯标准库,子进程驱动服务器完成
+initialize→tools/list→tools/call):
+
+```bash
+python3 scripts/mcp_client_demo.py
+```
 
 ## 安装
 
 ```bash
-pip install -e ".[mcp]"          # 安装 mcp
-# 可叠加 .[llm] 让工具内部用大模型做多评审：pip install -e ".[mcp,llm]"
+# 内置 stdio 服务器零依赖，直接可用：
+python3 -m hermes mcp
+# 若用 FastMCP SDK 版：pip install -e ".[mcp]"
+# 可叠加 .[llm] 让工具内部用大模型做多评审：pip install -e ".[llm]"
 ```
 
 ## Claude Code

@@ -97,10 +97,16 @@ class NetworkAnalysisAgent:
     def __init__(self, config: HermesConfig | None = None) -> None:
         self.config = config or HermesConfig()
 
-    def analyze(self, herb_lists: list[list[str]], min_count: int = 2,
+    def analyze(self, herb_lists: list[list[str]], min_count: int | None = None,
                 top: int = 25) -> dict:
-        """herb_lists: one herb list per included candidate."""
+        """herb_lists: one herb list per included candidate.
+
+        min_count auto-adapts to corpus size — 1 for small demos (so structure
+        is visible), 2 once there are ≥20 herb-bearing candidates (to suppress
+        spurious single co-occurrences)."""
         total = len(herb_lists)
+        if min_count is None:
+            min_count = 2 if total >= 20 else 1
         herb_freq: Counter = Counter()
         pair_freq: Counter = Counter()
         for herbs in herb_lists:
@@ -171,7 +177,9 @@ class TemporalEvolutionAgent:
             d = r.get("dynasty") or "未知"
             by_dynasty_p[d].update(r.get("pathogenesis", []))
             by_dynasty_t[d].update(r.get("treatment_method", []))
-        order = ["隋", "唐", "宋", "金", "元", "明", "清", "民國", "未知"]
+        order = ["先秦", "戰國", "秦", "漢", "西漢", "東漢", "晉", "東晉",
+                 "南北朝", "隋", "唐", "五代", "宋", "北宋", "南宋", "金", "元",
+                 "明", "清", "民國", "現代", "未知"]
         trends = {}
         for d in sorted(by_dynasty_p, key=lambda x: order.index(x)
                         if x in order else len(order)):

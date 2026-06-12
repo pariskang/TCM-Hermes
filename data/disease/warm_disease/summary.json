@@ -1,0 +1,30 @@
+{
+  "disease": "warm_disease",
+  "display_name": "温病",
+  "generated_at": "2026-06-12T10:36:50Z",
+  "candidates": 8,
+  "by_level": {
+    "rejected": 4,
+    "bronze": 4
+  },
+  "by_subtype": {
+    "qi": 1,
+    "shuwen": 1,
+    "shiwen": 1,
+    "ying": 1
+  },
+  "included_for_analytics": 4,
+  "network_nodes": 11,
+  "network_edges": 55,
+  "core_herbs": [
+    "桔梗",
+    "淡豆豉",
+    "牛蒡子",
+    "甘草",
+    "竹葉",
+    "荊芥",
+    "薄荷",
+    "蘆根"
+  ],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

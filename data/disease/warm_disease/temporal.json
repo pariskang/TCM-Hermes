@@ -1,0 +1,34 @@
+{
+  "dynasty_trends": {
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "氣分",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "熱入血分",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "血分",
+          "rel_freq": 0.333
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "芳香化濁",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "清營透熱",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "涼血散血",
+          "rel_freq": 0.333
+        }
+      ]
+    }
+  }
+}

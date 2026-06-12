@@ -1,0 +1,22 @@
+{
+  "disease": "eczema",
+  "display_name": "湿疹",
+  "generated_at": "2026-06-12T10:36:50Z",
+  "candidates": 8,
+  "by_level": {
+    "rejected": 1,
+    "bronze": 5,
+    "silver": 2
+  },
+  "by_subtype": {
+    "site": 2,
+    "infant": 1,
+    "acute": 3,
+    "chronic": 1
+  },
+  "included_for_analytics": 7,
+  "network_nodes": 0,
+  "network_edges": 0,
+  "core_herbs": [],
+  "principle": "古今映射为候选/表型对应，非诊断；结论可回源至原文。召回与精筛分离、正向与排除分离。"
+}

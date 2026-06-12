@@ -1,0 +1,47 @@
+{
+  "dynasty_trends": {
+    "明": {
+      "dominant_pathogenesis": [
+        {
+          "term": "濕熱",
+          "rel_freq": 1.0
+        }
+      ],
+      "dominant_treatments": []
+    },
+    "清": {
+      "dominant_pathogenesis": [
+        {
+          "term": "濕熱",
+          "rel_freq": 0.5
+        },
+        {
+          "term": "血熱",
+          "rel_freq": 0.167
+        },
+        {
+          "term": "血虛風燥",
+          "rel_freq": 0.167
+        },
+        {
+          "term": "心火脾濕",
+          "rel_freq": 0.167
+        }
+      ],
+      "dominant_treatments": [
+        {
+          "term": "清熱利濕",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "利濕",
+          "rel_freq": 0.333
+        },
+        {
+          "term": "養血潤燥",
+          "rel_freq": 0.333
+        }
+      ]
+    }
+  }
+}

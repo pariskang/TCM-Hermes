@@ -1,0 +1,680 @@
+{
+  "skill_id": "hermes.disease.warm_disease",
+  "kind": "disease",
+  "disease_id": "warm_disease",
+  "subtype": "overview",
+  "title": "温病 古籍证候总览 Skill",
+  "subject": "温病",
+  "abstracted_claim": "温病古籍证候总览：核心古病名 風溫、冬溫、溫熱、溫疫、暑溫、濕溫；覆盖分型 qi、shuwen、shiwen、ying；纳入条文 4 条。（候选/表型对应，非诊断）",
+  "merged_rule_id": "hermes.disease.warm_disease",
+  "release_level": "bronze",
+  "consensus_score": 0.704,
+  "supporting_initial_rules": [
+    "WARM_DISEASE_000003",
+    "WARM_DISEASE_000005",
+    "WARM_DISEASE_000006",
+    "WARM_DISEASE_000008"
+  ],
+  "supporting_rules_by_release_level": {},
+  "original_evidence": [
+    {
+      "book_title": "溫熱論",
+      "chapter_title": "入營入血",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0008",
+      "entry_id": "WARM_DISEASE_000008",
+      "evidence_span": "其熱傳營，舌色必絳，身熱夜甚，心煩不寐，斑疹隱隱，宜清營透熱；",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "中焦篇·暑溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0006",
+      "entry_id": "WARM_DISEASE_000005",
+      "evidence_span": "暑溫，壯熱，汗多，煩渴，面赤，脈洪大者，氣分熱盛也，白虎湯主之。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "上焦篇·濕溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0007",
+      "entry_id": "WARM_DISEASE_000006",
+      "evidence_span": "濕溫，身熱不揚，胸悶脘痞，苔膩身重，午後熱甚，宜芳香化濁、清熱利濕。",
+      "release_level": "bronze"
+    },
+    {
+      "book_title": "溫病條辨",
+      "chapter_title": "上焦篇·風溫",
+      "dynasty": "清",
+      "source_unit_id": "SU_WARM_DISEASE_SAMPLE_0004",
+      "entry_id": "WARM_DISEASE_000003",
+      "evidence_span": "太陰風溫、溫熱、溫疫、冬溫，但熱不惡寒而渴者，辛涼平劑銀翹散主之。",
+      "release_level": "bronze"
+    }
+  ],
+  "ancient_disease_names": [
+    "風溫",
+    "冬溫",
+    "溫熱",
+    "溫疫",
+    "暑溫",
+    "濕溫"
+  ],
+  "ontology_summary": {
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "不惡寒",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "脈洪大",
+        "count": 1
+      },
+      {
+        "term": "面赤",
+        "count": 1
+      },
+      {
+        "term": "汗多",
+        "count": 1
+      },
+      {
+        "term": "脈洪",
+        "count": 1
+      },
+      {
+        "term": "壯熱",
+        "count": 1
+      },
+      {
+        "term": "煩渴",
+        "count": 1
+      },
+      {
+        "term": "身熱不揚",
+        "count": 1
+      },
+      {
+        "term": "身重",
+        "count": 1
+      },
+      {
+        "term": "脘痞",
+        "count": 1
+      },
+      {
+        "term": "胸悶",
+        "count": 1
+      },
+      {
+        "term": "苔膩",
+        "count": 1
+      },
+      {
+        "term": "斑疹隱隱",
+        "count": 1
+      }
+    ],
+    "pathogenesis": [
+      {
+        "term": "氣分",
+        "count": 1
+      },
+      {
+        "term": "熱入血分",
+        "count": 1
+      },
+      {
+        "term": "血分",
+        "count": 1
+      }
+    ],
+    "treatment_method": [
+      {
+        "term": "芳香化濁",
+        "count": 1
+      },
+      {
+        "term": "清營透熱",
+        "count": 1
+      },
+      {
+        "term": "涼血散血",
+        "count": 1
+      }
+    ],
+    "herbs": [
+      {
+        "term": "淡豆豉",
+        "count": 1
+      },
+      {
+        "term": "牛蒡子",
+        "count": 1
+      },
+      {
+        "term": "甘草",
+        "count": 1
+      },
+      {
+        "term": "蘆根",
+        "count": 1
+      },
+      {
+        "term": "連翹",
+        "count": 1
+      },
+      {
+        "term": "銀花",
+        "count": 1
+      },
+      {
+        "term": "荊芥",
+        "count": 1
+      },
+      {
+        "term": "桔梗",
+        "count": 1
+      },
+      {
+        "term": "竹葉",
+        "count": 1
+      },
+      {
+        "term": "薄荷",
+        "count": 1
+      },
+      {
+        "term": "豆豉",
+        "count": 1
+      }
+    ],
+    "ancient_disease_name": [
+      {
+        "term": "風溫",
+        "count": 1
+      },
+      {
+        "term": "冬溫",
+        "count": 1
+      },
+      {
+        "term": "溫熱",
+        "count": 1
+      },
+      {
+        "term": "溫疫",
+        "count": 1
+      },
+      {
+        "term": "暑溫",
+        "count": 1
+      },
+      {
+        "term": "濕溫",
+        "count": 1
+      }
+    ]
+  },
+  "relation_triples": [
+    [
+      "風溫",
+      "has_symptom",
+      "不惡寒"
+    ],
+    [
+      "風溫",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "風溫",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "風溫",
+      "maps_to_candidate",
+      "温病·qi"
+    ],
+    [
+      "冬溫",
+      "has_symptom",
+      "不惡寒"
+    ],
+    [
+      "冬溫",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "冬溫",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "冬溫",
+      "maps_to_candidate",
+      "温病·qi"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "不惡寒"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "溫熱",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "溫熱",
+      "maps_to_candidate",
+      "温病·qi"
+    ],
+    [
+      "溫疫",
+      "has_symptom",
+      "不惡寒"
+    ],
+    [
+      "溫疫",
+      "has_symptom",
+      "惡寒"
+    ],
+    [
+      "溫疫",
+      "has_symptom",
+      "渴"
+    ],
+    [
+      "溫疫",
+      "maps_to_candidate",
+      "温病·qi"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "牛蒡子"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "蘆根"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "銀花"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "薄荷"
+    ],
+    [
+      "淡豆豉",
+      "co_occurs_with",
+      "豆豉"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "甘草"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "蘆根"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "銀花"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "薄荷"
+    ],
+    [
+      "牛蒡子",
+      "co_occurs_with",
+      "豆豉"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "蘆根"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "銀花"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "薄荷"
+    ],
+    [
+      "甘草",
+      "co_occurs_with",
+      "豆豉"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "連翹"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "銀花"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "薄荷"
+    ],
+    [
+      "蘆根",
+      "co_occurs_with",
+      "豆豉"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "銀花"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "薄荷"
+    ],
+    [
+      "連翹",
+      "co_occurs_with",
+      "豆豉"
+    ],
+    [
+      "銀花",
+      "co_occurs_with",
+      "荊芥"
+    ],
+    [
+      "銀花",
+      "co_occurs_with",
+      "桔梗"
+    ],
+    [
+      "銀花",
+      "co_occurs_with",
+      "竹葉"
+    ],
+    [
+      "銀花",
+      "co_occurs_with",
+      "薄荷"
+    ]
+  ],
+  "if_profile": {
+    "symptoms": [
+      {
+        "term": "渴",
+        "count": 2
+      },
+      {
+        "term": "不惡寒",
+        "count": 1
+      },
+      {
+        "term": "惡寒",
+        "count": 1
+      },
+      {
+        "term": "脈洪大",
+        "count": 1
+      },
+      {
+        "term": "面赤",
+        "count": 1
+      },
+      {
+        "term": "汗多",
+        "count": 1
+      },
+      {
+        "term": "脈洪",
+        "count": 1
+      },
+      {
+        "term": "壯熱",
+        "count": 1
+      },
+      {
+        "term": "煩渴",
+        "count": 1
+      },
+      {
+        "term": "身熱不揚",
+        "count": 1
+      },
+      {
+        "term": "身重",
+        "count": 1
+      },
+      {
+        "term": "脘痞",
+        "count": 1
+      }
+    ]
+  },
+  "then_profile": {
+    "herbs": [
+      {
+        "term": "淡豆豉",
+        "count": 1
+      },
+      {
+        "term": "牛蒡子",
+        "count": 1
+      },
+      {
+        "term": "甘草",
+        "count": 1
+      },
+      {
+        "term": "蘆根",
+        "count": 1
+      },
+      {
+        "term": "連翹",
+        "count": 1
+      },
+      {
+        "term": "銀花",
+        "count": 1
+      },
+      {
+        "term": "荊芥",
+        "count": 1
+      },
+      {
+        "term": "桔梗",
+        "count": 1
+      },
+      {
+        "term": "竹葉",
+        "count": 1
+      },
+      {
+        "term": "薄荷",
+        "count": 1
+      },
+      {
+        "term": "豆豉",
+        "count": 1
+      }
+    ]
+  },
+  "variant_set": [
+    {
+      "kind": "book_variant",
+      "book_title": "溫熱論",
+      "ancient_names": [],
+      "entry_ids": [
+        "WARM_DISEASE_000008"
+      ]
+    },
+    {
+      "kind": "book_variant",
+      "book_title": "溫病條辨",
+      "ancient_names": [
+        "冬溫",
+        "暑溫",
+        "溫熱",
+        "溫疫",
+        "濕溫",
+        "風溫"
+      ],
+      "entry_ids": [
+        "WARM_DISEASE_000003",
+        "WARM_DISEASE_000005",
+        "WARM_DISEASE_000006"
+      ]
+    }
+  ],
+  "conflict_set": [],
+  "keywords": [
+    "温病",
+    "warm_disease",
+    "風溫",
+    "冬溫",
+    "溫熱",
+    "溫疫",
+    "暑溫",
+    "濕溫",
+    "渴",
+    "不惡寒",
+    "惡寒",
+    "脈洪大",
+    "面赤",
+    "汗多",
+    "脈洪",
+    "壯熱"
+  ],
+  "safety_notice": "本 Disease-Skill 为古籍证候知识整理，古今病名仅建立表型对应/候选映射，不构成现代诊断或处方建议；每条证据可回源至原文，临床决策须由执业医师判断。",
+  "compiled_at": "2026-06-12T10:36:50Z",
+  "protocol": "hermes-v5"
+}
