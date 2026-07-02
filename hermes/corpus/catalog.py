@@ -38,20 +38,35 @@ class CatalogAgent:
         self.config = config or HermesConfig()
 
     def iter_book_dirs(self):
+        """Yield (raw_category, book_dir) pairs for both corpus layouts.
+
+        nested  raw/<分類>/[書籍/]<書名>/*.txt — curated trees; the category
+                directory name is the raw_category
+        flat    raw/<書名>/*.txt — the public jicheng archive; the directory
+                itself is one book and raw_category is "" so that parse_book
+                classifies it from the in-book 分類= metadata
+        """
         raw = self.config.corpus_raw_dir
         for cat_dir in sorted(raw.iterdir() if raw.exists() else []):
             if not cat_dir.is_dir():
                 continue
             books_root = cat_dir / "書籍" if (cat_dir / "書籍").exists() else cat_dir
-            for book_dir in sorted(books_root.iterdir()):
-                if book_dir.is_dir() and any(book_dir.glob("*.txt")):
+            nested = [d for d in sorted(books_root.iterdir())
+                      if d.is_dir() and any(d.glob("*.txt"))]
+            if nested:
+                for book_dir in nested:
                     yield cat_dir.name, book_dir
+            elif any(cat_dir.glob("*.txt")):
+                yield "", cat_dir
 
     def parse_book(self, raw_category: str, book_dir: Path) -> tuple[dict, ParsedBook]:
         text = _read_book_dir(book_dir)
         parsed = parse_book_text(text, fallback_title=book_dir.name)
         meta_cat = parsed.raw_category or raw_category
-        sub = SUBCATEGORY_MAP.get(raw_category, SUBCATEGORY_MAP.get(meta_cat, raw_category))
+        # nested layouts keep the directory-derived category; flat-layout
+        # books (raw_category == "") are classified by their 分類= metadata
+        cat = raw_category or meta_cat or book_dir.name
+        sub = SUBCATEGORY_MAP.get(cat, SUBCATEGORY_MAP.get(meta_cat, cat))
         short = book_short_id(book_dir.name, parsed.title)
         record = {
             "book_id": f"BOOK_{short}",
@@ -60,10 +75,10 @@ class CatalogAgent:
             "dir_name": book_dir.name,
             "author": parsed.author,
             "dynasty": parsed.dynasty,
-            "raw_category": raw_category,
+            "raw_category": cat,
             "meta_category": meta_cat,
             "subcategory": sub,
-            "category_path": category_path(raw_category),
+            "category_path": category_path(cat),
             "book_type": parsed.book_type(),
             "quality": parsed.meta.get("品質", ""),
             "edition": parsed.meta.get("版本", ""),

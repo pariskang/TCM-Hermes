@@ -233,6 +233,13 @@ class AutonomousReviewOrchestrator:
         su_dir = self.config.source_units_dir
         all_books = sorted(p.stem for p in Path(su_dir).glob("BOOK_*.jsonl"))
         targets = [b for b in all_books if not book_ids or b in book_ids]
+        if book_ids is None:
+            # full-corpus run: initial rules left over from a previous
+            # corpus/import have no source units any more and would leak
+            # into themes, merge and metrics — drop them before reviewing
+            for stale in self.config.rules_initial_dir.glob("BOOK_*.jsonl"):
+                if stale.stem not in all_books:
+                    stale.unlink()
         per_book = []
         for book_id in targets:
             per_book.append(self.process_book(book_id))

@@ -93,10 +93,18 @@ def cmd_pipeline(cfg: HermesConfig, args) -> None:
     from .agents.merger import RuleMergerAgent
     from .agents.skills import SkillBuilderAgent
     from .metrics.report import AutonomousReviewReporter
+    from .protocol import SUBCATEGORY_MAP
+
+    # default scope: the 傷寒金匱 categories (raw dir names + normalized
+    # subcategories), so a flat public-archive extraction is narrowed to the
+    # books whose 分類= metadata belongs to 傷寒金匱類 instead of reviewing
+    # (and rejecting) the whole 800-book archive
+    categories = args.categories or sorted(
+        set(SUBCATEGORY_MAP) | set(SUBCATEGORY_MAP.values()))
 
     print("[1/7] catalog");  _print(CatalogAgent(cfg).build())
     print("[2/7] segment");  _print(SegmenterAgent(cfg).run(
-        books=args.books or None, categories=args.categories or None))
+        books=args.books or None, categories=categories))
     print("[3/7] autonomous review")
     summary = AutonomousReviewOrchestrator(cfg).process_corpus(
         book_ids=[f"BOOK_{b}" if not b.startswith("BOOK_") else b

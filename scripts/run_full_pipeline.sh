@@ -4,13 +4,14 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 # 1) acquire the corpus (68 MB, 中醫笈成 book-20180111)
-#    only the 傷寒金匱類 categories are extracted
-python3 -m hermes download --extract --categories \
-  傷寒論_宋本 傷寒論_條文版 金匱要略方論 金匱要略_條文版 \
+#    the public archive is a flat tree (書名/*.txt); each book carries its
+#    own 分類= metadata, which the catalog uses for classification
+python3 -m hermes download --extract \
   || echo "download failed — place archives/trees and run: python3 -m hermes import <path>"
 
 # 2) full autonomous pipeline:
 #    catalog → segment → 5-layer review → themes → merge → skills → report
+#    (scoped by default to the 傷寒金匱 categories via 分類= metadata)
 python3 -m hermes pipeline
 
 # 3) research / lineage / paper artifacts

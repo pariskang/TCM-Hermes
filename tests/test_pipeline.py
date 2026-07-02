@@ -142,3 +142,23 @@ def test_serialization_roundtrip(orch, guizhi_unit):
     assert r2.initial_rule_id == r.initial_rule_id
     assert r2.autonomous_review.consensus_score == r.autonomous_review.consensus_score
     assert len(r2.audit_trail) == len(r.audit_trail)
+
+
+def test_process_corpus_prunes_stale_initial_rules(cfg, orch, guizhi_unit):
+    import json
+    su_path = cfg.source_units_dir / "BOOK_TEST.jsonl"
+    su_path.parent.mkdir(parents=True, exist_ok=True)
+    su_path.write_text(json.dumps(guizhi_unit.to_dict(), ensure_ascii=False) + "\n",
+                       encoding="utf-8")
+    stale = cfg.rules_initial_dir / "BOOK_STALE.jsonl"
+    stale.parent.mkdir(parents=True, exist_ok=True)
+    stale.write_text("{}\n", encoding="utf-8")
+
+    summary = orch.process_corpus()          # full run → stale book pruned
+    assert summary["books"] == 1
+    assert not stale.exists()
+    assert (cfg.rules_initial_dir / "BOOK_TEST.jsonl").exists()
+
+    stale.write_text("{}\n", encoding="utf-8")
+    orch.process_corpus(book_ids=["BOOK_TEST"])   # partial run → untouched
+    assert stale.exists()
