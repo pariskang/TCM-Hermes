@@ -59,11 +59,14 @@ python3 -m hermes search "怕冷 无汗 身疼痛 脉浮紧"
 # Skill RAG 问答（输出：skill/合并规则/级别/一致性分/支持规则/原文/变体/冲突/安全声明）
 python3 -m hermes ask "汗出惡風，脈浮緩，古籍中有哪些方證依據？"
 
-# 方药溯源 与 处方→经典方匹配（支持简体输入）
+# 方药溯源 与 处方→经典方匹配（支持简体输入；输出附十八反/十九畏/毒性/妊娠安全筛查）
 python3 -m hermes lineage 桂枝湯 --brief
 python3 -m hermes match-prescription "桂枝,白芍,炙甘草,生姜,大枣"
 
-# 医师工作台：方证匹配 / 病案回源 / 经典方鉴别（附证据链与免责声明）
+# 金标准评测基准（宋本伤寒论/金匮 55 条人工标注；抽取 P/R/F1 + 门控校准）
+python3 -m hermes benchmark
+
+# 医师工作台：方证匹配 / 病案回源 / 经典方鉴别（附证据链、药物安全筛查与免责声明）
 python3 -m hermes physician match --text "恶寒发热，无汗，身疼痛，脉浮紧"
 python3 -m hermes physician differentiate --formulas "桂枝湯,麻黃湯"
 
@@ -162,7 +165,7 @@ python3 -m hermes ask "白疕 鳞屑 血燥"                                # �
 ## 接入 Claude Code / Codex / 任意 MCP·CLI Agent
 
 ```bash
-python3 -m hermes mcp          # 零依赖 stdio MCP server，暴露 8 个 Hermes 工具（无需安装 mcp）
+python3 -m hermes mcp          # 零依赖 stdio MCP server，暴露 13 个 Hermes 工具（无需安装 mcp）
 python3 scripts/mcp_client_demo.py     # 真实 MCP 客户端端到端联调（纯标准库）
 ```
 
@@ -179,10 +182,15 @@ Agent 直接调 CLI（输出 JSON）。详见 [docs/INTEGRATIONS.md](docs/INTEGR
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — 架构与数据流
 - [docs/SAFETY.md](docs/SAFETY.md) — 安全治理边界
 - `prompts/` — 五个核心智能体的 v5 提示词；`examples/litellm_multi_model.py` — 多模型示例
-- `pytest tests/`：108 项测试覆盖协议不变量（证据子串、门控阈值、修复上限、
+- **评测基准**：`data/eval/shanghan_gold.jsonl` 为 55 条宋本伤寒论/金匮条文的
+  人工金标准标注（60 条期望规则，含无规则误报探针）；`hermes benchmark` 输出
+  分规则类型的抽取 P/R/F1、条件抽取质量与发布门控校准（正确规则 vs 误报规则的
+  共识分差、gold 级精确率），报告落盘 `data/reports/benchmark_report_latest.md`
+  ——任何抽取器/审核/门控改动前后都应跑一次作为回归判据。
+- `pytest tests/`：125 项测试覆盖协议不变量（证据子串、门控阈值、修复上限、
   rejected 留档、合并仅用 silver/gold、Skill 输出契约、患者端安全拒绝、
   人审字段全仓扫描）+ litellm 后端/评审小组/绑定校验/四核心 agent LLM 接线与回落 + 疾病框架（乾癬→silver、
-  圆癣→rejected、药物网络中心性、时序、断点续跑）+ 骨质疏松/类风湿 Profile、Disease-Skill 编译与 Skill RAG 接入、MCP 工具分发 + 温病/湿疹 Profile、ECharts 可视化导出、真实 MCP 客户端↔stdio 服务器端到端握手 + 外科/温病真实语料构建与隔离、五层知识图谱/旭日/雷达/PRISMA 可视化与 PNG/SVG 导出 + 扁平/嵌套语料布局编目、下载断点续传、陈旧中间态清理。
+  圆癣→rejected、药物网络中心性、时序、断点续跑）+ 骨质疏松/类风湿 Profile、Disease-Skill 编译与 Skill RAG 接入、MCP 工具分发 + 温病/湿疹 Profile、ECharts 可视化导出、真实 MCP 客户端↔stdio 服务器端到端握手 + 外科/温病真实语料构建与隔离、五层知识图谱/旭日/雷达/PRISMA 可视化与 PNG/SVG 导出 + 扁平/嵌套语料布局编目、下载断点续传、陈旧中间态清理 + 金标准数据集完整性、基准检测/门控校准回归阈值、十八反/十九畏/毒性/妊娠筛查与工作台 MCP 工具。
 
 ## 设计定位
 

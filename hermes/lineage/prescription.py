@@ -117,8 +117,10 @@ class PrescriptionMatcherAgent:
                 n for n in LEXICON.canonical_formulas
                 if n != r["formula"] and base and base in n)[:6]
         decomposition = self._decompose(q, results)
+        from ..knowledge.incompatibility import check_safety
         return {"input_herbs": sorted(q), "matches": results,
                 "classical_decomposition": decomposition,
+                "safety": check_safety(sorted(q)),
                 "note": "相似度基于药物集合 Jaccard + 包含度；炮制与剂量差异未计入。"}
 
     def _decompose(self, q: set[str], results: list[dict]) -> list[dict]:

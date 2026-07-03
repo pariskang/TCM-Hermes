@@ -19,7 +19,12 @@ Hermes 提供两条通用接入通道,覆盖几乎所有 AI 编程/Agent 工具:
 | `hermes_search_classics` | 古籍原文 RAG(精确+语义),返回证据链 |
 | `hermes_ask_skill` | Skill RAG 问答(方剂 + 疾病 Skill),含级别/一致性分/原文/安全声明 |
 | `hermes_formula_lineage` | 方药溯源(最早出处/历代时间线/加减方) |
-| `hermes_match_prescription` | 处方→经典方匹配 |
+| `hermes_match_prescription` | 处方→经典方匹配(附十八反/十九畏/毒性/妊娠安全筛查) |
+| `hermes_prescription_safety` | 处方安全筛查:十八反/十九畏配伍禁忌、毒性药材、妊娠禁忌 |
+| `hermes_physician_match` | 医师工作台·方证匹配(证据链+禁忌提醒+药物安全+免责声明) |
+| `hermes_physician_differentiate` | 医师工作台·经典方鉴别(共有/独有方证要点) |
+| `hermes_patient_explain` | 患者教育(安全门控:拒绝诊断/处方/剂量,红旗症状转急诊) |
+| `hermes_research_mine` | 科研工作台·主题挖掘(条文/实体/共现/假设,输出证据链) |
 | `hermes_list_diseases` | 列出疾病 Profile(银屑病/骨质疏松/类风湿/温病/湿疹) |
 | `hermes_disease_run` | 运行疾病多智能体流程,可选编译 Disease-Skill |
 | `hermes_disease_candidates` | 读取某疾病候选条文(按级别过滤) |

@@ -84,6 +84,17 @@ def cmd_metrics(cfg: HermesConfig, args) -> None:
     _print(QualityMetrics(cfg).compute(book_ids=args.books or None))
 
 
+def cmd_benchmark(cfg: HermesConfig, args) -> None:
+    from .metrics.benchmark import GoldBenchmark
+    bench = GoldBenchmark(cfg, dataset=args.dataset)
+    results = bench.run()
+    path = bench.report(results)
+    if not args.details:
+        results.pop("misses", None)
+    _print(results)
+    print("report →", path)
+
+
 def cmd_pipeline(cfg: HermesConfig, args) -> None:
     """catalog → segment → review → themes → merge → skills → report."""
     from .corpus.catalog import CatalogAgent
@@ -348,6 +359,14 @@ def build_parser() -> argparse.ArgumentParser:
     sp = sub.add_parser("metrics", help="compute quality metrics")
     sp.add_argument("--books", nargs="*", default=None)
     sp.set_defaults(func=cmd_metrics)
+
+    sp = sub.add_parser("benchmark",
+                        help="run the gold-set extraction benchmark")
+    sp.add_argument("--dataset", default=None,
+                    help="path to a gold JSONL (default data/eval/shanghan_gold.jsonl)")
+    sp.add_argument("--details", action="store_true",
+                    help="include per-clause misses in stdout")
+    sp.set_defaults(func=cmd_benchmark)
 
     sp = sub.add_parser("pipeline", help="full pipeline: catalog→…→report")
     sp.add_argument("--books", nargs="*", default=None)
