@@ -56,9 +56,13 @@ class InitialRuleExtractorAgent:
     def extract(self, unit: SourceUnit) -> list[InitialRule]:
         if unit.text_type in ("preface", "toc"):
             return []
-        if getattr(self.backend, "kind", "heuristic") == "anthropic":
+        if getattr(self.backend, "kind", "heuristic") != "heuristic":
             try:
-                return self._extract_llm(unit)
+                rules = self._extract_llm(unit)
+                if rules:
+                    return rules
+                # empty LLM output falls through — the deterministic grammar
+                # engine is the recall floor
             except Exception:
                 pass  # deterministic fallback keeps the pipeline running
         return self._extract_heuristic(unit)

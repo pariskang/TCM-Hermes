@@ -15,6 +15,11 @@ Mistral、Groq、Together、DeepSeek、Ollama、vLLM、Azure、Bedrock 等几乎
 Hermes 的 `LiteLLMBackend` 封装了它，并支持**按 agent 角色绑定不同模型**——这正是
 让「共识」从「一个模型自说自话」变成「多模型投票」的关键。
 
+任意生成式后端（litellm / anthropic）下，**extractor / reviewer / critic /
+judge 四个核心 agent 与评审小组都会走各自的 LLM 路径**（提示词见 `prompts/`，
+角色分别为 `extractor`/`reviewer`/`critic`/`judge`）；模型输出不合规或调用
+失败时逐 agent 自动回落启发式引擎，抽取结果为空时同样以启发式文法为召回底座。
+
 ```bash
 pip install -e ".[llm]"        # 安装 litellm
 ```
@@ -94,7 +99,10 @@ print(out["verdict"], out["confidence"])
 1. 硬门控不可推翻：结构无效 / 证据非子串 / critic fatal / **评审小组多数否决** → 直接 reject；
 2. 评审小组分数（按各评审置信加权的 support 比例）与确定性分数按 0.6/0.4 融合；
 3. 小组无多数一致（support 与 reject 并存、agreement < 0.5）→ 判 `model_conflict`；
-4. 绑定松散（多方并述 / 条件与结论跨句远距）→ 扣分并封顶（多方片段不得 Gold）。
+4. 绑定松散（多方并述 / 条件与结论跨句远距）→ 扣分并封顶（多方片段不得 Gold）；
+5. 生成式后端下另取一路 **LLM 裁决**（role=judge，输入含五层审核 + 绑定 + 小组
+   结果）与确定性共识按 0.5/0.5 融合；两路分歧 > 0.35 同样判 `model_conflict`，
+   模型输出不合规或调用失败时自动回落纯确定性评分。
 
 每条规则的 `review_records.panel` 保存全部评审的 verdict/confidence/所用模型，
 `audit_trail` 记录一次 `ReviewerPanel.panel_debate`——多智能体共识可完整复盘。

@@ -21,7 +21,7 @@ from ..config import HermesConfig
 from ..schemas import InitialRule
 from ..utils import clamp
 from . import prompts
-from .backends import HeuristicBackend
+from .backends import BackendError, HeuristicBackend
 from .critic import CriticReview
 from .evidence import EvidenceReview
 from .reviewer import SemanticReview
@@ -124,6 +124,27 @@ class ConsensusJudgeAgent:
                     "model_conflict", round(clamp(score), 3),
                     "評審小組分歧顯著（無多數一致）" + panel_note + "。")
 
+        # under a generative backend the LLM judge is one more independent
+        # confidence channel: a large gap with the deterministic fusion is a
+        # genuine model conflict (the hard gates above are never delegated)
+        llm_note = ""
+        if getattr(self.backend, "kind", "heuristic") != "heuristic":
+            try:
+                llm = self.judge_llm(rule, evidence, semantic, critic,
+                                     repair_round, repaired,
+                                     binding=binding, panel=panel)
+            except Exception:
+                llm = None    # provider/parse error → deterministic result stands
+            if llm is not None:
+                llm_score = clamp(llm.consensus_score)
+                if abs(clamp(score) - llm_score) > cfg.conflict_delta:
+                    return ConsensusJudgement(
+                        "model_conflict", round(min(clamp(score), llm_score), 3),
+                        f"確定性共識 {clamp(score):.2f} 與 LLM 裁決 "
+                        f"{llm_score:.2f} 分歧過大。")
+                score = 0.5 * score + 0.5 * llm_score
+                llm_note = f"；LLM 裁決置信 {llm_score:.2f}"
+
         score = round(clamp(score), 3)
 
         # repair budget exhausted but still standing ⇒ low confidence
@@ -146,12 +167,14 @@ class ConsensusJudgeAgent:
         if repaired:
             bits.append("問題已自動修復")
         return ConsensusJudgement(status, score,
-                                  "，".join(bits) + binding_note + panel_note + "。")
+                                  "，".join(bits) + binding_note + panel_note
+                                  + llm_note + "。")
 
     # ------------------------------------------------------------------
     def judge_llm(self, rule: InitialRule, evidence: EvidenceReview,
                   semantic: SemanticReview, critic: CriticReview,
-                  repair_round: int, repaired: bool) -> ConsensusJudgement:
+                  repair_round: int, repaired: bool,
+                  binding=None, panel=None) -> ConsensusJudgement:
         import json
         payload = json.dumps({
             "rule": rule.to_dict(),
@@ -160,9 +183,15 @@ class ConsensusJudgeAgent:
             "critic_review": critic.to_dict(),
             "repair_round": repair_round,
             "auto_repair_applied": repaired,
+            "binding_review": binding.to_dict() if binding is not None else None,
+            "panel_review": panel.to_dict() if panel is not None else None,
         }, ensure_ascii=False)
         out = self.backend.complete_json(prompts.CONSENSUS_JUDGE_PROMPT, payload,
                                          role="judge")
+        if "consensus_score" not in out and "autonomous_review_status" not in out:
+            # malformed model output — raise so judge() keeps the
+            # deterministic consensus instead of fusing a zero score
+            raise BackendError("judge output missing consensus fields")
         status = out.get("autonomous_review_status", "model_low_confidence")
         return ConsensusJudgement(status,
                                   clamp(float(out.get("consensus_score", 0.0))),

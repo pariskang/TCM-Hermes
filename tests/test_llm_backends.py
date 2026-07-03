@@ -167,3 +167,81 @@ def test_panel_mode_orchestrator(cfg, guizhi_unit):
     assert "panel" in rule.review_records
     assert any(e.agent == "ReviewerPanel" for e in rule.audit_trail)
     assert rule.review_records["binding"]["binding_score"] >= 0
+
+
+# --- litellm wired into the four core agents (extractor/reviewer/critic/judge)
+
+class _CoreAgentLLM:
+    """Well-formed responses for every core role; records which roles ran."""
+    kind = "litellm"
+
+    def __init__(self, judge_score=0.9):
+        self.roles = []
+        self.judge_score = judge_score
+
+    def model_for(self, role):
+        return f"mock/{role}"
+
+    def complete_json(self, system, user, role=""):
+        self.roles.append(role)
+        if role == "extractor":
+            return {"rules": []}      # empty → heuristic grammar recall floor
+        if role == "reviewer":
+            return {"semantic_review_result": "pass",
+                    "suggested_confidence": 0.88, "review_notes": ["llm"]}
+        if role == "critic":
+            return {"critic_result": "pass"}
+        if role == "judge":
+            return {"autonomous_review_status": "model_accepted",
+                    "consensus_score": self.judge_score}
+        return {"verdict": "support", "confidence": 0.8}   # panel profiles
+
+
+def test_core_agents_use_litellm_backend(cfg, guizhi_unit):
+    backend = _CoreAgentLLM()
+    orch = AutonomousReviewOrchestrator(cfg, backend=backend)
+    rules = orch.extractor.extract(guizhi_unit)
+    rule = [x for x in rules if x.rule_type == "formula_indication_rule"][0]
+    orch.review_rule(rule, guizhi_unit)
+    # all four core roles reached the litellm backend (not just the panel)
+    assert {"extractor", "reviewer", "critic", "judge"} <= set(backend.roles)
+    assert rule.autonomous_review.review_status in (
+        "model_accepted", "model_repaired_accepted")
+    assert rule.autonomous_review.consensus_score >= 0.85
+
+
+def test_judge_llm_disagreement_becomes_conflict(cfg, guizhi_unit):
+    backend = _CoreAgentLLM(judge_score=0.1)   # LLM judge strongly disagrees
+    orch = AutonomousReviewOrchestrator(cfg, backend=backend)
+    rule = [x for x in orch.extractor.extract(guizhi_unit)
+            if x.rule_type == "formula_indication_rule"][0]
+    orch.review_rule(rule, guizhi_unit)
+    assert rule.autonomous_review.review_status == "model_conflict"
+
+
+def test_malformed_llm_output_falls_back_to_heuristic(cfg, guizhi_unit):
+    class _Garbage:
+        kind = "litellm"
+
+        def model_for(self, role):
+            return "mock/garbage"
+
+        def complete_json(self, system, user, role=""):
+            return {"whatever": 1}
+
+    cfg.consensus_mode = "off"        # isolate the four core agents
+    baseline = AutonomousReviewOrchestrator(cfg)
+    b_rule = [x for x in baseline.extractor.extract(guizhi_unit)
+              if x.rule_type == "formula_indication_rule"][0]
+    baseline.review_rule(b_rule, guizhi_unit)
+
+    garbage = AutonomousReviewOrchestrator(cfg, backend=_Garbage())
+    g_rule = [x for x in garbage.extractor.extract(guizhi_unit)
+              if x.rule_type == "formula_indication_rule"][0]
+    garbage.review_rule(g_rule, guizhi_unit)
+
+    # unusable model output must degrade to the deterministic result
+    assert g_rule.autonomous_review.review_status == \
+        b_rule.autonomous_review.review_status
+    assert g_rule.autonomous_review.consensus_score == \
+        b_rule.autonomous_review.consensus_score
