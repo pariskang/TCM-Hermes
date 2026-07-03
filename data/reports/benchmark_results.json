@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-07-03T02:07:18Z",
+  "generated_at": "2026-07-03T02:22:14Z",
   "dataset": "data/eval/shanghan_gold.jsonl",
   "clauses": 55,
   "backend": "heuristic",
   "micro": {
-    "expected": 60,
-    "detected": 53,
-    "extracted": 60,
-    "correct": 53,
-    "precision": 0.883,
-    "recall": 0.883,
-    "f1": 0.883
+    "expected": 62,
+    "detected": 62,
+    "extracted": 63,
+    "correct": 63,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
   },
   "by_rule_type": {
     "formula_indication_rule": {
       "expected": 32,
-      "detected": 31,
+      "detected": 32,
       "extracted": 32,
-      "correct": 31,
-      "precision": 0.969,
-      "recall": 0.969,
-      "f1": 0.969
+      "correct": 32,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
     "contraindication_rule": {
       "expected": 9,
-      "detected": 8,
-      "extracted": 8,
-      "correct": 8,
+      "detected": 9,
+      "extracted": 9,
+      "correct": 9,
       "precision": 1.0,
-      "recall": 0.889,
-      "f1": 0.941
+      "recall": 1.0,
+      "f1": 1.0
     },
     "mistreatment_rule": {
       "expected": 1,
-      "detected": 0,
-      "extracted": 4,
-      "correct": 0,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": null
+      "detected": 1,
+      "extracted": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
     "prognosis_rule": {
       "expected": 3,
@@ -51,30 +51,30 @@
     },
     "transmission_rule": {
       "expected": 2,
-      "detected": 0,
-      "extracted": 0,
-      "correct": 0,
-      "precision": null,
-      "recall": 0.0,
-      "f1": null
+      "detected": 2,
+      "extracted": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
     "disease_definition_rule": {
       "expected": 6,
+      "detected": 6,
+      "extracted": 6,
+      "correct": 6,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "pulse_pattern_rule": {
+      "expected": 5,
       "detected": 5,
       "extracted": 5,
       "correct": 5,
       "precision": 1.0,
-      "recall": 0.833,
-      "f1": 0.909
-    },
-    "pulse_pattern_rule": {
-      "expected": 3,
-      "detected": 2,
-      "extracted": 4,
-      "correct": 2,
-      "precision": 0.5,
-      "recall": 0.667,
-      "f1": 0.571
+      "recall": 1.0,
+      "f1": 1.0
     },
     "formula_composition_rule": {
       "expected": 2,
@@ -96,68 +96,28 @@
     }
   },
   "condition_quality": {
-    "recall": 0.83,
-    "precision": 0.664
+    "recall": 0.833,
+    "precision": 0.669
   },
   "gate_calibration": {
     "correct": {
-      "rules": 53,
-      "mean_consensus": 0.829,
+      "rules": 63,
+      "mean_consensus": 0.816,
       "levels": {
-        "gold": 7,
-        "bronze": 9,
-        "silver": 33,
-        "rejected": 4
+        "gold": 8,
+        "bronze": 16,
+        "silver": 34,
+        "rejected": 5
       }
     },
     "spurious": {
-      "rules": 7,
-      "mean_consensus": 0.714,
-      "levels": {
-        "bronze": 5,
-        "silver": 1,
-        "rejected": 1
-      }
+      "rules": 0,
+      "mean_consensus": null,
+      "levels": {}
     },
-    "consensus_separation": 0.115,
+    "consensus_separation": null,
     "gold_precision": 1.0,
-    "released_precision": 0.891
+    "released_precision": 1.0
   },
-  "misses": [
-    {
-      "clause_id": "SHL_180",
-      "rule_type": "disease_definition_rule",
-      "key": "陽明病"
-    },
-    {
-      "clause_id": "SHL_273",
-      "rule_type": "mistreatment_rule",
-      "key": "下之"
-    },
-    {
-      "clause_id": "SHL_004",
-      "rule_type": "transmission_rule",
-      "key": ""
-    },
-    {
-      "clause_id": "SHL_185",
-      "rule_type": "transmission_rule",
-      "key": "轉屬陽明"
-    },
-    {
-      "clause_id": "SHL_351",
-      "rule_type": "formula_indication_rule",
-      "key": "當歸四逆湯"
-    },
-    {
-      "clause_id": "SHL_063",
-      "rule_type": "contraindication_rule",
-      "key": "不可更行"
-    },
-    {
-      "clause_id": "JGY_SB",
-      "rule_type": "pulse_pattern_rule",
-      "key": "濕痹"
-    }
-  ]
+  "misses": []
 }

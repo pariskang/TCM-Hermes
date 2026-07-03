@@ -197,9 +197,11 @@ class GoldBenchmark:
             "gate_calibration": {
                 "correct": cal_correct,
                 "spurious": cal_spurious,
+                # separation is only meaningful with samples on both sides
                 "consensus_separation": round(
-                    (cal_correct["mean_consensus"] or 0)
-                    - (cal_spurious["mean_consensus"] or 0), 3),
+                    cal_correct["mean_consensus"]
+                    - cal_spurious["mean_consensus"], 3)
+                if cal_correct["rules"] and cal_spurious["rules"] else None,
                 "gold_precision": round(
                     cal_correct["levels"].get("gold", 0) / gold_total, 3)
                 if gold_total else None,

@@ -52,21 +52,25 @@ def results(tmp_path_factory):
 def test_benchmark_detection_quality(results):
     micro = results["micro"]
     assert micro["expected"] >= 55
-    # baseline measured 0.883/0.883 — regression guard below baseline
-    assert micro["precision"] >= 0.8
-    assert micro["recall"] >= 0.8
-    assert results["by_rule_type"]["formula_indication_rule"]["recall"] >= 0.9
+    # baseline after the benchmark-driven extractor fixes: micro 0.98 —
+    # regression guard a step below the measured values
+    assert micro["precision"] >= 0.9
+    assert micro["recall"] >= 0.9
+    assert results["by_rule_type"]["formula_indication_rule"]["recall"] >= 0.95
     assert results["by_rule_type"]["contraindication_rule"]["precision"] >= 0.9
+    assert results["by_rule_type"]["mistreatment_rule"]["recall"] >= 0.9
+    assert results["by_rule_type"]["transmission_rule"]["recall"] >= 0.9
 
 
 def test_benchmark_gate_calibration(results):
     gc = results["gate_calibration"]
-    # correct rules must score visibly higher than spurious ones …
-    assert gc["consensus_separation"] > 0.05
-    # … and gold releases must be overwhelmingly correct
+    # separation only means anything with samples on both sides
+    if gc["consensus_separation"] is not None and gc["spurious"]["rules"] >= 3:
+        assert gc["consensus_separation"] > 0.05
+    # gold/released precision are the primary calibration guards
     if gc["gold_precision"] is not None:
         assert gc["gold_precision"] >= 0.9
-    assert gc["released_precision"] >= 0.8
+    assert gc["released_precision"] >= 0.9
 
 
 def test_benchmark_report_written(results):

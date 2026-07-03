@@ -162,3 +162,40 @@ def test_process_corpus_prunes_stale_initial_rules(cfg, orch, guizhi_unit):
     stale.write_text("{}\n", encoding="utf-8")
     orch.process_corpus(book_ids=["BOOK_TEST"])   # partial run → untouched
     assert stale.exists()
+
+
+def test_extractor_fixes_from_benchmark(orch):
+    """Regression pins for the four defects surfaced by the gold benchmark."""
+    # 1) herb-initial formula names must keep their head (was 歸四逆湯)
+    unit = fx.make_unit("手足厥寒，脈細欲絕者，當歸四逆湯主之。",
+                        su_id="SU_TEST_000101")
+    rules = orch.extractor.extract(unit)
+    assert any(r.then_conclusions.get("formula") == ["當歸四逆湯"] for r in rules)
+
+    # 2) 不可更行 + formula object is a contraindication
+    unit = fx.make_unit("發汗後，不可更行桂枝湯，汗出而喘，無大熱者，"
+                        "可與麻黃杏仁甘草石膏湯。", su_id="SU_TEST_000102")
+    prohibitions = [p for r in orch.extractor.extract(unit)
+                    if r.rule_type == "contraindication_rule"
+                    for p in r.then_conclusions["prohibition"]]
+    assert any("不可更行桂枝湯" in p for p in prohibitions)
+
+    # 3) 若下之 consumes 之; bare 若吐若下 enumerations must not fire
+    unit = fx.make_unit("太陰之為病，腹滿而吐，食不下，自利益甚，時腹自痛。"
+                        "若下之，必胸下結鞕。", su_id="SU_TEST_000103")
+    mt = [r for r in orch.extractor.extract(unit)
+          if r.rule_type == "mistreatment_rule"]
+    assert mt and mt[0].then_conclusions["mistreatment"] == ["若下之"]
+    assert mt[0].then_conclusions["consequence"] == ["必胸下結鞕"]
+    unit = fx.make_unit("傷寒發汗，若吐若下，解後，心下痞鞕，噫氣不除者，"
+                        "旋覆代赭湯主之。", su_id="SU_TEST_000104")
+    assert not [r for r in orch.extractor.extract(unit)
+                if r.rule_type == "mistreatment_rule"]
+
+    # 4) 轉屬陽明 transmission recovers the source meridian as condition
+    unit = fx.make_unit("本太陽初得病時，發其汗，汗先出不徹，因轉屬陽明也。",
+                        su_id="SU_TEST_000105")
+    tr = [r for r in orch.extractor.extract(unit)
+          if r.rule_type == "transmission_rule"]
+    assert tr and tr[0].if_conditions["disease"] == ["太陽"]
+    assert tr[0].then_conclusions["transmission"] == ["轉屬陽明"]
