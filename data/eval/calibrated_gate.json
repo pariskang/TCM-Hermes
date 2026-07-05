@@ -1,0 +1,208 @@
+{
+  "method": "risk_controlling_prediction_sets",
+  "bound": "clopper_pearson_exact_binomial",
+  "confidence": 0.95,
+  "delta": 0.05,
+  "n_calibration": 63,
+  "tiers": [
+    {
+      "tier": "gold",
+      "target_precision": 0.95,
+      "target_recall": 0.55,
+      "threshold": 0.87,
+      "n_released": 42,
+      "empirical_precision": 1.0,
+      "error_upper_bound": 0.0688,
+      "empirical_recall": 0.6667,
+      "miss_upper_bound": 0.4435,
+      "precision_certified": false,
+      "recall_certified": true,
+      "certified": false,
+      "note": "precision 0.95 not certified at this calibration size (empirical 1.0); add labelled data"
+    },
+    {
+      "tier": "silver",
+      "target_precision": 0.9,
+      "target_recall": 0.8,
+      "threshold": 0.77,
+      "n_released": 58,
+      "empirical_precision": 1.0,
+      "error_upper_bound": 0.0503,
+      "empirical_recall": 0.9206,
+      "miss_upper_bound": 0.1597,
+      "precision_certified": true,
+      "recall_certified": true,
+      "certified": true,
+      "note": ""
+    },
+    {
+      "tier": "bronze",
+      "target_precision": 0.8,
+      "target_recall": 0.95,
+      "threshold": 0.0,
+      "n_released": 63,
+      "empirical_precision": 1.0,
+      "error_upper_bound": 0.0464,
+      "empirical_recall": 1.0,
+      "miss_upper_bound": 0.0464,
+      "precision_certified": true,
+      "recall_certified": true,
+      "certified": true,
+      "note": ""
+    }
+  ],
+  "calibrated_thresholds": {
+    "gold": 0.87,
+    "silver": 0.77,
+    "bronze": 0.0
+  },
+  "ece": {
+    "ece": 0.1836,
+    "mce": 1.0,
+    "n": 63,
+    "bins": [
+      {
+        "range": [
+          0.0,
+          0.1
+        ],
+        "count": 5,
+        "confidence": 0.0,
+        "accuracy": 1.0,
+        "gap": 1.0
+      },
+      {
+        "range": [
+          0.7,
+          0.8
+        ],
+        "count": 5,
+        "confidence": 0.7764,
+        "accuracy": 1.0,
+        "gap": 0.2236
+      },
+      {
+        "range": [
+          0.8,
+          0.9
+        ],
+        "count": 14,
+        "confidence": 0.8295,
+        "accuracy": 1.0,
+        "gap": 0.1705
+      },
+      {
+        "range": [
+          0.9,
+          1.0
+        ],
+        "count": 39,
+        "confidence": 0.9215,
+        "accuracy": 1.0,
+        "gap": 0.0785
+      }
+    ]
+  },
+  "selective_risk": [
+    {
+      "coverage": 0.048,
+      "threshold": 0.94,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.095,
+      "threshold": 0.94,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.143,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.206,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.254,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.302,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.349,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.397,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.444,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.508,
+      "threshold": 0.92,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.556,
+      "threshold": 0.9,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.603,
+      "threshold": 0.9,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.651,
+      "threshold": 0.876,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.698,
+      "threshold": 0.82,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.746,
+      "threshold": 0.82,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.794,
+      "threshold": 0.82,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.857,
+      "threshold": 0.796,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.905,
+      "threshold": 0.77,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.952,
+      "threshold": 0.0,
+      "risk": 0.0
+    },
+    {
+      "coverage": 1.0,
+      "threshold": 0.0,
+      "risk": 0.0
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Extraction Benchmark (Gold Set)
 
-- Generated: 2026-07-03T02:22:14Z
+- Generated: 2026-07-04T16:17:55Z
 - Dataset: data/eval/shanghan_gold.jsonl (55 clauses)
 - Backend: heuristic
 
@@ -26,7 +26,7 @@
 
 ## Condition quality (matched formula rules)
 
-- recall 0.833 / precision 0.669
+- recall 0.843 / precision 0.672
 
 ## Release-gate calibration
 

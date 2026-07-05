@@ -97,6 +97,28 @@ class GoldBenchmark:
         return False
 
     # ------------------------------------------------------------------
+    def labeled_scores(self) -> list[tuple[float, bool]]:
+        """(consensus_score, is_correct) for every extracted+reviewed rule.
+
+        This is the labelled calibration set the risk-controlled gate needs:
+        each reviewed rule is 'correct' iff it matches a gold expectation of
+        the same clause.  Spurious extractions are the negatives that make the
+        precision guarantee meaningful.
+        """
+        pairs: list[tuple[float, bool]] = []
+        for i, rec in enumerate(read_jsonl(self.dataset)):
+            unit = self._unit(rec, i + 1)
+            extracted = [r for r in self.orch.extractor.extract(unit)
+                         if r.rule_type in EVAL_TYPES]
+            for r in extracted:
+                self.orch.review_rule(r, unit)
+            expected = rec.get("expected_rules", [])
+            for r in extracted:
+                correct = any(self._matches(exp, r) for exp in expected)
+                pairs.append((float(r.autonomous_review.consensus_score), correct))
+        return pairs
+
+    # ------------------------------------------------------------------
     def run(self) -> dict:
         records = list(read_jsonl(self.dataset))
         by_type: dict[str, dict] = {
