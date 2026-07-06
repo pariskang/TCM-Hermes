@@ -1,6 +1,6 @@
 # TCM-Hermes v5 — 模型自主治理的古籍规则生成系统
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pariskang/TCM-Hermes/blob/claude/project-code-review-4jkbyh/notebooks/TCM_Hermes_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pariskang/TCM-Hermes/blob/0e82685e6d9666bf626d777f0ee203a56d81850f/notebooks/TCM_Hermes_Colab.ipynb)
 
 > **Hermes 不再等待人工专家确认规则，而是通过「证据回源 + 对抗式质疑 + 一致性
 > 裁决 + 自动修复 + 发布分级」实现模型自主审核；最终合并规则只使用
@@ -10,10 +10,15 @@
 >
 > No evidence, no rule. No source trace, no answer. No human review.
 
-> 🚀 **一键体验**：点上方 Colab 徽章打开
-> [`notebooks/TCM_Hermes_Colab.ipynb`](notebooks/TCM_Hermes_Colab.ipynb)，全功能演示
-> （检索 / 问答 / 溯源 / 安全筛查 / 工作台 / 评测 / 风险控制校准 / 疾病发现 +
-> ECharts / MCP / 多厂商后端），大多数单元用仓库自带产物即可运行，无需下载语料。
+> 🚀 **一键体验**：点上方 **Open in Colab** 徽章，或直接点这个链接打开 —
+> **[▶ 在 Google Colab 中运行](https://colab.research.google.com/github/pariskang/TCM-Hermes/blob/0e82685e6d9666bf626d777f0ee203a56d81850f/notebooks/TCM_Hermes_Colab.ipynb)**。
+> 全功能演示（检索 / 问答 / 溯源 / 安全筛查 / 工作台 / 评测 / 风险控制校准 /
+> 疾病发现 + ECharts / MCP / 多厂商后端），大多数单元用仓库自带产物即可运行，
+> 无需下载语料。
+>
+> 链接指向 commit `0e82685`（**指向具体提交，因为 Colab 无法解析含斜杠的分支名**）；
+> PR #4 合并进 `main` 后，`.../blob/main/notebooks/TCM_Hermes_Colab.ipynb` 亦可用。
+> 也可把 `notebooks/TCM_Hermes_Colab.ipynb` 下载后拖到 [colab.research.google.com](https://colab.research.google.com) 打开。
 
 Hermes 自动下载并解析伤寒金匮类古籍（[中醫笈成](https://jicheng.tw/)
 book-20180111），按完整目录分类法逐书逐章抽取 InitialRules，经五重模型自主
