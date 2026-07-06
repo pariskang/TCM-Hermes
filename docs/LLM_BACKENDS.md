@@ -58,6 +58,50 @@ export OLLAMA_API_BASE=http://localhost:11434
 python3 -m hermes disease run --disease 银屑病
 ```
 
+### Azure OpenAI
+
+模型名用 `azure/<部署名>`；端点/密钥可用 Hermes 统一变量（`HERMES_LLM_API_*`）
+或 litellm 原生的 `AZURE_API_*`：
+
+```bash
+export HERMES_BACKEND=litellm
+export HERMES_LLM_MODEL=azure/my-gpt4o-deployment
+export HERMES_LLM_API_BASE=https://<resource>.openai.azure.com
+export HERMES_LLM_API_KEY=<azure-key>
+export HERMES_LLM_API_VERSION=2024-02-01
+python3 -m hermes review --books BOOK_SHL_SONGBEN
+```
+
+### MiniMax
+
+原生 `minimax/<模型>`（`MINIMAX_API_KEY` 自动识别、默认端点
+`https://api.minimax.io/v1`），或走 OpenAI 兼容端点：
+
+```bash
+export HERMES_BACKEND=litellm
+export HERMES_LLM_MODEL=minimax/MiniMax-M2         # 原生
+export MINIMAX_API_KEY=<minimax-key>
+# 或显式 OpenAI 兼容：HERMES_LLM_MODEL=openai/<model> + HERMES_LLM_API_BASE/KEY
+python3 -m hermes disease run --disease 银屑病
+```
+
+### 端点变量（可按角色覆盖）
+
+`HERMES_LLM_API_BASE` / `HERMES_LLM_API_KEY` / `HERMES_LLM_API_VERSION` 为全局
+默认；追加 `_<ROLE>` 后缀即按 agent 角色覆盖端点——于是可以让**不同角色打不同
+厂商**（如 Azure 裁决 + MiniMax 对抗 + OpenAI 抽取），共识真正来自独立模型：
+
+```bash
+export HERMES_LLM_MODEL_EXTRACTOR=gpt-4o-mini
+export HERMES_LLM_MODEL_CRITIC=minimax/MiniMax-M2         # MINIMAX_API_KEY 自动识别
+export HERMES_LLM_MODEL_JUDGE=azure/my-judge-deployment
+export HERMES_LLM_API_BASE_JUDGE=https://<resource>.openai.azure.com
+export HERMES_LLM_API_KEY_JUDGE=<azure-key>
+export HERMES_LLM_API_VERSION_JUDGE=2024-02-01
+export HERMES_CONSENSUS_MODE=panel                        # 启用评审小组辩论
+python3 -m hermes review --books BOOK_SHL_SONGBEN
+```
+
 ## 三、代码内调用
 
 ```python

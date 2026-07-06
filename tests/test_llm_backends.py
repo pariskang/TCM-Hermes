@@ -82,6 +82,59 @@ def test_litellm_text_completion(fake_litellm, cfg):
     assert fake_litellm.calls[-1].get("response_format") is None
 
 
+# --- Azure / MiniMax / per-role endpoint routing ----------------------------
+
+def test_azure_endpoint_kwargs(fake_litellm, cfg, monkeypatch):
+    cfg.litellm_model = "azure/gpt-4o-eu"        # resolved from env at runtime
+    monkeypatch.setenv("HERMES_LLM_API_BASE", "https://acme.openai.azure.com")
+    monkeypatch.setenv("HERMES_LLM_API_KEY", "az-key")
+    monkeypatch.setenv("HERMES_LLM_API_VERSION", "2024-02-01")
+    b = LiteLLMBackend(cfg)
+    b.complete_json("s", "u", role="judge")
+    call = fake_litellm.calls[-1]
+    assert call["model"] == "azure/gpt-4o-eu"
+    assert call["api_base"] == "https://acme.openai.azure.com"
+    assert call["api_key"] == "az-key"
+    assert call["api_version"] == "2024-02-01"
+
+
+def test_minimax_auto_endpoint(fake_litellm, cfg, monkeypatch):
+    # a MiniMax model with no explicit base falls back to the public endpoint
+    cfg.litellm_model = "minimax/MiniMax-M2"
+    monkeypatch.setenv("MINIMAX_API_KEY", "mm-key")
+    monkeypatch.delenv("HERMES_LLM_API_BASE", raising=False)
+    b = LiteLLMBackend(cfg)
+    b.complete_text("s", "u", role="critic")
+    call = fake_litellm.calls[-1]
+    assert call["model"] == "minimax/MiniMax-M2"
+    assert call["api_base"] == "https://api.minimax.io/v1"
+    assert call["api_key"] == "mm-key"
+
+
+def test_per_role_endpoint_binding(fake_litellm, cfg, monkeypatch):
+    # judge on Azure, critic on MiniMax — a genuine multi-provider panel
+    monkeypatch.setenv("HERMES_LLM_MODEL_JUDGE", "azure/judge-dep")
+    monkeypatch.setenv("HERMES_LLM_API_BASE_JUDGE", "https://acme.openai.azure.com")
+    monkeypatch.setenv("HERMES_LLM_MODEL_CRITIC", "minimax/MiniMax-M2")
+    monkeypatch.setenv("MINIMAX_API_KEY", "mm-key")
+    monkeypatch.delenv("HERMES_LLM_API_BASE", raising=False)
+    b = LiteLLMBackend(cfg)
+    b.complete_json("s", "u", role="judge")
+    assert fake_litellm.calls[-1]["api_base"] == "https://acme.openai.azure.com"
+    b.complete_json("s", "u", role="critic")
+    assert fake_litellm.calls[-1]["api_base"] == "https://api.minimax.io/v1"
+
+
+def test_no_endpoint_kwargs_when_unset(fake_litellm, cfg, monkeypatch):
+    for v in ("HERMES_LLM_API_BASE", "HERMES_LLM_API_KEY",
+              "HERMES_LLM_API_VERSION", "MINIMAX_API_KEY"):
+        monkeypatch.delenv(v, raising=False)
+    monkeypatch.setenv("HERMES_LLM_MODEL", "gpt-4o-mini")
+    LiteLLMBackend(cfg).complete_json("s", "u", role="reviewer")
+    call = fake_litellm.calls[-1]
+    assert "api_base" not in call and "api_key" not in call
+
+
 # --- binding (Problem 2) ---------------------------------------------------
 
 def test_binding_flags_multi_formula(cfg):

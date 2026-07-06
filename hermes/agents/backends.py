@@ -10,10 +10,15 @@ role)` (and `complete_text` for free-form generation).  Four implementations:
 
 * LiteLLMBackend — **the recommended LLM backend**.  Wraps `litellm.completion`
   so any provider (OpenAI, Anthropic, Gemini, Mistral, Groq, Ollama, vLLM,
-  Bedrock, Azure, …) is reachable through one interface.  Each agent role may
-  bind a *different* model, which makes the multi-reviewer panel and the
-  consensus layer a genuine multi-model vote rather than one model talking to
-  itself.  Set `HERMES_BACKEND=litellm` and per-role `HERMES_LLM_MODEL[_ROLE]`.
+  Bedrock, Azure OpenAI, MiniMax, DeepSeek, …) is reachable through one
+  interface.  Each agent role may bind a *different* model — and, via
+  `HERMES_LLM_API_BASE[_ROLE]` / `_API_KEY[_ROLE]` / `_API_VERSION[_ROLE]`, a
+  different *endpoint/provider* — which makes the multi-reviewer panel and the
+  consensus layer a genuine multi-provider vote rather than one model talking
+  to itself.  Set `HERMES_BACKEND=litellm` and per-role `HERMES_LLM_MODEL[_ROLE]`.
+  Azure: model=`azure/<deployment>` + `AZURE_API_BASE/KEY/VERSION` (or the
+  HERMES_* equivalents).  MiniMax: model=`minimax/MiniMax-M2` (native) or
+  `openai/<model>` with the MiniMax base — `MINIMAX_API_KEY` is auto-detected.
 
 * AnthropicBackend — direct Anthropic SDK backend (kept for parity).
 
@@ -117,6 +122,39 @@ class LiteLLMBackend:
             or "gpt-4o-mini"
 
     # ------------------------------------------------------------------
+    @staticmethod
+    def _role_env(name: str, role: str) -> str | None:
+        """Per-role override (HERMES_LLM_<NAME>_<ROLE>) then global fallback."""
+        return (os.environ.get(f"HERMES_LLM_{name}_{role.upper()}")
+                or os.environ.get(f"HERMES_LLM_{name}"))
+
+    def _endpoint_kwargs(self, role: str, model: str) -> dict[str, Any]:
+        """Resolve api_base / api_key / api_version for the target model.
+
+        Enables Azure (model="azure/<deployment>" + AZURE_API_* env, or explicit
+        HERMES_LLM_API_BASE/KEY/VERSION), MiniMax (native "minimax/…" or the
+        OpenAI-compatible endpoint), and any OpenAI-compatible gateway — bound
+        globally or *per role* so each agent may hit a different provider.
+        """
+        out: dict[str, Any] = {}
+        base = self._role_env("API_BASE", role)
+        key = self._role_env("API_KEY", role)
+        version = self._role_env("API_VERSION", role)
+        # convenience: a MiniMax model with no explicit endpoint falls back to
+        # the public MiniMax base + MINIMAX_API_KEY (OpenAI-compatible path).
+        if "minimax" in model.lower():
+            base = base or os.environ.get("MINIMAX_API_BASE",
+                                          "https://api.minimax.io/v1")
+            key = key or os.environ.get("MINIMAX_API_KEY")
+        if base:
+            out["api_base"] = base
+        if key:
+            out["api_key"] = key
+        if version:
+            out["api_version"] = version
+        return out
+
+    # ------------------------------------------------------------------
     def _complete(self, system: str, user: str, role: str,
                   json_mode: bool, temperature: float) -> str:
         model = self.model_for(role)
@@ -126,6 +164,7 @@ class LiteLLMBackend:
                          {"role": "user", "content": user}],
             "temperature": temperature,
             "max_tokens": int(os.environ.get("HERMES_LLM_MAX_TOKENS", "4096")),
+            **self._endpoint_kwargs(role, model),
         }
         if json_mode:
             # litellm normalizes this across providers that support it; with

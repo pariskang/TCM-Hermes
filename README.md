@@ -1,5 +1,7 @@
 # TCM-Hermes v5 — 模型自主治理的古籍规则生成系统
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pariskang/TCM-Hermes/blob/claude/project-code-review-4jkbyh/notebooks/TCM_Hermes_Colab.ipynb)
+
 > **Hermes 不再等待人工专家确认规则，而是通过「证据回源 + 对抗式质疑 + 一致性
 > 裁决 + 自动修复 + 发布分级」实现模型自主审核；最终合并规则只使用
 > Silver/Gold 初始规则，Rejected 规则永久保留但不得进入 Hermes Skill。**
@@ -7,6 +9,11 @@
 > 自主审核 ≠ 无审核。自主审核 = 多模型、多轮、多证据、多门控的自动化审核。
 >
 > No evidence, no rule. No source trace, no answer. No human review.
+
+> 🚀 **一键体验**：点上方 Colab 徽章打开
+> [`notebooks/TCM_Hermes_Colab.ipynb`](notebooks/TCM_Hermes_Colab.ipynb)，全功能演示
+> （检索 / 问答 / 溯源 / 安全筛查 / 工作台 / 评测 / 风险控制校准 / 疾病发现 +
+> ECharts / MCP / 多厂商后端），大多数单元用仓库自带产物即可运行，无需下载语料。
 
 Hermes 自动下载并解析伤寒金匮类古籍（[中醫笈成](https://jicheng.tw/)
 book-20180111），按完整目录分类法逐书逐章抽取 InitialRules，经五重模型自主
@@ -148,12 +155,22 @@ export HERMES_LLM_MODEL=gpt-4o-mini             # 默认模型
 export HERMES_LLM_MODEL_CRITIC=claude-opus-4-8  # 各角色可绑不同模型/厂商
 export HERMES_LLM_MODEL_JUDGE=gemini/gemini-1.5-pro
 python3 -m hermes review --books BOOK_SHL_SONGBEN
+
+# Azure OpenAI
+export HERMES_LLM_MODEL=azure/<部署名>
+export HERMES_LLM_API_BASE=https://<resource>.openai.azure.com
+export HERMES_LLM_API_KEY=<azure-key> HERMES_LLM_API_VERSION=2024-02-01
+
+# MiniMax（原生；MINIMAX_API_KEY 自动识别）
+export HERMES_LLM_MODEL=minimax/MiniMax-M2  MINIMAX_API_KEY=<minimax-key>
 ```
 
 `LiteLLMBackend` 用 `litellm.completion` 统一调用 OpenAI / Anthropic / Gemini /
-Mistral / Groq / DeepSeek / Ollama / vLLM / Azure / Bedrock 等；按 agent **角色**
-绑定不同模型，使共识成为真正的多模型投票。异常自动回落启发式引擎，离线测试不变。
-详见 [docs/LLM_BACKENDS.md](docs/LLM_BACKENDS.md)。
+Mistral / Groq / DeepSeek / Ollama / vLLM / **Azure OpenAI** / **MiniMax** /
+Bedrock 等；按 agent **角色**绑定不同模型，并可用 `HERMES_LLM_API_BASE[_ROLE]` /
+`_API_KEY[_ROLE]` / `_API_VERSION[_ROLE]` 按角色绑定不同**端点/厂商**（如 Azure
+裁决 + MiniMax 对抗 + OpenAI 抽取），使共识成为真正的多厂商投票。异常自动回落启
+发式引擎，离线测试不变。详见 [docs/LLM_BACKENDS.md](docs/LLM_BACKENDS.md)。
 
 ### 针对三个已知问题的强化
 
@@ -217,10 +234,10 @@ Agent 直接调 CLI（输出 JSON）。详见 [docs/INTEGRATIONS.md](docs/INTEGR
   分级门控加分布无关有限样本保证（精度 + 召回双向），并输出 ECE / reliability /
   选择性风险曲线；报告落盘 `data/reports/calibration_report_latest.md`，阈值落盘
   `data/eval/calibrated_gate.json`（`HERMES_CALIBRATED_GATE=1` 启用）。
-- `pytest tests/`：135 项测试覆盖协议不变量（证据子串、门控阈值、修复上限、
+- `pytest tests/`：139 项测试覆盖协议不变量（证据子串、门控阈值、修复上限、
   rejected 留档、合并仅用 silver/gold、Skill 输出契约、患者端安全拒绝、
   人审字段全仓扫描）+ litellm 后端/评审小组/绑定校验/四核心 agent LLM 接线与回落 + 疾病框架（乾癬→silver、
-  圆癣→rejected、药物网络中心性、时序、断点续跑）+ 骨质疏松/类风湿 Profile、Disease-Skill 编译与 Skill RAG 接入、MCP 工具分发 + 温病/湿疹 Profile、ECharts 可视化导出、真实 MCP 客户端↔stdio 服务器端到端握手 + 外科/温病真实语料构建与隔离、五层知识图谱/旭日/雷达/PRISMA 可视化与 PNG/SVG 导出 + 扁平/嵌套语料布局编目、下载断点续传、陈旧中间态清理 + 金标准数据集完整性、基准检测/门控校准回归阈值、十八反/十九畏/毒性/妊娠筛查与工作台 MCP 工具 + 精确二项 CDF/Clopper-Pearson 上界/ECE/选择性风险的统计正确性、风险控制阈值阶梯单调性、校准门控 opt-in 接入与默认行为不变。
+  圆癣→rejected、药物网络中心性、时序、断点续跑）+ 骨质疏松/类风湿 Profile、Disease-Skill 编译与 Skill RAG 接入、MCP 工具分发 + 温病/湿疹 Profile、ECharts 可视化导出、真实 MCP 客户端↔stdio 服务器端到端握手 + 外科/温病真实语料构建与隔离、五层知识图谱/旭日/雷达/PRISMA 可视化与 PNG/SVG 导出 + 扁平/嵌套语料布局编目、下载断点续传、陈旧中间态清理 + 金标准数据集完整性、基准检测/门控校准回归阈值、十八反/十九畏/毒性/妊娠筛查与工作台 MCP 工具 + 精确二项 CDF/Clopper-Pearson 上界/ECE/选择性风险的统计正确性、风险控制阈值阶梯单调性、校准门控 opt-in 接入与默认行为不变 + Azure/MiniMax 端点路由、按角色跨厂商绑定、端点变量缺省时不透传。
 
 ## 设计定位
 
