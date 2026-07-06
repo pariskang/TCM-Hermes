@@ -37,7 +37,8 @@ SYMPTOMS = [
     "身疼痛", "體痛", "骨節疼痛", "腰痛", "惡熱", "潮熱", "往來寒熱", "寒熱",
     "口渴", "渴", "消渴", "口苦", "咽乾", "咽痛", "咽中乾", "目眩", "眩冒", "頭眩",
     "鼻鳴", "乾嘔", "嘔吐", "嘔逆", "欲嘔", "喜嘔", "吐利", "噦", "乾噫食臭", "噫氣",
-    "下利", "自利", "便膿血", "大便硬", "大便難", "不大便", "燥屎", "腹滿", "腹痛",
+    "下利", "自利", "便膿血", "大便硬", "大便難", "不大便", "燥屎", "胃家實",
+    "腹滿", "腹痛",
     "腹中痛", "少腹滿", "少腹急結", "少腹硬滿", "心下滿", "心下痞", "心下痞硬", "心下急",
     "心下悸", "心動悸", "臍下悸", "心中懊憹", "心煩", "煩躁", "躁煩", "虛煩", "煩驚",
     "胸滿", "胸脅苦滿", "脅下滿", "脅下硬滿", "胸中窒", "胸痛", "脅痛", "心痛徹背",
@@ -300,18 +301,28 @@ FORMULA_PATTERN = re.compile(
 LIMITING_MARKERS = ["若", "不可", "反", "誤下", "誤汗", "誤治", "慎", "勿", "禁", "未可", "不得"]
 OVERGENERALIZATION_MARKERS = ["凡", "皆", "一切", "百病", "諸病", "無不"]
 
+# the prohibited object may be a therapy verb or a named formula
+# (不可發汗 / 不可更行桂枝湯 / 不可與麻黃湯)
 CONTRAINDICATION_PATTERN = re.compile(
-    r"(不可|不得|勿|禁|未可|慎不可|切不可)(更行|復|再|妄)?"
-    r"(發汗|汗|下|吐|攻|火|灸|刺|溫針|燒針|飲水|與|服)")
+    r"(不可|不得|勿|禁|未可|慎不可|切不可)(更行|復與|復|再|妄)?"
+    r"(發汗|汗|下|吐|攻|火|灸|刺|溫針|燒針|飲水|與|服|[一-鿿]{2,12}[湯散丸])")
 
+# 誤/反 mark a wrong treatment outright; a bare 若+verb is usually a
+# conditional enumeration (若吐、若下…), so 若 requires the pronoun 之
+# (若下之，必…).  汗(?!出)/下(?!利) keep symptoms 汗出/下利 from matching.
 MISTREATMENT_PATTERN = re.compile(
-    r"(誤|反|若)(發汗|汗|下|吐|攻|火劫|燒針|溫針)|(本不當|不當)(下|汗|吐)")
+    r"(誤|反)(發汗|汗(?!出)|下(?!利)|吐|攻|火劫|燒針|溫針)之?"
+    r"|若(發汗|汗|下|吐|攻|火劫|燒針|溫針)之"
+    r"|(本不當|不當)(下|汗|吐)之?")
 
 PROGNOSIS_PATTERN = re.compile(
     r"(必自愈|自愈|欲解|欲愈|必愈|愈|不治|難治|死|必死|可治|易愈|為欲解|解)$")
 
+# targeted forms (轉屬陽明…) plus the bare judgement forms of 傷寒論 4/5
+# (脈若靜者，為不傳；…為傳也)
 TRANSMISSION_PATTERN = re.compile(
-    r"(傳|轉屬|轉入|內陷|入)(陽明|少陽|太陰|少陰|厥陰|太陽|裏|腑|臟|血室)")
+    r"(傳|轉屬|轉入|內陷|入)(陽明|少陽|太陰|少陰|厥陰|太陽|裏|腑|臟|血室)"
+    r"|為不傳|為傳|再傳")
 
 # ---------------------------------------------------------------------------
 # Modern-disease mapping (古今病名映射, research workbench)
@@ -434,7 +445,15 @@ class _Lexicon:
         r"常|嘗|始|終|且|須|投|煎|啜|歠|飯|食|頓|溫|进|犹|猶|非|無|于|於|曰|云|謂|名|所謂)+")
 
     def _trim_formula(self, cand: str) -> str:
-        cand = self._BAD_FORMULA_PREFIX.sub("", cand)
+        # a verbatim canonical name or an herb-initial name (當歸四逆湯,
+        # 當歸散…) must never lose its head to the verb/particle stripper —
+        # 當/大/服… are also common name-initial characters
+        if cand in self.canonical_formulas:
+            return cand
+        if not hasattr(self, "_herb_heads"):
+            self._herb_heads = {h[:2] for h in self.herbs if len(h) >= 2}
+        if cand[:2] not in self._herb_heads:
+            cand = self._BAD_FORMULA_PREFIX.sub("", cand)
         if cand in self.canonical_formulas:
             return cand
         # derived names (桂枝加葛根湯 / 柴胡加桂枝湯…) must NOT collapse to the

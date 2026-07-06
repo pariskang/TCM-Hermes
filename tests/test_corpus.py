@@ -74,3 +74,104 @@ def test_segmenter_types(cfg):
     assert seg.classify_paragraph("一本作「脈浮緊」。校勘記。", "original", "X") \
         == "variant"
     assert seg.classify_paragraph("自序云云", "original", "自序") == "preface"
+
+
+# ---------------------------------------------------------------------------
+# public-archive flat layout (raw/<書名>/*.txt) — classified via 分類= metadata
+
+WAIKE_SAMPLE = """======外科發揮======
+
+<book>
+書名=外科發揮
+作者=薛己
+朝代=明
+分類=外科
+</book>
+
+=====卷一=====
+
+====腫瘍====
+
+瘡瘍腫痛，此毒氣凝滯也。
+"""
+
+
+def _write_flat_book(raw_dir, dir_name, text):
+    book_dir = raw_dir / dir_name
+    book_dir.mkdir(parents=True)
+    (book_dir / "index.txt").write_text(text, encoding="utf-8")
+
+
+def test_catalog_flat_layout_uses_metadata(cfg):
+    import json
+    from hermes.corpus.catalog import CatalogAgent
+    _write_flat_book(cfg.corpus_raw_dir, "傷寒論_宋本", SAMPLE)
+    result = CatalogAgent(cfg).build()
+    assert result["books"] == 1
+    assert result["subcategories"] == ["傷寒"]
+    books = json.loads((cfg.manifests_dir / "book_manifest.json")
+                       .read_text(encoding="utf-8"))
+    assert books[0]["category_path"] == ["傷寒金匱類", "傷寒"]
+    assert books[0]["book_title"] == "傷寒論(宋本)"
+
+
+def test_catalog_nested_layout_unchanged(cfg):
+    import json
+    from hermes.corpus.catalog import CatalogAgent
+    book_dir = cfg.corpus_raw_dir / "傷寒" / "書籍" / "傷寒論_宋本"
+    book_dir.mkdir(parents=True)
+    (book_dir / "index.txt").write_text(SAMPLE, encoding="utf-8")
+    result = CatalogAgent(cfg).build()
+    assert result["books"] == 1
+    books = json.loads((cfg.manifests_dir / "book_manifest.json")
+                       .read_text(encoding="utf-8"))
+    assert books[0]["category_path"] == ["傷寒金匱類", "傷寒"]
+
+
+def test_segmenter_flat_layout_and_category_filter(cfg):
+    import json
+    from hermes.corpus.segmenter import SegmenterAgent
+    _write_flat_book(cfg.corpus_raw_dir, "傷寒論_宋本", SAMPLE)
+    _write_flat_book(cfg.corpus_raw_dir, "外科發揮", WAIKE_SAMPLE)
+    stats = SegmenterAgent(cfg).run(
+        categories=["傷寒", "金匱", "傷寒 金匱", "醫案 傷寒 金匱"])
+    # the 外科 book is filtered out by its 分類= metadata
+    assert stats["books"] == 1
+    files = list(cfg.source_units_dir.glob("BOOK_*.jsonl"))
+    assert len(files) == 1
+    unit = json.loads(files[0].read_text(encoding="utf-8").splitlines()[0])
+    assert unit["category_path"] == ["傷寒金匱類", "傷寒"]
+
+
+def test_segmenter_full_run_drops_stale_source_units(cfg):
+    from hermes.corpus.segmenter import SegmenterAgent
+    _write_flat_book(cfg.corpus_raw_dir, "傷寒論_宋本", SAMPLE)
+    stale = cfg.source_units_dir / "BOOK_STALE.jsonl"
+    stale.parent.mkdir(parents=True, exist_ok=True)
+    stale.write_text("{}\n", encoding="utf-8")
+    SegmenterAgent(cfg).run()
+    assert not stale.exists()          # full run reconciles the store
+    assert list(cfg.source_units_dir.glob("BOOK_*.jsonl"))
+
+    stale.write_text("{}\n", encoding="utf-8")
+    SegmenterAgent(cfg).run(books=["傷寒論_宋本"])
+    assert stale.exists()              # partial (--books) run keeps others
+
+
+def test_download_416_means_already_complete(cfg, monkeypatch):
+    import urllib.error
+    import urllib.request
+    from hermes.corpus.downloader import DownloaderAgent
+    dest = cfg.data_dir / "downloads" / "book.7z"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(b"x" * 16)
+
+    def raise_416(req, timeout=0):
+        raise urllib.error.HTTPError(req.full_url, 416,
+                                     "Requested Range Not Satisfiable", None, None)
+
+    monkeypatch.setattr(urllib.request, "urlopen", raise_416)
+    out = DownloaderAgent(cfg).download(url="https://example.invalid/book.7z",
+                                        dest=dest)
+    assert out == dest
+    assert dest.read_bytes() == b"x" * 16

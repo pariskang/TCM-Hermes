@@ -31,6 +31,14 @@ class ReleaseGateAgent:
 
     def __init__(self, config: HermesConfig | None = None) -> None:
         self.config = config or HermesConfig()
+        # opt-in risk-controlled thresholds (HERMES_CALIBRATED_GATE=1 +
+        # `hermes calibrate`); default None ⇒ protocol constants, unchanged.
+        from ..metrics.calibration import load_calibrated_thresholds
+        cal = load_calibrated_thresholds(self.config) or {}
+        self.gold_min = cal.get("gold", self.config.gold_min_consensus)
+        self.silver_min = cal.get("silver", self.config.silver_min_consensus)
+        self.bronze_min = cal.get("bronze", self.config.bronze_min_consensus)
+        self.calibrated = bool(cal)
 
     def decide(self, rule: InitialRule) -> GateDecision:
         ar = rule.autonomous_review
@@ -67,34 +75,37 @@ class ReleaseGateAgent:
             order = ["bronze", "silver", "gold"]
             return level if order.index(level) <= order.index(ceiling) else ceiling
 
-        if (score >= cfg.gold_min_consensus and ar.critic_result == "pass"
+        if (score >= self.gold_min and ar.critic_result == "pass"
                 and not unsupported and not contamination
                 and ar.review_status in ("model_accepted", "model_repaired_accepted")):
             lvl = _capped("gold")
             return GateDecision(lvl, [
-                f"consensus {score:.2f} ≥ {cfg.gold_min_consensus}",
+                f"consensus {score:.2f} ≥ {self.gold_min:.3f}"
+                + ("（risk-controlled）" if self.calibrated else ""),
                 "critic pass，無未支持推理，無注文污染"]
                 + ([cap_reason] if lvl != "gold" else []))
 
         minor_ok = ar.critic_result in ("pass", "minor_issue") and (
             ar.critic_result == "pass" or ar.auto_repair_applied
             or ar.interpretive_uncertainty_marked)
-        if (score >= cfg.silver_min_consensus and minor_ok
+        if (score >= self.silver_min and minor_ok
                 and ar.review_status in ("model_accepted", "model_repaired_accepted")):
             lvl = _capped("silver")
             return GateDecision(lvl, [
-                f"consensus {score:.2f} ≥ {cfg.silver_min_consensus}",
+                f"consensus {score:.2f} ≥ {self.silver_min:.3f}"
+                + ("（risk-controlled）" if self.calibrated else ""),
                 f"critic {ar.critic_result}（已修復或已標記）"]
                 + ([cap_reason] if lvl != "silver" else []))
 
-        if score >= cfg.bronze_min_consensus and ar.critic_result != "fatal":
+        if score >= self.bronze_min and ar.critic_result != "fatal":
             if not ar.interpretive_uncertainty_marked and \
                     rule.interpretation_level == "original_text" and \
                     ar.critic_result != "pass":
                 reasons.append("解釋不確定性已自動標記")
                 ar.interpretive_uncertainty_marked = True
             return GateDecision("bronze", reasons + [
-                f"consensus {score:.2f} ≥ {cfg.bronze_min_consensus}",
+                f"consensus {score:.2f} ≥ {self.bronze_min:.3f}"
+                + ("（risk-controlled）" if self.calibrated else ""),
                 f"critic {ar.critic_result} ≠ fatal"])
 
         return GateDecision("rejected",

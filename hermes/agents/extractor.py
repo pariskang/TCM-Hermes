@@ -25,7 +25,7 @@ _FORMULA_ADVISORY = re.compile(
     rf"(?:宜|可與|與|當與|屬|可服|急與)((?:[一-鿿]{{1,12}})[{ '湯散丸飲煎膏丹' }])")
 _DISEASE_DEFINITION = re.compile(r"([一-鿿]{2,4})之為病[，,]?")
 _PULSE_PATTERN_RULE = re.compile(
-    r"(脈[一-鿿]{1,6}?)(?:者)?[，,]?(?:此)?(為|名曰|名為|是為)([一-鿿]{1,6})")
+    r"(脈[一-鿿]{1,6}?)(?:者)?[，,]?(?:此)?(名曰|名為|是為|為|名)([一-鿿]{1,6})")
 _FORMULA_BLOCK_HEAD = re.compile(r"^([一-鿿]{2,12}[湯散丸飲煎膏丹])方")
 _PROGNOSIS_TAIL = re.compile(
     r"(必自愈|自愈|欲解|欲愈|必愈|不治|難治|必死|死|可治|為欲解)[。]?$")
@@ -34,6 +34,8 @@ _SPECIAL_PULSE_SPLITS = {
     "陽浮而陰弱": ["陽浮", "陰弱"],
     "脈陰陽俱緊": ["脈陰陽俱緊"],
 }
+
+_SIX_MERIDIANS = ("太陽", "陽明", "少陽", "太陰", "少陰", "厥陰")
 
 CONF = {
     "formula_zhuzhi": 0.90, "formula_advisory": 0.80, "contraindication": 0.88,
@@ -56,9 +58,13 @@ class InitialRuleExtractorAgent:
     def extract(self, unit: SourceUnit) -> list[InitialRule]:
         if unit.text_type in ("preface", "toc"):
             return []
-        if getattr(self.backend, "kind", "heuristic") == "anthropic":
+        if getattr(self.backend, "kind", "heuristic") != "heuristic":
             try:
-                return self._extract_llm(unit)
+                rules = self._extract_llm(unit)
+                if rules:
+                    return rules
+                # empty LLM output falls through — the deterministic grammar
+                # engine is the recall floor
             except Exception:
                 pass  # deterministic fallback keeps the pipeline running
         return self._extract_heuristic(unit)
@@ -224,8 +230,15 @@ class InitialRuleExtractorAgent:
             m = TRANSMISSION_PATTERN.search(sent)
             if m:
                 span = self._span_until(sentences, i, max_sents=2)
-                if_cond = self._conditions_from(span[:span.find(m.group(0))]
-                                                if m.group(0) in span else span)
+                cond_text = span[:span.find(m.group(0))] \
+                    if m.group(0) in span else span
+                if_cond = self._conditions_from(cond_text)
+                if not any(if_cond.values()):
+                    # transmission clauses often carry only the source stage
+                    # (本太陽初得病時…因轉屬陽明也) — recover it verbatim
+                    src = [s for s in _SIX_MERIDIANS if s in cond_text]
+                    if src:
+                        if_cond["disease"] = src[:1]
                 if any(if_cond.values()):
                     rules.append(self._base_rule(
                         unit, "transmission_rule", span, if_cond,
@@ -250,7 +263,7 @@ class InitialRuleExtractorAgent:
             # 8) 脈證: 脈X者，為Y
             m = _PULSE_PATTERN_RULE.search(sent)
             if m and "之為病" not in sent:
-                pulse_term, label = m.group(1), m.group(3)
+                pulse_term, label = m.group(1), m.group(3).rstrip("也矣焉耳")
                 span = sent
                 rules.append(self._base_rule(
                     unit, "pulse_pattern_rule", span,

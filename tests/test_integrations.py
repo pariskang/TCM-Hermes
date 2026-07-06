@@ -104,3 +104,47 @@ def test_mcp_server_builds_with_fake_mcp(cfg, monkeypatch):
     # the registered callable dispatches and returns JSON text
     out = registered["hermes_list_diseases"]({})
     assert "银屑病" in out
+
+
+# --- workbench + safety tools (v5.1 additions) ------------------------------
+
+def test_tool_registry_includes_workbench_tools():
+    names = {t["name"] for t in HERMES_TOOLS}
+    assert {"hermes_prescription_safety", "hermes_physician_match",
+            "hermes_physician_differentiate", "hermes_patient_explain",
+            "hermes_research_mine"} <= names
+    assert len(HERMES_TOOLS) == 13
+
+
+def test_prescription_safety_tool(cfg):
+    out = run_tool("hermes_prescription_safety",
+                   {"herbs": "甘草,甘遂,海藻"}, cfg)
+    assert out["risk_level"] == "high"
+    assert {p["rule"] for p in out["incompatible_pairs"]} \
+        >= {"甘草 × 甘遂", "甘草 × 海藻"}
+
+
+def test_patient_explain_tool_refuses_prescription(cfg):
+    out = run_tool("hermes_patient_explain", {"text": "请给我开桂枝汤的剂量"}, cfg)
+    assert out["allowed"] is False
+    assert out["refusal_reason"] == "prescription_request"
+
+
+def test_physician_differentiate_tool(cfg):
+    err = run_tool("hermes_physician_differentiate", {"formulas": ["桂枝湯"]}, cfg)
+    assert "error" in err
+    out = run_tool("hermes_physician_differentiate",
+                   {"formulas": "桂枝湯,麻黃湯"}, cfg)
+    assert out["formulas"] == ["桂枝湯", "麻黃湯"]
+
+
+def test_physician_match_tool_shape(cfg):
+    out = run_tool("hermes_physician_match",
+                   {"text": "恶寒发热，无汗，身疼痛，脉浮紧"}, cfg)
+    assert "candidates" in out and "disclaimer" in out
+
+
+def test_research_mine_tool(cfg):
+    out = run_tool("hermes_research_mine", {"topic": "胸痹"}, cfg)
+    assert out["topic"] == "胸痹"
+    assert "evidence_chain" in out

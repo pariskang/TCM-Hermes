@@ -14,7 +14,7 @@ from ..config import HermesConfig
 from ..knowledge.lexicon import LEXICON
 from ..schemas import InitialRule, SourceUnit
 from . import prompts
-from .backends import HeuristicBackend
+from .backends import BackendError, HeuristicBackend
 
 _SEVERITY_ORDER = {"pass": 0, "minor_issue": 1, "major_issue": 2, "fatal": 3}
 
@@ -47,7 +47,7 @@ class AdversarialCriticAgent:
         self.backend = backend or HeuristicBackend()
 
     def critique(self, rule: InitialRule, unit: SourceUnit | None) -> CriticReview:
-        if getattr(self.backend, "kind", "heuristic") == "anthropic":
+        if getattr(self.backend, "kind", "heuristic") != "heuristic":
             try:
                 return self._critique_llm(rule, unit)
             except Exception:
@@ -168,6 +168,10 @@ class AdversarialCriticAgent:
                              ensure_ascii=False)
         out = self.backend.complete_json(prompts.ADVERSARIAL_CRITIC_PROMPT, payload,
                                          role="critic")
+        if "critic_result" not in out:
+            # malformed model output — raise so critique() falls back to the
+            # deterministic critic instead of inventing a severity
+            raise BackendError("critic output missing critic_result")
         res = out.get("critic_result", "minor_issue")
         if res not in _SEVERITY_ORDER:
             res = "minor_issue"

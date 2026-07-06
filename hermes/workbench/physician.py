@@ -111,6 +111,7 @@ class DoctorAssistantAgent:
         ranked = ranked[:top]
         for c in ranked:
             c.pop("_agg", None)
+            c["herb_safety"] = self._herb_safety(c["formula"])
 
         result = {
             "query": {"symptoms": sorted(q_sym), "pulse": sorted(q_pulse),
@@ -125,6 +126,17 @@ class DoctorAssistantAgent:
             "disclaimer": self.safety.wrap_physician_answer("").strip(),
         }
         return result
+
+    @staticmethod
+    def _herb_safety(formula: str) -> dict | None:
+        """十八反/十九畏/毒性/妊娠筛查 for a candidate formula's composition."""
+        from ..knowledge.incompatibility import formula_safety
+        report = formula_safety(formula)
+        if report is None or report["risk_level"] == "none":
+            return None
+        return {k: report[k] for k in
+                ("incompatible_pairs", "toxic_herbs", "pregnancy_cautions",
+                 "risk_level", "disclaimer")}
 
     def _contraindications_for(self, formula: str) -> list[dict]:
         out = []

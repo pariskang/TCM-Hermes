@@ -84,6 +84,40 @@ def cmd_metrics(cfg: HermesConfig, args) -> None:
     _print(QualityMetrics(cfg).compute(book_ids=args.books or None))
 
 
+def cmd_calibrate(cfg: HermesConfig, args) -> None:
+    from .metrics.calibration import run_calibration
+    targets = None
+    if args.targets:
+        targets = []
+        for spec in args.targets:            # tier=precision:recall
+            tier, pr = spec.split("=")
+            p, r = pr.split(":")
+            targets.append((tier.strip(), float(p), float(r)))
+    payload = run_calibration(cfg, delta=args.delta, targets=targets,
+                              dataset=args.dataset)
+    cal = payload["calibration"]
+    _print({"confidence": cal["confidence"],
+            "n_calibration": cal["n_calibration"],
+            "ece": cal["ece"].get("ece"),
+            "calibrated_thresholds": cal["calibrated_thresholds"],
+            "tiers": cal["tiers"],
+            "fixed_threshold_baseline": payload["fixed_threshold_baseline"]})
+    print("report →", cfg.reports_dir / "calibration_report_latest.md")
+    print("thresholds →", cfg.data_dir / "eval" / "calibrated_gate.json",
+          "(enable with HERMES_CALIBRATED_GATE=1)")
+
+
+def cmd_benchmark(cfg: HermesConfig, args) -> None:
+    from .metrics.benchmark import GoldBenchmark
+    bench = GoldBenchmark(cfg, dataset=args.dataset)
+    results = bench.run()
+    path = bench.report(results)
+    if not args.details:
+        results.pop("misses", None)
+    _print(results)
+    print("report →", path)
+
+
 def cmd_pipeline(cfg: HermesConfig, args) -> None:
     """catalog → segment → review → themes → merge → skills → report."""
     from .corpus.catalog import CatalogAgent
@@ -93,10 +127,18 @@ def cmd_pipeline(cfg: HermesConfig, args) -> None:
     from .agents.merger import RuleMergerAgent
     from .agents.skills import SkillBuilderAgent
     from .metrics.report import AutonomousReviewReporter
+    from .protocol import SUBCATEGORY_MAP
+
+    # default scope: the 傷寒金匱 categories (raw dir names + normalized
+    # subcategories), so a flat public-archive extraction is narrowed to the
+    # books whose 分類= metadata belongs to 傷寒金匱類 instead of reviewing
+    # (and rejecting) the whole 800-book archive
+    categories = args.categories or sorted(
+        set(SUBCATEGORY_MAP) | set(SUBCATEGORY_MAP.values()))
 
     print("[1/7] catalog");  _print(CatalogAgent(cfg).build())
     print("[2/7] segment");  _print(SegmenterAgent(cfg).run(
-        books=args.books or None, categories=args.categories or None))
+        books=args.books or None, categories=categories))
     print("[3/7] autonomous review")
     summary = AutonomousReviewOrchestrator(cfg).process_corpus(
         book_ids=[f"BOOK_{b}" if not b.startswith("BOOK_") else b
@@ -340,6 +382,25 @@ def build_parser() -> argparse.ArgumentParser:
     sp = sub.add_parser("metrics", help="compute quality metrics")
     sp.add_argument("--books", nargs="*", default=None)
     sp.set_defaults(func=cmd_metrics)
+
+    sp = sub.add_parser("benchmark",
+                        help="run the gold-set extraction benchmark")
+    sp.add_argument("--dataset", default=None,
+                    help="path to a gold JSONL (default data/eval/shanghan_gold.jsonl)")
+    sp.add_argument("--details", action="store_true",
+                    help="include per-clause misses in stdout")
+    sp.set_defaults(func=cmd_benchmark)
+
+    sp = sub.add_parser("calibrate",
+                        help="risk-controlled release-gate thresholds + ECE")
+    sp.add_argument("--dataset", default=None,
+                    help="calibration set (default data/eval/shanghan_gold.jsonl)")
+    sp.add_argument("--delta", type=float, default=0.05,
+                    help="1−δ confidence for the guarantee (default 0.05 ⇒ 95%%)")
+    sp.add_argument("--targets", nargs="*", default=None,
+                    help="per-tier precision:recall, e.g. gold=0.95:0.55 "
+                         "silver=0.90:0.80 bronze=0.80:0.95")
+    sp.set_defaults(func=cmd_calibrate)
 
     sp = sub.add_parser("pipeline", help="full pipeline: catalog→…→report")
     sp.add_argument("--books", nargs="*", default=None)

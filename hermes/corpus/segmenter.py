@@ -16,7 +16,6 @@ import re
 
 from ..config import HermesConfig
 from ..knowledge.entities import EntityExtractorAgent
-from ..protocol import category_path
 from ..schemas import SourceUnit
 from ..utils import write_jsonl
 from .catalog import CatalogAgent
@@ -72,7 +71,7 @@ class SegmenterAgent:
                 ttype = self.classify_paragraph(text, record["book_type"], sec.title)
                 units.append(SourceUnit(
                     source_unit_id=f"SU_{record['book_short']}_{su_seq:06d}",
-                    category_path=category_path(raw_category),
+                    category_path=record["category_path"],
                     book_id=record["book_id"],
                     book_title=record["book_title"],
                     book_type=record["book_type"],
@@ -92,16 +91,29 @@ class SegmenterAgent:
         """Segment the whole corpus (or a filtered subset) to JSONL stores."""
         out_dir = self.config.source_units_dir
         stats = {"books": 0, "source_units": 0, "by_type": {}}
+        written: set[str] = set()
         for raw_category, book_dir in self.catalog.iter_book_dirs():
-            if categories and raw_category not in categories:
+            # nested layout: the category directory filters before parsing;
+            # flat layout (raw_category == "") filters on the parsed metadata
+            if categories and raw_category and raw_category not in categories:
                 continue
             if books and book_dir.name not in books:
                 continue
             record, units = self.segment_book(raw_category, book_dir)
+            if categories and not raw_category and \
+                    not {record["raw_category"], record["subcategory"]} & set(categories):
+                continue
             write_jsonl(out_dir / f"{record['book_id']}.jsonl",
                         (u.to_dict() for u in units))
+            written.add(record["book_id"])
             stats["books"] += 1
             stats["source_units"] += len(units)
             for u in units:
                 stats["by_type"][u.text_type] = stats["by_type"].get(u.text_type, 0) + 1
+        if books is None:
+            # full-corpus run: source units from books no longer in scope are
+            # stale (previous corpus/import) and would pollute the review
+            for path in out_dir.glob("BOOK_*.jsonl"):
+                if path.stem not in written:
+                    path.unlink()
         return stats

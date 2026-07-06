@@ -123,6 +123,49 @@ def disease_viz(disease: str, min_edge_count: int = 1, top_n: int = 25,
     return VisualizationExporter(_cfg(config)).export(disease, params)
 
 
+def prescription_safety(herbs: list[str] | str,
+                        config: HermesConfig | None = None) -> dict:
+    """十八反/十九畏/毒性/妊娠禁忌 screening for an herb list."""
+    from ..knowledge.incompatibility import check_safety
+    if isinstance(herbs, str):
+        herbs = [h.strip() for h in herbs.replace("，", ",").split(",") if h.strip()]
+    return check_safety(herbs)
+
+
+def physician_match(text: str = "", symptoms: list[str] | None = None,
+                    pulse: list[str] | None = None, top: int = 6,
+                    config: HermesConfig | None = None) -> dict:
+    """方證匹配 — clinical findings → ranked classical formula patterns."""
+    from ..workbench.physician import DoctorAssistantAgent
+    return DoctorAssistantAgent(_cfg(config)).match_pattern(
+        symptoms=symptoms, pulse=pulse, free_text=text, top=top)
+
+
+def physician_differentiate(formulas: list[str] | str,
+                            config: HermesConfig | None = None) -> dict:
+    """經典方鑒別 — shared vs distinct indications of two formulas."""
+    from ..workbench.physician import DoctorAssistantAgent
+    if isinstance(formulas, str):
+        formulas = [f.strip() for f in formulas.replace("，", ",").split(",")
+                    if f.strip()]
+    if len(formulas) < 2:
+        return {"error": "need two formulas to differentiate"}
+    return DoctorAssistantAgent(_cfg(config)).differentiate(
+        formulas[0], formulas[1])
+
+
+def patient_explain(text: str, config: HermesConfig | None = None) -> dict:
+    """患者教育（安全門控：拒絕診斷/處方/劑量請求，紅旗症狀轉急診提示）。"""
+    from ..workbench.patient import PatientEducationAgent
+    return PatientEducationAgent(_cfg(config)).explain(text)
+
+
+def research_mine(topic: str, config: HermesConfig | None = None) -> dict:
+    """主題挖掘 — 古籍語料中某主題的條文/實體/共現與假設。"""
+    from ..workbench.researcher import ResearchWorkbench
+    return ResearchWorkbench(_cfg(config)).mine_topic(topic)
+
+
 def list_diseases(config: HermesConfig | None = None) -> dict:
     """List available disease profiles."""
     from ..disease.profiles import DISEASE_PROFILES
@@ -168,6 +211,40 @@ HERMES_TOOLS: list[dict] = [
      "schema": {"type": "object", "properties": {
          "herbs": {"type": "array", "items": {"type": "string"}},
          "top": {"type": "integer"}}, "required": ["herbs"]}},
+    {"name": "hermes_prescription_safety",
+     "handler": prescription_safety,
+     "description": "处方安全筛查：十八反/十九畏配伍禁忌、毒性药材、妊娠禁忌"
+                    "（确定性规则表，仅供执业医师参考）。",
+     "schema": {"type": "object", "properties": {
+         "herbs": {"type": "array", "items": {"type": "string"}}},
+         "required": ["herbs"]}},
+    {"name": "hermes_physician_match",
+     "handler": physician_match,
+     "description": "医师工作台·方证匹配：症状/脉象/四诊描述 → 经典方证候选"
+                    "（含证据链、禁忌提醒、药物安全筛查与免责声明）。",
+     "schema": {"type": "object", "properties": {
+         "text": {"type": "string"},
+         "symptoms": {"type": "array", "items": {"type": "string"}},
+         "pulse": {"type": "array", "items": {"type": "string"}},
+         "top": {"type": "integer"}}}},
+    {"name": "hermes_physician_differentiate",
+     "handler": physician_differentiate,
+     "description": "医师工作台·经典方鉴别：两首方剂的共有/独有方证要点对比。",
+     "schema": {"type": "object", "properties": {
+         "formulas": {"type": "array", "items": {"type": "string"},
+                      "minItems": 2}}, "required": ["formulas"]}},
+    {"name": "hermes_patient_explain",
+     "handler": patient_explain,
+     "description": "患者教育（安全门控）：解释中医术语与概念；拒绝诊断/处方/"
+                    "剂量请求，红旗症状直接转急诊提示。",
+     "schema": {"type": "object", "properties": {"text": {"type": "string"}},
+                "required": ["text"]}},
+    {"name": "hermes_research_mine",
+     "handler": research_mine,
+     "description": "科研工作台·主题挖掘：某主题在古籍语料中的条文、实体频次、"
+                    "共现与研究假设（输出证据链）。",
+     "schema": {"type": "object", "properties": {"topic": {"type": "string"}},
+                "required": ["topic"]}},
     {"name": "hermes_list_diseases",
      "handler": list_diseases,
      "description": "列出可用的疾病 Profile（银屑病/骨质疏松/类风湿…）。",

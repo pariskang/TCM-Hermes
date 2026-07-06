@@ -15,7 +15,7 @@ from ..config import HermesConfig
 from ..schemas import InitialRule, SourceUnit
 from ..utils import clamp
 from . import prompts
-from .backends import HeuristicBackend
+from .backends import BackendError, HeuristicBackend
 
 _CONCLUSION_KEYS_VERBATIM = ("formula", "prohibition", "mistreatment",
                              "consequence", "prognosis", "transmission",
@@ -62,7 +62,7 @@ class RuleReviewerAgent:
         self.backend = backend or HeuristicBackend()
 
     def review(self, rule: InitialRule, unit: SourceUnit | None) -> SemanticReview:
-        if getattr(self.backend, "kind", "heuristic") == "anthropic":
+        if getattr(self.backend, "kind", "heuristic") != "heuristic":
             try:
                 return self._review_llm(rule, unit)
             except Exception:
@@ -151,6 +151,10 @@ class RuleReviewerAgent:
                              ensure_ascii=False)
         out = self.backend.complete_json(prompts.RULE_REVIEWER_PROMPT, payload,
                                          role="reviewer")
+        if "semantic_review_result" not in out and "suggested_confidence" not in out:
+            # malformed model output — raise so review() falls back to the
+            # deterministic reviewer instead of judging on defaults
+            raise BackendError("reviewer output missing semantic review fields")
         return SemanticReview(
             semantic_review_result=out.get("semantic_review_result", "warn"),
             unsupported_inference_detected=bool(out.get("unsupported_inference_detected")),

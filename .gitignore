@@ -32,3 +32,6 @@ data/disease_corpus/
 # the distilled outputs (summary/network/temporal/relations/viz) + compiled
 # Disease-Skills are kept and are what the repo demonstrates
 data/disease/*/candidates.jsonl
+
+# calibration: keep the reference thresholds + report, drop the verbose dump
+data/eval/calibration_full.json

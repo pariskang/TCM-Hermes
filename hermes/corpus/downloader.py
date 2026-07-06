@@ -12,6 +12,7 @@ provenance of every byte of evidence is auditable.
 from __future__ import annotations
 
 import shutil
+import urllib.error
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -40,11 +41,17 @@ class DownloaderAgent:
                 if existing:
                     req.add_header("Range", f"bytes={existing}-")
                 with urllib.request.urlopen(req, timeout=120) as resp:
-                    total = resp.headers.get("Content-Length")
                     mode = "ab" if existing and resp.status == 206 else "wb"
                     with open(dest, mode) as f:
                         shutil.copyfileobj(resp, f)
                 return dest
+            except urllib.error.HTTPError as exc:
+                if exc.code == 416 and dest.exists():
+                    # requested range starts at EOF — the file is already
+                    # fully downloaded; a resume request must not fail it
+                    return dest
+                if attempt == max_retries - 1:
+                    raise
             except Exception:
                 if attempt == max_retries - 1:
                     raise
